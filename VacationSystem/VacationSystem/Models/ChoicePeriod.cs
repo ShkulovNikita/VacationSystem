@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
 
 namespace VacationSystem.Models
@@ -13,5 +10,9 @@ namespace VacationSystem.Models
 
         [Required]
         public DateTime EndDate { get; set; }
+
+        [Required, MaxLength(50)]
+        public string DepartmentId { get; set; }
+        public Department Department { get; set; }
     }
 }

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace VacationSystem.Models
 {
@@ -17,5 +13,13 @@ namespace VacationSystem.Models
         // количество сотрудников определенной должности,
         // которые должны находиться одновременно на рабочем месте
         public int PeopleNumber { get; set; }
+
+        [Required, MaxLength(50)]
+        public string PositionId { get; set; }
+        public Position Position { get; set; }
+
+        [Required, MaxLength(50)]
+        public string DepartmentId { get; set; }
+        public Department Department { get; set; }
     }
 }
