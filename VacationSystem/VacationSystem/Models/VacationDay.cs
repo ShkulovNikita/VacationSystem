@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace VacationSystem.Models
@@ -25,5 +22,12 @@ namespace VacationSystem.Models
 
         [Required]
         public bool Paid { get; set; }
+
+        public int VacationTypeId { get; set; }
+        public VacationType VacationType { get; set; }
+
+        [Required, MaxLength(50)]
+        public string EmployeeId { get; set; }
+        public Employee Employee { get; set; }
     }
 }

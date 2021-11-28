@@ -13,5 +13,13 @@ namespace VacationSystem.Models
         public List<ForbiddenPeriod> ForbiddenPeriods { get; set; } = new List<ForbiddenPeriod>();
 
         public List<ChoicePeriod> ChoicePeriods { get; set; } = new List<ChoicePeriod>();
+
+        public List<EmployeeRule> EmployeeRules { get; set; } = new List<EmployeeRule>();
+
+        public List<VisibilityForDepartment> VisibilityForDepartments { get; set; } = new List<VisibilityForDepartment>();
+
+        public List<HeadStyle> HeadStyles { get; set; } = new List<HeadStyle>();
+
+        public List<VisibilityForEmployee> VisibilityForEmployees { get; set; } = new List<VisibilityForEmployee>();
     }
 }

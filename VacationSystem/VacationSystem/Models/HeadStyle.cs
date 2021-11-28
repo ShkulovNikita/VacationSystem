@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
 
 namespace VacationSystem.Models
@@ -12,6 +10,17 @@ namespace VacationSystem.Models
     /// </summary>
     public class HeadStyle
     {
+        public DateTime StyleSetDate { get; set; }
 
+        public int ManagementStyleId { get; set; }
+        public ManagementStyle ManagementStyle { get; set; }
+
+        [Required, MaxLength(50)]
+        public string EmployeeId { get; set; }
+        public Employee Employee { get; set; }
+
+        [Required, MaxLength(50)]
+        public string DepartmentId { get; set; }
+        public Department Department { get; set; }
     }
 }

@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace VacationSystem.Models
@@ -12,5 +9,7 @@ namespace VacationSystem.Models
 
         [Required, MaxLength(100)]
         public string Name { get; set; }
+
+        public List<SetVacation> SetVacations { get; set; } = new List<SetVacation>();
     }
 }
