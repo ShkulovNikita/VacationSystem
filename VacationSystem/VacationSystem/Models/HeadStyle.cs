@@ -1,6 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace VacationSystem.Models
 {
@@ -8,6 +8,8 @@ namespace VacationSystem.Models
     /// стиль управления конкретного руководителя
     /// в конкретном отделении
     /// </summary>
+    
+    [Table("heads_styles")]
     public class HeadStyle
     {
         public DateTime StyleSetDate { get; set; }

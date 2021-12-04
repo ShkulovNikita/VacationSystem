@@ -1,12 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace VacationSystem.Models
 {
     /// <summary>
     /// уже установленный отпуск
     /// </summary>
+    
+    [Table("set_vacations")]
     public class SetVacation
     {
         public int Id { get; set; }

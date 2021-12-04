@@ -20,6 +20,11 @@ namespace VacationSystem.Controllers
 
         public IActionResult Index()
         {
+            using (ApplicationContext db = new ApplicationContext())
+            {
+                db.Employees.Add(new Employee { Id = "I'm an employee" });
+                db.SaveChanges();
+            }
             return View();
         }
 

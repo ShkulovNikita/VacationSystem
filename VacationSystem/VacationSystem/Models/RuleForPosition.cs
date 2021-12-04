@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace VacationSystem.Models
 {
@@ -6,6 +7,8 @@ namespace VacationSystem.Models
     /// Правила, устанавливаемые на должности
     /// сотрудников в отделениях
     /// </summary>
+    
+    [Table("rules_for_positions")]
     public class RuleForPosition
     {
         public int Id { get; set; }

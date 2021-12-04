@@ -1,7 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace VacationSystem.Models
 {
+    [Table("employees_in_rules")]
     public class EmployeeInRule
     {
         public int EmployeeRuleId { get; set; }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace VacationSystem.Models
 {
@@ -7,6 +8,8 @@ namespace VacationSystem.Models
     /// периоды, в течение которых сотрудникам 
     /// отделения запрещено брать отпуска
     /// </summary>
+    
+    [Table("forbidden_periods")]
     public class ForbiddenPeriod
     {
         public int Id { get; set; }

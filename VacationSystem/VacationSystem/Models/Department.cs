@@ -1,8 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace VacationSystem.Models
 {
+    [Table("departments")]
     public class Department
     {
         [Key, Required, MaxLength(50)]

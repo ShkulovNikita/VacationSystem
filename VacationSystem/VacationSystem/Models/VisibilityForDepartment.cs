@@ -1,11 +1,13 @@
-﻿using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace VacationSystem.Models
 {
     /// <summary>
     /// Видимость отпусков других людей
     /// </summary>
+    
+    [Table("visibility_for_departments")]
     public class VisibilityForDepartment
     {
         public int Id { get; set; }

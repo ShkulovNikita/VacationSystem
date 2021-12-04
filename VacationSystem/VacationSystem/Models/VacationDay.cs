@@ -1,5 +1,5 @@
-﻿using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace VacationSystem.Models
 {
@@ -7,6 +7,8 @@ namespace VacationSystem.Models
     /// дни отпуска, имеющиеся в распоряжении
     /// сотрудника
     /// </summary>
+
+    [Table("vacation_days")]
     public class VacationDay
     {
         public int Id { get; set; }

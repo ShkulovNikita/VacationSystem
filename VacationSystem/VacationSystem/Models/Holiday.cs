@@ -1,14 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace VacationSystem.Models
 {
     /// <summary>
     /// Праздники, устанавливаемые календарем
     /// </summary>
+    
+    [Table("holidays")]
     public class Holiday
     {
         public int Id { get; set; }

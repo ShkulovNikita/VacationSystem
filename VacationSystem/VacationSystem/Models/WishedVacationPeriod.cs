@@ -1,11 +1,14 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace VacationSystem.Models
 {
     /// <summary>
     /// желаемый сотрудником период отпуска
     /// </summary>
+    
+    [Table("wished_vacation_periods")]
     public class WishedVacationPeriod
     {
         public int Id { get; set; }

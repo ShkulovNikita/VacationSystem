@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace VacationSystem.Models
 {
@@ -6,6 +7,8 @@ namespace VacationSystem.Models
     /// видимость отпусков одного сотрудника 
     /// другому сотруднику
     /// </summary>
+    
+    [Table("visibility_for_employees")]
     public class VisibilityForEmployee
     {
         public int Id { get; set; }
