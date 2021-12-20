@@ -24,5 +24,7 @@ namespace VacationSystem.Models
         // конец периода выходных дней
         [Required]
         public DateTime EndDate { get; set; }
+
+        public Holiday() { }
     }
 }

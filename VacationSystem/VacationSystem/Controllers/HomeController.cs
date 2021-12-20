@@ -6,6 +6,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using VacationSystem.Models;
+using VacationSystem.Classes;
 
 namespace VacationSystem.Controllers
 {
@@ -20,11 +21,13 @@ namespace VacationSystem.Controllers
 
         public IActionResult Index()
         {
+            Connector.GetCalendar();
             using (ApplicationContext db = new ApplicationContext())
             {
                 db.Employees.Add(new Employee { Id = "I'm an employee" });
                 db.SaveChanges();
             }
+            
             return View();
         }
 
