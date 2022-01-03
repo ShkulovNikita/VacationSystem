@@ -21,6 +21,8 @@ namespace VacationSystem.Controllers
 
         public IActionResult Index()
         {
+            Connector.GetPositionsList();
+            Connector.GetDepartmentsList();
             Connector.GetEmployeeList("1");
             Connector.GetEmployee("1");
             Connector.GetDepartment("1");

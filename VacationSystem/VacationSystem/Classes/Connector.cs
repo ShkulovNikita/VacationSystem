@@ -76,7 +76,7 @@ namespace VacationSystem.Classes
         {
             string emp = ReadReply("emp" + id);
             EmployeeParsed employee = (EmployeeParsed)Parse(Parser.ParseEmployee, emp);
-            if (emp != null)
+            if (employee != null)
                 return employee;
             else
                 return null;
@@ -87,7 +87,7 @@ namespace VacationSystem.Classes
         {
             string dep = ReadReply("dep" + id);
             DepartmentParsed department = (DepartmentParsed)Parse(Parser.ParseDepartment, dep);
-            if (dep != null)
+            if (department != null)
                 return department;
             else
                 return null;
@@ -98,7 +98,29 @@ namespace VacationSystem.Classes
         {
             string emps = ReadReply("emp_list" + id);
             List<EmployeeBrief> list = (List<EmployeeBrief>)Parse(Parser.ParseEmployeeList, emps);
-            if (emps != null)
+            if (list != null)
+                return list;
+            else
+                return null;
+        }
+
+        // получение списка должностей
+        static public List<PositionInfo> GetPositionsList()
+        {
+            string positions = ReadReply("pos_list");
+            List<PositionInfo> list = (List<PositionInfo>)Parse(Parser.ParsePositionsList, positions);
+            if (list != null)
+                return list;
+            else
+                return null;
+        }
+
+        // получение списка отделений
+        static public List<DepartmentInfo> GetDepartmentsList()
+        {
+            string departments = ReadReply("dep_list");
+            List<DepartmentInfo> list = (List<DepartmentInfo>)Parse(Parser.ParseDepartmentsList, departments);
+            if (list != null)
                 return list;
             else
                 return null;

@@ -100,5 +100,66 @@ namespace VacationSystem.Classes
                 return null;
             }
         }
+
+        static public List<PositionInfo> ParsePositionsList(string json)
+        {
+            try
+            {
+                PositionsList data = JsonSerializer.Deserialize<PositionsList>(json);
+
+                // получение списка должностей из ответа
+                List<PositionInfo> list = new List<PositionInfo>();
+
+                foreach(PositionInfo position in data.Positions)
+                {
+                    list.Add(new PositionInfo
+                    {
+                        Id = position.Id,
+                        Name = position.Name
+                    });
+                }
+
+                if (list.Count > 0)
+                    return list;
+                else
+                    return null;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                return null;
+            }
+        }
+
+        static public List<DepartmentInfo> ParseDepartmentsList(string json)
+        {
+            try
+            {
+                DepartmentsList data = JsonSerializer.Deserialize<DepartmentsList>(json);
+
+                // получение списка отделений из ответа
+                List<DepartmentInfo> list = new List<DepartmentInfo>();
+
+                foreach(DepartmentInfo dep in data.Departments)
+                {
+                    list.Add(new DepartmentInfo
+                    {
+                        Id = dep.Id,
+                        Name = dep.Name,
+                        Head = dep.Head
+                    });
+                }
+
+                if (list.Count > 0)
+                    return list;
+                else
+                    return null;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                return null;
+            }
+        }
     }
 }

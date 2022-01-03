@@ -10,6 +10,9 @@ namespace VacationSystem.Models
         [Key, Required, MaxLength(50)]
         public string Id { get; set; }
 
+        [Required, MaxLength(150)]
+        public string Name { get; set; }
+
         public List<RuleForPosition> RuleForPositions { get; set; } = new List<RuleForPosition>();
     }
 }
