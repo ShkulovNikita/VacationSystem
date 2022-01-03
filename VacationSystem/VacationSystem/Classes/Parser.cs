@@ -69,5 +69,36 @@ namespace VacationSystem.Classes
                 return null;
             }
         }
+
+        static public List<EmployeeBrief> ParseEmployeeList(string json)
+        {
+            try
+            {
+                EmployeeList data = JsonSerializer.Deserialize<EmployeeList>(json);
+
+                // получение списка сотрудников из ответа
+                List<EmployeeBrief> list = new List<EmployeeBrief>();
+
+                foreach (EmployeeBrief emp in data.Employees)
+                {
+                    list.Add(new EmployeeBrief
+                    {
+                        Id = emp.Id,
+                        Position = emp.Position,
+                        Head = emp.Head
+                    });
+                }
+
+                if (list.Count > 0)
+                    return list;
+                else
+                    return null;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                return null;
+            }
+        }
     }
 }

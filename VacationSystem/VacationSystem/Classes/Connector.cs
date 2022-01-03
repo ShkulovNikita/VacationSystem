@@ -6,6 +6,10 @@ using System.IO;
 
 namespace VacationSystem.Classes
 {
+    /// <summary>
+    /// класс для обеспечения соединения с API ТПУ
+    /// и получения данных из API
+    /// </summary>
     public class Connector
     {
         // постоянная часть ссылки на API
@@ -85,6 +89,17 @@ namespace VacationSystem.Classes
             DepartmentParsed department = (DepartmentParsed)Parse(Parser.ParseDepartment, dep);
             if (dep != null)
                 return department;
+            else
+                return null;
+        }
+
+        // получение списка сотрудников отделения
+        static public List<EmployeeBrief> GetEmployeeList(string id)
+        {
+            string emps = ReadReply("emp_list" + id);
+            List<EmployeeBrief> list = (List<EmployeeBrief>)Parse(Parser.ParseEmployeeList, emps);
+            if (emps != null)
+                return list;
             else
                 return null;
         }
