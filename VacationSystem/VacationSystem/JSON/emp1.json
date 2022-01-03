@@ -1,0 +1,19 @@
+{
+	"Id": "emp_id",
+	"FirstName": "Иван",
+	"MiddleName": "Иванович",
+	"LastName": "Иванов",
+	"Birthdate": "12-05-1982",
+	"Departments": [
+		{
+			"Id": "dep_id_1",
+			"HeadOfDepartment": false,
+			"Position": "position_id"
+		},
+		{
+			"Id": "dep_id_2",
+			"HeadOfDepartment": false,
+			"Position": "position_id"
+		}
+	]
+}

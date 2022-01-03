@@ -21,6 +21,7 @@ namespace VacationSystem.Controllers
 
         public IActionResult Index()
         {
+            //Connector.GetEmployee("1");
             Connector.GetCalendar();
             using (ApplicationContext db = new ApplicationContext())
             {

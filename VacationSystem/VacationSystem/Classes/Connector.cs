@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using VacationSystem.Models;
+using VacationSystem.Models.Parsering;
 using System.IO;
 
 namespace VacationSystem.Classes
@@ -12,29 +11,71 @@ namespace VacationSystem.Classes
         // постоянная часть ссылки на API
         private const string Url = "JSON/";
 
-        static public List<Holiday> GetCalendar()
+        // чтение нужного файла с данными
+        static public string ReadReply(string data)
         {
-            string path = Url + "calendar.json";
-            string calendar = "";
+            string path = Url + data;
+
+            path += ".json";
+
+            string text = "";
 
             try
             {
                 using (StreamReader sr = new StreamReader(path, System.Text.Encoding.UTF8))
-                {
-                    calendar = sr.ReadToEnd();
-                }
+                    text = sr.ReadToEnd();
+
+                if (text != "")
+                    return text;
+                else
+                    return null;
             }
             catch (Exception e)
             {
                 Console.WriteLine(e.Message);
+                return null;
             }
+        }
 
-            if (calendar != "")
+        // парсинг заданных данных
+        static public object Parse(Func<string, object> parsingMethod, string data)
+        {
+            if (data != null)
             {
-                Parser.ParseHolidays(calendar);
+                try
+                {
+                    return parsingMethod(data);
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                    return null;
+                }
             }
+            else
+                return null;
+        }
 
-            return null;
+        // получение производственного календаря
+        static public List<Holiday> GetCalendar(string year="")
+        {   
+            string calendar = ReadReply("calendar" + year);
+            List<Holiday> holidays = (List<Holiday>)Parse(Parser.ParseHolidays, calendar);
+            if (holidays != null)
+                return holidays;
+            else
+                return null;
+        }
+
+        // получение информации о конкретном сотруднике
+        static public EmployeeParsed GetEmployee(string id)
+        {
+            string emp = ReadReply("emp" + id);
+            EmployeeParsed employee = (EmployeeParsed)Parse(Parser.ParseEmployee, emp);
+            if (emp != null)
+                return employee;
+            else
+                return null;
         }
     }
 }
