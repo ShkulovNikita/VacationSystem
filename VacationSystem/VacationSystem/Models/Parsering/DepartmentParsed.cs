@@ -6,8 +6,8 @@
 
         public string Id { get; set; }
 
-        public bool HeadOfDepartment { get; set; }
+        public string Name { get; set; }
 
-        public string Position { get; set; }
+        public string Head { get; set; }
     }
 }

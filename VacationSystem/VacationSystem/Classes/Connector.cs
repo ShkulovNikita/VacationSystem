@@ -77,5 +77,16 @@ namespace VacationSystem.Classes
             else
                 return null;
         }
+
+        // получение информации о конкретном отделении
+        static public DepartmentParsed GetDepartment(string id)
+        {
+            string dep = ReadReply("dep" + id);
+            DepartmentParsed department = (DepartmentParsed)Parse(Parser.ParseDepartment, dep);
+            if (dep != null)
+                return department;
+            else
+                return null;
+        }
     }
 }

@@ -14,6 +14,6 @@
 
         public string Birthdate { get; set; }
         
-        public DepartmentParsed[] Departments { get; set; }
+        public DepartmentEmployeeParsed[] Departments { get; set; }
     }
 }

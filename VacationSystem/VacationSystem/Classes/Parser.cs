@@ -42,12 +42,25 @@ namespace VacationSystem.Classes
             }
         }
 
-        static public EmployeeParsed ParseEmployee (string json) 
+        static public EmployeeParsed ParseEmployee(string json) 
         {
             try
             {
                 EmployeeParsed data = JsonSerializer.Deserialize<EmployeeParsed>(json);
+                return data;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                return null;
+            }
+        }
 
+        static public DepartmentParsed ParseDepartment(string json)
+        {
+            try
+            {
+                DepartmentParsed data = JsonSerializer.Deserialize<DepartmentParsed>(json);
                 return data;
             }
             catch (Exception e)
