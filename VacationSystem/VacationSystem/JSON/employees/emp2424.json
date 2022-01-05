@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2424",
+	"FirstName": "Людмила",
+	"MiddleName": "Владимировна",
+	"LastName": "Никитина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "53",
+			"HeadOfDepartment": false,
+			"Position": "28"
+		}
+	]
+}

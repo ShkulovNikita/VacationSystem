@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1893",
+	"FirstName": "Иван",
+	"MiddleName": "Андреевич",
+	"LastName": "Розаев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "19",
+			"HeadOfDepartment": false,
+			"Position": "28"
+		}
+	]
+}

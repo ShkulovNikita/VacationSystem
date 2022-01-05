@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2588",
+	"FirstName": "Екатерина",
+	"MiddleName": "Алексеевна",
+	"LastName": "Пустовалова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "16",
+			"HeadOfDepartment": false,
+			"Position": "53"
+		}
+	]
+}

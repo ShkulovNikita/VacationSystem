@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1301",
+	"FirstName": "Николай",
+	"MiddleName": "Анатольевич",
+	"LastName": "Алексеев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "205",
+			"HeadOfDepartment": false,
+			"Position": "36"
+		}
+	]
+}

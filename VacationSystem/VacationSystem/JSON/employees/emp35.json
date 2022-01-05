@@ -1,0 +1,19 @@
+﻿{
+	"Id": "35",
+	"FirstName": "Александр",
+	"MiddleName": "Сергеевич",
+	"LastName": "Фадеев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "25",
+			"HeadOfDepartment": false,
+			"Position": "17"
+		},
+		{
+			"Id": "26",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

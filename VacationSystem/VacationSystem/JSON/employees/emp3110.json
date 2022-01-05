@@ -1,0 +1,19 @@
+﻿{
+	"Id": "3110",
+	"FirstName": "Наталия",
+	"MiddleName": "Геннадьевна",
+	"LastName": "Максимова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "14",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		},
+		{
+			"Id": "2",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

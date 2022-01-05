@@ -1,0 +1,14 @@
+﻿{
+	"Id": "217",
+	"FirstName": "Татьяна",
+	"MiddleName": "Викторовна",
+	"LastName": "Смолина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "95",
+			"HeadOfDepartment": false,
+			"Position": "20"
+		}
+	]
+}

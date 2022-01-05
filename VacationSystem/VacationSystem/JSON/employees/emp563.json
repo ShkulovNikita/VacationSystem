@@ -1,0 +1,19 @@
+﻿{
+	"Id": "563",
+	"FirstName": "Александр",
+	"MiddleName": "Ефремович",
+	"LastName": "Гольдштейн",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "57",
+			"HeadOfDepartment": false,
+			"Position": "2"
+		},
+		{
+			"Id": "57",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

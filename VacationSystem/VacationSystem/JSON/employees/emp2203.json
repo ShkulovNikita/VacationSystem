@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2203",
+	"FirstName": "Наталья",
+	"MiddleName": "Юрьевна",
+	"LastName": "Вьюжанина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "13",
+			"HeadOfDepartment": false,
+			"Position": "38"
+		}
+	]
+}

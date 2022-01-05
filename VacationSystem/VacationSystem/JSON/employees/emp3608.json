@@ -1,0 +1,24 @@
+﻿{
+	"Id": "3608",
+	"FirstName": "Елена",
+	"MiddleName": "Александровна",
+	"LastName": "Шелихова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "192",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		},
+		{
+			"Id": "211",
+			"HeadOfDepartment": false,
+			"Position": "286"
+		},
+		{
+			"Id": "42",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

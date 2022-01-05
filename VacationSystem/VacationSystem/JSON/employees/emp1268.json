@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1268",
+	"FirstName": "Алексей",
+	"MiddleName": "Валериевич",
+	"LastName": "Разин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "15",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

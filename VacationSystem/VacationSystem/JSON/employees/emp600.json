@@ -1,0 +1,14 @@
+﻿{
+	"Id": "600",
+	"FirstName": "Татьяна",
+	"MiddleName": "Александровна",
+	"LastName": "Гладкова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "26",
+			"HeadOfDepartment": false,
+			"Position": "7"
+		}
+	]
+}

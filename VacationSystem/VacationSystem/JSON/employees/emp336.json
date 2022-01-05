@@ -1,0 +1,14 @@
+﻿{
+	"Id": "336",
+	"FirstName": "Марина",
+	"MiddleName": "Петровна",
+	"LastName": "Казаченко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "2",
+			"HeadOfDepartment": false,
+			"Position": "0"
+		}
+	]
+}

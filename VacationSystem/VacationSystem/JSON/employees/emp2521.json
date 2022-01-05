@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2521",
+	"FirstName": "Максим",
+	"MiddleName": "Михайлович",
+	"LastName": "Мясоедов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "103",
+			"HeadOfDepartment": false,
+			"Position": "75"
+		}
+	]
+}

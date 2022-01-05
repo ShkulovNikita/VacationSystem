@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2550",
+	"FirstName": "Дарья",
+	"MiddleName": "Сергеевна",
+	"LastName": "Бай",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "55",
+			"HeadOfDepartment": false,
+			"Position": "10"
+		}
+	]
+}

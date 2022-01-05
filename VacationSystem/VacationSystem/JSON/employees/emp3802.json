@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3802",
+	"FirstName": "Тлеуберген",
+	"MiddleName": "",
+	"LastName": "Булембаев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "32",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		}
+	]
+}

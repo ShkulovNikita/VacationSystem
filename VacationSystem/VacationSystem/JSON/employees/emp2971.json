@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2971",
+	"FirstName": "Светлана",
+	"MiddleName": "Валентиновна",
+	"LastName": "Тимошенко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "46",
+			"HeadOfDepartment": false,
+			"Position": "53"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3189",
+	"FirstName": "Владимир",
+	"MiddleName": "Сергеевич",
+	"LastName": "Фарков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "66",
+			"HeadOfDepartment": false,
+			"Position": "53"
+		}
+	]
+}

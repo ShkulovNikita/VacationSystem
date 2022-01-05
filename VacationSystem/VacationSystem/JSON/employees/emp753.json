@@ -1,0 +1,14 @@
+﻿{
+	"Id": "753",
+	"FirstName": "Виталий",
+	"MiddleName": "Федорович",
+	"LastName": "Петушенко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "62",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

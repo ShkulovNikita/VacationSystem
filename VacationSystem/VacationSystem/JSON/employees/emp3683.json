@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3683",
+	"FirstName": "Юлия",
+	"MiddleName": "Олеговна",
+	"LastName": "Абалмасова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "139",
+			"HeadOfDepartment": false,
+			"Position": "9"
+		}
+	]
+}

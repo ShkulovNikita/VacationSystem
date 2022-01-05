@@ -1,0 +1,14 @@
+﻿{
+	"Id": "200",
+	"FirstName": "Борис",
+	"MiddleName": "Владимирович",
+	"LastName": "Акимов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "15",
+			"HeadOfDepartment": false,
+			"Position": "2"
+		}
+	]
+}

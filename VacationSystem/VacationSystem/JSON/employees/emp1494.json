@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1494",
+	"FirstName": "Татьяна",
+	"MiddleName": "Владимировна",
+	"LastName": "Бузоверова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "72",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

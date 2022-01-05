@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2161",
+	"FirstName": "Алексей",
+	"MiddleName": "Николаевич",
+	"LastName": "Пестряков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "51",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

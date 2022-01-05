@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3145",
+	"FirstName": "Олдрих",
+	"MiddleName": "",
+	"LastName": "Стары",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "57",
+			"HeadOfDepartment": false,
+			"Position": "56"
+		}
+	]
+}

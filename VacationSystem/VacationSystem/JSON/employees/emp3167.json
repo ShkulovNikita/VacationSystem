@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3167",
+	"FirstName": "Виктория",
+	"MiddleName": "Викторовна",
+	"LastName": "Литовченко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "82",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

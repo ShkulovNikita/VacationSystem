@@ -1,0 +1,14 @@
+﻿{
+	"Id": "730",
+	"FirstName": "Ирина",
+	"MiddleName": "Валерьевна",
+	"LastName": "Сметанина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "135",
+			"HeadOfDepartment": false,
+			"Position": "11"
+		}
+	]
+}

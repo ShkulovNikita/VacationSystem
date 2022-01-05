@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2558",
+	"FirstName": "Илья",
+	"MiddleName": "Олегович",
+	"LastName": "Налесник",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "4",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

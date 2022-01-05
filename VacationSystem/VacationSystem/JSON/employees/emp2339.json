@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2339",
+	"FirstName": "Марианна",
+	"MiddleName": "Валериановна",
+	"LastName": "Чубик",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "4",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

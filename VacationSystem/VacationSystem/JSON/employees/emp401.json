@@ -1,0 +1,14 @@
+﻿{
+	"Id": "401",
+	"FirstName": "Иван",
+	"MiddleName": "Игнатьевич",
+	"LastName": "Жерин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "17",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

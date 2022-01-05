@@ -1,0 +1,14 @@
+﻿{
+	"Id": "139",
+	"FirstName": "Дмитрий",
+	"MiddleName": "Владимирович",
+	"LastName": "Елегечев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "75",
+			"HeadOfDepartment": false,
+			"Position": "49"
+		}
+	]
+}

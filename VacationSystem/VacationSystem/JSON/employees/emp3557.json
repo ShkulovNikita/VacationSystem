@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3557",
+	"FirstName": "Илья",
+	"MiddleName": "Игоревич",
+	"LastName": "Чурочкин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "127",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		}
+	]
+}

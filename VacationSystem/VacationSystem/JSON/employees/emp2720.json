@@ -1,0 +1,19 @@
+﻿{
+	"Id": "2720",
+	"FirstName": "Алдар",
+	"MiddleName": "Николаевич",
+	"LastName": "Санжиев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "4",
+			"HeadOfDepartment": false,
+			"Position": "26"
+		},
+		{
+			"Id": "4",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

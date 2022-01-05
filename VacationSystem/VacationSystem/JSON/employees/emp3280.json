@@ -1,0 +1,19 @@
+﻿{
+	"Id": "3280",
+	"FirstName": "Сергей",
+	"MiddleName": "Анатольевич",
+	"LastName": "Янов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "91",
+			"HeadOfDepartment": false,
+			"Position": "268"
+		},
+		{
+			"Id": "91",
+			"HeadOfDepartment": false,
+			"Position": "269"
+		}
+	]
+}

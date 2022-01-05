@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1661",
+	"FirstName": "Николай",
+	"MiddleName": "Геннадьевич",
+	"LastName": "Голещихин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "59",
+			"HeadOfDepartment": false,
+			"Position": "37"
+		}
+	]
+}

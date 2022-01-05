@@ -1,0 +1,14 @@
+﻿{
+	"Id": "460",
+	"FirstName": "Владимир",
+	"MiddleName": "Ильич",
+	"LastName": "Беспалов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "39",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

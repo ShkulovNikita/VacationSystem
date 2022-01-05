@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2155",
+	"FirstName": "Иван",
+	"MiddleName": "Иосифович",
+	"LastName": "Перелыгин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "59",
+			"HeadOfDepartment": false,
+			"Position": "37"
+		}
+	]
+}

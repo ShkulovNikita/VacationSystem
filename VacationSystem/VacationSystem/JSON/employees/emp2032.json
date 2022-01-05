@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2032",
+	"FirstName": "Любовь",
+	"MiddleName": "Владимировна",
+	"LastName": "Гребенщикова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "123",
+			"HeadOfDepartment": false,
+			"Position": "21"
+		}
+	]
+}

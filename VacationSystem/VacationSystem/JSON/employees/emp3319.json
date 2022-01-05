@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3319",
+	"FirstName": "Ольга",
+	"MiddleName": "Леонидовна",
+	"LastName": "Татаринова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "77",
+			"HeadOfDepartment": false,
+			"Position": "206"
+		}
+	]
+}

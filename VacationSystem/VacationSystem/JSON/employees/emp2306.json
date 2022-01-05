@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2306",
+	"FirstName": "Андрей",
+	"MiddleName": "Юрьевич",
+	"LastName": "Трифонов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "52",
+			"HeadOfDepartment": false,
+			"Position": "43"
+		}
+	]
+}

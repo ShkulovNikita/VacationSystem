@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2000",
+	"FirstName": "Елена",
+	"MiddleName": "Геннадьевна",
+	"LastName": "Казакова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "176",
+			"HeadOfDepartment": false,
+			"Position": "14"
+		}
+	]
+}

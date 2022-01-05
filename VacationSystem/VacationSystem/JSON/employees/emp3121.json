@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3121",
+	"FirstName": "Юрий",
+	"MiddleName": "Викторович",
+	"LastName": "Рогов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "75",
+			"HeadOfDepartment": false,
+			"Position": "260"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3741",
+	"FirstName": "Александр",
+	"MiddleName": "Александрович",
+	"LastName": "Каверин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "231",
+			"HeadOfDepartment": false,
+			"Position": "214"
+		}
+	]
+}

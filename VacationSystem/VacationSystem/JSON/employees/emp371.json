@@ -1,0 +1,14 @@
+﻿{
+	"Id": "371",
+	"FirstName": "Евгений",
+	"MiddleName": "Юрьевич",
+	"LastName": "Барабошкин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "127",
+			"HeadOfDepartment": false,
+			"Position": "11"
+		}
+	]
+}

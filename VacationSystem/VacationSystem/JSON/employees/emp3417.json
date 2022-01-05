@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3417",
+	"FirstName": "Натзина Джуанита",
+	"MiddleName": "",
+	"LastName": "Самуел Рагланд Франсис",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "26",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		}
+	]
+}

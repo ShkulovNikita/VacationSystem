@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3434",
+	"FirstName": "Елена",
+	"MiddleName": "Владимировна",
+	"LastName": "Жуйкова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "79",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1916",
+	"FirstName": "Анастасия",
+	"MiddleName": "Николаевна",
+	"LastName": "Недоступ",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "10",
+			"HeadOfDepartment": false,
+			"Position": "16"
+		}
+	]
+}

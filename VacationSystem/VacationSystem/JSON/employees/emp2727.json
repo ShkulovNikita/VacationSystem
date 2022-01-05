@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2727",
+	"FirstName": "Ольга",
+	"MiddleName": "Александровна",
+	"LastName": "Пискунова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "14",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

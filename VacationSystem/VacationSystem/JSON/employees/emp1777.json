@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1777",
+	"FirstName": "Петр",
+	"MiddleName": "Иванович",
+	"LastName": "Коновалов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "59",
+			"HeadOfDepartment": false,
+			"Position": "211"
+		}
+	]
+}

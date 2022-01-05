@@ -1,0 +1,14 @@
+﻿{
+	"Id": "465",
+	"FirstName": "Виталий",
+	"MiddleName": "Евгеньевич",
+	"LastName": "Галкин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "29",
+			"HeadOfDepartment": false,
+			"Position": "11"
+		}
+	]
+}

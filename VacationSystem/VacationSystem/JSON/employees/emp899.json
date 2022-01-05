@@ -1,0 +1,14 @@
+﻿{
+	"Id": "899",
+	"FirstName": "Алексей",
+	"MiddleName": "Карпович",
+	"LastName": "Мазуров",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "1",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

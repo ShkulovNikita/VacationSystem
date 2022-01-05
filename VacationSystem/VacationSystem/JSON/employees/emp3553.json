@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3553",
+	"FirstName": "Раиса",
+	"MiddleName": "Николаевна",
+	"LastName": "Смирнова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "23",
+			"HeadOfDepartment": false,
+			"Position": "15"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2634",
+	"FirstName": "Елена",
+	"MiddleName": "Юрьевна",
+	"LastName": "Климюк",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "107",
+			"HeadOfDepartment": false,
+			"Position": "73"
+		}
+	]
+}

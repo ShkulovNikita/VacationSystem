@@ -1,0 +1,14 @@
+﻿{
+	"Id": "944",
+	"FirstName": "Лидия",
+	"MiddleName": "Ивановна",
+	"LastName": "Москвитина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "172",
+			"HeadOfDepartment": false,
+			"Position": "11"
+		}
+	]
+}

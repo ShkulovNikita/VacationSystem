@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3775",
+	"FirstName": "Сергей",
+	"MiddleName": "Николаевич",
+	"LastName": "Чепкасов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "226",
+			"HeadOfDepartment": false,
+			"Position": "64"
+		}
+	]
+}

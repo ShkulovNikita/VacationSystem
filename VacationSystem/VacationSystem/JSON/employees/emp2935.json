@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2935",
+	"FirstName": "Николай",
+	"MiddleName": "Николаевич",
+	"LastName": "Горшков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "168",
+			"HeadOfDepartment": false,
+			"Position": "25"
+		}
+	]
+}

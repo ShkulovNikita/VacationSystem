@@ -1,0 +1,14 @@
+﻿{
+	"Id": "175",
+	"FirstName": "Анастасия",
+	"MiddleName": "Александровна",
+	"LastName": "Синельник",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "55",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

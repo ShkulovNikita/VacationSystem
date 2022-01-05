@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2841",
+	"FirstName": "Анастасия",
+	"MiddleName": "Андреевна",
+	"LastName": "Косторева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "39",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

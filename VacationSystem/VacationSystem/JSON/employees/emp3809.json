@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3809",
+	"FirstName": "Дамир",
+	"MiddleName": "Равильевич",
+	"LastName": "Абдулвалиев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "215",
+			"HeadOfDepartment": false,
+			"Position": "212"
+		}
+	]
+}

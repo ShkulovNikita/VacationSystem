@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2370",
+	"FirstName": "Вячеслав",
+	"MiddleName": "Николаевич",
+	"LastName": "Свинцов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "169",
+			"HeadOfDepartment": false,
+			"Position": "68"
+		}
+	]
+}

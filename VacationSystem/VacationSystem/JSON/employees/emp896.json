@@ -1,0 +1,19 @@
+﻿{
+	"Id": "896",
+	"FirstName": "Марина",
+	"MiddleName": "Сергеевна",
+	"LastName": "Полонская",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "71",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		},
+		{
+			"Id": "71",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		}
+	]
+}

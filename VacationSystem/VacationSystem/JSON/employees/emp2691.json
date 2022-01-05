@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2691",
+	"FirstName": "Антон",
+	"MiddleName": "Владимирович",
+	"LastName": "Киевец",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "249",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		}
+	]
+}

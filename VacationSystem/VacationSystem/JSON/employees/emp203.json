@@ -1,0 +1,14 @@
+﻿{
+	"Id": "203",
+	"FirstName": "Елена",
+	"MiddleName": "Андреевна",
+	"LastName": "Мамаева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "36",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2054",
+	"FirstName": "Павел",
+	"MiddleName": "Алексеевич",
+	"LastName": "Костюнин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "68",
+			"HeadOfDepartment": false,
+			"Position": "81"
+		}
+	]
+}

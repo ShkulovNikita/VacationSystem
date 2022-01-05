@@ -1,0 +1,14 @@
+﻿{
+	"Id": "502",
+	"FirstName": "Алексей",
+	"MiddleName": "Васильевич",
+	"LastName": "Ездаков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "110",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

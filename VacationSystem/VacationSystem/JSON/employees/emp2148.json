@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2148",
+	"FirstName": "Нина",
+	"MiddleName": "Александровна",
+	"LastName": "Марчукова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "17",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

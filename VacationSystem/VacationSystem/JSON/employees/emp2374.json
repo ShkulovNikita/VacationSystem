@@ -1,0 +1,19 @@
+﻿{
+	"Id": "2374",
+	"FirstName": "Ольга",
+	"MiddleName": "Валерьевна",
+	"LastName": "Селиваникова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "17",
+			"HeadOfDepartment": false,
+			"Position": "103"
+		},
+		{
+			"Id": "17",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		}
+	]
+}

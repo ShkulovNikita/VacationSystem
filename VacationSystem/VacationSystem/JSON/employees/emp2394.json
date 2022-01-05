@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2394",
+	"FirstName": "Сергей",
+	"MiddleName": "Владимирович",
+	"LastName": "Чахлов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "193",
+			"HeadOfDepartment": false,
+			"Position": "2"
+		}
+	]
+}

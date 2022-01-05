@@ -1,0 +1,14 @@
+﻿{
+	"Id": "530",
+	"FirstName": "Елена",
+	"MiddleName": "Владимировна",
+	"LastName": "Гетало",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "70",
+			"HeadOfDepartment": false,
+			"Position": "38"
+		}
+	]
+}

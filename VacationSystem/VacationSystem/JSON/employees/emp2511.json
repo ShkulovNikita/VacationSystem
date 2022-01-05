@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2511",
+	"FirstName": "Елена",
+	"MiddleName": "Вячеславовна",
+	"LastName": "Кандыкова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "111",
+			"HeadOfDepartment": false,
+			"Position": "69"
+		}
+	]
+}

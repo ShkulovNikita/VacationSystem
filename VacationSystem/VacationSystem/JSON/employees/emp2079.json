@@ -1,0 +1,19 @@
+﻿{
+	"Id": "2079",
+	"FirstName": "Виктор",
+	"MiddleName": "Владимирович",
+	"LastName": "Беспалов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "39",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		},
+		{
+			"Id": "29",
+			"HeadOfDepartment": false,
+			"Position": "16"
+		}
+	]
+}

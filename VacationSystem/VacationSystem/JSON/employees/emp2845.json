@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2845",
+	"FirstName": "Алишер",
+	"MiddleName": "Бахрамжонович",
+	"LastName": "Аскаров",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "249",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		}
+	]
+}

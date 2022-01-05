@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1540",
+	"FirstName": "Валерия",
+	"MiddleName": "Владимировна",
+	"LastName": "Татарникова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "14",
+			"HeadOfDepartment": false,
+			"Position": "28"
+		}
+	]
+}

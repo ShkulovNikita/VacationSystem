@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2020",
+	"FirstName": "Татьяна",
+	"MiddleName": "Петровна",
+	"LastName": "Чернышова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "174",
+			"HeadOfDepartment": false,
+			"Position": "20"
+		}
+	]
+}

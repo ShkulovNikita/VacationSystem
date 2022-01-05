@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2878",
+	"FirstName": "Алексей",
+	"MiddleName": "Валерьевич",
+	"LastName": "Жуков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "85",
+			"HeadOfDepartment": false,
+			"Position": "191"
+		}
+	]
+}

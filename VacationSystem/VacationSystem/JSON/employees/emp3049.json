@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3049",
+	"FirstName": "Лариса",
+	"MiddleName": "Леонидовна",
+	"LastName": "Лапко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "115",
+			"HeadOfDepartment": false,
+			"Position": "258"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "204",
+	"FirstName": "Антон",
+	"MiddleName": "Викторович",
+	"LastName": "Корчмит",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "15",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

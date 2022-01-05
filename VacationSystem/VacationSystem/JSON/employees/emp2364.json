@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2364",
+	"FirstName": "Тамара",
+	"MiddleName": "Васильевна",
+	"LastName": "Коваль",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "26",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

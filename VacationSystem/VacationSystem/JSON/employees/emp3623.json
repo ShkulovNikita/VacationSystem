@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3623",
+	"FirstName": "Анна",
+	"MiddleName": "Николаевна",
+	"LastName": "Соломоненко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "36",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

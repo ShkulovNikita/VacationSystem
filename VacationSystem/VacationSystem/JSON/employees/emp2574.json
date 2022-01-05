@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2574",
+	"FirstName": "Татьяна",
+	"MiddleName": "Александровна",
+	"LastName": "Игуменова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "44",
+			"HeadOfDepartment": false,
+			"Position": "240"
+		}
+	]
+}

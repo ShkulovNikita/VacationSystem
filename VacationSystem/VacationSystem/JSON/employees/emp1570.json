@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1570",
+	"FirstName": "Антон",
+	"MiddleName": "Анатольевич",
+	"LastName": "Дронов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "12",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		}
+	]
+}

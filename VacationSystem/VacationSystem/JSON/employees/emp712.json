@@ -1,0 +1,14 @@
+﻿{
+	"Id": "712",
+	"FirstName": "Вероника",
+	"MiddleName": "Андреевна",
+	"LastName": "Колчанова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "19",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+﻿{
+	"Id": "1930",
+	"FirstName": "Юрий",
+	"MiddleName": "Александрович",
+	"LastName": "Чурсин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "236",
+			"HeadOfDepartment": false,
+			"Position": "2"
+		},
+		{
+			"Id": "2",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

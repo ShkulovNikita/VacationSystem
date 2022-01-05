@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3199",
+	"FirstName": "Лариса",
+	"MiddleName": "Николаевна",
+	"LastName": "Налейкина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "148",
+			"HeadOfDepartment": false,
+			"Position": "14"
+		}
+	]
+}

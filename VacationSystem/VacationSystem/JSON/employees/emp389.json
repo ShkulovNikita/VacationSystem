@@ -1,0 +1,14 @@
+﻿{
+	"Id": "389",
+	"FirstName": "Надежда",
+	"MiddleName": "Петровна",
+	"LastName": "Ермолаева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "116",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

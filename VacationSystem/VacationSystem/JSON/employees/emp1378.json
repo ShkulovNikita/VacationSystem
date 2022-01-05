@@ -1,0 +1,19 @@
+﻿{
+	"Id": "1378",
+	"FirstName": "Валентина",
+	"MiddleName": "Николаевна",
+	"LastName": "Глотова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "212",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		},
+		{
+			"Id": "46",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

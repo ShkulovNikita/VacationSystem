@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3654",
+	"FirstName": "Павел",
+	"MiddleName": "Сергеевич",
+	"LastName": "Камбур",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "102",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

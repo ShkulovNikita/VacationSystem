@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3641",
+	"FirstName": "Мею",
+	"MiddleName": "",
+	"LastName": "Гай",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "221",
+			"HeadOfDepartment": false,
+			"Position": "24"
+		}
+	]
+}

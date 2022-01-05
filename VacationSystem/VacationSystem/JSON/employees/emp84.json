@@ -1,0 +1,19 @@
+﻿{
+	"Id": "84",
+	"FirstName": "Александр",
+	"MiddleName": "Леонидович",
+	"LastName": "Лисок",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "52",
+			"HeadOfDepartment": false,
+			"Position": "2"
+		},
+		{
+			"Id": "53",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

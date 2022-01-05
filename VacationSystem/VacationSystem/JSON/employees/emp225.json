@@ -1,0 +1,14 @@
+﻿{
+	"Id": "225",
+	"FirstName": "Диана",
+	"MiddleName": "Сергеевна",
+	"LastName": "Довгань",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "97",
+			"HeadOfDepartment": false,
+			"Position": "65"
+		}
+	]
+}

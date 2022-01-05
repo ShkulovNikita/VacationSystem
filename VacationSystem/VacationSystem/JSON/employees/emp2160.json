@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2160",
+	"FirstName": "Василий",
+	"MiddleName": "Васильевич",
+	"LastName": "Курганов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "6",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

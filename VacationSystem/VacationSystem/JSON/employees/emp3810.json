@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3810",
+	"FirstName": "Андрей",
+	"MiddleName": "Владимирович",
+	"LastName": "Коновалов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "80",
+			"HeadOfDepartment": false,
+			"Position": "52"
+		}
+	]
+}

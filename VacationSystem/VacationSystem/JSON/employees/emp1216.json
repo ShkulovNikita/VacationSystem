@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1216",
+	"FirstName": "Эльмира",
+	"MiddleName": "Рамисовна",
+	"LastName": "Кашапова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "130",
+			"HeadOfDepartment": false,
+			"Position": "26"
+		}
+	]
+}

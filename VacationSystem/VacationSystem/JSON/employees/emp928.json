@@ -1,0 +1,19 @@
+﻿{
+	"Id": "928",
+	"FirstName": "Александр",
+	"MiddleName": "Сергеевич",
+	"LastName": "Матвеев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "39",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		},
+		{
+			"Id": "182",
+			"HeadOfDepartment": false,
+			"Position": "45"
+		}
+	]
+}

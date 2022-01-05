@@ -1,0 +1,14 @@
+﻿{
+	"Id": "880",
+	"FirstName": "Евгения",
+	"MiddleName": "Владимировна",
+	"LastName": "Капелюшник",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "65",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

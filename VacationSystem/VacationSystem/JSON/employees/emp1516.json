@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1516",
+	"FirstName": "Марина",
+	"MiddleName": "Сергеевна",
+	"LastName": "Чурилова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "85",
+			"HeadOfDepartment": false,
+			"Position": "147"
+		}
+	]
+}

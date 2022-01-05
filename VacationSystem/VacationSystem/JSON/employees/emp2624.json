@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2624",
+	"FirstName": "Ольга",
+	"MiddleName": "Вениаминовна",
+	"LastName": "Прокопец",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "34",
+			"HeadOfDepartment": false,
+			"Position": "87"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "994",
+	"FirstName": "Ольга",
+	"MiddleName": "Викторовна",
+	"LastName": "Клименко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "27",
+			"HeadOfDepartment": false,
+			"Position": "7"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1286",
+	"FirstName": "Ксения",
+	"MiddleName": "Сергеевна",
+	"LastName": "Чечельницкая",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "20",
+			"HeadOfDepartment": false,
+			"Position": "16"
+		}
+	]
+}

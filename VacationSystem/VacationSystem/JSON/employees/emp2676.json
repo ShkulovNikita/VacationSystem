@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2676",
+	"FirstName": "Алексей",
+	"MiddleName": "Викторович",
+	"LastName": "Шкляр",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "6",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

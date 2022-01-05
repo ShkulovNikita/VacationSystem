@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3117",
+	"FirstName": "Анастасия",
+	"MiddleName": "Юрьевна",
+	"LastName": "Кайда",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "26",
+			"HeadOfDepartment": false,
+			"Position": "28"
+		}
+	]
+}

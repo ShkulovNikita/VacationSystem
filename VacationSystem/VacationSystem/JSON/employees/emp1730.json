@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1730",
+	"FirstName": "Екатерина",
+	"MiddleName": "Анатольевна",
+	"LastName": "Тунгусова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "154",
+			"HeadOfDepartment": false,
+			"Position": "10"
+		}
+	]
+}

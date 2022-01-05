@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1555",
+	"FirstName": "Евгений",
+	"MiddleName": "Григорьевич",
+	"LastName": "Левочко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "92",
+			"HeadOfDepartment": false,
+			"Position": "34"
+		}
+	]
+}

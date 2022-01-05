@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3194",
+	"FirstName": "Таисия",
+	"MiddleName": "Александровна",
+	"LastName": "Саитова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "107",
+			"HeadOfDepartment": false,
+			"Position": "262"
+		}
+	]
+}

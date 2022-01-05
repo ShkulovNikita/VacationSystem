@@ -1,0 +1,19 @@
+﻿{
+	"Id": "2566",
+	"FirstName": "Владимир",
+	"MiddleName": "Александрович",
+	"LastName": "Смолянский",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "57",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		},
+		{
+			"Id": "78",
+			"HeadOfDepartment": false,
+			"Position": "24"
+		}
+	]
+}

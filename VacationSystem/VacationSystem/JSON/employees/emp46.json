@@ -1,0 +1,14 @@
+﻿{
+	"Id": "46",
+	"FirstName": "Ирина",
+	"MiddleName": "Олеговна",
+	"LastName": "Толкачева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "31",
+			"HeadOfDepartment": false,
+			"Position": "20"
+		}
+	]
+}

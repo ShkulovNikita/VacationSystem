@@ -1,0 +1,19 @@
+﻿{
+	"Id": "1173",
+	"FirstName": "Сергей",
+	"MiddleName": "Михайлович",
+	"LastName": "Мартемьянов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "8",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		},
+		{
+			"Id": "15",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

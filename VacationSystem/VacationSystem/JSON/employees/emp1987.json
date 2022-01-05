@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1987",
+	"FirstName": "Евгения",
+	"MiddleName": "Алексеевна",
+	"LastName": "Шерина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "65",
+			"HeadOfDepartment": false,
+			"Position": "43"
+		}
+	]
+}

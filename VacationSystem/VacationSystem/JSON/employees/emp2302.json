@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2302",
+	"FirstName": "Николай",
+	"MiddleName": "Петрович",
+	"LastName": "Кабиков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "75",
+			"HeadOfDepartment": false,
+			"Position": "232"
+		}
+	]
+}

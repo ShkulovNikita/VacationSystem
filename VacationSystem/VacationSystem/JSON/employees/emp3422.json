@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3422",
+	"FirstName": "Ирина",
+	"MiddleName": "Валерьевна",
+	"LastName": "Давтян",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "223",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2150",
+	"FirstName": "Наталия",
+	"MiddleName": "Андреевна",
+	"LastName": "Колодий",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "3",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

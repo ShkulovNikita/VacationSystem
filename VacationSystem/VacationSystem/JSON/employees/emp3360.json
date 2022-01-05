@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3360",
+	"FirstName": "Татьяна",
+	"MiddleName": "Владимировна",
+	"LastName": "Исаева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "218",
+			"HeadOfDepartment": false,
+			"Position": "10"
+		}
+	]
+}

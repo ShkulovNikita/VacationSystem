@@ -1,0 +1,19 @@
+﻿{
+	"Id": "1008",
+	"FirstName": "Ирина",
+	"MiddleName": "Владимировна",
+	"LastName": "Рычкова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "116",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		},
+		{
+			"Id": "1",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

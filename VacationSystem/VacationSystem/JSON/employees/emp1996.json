@@ -1,0 +1,19 @@
+﻿{
+	"Id": "1996",
+	"FirstName": "Галина",
+	"MiddleName": "Васильевна",
+	"LastName": "Вавилова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "57",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		},
+		{
+			"Id": "57",
+			"HeadOfDepartment": false,
+			"Position": "2"
+		}
+	]
+}

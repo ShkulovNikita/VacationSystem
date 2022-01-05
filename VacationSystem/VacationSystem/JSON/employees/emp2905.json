@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2905",
+	"FirstName": "Ирина",
+	"MiddleName": "Викторовна",
+	"LastName": "Салосина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "65",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

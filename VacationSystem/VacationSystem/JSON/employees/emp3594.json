@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3594",
+	"FirstName": "Елена",
+	"MiddleName": "Викторовна",
+	"LastName": "Агафонникова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "44",
+			"HeadOfDepartment": false,
+			"Position": "10"
+		}
+	]
+}

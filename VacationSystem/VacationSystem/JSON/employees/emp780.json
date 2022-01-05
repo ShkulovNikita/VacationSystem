@@ -1,0 +1,14 @@
+﻿{
+	"Id": "780",
+	"FirstName": "Александр",
+	"MiddleName": "Кириллович",
+	"LastName": "Стоянов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "26",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

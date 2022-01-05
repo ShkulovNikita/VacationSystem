@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3552",
+	"FirstName": "Дмитрий",
+	"MiddleName": "Евгеньевич",
+	"LastName": "Гончаров",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "116",
+			"HeadOfDepartment": false,
+			"Position": "266"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2322",
+	"FirstName": "Евгения",
+	"MiddleName": "Львовна",
+	"LastName": "Данилевская",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "94",
+			"HeadOfDepartment": false,
+			"Position": "233"
+		}
+	]
+}

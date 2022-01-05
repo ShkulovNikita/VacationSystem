@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2612",
+	"FirstName": "Дарья",
+	"MiddleName": "Николаевна",
+	"LastName": "Володина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "65",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

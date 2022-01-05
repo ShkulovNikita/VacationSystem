@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3305",
+	"FirstName": "Олег",
+	"MiddleName": "Яковлевич",
+	"LastName": "Вишнивецкий",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "168",
+			"HeadOfDepartment": false,
+			"Position": "156"
+		}
+	]
+}

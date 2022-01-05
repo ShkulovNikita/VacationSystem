@@ -1,0 +1,14 @@
+﻿{
+	"Id": "426",
+	"FirstName": "Владимир",
+	"MiddleName": "Станиславович",
+	"LastName": "Дедков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "16",
+			"HeadOfDepartment": false,
+			"Position": "11"
+		}
+	]
+}

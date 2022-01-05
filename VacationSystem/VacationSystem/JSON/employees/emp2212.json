@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2212",
+	"FirstName": "Елена",
+	"MiddleName": "Максимовна",
+	"LastName": "Митрофанова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "1",
+			"HeadOfDepartment": false,
+			"Position": "53"
+		}
+	]
+}

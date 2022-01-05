@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2719",
+	"FirstName": "Александр",
+	"MiddleName": "Юрьевич",
+	"LastName": "Федоткин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "56",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

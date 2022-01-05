@@ -1,0 +1,14 @@
+﻿{
+	"Id": "98",
+	"FirstName": "Евгения",
+	"MiddleName": "Сергеевна",
+	"LastName": "Кулюкина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "60",
+			"HeadOfDepartment": false,
+			"Position": "38"
+		}
+	]
+}

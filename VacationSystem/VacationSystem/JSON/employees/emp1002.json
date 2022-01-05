@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1002",
+	"FirstName": "Виктор",
+	"MiddleName": "Иванович",
+	"LastName": "Митителу",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "169",
+			"HeadOfDepartment": false,
+			"Position": "68"
+		}
+	]
+}

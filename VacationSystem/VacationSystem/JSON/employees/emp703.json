@@ -1,0 +1,14 @@
+﻿{
+	"Id": "703",
+	"FirstName": "Светлана",
+	"MiddleName": "Николаевна",
+	"LastName": "Степура",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "0",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

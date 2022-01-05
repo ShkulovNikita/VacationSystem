@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2351",
+	"FirstName": "Александр",
+	"MiddleName": "Сергеевич",
+	"LastName": "Парнюгин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "27",
+			"HeadOfDepartment": false,
+			"Position": "234"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2066",
+	"FirstName": "Наталья",
+	"MiddleName": "Вадимовна",
+	"LastName": "Кудрявцева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "189",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

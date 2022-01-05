@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3708",
+	"FirstName": "Гульнара",
+	"MiddleName": "",
+	"LastName": "Абдуллина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "36",
+			"HeadOfDepartment": false,
+			"Position": "24"
+		}
+	]
+}

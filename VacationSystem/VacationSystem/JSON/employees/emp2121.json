@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2121",
+	"FirstName": "Надежда",
+	"MiddleName": "Александровна",
+	"LastName": "Гаврикова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "240",
+			"HeadOfDepartment": false,
+			"Position": "45"
+		}
+	]
+}

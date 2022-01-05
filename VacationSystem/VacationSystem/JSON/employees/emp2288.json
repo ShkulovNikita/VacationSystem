@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2288",
+	"FirstName": "Александр",
+	"MiddleName": "Владимирович",
+	"LastName": "Кисенков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "24",
+			"HeadOfDepartment": false,
+			"Position": "156"
+		}
+	]
+}

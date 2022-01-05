@@ -1,0 +1,14 @@
+﻿{
+	"Id": "428",
+	"FirstName": "Галина",
+	"MiddleName": "Алексеевна",
+	"LastName": "Гречнева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "138",
+			"HeadOfDepartment": false,
+			"Position": "25"
+		}
+	]
+}

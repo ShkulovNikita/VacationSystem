@@ -1,0 +1,14 @@
+﻿{
+	"Id": "614",
+	"FirstName": "Елена",
+	"MiddleName": "Анатольевна",
+	"LastName": "Кислова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "34",
+			"HeadOfDepartment": false,
+			"Position": "116"
+		}
+	]
+}

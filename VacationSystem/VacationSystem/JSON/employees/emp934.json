@@ -1,0 +1,14 @@
+﻿{
+	"Id": "934",
+	"FirstName": "Дмитрий",
+	"MiddleName": "Иванович",
+	"LastName": "Реймхен",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "183",
+			"HeadOfDepartment": false,
+			"Position": "79"
+		}
+	]
+}

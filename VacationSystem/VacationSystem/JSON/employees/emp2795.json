@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2795",
+	"FirstName": "Владимир",
+	"MiddleName": "Владимирович",
+	"LastName": "Кнышев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "119",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		}
+	]
+}

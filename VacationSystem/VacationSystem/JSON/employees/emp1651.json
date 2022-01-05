@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1651",
+	"FirstName": "Алена",
+	"MiddleName": "Владимировна",
+	"LastName": "Зворыгина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "206",
+			"HeadOfDepartment": false,
+			"Position": "161"
+		}
+	]
+}

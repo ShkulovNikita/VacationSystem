@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2272",
+	"FirstName": "Лариса",
+	"MiddleName": "Алексеевна",
+	"LastName": "Оголь",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "15",
+			"HeadOfDepartment": false,
+			"Position": "70"
+		}
+	]
+}

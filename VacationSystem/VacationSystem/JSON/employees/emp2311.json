@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2311",
+	"FirstName": "Эмилия",
+	"MiddleName": "Дмитриевна",
+	"LastName": "Иванчина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "36",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

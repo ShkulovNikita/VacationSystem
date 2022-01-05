@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3525",
+	"FirstName": "Олег",
+	"MiddleName": "Владимирович",
+	"LastName": "Брусник",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "46",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

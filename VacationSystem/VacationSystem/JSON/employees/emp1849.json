@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1849",
+	"FirstName": "Юрий",
+	"MiddleName": "Александрович",
+	"LastName": "Мировой",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "15",
+			"HeadOfDepartment": false,
+			"Position": "28"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1667",
+	"FirstName": "Руслан",
+	"MiddleName": "Маратович",
+	"LastName": "Ильясов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "80",
+			"HeadOfDepartment": false,
+			"Position": "10"
+		}
+	]
+}

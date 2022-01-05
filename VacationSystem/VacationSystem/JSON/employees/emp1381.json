@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1381",
+	"FirstName": "Антон",
+	"MiddleName": "Михайлович",
+	"LastName": "Янин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "16",
+			"HeadOfDepartment": false,
+			"Position": "173"
+		}
+	]
+}

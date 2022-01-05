@@ -1,0 +1,19 @@
+﻿{
+	"Id": "796",
+	"FirstName": "Елена",
+	"MiddleName": "Николаевна",
+	"LastName": "Роготнева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "71",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		},
+		{
+			"Id": "3",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

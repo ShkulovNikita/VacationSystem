@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1038",
+	"FirstName": "Алина",
+	"MiddleName": "Витальевна",
+	"LastName": "Коробова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "191",
+			"HeadOfDepartment": false,
+			"Position": "45"
+		}
+	]
+}

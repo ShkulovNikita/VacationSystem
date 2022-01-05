@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2300",
+	"FirstName": "Ирина",
+	"MiddleName": "Александровна",
+	"LastName": "Хворова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "15",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		}
+	]
+}

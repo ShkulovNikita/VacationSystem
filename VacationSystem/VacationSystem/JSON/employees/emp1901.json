@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1901",
+	"FirstName": "Любовь",
+	"MiddleName": "Ивановна",
+	"LastName": "Шмакова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "197",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

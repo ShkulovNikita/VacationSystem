@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2706",
+	"FirstName": "Надежда",
+	"MiddleName": "Викторовна",
+	"LastName": "Аникина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "2",
+			"HeadOfDepartment": false,
+			"Position": "18"
+		}
+	]
+}

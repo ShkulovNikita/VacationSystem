@@ -1,0 +1,14 @@
+﻿{
+	"Id": "640",
+	"FirstName": "Оксана",
+	"MiddleName": "Викторовна",
+	"LastName": "Копытина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "163",
+			"HeadOfDepartment": false,
+			"Position": "69"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "382",
+	"FirstName": "Борис",
+	"MiddleName": "Валентинович",
+	"LastName": "Горячев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "119",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

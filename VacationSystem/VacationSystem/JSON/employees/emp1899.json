@@ -1,0 +1,19 @@
+﻿{
+	"Id": "1899",
+	"FirstName": "Антон",
+	"MiddleName": "Александрович",
+	"LastName": "Алексеев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "59",
+			"HeadOfDepartment": false,
+			"Position": "217"
+		},
+		{
+			"Id": "78",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

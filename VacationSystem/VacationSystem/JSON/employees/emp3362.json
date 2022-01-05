@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3362",
+	"FirstName": "Ольга",
+	"MiddleName": "Васильевна",
+	"LastName": "Лютикова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "126",
+			"HeadOfDepartment": false,
+			"Position": "276"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+﻿{
+	"Id": "3021",
+	"FirstName": "Владимир",
+	"MiddleName": "Александрович",
+	"LastName": "Клименко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "165",
+			"HeadOfDepartment": false,
+			"Position": "64"
+		},
+		{
+			"Id": "50",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

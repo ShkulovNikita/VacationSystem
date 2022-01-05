@@ -1,0 +1,19 @@
+﻿{
+	"Id": "2897",
+	"FirstName": "Сергей",
+	"MiddleName": "Владимирович",
+	"LastName": "Щаденко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "32",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		},
+		{
+			"Id": "229",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

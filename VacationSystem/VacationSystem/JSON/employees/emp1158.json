@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1158",
+	"FirstName": "Татьяна",
+	"MiddleName": "Петровна",
+	"LastName": "Прохоренко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "178",
+			"HeadOfDepartment": false,
+			"Position": "14"
+		}
+	]
+}

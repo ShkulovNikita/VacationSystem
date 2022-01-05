@@ -1,0 +1,14 @@
+﻿{
+	"Id": "325",
+	"FirstName": "Николай",
+	"MiddleName": "Александрович",
+	"LastName": "Гоголин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "62",
+			"HeadOfDepartment": false,
+			"Position": "11"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3007",
+	"FirstName": "Сергей",
+	"MiddleName": "Артурович",
+	"LastName": "Прокопенко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "12",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2246",
+	"FirstName": "Любовь",
+	"MiddleName": "Петровна",
+	"LastName": "Ильина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "34",
+			"HeadOfDepartment": false,
+			"Position": "22"
+		}
+	]
+}

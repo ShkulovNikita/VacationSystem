@@ -1,0 +1,14 @@
+﻿{
+	"Id": "318",
+	"FirstName": "Елена",
+	"MiddleName": "Вячеславовна",
+	"LastName": "Старцева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "19",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		}
+	]
+}

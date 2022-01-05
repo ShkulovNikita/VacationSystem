@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1734",
+	"FirstName": "Станислав",
+	"MiddleName": "Леонидович",
+	"LastName": "Васильев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "112",
+			"HeadOfDepartment": false,
+			"Position": "203"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3750",
+	"FirstName": "Татьяна",
+	"MiddleName": "Викторовна",
+	"LastName": "Кулапина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "245",
+			"HeadOfDepartment": false,
+			"Position": "20"
+		}
+	]
+}

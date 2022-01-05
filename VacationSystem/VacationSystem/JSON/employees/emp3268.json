@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3268",
+	"FirstName": "Анастасия",
+	"MiddleName": "Геннадьевна",
+	"LastName": "Томилова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "112",
+			"HeadOfDepartment": false,
+			"Position": "9"
+		}
+	]
+}

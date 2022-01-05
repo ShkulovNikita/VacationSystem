@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2508",
+	"FirstName": "Ольга",
+	"MiddleName": "Александровна",
+	"LastName": "Колегова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "2",
+			"HeadOfDepartment": false,
+			"Position": "0"
+		}
+	]
+}

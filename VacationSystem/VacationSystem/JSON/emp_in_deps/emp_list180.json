@@ -1,0 +1,25 @@
+﻿{
+	"Id": "180",
+	"Employees": [
+		{
+			"Id": "887",
+			"Position": "20",
+			"Head": false
+		},
+		{
+			"Id": "1860",
+			"Position": "212",
+			"Head": false
+		},
+		{
+			"Id": "2989",
+			"Position": "64",
+			"Head": false
+		},
+		{
+			"Id": "3019",
+			"Position": "79",
+			"Head": false
+		}
+	]
+}

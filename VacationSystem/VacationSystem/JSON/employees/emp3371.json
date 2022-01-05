@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3371",
+	"FirstName": "Сергей",
+	"MiddleName": "Михайлович",
+	"LastName": "Захаренко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "66",
+			"HeadOfDepartment": false,
+			"Position": "256"
+		}
+	]
+}

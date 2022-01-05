@@ -1,0 +1,14 @@
+﻿{
+	"Id": "284",
+	"FirstName": "Вера",
+	"MiddleName": "Федоровна",
+	"LastName": "Минина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "111",
+			"HeadOfDepartment": false,
+			"Position": "69"
+		}
+	]
+}

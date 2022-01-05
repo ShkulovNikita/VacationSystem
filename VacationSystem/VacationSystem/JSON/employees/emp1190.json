@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1190",
+	"FirstName": "Елена",
+	"MiddleName": "Аркадьевна",
+	"LastName": "Боженко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "109",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

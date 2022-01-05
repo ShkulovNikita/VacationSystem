@@ -1,0 +1,14 @@
+﻿{
+	"Id": "26",
+	"FirstName": "Николай",
+	"MiddleName": "Николаевич",
+	"LastName": "Сотников",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "22",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3575",
+	"FirstName": "Антон",
+	"MiddleName": "",
+	"LastName": "Никифоров",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "186",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

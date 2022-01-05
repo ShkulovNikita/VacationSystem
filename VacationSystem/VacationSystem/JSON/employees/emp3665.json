@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3665",
+	"FirstName": "Антон",
+	"MiddleName": "Андреевич",
+	"LastName": "Трофимов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "80",
+			"HeadOfDepartment": false,
+			"Position": "52"
+		}
+	]
+}

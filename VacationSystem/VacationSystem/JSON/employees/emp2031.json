@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2031",
+	"FirstName": "Лидия",
+	"MiddleName": "Константиновна",
+	"LastName": "Госсен",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "171",
+			"HeadOfDepartment": false,
+			"Position": "222"
+		}
+	]
+}

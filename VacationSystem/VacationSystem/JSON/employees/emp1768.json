@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1768",
+	"FirstName": "Дина",
+	"MiddleName": "Владимировна",
+	"LastName": "Заремба",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "20",
+			"HeadOfDepartment": false,
+			"Position": "210"
+		}
+	]
+}

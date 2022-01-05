@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3011",
+	"FirstName": "Евгений",
+	"MiddleName": "Анатольевич",
+	"LastName": "Грицевич",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "136",
+			"HeadOfDepartment": false,
+			"Position": "103"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3686",
+	"FirstName": "Алина",
+	"MiddleName": "Юрьевна",
+	"LastName": "Герасимова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "124",
+			"HeadOfDepartment": false,
+			"Position": "21"
+		}
+	]
+}

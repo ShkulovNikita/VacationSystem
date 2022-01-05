@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2712",
+	"FirstName": "Лилия",
+	"MiddleName": "Наримановна",
+	"LastName": "Чилингер",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "1",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		}
+	]
+}

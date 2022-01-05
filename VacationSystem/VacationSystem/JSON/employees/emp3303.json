@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3303",
+	"FirstName": "Евгений",
+	"MiddleName": "Александрович",
+	"LastName": "Волков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "231",
+			"HeadOfDepartment": false,
+			"Position": "214"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2404",
+	"FirstName": "Алексей",
+	"MiddleName": "Владимирович",
+	"LastName": "Леонтьев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "12",
+			"HeadOfDepartment": false,
+			"Position": "34"
+		}
+	]
+}

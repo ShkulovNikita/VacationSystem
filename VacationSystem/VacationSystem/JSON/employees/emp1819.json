@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1819",
+	"FirstName": "Эдуард",
+	"MiddleName": "Васильевич",
+	"LastName": "Сопыряев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "168",
+			"HeadOfDepartment": false,
+			"Position": "10"
+		}
+	]
+}

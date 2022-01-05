@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1888",
+	"FirstName": "Оксана",
+	"MiddleName": "Валерьевна",
+	"LastName": "Ситникова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "156",
+			"HeadOfDepartment": false,
+			"Position": "16"
+		}
+	]
+}

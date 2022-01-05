@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3112",
+	"FirstName": "Елена",
+	"MiddleName": "Владимировна",
+	"LastName": "Романенко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "51",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		}
+	]
+}

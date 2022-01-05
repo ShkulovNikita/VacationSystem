@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3457",
+	"FirstName": "Матвей",
+	"MiddleName": "Павлович",
+	"LastName": "Нилов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "101",
+			"HeadOfDepartment": false,
+			"Position": "25"
+		}
+	]
+}

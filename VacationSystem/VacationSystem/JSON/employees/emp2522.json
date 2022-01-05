@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2522",
+	"FirstName": "Константин",
+	"MiddleName": "Владимирович",
+	"LastName": "Марков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "4",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

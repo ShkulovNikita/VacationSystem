@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3633",
+	"FirstName": "Андрей",
+	"MiddleName": "Анатольевич",
+	"LastName": "Егоров",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "269",
+			"HeadOfDepartment": false,
+			"Position": "35"
+		}
+	]
+}

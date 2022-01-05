@@ -1,0 +1,14 @@
+﻿{
+	"Id": "97",
+	"FirstName": "Василий",
+	"MiddleName": "Константинович",
+	"LastName": "Муцин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "59",
+			"HeadOfDepartment": false,
+			"Position": "37"
+		}
+	]
+}

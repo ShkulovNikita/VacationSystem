@@ -1,0 +1,19 @@
+﻿{
+	"Id": "3440",
+	"FirstName": "Данышпан",
+	"MiddleName": "",
+	"LastName": "Мухамбеталин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "175",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		},
+		{
+			"Id": "175",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

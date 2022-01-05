@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3023",
+	"FirstName": "Светлана",
+	"MiddleName": "Феодосьевна",
+	"LastName": "Ерошова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "85",
+			"HeadOfDepartment": false,
+			"Position": "55"
+		}
+	]
+}

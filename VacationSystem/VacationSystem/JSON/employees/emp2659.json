@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2659",
+	"FirstName": "Роман",
+	"MiddleName": "Викторович",
+	"LastName": "Чернозем",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "188",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		}
+	]
+}

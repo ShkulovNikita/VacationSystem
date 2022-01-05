@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3276",
+	"FirstName": "Светлана",
+	"MiddleName": "Владимировна",
+	"LastName": "Лукиных",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "265",
+			"HeadOfDepartment": false,
+			"Position": "267"
+		}
+	]
+}

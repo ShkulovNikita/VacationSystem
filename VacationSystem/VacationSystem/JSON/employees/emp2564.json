@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2564",
+	"FirstName": "Николай",
+	"MiddleName": "Петрович",
+	"LastName": "Кривков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "174",
+			"HeadOfDepartment": false,
+			"Position": "64"
+		}
+	]
+}

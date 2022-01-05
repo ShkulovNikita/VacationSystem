@@ -1,0 +1,14 @@
+﻿{
+	"Id": "69",
+	"FirstName": "Алла",
+	"MiddleName": "Георгиевна",
+	"LastName": "Кондратьева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "17",
+			"HeadOfDepartment": false,
+			"Position": "7"
+		}
+	]
+}

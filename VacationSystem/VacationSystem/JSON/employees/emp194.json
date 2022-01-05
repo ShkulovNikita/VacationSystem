@@ -1,0 +1,14 @@
+﻿{
+	"Id": "194",
+	"FirstName": "Виктор",
+	"MiddleName": "Александрович",
+	"LastName": "Кутугин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "4",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

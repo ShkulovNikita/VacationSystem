@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1288",
+	"FirstName": "Ольга",
+	"MiddleName": "Леонидовна",
+	"LastName": "Урусова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "104",
+			"HeadOfDepartment": false,
+			"Position": "80"
+		}
+	]
+}

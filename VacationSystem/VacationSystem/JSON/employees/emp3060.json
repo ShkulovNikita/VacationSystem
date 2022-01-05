@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3060",
+	"FirstName": "Максим",
+	"MiddleName": "Вячеславович",
+	"LastName": "Петров",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "88",
+			"HeadOfDepartment": false,
+			"Position": "26"
+		}
+	]
+}

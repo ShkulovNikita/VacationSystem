@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1981",
+	"FirstName": "Оксана",
+	"MiddleName": "Михайловна",
+	"LastName": "Замятина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "26",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

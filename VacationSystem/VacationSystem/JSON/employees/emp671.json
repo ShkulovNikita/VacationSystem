@@ -1,0 +1,14 @@
+﻿{
+	"Id": "671",
+	"FirstName": "Павел",
+	"MiddleName": "Владимирович",
+	"LastName": "Сорокин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "8",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

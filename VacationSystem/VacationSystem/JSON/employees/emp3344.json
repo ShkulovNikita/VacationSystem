@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3344",
+	"FirstName": "Инна",
+	"MiddleName": "Владимировна",
+	"LastName": "Карпович",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "199",
+			"HeadOfDepartment": false,
+			"Position": "154"
+		}
+	]
+}

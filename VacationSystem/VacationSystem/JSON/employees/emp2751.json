@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2751",
+	"FirstName": "Ольга",
+	"MiddleName": "Дмитриевна",
+	"LastName": "Брагина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "192",
+			"HeadOfDepartment": false,
+			"Position": "24"
+		}
+	]
+}

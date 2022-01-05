@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1240",
+	"FirstName": "Александр",
+	"MiddleName": "Александрович",
+	"LastName": "Ласуков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "12",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

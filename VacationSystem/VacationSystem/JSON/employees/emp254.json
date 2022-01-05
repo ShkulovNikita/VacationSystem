@@ -1,0 +1,14 @@
+﻿{
+	"Id": "254",
+	"FirstName": "Антон",
+	"MiddleName": "Сергеевич",
+	"LastName": "Гордынец",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "8",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

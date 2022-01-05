@@ -1,0 +1,14 @@
+﻿{
+	"Id": "891",
+	"FirstName": "Тамара",
+	"MiddleName": "Евгеньевна",
+	"LastName": "Остроухова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "126",
+			"HeadOfDepartment": false,
+			"Position": "65"
+		}
+	]
+}

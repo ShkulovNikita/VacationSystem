@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1063",
+	"FirstName": "Лариса",
+	"MiddleName": "Геннадьевна",
+	"LastName": "Шабанова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "56",
+			"HeadOfDepartment": false,
+			"Position": "2"
+		}
+	]
+}

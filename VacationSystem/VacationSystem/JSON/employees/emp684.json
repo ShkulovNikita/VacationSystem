@@ -1,0 +1,14 @@
+﻿{
+	"Id": "684",
+	"FirstName": "Владимир",
+	"MiddleName": "Григорьевич",
+	"LastName": "Спицын",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "26",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

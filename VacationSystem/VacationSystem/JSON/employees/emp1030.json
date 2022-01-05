@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1030",
+	"FirstName": "Полина",
+	"MiddleName": "Алексеевна",
+	"LastName": "Кисенкова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "190",
+			"HeadOfDepartment": false,
+			"Position": "131"
+		}
+	]
+}

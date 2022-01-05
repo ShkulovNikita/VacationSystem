@@ -1,0 +1,14 @@
+﻿{
+	"Id": "677",
+	"FirstName": "Ирина",
+	"MiddleName": "Викторовна",
+	"LastName": "Павленко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "11",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+﻿{
+	"Id": "1646",
+	"FirstName": "Егор",
+	"MiddleName": "Борисович",
+	"LastName": "Кашкаров",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "53",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		},
+		{
+			"Id": "53",
+			"HeadOfDepartment": false,
+			"Position": "24"
+		}
+	]
+}

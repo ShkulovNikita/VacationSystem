@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1709",
+	"FirstName": "Роман",
+	"MiddleName": "Александрович",
+	"LastName": "Лаас",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "88",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

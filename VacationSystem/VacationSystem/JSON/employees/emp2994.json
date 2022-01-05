@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2994",
+	"FirstName": "Лариса",
+	"MiddleName": "Геннадиевна",
+	"LastName": "Климова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "103",
+			"HeadOfDepartment": false,
+			"Position": "150"
+		}
+	]
+}

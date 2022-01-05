@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3410",
+	"FirstName": "Алексей",
+	"MiddleName": "Михайлович",
+	"LastName": "Емельянов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "101",
+			"HeadOfDepartment": false,
+			"Position": "25"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "717",
+	"FirstName": "Надежда",
+	"MiddleName": "Иннокентьевна",
+	"LastName": "Седельникова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "76",
+			"HeadOfDepartment": false,
+			"Position": "50"
+		}
+	]
+}

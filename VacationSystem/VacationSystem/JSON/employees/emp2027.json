@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2027",
+	"FirstName": "Александр",
+	"MiddleName": "Алексеевич",
+	"LastName": "Емец",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "59",
+			"HeadOfDepartment": false,
+			"Position": "37"
+		}
+	]
+}

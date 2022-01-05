@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1531",
+	"FirstName": "Олег",
+	"MiddleName": "Олегович",
+	"LastName": "Золотов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "170",
+			"HeadOfDepartment": false,
+			"Position": "185"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2570",
+	"FirstName": "Александр",
+	"MiddleName": "Вилливич",
+	"LastName": "Ханефт",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "32",
+			"HeadOfDepartment": false,
+			"Position": "41"
+		}
+	]
+}

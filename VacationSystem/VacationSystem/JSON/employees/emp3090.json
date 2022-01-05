@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3090",
+	"FirstName": "Ольга",
+	"MiddleName": "Владимировна",
+	"LastName": "Мотырева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "124",
+			"HeadOfDepartment": false,
+			"Position": "21"
+		}
+	]
+}

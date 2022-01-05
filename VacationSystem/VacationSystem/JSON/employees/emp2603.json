@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2603",
+	"FirstName": "Бакытбек",
+	"MiddleName": "Кашкардинович",
+	"LastName": "Мамашаев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "2",
+			"HeadOfDepartment": false,
+			"Position": "2"
+		}
+	]
+}

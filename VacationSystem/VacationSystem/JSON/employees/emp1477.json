@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1477",
+	"FirstName": "Татьяна",
+	"MiddleName": "Владимировна",
+	"LastName": "Мальцева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "99",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

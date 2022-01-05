@@ -1,0 +1,14 @@
+﻿{
+	"Id": "281",
+	"FirstName": "Наталья",
+	"MiddleName": "Владимировна",
+	"LastName": "Черепанова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "14",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

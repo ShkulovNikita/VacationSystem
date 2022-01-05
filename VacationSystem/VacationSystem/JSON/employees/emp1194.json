@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1194",
+	"FirstName": "Татьяна",
+	"MiddleName": "Юрьевна",
+	"LastName": "Катаева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "2",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

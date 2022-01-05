@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3692",
+	"FirstName": "Светлана",
+	"MiddleName": "",
+	"LastName": "Соломаха",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "3",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		}
+	]
+}

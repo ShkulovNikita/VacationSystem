@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1797",
+	"FirstName": "Александр",
+	"MiddleName": "Дмитриевич",
+	"LastName": "Брагин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "26",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "716",
+	"FirstName": "Виталий",
+	"MiddleName": "Владимирович",
+	"LastName": "Свиридов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "8",
+			"HeadOfDepartment": false,
+			"Position": "2"
+		}
+	]
+}

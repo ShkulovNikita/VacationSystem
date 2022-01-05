@@ -1,0 +1,14 @@
+﻿{
+	"Id": "961",
+	"FirstName": "Екатерина",
+	"MiddleName": "Александровна",
+	"LastName": "Головачева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "66",
+			"HeadOfDepartment": false,
+			"Position": "61"
+		}
+	]
+}

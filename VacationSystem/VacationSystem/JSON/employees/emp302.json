@@ -1,0 +1,14 @@
+﻿{
+	"Id": "302",
+	"FirstName": "Константин",
+	"MiddleName": "Владимирович",
+	"LastName": "Казачек",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "103",
+			"HeadOfDepartment": false,
+			"Position": "79"
+		}
+	]
+}

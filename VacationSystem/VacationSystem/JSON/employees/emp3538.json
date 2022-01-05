@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3538",
+	"FirstName": "Анна",
+	"MiddleName": "Сергеевна",
+	"LastName": "Копошенко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "268",
+			"HeadOfDepartment": false,
+			"Position": "283"
+		}
+	]
+}

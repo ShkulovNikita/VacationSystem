@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2487",
+	"FirstName": "Людмила",
+	"MiddleName": "Ивановна",
+	"LastName": "Новикова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "2",
+			"HeadOfDepartment": false,
+			"Position": "25"
+		}
+	]
+}

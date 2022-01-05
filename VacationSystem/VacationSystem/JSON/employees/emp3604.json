@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3604",
+	"FirstName": "Наталия",
+	"MiddleName": "Анатольевна",
+	"LastName": "Башкардина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "34",
+			"HeadOfDepartment": false,
+			"Position": "22"
+		}
+	]
+}

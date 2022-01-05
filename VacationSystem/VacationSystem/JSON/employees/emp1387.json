@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1387",
+	"FirstName": "Александр",
+	"MiddleName": "Иванович",
+	"LastName": "Артамонцев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "39",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

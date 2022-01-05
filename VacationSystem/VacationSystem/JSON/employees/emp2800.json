@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2800",
+	"FirstName": "Наталья",
+	"MiddleName": "Петровна",
+	"LastName": "Смолонская",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "103",
+			"HeadOfDepartment": false,
+			"Position": "15"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "34",
+	"FirstName": "Александр",
+	"MiddleName": "Сергеевич",
+	"LastName": "Сафьянов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "16",
+			"HeadOfDepartment": false,
+			"Position": "16"
+		}
+	]
+}

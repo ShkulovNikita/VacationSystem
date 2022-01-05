@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3658",
+	"FirstName": "Джамалутдин",
+	"MiddleName": "Магомедович",
+	"LastName": "Муртузалиев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "34",
+			"HeadOfDepartment": false,
+			"Position": "64"
+		}
+	]
+}

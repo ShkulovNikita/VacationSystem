@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3188",
+	"FirstName": "Сергей",
+	"MiddleName": "Геннадьевич",
+	"LastName": "Оловянишников",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "75",
+			"HeadOfDepartment": false,
+			"Position": "232"
+		}
+	]
+}

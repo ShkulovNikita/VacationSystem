@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1525",
+	"FirstName": "Лариса",
+	"MiddleName": "Александровна",
+	"LastName": "Скачкова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "93",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		}
+	]
+}

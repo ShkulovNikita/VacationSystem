@@ -1,0 +1,19 @@
+﻿{
+	"Id": "2093",
+	"FirstName": "Елена",
+	"MiddleName": "Владимировна",
+	"LastName": "Лисичко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "84",
+			"HeadOfDepartment": false,
+			"Position": "144"
+		},
+		{
+			"Id": "119",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

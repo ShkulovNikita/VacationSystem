@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2576",
+	"FirstName": "Станислав",
+	"MiddleName": "Павлович",
+	"LastName": "Бобков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "6",
+			"HeadOfDepartment": false,
+			"Position": "28"
+		}
+	]
+}

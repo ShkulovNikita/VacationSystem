@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1442",
+	"FirstName": "Сергей",
+	"MiddleName": "Васильевич",
+	"LastName": "Гудков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "175",
+			"HeadOfDepartment": false,
+			"Position": "176"
+		}
+	]
+}

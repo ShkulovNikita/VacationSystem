@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3402",
+	"FirstName": "Владислав",
+	"MiddleName": "Алексеевич",
+	"LastName": "Грудинин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "56",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		}
+	]
+}

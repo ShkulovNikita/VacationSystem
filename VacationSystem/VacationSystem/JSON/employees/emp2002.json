@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2002",
+	"FirstName": "Иван",
+	"MiddleName": "Александрович",
+	"LastName": "Санаров",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "149",
+			"HeadOfDepartment": false,
+			"Position": "18"
+		}
+	]
+}

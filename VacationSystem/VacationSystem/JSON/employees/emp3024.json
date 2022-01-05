@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3024",
+	"FirstName": "Юлия",
+	"MiddleName": "Валериевна",
+	"LastName": "Майорова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "77",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

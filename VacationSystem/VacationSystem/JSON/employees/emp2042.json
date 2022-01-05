@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2042",
+	"FirstName": "Лариса",
+	"MiddleName": "Владимировна",
+	"LastName": "Урюмцева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "142",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

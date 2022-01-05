@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1405",
+	"FirstName": "Людмила",
+	"MiddleName": "Филипповна",
+	"LastName": "Демьянова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "199",
+			"HeadOfDepartment": false,
+			"Position": "154"
+		}
+	]
+}

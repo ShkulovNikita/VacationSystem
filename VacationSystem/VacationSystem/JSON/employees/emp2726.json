@@ -1,0 +1,19 @@
+﻿{
+	"Id": "2726",
+	"FirstName": "Олег",
+	"MiddleName": "Сергеевич",
+	"LastName": "Толкачёв",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "137",
+			"HeadOfDepartment": false,
+			"Position": "24"
+		},
+		{
+			"Id": "15",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

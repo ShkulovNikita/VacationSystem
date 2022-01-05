@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1510",
+	"FirstName": "Ольга",
+	"MiddleName": "Михайловна",
+	"LastName": "Крюкова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "2",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

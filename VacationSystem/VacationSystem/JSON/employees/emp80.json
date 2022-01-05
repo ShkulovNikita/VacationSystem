@@ -1,0 +1,14 @@
+﻿{
+	"Id": "80",
+	"FirstName": "Сергей",
+	"MiddleName": "Александрович",
+	"LastName": "Сысоев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "49",
+			"HeadOfDepartment": false,
+			"Position": "16"
+		}
+	]
+}

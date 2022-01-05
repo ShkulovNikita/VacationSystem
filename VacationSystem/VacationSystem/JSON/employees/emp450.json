@@ -1,0 +1,14 @@
+﻿{
+	"Id": "450",
+	"FirstName": "Анна",
+	"MiddleName": "Леонидовна",
+	"LastName": "Буран",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "0",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

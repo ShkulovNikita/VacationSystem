@@ -1,0 +1,14 @@
+﻿{
+	"Id": "542",
+	"FirstName": "Юлия",
+	"MiddleName": "Владимировна",
+	"LastName": "Рейхерт",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "150",
+			"HeadOfDepartment": false,
+			"Position": "107"
+		}
+	]
+}

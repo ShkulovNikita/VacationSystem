@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1175",
+	"FirstName": "Яна",
+	"MiddleName": "Васильевна",
+	"LastName": "Рощик",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "57",
+			"HeadOfDepartment": false,
+			"Position": "70"
+		}
+	]
+}

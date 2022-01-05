@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3663",
+	"FirstName": "Евгений",
+	"MiddleName": "Александрович",
+	"LastName": "Кривчиков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "271",
+			"HeadOfDepartment": false,
+			"Position": "269"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1907",
+	"FirstName": "Михаил",
+	"MiddleName": "Анатольевич",
+	"LastName": "Смирнов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "75",
+			"HeadOfDepartment": false,
+			"Position": "218"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2046",
+	"FirstName": "Антон",
+	"MiddleName": "Николаевич",
+	"LastName": "Созоров",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "138",
+			"HeadOfDepartment": false,
+			"Position": "10"
+		}
+	]
+}

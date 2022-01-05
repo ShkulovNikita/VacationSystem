@@ -1,0 +1,19 @@
+﻿{
+	"Id": "637",
+	"FirstName": "Алексей",
+	"MiddleName": "Алексеевич",
+	"LastName": "Кондратюк",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "15",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		},
+		{
+			"Id": "15",
+			"HeadOfDepartment": false,
+			"Position": "2"
+		}
+	]
+}

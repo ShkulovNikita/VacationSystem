@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1465",
+	"FirstName": "Екатерина",
+	"MiddleName": "Владимировна",
+	"LastName": "Березнеева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "119",
+			"HeadOfDepartment": false,
+			"Position": "28"
+		}
+	]
+}

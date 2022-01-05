@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2293",
+	"FirstName": "Татьяна",
+	"MiddleName": "Валерьевна",
+	"LastName": "Сидоренко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "0",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

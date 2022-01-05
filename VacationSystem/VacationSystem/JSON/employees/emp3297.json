@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3297",
+	"FirstName": "Геннадий",
+	"MiddleName": "Исламович",
+	"LastName": "Станченко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "108",
+			"HeadOfDepartment": false,
+			"Position": "64"
+		}
+	]
+}

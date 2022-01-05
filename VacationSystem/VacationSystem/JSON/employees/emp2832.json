@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2832",
+	"FirstName": "Татьяна",
+	"MiddleName": "Михайловна",
+	"LastName": "Плахова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "66",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

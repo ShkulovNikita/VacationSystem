@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2189",
+	"FirstName": "Мария",
+	"MiddleName": "Викуловна",
+	"LastName": "Латонова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "240",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2440",
+	"FirstName": "Петр",
+	"MiddleName": "Николаевич",
+	"LastName": "Худолеев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "243",
+			"HeadOfDepartment": false,
+			"Position": "119"
+		}
+	]
+}

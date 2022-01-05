@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1625",
+	"FirstName": "Елена",
+	"MiddleName": "Михайловна",
+	"LastName": "Максимова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "99",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2106",
+	"FirstName": "Анна",
+	"MiddleName": "Михайловна",
+	"LastName": "Богдан",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "2",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

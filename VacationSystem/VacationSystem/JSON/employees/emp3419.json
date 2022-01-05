@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3419",
+	"FirstName": "Мария",
+	"MiddleName": "Сергеевна",
+	"LastName": "Ларькина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "192",
+			"HeadOfDepartment": false,
+			"Position": "24"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2552",
+	"FirstName": "Геннадий",
+	"MiddleName": "Иванович",
+	"LastName": "Уртамов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "168",
+			"HeadOfDepartment": false,
+			"Position": "156"
+		}
+	]
+}

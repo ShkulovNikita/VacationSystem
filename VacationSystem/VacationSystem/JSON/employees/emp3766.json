@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3766",
+	"FirstName": "Зинфира",
+	"MiddleName": "Шайдулловна",
+	"LastName": "Садыкова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "23",
+			"HeadOfDepartment": false,
+			"Position": "204"
+		}
+	]
+}

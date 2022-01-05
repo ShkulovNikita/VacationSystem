@@ -1,0 +1,14 @@
+﻿{
+	"Id": "231",
+	"FirstName": "Павел",
+	"MiddleName": "Сергеевич",
+	"LastName": "Постников",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "51",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

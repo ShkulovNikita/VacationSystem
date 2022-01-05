@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3289",
+	"FirstName": "Ольга",
+	"MiddleName": "Святославовна",
+	"LastName": "Мальцева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "261",
+			"HeadOfDepartment": false,
+			"Position": "270"
+		}
+	]
+}

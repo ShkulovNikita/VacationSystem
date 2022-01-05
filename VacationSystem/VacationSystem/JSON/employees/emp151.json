@@ -1,0 +1,19 @@
+﻿{
+	"Id": "151",
+	"FirstName": "Евгения",
+	"MiddleName": "Владимировна",
+	"LastName": "Францина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "82",
+			"HeadOfDepartment": false,
+			"Position": "45"
+		},
+		{
+			"Id": "1",
+			"HeadOfDepartment": false,
+			"Position": "24"
+		}
+	]
+}

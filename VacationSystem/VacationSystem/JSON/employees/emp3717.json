@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3717",
+	"FirstName": "Анатолий",
+	"MiddleName": "Михайлович",
+	"LastName": "Воробьев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "36",
+			"HeadOfDepartment": false,
+			"Position": "24"
+		}
+	]
+}

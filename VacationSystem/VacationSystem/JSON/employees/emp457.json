@@ -1,0 +1,14 @@
+﻿{
+	"Id": "457",
+	"FirstName": "Ольга",
+	"MiddleName": "Юрьевна",
+	"LastName": "Аршинова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "20",
+			"HeadOfDepartment": false,
+			"Position": "16"
+		}
+	]
+}

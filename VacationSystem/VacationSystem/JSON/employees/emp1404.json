@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1404",
+	"FirstName": "Елена",
+	"MiddleName": "Витальевна",
+	"LastName": "Шведова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "138",
+			"HeadOfDepartment": false,
+			"Position": "25"
+		}
+	]
+}

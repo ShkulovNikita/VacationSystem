@@ -1,0 +1,14 @@
+﻿{
+	"Id": "75",
+	"FirstName": "Татьяна",
+	"MiddleName": "Святославовна",
+	"LastName": "Глызина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "46",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

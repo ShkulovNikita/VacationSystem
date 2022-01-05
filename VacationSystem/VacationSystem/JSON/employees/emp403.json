@@ -1,0 +1,19 @@
+﻿{
+	"Id": "403",
+	"FirstName": "Артем",
+	"MiddleName": "Георгиевич",
+	"LastName": "Данков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "14",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		},
+		{
+			"Id": "134",
+			"HeadOfDepartment": false,
+			"Position": "10"
+		}
+	]
+}

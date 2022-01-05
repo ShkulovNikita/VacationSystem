@@ -1,0 +1,14 @@
+﻿{
+	"Id": "975",
+	"FirstName": "Геннадий",
+	"MiddleName": "Григорьевич",
+	"LastName": "Медведев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "39",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

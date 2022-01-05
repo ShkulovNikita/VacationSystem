@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3787",
+	"FirstName": "Дмитрий",
+	"MiddleName": "",
+	"LastName": "Федан",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "8",
+			"HeadOfDepartment": false,
+			"Position": "28"
+		}
+	]
+}

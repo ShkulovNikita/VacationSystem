@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3299",
+	"FirstName": "Виктор",
+	"MiddleName": "Михайлович",
+	"LastName": "Докукин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "28",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "579",
+	"FirstName": "Татьяна",
+	"MiddleName": "Александровна",
+	"LastName": "Нефёдова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "157",
+			"HeadOfDepartment": false,
+			"Position": "112"
+		}
+	]
+}

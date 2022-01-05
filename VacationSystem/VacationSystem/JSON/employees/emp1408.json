@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1408",
+	"FirstName": "Мария",
+	"MiddleName": "Александровна",
+	"LastName": "Морозова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "2",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

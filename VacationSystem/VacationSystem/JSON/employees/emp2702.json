@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2702",
+	"FirstName": "Игорь",
+	"MiddleName": "Алексеевич",
+	"LastName": "Бойко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "46",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "95",
+	"FirstName": "Евгений",
+	"MiddleName": "Викторович",
+	"LastName": "Бейерлейн",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "19",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

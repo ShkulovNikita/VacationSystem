@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1617",
+	"FirstName": "Любовь",
+	"MiddleName": "Федоровна",
+	"LastName": "Иконникова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "119",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

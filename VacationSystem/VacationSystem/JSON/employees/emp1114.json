@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1114",
+	"FirstName": "Сергей",
+	"MiddleName": "Романович",
+	"LastName": "Углов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "98",
+			"HeadOfDepartment": false,
+			"Position": "41"
+		}
+	]
+}

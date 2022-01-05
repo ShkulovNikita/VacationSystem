@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1122",
+	"FirstName": "Сергей",
+	"MiddleName": "Владимирович",
+	"LastName": "Сузанский",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "187",
+			"HeadOfDepartment": false,
+			"Position": "35"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2060",
+	"FirstName": "Владимир",
+	"MiddleName": "Иванович",
+	"LastName": "Верещагин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "4",
+			"HeadOfDepartment": false,
+			"Position": "91"
+		}
+	]
+}

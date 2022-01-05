@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3689",
+	"FirstName": "Надежда",
+	"MiddleName": "Владимировна",
+	"LastName": "Лебедева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "239",
+			"HeadOfDepartment": false,
+			"Position": "10"
+		}
+	]
+}

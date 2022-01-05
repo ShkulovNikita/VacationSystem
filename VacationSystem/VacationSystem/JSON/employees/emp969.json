@@ -1,0 +1,14 @@
+﻿{
+	"Id": "969",
+	"FirstName": "Александра",
+	"MiddleName": "Николаевна",
+	"LastName": "Хомяченко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "124",
+			"HeadOfDepartment": false,
+			"Position": "10"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3699",
+	"FirstName": "Марина",
+	"MiddleName": "Владимировна",
+	"LastName": "Субботина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "96",
+			"HeadOfDepartment": false,
+			"Position": "86"
+		}
+	]
+}

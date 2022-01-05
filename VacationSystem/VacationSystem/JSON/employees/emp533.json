@@ -1,0 +1,19 @@
+﻿{
+	"Id": "533",
+	"FirstName": "Ксения",
+	"MiddleName": "Игоревна",
+	"LastName": "Мачехина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "119",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		},
+		{
+			"Id": "16",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

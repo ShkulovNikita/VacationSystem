@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1157",
+	"FirstName": "Игорь",
+	"MiddleName": "Васильевич",
+	"LastName": "Кучеренко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "1",
+			"HeadOfDepartment": false,
+			"Position": "91"
+		}
+	]
+}

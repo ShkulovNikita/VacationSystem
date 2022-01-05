@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2876",
+	"FirstName": "Геннадий",
+	"MiddleName": "Эрнстович",
+	"LastName": "Гожин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "50",
+			"HeadOfDepartment": false,
+			"Position": "88"
+		}
+	]
+}

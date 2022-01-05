@@ -1,0 +1,14 @@
+﻿{
+	"Id": "256",
+	"FirstName": "Анастасия",
+	"MiddleName": "Викторовна",
+	"LastName": "Аникина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "106",
+			"HeadOfDepartment": false,
+			"Position": "20"
+		}
+	]
+}

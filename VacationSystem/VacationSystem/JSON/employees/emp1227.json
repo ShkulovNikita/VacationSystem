@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1227",
+	"FirstName": "Елена",
+	"MiddleName": "Павловна",
+	"LastName": "Виноградова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "92",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

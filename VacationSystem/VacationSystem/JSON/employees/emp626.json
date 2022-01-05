@@ -1,0 +1,14 @@
+﻿{
+	"Id": "626",
+	"FirstName": "Лариса",
+	"MiddleName": "Владимировна",
+	"LastName": "Шорникова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "9",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

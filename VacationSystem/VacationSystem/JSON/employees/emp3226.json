@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3226",
+	"FirstName": "Ольга",
+	"MiddleName": "Николаевна",
+	"LastName": "Семенова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "91",
+			"HeadOfDepartment": false,
+			"Position": "15"
+		}
+	]
+}

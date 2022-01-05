@@ -1,0 +1,19 @@
+﻿{
+	"Id": "1595",
+	"FirstName": "Людмила",
+	"MiddleName": "Александровна",
+	"LastName": "Ларионова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "211",
+			"HeadOfDepartment": false,
+			"Position": "10"
+		},
+		{
+			"Id": "42",
+			"HeadOfDepartment": false,
+			"Position": "11"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1927",
+	"FirstName": "Елена",
+	"MiddleName": "Геннадьевна",
+	"LastName": "Волчек",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "18",
+			"HeadOfDepartment": false,
+			"Position": "10"
+		}
+	]
+}

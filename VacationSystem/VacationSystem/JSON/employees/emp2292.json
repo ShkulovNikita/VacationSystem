@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2292",
+	"FirstName": "Александр",
+	"MiddleName": "Иванович",
+	"LastName": "Сечин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "93",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

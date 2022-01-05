@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3638",
+	"FirstName": "Мохаммад Фуркан",
+	"MiddleName": "",
+	"LastName": "Али",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "254",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		}
+	]
+}

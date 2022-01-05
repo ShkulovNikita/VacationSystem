@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3813",
+	"FirstName": "Максим",
+	"MiddleName": "Олегович",
+	"LastName": "Мельников",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "227",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		}
+	]
+}

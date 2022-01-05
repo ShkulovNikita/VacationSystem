@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1344",
+	"FirstName": "Татьяна",
+	"MiddleName": "Сергеевна",
+	"LastName": "Гоголева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "17",
+			"HeadOfDepartment": false,
+			"Position": "28"
+		}
+	]
+}

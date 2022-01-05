@@ -1,0 +1,14 @@
+﻿{
+	"Id": "581",
+	"FirstName": "Сергей",
+	"MiddleName": "Вениаминович",
+	"LastName": "Матренин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "15",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

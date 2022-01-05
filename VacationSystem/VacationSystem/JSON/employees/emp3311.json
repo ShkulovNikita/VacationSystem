@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3311",
+	"FirstName": "Денис",
+	"MiddleName": "Андреевич",
+	"LastName": "Гурьянов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "15",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2874",
+	"FirstName": "Омаргали",
+	"MiddleName": "Аубакирович",
+	"LastName": "Бультеков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "59",
+			"HeadOfDepartment": false,
+			"Position": "211"
+		}
+	]
+}

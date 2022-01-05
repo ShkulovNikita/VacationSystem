@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1765",
+	"FirstName": "Ксения",
+	"MiddleName": "Владимировна",
+	"LastName": "Иконникова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "74",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

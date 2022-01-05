@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3602",
+	"FirstName": "Ксения",
+	"MiddleName": "Петровна",
+	"LastName": "Богатырёва",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "77",
+			"HeadOfDepartment": false,
+			"Position": "108"
+		}
+	]
+}

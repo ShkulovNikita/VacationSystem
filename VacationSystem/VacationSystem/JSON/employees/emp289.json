@@ -1,0 +1,14 @@
+﻿{
+	"Id": "289",
+	"FirstName": "Владимир",
+	"MiddleName": "Платонович",
+	"LastName": "Вавилов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "114",
+			"HeadOfDepartment": false,
+			"Position": "2"
+		}
+	]
+}

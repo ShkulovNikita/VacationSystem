@@ -1,0 +1,19 @@
+﻿{
+	"Id": "1084",
+	"FirstName": "Тамара",
+	"MiddleName": "Георгиевна",
+	"LastName": "Петрашова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "56",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		},
+		{
+			"Id": "27",
+			"HeadOfDepartment": false,
+			"Position": "18"
+		}
+	]
+}

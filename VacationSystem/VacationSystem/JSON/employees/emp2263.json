@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2263",
+	"FirstName": "Федор",
+	"MiddleName": "Валерьевич",
+	"LastName": "Конусов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "32",
+			"HeadOfDepartment": false,
+			"Position": "56"
+		}
+	]
+}

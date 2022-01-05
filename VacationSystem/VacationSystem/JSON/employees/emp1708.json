@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1708",
+	"FirstName": "Анастасия",
+	"MiddleName": "Николаевна",
+	"LastName": "Кузнецова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "224",
+			"HeadOfDepartment": false,
+			"Position": "80"
+		}
+	]
+}

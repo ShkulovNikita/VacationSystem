@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3603",
+	"FirstName": "Даниил",
+	"MiddleName": "Ильич",
+	"LastName": "Терехов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "127",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		}
+	]
+}

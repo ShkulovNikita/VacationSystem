@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1273",
+	"FirstName": "Ольга",
+	"MiddleName": "Юрьевна",
+	"LastName": "Матвеева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "3",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

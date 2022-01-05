@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1362",
+	"FirstName": "Евгений",
+	"MiddleName": "Валерьевич",
+	"LastName": "Мансуров",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "53",
+			"HeadOfDepartment": false,
+			"Position": "70"
+		}
+	]
+}

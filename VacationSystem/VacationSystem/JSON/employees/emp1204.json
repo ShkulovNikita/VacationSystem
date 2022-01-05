@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1204",
+	"FirstName": "Сергей",
+	"MiddleName": "Иванович",
+	"LastName": "Борисенко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "119",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

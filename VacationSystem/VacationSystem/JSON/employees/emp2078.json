@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2078",
+	"FirstName": "Лилия",
+	"MiddleName": "Равильевна",
+	"LastName": "Тухватулина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "14",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3539",
+	"FirstName": "Нина",
+	"MiddleName": "Владимировна",
+	"LastName": "Шумилова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "195",
+			"HeadOfDepartment": false,
+			"Position": "21"
+		}
+	]
+}

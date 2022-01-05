@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2249",
+	"FirstName": "Виктория",
+	"MiddleName": "Юрьевна",
+	"LastName": "Маренкова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "55",
+			"HeadOfDepartment": false,
+			"Position": "10"
+		}
+	]
+}

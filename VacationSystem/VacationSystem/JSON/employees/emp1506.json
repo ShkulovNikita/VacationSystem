@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1506",
+	"FirstName": "Анна",
+	"MiddleName": "Владимировна",
+	"LastName": "Гонец",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "97",
+			"HeadOfDepartment": false,
+			"Position": "38"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2081",
+	"FirstName": "Елена",
+	"MiddleName": "Николаевна",
+	"LastName": "Мищенко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "9",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

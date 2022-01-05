@@ -1,0 +1,14 @@
+﻿{
+	"Id": "259",
+	"FirstName": "Дмитрий",
+	"MiddleName": "Васильевич",
+	"LastName": "Гвоздяков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "39",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

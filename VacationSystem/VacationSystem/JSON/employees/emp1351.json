@@ -1,0 +1,24 @@
+﻿{
+	"Id": "1351",
+	"FirstName": "Валерий",
+	"MiddleName": "Сергеевич",
+	"LastName": "Рукавишников",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "46",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		},
+		{
+			"Id": "208",
+			"HeadOfDepartment": false,
+			"Position": "48"
+		},
+		{
+			"Id": "92",
+			"HeadOfDepartment": false,
+			"Position": "45"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+﻿{
+	"Id": "1199",
+	"FirstName": "Александр",
+	"MiddleName": "Яковлевич",
+	"LastName": "Пак",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "6",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		},
+		{
+			"Id": "200",
+			"HeadOfDepartment": false,
+			"Position": "24"
+		}
+	]
+}

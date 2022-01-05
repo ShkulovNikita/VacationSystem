@@ -1,0 +1,14 @@
+﻿{
+	"Id": "670",
+	"FirstName": "Виктор",
+	"MiddleName": "Тимофеевич",
+	"LastName": "Новиков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "51",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

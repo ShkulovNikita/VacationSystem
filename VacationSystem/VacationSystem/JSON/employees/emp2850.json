@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2850",
+	"FirstName": "Станислав",
+	"MiddleName": "Вячеславович",
+	"LastName": "Колесников",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "19",
+			"HeadOfDepartment": false,
+			"Position": "28"
+		}
+	]
+}

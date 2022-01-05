@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1278",
+	"FirstName": "Ольга",
+	"MiddleName": "Евгеньевна",
+	"LastName": "Дульзон",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "76",
+			"HeadOfDepartment": false,
+			"Position": "50"
+		}
+	]
+}

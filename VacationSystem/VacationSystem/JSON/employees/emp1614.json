@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1614",
+	"FirstName": "Тамара",
+	"MiddleName": "Аркадьевна",
+	"LastName": "Соболева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "163",
+			"HeadOfDepartment": false,
+			"Position": "10"
+		}
+	]
+}

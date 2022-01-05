@@ -1,0 +1,14 @@
+﻿{
+	"Id": "877",
+	"FirstName": "Татьяна",
+	"MiddleName": "Григорьевна",
+	"LastName": "Трубченко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "3",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

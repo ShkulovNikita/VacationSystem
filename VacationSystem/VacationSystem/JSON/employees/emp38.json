@@ -1,0 +1,14 @@
+﻿{
+	"Id": "38",
+	"FirstName": "Анна",
+	"MiddleName": "Сергеевна",
+	"LastName": "Феденкова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "14",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		}
+	]
+}

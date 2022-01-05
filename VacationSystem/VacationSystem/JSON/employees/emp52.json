@@ -1,0 +1,14 @@
+﻿{
+	"Id": "52",
+	"FirstName": "Татьяна",
+	"MiddleName": "Муллануровна",
+	"LastName": "Алыева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "34",
+			"HeadOfDepartment": false,
+			"Position": "22"
+		}
+	]
+}

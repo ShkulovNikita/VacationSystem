@@ -1,0 +1,14 @@
+﻿{
+	"Id": "292",
+	"FirstName": "Валентина",
+	"MiddleName": "Николаевна",
+	"LastName": "Неверова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "115",
+			"HeadOfDepartment": false,
+			"Position": "77"
+		}
+	]
+}

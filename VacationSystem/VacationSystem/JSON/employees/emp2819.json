@@ -1,0 +1,19 @@
+﻿{
+	"Id": "2819",
+	"FirstName": "Ольга",
+	"MiddleName": "Юрьевна",
+	"LastName": "Федоренко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "93",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		},
+		{
+			"Id": "57",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2379",
+	"FirstName": "Ирина",
+	"MiddleName": "Васильевна",
+	"LastName": "Олешко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "2",
+			"HeadOfDepartment": false,
+			"Position": "29"
+		}
+	]
+}

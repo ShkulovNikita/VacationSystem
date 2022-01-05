@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1572",
+	"FirstName": "Елена",
+	"MiddleName": "Александровна",
+	"LastName": "Селиверстова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "0",
+			"HeadOfDepartment": false,
+			"Position": "0"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "167",
+	"FirstName": "Роман",
+	"MiddleName": "Владимирович",
+	"LastName": "Сазонов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "64",
+			"HeadOfDepartment": false,
+			"Position": "56"
+		}
+	]
+}

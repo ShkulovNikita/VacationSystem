@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3507",
+	"FirstName": "Фарид",
+	"MiddleName": "Радикович",
+	"LastName": "Халиулин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "184",
+			"HeadOfDepartment": false,
+			"Position": "64"
+		}
+	]
+}

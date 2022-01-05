@@ -1,0 +1,14 @@
+﻿{
+	"Id": "787",
+	"FirstName": "Надежда",
+	"MiddleName": "Геннадьевна",
+	"LastName": "Шулепова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "118",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

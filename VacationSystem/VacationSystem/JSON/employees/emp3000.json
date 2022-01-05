@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3000",
+	"FirstName": "Наталья",
+	"MiddleName": "Викторовна",
+	"LastName": "Волоцкая",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "59",
+			"HeadOfDepartment": false,
+			"Position": "72"
+		}
+	]
+}

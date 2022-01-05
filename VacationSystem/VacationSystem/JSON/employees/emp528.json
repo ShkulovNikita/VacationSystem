@@ -1,0 +1,14 @@
+﻿{
+	"Id": "528",
+	"FirstName": "Тамара",
+	"MiddleName": "Андреевна",
+	"LastName": "Хабас",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "4",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

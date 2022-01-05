@@ -1,0 +1,14 @@
+﻿{
+	"Id": "695",
+	"FirstName": "Марина",
+	"MiddleName": "Николаевна",
+	"LastName": "Тарасова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "124",
+			"HeadOfDepartment": false,
+			"Position": "39"
+		}
+	]
+}

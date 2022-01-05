@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3627",
+	"FirstName": "Раиф Сиам Сайед Ахмед",
+	"MiddleName": "",
+	"LastName": "Абуэлсауд",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "19",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		}
+	]
+}

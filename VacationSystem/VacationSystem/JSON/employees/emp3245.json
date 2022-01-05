@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3245",
+	"FirstName": "Татьяна",
+	"MiddleName": "Владимировна",
+	"LastName": "Немыкина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "17",
+			"HeadOfDepartment": false,
+			"Position": "53"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3304",
+	"FirstName": "Александра",
+	"MiddleName": "Александровна",
+	"LastName": "Баранова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "64",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

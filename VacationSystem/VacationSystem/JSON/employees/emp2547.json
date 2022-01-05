@@ -1,0 +1,19 @@
+﻿{
+	"Id": "2547",
+	"FirstName": "Василий",
+	"MiddleName": "Васильевич",
+	"LastName": "Соловьев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "127",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		},
+		{
+			"Id": "127",
+			"HeadOfDepartment": false,
+			"Position": "53"
+		}
+	]
+}

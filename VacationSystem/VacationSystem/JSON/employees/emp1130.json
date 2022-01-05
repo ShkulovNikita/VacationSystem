@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1130",
+	"FirstName": "Надежда",
+	"MiddleName": "Анатольевна",
+	"LastName": "Тимофеева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "23",
+			"HeadOfDepartment": false,
+			"Position": "15"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3136",
+	"FirstName": "Светлана",
+	"MiddleName": "Петровна",
+	"LastName": "Сопова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "12",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

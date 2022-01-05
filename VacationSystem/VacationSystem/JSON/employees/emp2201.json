@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2201",
+	"FirstName": "Роман",
+	"MiddleName": "Юрьевич",
+	"LastName": "Килин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "52",
+			"HeadOfDepartment": false,
+			"Position": "0"
+		}
+	]
+}

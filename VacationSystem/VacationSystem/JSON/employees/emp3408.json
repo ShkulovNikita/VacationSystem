@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3408",
+	"FirstName": "Татьяна",
+	"MiddleName": "Сергеевна",
+	"LastName": "Попова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "2",
+			"HeadOfDepartment": false,
+			"Position": "0"
+		}
+	]
+}

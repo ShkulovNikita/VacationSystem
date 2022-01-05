@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1428",
+	"FirstName": "Анастасия",
+	"MiddleName": "Игоревна",
+	"LastName": "Воробьева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "158",
+			"HeadOfDepartment": false,
+			"Position": "113"
+		}
+	]
+}

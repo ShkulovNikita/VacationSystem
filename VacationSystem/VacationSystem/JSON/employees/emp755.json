@@ -1,0 +1,14 @@
+﻿{
+	"Id": "755",
+	"FirstName": "Михаил",
+	"MiddleName": "Владимирович",
+	"LastName": "Пермяков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "138",
+			"HeadOfDepartment": false,
+			"Position": "53"
+		}
+	]
+}

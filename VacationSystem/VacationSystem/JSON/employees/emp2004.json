@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2004",
+	"FirstName": "Рашида",
+	"MiddleName": "Ахатовна",
+	"LastName": "Бохан",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "34",
+			"HeadOfDepartment": false,
+			"Position": "220"
+		}
+	]
+}

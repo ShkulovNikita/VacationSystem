@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3479",
+	"FirstName": "Жири",
+	"MiddleName": "",
+	"LastName": "Барек",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "36",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

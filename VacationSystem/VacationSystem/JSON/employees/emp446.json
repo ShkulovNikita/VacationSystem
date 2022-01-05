@@ -1,0 +1,14 @@
+﻿{
+	"Id": "446",
+	"FirstName": "Елена",
+	"MiddleName": "Александровна",
+	"LastName": "Газетова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "33",
+			"HeadOfDepartment": false,
+			"Position": "21"
+		}
+	]
+}

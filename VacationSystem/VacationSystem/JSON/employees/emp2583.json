@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2583",
+	"FirstName": "Анатолий",
+	"MiddleName": "Витальевич",
+	"LastName": "Озеров",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "125",
+			"HeadOfDepartment": false,
+			"Position": "29"
+		}
+	]
+}

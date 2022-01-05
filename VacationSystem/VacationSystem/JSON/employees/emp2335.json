@@ -1,0 +1,19 @@
+﻿{
+	"Id": "2335",
+	"FirstName": "Марина",
+	"MiddleName": "Валерьевна",
+	"LastName": "Куимова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "0",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		},
+		{
+			"Id": "0",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

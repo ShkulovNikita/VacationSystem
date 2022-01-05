@@ -1,0 +1,14 @@
+﻿{
+	"Id": "748",
+	"FirstName": "Ольга",
+	"MiddleName": "Викторовна",
+	"LastName": "Седельникова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "65",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

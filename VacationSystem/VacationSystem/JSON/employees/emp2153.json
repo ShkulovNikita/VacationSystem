@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2153",
+	"FirstName": "Оксана",
+	"MiddleName": "Романовна",
+	"LastName": "Перевалова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "34",
+			"HeadOfDepartment": false,
+			"Position": "87"
+		}
+	]
+}

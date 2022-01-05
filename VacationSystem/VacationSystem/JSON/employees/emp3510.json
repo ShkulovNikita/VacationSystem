@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3510",
+	"FirstName": "Татьяна",
+	"MiddleName": "Валерьевна",
+	"LastName": "Беликова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "163",
+			"HeadOfDepartment": false,
+			"Position": "69"
+		}
+	]
+}

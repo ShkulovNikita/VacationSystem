@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2383",
+	"FirstName": "Ирина",
+	"MiddleName": "Васильевна",
+	"LastName": "Чередниченко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "190",
+			"HeadOfDepartment": false,
+			"Position": "14"
+		}
+	]
+}

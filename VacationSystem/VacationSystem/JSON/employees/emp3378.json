@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3378",
+	"FirstName": "Олег",
+	"MiddleName": "Викторович",
+	"LastName": "Дударев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "1",
+			"HeadOfDepartment": false,
+			"Position": "24"
+		}
+	]
+}

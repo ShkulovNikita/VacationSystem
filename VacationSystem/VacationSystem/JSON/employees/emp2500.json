@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2500",
+	"FirstName": "Ирина",
+	"MiddleName": "Владиславовна",
+	"LastName": "Счастливцева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "12",
+			"HeadOfDepartment": false,
+			"Position": "30"
+		}
+	]
+}

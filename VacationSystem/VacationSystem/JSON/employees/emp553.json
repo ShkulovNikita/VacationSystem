@@ -1,0 +1,14 @@
+﻿{
+	"Id": "553",
+	"FirstName": "Тимур",
+	"MiddleName": "Рустамович",
+	"LastName": "Рахимов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "14",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

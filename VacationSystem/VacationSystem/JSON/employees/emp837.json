@@ -1,0 +1,14 @@
+﻿{
+	"Id": "837",
+	"FirstName": "Олег",
+	"MiddleName": "Борисович",
+	"LastName": "Фофанов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "26",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

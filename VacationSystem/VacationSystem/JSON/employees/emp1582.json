@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1582",
+	"FirstName": "Анна",
+	"MiddleName": "Николаевна",
+	"LastName": "Панамарёва",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "0",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3645",
+	"FirstName": "Александр",
+	"MiddleName": "Васильевич",
+	"LastName": "Буторин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "5",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		}
+	]
+}

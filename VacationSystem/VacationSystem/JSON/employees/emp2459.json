@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2459",
+	"FirstName": "Ольга",
+	"MiddleName": "Викторовна",
+	"LastName": "Рогач",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "154",
+			"HeadOfDepartment": false,
+			"Position": "144"
+		}
+	]
+}

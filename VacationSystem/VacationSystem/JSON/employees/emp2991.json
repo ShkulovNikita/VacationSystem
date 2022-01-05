@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2991",
+	"FirstName": "Гуанхуэй",
+	"MiddleName": "",
+	"LastName": "Гэ",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "15",
+			"HeadOfDepartment": false,
+			"Position": "26"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2734",
+	"FirstName": "Вероника",
+	"MiddleName": "Анатольевна",
+	"LastName": "Маланина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "3",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

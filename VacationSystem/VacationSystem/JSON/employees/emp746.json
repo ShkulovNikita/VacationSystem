@@ -1,0 +1,14 @@
+﻿{
+	"Id": "746",
+	"FirstName": "Михаил",
+	"MiddleName": "Леонидович",
+	"LastName": "Шинкеев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "53",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "319",
+	"FirstName": "Василий",
+	"MiddleName": "Анатольевич",
+	"LastName": "Терещенко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "16",
+			"HeadOfDepartment": false,
+			"Position": "11"
+		}
+	]
+}

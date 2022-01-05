@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1326",
+	"FirstName": "Алёна",
+	"MiddleName": "Андреевна",
+	"LastName": "Николаева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "153",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

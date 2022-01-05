@@ -1,0 +1,14 @@
+﻿{
+	"Id": "819",
+	"FirstName": "Ольга",
+	"MiddleName": "Николаевна",
+	"LastName": "Русина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "110",
+			"HeadOfDepartment": false,
+			"Position": "136"
+		}
+	]
+}

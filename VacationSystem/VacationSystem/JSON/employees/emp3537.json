@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3537",
+	"FirstName": "Александр",
+	"MiddleName": "Евгеньевич",
+	"LastName": "Тулупов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "51",
+			"HeadOfDepartment": false,
+			"Position": "53"
+		}
+	]
+}

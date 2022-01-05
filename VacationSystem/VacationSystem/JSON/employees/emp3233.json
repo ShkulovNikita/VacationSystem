@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3233",
+	"FirstName": "Наталья",
+	"MiddleName": "Анатольевна",
+	"LastName": "Рахманова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "83",
+			"HeadOfDepartment": false,
+			"Position": "18"
+		}
+	]
+}

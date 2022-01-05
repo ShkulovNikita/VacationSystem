@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1423",
+	"FirstName": "Татьяна",
+	"MiddleName": "Сергеевна",
+	"LastName": "Рева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "12",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

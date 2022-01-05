@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3757",
+	"FirstName": "Людмила",
+	"MiddleName": "Александровна",
+	"LastName": "Шадрина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "174",
+			"HeadOfDepartment": false,
+			"Position": "15"
+		}
+	]
+}

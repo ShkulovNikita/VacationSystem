@@ -1,0 +1,14 @@
+﻿{
+	"Id": "201",
+	"FirstName": "Вадим",
+	"MiddleName": "Анатольевич",
+	"LastName": "Дорофеев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "26",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		}
+	]
+}

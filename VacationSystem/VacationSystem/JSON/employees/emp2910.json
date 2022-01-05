@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2910",
+	"FirstName": "Светлана",
+	"MiddleName": "Феофановна",
+	"LastName": "Баранникова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "91",
+			"HeadOfDepartment": false,
+			"Position": "110"
+		}
+	]
+}

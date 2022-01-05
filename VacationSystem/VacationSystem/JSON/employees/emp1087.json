@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1087",
+	"FirstName": "Анна",
+	"MiddleName": "Георгиевна",
+	"LastName": "Князева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "15",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "777",
+	"FirstName": "Лариса",
+	"MiddleName": "Викторовна",
+	"LastName": "Шишко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "124",
+			"HeadOfDepartment": false,
+			"Position": "39"
+		}
+	]
+}

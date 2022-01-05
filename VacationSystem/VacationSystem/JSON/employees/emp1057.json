@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1057",
+	"FirstName": "Анатолий",
+	"MiddleName": "Константинович",
+	"LastName": "Темник",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "193",
+			"HeadOfDepartment": false,
+			"Position": "11"
+		}
+	]
+}

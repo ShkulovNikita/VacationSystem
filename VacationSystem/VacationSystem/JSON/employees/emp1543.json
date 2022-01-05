@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1543",
+	"FirstName": "Сергей",
+	"MiddleName": "Борисович",
+	"LastName": "Туранов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "15",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

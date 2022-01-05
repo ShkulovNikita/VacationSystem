@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2244",
+	"FirstName": "Артур",
+	"MiddleName": "Александрович",
+	"LastName": "Мицель",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "53",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

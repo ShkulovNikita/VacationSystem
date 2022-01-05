@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2620",
+	"FirstName": "Алексей",
+	"MiddleName": "Вемирович",
+	"LastName": "Долгих",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "92",
+			"HeadOfDepartment": false,
+			"Position": "25"
+		}
+	]
+}

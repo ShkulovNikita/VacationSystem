@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1685",
+	"FirstName": "Олег",
+	"MiddleName": "Валерьевич",
+	"LastName": "Василенко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "199",
+			"HeadOfDepartment": false,
+			"Position": "141"
+		}
+	]
+}

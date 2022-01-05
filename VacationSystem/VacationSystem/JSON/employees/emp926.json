@@ -1,0 +1,14 @@
+﻿{
+	"Id": "926",
+	"FirstName": "Николай",
+	"MiddleName": "Михайлович",
+	"LastName": "Семенов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "6",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "763",
+	"FirstName": "Олег",
+	"MiddleName": "Михайлович",
+	"LastName": "Коровин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "112",
+			"HeadOfDepartment": false,
+			"Position": "128"
+		}
+	]
+}

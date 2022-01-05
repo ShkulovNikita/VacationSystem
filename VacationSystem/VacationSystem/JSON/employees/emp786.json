@@ -1,0 +1,14 @@
+﻿{
+	"Id": "786",
+	"FirstName": "Надежда",
+	"MiddleName": "Филипповна",
+	"LastName": "Шуваева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "34",
+			"HeadOfDepartment": false,
+			"Position": "87"
+		}
+	]
+}

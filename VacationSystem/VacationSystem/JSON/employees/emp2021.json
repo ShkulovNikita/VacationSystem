@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2021",
+	"FirstName": "Дмитрий",
+	"MiddleName": "Альбертович",
+	"LastName": "Коземов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "47",
+			"HeadOfDepartment": false,
+			"Position": "30"
+		}
+	]
+}

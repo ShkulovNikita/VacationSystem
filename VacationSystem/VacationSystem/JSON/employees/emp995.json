@@ -1,0 +1,19 @@
+﻿{
+	"Id": "995",
+	"FirstName": "Василий",
+	"MiddleName": "Александрович",
+	"LastName": "Клименов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "15",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		},
+		{
+			"Id": "15",
+			"HeadOfDepartment": false,
+			"Position": "43"
+		}
+	]
+}

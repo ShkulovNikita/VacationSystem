@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2781",
+	"FirstName": "Валерий",
+	"MiddleName": "Сергеевич",
+	"LastName": "Вострухин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "110",
+			"HeadOfDepartment": false,
+			"Position": "11"
+		}
+	]
+}

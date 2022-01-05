@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3349",
+	"FirstName": "Никита",
+	"MiddleName": "",
+	"LastName": "Курдюмов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "53",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

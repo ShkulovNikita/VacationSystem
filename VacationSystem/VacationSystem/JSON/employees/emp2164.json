@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2164",
+	"FirstName": "Андрей",
+	"MiddleName": "Николаевич",
+	"LastName": "Пильщиков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "105",
+			"HeadOfDepartment": false,
+			"Position": "88"
+		}
+	]
+}

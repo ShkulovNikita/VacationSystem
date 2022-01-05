@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1502",
+	"FirstName": "Юрий",
+	"MiddleName": "Сергеевич",
+	"LastName": "Бордулев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "53",
+			"HeadOfDepartment": false,
+			"Position": "24"
+		}
+	]
+}

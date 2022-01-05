@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2927",
+	"FirstName": "Алфа Эдисон",
+	"MiddleName": "",
+	"LastName": "Илела",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "15",
+			"HeadOfDepartment": false,
+			"Position": "28"
+		}
+	]
+}

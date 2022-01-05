@@ -1,0 +1,14 @@
+﻿{
+	"Id": "472",
+	"FirstName": "Татьяна",
+	"MiddleName": "Леонидовна",
+	"LastName": "Владимирова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "65",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

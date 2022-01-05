@@ -1,0 +1,19 @@
+﻿{
+	"Id": "2959",
+	"FirstName": "Иван",
+	"MiddleName": "Валерьевич",
+	"LastName": "Хожаев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "6",
+			"HeadOfDepartment": false,
+			"Position": "28"
+		},
+		{
+			"Id": "248",
+			"HeadOfDepartment": false,
+			"Position": "26"
+		}
+	]
+}

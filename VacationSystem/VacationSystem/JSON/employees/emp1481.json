@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1481",
+	"FirstName": "Оксана",
+	"MiddleName": "Игоревна",
+	"LastName": "Медведева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "27",
+			"HeadOfDepartment": false,
+			"Position": "18"
+		}
+	]
+}

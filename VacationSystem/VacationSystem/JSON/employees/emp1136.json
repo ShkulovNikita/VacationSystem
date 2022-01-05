@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1136",
+	"FirstName": "Наталья",
+	"MiddleName": "Михайловна",
+	"LastName": "Маркова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "41",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

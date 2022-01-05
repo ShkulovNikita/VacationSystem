@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1539",
+	"FirstName": "Анна",
+	"MiddleName": "Александровна",
+	"LastName": "Семёнова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "84",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

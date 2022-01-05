@@ -1,0 +1,19 @@
+﻿{
+	"Id": "1873",
+	"FirstName": "Александр",
+	"MiddleName": "Сергеевич",
+	"LastName": "Кантаев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "102",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		},
+		{
+			"Id": "17",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

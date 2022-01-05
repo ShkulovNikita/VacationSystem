@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1419",
+	"FirstName": "Юрий",
+	"MiddleName": "Георгиевич",
+	"LastName": "Садовников",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "58",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

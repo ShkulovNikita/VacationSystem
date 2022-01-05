@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2715",
+	"FirstName": "Павел",
+	"MiddleName": "Владимирович",
+	"LastName": "Марьин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "221",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		}
+	]
+}

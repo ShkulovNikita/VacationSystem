@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1706",
+	"FirstName": "Евгения",
+	"MiddleName": "Георгиевна",
+	"LastName": "Орлова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "39",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		}
+	]
+}

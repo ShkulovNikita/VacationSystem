@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using VacationSystem.Models;
-using VacationSystem.Models.Parsering;
+using VacationSystem.Models.Parsing;
 using System.Text.Json;
 using System;
 
@@ -70,18 +70,18 @@ namespace VacationSystem.Classes
             }
         }
 
-        static public List<EmployeeBrief> ParseEmployeeList(string json)
+        static public List<EmployeeInfo> ParseEmployeeList(string json)
         {
             try
             {
                 EmployeeList data = JsonSerializer.Deserialize<EmployeeList>(json);
 
                 // получение списка сотрудников из ответа
-                List<EmployeeBrief> list = new List<EmployeeBrief>();
+                List<EmployeeInfo> list = new List<EmployeeInfo>();
 
-                foreach (EmployeeBrief emp in data.Employees)
+                foreach (EmployeeInfo emp in data.Employees)
                 {
-                    list.Add(new EmployeeBrief
+                    list.Add(new EmployeeInfo
                     {
                         Id = emp.Id,
                         Position = emp.Position,

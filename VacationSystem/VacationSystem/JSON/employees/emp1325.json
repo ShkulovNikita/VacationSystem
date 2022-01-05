@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1325",
+	"FirstName": "Ксения",
+	"MiddleName": "Валериевна",
+	"LastName": "Политова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "207",
+			"HeadOfDepartment": false,
+			"Position": "157"
+		}
+	]
+}

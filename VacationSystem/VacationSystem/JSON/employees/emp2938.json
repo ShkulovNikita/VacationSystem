@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2938",
+	"FirstName": "Елена",
+	"MiddleName": "Владимировна",
+	"LastName": "Рожкова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "2",
+			"HeadOfDepartment": false,
+			"Position": "53"
+		}
+	]
+}

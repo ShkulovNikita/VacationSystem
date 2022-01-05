@@ -1,0 +1,14 @@
+﻿{
+	"Id": "454",
+	"FirstName": "Мария",
+	"MiddleName": "Михайловна",
+	"LastName": "Жуликова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "141",
+			"HeadOfDepartment": false,
+			"Position": "14"
+		}
+	]
+}

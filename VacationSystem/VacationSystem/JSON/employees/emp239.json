@@ -1,0 +1,19 @@
+﻿{
+	"Id": "239",
+	"FirstName": "Виктория",
+	"MiddleName": "Викторовна",
+	"LastName": "Осипова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "26",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		},
+		{
+			"Id": "10",
+			"HeadOfDepartment": false,
+			"Position": "7"
+		}
+	]
+}

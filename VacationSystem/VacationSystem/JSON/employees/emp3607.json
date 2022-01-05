@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3607",
+	"FirstName": "Владислав",
+	"MiddleName": "Андреевич",
+	"LastName": "Рыжков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "32",
+			"HeadOfDepartment": false,
+			"Position": "56"
+		}
+	]
+}

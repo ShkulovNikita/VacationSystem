@@ -1,0 +1,14 @@
+﻿{
+	"Id": "559",
+	"FirstName": "Марина",
+	"MiddleName": "Алексеевна",
+	"LastName": "Гладких",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "46",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		}
+	]
+}

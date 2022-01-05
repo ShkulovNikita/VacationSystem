@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2986",
+	"FirstName": "Надежда",
+	"MiddleName": "Васильевна",
+	"LastName": "Саранчина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "57",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

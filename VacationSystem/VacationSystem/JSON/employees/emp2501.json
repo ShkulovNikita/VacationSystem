@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2501",
+	"FirstName": "Альбина",
+	"MiddleName": "Георгиевна",
+	"LastName": "Хасанова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "34",
+			"HeadOfDepartment": false,
+			"Position": "204"
+		}
+	]
+}

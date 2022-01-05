@@ -1,0 +1,14 @@
+﻿{
+	"Id": "402",
+	"FirstName": "Ольга",
+	"MiddleName": "Николаевна",
+	"LastName": "Жигальская",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "61",
+			"HeadOfDepartment": false,
+			"Position": "96"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3432",
+	"FirstName": "Туан Хоанг",
+	"MiddleName": "",
+	"LastName": "Чан",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "32",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		}
+	]
+}

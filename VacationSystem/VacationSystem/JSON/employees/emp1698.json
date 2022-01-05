@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1698",
+	"FirstName": "Дамир",
+	"MiddleName": "Талгатович",
+	"LastName": "Валиев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "15",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

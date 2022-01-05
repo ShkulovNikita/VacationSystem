@@ -1,0 +1,14 @@
+﻿{
+	"Id": "585",
+	"FirstName": "Елена",
+	"MiddleName": "Владимировна",
+	"LastName": "Непеина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "124",
+			"HeadOfDepartment": false,
+			"Position": "21"
+		}
+	]
+}

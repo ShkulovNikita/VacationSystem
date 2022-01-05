@@ -1,0 +1,14 @@
+﻿{
+	"Id": "931",
+	"FirstName": "Елена",
+	"MiddleName": "Борисовна",
+	"LastName": "Резник",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "154",
+			"HeadOfDepartment": false,
+			"Position": "111"
+		}
+	]
+}

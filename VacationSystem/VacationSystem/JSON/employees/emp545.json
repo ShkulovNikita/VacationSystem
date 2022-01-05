@@ -1,0 +1,14 @@
+﻿{
+	"Id": "545",
+	"FirstName": "Алексей",
+	"MiddleName": "Владимирович",
+	"LastName": "Беляков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "105",
+			"HeadOfDepartment": false,
+			"Position": "88"
+		}
+	]
+}

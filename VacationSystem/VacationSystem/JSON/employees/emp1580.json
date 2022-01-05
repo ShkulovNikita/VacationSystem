@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1580",
+	"FirstName": "Анна",
+	"MiddleName": "Леонидовна",
+	"LastName": "Рогалева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "65",
+			"HeadOfDepartment": false,
+			"Position": "28"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1410",
+	"FirstName": "Валентина",
+	"MiddleName": "Сергеевна",
+	"LastName": "Иванова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "203",
+			"HeadOfDepartment": false,
+			"Position": "143"
+		}
+	]
+}

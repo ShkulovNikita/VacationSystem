@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1379",
+	"FirstName": "Виктор",
+	"MiddleName": "Сергеевич",
+	"LastName": "Суходолин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "75",
+			"HeadOfDepartment": false,
+			"Position": "171"
+		}
+	]
+}

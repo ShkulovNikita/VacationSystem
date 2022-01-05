@@ -1,0 +1,19 @@
+﻿{
+	"Id": "2377",
+	"FirstName": "Оксана",
+	"MiddleName": "Владимировна",
+	"LastName": "Носова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "46",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		},
+		{
+			"Id": "2",
+			"HeadOfDepartment": false,
+			"Position": "11"
+		}
+	]
+}

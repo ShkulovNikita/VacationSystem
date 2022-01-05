@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3137",
+	"FirstName": "Егор",
+	"MiddleName": "Артурович",
+	"LastName": "Ибрагимов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "12",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3421",
+	"FirstName": "Алексей",
+	"MiddleName": "Михайлович",
+	"LastName": "Бельков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "101",
+			"HeadOfDepartment": false,
+			"Position": "25"
+		}
+	]
+}

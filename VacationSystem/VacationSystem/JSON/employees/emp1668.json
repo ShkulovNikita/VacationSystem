@@ -1,0 +1,19 @@
+﻿{
+	"Id": "1668",
+	"FirstName": "Владимир",
+	"MiddleName": "Иванович",
+	"LastName": "Чернов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "192",
+			"HeadOfDepartment": false,
+			"Position": "41"
+		},
+		{
+			"Id": "42",
+			"HeadOfDepartment": false,
+			"Position": "11"
+		}
+	]
+}

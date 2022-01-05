@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3478",
+	"FirstName": "Елена",
+	"MiddleName": "Викторовна",
+	"LastName": "Лобова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "161",
+			"HeadOfDepartment": false,
+			"Position": "57"
+		}
+	]
+}

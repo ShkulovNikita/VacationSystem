@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2599",
+	"FirstName": "Александр",
+	"MiddleName": "Сергеевич",
+	"LastName": "Попов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "101",
+			"HeadOfDepartment": false,
+			"Position": "36"
+		}
+	]
+}

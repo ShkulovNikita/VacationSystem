@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3211",
+	"FirstName": "Андрей",
+	"MiddleName": "Хакимович",
+	"LastName": "Ашрафов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "56",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

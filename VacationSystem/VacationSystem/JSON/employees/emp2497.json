@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2497",
+	"FirstName": "Ирина",
+	"MiddleName": "Юрьевна",
+	"LastName": "Хохлова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "4",
+			"HeadOfDepartment": false,
+			"Position": "28"
+		}
+	]
+}

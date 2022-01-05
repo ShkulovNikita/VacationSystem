@@ -1,0 +1,19 @@
+﻿{
+	"Id": "4",
+	"FirstName": "Ирина",
+	"MiddleName": "Андреевна",
+	"LastName": "Черемисова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "4",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		},
+		{
+			"Id": "4",
+			"HeadOfDepartment": false,
+			"Position": "2"
+		}
+	]
+}

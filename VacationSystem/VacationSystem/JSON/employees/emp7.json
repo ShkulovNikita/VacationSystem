@@ -1,0 +1,14 @@
+﻿{
+	"Id": "7",
+	"FirstName": "Дмитрий",
+	"MiddleName": "Геннадьевич",
+	"LastName": "Бурмантов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "7",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		}
+	]
+}

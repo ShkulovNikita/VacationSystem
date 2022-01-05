@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1342",
+	"FirstName": "Евгений",
+	"MiddleName": "Владимирович",
+	"LastName": "Чибисов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "37",
+			"HeadOfDepartment": false,
+			"Position": "42"
+		}
+	]
+}

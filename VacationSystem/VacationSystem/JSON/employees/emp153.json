@@ -1,0 +1,14 @@
+﻿{
+	"Id": "153",
+	"FirstName": "Инна",
+	"MiddleName": "Алексеевна",
+	"LastName": "Лежнина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "8",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

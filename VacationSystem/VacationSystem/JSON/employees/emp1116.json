@@ -1,0 +1,19 @@
+﻿{
+	"Id": "1116",
+	"FirstName": "Евгений",
+	"MiddleName": "Иванович",
+	"LastName": "Уразбеков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "57",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		},
+		{
+			"Id": "57",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		}
+	]
+}

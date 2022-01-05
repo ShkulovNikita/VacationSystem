@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3736",
+	"FirstName": "Алексей",
+	"MiddleName": "Юрьевич",
+	"LastName": "Ларин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "106",
+			"HeadOfDepartment": false,
+			"Position": "64"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2707",
+	"FirstName": "Елена",
+	"MiddleName": "Владимировна",
+	"LastName": "Агеева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "1",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

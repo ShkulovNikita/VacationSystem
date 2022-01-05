@@ -1,0 +1,14 @@
+﻿{
+	"Id": "57",
+	"FirstName": "Татьяна",
+	"MiddleName": "Ивановна",
+	"LastName": "Дмитриева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "4",
+			"HeadOfDepartment": false,
+			"Position": "2"
+		}
+	]
+}

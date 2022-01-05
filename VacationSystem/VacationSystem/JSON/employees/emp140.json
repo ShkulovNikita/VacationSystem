@@ -1,0 +1,14 @@
+﻿{
+	"Id": "140",
+	"FirstName": "Екатерина",
+	"MiddleName": "Юрьевна",
+	"LastName": "Иванова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "76",
+			"HeadOfDepartment": false,
+			"Position": "50"
+		}
+	]
+}

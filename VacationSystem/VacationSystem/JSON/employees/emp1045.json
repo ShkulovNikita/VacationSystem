@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1045",
+	"FirstName": "Ольга",
+	"MiddleName": "Сергеевна",
+	"LastName": "Кукурина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "51",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

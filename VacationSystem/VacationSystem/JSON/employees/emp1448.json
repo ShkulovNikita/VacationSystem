@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1448",
+	"FirstName": "Владимир",
+	"MiddleName": "Николаевич",
+	"LastName": "Слинко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "186",
+			"HeadOfDepartment": false,
+			"Position": "11"
+		}
+	]
+}

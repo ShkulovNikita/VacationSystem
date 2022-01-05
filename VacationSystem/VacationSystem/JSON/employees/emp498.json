@@ -1,0 +1,14 @@
+﻿{
+	"Id": "498",
+	"FirstName": "Галина",
+	"MiddleName": "Анатольевна",
+	"LastName": "Алехина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "145",
+			"HeadOfDepartment": false,
+			"Position": "45"
+		}
+	]
+}

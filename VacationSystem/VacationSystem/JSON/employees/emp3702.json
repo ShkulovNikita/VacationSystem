@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3702",
+	"FirstName": "Николай",
+	"MiddleName": "Алексеевич",
+	"LastName": "Языков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "39",
+			"HeadOfDepartment": false,
+			"Position": "24"
+		}
+	]
+}

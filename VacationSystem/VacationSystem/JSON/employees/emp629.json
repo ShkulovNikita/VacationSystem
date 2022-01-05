@@ -1,0 +1,14 @@
+﻿{
+	"Id": "629",
+	"FirstName": "Наталья",
+	"MiddleName": "Сергеевна",
+	"LastName": "Полякова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "65",
+			"HeadOfDepartment": false,
+			"Position": "28"
+		}
+	]
+}

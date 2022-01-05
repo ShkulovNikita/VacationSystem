@@ -1,0 +1,14 @@
+﻿{
+	"Id": "161",
+	"FirstName": "Марина",
+	"MiddleName": "Владимировна",
+	"LastName": "Гаврилова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "85",
+			"HeadOfDepartment": false,
+			"Position": "55"
+		}
+	]
+}

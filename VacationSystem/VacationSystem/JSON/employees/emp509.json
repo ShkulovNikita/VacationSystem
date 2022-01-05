@@ -1,0 +1,14 @@
+﻿{
+	"Id": "509",
+	"FirstName": "Софья",
+	"MiddleName": "Леонидовна",
+	"LastName": "Еремина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "14",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

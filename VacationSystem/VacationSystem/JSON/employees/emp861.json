@@ -1,0 +1,14 @@
+﻿{
+	"Id": "861",
+	"FirstName": "Светлана",
+	"MiddleName": "Станиславовна",
+	"LastName": "Подгол",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "178",
+			"HeadOfDepartment": false,
+			"Position": "106"
+		}
+	]
+}

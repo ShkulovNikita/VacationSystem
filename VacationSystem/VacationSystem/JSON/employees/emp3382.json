@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3382",
+	"FirstName": "Дарья",
+	"MiddleName": "Сергеевна",
+	"LastName": "Стрижак",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "232",
+			"HeadOfDepartment": false,
+			"Position": "0"
+		}
+	]
+}

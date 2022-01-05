@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1329",
+	"FirstName": "Ирина",
+	"MiddleName": "Борисовна",
+	"LastName": "Новикова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "12",
+			"HeadOfDepartment": false,
+			"Position": "33"
+		}
+	]
+}

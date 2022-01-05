@@ -1,0 +1,14 @@
+﻿{
+	"Id": "722",
+	"FirstName": "Тамара",
+	"MiddleName": "Александровна",
+	"LastName": "Сарычева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "4",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

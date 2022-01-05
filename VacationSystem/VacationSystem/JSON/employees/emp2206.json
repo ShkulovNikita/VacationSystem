@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2206",
+	"FirstName": "Татьяна",
+	"MiddleName": "Васильевна",
+	"LastName": "Устьянцева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "124",
+			"HeadOfDepartment": false,
+			"Position": "21"
+		}
+	]
+}

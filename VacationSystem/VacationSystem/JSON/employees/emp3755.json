@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3755",
+	"FirstName": "Сергей",
+	"MiddleName": "Валерьевич",
+	"LastName": "Карпенко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "173",
+			"HeadOfDepartment": false,
+			"Position": "7"
+		}
+	]
+}

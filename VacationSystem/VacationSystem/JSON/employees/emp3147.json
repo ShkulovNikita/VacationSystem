@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3147",
+	"FirstName": "Ольга",
+	"MiddleName": "Алексеевна",
+	"LastName": "Антоневич",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "93",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

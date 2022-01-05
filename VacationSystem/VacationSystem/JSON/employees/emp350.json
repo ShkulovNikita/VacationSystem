@@ -1,0 +1,14 @@
+﻿{
+	"Id": "350",
+	"FirstName": "Игорь",
+	"MiddleName": "Александрович",
+	"LastName": "Ванеев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "16",
+			"HeadOfDepartment": false,
+			"Position": "85"
+		}
+	]
+}

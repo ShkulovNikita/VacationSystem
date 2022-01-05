@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2436",
+	"FirstName": "Алексей",
+	"MiddleName": "Михайлович",
+	"LastName": "Большаков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "175",
+			"HeadOfDepartment": false,
+			"Position": "11"
+		}
+	]
+}

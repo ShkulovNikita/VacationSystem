@@ -1,0 +1,14 @@
+﻿{
+	"Id": "825",
+	"FirstName": "Виталий",
+	"MiddleName": "Анатольевич",
+	"LastName": "Власов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "88",
+			"HeadOfDepartment": false,
+			"Position": "56"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1291",
+	"FirstName": "Артур",
+	"MiddleName": "Владимирович",
+	"LastName": "Безмага",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "175",
+			"HeadOfDepartment": false,
+			"Position": "47"
+		}
+	]
+}

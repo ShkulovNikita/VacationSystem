@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2728",
+	"FirstName": "Иван",
+	"MiddleName": "Викторович",
+	"LastName": "Евсюткин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "26",
+			"HeadOfDepartment": false,
+			"Position": "28"
+		}
+	]
+}

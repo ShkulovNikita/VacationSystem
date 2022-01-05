@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1229",
+	"FirstName": "Дмитрий",
+	"MiddleName": "Петрович",
+	"LastName": "Уваркин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "110",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

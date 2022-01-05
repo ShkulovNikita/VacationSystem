@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3113",
+	"FirstName": "Анастасия",
+	"MiddleName": "Руслановна",
+	"LastName": "Коврижина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "4",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		}
+	]
+}

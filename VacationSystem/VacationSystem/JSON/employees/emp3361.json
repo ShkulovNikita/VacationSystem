@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3361",
+	"FirstName": "Надежда",
+	"MiddleName": "Германовна",
+	"LastName": "Колобова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "71",
+			"HeadOfDepartment": false,
+			"Position": "0"
+		}
+	]
+}

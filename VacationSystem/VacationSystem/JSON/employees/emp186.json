@@ -1,0 +1,14 @@
+﻿{
+	"Id": "186",
+	"FirstName": "Анастасия",
+	"MiddleName": "Александровна",
+	"LastName": "Голдовская",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "69",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

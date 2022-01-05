@@ -1,0 +1,14 @@
+﻿{
+	"Id": "618",
+	"FirstName": "Николай",
+	"MiddleName": "Викторович",
+	"LastName": "Муха",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "50",
+			"HeadOfDepartment": false,
+			"Position": "117"
+		}
+	]
+}

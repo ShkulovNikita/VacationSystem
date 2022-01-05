@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1164",
+	"FirstName": "Владимир",
+	"MiddleName": "Романович",
+	"LastName": "Корсун",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "0",
+			"HeadOfDepartment": false,
+			"Position": "0"
+		}
+	]
+}

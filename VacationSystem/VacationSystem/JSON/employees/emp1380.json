@@ -1,0 +1,19 @@
+﻿{
+	"Id": "1380",
+	"FirstName": "Павел",
+	"MiddleName": "Викторович",
+	"LastName": "Носов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "14",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		},
+		{
+			"Id": "83",
+			"HeadOfDepartment": false,
+			"Position": "172"
+		}
+	]
+}

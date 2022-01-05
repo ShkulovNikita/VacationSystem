@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1837",
+	"FirstName": "Елена",
+	"MiddleName": "Павловна",
+	"LastName": "Рябчикова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "27",
+			"HeadOfDepartment": false,
+			"Position": "45"
+		}
+	]
+}

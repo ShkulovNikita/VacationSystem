@@ -1,0 +1,14 @@
+﻿{
+	"Id": "59",
+	"FirstName": "Татьяна",
+	"MiddleName": "Николаевна",
+	"LastName": "Волгина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "36",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

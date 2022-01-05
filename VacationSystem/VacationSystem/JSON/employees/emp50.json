@@ -1,0 +1,14 @@
+﻿{
+	"Id": "50",
+	"FirstName": "Наталья",
+	"MiddleName": "Петровна",
+	"LastName": "Кондратова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "33",
+			"HeadOfDepartment": false,
+			"Position": "21"
+		}
+	]
+}

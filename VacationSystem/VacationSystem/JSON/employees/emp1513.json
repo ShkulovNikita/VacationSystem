@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1513",
+	"FirstName": "Татьяна",
+	"MiddleName": "Сергеевна",
+	"LastName": "Зеленковская",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "2",
+			"HeadOfDepartment": false,
+			"Position": "182"
+		}
+	]
+}

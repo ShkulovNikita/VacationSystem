@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1488",
+	"FirstName": "Татьяна",
+	"MiddleName": "Ивановна",
+	"LastName": "Кулешова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "54",
+			"HeadOfDepartment": false,
+			"Position": "33"
+		}
+	]
+}

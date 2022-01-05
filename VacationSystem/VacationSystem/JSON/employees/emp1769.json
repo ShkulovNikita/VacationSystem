@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1769",
+	"FirstName": "Наталья",
+	"MiddleName": "Александровна",
+	"LastName": "Смирнова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "127",
+			"HeadOfDepartment": false,
+			"Position": "2"
+		}
+	]
+}

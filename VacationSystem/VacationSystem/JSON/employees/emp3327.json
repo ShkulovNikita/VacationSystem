@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3327",
+	"FirstName": "Александр",
+	"MiddleName": "Григорьевич",
+	"LastName": "Чернявский",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "265",
+			"HeadOfDepartment": false,
+			"Position": "274"
+		}
+	]
+}

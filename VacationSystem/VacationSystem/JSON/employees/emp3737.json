@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3737",
+	"FirstName": "Ахмед Мохамед",
+	"MiddleName": "",
+	"LastName": "Мохамед Эльсаед",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "26",
+			"HeadOfDepartment": false,
+			"Position": "24"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "709",
+	"FirstName": "Екатерина",
+	"MiddleName": "Андреевна",
+	"LastName": "Горбунова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "97",
+			"HeadOfDepartment": false,
+			"Position": "71"
+		}
+	]
+}

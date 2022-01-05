@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3203",
+	"FirstName": "Сергей",
+	"MiddleName": "Олегович",
+	"LastName": "Рябов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "199",
+			"HeadOfDepartment": false,
+			"Position": "137"
+		}
+	]
+}

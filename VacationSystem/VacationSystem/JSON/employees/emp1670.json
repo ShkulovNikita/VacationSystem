@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1670",
+	"FirstName": "Александр",
+	"MiddleName": "Вячеславович",
+	"LastName": "Еремин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "15",
+			"HeadOfDepartment": false,
+			"Position": "28"
+		}
+	]
+}

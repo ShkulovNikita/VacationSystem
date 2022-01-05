@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1040",
+	"FirstName": "Николай",
+	"MiddleName": "Александрович",
+	"LastName": "Южаков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "59",
+			"HeadOfDepartment": false,
+			"Position": "72"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1051",
+	"FirstName": "Владимир",
+	"MiddleName": "Григорьевич",
+	"LastName": "Сырцов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "105",
+			"HeadOfDepartment": false,
+			"Position": "37"
+		}
+	]
+}

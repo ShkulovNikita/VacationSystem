@@ -1,0 +1,14 @@
+﻿{
+	"Id": "711",
+	"FirstName": "Наталия",
+	"MiddleName": "Геннадьевна",
+	"LastName": "Новикова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "37",
+			"HeadOfDepartment": false,
+			"Position": "105"
+		}
+	]
+}

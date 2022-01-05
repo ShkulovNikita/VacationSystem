@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1556",
+	"FirstName": "Леонид",
+	"MiddleName": "Петрович",
+	"LastName": "Заблоцкий",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "85",
+			"HeadOfDepartment": false,
+			"Position": "191"
+		}
+	]
+}

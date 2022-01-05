@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2257",
+	"FirstName": "Вениамин",
+	"MiddleName": "Михайлович",
+	"LastName": "Кизеев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "14",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		}
+	]
+}

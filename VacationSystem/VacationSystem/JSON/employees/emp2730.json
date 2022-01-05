@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2730",
+	"FirstName": "Анастасия",
+	"MiddleName": "Михайловна",
+	"LastName": "Сульгина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "113",
+			"HeadOfDepartment": false,
+			"Position": "80"
+		}
+	]
+}

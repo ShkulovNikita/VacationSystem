@@ -1,0 +1,14 @@
+﻿{
+	"Id": "47",
+	"FirstName": "Светлана",
+	"MiddleName": "Сергеевна",
+	"LastName": "Вильчинская",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "15",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

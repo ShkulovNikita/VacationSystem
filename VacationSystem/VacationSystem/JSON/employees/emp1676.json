@@ -1,0 +1,19 @@
+﻿{
+	"Id": "1676",
+	"FirstName": "Лилия",
+	"MiddleName": "Рашидовна",
+	"LastName": "Меринова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "16",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		},
+		{
+			"Id": "64",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

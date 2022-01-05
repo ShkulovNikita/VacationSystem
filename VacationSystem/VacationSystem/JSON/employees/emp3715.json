@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3715",
+	"FirstName": "Анастасия",
+	"MiddleName": "Игоревна",
+	"LastName": "Солодкова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "134",
+			"HeadOfDepartment": false,
+			"Position": "157"
+		}
+	]
+}

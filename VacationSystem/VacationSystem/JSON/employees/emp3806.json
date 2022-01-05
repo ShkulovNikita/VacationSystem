@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3806",
+	"FirstName": "Анжелика",
+	"MiddleName": "Григорьевна",
+	"LastName": "Воробьева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "192",
+			"HeadOfDepartment": false,
+			"Position": "56"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "285",
+	"FirstName": "Игорь",
+	"MiddleName": "Евгеньевич",
+	"LastName": "Акулов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "112",
+			"HeadOfDepartment": false,
+			"Position": "74"
+		}
+	]
+}

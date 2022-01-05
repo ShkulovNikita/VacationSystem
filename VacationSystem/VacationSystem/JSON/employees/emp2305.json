@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2305",
+	"FirstName": "Татьяна",
+	"MiddleName": "Петровна",
+	"LastName": "Толмачева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "16",
+			"HeadOfDepartment": false,
+			"Position": "170"
+		}
+	]
+}

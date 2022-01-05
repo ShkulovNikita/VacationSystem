@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1098",
+	"FirstName": "Юлия",
+	"MiddleName": "Павловна",
+	"LastName": "Калинникова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "195",
+			"HeadOfDepartment": false,
+			"Position": "10"
+		}
+	]
+}

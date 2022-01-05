@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2467",
+	"FirstName": "Александр",
+	"MiddleName": "Валериевич",
+	"LastName": "Тивоченко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "201",
+			"HeadOfDepartment": false,
+			"Position": "156"
+		}
+	]
+}

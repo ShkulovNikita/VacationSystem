@@ -1,0 +1,19 @@
+﻿{
+	"Id": "2108",
+	"FirstName": "Александр",
+	"MiddleName": "Викторович",
+	"LastName": "Киселев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "6",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		},
+		{
+			"Id": "19",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

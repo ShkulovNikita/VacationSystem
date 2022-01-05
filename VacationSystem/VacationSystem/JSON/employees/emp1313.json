@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1313",
+	"FirstName": "Александр",
+	"MiddleName": "Александрович",
+	"LastName": "Гарапацкий",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "175",
+			"HeadOfDepartment": false,
+			"Position": "11"
+		}
+	]
+}

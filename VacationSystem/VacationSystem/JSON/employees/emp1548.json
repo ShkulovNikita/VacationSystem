@@ -1,0 +1,24 @@
+﻿{
+	"Id": "1548",
+	"FirstName": "Татьяна",
+	"MiddleName": "Витальевна",
+	"LastName": "Суворова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "91",
+			"HeadOfDepartment": false,
+			"Position": "188"
+		},
+		{
+			"Id": "219",
+			"HeadOfDepartment": false,
+			"Position": "189"
+		},
+		{
+			"Id": "220",
+			"HeadOfDepartment": false,
+			"Position": "190"
+		}
+	]
+}

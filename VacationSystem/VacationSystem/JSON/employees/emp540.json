@@ -1,0 +1,14 @@
+﻿{
+	"Id": "540",
+	"FirstName": "Светлана",
+	"MiddleName": "Сергеевна",
+	"LastName": "Золотарёва",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "33",
+			"HeadOfDepartment": false,
+			"Position": "21"
+		}
+	]
+}

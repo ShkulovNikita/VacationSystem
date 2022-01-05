@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2190",
+	"FirstName": "Надежда",
+	"MiddleName": "Петровна",
+	"LastName": "Петрова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "34",
+			"HeadOfDepartment": false,
+			"Position": "220"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "346",
+	"FirstName": "Виктор",
+	"MiddleName": "Степанович",
+	"LastName": "Дмитриев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "8",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

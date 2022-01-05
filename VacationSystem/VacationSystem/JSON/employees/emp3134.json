@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3134",
+	"FirstName": "Людмила",
+	"MiddleName": "Болеславна",
+	"LastName": "Гиль",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "12",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

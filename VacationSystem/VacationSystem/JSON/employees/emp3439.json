@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3439",
+	"FirstName": "Игорь",
+	"MiddleName": "Павлович",
+	"LastName": "Васильев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "102",
+			"HeadOfDepartment": false,
+			"Position": "25"
+		}
+	]
+}

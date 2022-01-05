@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3670",
+	"FirstName": "Ольга",
+	"MiddleName": "Александровна",
+	"LastName": "Гребенкина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "124",
+			"HeadOfDepartment": false,
+			"Position": "21"
+		}
+	]
+}

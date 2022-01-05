@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3020",
+	"FirstName": "Борис",
+	"MiddleName": "Сергеевич",
+	"LastName": "Мерзликин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "53",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

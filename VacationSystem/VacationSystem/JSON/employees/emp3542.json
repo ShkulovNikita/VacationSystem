@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3542",
+	"FirstName": "Виталий",
+	"MiddleName": "Петрович",
+	"LastName": "Цой",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "105",
+			"HeadOfDepartment": false,
+			"Position": "88"
+		}
+	]
+}

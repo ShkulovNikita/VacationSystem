@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3445",
+	"FirstName": "Евгения",
+	"MiddleName": "Юрьевна",
+	"LastName": "Швецова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "244",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

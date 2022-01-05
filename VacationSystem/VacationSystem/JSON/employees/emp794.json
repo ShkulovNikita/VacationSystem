@@ -1,0 +1,14 @@
+﻿{
+	"Id": "794",
+	"FirstName": "Лена",
+	"MiddleName": "Викторовна",
+	"LastName": "Реховская",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "128",
+			"HeadOfDepartment": false,
+			"Position": "130"
+		}
+	]
+}

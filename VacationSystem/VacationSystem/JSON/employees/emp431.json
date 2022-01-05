@@ -1,0 +1,14 @@
+﻿{
+	"Id": "431",
+	"FirstName": "Сергей",
+	"MiddleName": "Иванович",
+	"LastName": "Арбузов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "1",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

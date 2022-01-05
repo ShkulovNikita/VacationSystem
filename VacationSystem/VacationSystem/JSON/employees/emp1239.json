@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1239",
+	"FirstName": "Людмила",
+	"MiddleName": "Игоревна",
+	"LastName": "Худоногова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "6",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

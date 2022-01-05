@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2967",
+	"FirstName": "Павел",
+	"MiddleName": "Владимирович",
+	"LastName": "Рочняк",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "2",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

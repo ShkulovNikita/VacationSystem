@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2911",
+	"FirstName": "Наталья",
+	"MiddleName": "Николаевна",
+	"LastName": "Гутова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "199",
+			"HeadOfDepartment": false,
+			"Position": "154"
+		}
+	]
+}

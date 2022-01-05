@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2003",
+	"FirstName": "Александр",
+	"MiddleName": "Иванович",
+	"LastName": "Ботт",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "238",
+			"HeadOfDepartment": false,
+			"Position": "79"
+		}
+	]
+}

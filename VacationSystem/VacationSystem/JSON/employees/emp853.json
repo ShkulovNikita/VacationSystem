@@ -1,0 +1,14 @@
+﻿{
+	"Id": "853",
+	"FirstName": "Юлия",
+	"MiddleName": "Александровна",
+	"LastName": "Чернышова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "61",
+			"HeadOfDepartment": false,
+			"Position": "39"
+		}
+	]
+}

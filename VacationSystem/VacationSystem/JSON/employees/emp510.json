@@ -1,0 +1,19 @@
+﻿{
+	"Id": "510",
+	"FirstName": "Владимир",
+	"MiddleName": "Васильевич",
+	"LastName": "Гузырь",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "100",
+			"HeadOfDepartment": false,
+			"Position": "48"
+		},
+		{
+			"Id": "3",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

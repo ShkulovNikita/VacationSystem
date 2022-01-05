@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3650",
+	"FirstName": "Алина",
+	"MiddleName": "Сергеевна",
+	"LastName": "Голозубова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "4",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

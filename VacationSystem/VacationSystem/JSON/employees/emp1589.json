@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1589",
+	"FirstName": "Татьяна",
+	"MiddleName": "Федоровна",
+	"LastName": "Волкова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "65",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

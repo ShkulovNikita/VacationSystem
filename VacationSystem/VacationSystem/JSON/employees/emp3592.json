@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3592",
+	"FirstName": "Константин",
+	"MiddleName": "Дмитриевич",
+	"LastName": "Ухтин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "214",
+			"HeadOfDepartment": false,
+			"Position": "197"
+		}
+	]
+}

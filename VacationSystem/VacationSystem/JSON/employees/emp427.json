@@ -1,0 +1,14 @@
+﻿{
+	"Id": "427",
+	"FirstName": "Татьяна",
+	"MiddleName": "Анатольевна",
+	"LastName": "Деева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "5",
+			"HeadOfDepartment": false,
+			"Position": "2"
+		}
+	]
+}

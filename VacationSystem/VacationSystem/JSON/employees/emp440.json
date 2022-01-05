@@ -1,0 +1,14 @@
+﻿{
+	"Id": "440",
+	"FirstName": "Ирина",
+	"MiddleName": "Вадимовна",
+	"LastName": "Кащук",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "3",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

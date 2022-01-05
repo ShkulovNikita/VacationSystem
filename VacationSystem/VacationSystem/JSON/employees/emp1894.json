@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1894",
+	"FirstName": "Марина",
+	"MiddleName": "Анатольевна",
+	"LastName": "Агафонова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "1",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1424",
+	"FirstName": "Сергей",
+	"MiddleName": "Петрович",
+	"LastName": "Зенкин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "32",
+			"HeadOfDepartment": false,
+			"Position": "24"
+		}
+	]
+}

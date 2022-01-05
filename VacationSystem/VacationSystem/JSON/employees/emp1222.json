@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1222",
+	"FirstName": "Валерия",
+	"MiddleName": "Сергеевна",
+	"LastName": "Филимонова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "119",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+﻿{
+	"Id": "1485",
+	"FirstName": "Евгений",
+	"MiddleName": "Николаевич",
+	"LastName": "Петровский",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "15",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		},
+		{
+			"Id": "15",
+			"HeadOfDepartment": false,
+			"Position": "2"
+		}
+	]
+}

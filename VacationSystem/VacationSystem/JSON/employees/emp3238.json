@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3238",
+	"FirstName": "Анна",
+	"MiddleName": "Леонидовна",
+	"LastName": "Фомченко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "32",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

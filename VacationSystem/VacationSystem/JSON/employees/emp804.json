@@ -1,0 +1,19 @@
+﻿{
+	"Id": "804",
+	"FirstName": "Екатерина",
+	"MiddleName": "Ивановна",
+	"LastName": "Постникова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "119",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		},
+		{
+			"Id": "56",
+			"HeadOfDepartment": false,
+			"Position": "2"
+		}
+	]
+}

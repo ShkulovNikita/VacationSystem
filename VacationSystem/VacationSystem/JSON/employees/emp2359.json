@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2359",
+	"FirstName": "Виолетта",
+	"MiddleName": "Валентиновна",
+	"LastName": "Крамаренко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "1",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

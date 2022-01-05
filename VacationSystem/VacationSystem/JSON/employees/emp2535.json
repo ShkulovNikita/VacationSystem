@@ -1,0 +1,19 @@
+﻿{
+	"Id": "2535",
+	"FirstName": "Алексей",
+	"MiddleName": "Алексеевич",
+	"LastName": "Иванов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "102",
+			"HeadOfDepartment": false,
+			"Position": "26"
+		},
+		{
+			"Id": "241",
+			"HeadOfDepartment": false,
+			"Position": "238"
+		}
+	]
+}

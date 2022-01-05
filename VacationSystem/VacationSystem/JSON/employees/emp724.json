@@ -1,0 +1,14 @@
+﻿{
+	"Id": "724",
+	"FirstName": "Анатолий",
+	"MiddleName": "Иосифович",
+	"LastName": "Озга",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "93",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

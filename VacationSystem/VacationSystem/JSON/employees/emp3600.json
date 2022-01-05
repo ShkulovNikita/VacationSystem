@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3600",
+	"FirstName": "Дмитрий",
+	"MiddleName": "Михайлович",
+	"LastName": "Чистохин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "197",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

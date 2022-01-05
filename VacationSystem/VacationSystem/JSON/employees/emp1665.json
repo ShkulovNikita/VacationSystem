@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1665",
+	"FirstName": "Сергей",
+	"MiddleName": "Сергеевич",
+	"LastName": "Махонченко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "29",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

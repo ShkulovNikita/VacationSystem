@@ -1,0 +1,14 @@
+﻿{
+	"Id": "273",
+	"FirstName": "Ирина",
+	"MiddleName": "Владиславовна",
+	"LastName": "Кокарева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "99",
+			"HeadOfDepartment": false,
+			"Position": "10"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2433",
+	"FirstName": "Ольга",
+	"MiddleName": "Михайловна",
+	"LastName": "Худолеева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "170",
+			"HeadOfDepartment": false,
+			"Position": "180"
+		}
+	]
+}

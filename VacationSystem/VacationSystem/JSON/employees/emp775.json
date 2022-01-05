@@ -1,0 +1,14 @@
+﻿{
+	"Id": "775",
+	"FirstName": "Людмила",
+	"MiddleName": "Ивановна",
+	"LastName": "Кравцова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "173",
+			"HeadOfDepartment": false,
+			"Position": "16"
+		}
+	]
+}

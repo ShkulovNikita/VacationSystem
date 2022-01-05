@@ -1,0 +1,14 @@
+﻿{
+	"Id": "531",
+	"FirstName": "Евгений",
+	"MiddleName": "Александрович",
+	"LastName": "Сударев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "4",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		}
+	]
+}

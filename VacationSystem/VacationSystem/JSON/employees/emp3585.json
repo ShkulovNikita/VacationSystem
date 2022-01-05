@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3585",
+	"FirstName": "Лоран Дамьен Жорж",
+	"MiddleName": "",
+	"LastName": "Муро",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "47",
+			"HeadOfDepartment": false,
+			"Position": "56"
+		}
+	]
+}

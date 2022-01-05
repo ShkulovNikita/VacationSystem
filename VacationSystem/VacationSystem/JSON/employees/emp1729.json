@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1729",
+	"FirstName": "Юрий",
+	"MiddleName": "Александрович",
+	"LastName": "Толстиков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "50",
+			"HeadOfDepartment": false,
+			"Position": "32"
+		}
+	]
+}

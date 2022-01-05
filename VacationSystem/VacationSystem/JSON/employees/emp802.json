@@ -1,0 +1,14 @@
+﻿{
+	"Id": "802",
+	"FirstName": "Ибрагим",
+	"MiddleName": "Усманович",
+	"LastName": "Магамаев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "138",
+			"HeadOfDepartment": false,
+			"Position": "102"
+		}
+	]
+}

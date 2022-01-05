@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1276",
+	"FirstName": "Алексей",
+	"MiddleName": "Иосифович",
+	"LastName": "Верховский",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "16",
+			"HeadOfDepartment": false,
+			"Position": "129"
+		}
+	]
+}

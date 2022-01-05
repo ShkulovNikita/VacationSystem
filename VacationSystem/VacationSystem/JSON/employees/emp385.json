@@ -1,0 +1,19 @@
+﻿{
+	"Id": "385",
+	"FirstName": "Василий",
+	"MiddleName": "Михайлович",
+	"LastName": "Бондаренко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "50",
+			"HeadOfDepartment": false,
+			"Position": "88"
+		},
+		{
+			"Id": "132",
+			"HeadOfDepartment": false,
+			"Position": "25"
+		}
+	]
+}

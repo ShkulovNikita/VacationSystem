@@ -1,0 +1,14 @@
+﻿{
+	"Id": "947",
+	"FirstName": "Расима",
+	"MiddleName": "Маликовна",
+	"LastName": "Халиулина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "184",
+			"HeadOfDepartment": false,
+			"Position": "20"
+		}
+	]
+}

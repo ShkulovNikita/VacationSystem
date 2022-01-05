@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1961",
+	"FirstName": "Павел",
+	"MiddleName": "Владимирович",
+	"LastName": "Бушмакин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "29",
+			"HeadOfDepartment": false,
+			"Position": "11"
+		}
+	]
+}

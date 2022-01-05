@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3184",
+	"FirstName": "Алексей",
+	"MiddleName": "Леонидович",
+	"LastName": "Зиновьев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "51",
+			"HeadOfDepartment": false,
+			"Position": "26"
+		}
+	]
+}

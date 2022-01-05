@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2645",
+	"FirstName": "Надежда",
+	"MiddleName": "Викторовна",
+	"LastName": "Даниленко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "221",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		}
+	]
+}

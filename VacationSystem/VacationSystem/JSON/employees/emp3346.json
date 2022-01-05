@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3346",
+	"FirstName": "Игорь",
+	"MiddleName": "",
+	"LastName": "Акимченко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "221",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		}
+	]
+}

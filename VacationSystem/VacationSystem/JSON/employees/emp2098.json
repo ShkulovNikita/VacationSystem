@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2098",
+	"FirstName": "Александр",
+	"MiddleName": "Георгиевич",
+	"LastName": "Дубов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "102",
+			"HeadOfDepartment": false,
+			"Position": "25"
+		}
+	]
+}

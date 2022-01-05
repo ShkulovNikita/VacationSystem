@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3560",
+	"FirstName": "Стефано",
+	"MiddleName": "",
+	"LastName": "Сфарра",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "114",
+			"HeadOfDepartment": false,
+			"Position": "24"
+		}
+	]
+}

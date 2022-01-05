@@ -10,6 +10,15 @@ namespace VacationSystem.Models
         [Key, Required, MaxLength(50)]
         public string Id { get; set; }
 
+        [Required, MaxLength(50)]
+        public string FirstName { get; set; }
+
+        [MaxLength(50)]
+        public string MiddleName { get; set; }
+
+        [Required, MaxLength(50)]
+        public string LastName { get; set; }
+
         public List<EmployeeRule> EmployeeRules { get; set; } = new List<EmployeeRule>();
 
         public List<VisibilityForDepartment> VisibilityForDepartments { get; set; } = new List<VisibilityForDepartment>();

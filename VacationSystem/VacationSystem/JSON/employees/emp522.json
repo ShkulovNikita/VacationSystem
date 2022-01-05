@@ -1,0 +1,14 @@
+﻿{
+	"Id": "522",
+	"FirstName": "Александр",
+	"MiddleName": "Владимирович",
+	"LastName": "Воробьев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "39",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3197",
+	"FirstName": "Игорь",
+	"MiddleName": "Леонидович",
+	"LastName": "Боровков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "260",
+			"HeadOfDepartment": false,
+			"Position": "263"
+		}
+	]
+}

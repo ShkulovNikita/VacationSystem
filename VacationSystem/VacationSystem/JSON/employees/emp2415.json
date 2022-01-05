@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2415",
+	"FirstName": "Наталья",
+	"MiddleName": "Евгеньевна",
+	"LastName": "Баирова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "170",
+			"HeadOfDepartment": false,
+			"Position": "185"
+		}
+	]
+}

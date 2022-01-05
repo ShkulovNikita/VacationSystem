@@ -1,0 +1,19 @@
+﻿{
+	"Id": "3359",
+	"FirstName": "Иван",
+	"MiddleName": "",
+	"LastName": "Саквин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "53",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		},
+		{
+			"Id": "53",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

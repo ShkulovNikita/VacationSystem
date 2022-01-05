@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2928",
+	"FirstName": "Зинаида",
+	"MiddleName": "Васильевна",
+	"LastName": "Евсютина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "218",
+			"HeadOfDepartment": false,
+			"Position": "11"
+		}
+	]
+}

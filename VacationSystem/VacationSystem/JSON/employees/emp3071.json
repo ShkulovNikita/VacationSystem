@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3071",
+	"FirstName": "Никита",
+	"MiddleName": "Владимирович",
+	"LastName": "Буханов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "5",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		}
+	]
+}

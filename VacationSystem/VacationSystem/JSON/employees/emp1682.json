@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1682",
+	"FirstName": "Марат",
+	"MiddleName": "Исламбекович",
+	"LastName": "Кайканов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "64",
+			"HeadOfDepartment": false,
+			"Position": "24"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3798",
+	"FirstName": "Виктор",
+	"MiddleName": "Алексеевич",
+	"LastName": "Кафаров",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "230",
+			"HeadOfDepartment": false,
+			"Position": "298"
+		}
+	]
+}

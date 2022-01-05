@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2524",
+	"FirstName": "Александр",
+	"MiddleName": "Александрович",
+	"LastName": "Яничев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "72",
+			"HeadOfDepartment": false,
+			"Position": "180"
+		}
+	]
+}

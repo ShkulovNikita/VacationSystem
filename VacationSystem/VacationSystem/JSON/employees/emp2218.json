@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2218",
+	"FirstName": "Тамара",
+	"MiddleName": "Алексеевна",
+	"LastName": "Байдали",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "17",
+			"HeadOfDepartment": false,
+			"Position": "2"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2271",
+	"FirstName": "Светлана",
+	"MiddleName": "Геннадьевна",
+	"LastName": "Симаковская",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "33",
+			"HeadOfDepartment": false,
+			"Position": "39"
+		}
+	]
+}

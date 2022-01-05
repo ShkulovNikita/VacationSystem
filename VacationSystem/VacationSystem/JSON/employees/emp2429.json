@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2429",
+	"FirstName": "Николай",
+	"MiddleName": "Степанович",
+	"LastName": "Егоров",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "16",
+			"HeadOfDepartment": false,
+			"Position": "237"
+		}
+	]
+}

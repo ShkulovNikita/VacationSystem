@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2320",
+	"FirstName": "Ирина",
+	"MiddleName": "Владимировна",
+	"LastName": "Котова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "242",
+			"HeadOfDepartment": false,
+			"Position": "34"
+		}
+	]
+}

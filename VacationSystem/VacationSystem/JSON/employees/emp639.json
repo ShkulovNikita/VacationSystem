@@ -1,0 +1,14 @@
+﻿{
+	"Id": "639",
+	"FirstName": "Юлия",
+	"MiddleName": "Григорьевна",
+	"LastName": "Копылова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "135",
+			"HeadOfDepartment": false,
+			"Position": "119"
+		}
+	]
+}

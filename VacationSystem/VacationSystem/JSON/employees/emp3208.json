@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3208",
+	"FirstName": "Владимир",
+	"MiddleName": "Александрович",
+	"LastName": "Корин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "91",
+			"HeadOfDepartment": false,
+			"Position": "64"
+		}
+	]
+}

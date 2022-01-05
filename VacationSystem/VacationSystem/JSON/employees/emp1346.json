@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1346",
+	"FirstName": "Евгений",
+	"MiddleName": "Александрович",
+	"LastName": "Киреев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "50",
+			"HeadOfDepartment": false,
+			"Position": "11"
+		}
+	]
+}

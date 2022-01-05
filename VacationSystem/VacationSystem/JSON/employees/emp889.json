@@ -1,0 +1,14 @@
+﻿{
+	"Id": "889",
+	"FirstName": "Игорь",
+	"MiddleName": "Алексеевич",
+	"LastName": "Сычев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "30",
+			"HeadOfDepartment": false,
+			"Position": "102"
+		}
+	]
+}

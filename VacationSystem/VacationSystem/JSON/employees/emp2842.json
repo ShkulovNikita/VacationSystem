@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2842",
+	"FirstName": "Елена",
+	"MiddleName": "Владимировна",
+	"LastName": "Путилина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "26",
+			"HeadOfDepartment": false,
+			"Position": "7"
+		}
+	]
+}

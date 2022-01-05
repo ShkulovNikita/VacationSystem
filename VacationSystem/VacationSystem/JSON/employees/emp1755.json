@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1755",
+	"FirstName": "Ирина",
+	"MiddleName": "Владимировна",
+	"LastName": "Стрелкова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "141",
+			"HeadOfDepartment": false,
+			"Position": "142"
+		}
+	]
+}

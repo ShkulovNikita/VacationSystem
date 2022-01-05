@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1795",
+	"FirstName": "Екатерина",
+	"MiddleName": "Вениаминовна",
+	"LastName": "Максимова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "85",
+			"HeadOfDepartment": false,
+			"Position": "55"
+		}
+	]
+}

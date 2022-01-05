@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1165",
+	"FirstName": "Михаил",
+	"MiddleName": "Владимирович",
+	"LastName": "Андреев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "19",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

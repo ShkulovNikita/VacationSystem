@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2537",
+	"FirstName": "Ирина",
+	"MiddleName": "Иосифовна",
+	"LastName": "Янущик",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "156",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

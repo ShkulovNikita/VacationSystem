@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1399",
+	"FirstName": "Виктория",
+	"MiddleName": "Валерьевна",
+	"LastName": "Русан",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "81",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "370",
+	"FirstName": "Татьяна",
+	"MiddleName": "Владимировна",
+	"LastName": "Баженова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "126",
+			"HeadOfDepartment": false,
+			"Position": "71"
+		}
+	]
+}

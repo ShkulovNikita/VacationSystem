@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2669",
+	"FirstName": "Мария",
+	"MiddleName": "Антоновна",
+	"LastName": "Никольская",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "116",
+			"HeadOfDepartment": false,
+			"Position": "246"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3108",
+	"FirstName": "Полина",
+	"MiddleName": "Владимировна",
+	"LastName": "Абрамова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "119",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

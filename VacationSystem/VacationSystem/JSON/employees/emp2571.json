@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2571",
+	"FirstName": "Мария",
+	"MiddleName": "Игоревна",
+	"LastName": "Яговкина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "27",
+			"HeadOfDepartment": false,
+			"Position": "62"
+		}
+	]
+}

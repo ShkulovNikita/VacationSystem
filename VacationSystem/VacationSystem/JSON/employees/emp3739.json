@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3739",
+	"FirstName": "Юлия",
+	"MiddleName": "Александровна",
+	"LastName": "Девяшина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "108",
+			"HeadOfDepartment": false,
+			"Position": "20"
+		}
+	]
+}

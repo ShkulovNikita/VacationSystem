@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2827",
+	"FirstName": "Татьяна",
+	"MiddleName": "Сергеевна",
+	"LastName": "Иванова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "126",
+			"HeadOfDepartment": false,
+			"Position": "71"
+		}
+	]
+}

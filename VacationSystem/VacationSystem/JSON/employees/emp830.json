@@ -1,0 +1,19 @@
+﻿{
+	"Id": "830",
+	"FirstName": "Светлана",
+	"MiddleName": "Петровна",
+	"LastName": "Буркова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "93",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		},
+		{
+			"Id": "9",
+			"HeadOfDepartment": false,
+			"Position": "34"
+		}
+	]
+}

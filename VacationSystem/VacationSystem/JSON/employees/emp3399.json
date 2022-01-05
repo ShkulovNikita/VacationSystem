@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3399",
+	"FirstName": "Наталия",
+	"MiddleName": "Владимировна",
+	"LastName": "Герасимчук",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "266",
+			"HeadOfDepartment": false,
+			"Position": "0"
+		}
+	]
+}

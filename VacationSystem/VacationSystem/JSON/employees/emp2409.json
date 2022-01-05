@@ -1,0 +1,19 @@
+﻿{
+	"Id": "2409",
+	"FirstName": "Евгений",
+	"MiddleName": "Анатольевич",
+	"LastName": "Левченко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "52",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		},
+		{
+			"Id": "52",
+			"HeadOfDepartment": false,
+			"Position": "25"
+		}
+	]
+}

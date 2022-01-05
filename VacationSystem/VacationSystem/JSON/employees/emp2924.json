@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2924",
+	"FirstName": "Анна",
+	"MiddleName": "Валериевна",
+	"LastName": "Каряка",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "94",
+			"HeadOfDepartment": false,
+			"Position": "18"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+﻿{
+	"Id": "1073",
+	"FirstName": "Елена",
+	"MiddleName": "Николаевна",
+	"LastName": "Лысенко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "88",
+			"HeadOfDepartment": false,
+			"Position": "2"
+		},
+		{
+			"Id": "57",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

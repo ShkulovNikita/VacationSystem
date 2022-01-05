@@ -1,0 +1,14 @@
+﻿{
+	"Id": "982",
+	"FirstName": "Ольга",
+	"MiddleName": "Юрьевна",
+	"LastName": "Харченко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "136",
+			"HeadOfDepartment": false,
+			"Position": "142"
+		}
+	]
+}

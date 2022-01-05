@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1061",
+	"FirstName": "Ольга",
+	"MiddleName": "Дмитриевна",
+	"LastName": "Ушанова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "85",
+			"HeadOfDepartment": false,
+			"Position": "147"
+		}
+	]
+}

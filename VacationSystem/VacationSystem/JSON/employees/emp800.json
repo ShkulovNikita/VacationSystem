@@ -1,0 +1,14 @@
+﻿{
+	"Id": "800",
+	"FirstName": "Татьяна",
+	"MiddleName": "Владимировна",
+	"LastName": "Захарова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "176",
+			"HeadOfDepartment": false,
+			"Position": "131"
+		}
+	]
+}

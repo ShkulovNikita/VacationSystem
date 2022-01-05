@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3773",
+	"FirstName": "Татьяна",
+	"MiddleName": "Викторовна",
+	"LastName": "Митрофанова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "103",
+			"HeadOfDepartment": false,
+			"Position": "15"
+		}
+	]
+}

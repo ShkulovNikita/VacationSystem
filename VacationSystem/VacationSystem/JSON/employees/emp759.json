@@ -1,0 +1,14 @@
+﻿{
+	"Id": "759",
+	"FirstName": "Ольга",
+	"MiddleName": "Александровна",
+	"LastName": "Никифорова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "77",
+			"HeadOfDepartment": false,
+			"Position": "127"
+		}
+	]
+}

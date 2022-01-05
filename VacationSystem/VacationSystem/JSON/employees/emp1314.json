@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1314",
+	"FirstName": "Евгений",
+	"MiddleName": "Николаевич",
+	"LastName": "Шувалов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "17",
+			"HeadOfDepartment": false,
+			"Position": "103"
+		}
+	]
+}

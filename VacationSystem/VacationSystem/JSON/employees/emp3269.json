@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3269",
+	"FirstName": "Анатолий",
+	"MiddleName": "",
+	"LastName": "Купчишин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "57",
+			"HeadOfDepartment": false,
+			"Position": "56"
+		}
+	]
+}

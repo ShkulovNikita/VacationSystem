@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2361",
+	"FirstName": "Юрий",
+	"MiddleName": "Яковлевич",
+	"LastName": "Раков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "39",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

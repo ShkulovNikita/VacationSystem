@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2299",
+	"FirstName": "Вера",
+	"MiddleName": "Юрьевна",
+	"LastName": "Куксёнок",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "4",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		}
+	]
+}

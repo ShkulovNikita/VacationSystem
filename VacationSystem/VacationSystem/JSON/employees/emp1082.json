@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1082",
+	"FirstName": "Андрей",
+	"MiddleName": "Михайлович",
+	"LastName": "Петелин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "20",
+			"HeadOfDepartment": false,
+			"Position": "45"
+		}
+	]
+}

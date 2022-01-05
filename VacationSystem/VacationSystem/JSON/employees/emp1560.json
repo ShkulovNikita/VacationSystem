@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1560",
+	"FirstName": "Владимир",
+	"MiddleName": "Иванович",
+	"LastName": "Орешкин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "57",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

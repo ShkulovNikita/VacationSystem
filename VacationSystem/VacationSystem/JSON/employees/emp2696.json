@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2696",
+	"FirstName": "Майя",
+	"MiddleName": "Петровна",
+	"LastName": "Сыпало",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "91",
+			"HeadOfDepartment": false,
+			"Position": "241"
+		}
+	]
+}

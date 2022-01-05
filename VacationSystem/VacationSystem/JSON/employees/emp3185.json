@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3185",
+	"FirstName": "Френсис Вальтер К",
+	"MiddleName": "",
+	"LastName": "Верпоорт",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "51",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

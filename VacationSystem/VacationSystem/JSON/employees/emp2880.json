@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2880",
+	"FirstName": "Ольга",
+	"MiddleName": "Александровна",
+	"LastName": "Гилёва",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "126",
+			"HeadOfDepartment": false,
+			"Position": "71"
+		}
+	]
+}

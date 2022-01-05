@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2221",
+	"FirstName": "Тамара",
+	"MiddleName": "Васильевна",
+	"LastName": "Погребенкова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "4",
+			"HeadOfDepartment": false,
+			"Position": "2"
+		}
+	]
+}

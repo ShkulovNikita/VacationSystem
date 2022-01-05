@@ -1,0 +1,14 @@
+﻿{
+	"Id": "774",
+	"FirstName": "Николай",
+	"MiddleName": "Вадимович",
+	"LastName": "Кояин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "84",
+			"HeadOfDepartment": false,
+			"Position": "38"
+		}
+	]
+}

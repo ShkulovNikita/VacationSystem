@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1260",
+	"FirstName": "Мария",
+	"MiddleName": "Сергеевна",
+	"LastName": "Моисеенко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "204",
+			"HeadOfDepartment": false,
+			"Position": "153"
+		}
+	]
+}

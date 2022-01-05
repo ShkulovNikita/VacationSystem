@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1357",
+	"FirstName": "Александр",
+	"MiddleName": "Валерьевич",
+	"LastName": "Шадрин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "122",
+			"HeadOfDepartment": false,
+			"Position": "103"
+		}
+	]
+}

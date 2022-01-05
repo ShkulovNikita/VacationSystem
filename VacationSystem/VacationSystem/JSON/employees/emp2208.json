@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2208",
+	"FirstName": "Марина",
+	"MiddleName": "Юрьевна",
+	"LastName": "Пичугина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "3",
+			"HeadOfDepartment": false,
+			"Position": "0"
+		}
+	]
+}

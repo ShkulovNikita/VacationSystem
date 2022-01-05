@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1474",
+	"FirstName": "Светлана",
+	"MiddleName": "Николаевна",
+	"LastName": "Клименко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "97",
+			"HeadOfDepartment": false,
+			"Position": "65"
+		}
+	]
+}

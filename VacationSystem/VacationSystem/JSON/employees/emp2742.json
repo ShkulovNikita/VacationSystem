@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2742",
+	"FirstName": "Анна",
+	"MiddleName": "Юрьевна",
+	"LastName": "Карпова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "3",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

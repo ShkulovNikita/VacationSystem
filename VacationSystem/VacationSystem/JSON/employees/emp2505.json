@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2505",
+	"FirstName": "Лариса",
+	"MiddleName": "Петровна",
+	"LastName": "Окишева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "103",
+			"HeadOfDepartment": false,
+			"Position": "194"
+		}
+	]
+}

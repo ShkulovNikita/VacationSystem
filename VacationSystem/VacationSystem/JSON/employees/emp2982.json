@@ -1,0 +1,19 @@
+﻿{
+	"Id": "2982",
+	"FirstName": "Константин",
+	"MiddleName": "Мадестович",
+	"LastName": "Минаев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "212",
+			"HeadOfDepartment": false,
+			"Position": "2"
+		},
+		{
+			"Id": "46",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

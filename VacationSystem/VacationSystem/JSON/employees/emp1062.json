@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1062",
+	"FirstName": "Сергей",
+	"MiddleName": "Мирославович",
+	"LastName": "Фалендыш",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "112",
+			"HeadOfDepartment": false,
+			"Position": "148"
+		}
+	]
+}

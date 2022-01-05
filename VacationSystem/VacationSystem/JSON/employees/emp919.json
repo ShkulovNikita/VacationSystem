@@ -1,0 +1,14 @@
+﻿{
+	"Id": "919",
+	"FirstName": "Евгений",
+	"MiddleName": "Алексеевич",
+	"LastName": "Мамонов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "50",
+			"HeadOfDepartment": false,
+			"Position": "32"
+		}
+	]
+}

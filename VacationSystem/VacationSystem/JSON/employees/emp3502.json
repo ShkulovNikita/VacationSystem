@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3502",
+	"FirstName": "Дмитрий",
+	"MiddleName": "Николаевич",
+	"LastName": "Аточин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "4",
+			"HeadOfDepartment": false,
+			"Position": "56"
+		}
+	]
+}

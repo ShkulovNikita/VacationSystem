@@ -1,0 +1,14 @@
+﻿{
+	"Id": "577",
+	"FirstName": "Юрий",
+	"MiddleName": "Яковлевич",
+	"LastName": "Ненахов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "1",
+			"HeadOfDepartment": false,
+			"Position": "2"
+		}
+	]
+}

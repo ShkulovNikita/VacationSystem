@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1725",
+	"FirstName": "Елена",
+	"MiddleName": "Викторовна",
+	"LastName": "Хоменок",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "110",
+			"HeadOfDepartment": false,
+			"Position": "202"
+		}
+	]
+}

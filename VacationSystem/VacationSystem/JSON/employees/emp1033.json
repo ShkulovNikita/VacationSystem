@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1033",
+	"FirstName": "Евгения",
+	"MiddleName": "Сергеевна",
+	"LastName": "Моисеева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "191",
+			"HeadOfDepartment": false,
+			"Position": "145"
+		}
+	]
+}

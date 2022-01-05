@@ -1,0 +1,14 @@
+﻿{
+	"Id": "998",
+	"FirstName": "Константин",
+	"MiddleName": "Станиславович",
+	"LastName": "Бразовский",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "51",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

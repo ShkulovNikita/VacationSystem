@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1420",
+	"FirstName": "Валентина",
+	"MiddleName": "Викторовна",
+	"LastName": "Машина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "139",
+			"HeadOfDepartment": false,
+			"Position": "9"
+		}
+	]
+}

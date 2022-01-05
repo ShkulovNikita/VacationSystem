@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3497",
+	"FirstName": "Егор",
+	"MiddleName": "Игоревич",
+	"LastName": "Арышев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "168",
+			"HeadOfDepartment": false,
+			"Position": "156"
+		}
+	]
+}

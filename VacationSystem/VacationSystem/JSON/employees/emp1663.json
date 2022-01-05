@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1663",
+	"FirstName": "Ирина",
+	"MiddleName": "Владимировна",
+	"LastName": "Корюкина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "109",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

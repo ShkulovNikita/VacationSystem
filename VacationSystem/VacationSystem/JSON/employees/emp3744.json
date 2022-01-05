@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3744",
+	"FirstName": "Олеся",
+	"MiddleName": "Николаевна",
+	"LastName": "Болотникова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "61",
+			"HeadOfDepartment": false,
+			"Position": "39"
+		}
+	]
+}

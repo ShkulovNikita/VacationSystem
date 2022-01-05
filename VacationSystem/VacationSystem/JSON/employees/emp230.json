@@ -1,0 +1,14 @@
+﻿{
+	"Id": "230",
+	"FirstName": "Михаил",
+	"MiddleName": "Викторович",
+	"LastName": "Шевелев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "98",
+			"HeadOfDepartment": false,
+			"Position": "56"
+		}
+	]
+}

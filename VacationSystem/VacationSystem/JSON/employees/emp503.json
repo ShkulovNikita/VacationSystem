@@ -1,0 +1,14 @@
+﻿{
+	"Id": "503",
+	"FirstName": "Ирина",
+	"MiddleName": "Ивановна",
+	"LastName": "Емелина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "146",
+			"HeadOfDepartment": false,
+			"Position": "80"
+		}
+	]
+}

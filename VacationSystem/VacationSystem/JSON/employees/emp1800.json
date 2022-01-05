@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1800",
+	"FirstName": "Иван",
+	"MiddleName": "Сергеевич",
+	"LastName": "Хомяков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "46",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

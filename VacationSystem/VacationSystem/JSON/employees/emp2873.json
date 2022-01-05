@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2873",
+	"FirstName": "Евгений",
+	"MiddleName": "Анатольевич",
+	"LastName": "Бондаренко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "214",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

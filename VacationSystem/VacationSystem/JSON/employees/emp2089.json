@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2089",
+	"FirstName": "Андрей",
+	"MiddleName": "Николаевич",
+	"LastName": "Мальчуков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "26",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

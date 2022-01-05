@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2075",
+	"FirstName": "Екатерина",
+	"MiddleName": "Геннадьевна",
+	"LastName": "Кокотюха",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "9",
+			"HeadOfDepartment": false,
+			"Position": "18"
+		}
+	]
+}

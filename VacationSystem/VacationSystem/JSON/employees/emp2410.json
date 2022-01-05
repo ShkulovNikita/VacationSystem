@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2410",
+	"FirstName": "Андрей",
+	"MiddleName": "Сергеевич",
+	"LastName": "Фомичёв",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "99",
+			"HeadOfDepartment": false,
+			"Position": "80"
+		}
+	]
+}

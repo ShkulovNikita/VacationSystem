@@ -1,0 +1,19 @@
+﻿{
+	"Id": "282",
+	"FirstName": "Игорь",
+	"MiddleName": "Станиславович",
+	"LastName": "Яскевич",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "110",
+			"HeadOfDepartment": false,
+			"Position": "71"
+		},
+		{
+			"Id": "59",
+			"HeadOfDepartment": false,
+			"Position": "72"
+		}
+	]
+}

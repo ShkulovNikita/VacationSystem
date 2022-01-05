@@ -1,0 +1,14 @@
+﻿{
+	"Id": "121",
+	"FirstName": "Ирина",
+	"MiddleName": "Николаевна",
+	"LastName": "Упадышева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "70",
+			"HeadOfDepartment": false,
+			"Position": "45"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1999",
+	"FirstName": "Юрий",
+	"MiddleName": "Викторович",
+	"LastName": "Бородин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "57",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

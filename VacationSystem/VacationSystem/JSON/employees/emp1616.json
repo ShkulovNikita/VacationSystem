@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1616",
+	"FirstName": "Евгения",
+	"MiddleName": "Владимировна",
+	"LastName": "Иванова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "39",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

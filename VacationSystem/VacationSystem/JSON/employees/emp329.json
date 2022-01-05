@@ -1,0 +1,14 @@
+﻿{
+	"Id": "329",
+	"FirstName": "Елена",
+	"MiddleName": "Якубовна",
+	"LastName": "Бельская",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "69",
+			"HeadOfDepartment": false,
+			"Position": "18"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1457",
+	"FirstName": "Александр",
+	"MiddleName": "Васильевич",
+	"LastName": "Березовский",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "169",
+			"HeadOfDepartment": false,
+			"Position": "169"
+		}
+	]
+}

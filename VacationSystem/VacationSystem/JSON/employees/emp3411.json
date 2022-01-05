@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3411",
+	"FirstName": "Марина",
+	"MiddleName": "Сергеевна",
+	"LastName": "Гончарова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "163",
+			"HeadOfDepartment": false,
+			"Position": "69"
+		}
+	]
+}

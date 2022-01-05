@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1270",
+	"FirstName": "Алексей",
+	"MiddleName": "Александрович",
+	"LastName": "Логинов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "122",
+			"HeadOfDepartment": false,
+			"Position": "114"
+		}
+	]
+}

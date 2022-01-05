@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3318",
+	"FirstName": "Анжелика",
+	"MiddleName": "Богдановна",
+	"LastName": "Войцович",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "91",
+			"HeadOfDepartment": false,
+			"Position": "273"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "725",
+	"FirstName": "Константин",
+	"MiddleName": "Леонидович",
+	"LastName": "Новоселов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "1",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

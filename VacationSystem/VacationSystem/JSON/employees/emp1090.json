@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1090",
+	"FirstName": "Елена",
+	"MiddleName": "Петровна",
+	"LastName": "Пигарева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "146",
+			"HeadOfDepartment": false,
+			"Position": "45"
+		}
+	]
+}

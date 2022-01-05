@@ -1,0 +1,14 @@
+﻿{
+	"Id": "172",
+	"FirstName": "Татьяна",
+	"MiddleName": "Николаевна",
+	"LastName": "Кудрина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "86",
+			"HeadOfDepartment": false,
+			"Position": "57"
+		}
+	]
+}

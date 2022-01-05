@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2477",
+	"FirstName": "Валентин",
+	"MiddleName": "Леонидович",
+	"LastName": "Попов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "15",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

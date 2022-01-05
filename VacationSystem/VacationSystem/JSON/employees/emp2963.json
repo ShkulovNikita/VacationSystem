@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2963",
+	"FirstName": "Вера",
+	"MiddleName": "Сергеевна",
+	"LastName": "Ефимова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "9",
+			"HeadOfDepartment": false,
+			"Position": "18"
+		}
+	]
+}

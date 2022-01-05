@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2723",
+	"FirstName": "Ольга",
+	"MiddleName": "Андреевна",
+	"LastName": "Антипанова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "130",
+			"HeadOfDepartment": false,
+			"Position": "53"
+		}
+	]
+}

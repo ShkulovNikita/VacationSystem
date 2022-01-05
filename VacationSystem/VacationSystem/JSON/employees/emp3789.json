@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3789",
+	"FirstName": "Павел",
+	"MiddleName": "Алексеевич",
+	"LastName": "Стуканов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "134",
+			"HeadOfDepartment": false,
+			"Position": "157"
+		}
+	]
+}

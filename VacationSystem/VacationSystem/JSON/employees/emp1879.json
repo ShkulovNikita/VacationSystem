@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1879",
+	"FirstName": "Михаил",
+	"MiddleName": "Сергеевич",
+	"LastName": "Суходоев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "6",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

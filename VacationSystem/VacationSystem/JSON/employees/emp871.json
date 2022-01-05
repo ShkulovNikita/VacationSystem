@@ -1,0 +1,14 @@
+﻿{
+	"Id": "871",
+	"FirstName": "Раиса",
+	"MiddleName": "Владимировна",
+	"LastName": "Толокнова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "56",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

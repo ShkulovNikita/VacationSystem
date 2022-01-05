@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1635",
+	"FirstName": "Елена",
+	"MiddleName": "Александровна",
+	"LastName": "Покровская",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "2",
+			"HeadOfDepartment": false,
+			"Position": "10"
+		}
+	]
+}

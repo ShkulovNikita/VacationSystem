@@ -1,0 +1,19 @@
+﻿{
+	"Id": "1874",
+	"FirstName": "Юлия",
+	"MiddleName": "Владимировна",
+	"LastName": "Анищенко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "51",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		},
+		{
+			"Id": "57",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

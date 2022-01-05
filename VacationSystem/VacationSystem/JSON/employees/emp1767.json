@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1767",
+	"FirstName": "Анастасия",
+	"MiddleName": "Сергеевна",
+	"LastName": "Корякина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "213",
+			"HeadOfDepartment": false,
+			"Position": "209"
+		}
+	]
+}

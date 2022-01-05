@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3703",
+	"FirstName": "Павел",
+	"MiddleName": "Константинович",
+	"LastName": "Михайлюк",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "4",
+			"HeadOfDepartment": false,
+			"Position": "56"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2279",
+	"FirstName": "Любовь",
+	"MiddleName": "Александровна",
+	"LastName": "Хоботкова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "133",
+			"HeadOfDepartment": false,
+			"Position": "0"
+		}
+	]
+}

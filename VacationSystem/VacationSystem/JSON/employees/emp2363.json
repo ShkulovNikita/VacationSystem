@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2363",
+	"FirstName": "Ольга",
+	"MiddleName": "Владимировна",
+	"LastName": "Коваленко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "172",
+			"HeadOfDepartment": false,
+			"Position": "75"
+		}
+	]
+}

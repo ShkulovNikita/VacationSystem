@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1382",
+	"FirstName": "Валентина",
+	"MiddleName": "Викторовна",
+	"LastName": "Сохорева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "175",
+			"HeadOfDepartment": false,
+			"Position": "24"
+		}
+	]
+}

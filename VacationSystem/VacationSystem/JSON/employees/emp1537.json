@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1537",
+	"FirstName": "Игнат",
+	"MiddleName": "Валерьевич",
+	"LastName": "Подопригора",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "3",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2029",
+	"FirstName": "Владимир",
+	"MiddleName": "Михайлович",
+	"LastName": "Зырянов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "122",
+			"HeadOfDepartment": false,
+			"Position": "11"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2506",
+	"FirstName": "Анна",
+	"MiddleName": "Александровна",
+	"LastName": "Шаронова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "188",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		}
+	]
+}

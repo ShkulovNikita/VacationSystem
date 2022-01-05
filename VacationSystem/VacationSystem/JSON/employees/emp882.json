@@ -1,0 +1,14 @@
+﻿{
+	"Id": "882",
+	"FirstName": "Светлана",
+	"MiddleName": "Юрьевна",
+	"LastName": "Максимова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "77",
+			"HeadOfDepartment": false,
+			"Position": "38"
+		}
+	]
+}

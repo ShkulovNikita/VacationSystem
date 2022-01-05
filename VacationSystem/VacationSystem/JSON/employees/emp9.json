@@ -1,0 +1,14 @@
+﻿{
+	"Id": "9",
+	"FirstName": "Анжела",
+	"MiddleName": "Всеволодовна",
+	"LastName": "Алимаева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "9",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

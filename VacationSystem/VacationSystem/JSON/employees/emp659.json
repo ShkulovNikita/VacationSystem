@@ -1,0 +1,14 @@
+﻿{
+	"Id": "659",
+	"FirstName": "Эльвира",
+	"MiddleName": "Юрьевна",
+	"LastName": "Панькова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "33",
+			"HeadOfDepartment": false,
+			"Position": "121"
+		}
+	]
+}

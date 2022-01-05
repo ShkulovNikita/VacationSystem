@@ -1,0 +1,19 @@
+﻿{
+	"Id": "93",
+	"FirstName": "Ольга",
+	"MiddleName": "Валерьевна",
+	"LastName": "Гальцева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "57",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		},
+		{
+			"Id": "57",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2644",
+	"FirstName": "Елизавета",
+	"MiddleName": "Павловна",
+	"LastName": "Каркавина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "103",
+			"HeadOfDepartment": false,
+			"Position": "244"
+		}
+	]
+}

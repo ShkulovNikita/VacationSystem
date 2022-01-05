@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2375",
+	"FirstName": "Ирина",
+	"MiddleName": "Алексеевна",
+	"LastName": "Матвеенко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "0",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

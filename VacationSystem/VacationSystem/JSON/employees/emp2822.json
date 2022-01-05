@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2822",
+	"FirstName": "Ольга",
+	"MiddleName": "Юрьевна",
+	"LastName": "Комарова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "97",
+			"HeadOfDepartment": false,
+			"Position": "71"
+		}
+	]
+}

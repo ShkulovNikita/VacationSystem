@@ -1,0 +1,14 @@
+﻿{
+	"Id": "966",
+	"FirstName": "Алексей",
+	"MiddleName": "Алексеевич",
+	"LastName": "Ляпков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "51",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

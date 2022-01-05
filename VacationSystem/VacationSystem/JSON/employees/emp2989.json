@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2989",
+	"FirstName": "Аркадий",
+	"MiddleName": "Николаевич",
+	"LastName": "Петров",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "180",
+			"HeadOfDepartment": false,
+			"Position": "64"
+		}
+	]
+}

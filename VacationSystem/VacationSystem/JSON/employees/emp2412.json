@@ -1,0 +1,19 @@
+﻿{
+	"Id": "2412",
+	"FirstName": "Илья",
+	"MiddleName": "Владимирович",
+	"LastName": "Петлин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "17",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		},
+		{
+			"Id": "2",
+			"HeadOfDepartment": false,
+			"Position": "35"
+		}
+	]
+}

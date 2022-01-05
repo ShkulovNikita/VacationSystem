@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1126",
+	"FirstName": "Елена",
+	"MiddleName": "Владимировна",
+	"LastName": "Якименко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "0",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		}
+	]
+}

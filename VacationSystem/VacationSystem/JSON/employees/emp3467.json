@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3467",
+	"FirstName": "Висах",
+	"MiddleName": "",
+	"LastName": "Путхенпуракалчира Маниян",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "57",
+			"HeadOfDepartment": false,
+			"Position": "56"
+		}
+	]
+}

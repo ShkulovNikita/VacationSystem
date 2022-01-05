@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1447",
+	"FirstName": "Виктор",
+	"MiddleName": "Алексеевич",
+	"LastName": "Ваулин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "186",
+			"HeadOfDepartment": false,
+			"Position": "11"
+		}
+	]
+}

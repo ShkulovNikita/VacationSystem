@@ -1,0 +1,19 @@
+﻿{
+	"Id": "226",
+	"FirstName": "Иван",
+	"MiddleName": "Викторович",
+	"LastName": "Ломов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "17",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		},
+		{
+			"Id": "67",
+			"HeadOfDepartment": false,
+			"Position": "48"
+		}
+	]
+}

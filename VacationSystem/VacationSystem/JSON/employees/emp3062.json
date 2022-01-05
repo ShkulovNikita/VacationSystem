@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3062",
+	"FirstName": "Роман",
+	"MiddleName": "Владимирович",
+	"LastName": "Зельчан",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "192",
+			"HeadOfDepartment": false,
+			"Position": "24"
+		}
+	]
+}

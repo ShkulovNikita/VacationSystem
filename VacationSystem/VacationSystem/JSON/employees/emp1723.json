@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1723",
+	"FirstName": "Вероника",
+	"MiddleName": "Евгеньевна",
+	"LastName": "Миронова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "0",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		}
+	]
+}

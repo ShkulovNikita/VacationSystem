@@ -1,0 +1,14 @@
+﻿{
+	"Id": "863",
+	"FirstName": "Валерия",
+	"MiddleName": "Вадимовна",
+	"LastName": "Бикбавова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "126",
+			"HeadOfDepartment": false,
+			"Position": "65"
+		}
+	]
+}

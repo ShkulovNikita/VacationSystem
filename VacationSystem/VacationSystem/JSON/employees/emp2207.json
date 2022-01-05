@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2207",
+	"FirstName": "Нина",
+	"MiddleName": "Владимировна",
+	"LastName": "Ливенцова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "17",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

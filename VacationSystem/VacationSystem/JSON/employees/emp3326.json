@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3326",
+	"FirstName": "Олег",
+	"MiddleName": "Юрьевич",
+	"LastName": "Бурушин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "59",
+			"HeadOfDepartment": false,
+			"Position": "37"
+		}
+	]
+}

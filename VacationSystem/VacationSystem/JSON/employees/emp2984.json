@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2984",
+	"FirstName": "Сергей",
+	"MiddleName": "Николаевич",
+	"LastName": "Ткачёв",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "50",
+			"HeadOfDepartment": false,
+			"Position": "32"
+		}
+	]
+}

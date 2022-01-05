@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1919",
+	"FirstName": "Анастасия",
+	"MiddleName": "Владимировна",
+	"LastName": "Казаева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "66",
+			"HeadOfDepartment": false,
+			"Position": "80"
+		}
+	]
+}

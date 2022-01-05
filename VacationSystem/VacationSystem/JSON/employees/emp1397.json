@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1397",
+	"FirstName": "Юлия",
+	"MiddleName": "Викторовна",
+	"LastName": "Щеголихина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "0",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

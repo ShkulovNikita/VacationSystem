@@ -1,0 +1,14 @@
+﻿{
+	"Id": "243",
+	"FirstName": "Вячеслав",
+	"MiddleName": "Юрьевич",
+	"LastName": "Половников",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "39",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

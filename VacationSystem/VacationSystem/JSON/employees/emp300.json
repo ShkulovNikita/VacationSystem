@@ -1,0 +1,14 @@
+﻿{
+	"Id": "300",
+	"FirstName": "Татьяна",
+	"MiddleName": "Юрьевна",
+	"LastName": "Айкина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "0",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1367",
+	"FirstName": "Владислав",
+	"MiddleName": "Леонидович",
+	"LastName": "Бибик",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "9",
+			"HeadOfDepartment": false,
+			"Position": "58"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1714",
+	"FirstName": "Роберт",
+	"MiddleName": "Игоревич",
+	"LastName": "Лейсле",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "170",
+			"HeadOfDepartment": false,
+			"Position": "185"
+		}
+	]
+}

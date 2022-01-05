@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2365",
+	"FirstName": "Олеся",
+	"MiddleName": "Анатольевна",
+	"LastName": "Кожемяк",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "8",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		}
+	]
+}

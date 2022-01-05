@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3036",
+	"FirstName": "Екатерина",
+	"MiddleName": "Евгеньевна",
+	"LastName": "Васильева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "163",
+			"HeadOfDepartment": false,
+			"Position": "57"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3255",
+	"FirstName": "Массимилиано",
+	"MiddleName": "",
+	"LastName": "Бестетти",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "56",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

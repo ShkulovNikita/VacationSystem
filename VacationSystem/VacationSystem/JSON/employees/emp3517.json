@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3517",
+	"FirstName": "Андрей",
+	"MiddleName": "Алексеевич",
+	"LastName": "Гудничев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "168",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

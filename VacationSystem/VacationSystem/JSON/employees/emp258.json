@@ -1,0 +1,14 @@
+﻿{
+	"Id": "258",
+	"FirstName": "Екатерина",
+	"MiddleName": "Валентиновна",
+	"LastName": "Меньшикова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "3",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

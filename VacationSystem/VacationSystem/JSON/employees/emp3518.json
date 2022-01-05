@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3518",
+	"FirstName": "Мария",
+	"MiddleName": "Григорьевна",
+	"LastName": "Попова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "34",
+			"HeadOfDepartment": false,
+			"Position": "87"
+		}
+	]
+}

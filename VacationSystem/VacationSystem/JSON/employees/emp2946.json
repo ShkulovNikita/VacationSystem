@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2946",
+	"FirstName": "Юрий",
+	"MiddleName": "Николаевич",
+	"LastName": "Костык",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "183",
+			"HeadOfDepartment": false,
+			"Position": "20"
+		}
+	]
+}

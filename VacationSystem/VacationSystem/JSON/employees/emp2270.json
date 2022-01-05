@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2270",
+	"FirstName": "Светлана",
+	"MiddleName": "Федоровна",
+	"LastName": "Сизаск",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "15",
+			"HeadOfDepartment": false,
+			"Position": "70"
+		}
+	]
+}

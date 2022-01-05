@@ -1,0 +1,14 @@
+﻿{
+	"Id": "624",
+	"FirstName": "Александр",
+	"MiddleName": "Николаевич",
+	"LastName": "Мягкий",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "53",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

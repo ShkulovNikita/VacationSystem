@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2594",
+	"FirstName": "Владимир",
+	"MiddleName": "Сергеевич",
+	"LastName": "Кузнецов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "215",
+			"HeadOfDepartment": false,
+			"Position": "242"
+		}
+	]
+}

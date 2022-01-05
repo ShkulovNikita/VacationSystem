@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1115",
+	"FirstName": "Ольга",
+	"MiddleName": "Владимировна",
+	"LastName": "Уманская",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "189",
+			"HeadOfDepartment": false,
+			"Position": "18"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "308",
+	"FirstName": "Евгений",
+	"MiddleName": "Фидельевич",
+	"LastName": "Токач",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "68",
+			"HeadOfDepartment": false,
+			"Position": "81"
+		}
+	]
+}

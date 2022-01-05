@@ -1,0 +1,14 @@
+﻿{
+	"Id": "494",
+	"FirstName": "Нина",
+	"MiddleName": "Викторовна",
+	"LastName": "Демешко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "20",
+			"HeadOfDepartment": false,
+			"Position": "103"
+		}
+	]
+}

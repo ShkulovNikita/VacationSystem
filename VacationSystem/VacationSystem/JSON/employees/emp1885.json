@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1885",
+	"FirstName": "Аркадий",
+	"MiddleName": "Вячеславович",
+	"LastName": "Аникин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "96",
+			"HeadOfDepartment": false,
+			"Position": "156"
+		}
+	]
+}

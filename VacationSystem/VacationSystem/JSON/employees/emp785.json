@@ -1,0 +1,14 @@
+﻿{
+	"Id": "785",
+	"FirstName": "Галина",
+	"MiddleName": "Степановна",
+	"LastName": "Логунович",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "174",
+			"HeadOfDepartment": false,
+			"Position": "15"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3706",
+	"FirstName": "Валерий",
+	"MiddleName": "Геннадьевич",
+	"LastName": "Пименов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "47",
+			"HeadOfDepartment": false,
+			"Position": "30"
+		}
+	]
+}

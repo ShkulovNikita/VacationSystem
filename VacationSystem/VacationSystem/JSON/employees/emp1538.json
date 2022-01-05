@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1538",
+	"FirstName": "Светлана",
+	"MiddleName": "Вячеславовна",
+	"LastName": "Алферова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "199",
+			"HeadOfDepartment": false,
+			"Position": "154"
+		}
+	]
+}

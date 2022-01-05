@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3155",
+	"FirstName": "Александр",
+	"MiddleName": "Александрович",
+	"LastName": "Костюченко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "168",
+			"HeadOfDepartment": false,
+			"Position": "156"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "713",
+	"FirstName": "Валерий",
+	"MiddleName": "Анатольевич",
+	"LastName": "Пашкин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "2",
+			"HeadOfDepartment": false,
+			"Position": "25"
+		}
+	]
+}

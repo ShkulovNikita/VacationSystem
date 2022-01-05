@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3655",
+	"FirstName": "Ольга",
+	"MiddleName": "Александровна",
+	"LastName": "Аникина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "257",
+			"HeadOfDepartment": false,
+			"Position": "20"
+		}
+	]
+}

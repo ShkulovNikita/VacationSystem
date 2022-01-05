@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3693",
+	"FirstName": "Дмитрий",
+	"MiddleName": "Викторович",
+	"LastName": "Бобков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "50",
+			"HeadOfDepartment": false,
+			"Position": "247"
+		}
+	]
+}

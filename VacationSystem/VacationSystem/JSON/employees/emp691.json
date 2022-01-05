@@ -1,0 +1,14 @@
+﻿{
+	"Id": "691",
+	"FirstName": "Любовь",
+	"MiddleName": "Афанасьевна",
+	"LastName": "Краснощекова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "1",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

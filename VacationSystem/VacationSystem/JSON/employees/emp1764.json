@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1764",
+	"FirstName": "Людмила",
+	"MiddleName": "Федоровна",
+	"LastName": "Травкина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "228",
+			"HeadOfDepartment": false,
+			"Position": "194"
+		}
+	]
+}

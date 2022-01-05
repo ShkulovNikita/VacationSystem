@@ -1,0 +1,14 @@
+﻿{
+	"Id": "921",
+	"FirstName": "Ольга",
+	"MiddleName": "Васильевна",
+	"LastName": "Чемерская",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "124",
+			"HeadOfDepartment": false,
+			"Position": "21"
+		}
+	]
+}

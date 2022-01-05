@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2391",
+	"FirstName": "Лариса",
+	"MiddleName": "Оразбаевна",
+	"LastName": "Копошенко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "199",
+			"HeadOfDepartment": false,
+			"Position": "154"
+		}
+	]
+}

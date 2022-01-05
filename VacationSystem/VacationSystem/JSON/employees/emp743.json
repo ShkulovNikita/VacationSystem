@@ -1,0 +1,14 @@
+﻿{
+	"Id": "743",
+	"FirstName": "Татьяна",
+	"MiddleName": "Егоровна",
+	"LastName": "Хегай",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "66",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

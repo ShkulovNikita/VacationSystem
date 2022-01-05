@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3764",
+	"FirstName": "Елена",
+	"MiddleName": "Александровна",
+	"LastName": "Кравченко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "195",
+			"HeadOfDepartment": false,
+			"Position": "21"
+		}
+	]
+}

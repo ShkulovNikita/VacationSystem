@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2787",
+	"FirstName": "Екатерина",
+	"MiddleName": "Андреевна",
+	"LastName": "Тришкина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "213",
+			"HeadOfDepartment": false,
+			"Position": "164"
+		}
+	]
+}

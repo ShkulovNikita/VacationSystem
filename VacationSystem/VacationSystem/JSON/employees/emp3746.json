@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3746",
+	"FirstName": "Алексей",
+	"MiddleName": "Владимирович",
+	"LastName": "Резник",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "85",
+			"HeadOfDepartment": false,
+			"Position": "54"
+		}
+	]
+}

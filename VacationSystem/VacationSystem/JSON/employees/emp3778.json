@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3778",
+	"FirstName": "Юлия",
+	"MiddleName": "Сергеевна",
+	"LastName": "Вершинина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "173",
+			"HeadOfDepartment": false,
+			"Position": "157"
+		}
+	]
+}

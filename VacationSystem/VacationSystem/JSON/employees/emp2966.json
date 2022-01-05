@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2966",
+	"FirstName": "Олег",
+	"MiddleName": "Иванович",
+	"LastName": "Тузяк",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "158",
+			"HeadOfDepartment": false,
+			"Position": "156"
+		}
+	]
+}

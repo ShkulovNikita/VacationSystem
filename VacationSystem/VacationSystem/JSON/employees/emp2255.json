@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2255",
+	"FirstName": "Сергей",
+	"MiddleName": "Олегович",
+	"LastName": "Котов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "66",
+			"HeadOfDepartment": false,
+			"Position": "16"
+		}
+	]
+}

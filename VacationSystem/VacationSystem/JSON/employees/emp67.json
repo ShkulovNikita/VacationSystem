@@ -1,0 +1,19 @@
+﻿{
+	"Id": "67",
+	"FirstName": "Александр",
+	"MiddleName": "Сергеевич",
+	"LastName": "Рогов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "41",
+			"HeadOfDepartment": false,
+			"Position": "25"
+		},
+		{
+			"Id": "42",
+			"HeadOfDepartment": false,
+			"Position": "26"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3076",
+	"FirstName": "Денис",
+	"MiddleName": "Алексеевич",
+	"LastName": "Стеничкин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "174",
+			"HeadOfDepartment": false,
+			"Position": "79"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2151",
+	"FirstName": "Анна",
+	"MiddleName": "Валерьевна",
+	"LastName": "Долматова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "2",
+			"HeadOfDepartment": false,
+			"Position": "7"
+		}
+	]
+}

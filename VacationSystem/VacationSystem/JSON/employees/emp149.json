@@ -1,0 +1,14 @@
+﻿{
+	"Id": "149",
+	"FirstName": "Ольга",
+	"MiddleName": "Владимировна",
+	"LastName": "Хаустова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "81",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

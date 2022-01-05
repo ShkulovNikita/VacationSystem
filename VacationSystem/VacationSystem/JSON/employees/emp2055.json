@@ -1,0 +1,19 @@
+﻿{
+	"Id": "2055",
+	"FirstName": "Тамара",
+	"MiddleName": "Анатольевна",
+	"LastName": "Курочкина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "201",
+			"HeadOfDepartment": false,
+			"Position": "20"
+		},
+		{
+			"Id": "62",
+			"HeadOfDepartment": false,
+			"Position": "25"
+		}
+	]
+}

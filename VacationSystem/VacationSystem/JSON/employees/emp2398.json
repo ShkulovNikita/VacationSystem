@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2398",
+	"FirstName": "Вячеслав",
+	"MiddleName": "Владимирович",
+	"LastName": "Дурнев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "59",
+			"HeadOfDepartment": false,
+			"Position": "37"
+		}
+	]
+}

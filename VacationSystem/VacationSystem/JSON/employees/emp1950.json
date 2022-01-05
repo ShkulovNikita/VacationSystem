@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1950",
+	"FirstName": "Ирина",
+	"MiddleName": "Анатольевна",
+	"LastName": "Быховец",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "173",
+			"HeadOfDepartment": false,
+			"Position": "10"
+		}
+	]
+}

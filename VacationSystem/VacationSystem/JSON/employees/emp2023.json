@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2023",
+	"FirstName": "Екатерина",
+	"MiddleName": "Николаевна",
+	"LastName": "Степанова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "53",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

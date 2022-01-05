@@ -1,0 +1,14 @@
+﻿{
+	"Id": "339",
+	"FirstName": "Полина",
+	"MiddleName": "Юрьевна",
+	"LastName": "Молчанова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "123",
+			"HeadOfDepartment": false,
+			"Position": "18"
+		}
+	]
+}

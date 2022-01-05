@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2562",
+	"FirstName": "Лидия",
+	"MiddleName": "Анатольевна",
+	"LastName": "Лозовая",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "116",
+			"HeadOfDepartment": false,
+			"Position": "45"
+		}
+	]
+}

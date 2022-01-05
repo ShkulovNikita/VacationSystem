@@ -1,0 +1,14 @@
+﻿{
+	"Id": "783",
+	"FirstName": "Зоя",
+	"MiddleName": "Михайловна",
+	"LastName": "Шубина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "21",
+			"HeadOfDepartment": false,
+			"Position": "106"
+		}
+	]
+}

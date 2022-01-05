@@ -1,0 +1,14 @@
+﻿{
+	"Id": "925",
+	"FirstName": "Евгений",
+	"MiddleName": "Сергеевич",
+	"LastName": "Чердынцев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "26",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

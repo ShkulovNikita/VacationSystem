@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3019",
+	"FirstName": "Дмитрий",
+	"MiddleName": "Рудольфович",
+	"LastName": "Еговцев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "180",
+			"HeadOfDepartment": false,
+			"Position": "79"
+		}
+	]
+}

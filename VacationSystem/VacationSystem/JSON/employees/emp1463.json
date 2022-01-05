@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1463",
+	"FirstName": "Екатерина",
+	"MiddleName": "Викторовна",
+	"LastName": "Кулагина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "27",
+			"HeadOfDepartment": false,
+			"Position": "62"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1562",
+	"FirstName": "Виктор",
+	"MiddleName": "Николаевич",
+	"LastName": "Кудияров",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "53",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

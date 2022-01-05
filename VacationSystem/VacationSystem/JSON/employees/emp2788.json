@@ -1,0 +1,19 @@
+﻿{
+	"Id": "2788",
+	"FirstName": "Евгений",
+	"MiddleName": "",
+	"LastName": "Петренко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "15",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		},
+		{
+			"Id": "15",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

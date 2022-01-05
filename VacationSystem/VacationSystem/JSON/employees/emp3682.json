@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3682",
+	"FirstName": "Галина",
+	"MiddleName": "Григорьевна",
+	"LastName": "Парфенова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "199",
+			"HeadOfDepartment": false,
+			"Position": "154"
+		}
+	]
+}

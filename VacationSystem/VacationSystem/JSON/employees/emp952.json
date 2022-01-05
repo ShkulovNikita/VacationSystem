@@ -1,0 +1,14 @@
+﻿{
+	"Id": "952",
+	"FirstName": "Наталья",
+	"MiddleName": "Олеговна",
+	"LastName": "Чистякова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "14",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+﻿{
+	"Id": "312",
+	"FirstName": "Виктор",
+	"MiddleName": "Владимирович",
+	"LastName": "Малышев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "92",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		},
+		{
+			"Id": "92",
+			"HeadOfDepartment": false,
+			"Position": "11"
+		}
+	]
+}

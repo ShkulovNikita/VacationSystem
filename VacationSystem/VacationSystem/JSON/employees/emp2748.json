@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2748",
+	"FirstName": "Михаил",
+	"MiddleName": "Васильевич",
+	"LastName": "Срибнак",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "50",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2580",
+	"FirstName": "Ирина",
+	"MiddleName": "Владимировна",
+	"LastName": "Чикова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "41",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

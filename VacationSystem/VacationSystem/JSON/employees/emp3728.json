@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3728",
+	"FirstName": "Мансур",
+	"MiddleName": "Маджид",
+	"LastName": "Зиаии",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "1",
+			"HeadOfDepartment": false,
+			"Position": "24"
+		}
+	]
+}

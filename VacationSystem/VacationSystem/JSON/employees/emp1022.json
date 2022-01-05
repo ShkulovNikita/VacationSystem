@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1022",
+	"FirstName": "Кам Ньунг",
+	"MiddleName": "",
+	"LastName": "Фам",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "65",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "583",
+	"FirstName": "Ольга",
+	"MiddleName": "Борисовна",
+	"LastName": "Махрина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "94",
+			"HeadOfDepartment": false,
+			"Position": "16"
+		}
+	]
+}

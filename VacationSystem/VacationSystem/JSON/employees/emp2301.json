@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2301",
+	"FirstName": "Виктор",
+	"MiddleName": "Андреевич",
+	"LastName": "Вайс",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "75",
+			"HeadOfDepartment": false,
+			"Position": "231"
+		}
+	]
+}

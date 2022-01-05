@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1892",
+	"FirstName": "Сергей",
+	"MiddleName": "Владиславович",
+	"LastName": "Волков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "235",
+			"HeadOfDepartment": false,
+			"Position": "45"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "360",
+	"FirstName": "Татьяна",
+	"MiddleName": "Анатольевна",
+	"LastName": "Задорожная",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "57",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

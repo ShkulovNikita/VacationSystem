@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1371",
+	"FirstName": "Татьяна",
+	"MiddleName": "Васильевна",
+	"LastName": "Конюхова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "3",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

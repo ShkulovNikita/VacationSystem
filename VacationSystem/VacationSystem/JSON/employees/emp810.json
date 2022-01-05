@@ -1,0 +1,14 @@
+﻿{
+	"Id": "810",
+	"FirstName": "Марина",
+	"MiddleName": "Витальевна",
+	"LastName": "Верховская",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "3",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

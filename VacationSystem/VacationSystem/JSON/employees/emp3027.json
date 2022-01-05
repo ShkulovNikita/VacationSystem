@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3027",
+	"FirstName": "Юлия",
+	"MiddleName": "Олеговна",
+	"LastName": "Охорзина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "65",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

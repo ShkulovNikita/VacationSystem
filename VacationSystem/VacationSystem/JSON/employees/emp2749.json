@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2749",
+	"FirstName": "Иван",
+	"MiddleName": "Викторович",
+	"LastName": "Миргородский",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "196",
+			"HeadOfDepartment": false,
+			"Position": "64"
+		}
+	]
+}

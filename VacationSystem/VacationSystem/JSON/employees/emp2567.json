@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2567",
+	"FirstName": "Анастасия",
+	"MiddleName": "Александровна",
+	"LastName": "Горбачёва",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "152",
+			"HeadOfDepartment": false,
+			"Position": "80"
+		}
+	]
+}

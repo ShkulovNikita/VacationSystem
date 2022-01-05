@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2114",
+	"FirstName": "Евгения",
+	"MiddleName": "Геннадьевна",
+	"LastName": "Карпова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "46",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2277",
+	"FirstName": "Юрий",
+	"MiddleName": "Алексеевич",
+	"LastName": "Бежаев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "35",
+			"HeadOfDepartment": false,
+			"Position": "11"
+		}
+	]
+}

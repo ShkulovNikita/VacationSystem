@@ -1,0 +1,14 @@
+﻿{
+	"Id": "127",
+	"FirstName": "Елена",
+	"MiddleName": "Сергеевна",
+	"LastName": "Арестова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "16",
+			"HeadOfDepartment": false,
+			"Position": "11"
+		}
+	]
+}

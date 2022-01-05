@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2697",
+	"FirstName": "Светлана",
+	"MiddleName": "Евгеньевна",
+	"LastName": "Рыжова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "26",
+			"HeadOfDepartment": false,
+			"Position": "28"
+		}
+	]
+}

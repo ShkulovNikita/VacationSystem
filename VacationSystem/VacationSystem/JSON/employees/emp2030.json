@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2030",
+	"FirstName": "Любовь",
+	"MiddleName": "Ивановна",
+	"LastName": "Иванкина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "130",
+			"HeadOfDepartment": false,
+			"Position": "41"
+		}
+	]
+}

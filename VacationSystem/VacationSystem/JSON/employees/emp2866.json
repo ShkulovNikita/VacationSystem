@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2866",
+	"FirstName": "Сергей",
+	"MiddleName": "Иванович",
+	"LastName": "Шелудько",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "121",
+			"HeadOfDepartment": false,
+			"Position": "180"
+		}
+	]
+}

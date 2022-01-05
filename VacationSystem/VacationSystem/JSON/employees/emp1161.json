@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1161",
+	"FirstName": "Сергей",
+	"MiddleName": "Михайлович",
+	"LastName": "Лебедев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "197",
+			"HeadOfDepartment": false,
+			"Position": "41"
+		}
+	]
+}

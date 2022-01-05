@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2061",
+	"FirstName": "Александра",
+	"MiddleName": "Сергеевна",
+	"LastName": "Веселова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "34",
+			"HeadOfDepartment": false,
+			"Position": "87"
+		}
+	]
+}

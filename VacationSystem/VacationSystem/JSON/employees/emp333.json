@@ -1,0 +1,14 @@
+﻿{
+	"Id": "333",
+	"FirstName": "Станислав",
+	"MiddleName": "Валериевич",
+	"LastName": "Касьянов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "122",
+			"HeadOfDepartment": false,
+			"Position": "56"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3006",
+	"FirstName": "Екатерина",
+	"MiddleName": "Андреевна",
+	"LastName": "Фофанова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "227",
+			"HeadOfDepartment": false,
+			"Position": "2"
+		}
+	]
+}

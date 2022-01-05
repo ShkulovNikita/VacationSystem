@@ -1,0 +1,14 @@
+﻿{
+	"Id": "330",
+	"FirstName": "Наталья",
+	"MiddleName": "Владимировна",
+	"LastName": "Авдеева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "121",
+			"HeadOfDepartment": false,
+			"Position": "25"
+		}
+	]
+}

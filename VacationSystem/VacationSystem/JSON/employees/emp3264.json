@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3264",
+	"FirstName": "Владимир",
+	"MiddleName": "Анатольевич",
+	"LastName": "Ухмылин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "73",
+			"HeadOfDepartment": false,
+			"Position": "157"
+		}
+	]
+}

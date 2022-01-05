@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2191",
+	"FirstName": "Татьяна",
+	"MiddleName": "Семеновна",
+	"LastName": "Петровская",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "4",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2920",
+	"FirstName": "Валерий",
+	"MiddleName": "Фалеевич",
+	"LastName": "Черников",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "168",
+			"HeadOfDepartment": false,
+			"Position": "25"
+		}
+	]
+}

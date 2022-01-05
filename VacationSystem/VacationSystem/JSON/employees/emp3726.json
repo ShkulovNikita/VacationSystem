@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3726",
+	"FirstName": "Максим",
+	"MiddleName": "Владимирович",
+	"LastName": "Биктибаев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "38",
+			"HeadOfDepartment": false,
+			"Position": "141"
+		}
+	]
+}

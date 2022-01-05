@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2526",
+	"FirstName": "Марина",
+	"MiddleName": "Сергеевна",
+	"LastName": "Каштакова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "103",
+			"HeadOfDepartment": false,
+			"Position": "143"
+		}
+	]
+}

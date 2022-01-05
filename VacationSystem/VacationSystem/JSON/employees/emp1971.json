@@ -1,0 +1,19 @@
+﻿{
+	"Id": "1971",
+	"FirstName": "Александр",
+	"MiddleName": "Владимирович",
+	"LastName": "Глазачев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "19",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		},
+		{
+			"Id": "94",
+			"HeadOfDepartment": false,
+			"Position": "18"
+		}
+	]
+}

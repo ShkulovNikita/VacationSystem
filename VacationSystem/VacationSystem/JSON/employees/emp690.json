@@ -1,0 +1,14 @@
+﻿{
+	"Id": "690",
+	"FirstName": "Александра",
+	"MiddleName": "Владимировна",
+	"LastName": "Кудряшова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "0",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		}
+	]
+}

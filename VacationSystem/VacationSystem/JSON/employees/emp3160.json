@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3160",
+	"FirstName": "Владимир",
+	"MiddleName": "Кимович",
+	"LastName": "Фоменко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "112",
+			"HeadOfDepartment": false,
+			"Position": "99"
+		}
+	]
+}

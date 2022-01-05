@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1059",
+	"FirstName": "Олег",
+	"MiddleName": "Михайлович",
+	"LastName": "Утьев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "15",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

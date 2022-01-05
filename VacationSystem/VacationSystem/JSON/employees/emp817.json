@@ -1,0 +1,14 @@
+﻿{
+	"Id": "817",
+	"FirstName": "Татьяна",
+	"MiddleName": "Николаевна",
+	"LastName": "Виноградова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "103",
+			"HeadOfDepartment": false,
+			"Position": "135"
+		}
+	]
+}

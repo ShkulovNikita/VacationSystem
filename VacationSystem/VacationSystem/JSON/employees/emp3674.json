@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3674",
+	"FirstName": "Сальвадор Мигель",
+	"MiddleName": "",
+	"LastName": "Инохоса Сервантес",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "26",
+			"HeadOfDepartment": false,
+			"Position": "24"
+		}
+	]
+}

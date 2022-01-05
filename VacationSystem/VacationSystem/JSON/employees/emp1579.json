@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1579",
+	"FirstName": "Тамара",
+	"MiddleName": "Юрьевна",
+	"LastName": "Якич",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "1",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

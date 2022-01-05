@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1547",
+	"FirstName": "Наталья",
+	"MiddleName": "Борисовна",
+	"LastName": "Зайдулина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "142",
+			"HeadOfDepartment": false,
+			"Position": "187"
+		}
+	]
+}

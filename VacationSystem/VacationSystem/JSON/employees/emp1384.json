@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1384",
+	"FirstName": "Юрий",
+	"MiddleName": "Борисович",
+	"LastName": "Лишманов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "42",
+			"HeadOfDepartment": false,
+			"Position": "11"
+		}
+	]
+}

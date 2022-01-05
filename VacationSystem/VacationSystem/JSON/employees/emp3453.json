@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3453",
+	"FirstName": "Оксана",
+	"MiddleName": "Александровна",
+	"LastName": "Никитина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "161",
+			"HeadOfDepartment": false,
+			"Position": "69"
+		}
+	]
+}

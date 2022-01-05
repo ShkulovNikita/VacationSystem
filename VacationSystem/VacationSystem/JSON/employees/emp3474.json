@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3474",
+	"FirstName": "Владимир",
+	"MiddleName": "Борисович",
+	"LastName": "Тенчинский",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "50",
+			"HeadOfDepartment": false,
+			"Position": "88"
+		}
+	]
+}

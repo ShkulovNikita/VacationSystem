@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1107",
+	"FirstName": "Максим",
+	"MiddleName": "Владимирович",
+	"LastName": "Стукалов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "110",
+			"HeadOfDepartment": false,
+			"Position": "11"
+		}
+	]
+}

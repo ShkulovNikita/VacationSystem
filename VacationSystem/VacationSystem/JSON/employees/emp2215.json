@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2215",
+	"FirstName": "Максим",
+	"MiddleName": "Михайлович",
+	"LastName": "Рычков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "78",
+			"HeadOfDepartment": false,
+			"Position": "2"
+		}
+	]
+}

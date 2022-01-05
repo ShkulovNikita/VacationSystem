@@ -1,0 +1,19 @@
+﻿{
+	"Id": "245",
+	"FirstName": "Евгений",
+	"MiddleName": "Александрович",
+	"LastName": "Нестеров",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "42",
+			"HeadOfDepartment": false,
+			"Position": "2"
+		},
+		{
+			"Id": "41",
+			"HeadOfDepartment": false,
+			"Position": "10"
+		}
+	]
+}

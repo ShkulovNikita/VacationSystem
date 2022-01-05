@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3676",
+	"FirstName": "Варвара",
+	"MiddleName": "Васильевна",
+	"LastName": "Неверова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "103",
+			"HeadOfDepartment": false,
+			"Position": "138"
+		}
+	]
+}

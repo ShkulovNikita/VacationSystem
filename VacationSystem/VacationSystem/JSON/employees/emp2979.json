@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2979",
+	"FirstName": "Александр",
+	"MiddleName": "Станиславович",
+	"LastName": "Пусь",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "259",
+			"HeadOfDepartment": false,
+			"Position": "93"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1497",
+	"FirstName": "Дмитрий",
+	"MiddleName": "Витальевич",
+	"LastName": "Моисеенко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "72",
+			"HeadOfDepartment": false,
+			"Position": "179"
+		}
+	]
+}

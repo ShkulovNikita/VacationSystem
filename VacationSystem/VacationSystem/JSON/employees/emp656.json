@@ -1,0 +1,14 @@
+﻿{
+	"Id": "656",
+	"FirstName": "Елена",
+	"MiddleName": "Ивановна",
+	"LastName": "Пакулько",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "124",
+			"HeadOfDepartment": false,
+			"Position": "39"
+		}
+	]
+}

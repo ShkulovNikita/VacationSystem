@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2639",
+	"FirstName": "Степан",
+	"MiddleName": "Сергеевич",
+	"LastName": "Салодкин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "175",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

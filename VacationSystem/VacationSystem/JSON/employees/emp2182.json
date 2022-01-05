@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2182",
+	"FirstName": "Геннадий",
+	"MiddleName": "Ефимович",
+	"LastName": "Шевелев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "26",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

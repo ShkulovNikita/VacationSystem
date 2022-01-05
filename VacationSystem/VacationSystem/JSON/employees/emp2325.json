@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2325",
+	"FirstName": "Татьяна",
+	"MiddleName": "Ивановна",
+	"LastName": "Тарасенко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "66",
+			"HeadOfDepartment": false,
+			"Position": "61"
+		}
+	]
+}

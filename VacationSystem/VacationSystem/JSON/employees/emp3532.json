@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3532",
+	"FirstName": "Алла",
+	"MiddleName": "Анатольевна",
+	"LastName": "Русакова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "107",
+			"HeadOfDepartment": false,
+			"Position": "10"
+		}
+	]
+}

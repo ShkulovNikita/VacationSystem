@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1263",
+	"FirstName": "Владимир",
+	"MiddleName": "Николаевич",
+	"LastName": "Кирсанов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "1",
+			"HeadOfDepartment": false,
+			"Position": "2"
+		}
+	]
+}

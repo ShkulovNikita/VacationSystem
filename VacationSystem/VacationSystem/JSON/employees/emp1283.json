@@ -1,0 +1,19 @@
+﻿{
+	"Id": "1283",
+	"FirstName": "Иван",
+	"MiddleName": "Сергеевич",
+	"LastName": "Егоров",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "15",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		},
+		{
+			"Id": "64",
+			"HeadOfDepartment": false,
+			"Position": "24"
+		}
+	]
+}

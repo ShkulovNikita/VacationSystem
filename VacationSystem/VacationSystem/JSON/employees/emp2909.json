@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2909",
+	"FirstName": "Михаил",
+	"MiddleName": "Леонидович",
+	"LastName": "Удалов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "29",
+			"HeadOfDepartment": false,
+			"Position": "25"
+		}
+	]
+}

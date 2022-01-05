@@ -1,0 +1,14 @@
+﻿{
+	"Id": "68",
+	"FirstName": "Алексей",
+	"MiddleName": "Борисович",
+	"LastName": "Слободенюк",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "43",
+			"HeadOfDepartment": false,
+			"Position": "14"
+		}
+	]
+}

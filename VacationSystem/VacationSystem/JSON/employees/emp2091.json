@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2091",
+	"FirstName": "Виктор",
+	"MiddleName": "Григорьевич",
+	"LastName": "Букреев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "19",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

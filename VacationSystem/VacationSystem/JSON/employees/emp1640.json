@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1640",
+	"FirstName": "Елена",
+	"MiddleName": "Геннадьевна",
+	"LastName": "Краковская",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "165",
+			"HeadOfDepartment": false,
+			"Position": "14"
+		}
+	]
+}

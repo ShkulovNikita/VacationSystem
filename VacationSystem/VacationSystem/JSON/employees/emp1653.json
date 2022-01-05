@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1653",
+	"FirstName": "Алёна",
+	"MiddleName": "Олеговна",
+	"LastName": "Жданова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "32",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1660",
+	"FirstName": "Святослав",
+	"MiddleName": "Анатольевич",
+	"LastName": "Цибульский",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "39",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "505",
+	"FirstName": "Ирина",
+	"MiddleName": "Валерьевна",
+	"LastName": "Астратова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "111",
+			"HeadOfDepartment": false,
+			"Position": "69"
+		}
+	]
+}

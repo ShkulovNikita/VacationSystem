@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2990",
+	"FirstName": "Степан",
+	"MiddleName": "Игоревич",
+	"LastName": "Еньшин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "58",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

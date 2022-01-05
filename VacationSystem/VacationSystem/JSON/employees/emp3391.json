@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3391",
+	"FirstName": "Владимир",
+	"MiddleName": "Александрович",
+	"LastName": "Третьяков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "158",
+			"HeadOfDepartment": false,
+			"Position": "156"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "898",
+	"FirstName": "Галина",
+	"MiddleName": "Николаевна",
+	"LastName": "Терскова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "181",
+			"HeadOfDepartment": false,
+			"Position": "131"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+﻿{
+	"Id": "3075",
+	"FirstName": "Нина",
+	"MiddleName": "Михаиловна",
+	"LastName": "Иванова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "56",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		},
+		{
+			"Id": "32",
+			"HeadOfDepartment": false,
+			"Position": "28"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2336",
+	"FirstName": "Татьяна",
+	"MiddleName": "Евгеньевна",
+	"LastName": "Кулагина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "5",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		}
+	]
+}

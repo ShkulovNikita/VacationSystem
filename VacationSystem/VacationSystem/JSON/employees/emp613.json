@@ -1,0 +1,14 @@
+﻿{
+	"Id": "613",
+	"FirstName": "Алексей",
+	"MiddleName": "Сергеевич",
+	"LastName": "Киселев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "8",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3246",
+	"FirstName": "Лариса",
+	"MiddleName": "Станиславовна",
+	"LastName": "Устюгова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "159",
+			"HeadOfDepartment": false,
+			"Position": "14"
+		}
+	]
+}

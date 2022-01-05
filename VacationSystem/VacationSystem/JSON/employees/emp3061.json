@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3061",
+	"FirstName": "Анна",
+	"MiddleName": "Борисовна",
+	"LastName": "Петрова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "57",
+			"HeadOfDepartment": false,
+			"Position": "26"
+		}
+	]
+}

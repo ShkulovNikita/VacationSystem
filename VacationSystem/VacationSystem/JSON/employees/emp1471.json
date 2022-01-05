@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1471",
+	"FirstName": "Ольга",
+	"MiddleName": "Сергеевна",
+	"LastName": "Корнева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "202",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

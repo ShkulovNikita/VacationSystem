@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1343",
+	"FirstName": "Сергей",
+	"MiddleName": "Валентинович",
+	"LastName": "Дектярев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "202",
+			"HeadOfDepartment": false,
+			"Position": "51"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2035",
+	"FirstName": "Александр",
+	"MiddleName": "Гаврилович",
+	"LastName": "Власенко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "138",
+			"HeadOfDepartment": false,
+			"Position": "102"
+		}
+	]
+}

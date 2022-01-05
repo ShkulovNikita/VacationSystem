@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2499",
+	"FirstName": "Елена",
+	"MiddleName": "Владимировна",
+	"LastName": "Ромашова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "109",
+			"HeadOfDepartment": false,
+			"Position": "18"
+		}
+	]
+}

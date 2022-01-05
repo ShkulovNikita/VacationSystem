@@ -1,0 +1,14 @@
+﻿{
+	"Id": "738",
+	"FirstName": "Юлия",
+	"MiddleName": "Георгиевна",
+	"LastName": "Албу",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "20",
+			"HeadOfDepartment": false,
+			"Position": "25"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2039",
+	"FirstName": "Наталья",
+	"MiddleName": "Александровна",
+	"LastName": "Ефремова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "119",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		}
+	]
+}

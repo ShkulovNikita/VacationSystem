@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1287",
+	"FirstName": "Геннадий",
+	"MiddleName": "Леонидович",
+	"LastName": "Паньшин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "6",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		}
+	]
+}

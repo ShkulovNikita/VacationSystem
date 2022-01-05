@@ -1,0 +1,14 @@
+﻿{
+	"Id": "381",
+	"FirstName": "Юрий",
+	"MiddleName": "Сергеевич",
+	"LastName": "Горчаков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "131",
+			"HeadOfDepartment": false,
+			"Position": "93"
+		}
+	]
+}

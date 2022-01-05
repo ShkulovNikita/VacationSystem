@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2736",
+	"FirstName": "Дмитрий",
+	"MiddleName": "",
+	"LastName": "Храпов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "188",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		}
+	]
+}

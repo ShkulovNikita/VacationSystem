@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2090",
+	"FirstName": "Александр",
+	"MiddleName": "Олегович",
+	"LastName": "Соколов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "38",
+			"HeadOfDepartment": false,
+			"Position": "141"
+		}
+	]
+}

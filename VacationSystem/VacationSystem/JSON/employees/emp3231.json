@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3231",
+	"FirstName": "Михаил",
+	"MiddleName": "Дмитриевич",
+	"LastName": "Марков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "2",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

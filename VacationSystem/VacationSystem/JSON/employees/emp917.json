@@ -1,0 +1,19 @@
+﻿{
+	"Id": "917",
+	"FirstName": "Марина",
+	"MiddleName": "Леонидовна",
+	"LastName": "Караван",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "150",
+			"HeadOfDepartment": false,
+			"Position": "14"
+		},
+		{
+			"Id": "150",
+			"HeadOfDepartment": false,
+			"Position": "131"
+		}
+	]
+}

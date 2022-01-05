@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1744",
+	"FirstName": "Сергей",
+	"MiddleName": "Юрьевич",
+	"LastName": "Супоницкий",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "112",
+			"HeadOfDepartment": false,
+			"Position": "2"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "10",
+	"FirstName": "Наталья",
+	"MiddleName": "Викторовна",
+	"LastName": "Стародубцева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "10",
+			"HeadOfDepartment": false,
+			"Position": "7"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1866",
+	"FirstName": "Сусанна",
+	"MiddleName": "Александровна",
+	"LastName": "Керимбекова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "233",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

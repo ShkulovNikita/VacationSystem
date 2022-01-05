@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2740",
+	"FirstName": "Марина",
+	"MiddleName": "Андреевна",
+	"LastName": "Лощилова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "12",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

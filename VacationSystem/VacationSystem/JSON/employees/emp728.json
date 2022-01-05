@@ -1,0 +1,14 @@
+﻿{
+	"Id": "728",
+	"FirstName": "Инна",
+	"MiddleName": "Николаевна",
+	"LastName": "Кучерова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "15",
+			"HeadOfDepartment": false,
+			"Position": "70"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "694",
+	"FirstName": "Валентина",
+	"MiddleName": "Николаевна",
+	"LastName": "Тарасенко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "2",
+			"HeadOfDepartment": false,
+			"Position": "11"
+		}
+	]
+}

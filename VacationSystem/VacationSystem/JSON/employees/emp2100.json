@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2100",
+	"FirstName": "Сергей",
+	"MiddleName": "Александрович",
+	"LastName": "Дукарт",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "3",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

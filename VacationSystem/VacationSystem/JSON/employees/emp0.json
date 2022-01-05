@@ -1,0 +1,19 @@
+﻿{
+	"Id": "0",
+	"FirstName": "Светлана",
+	"MiddleName": "Николаевна",
+	"LastName": "Попова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "0",
+			"HeadOfDepartment": false,
+			"Position": "0"
+		},
+		{
+			"Id": "14",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

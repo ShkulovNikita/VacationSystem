@@ -1,0 +1,19 @@
+﻿{
+	"Id": "976",
+	"FirstName": "Валентина",
+	"MiddleName": "Ивановна",
+	"LastName": "Мелькова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "23",
+			"HeadOfDepartment": false,
+			"Position": "116"
+		},
+		{
+			"Id": "47",
+			"HeadOfDepartment": false,
+			"Position": "30"
+		}
+	]
+}

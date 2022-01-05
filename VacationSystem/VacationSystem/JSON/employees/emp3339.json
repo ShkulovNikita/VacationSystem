@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3339",
+	"FirstName": "Юлия",
+	"MiddleName": "Вячеславовна",
+	"LastName": "Серышева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "65",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		}
+	]
+}

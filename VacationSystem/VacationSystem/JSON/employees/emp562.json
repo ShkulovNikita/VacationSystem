@@ -1,0 +1,14 @@
+﻿{
+	"Id": "562",
+	"FirstName": "Евгения",
+	"MiddleName": "Борисовна",
+	"LastName": "Голушкова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "119",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

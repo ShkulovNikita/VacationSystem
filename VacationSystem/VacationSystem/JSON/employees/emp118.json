@@ -1,0 +1,14 @@
+﻿{
+	"Id": "118",
+	"FirstName": "Екатерина",
+	"MiddleName": "Юрьевна",
+	"LastName": "Дмитриева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "16",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3216",
+	"FirstName": "Аксана",
+	"MiddleName": "Михайловна",
+	"LastName": "Сильченко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "161",
+			"HeadOfDepartment": false,
+			"Position": "57"
+		}
+	]
+}

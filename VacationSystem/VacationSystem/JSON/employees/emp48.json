@@ -1,0 +1,14 @@
+﻿{
+	"Id": "48",
+	"FirstName": "Егор",
+	"MiddleName": "Александрович",
+	"LastName": "Смолянский",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "32",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

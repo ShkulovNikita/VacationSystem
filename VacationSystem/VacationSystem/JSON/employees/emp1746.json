@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1746",
+	"FirstName": "Евгений",
+	"MiddleName": "Александрович",
+	"LastName": "Монастырный",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "130",
+			"HeadOfDepartment": false,
+			"Position": "41"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "133",
+	"FirstName": "Юрий",
+	"MiddleName": "Александрович",
+	"LastName": "Ленерт",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "51",
+			"HeadOfDepartment": false,
+			"Position": "48"
+		}
+	]
+}

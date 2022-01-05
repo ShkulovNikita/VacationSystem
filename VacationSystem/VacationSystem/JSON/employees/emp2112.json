@@ -1,0 +1,19 @@
+﻿{
+	"Id": "2112",
+	"FirstName": "Евгения",
+	"MiddleName": "Владимировна",
+	"LastName": "Исаева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "71",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		},
+		{
+			"Id": "156",
+			"HeadOfDepartment": false,
+			"Position": "10"
+		}
+	]
+}

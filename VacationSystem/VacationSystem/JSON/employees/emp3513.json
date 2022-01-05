@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3513",
+	"FirstName": "Марат",
+	"MiddleName": "Халимович",
+	"LastName": "Хаметов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "181",
+			"HeadOfDepartment": false,
+			"Position": "103"
+		}
+	]
+}

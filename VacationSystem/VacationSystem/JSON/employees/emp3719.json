@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3719",
+	"FirstName": "Мария",
+	"MiddleName": "",
+	"LastName": "Чатциниколаиду",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "188",
+			"HeadOfDepartment": false,
+			"Position": "56"
+		}
+	]
+}

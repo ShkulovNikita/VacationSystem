@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3029",
+	"FirstName": "Нина",
+	"MiddleName": "Георгиевна",
+	"LastName": "Лысенко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "199",
+			"HeadOfDepartment": false,
+			"Position": "154"
+		}
+	]
+}

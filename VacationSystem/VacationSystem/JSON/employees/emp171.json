@@ -1,0 +1,14 @@
+﻿{
+	"Id": "171",
+	"FirstName": "Татьяна",
+	"MiddleName": "Валериевна",
+	"LastName": "Коротченко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "0",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

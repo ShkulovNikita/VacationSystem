@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3660",
+	"FirstName": "Вадим",
+	"MiddleName": "Александрович",
+	"LastName": "Лобанов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "116",
+			"HeadOfDepartment": false,
+			"Position": "266"
+		}
+	]
+}

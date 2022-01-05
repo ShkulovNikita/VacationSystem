@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3459",
+	"FirstName": "Петр",
+	"MiddleName": "Борисович",
+	"LastName": "Гладченко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "231",
+			"HeadOfDepartment": false,
+			"Position": "214"
+		}
+	]
+}

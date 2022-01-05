@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1267",
+	"FirstName": "Павел",
+	"MiddleName": "Юрьевич",
+	"LastName": "Чумерин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "186",
+			"HeadOfDepartment": false,
+			"Position": "2"
+		}
+	]
+}

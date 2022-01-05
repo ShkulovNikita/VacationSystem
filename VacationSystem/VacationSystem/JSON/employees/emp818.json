@@ -1,0 +1,14 @@
+﻿{
+	"Id": "818",
+	"FirstName": "Любовь",
+	"MiddleName": "Геннадьевна",
+	"LastName": "Аверкиева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "0",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		}
+	]
+}

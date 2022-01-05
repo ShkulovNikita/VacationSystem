@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3776",
+	"FirstName": "Наталья",
+	"MiddleName": "Михайловна",
+	"LastName": "Агалакова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "196",
+			"HeadOfDepartment": false,
+			"Position": "14"
+		}
+	]
+}

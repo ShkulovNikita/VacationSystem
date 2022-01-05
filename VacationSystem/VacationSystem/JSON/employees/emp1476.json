@@ -1,0 +1,19 @@
+﻿{
+	"Id": "1476",
+	"FirstName": "Дарья",
+	"MiddleName": "Николаевна",
+	"LastName": "Карнаева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "47",
+			"HeadOfDepartment": false,
+			"Position": "30"
+		},
+		{
+			"Id": "147",
+			"HeadOfDepartment": false,
+			"Position": "116"
+		}
+	]
+}

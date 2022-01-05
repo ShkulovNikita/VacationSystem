@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2744",
+	"FirstName": "Елизавета",
+	"MiddleName": "Павловна",
+	"LastName": "Седанова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "53",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

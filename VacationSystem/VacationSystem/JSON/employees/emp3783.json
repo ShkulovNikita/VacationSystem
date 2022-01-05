@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3783",
+	"FirstName": "Андрей",
+	"MiddleName": "Алексеевич",
+	"LastName": "Богомягков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "50",
+			"HeadOfDepartment": false,
+			"Position": "88"
+		}
+	]
+}

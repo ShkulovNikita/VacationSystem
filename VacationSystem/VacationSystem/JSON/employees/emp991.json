@@ -1,0 +1,14 @@
+﻿{
+	"Id": "991",
+	"FirstName": "Виктор",
+	"MiddleName": "Андреевич",
+	"LastName": "Килин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "52",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

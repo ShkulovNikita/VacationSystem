@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3354",
+	"FirstName": "Иван",
+	"MiddleName": "Иванович",
+	"LastName": "Соколов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "75",
+			"HeadOfDepartment": false,
+			"Position": "168"
+		}
+	]
+}

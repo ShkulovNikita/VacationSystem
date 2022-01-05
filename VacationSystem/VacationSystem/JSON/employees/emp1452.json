@@ -1,0 +1,19 @@
+﻿{
+	"Id": "1452",
+	"FirstName": "Мария",
+	"MiddleName": "Сергеевна",
+	"LastName": "Черемискина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "93",
+			"HeadOfDepartment": false,
+			"Position": "28"
+		},
+		{
+			"Id": "93",
+			"HeadOfDepartment": false,
+			"Position": "70"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1753",
+	"FirstName": "Наталия",
+	"MiddleName": "Владимировна",
+	"LastName": "Ивушкина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "2",
+			"HeadOfDepartment": false,
+			"Position": "70"
+		}
+	]
+}

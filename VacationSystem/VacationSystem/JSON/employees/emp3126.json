@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3126",
+	"FirstName": "Александр",
+	"MiddleName": "Константинович",
+	"LastName": "Томилин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "93",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

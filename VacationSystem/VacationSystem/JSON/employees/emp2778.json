@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2778",
+	"FirstName": "Ольга",
+	"MiddleName": "Владимировна",
+	"LastName": "Жукова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "92",
+			"HeadOfDepartment": false,
+			"Position": "80"
+		}
+	]
+}

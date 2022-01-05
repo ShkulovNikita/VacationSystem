@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1197",
+	"FirstName": "Ирина",
+	"MiddleName": "Юрьевна",
+	"LastName": "Грубова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "188",
+			"HeadOfDepartment": false,
+			"Position": "56"
+		}
+	]
+}

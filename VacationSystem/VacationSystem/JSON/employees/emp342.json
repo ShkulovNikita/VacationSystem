@@ -1,0 +1,14 @@
+﻿{
+	"Id": "342",
+	"FirstName": "Людмила",
+	"MiddleName": "Тимофеевна",
+	"LastName": "Буланцева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "46",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

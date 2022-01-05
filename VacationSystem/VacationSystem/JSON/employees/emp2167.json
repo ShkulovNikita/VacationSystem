@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2167",
+	"FirstName": "Елена",
+	"MiddleName": "Николаевна",
+	"LastName": "Коростелева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "15",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1505",
+	"FirstName": "Елизавета",
+	"MiddleName": "Витальевна",
+	"LastName": "Свиридова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "51",
+			"HeadOfDepartment": false,
+			"Position": "26"
+		}
+	]
+}

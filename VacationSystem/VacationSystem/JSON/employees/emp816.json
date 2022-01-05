@@ -1,0 +1,14 @@
+﻿{
+	"Id": "816",
+	"FirstName": "Дмитрий",
+	"MiddleName": "Геннадьевич",
+	"LastName": "Видяев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "17",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1669",
+	"FirstName": "Дмитрий",
+	"MiddleName": "Сергеевич",
+	"LastName": "Никитин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "19",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+﻿{
+	"Id": "1629",
+	"FirstName": "Вера",
+	"MiddleName": "Степановна",
+	"LastName": "Деева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "46",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		},
+		{
+			"Id": "14",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1310",
+	"FirstName": "Сергей",
+	"MiddleName": "Юльевич",
+	"LastName": "Тарасов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "15",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

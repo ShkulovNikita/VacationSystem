@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3695",
+	"FirstName": "Максим",
+	"MiddleName": "Николаевич",
+	"LastName": "Волков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "177",
+			"HeadOfDepartment": false,
+			"Position": "153"
+		}
+	]
+}

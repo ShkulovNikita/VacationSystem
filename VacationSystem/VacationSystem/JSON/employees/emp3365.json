@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3365",
+	"FirstName": "Юлия",
+	"MiddleName": "Александровна",
+	"LastName": "Барабанова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "66",
+			"HeadOfDepartment": false,
+			"Position": "61"
+		}
+	]
+}

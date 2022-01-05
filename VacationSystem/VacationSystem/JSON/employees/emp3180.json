@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3180",
+	"FirstName": "Александра",
+	"MiddleName": "Андреевна",
+	"LastName": "Павельева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "188",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

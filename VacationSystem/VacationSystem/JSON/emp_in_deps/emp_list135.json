@@ -1,0 +1,45 @@
+﻿{
+	"Id": "135",
+	"Employees": [
+		{
+			"Id": "413",
+			"Position": "3",
+			"Head": false
+		},
+		{
+			"Id": "639",
+			"Position": "119",
+			"Head": false
+		},
+		{
+			"Id": "730",
+			"Position": "11",
+			"Head": false
+		},
+		{
+			"Id": "742",
+			"Position": "2",
+			"Head": false
+		},
+		{
+			"Id": "1303",
+			"Position": "3",
+			"Head": false
+		},
+		{
+			"Id": "1940",
+			"Position": "3",
+			"Head": false
+		},
+		{
+			"Id": "3148",
+			"Position": "3",
+			"Head": false
+		},
+		{
+			"Id": "3630",
+			"Position": "3",
+			"Head": false
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1484",
+	"FirstName": "Лариса",
+	"MiddleName": "Акимовна",
+	"LastName": "Аксенова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "197",
+			"HeadOfDepartment": false,
+			"Position": "177"
+		}
+	]
+}

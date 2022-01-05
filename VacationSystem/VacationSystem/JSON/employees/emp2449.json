@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2449",
+	"FirstName": "Сергей",
+	"MiddleName": "Иванович",
+	"LastName": "Сайгаш",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "64",
+			"HeadOfDepartment": false,
+			"Position": "103"
+		}
+	]
+}

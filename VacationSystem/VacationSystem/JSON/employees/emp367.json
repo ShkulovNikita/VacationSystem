@@ -1,0 +1,14 @@
+﻿{
+	"Id": "367",
+	"FirstName": "Светлана",
+	"MiddleName": "Вальдемаровна",
+	"LastName": "Ульянова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "124",
+			"HeadOfDepartment": false,
+			"Position": "39"
+		}
+	]
+}

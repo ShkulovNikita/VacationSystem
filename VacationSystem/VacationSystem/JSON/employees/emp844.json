@@ -1,0 +1,14 @@
+﻿{
+	"Id": "844",
+	"FirstName": "Дмитрий",
+	"MiddleName": "Михайлович",
+	"LastName": "Козарь",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "15",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3579",
+	"FirstName": "Ирина",
+	"MiddleName": "Михайловна",
+	"LastName": "Алтухова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "225",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

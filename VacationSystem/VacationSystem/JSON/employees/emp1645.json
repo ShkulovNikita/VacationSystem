@@ -1,0 +1,19 @@
+﻿{
+	"Id": "1645",
+	"FirstName": "Александр",
+	"MiddleName": "Эдуардович",
+	"LastName": "Ни",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "39",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		},
+		{
+			"Id": "39",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

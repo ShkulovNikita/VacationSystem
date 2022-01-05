@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1978",
+	"FirstName": "Алексей",
+	"MiddleName": "Юрьевич",
+	"LastName": "Смоляков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "72",
+			"HeadOfDepartment": false,
+			"Position": "179"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3587",
+	"FirstName": "Александр",
+	"MiddleName": "Васильевич",
+	"LastName": "Суханов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "136",
+			"HeadOfDepartment": false,
+			"Position": "64"
+		}
+	]
+}

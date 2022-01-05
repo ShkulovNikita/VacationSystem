@@ -1,0 +1,14 @@
+﻿{
+	"Id": "795",
+	"FirstName": "Валентина",
+	"MiddleName": "Владимировна",
+	"LastName": "Решетникова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "66",
+			"HeadOfDepartment": false,
+			"Position": "16"
+		}
+	]
+}

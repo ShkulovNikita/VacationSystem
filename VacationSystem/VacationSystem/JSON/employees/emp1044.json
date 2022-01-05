@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1044",
+	"FirstName": "Анастасия",
+	"MiddleName": "Михайловна",
+	"LastName": "Шевцова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "13",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

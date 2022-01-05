@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3601",
+	"FirstName": "Акира",
+	"MiddleName": "",
+	"LastName": "Йошимура",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "51",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

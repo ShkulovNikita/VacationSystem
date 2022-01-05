@@ -1,0 +1,14 @@
+﻿{
+	"Id": "103",
+	"FirstName": "Татьяна",
+	"MiddleName": "Николаевна",
+	"LastName": "Козлова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "63",
+			"HeadOfDepartment": false,
+			"Position": "40"
+		}
+	]
+}

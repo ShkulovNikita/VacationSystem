@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3521",
+	"FirstName": "Сергей",
+	"MiddleName": "Владимирович",
+	"LastName": "Матвеев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "105",
+			"HeadOfDepartment": false,
+			"Position": "88"
+		}
+	]
+}

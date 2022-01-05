@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3524",
+	"FirstName": "Михаил",
+	"MiddleName": "Гиссарович",
+	"LastName": "Бикинеев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "50",
+			"HeadOfDepartment": false,
+			"Position": "88"
+		}
+	]
+}

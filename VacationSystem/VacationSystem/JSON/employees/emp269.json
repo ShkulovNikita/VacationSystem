@@ -1,0 +1,19 @@
+﻿{
+	"Id": "269",
+	"FirstName": "Наталия",
+	"MiddleName": "Николаевна",
+	"LastName": "Горюнова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "14",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		},
+		{
+			"Id": "84",
+			"HeadOfDepartment": false,
+			"Position": "18"
+		}
+	]
+}

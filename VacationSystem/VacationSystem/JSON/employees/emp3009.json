@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3009",
+	"FirstName": "Анна",
+	"MiddleName": "Витальевна",
+	"LastName": "Шелегина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "1",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

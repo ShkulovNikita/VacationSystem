@@ -1,0 +1,14 @@
+﻿{
+	"Id": "396",
+	"FirstName": "Борис",
+	"MiddleName": "Петрович",
+	"LastName": "Гриценко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "15",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

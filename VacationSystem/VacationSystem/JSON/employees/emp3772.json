@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3772",
+	"FirstName": "Евгений",
+	"MiddleName": "Леонидович",
+	"LastName": "Андреев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "231",
+			"HeadOfDepartment": false,
+			"Position": "214"
+		}
+	]
+}

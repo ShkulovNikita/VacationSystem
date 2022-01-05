@@ -1,0 +1,14 @@
+﻿{
+	"Id": "357",
+	"FirstName": "Владимир",
+	"MiddleName": "Александрович",
+	"LastName": "Завалькевич",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "105",
+			"HeadOfDepartment": false,
+			"Position": "88"
+		}
+	]
+}

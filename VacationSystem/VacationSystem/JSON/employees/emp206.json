@@ -1,0 +1,14 @@
+﻿{
+	"Id": "206",
+	"FirstName": "Владимир",
+	"MiddleName": "Леонидович",
+	"LastName": "Пашков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "30",
+			"HeadOfDepartment": false,
+			"Position": "16"
+		}
+	]
+}

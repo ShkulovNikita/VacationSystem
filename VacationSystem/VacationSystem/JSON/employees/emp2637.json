@@ -1,0 +1,19 @@
+﻿{
+	"Id": "2637",
+	"FirstName": "Андрей",
+	"MiddleName": "Аркадьевич",
+	"LastName": "Смороков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "102",
+			"HeadOfDepartment": false,
+			"Position": "26"
+		},
+		{
+			"Id": "17",
+			"HeadOfDepartment": false,
+			"Position": "28"
+		}
+	]
+}

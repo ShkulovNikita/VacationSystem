@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3234",
+	"FirstName": "Михаил",
+	"MiddleName": "Семенович",
+	"LastName": "Сюкасев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "75",
+			"HeadOfDepartment": false,
+			"Position": "103"
+		}
+	]
+}

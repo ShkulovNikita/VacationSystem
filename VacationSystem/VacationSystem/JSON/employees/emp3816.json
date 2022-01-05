@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3816",
+	"FirstName": "Владимир",
+	"MiddleName": "Максимилианович",
+	"LastName": "Толмачев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "192",
+			"HeadOfDepartment": false,
+			"Position": "45"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+﻿{
+	"Id": "1518",
+	"FirstName": "Анатолий",
+	"MiddleName": "Спиридонович",
+	"LastName": "Конарев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "59",
+			"HeadOfDepartment": false,
+			"Position": "37"
+		},
+		{
+			"Id": "72",
+			"HeadOfDepartment": false,
+			"Position": "184"
+		}
+	]
+}

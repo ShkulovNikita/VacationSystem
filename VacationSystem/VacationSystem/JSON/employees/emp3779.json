@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3779",
+	"FirstName": "Марина",
+	"MiddleName": "Александровна",
+	"LastName": "Олейникова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "126",
+			"HeadOfDepartment": false,
+			"Position": "71"
+		}
+	]
+}

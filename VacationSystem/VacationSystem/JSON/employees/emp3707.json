@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3707",
+	"FirstName": "Александр",
+	"MiddleName": "Викторович",
+	"LastName": "Вайхель",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "261",
+			"HeadOfDepartment": false,
+			"Position": "270"
+		}
+	]
+}

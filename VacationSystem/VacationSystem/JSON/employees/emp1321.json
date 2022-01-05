@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1321",
+	"FirstName": "Ольга",
+	"MiddleName": "Георгиевна",
+	"LastName": "Дуплинская",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "206",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

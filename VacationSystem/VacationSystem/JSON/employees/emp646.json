@@ -1,0 +1,14 @@
+﻿{
+	"Id": "646",
+	"FirstName": "Нина",
+	"MiddleName": "Александровна",
+	"LastName": "Осипова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "1",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

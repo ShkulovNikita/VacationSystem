@@ -1,0 +1,14 @@
+﻿{
+	"Id": "66",
+	"FirstName": "Юлия",
+	"MiddleName": "Петровна",
+	"LastName": "Ажель",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "0",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		}
+	]
+}

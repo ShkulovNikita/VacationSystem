@@ -1,0 +1,19 @@
+﻿{
+	"Id": "96",
+	"FirstName": "Степан",
+	"MiddleName": "Вадимович",
+	"LastName": "Меркулов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "17",
+			"HeadOfDepartment": false,
+			"Position": "36"
+		},
+		{
+			"Id": "58",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1732",
+	"FirstName": "Василий",
+	"MiddleName": "Николаевич",
+	"LastName": "Вашуркин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "59",
+			"HeadOfDepartment": false,
+			"Position": "37"
+		}
+	]
+}

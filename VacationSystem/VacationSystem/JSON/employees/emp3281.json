@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3281",
+	"FirstName": "Мария",
+	"MiddleName": "Андреевна",
+	"LastName": "Гайдабрус",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "2",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2607",
+	"FirstName": "Полина",
+	"MiddleName": "Александровна",
+	"LastName": "Шлехт",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "47",
+			"HeadOfDepartment": false,
+			"Position": "30"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "959",
+	"FirstName": "Виктор",
+	"MiddleName": "Григорьевич",
+	"LastName": "Ротарь",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "26",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1756",
+	"FirstName": "Галина",
+	"MiddleName": "Владимировна",
+	"LastName": "Пустозерова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "226",
+			"HeadOfDepartment": false,
+			"Position": "20"
+		}
+	]
+}

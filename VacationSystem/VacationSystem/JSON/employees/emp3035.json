@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3035",
+	"FirstName": "Денис",
+	"MiddleName": "Николаевич",
+	"LastName": "Дубоделов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "59",
+			"HeadOfDepartment": false,
+			"Position": "124"
+		}
+	]
+}

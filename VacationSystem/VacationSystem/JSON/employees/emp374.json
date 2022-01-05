@@ -1,0 +1,14 @@
+﻿{
+	"Id": "374",
+	"FirstName": "Анна",
+	"MiddleName": "Валерьевна",
+	"LastName": "Барская",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "129",
+			"HeadOfDepartment": false,
+			"Position": "92"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3801",
+	"FirstName": "Сергей",
+	"MiddleName": "Францевич",
+	"LastName": "Василевский",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "51",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

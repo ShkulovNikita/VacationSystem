@@ -1,0 +1,14 @@
+﻿{
+	"Id": "988",
+	"FirstName": "Юрий",
+	"MiddleName": "Васильевич",
+	"LastName": "Хрущев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "19",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2934",
+	"FirstName": "Артем",
+	"MiddleName": "Дмитриевич",
+	"LastName": "Избышев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "166",
+			"HeadOfDepartment": false,
+			"Position": "252"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3131",
+	"FirstName": "Валерия",
+	"MiddleName": "Витальевна",
+	"LastName": "Дребот",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "1",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		}
+	]
+}

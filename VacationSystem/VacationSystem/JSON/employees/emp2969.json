@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2969",
+	"FirstName": "Юлия",
+	"MiddleName": "Владимировна",
+	"LastName": "Минина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "258",
+			"HeadOfDepartment": false,
+			"Position": "255"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1848",
+	"FirstName": "Вячеслав",
+	"MiddleName": "Васильевич",
+	"LastName": "Соболевский",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "85",
+			"HeadOfDepartment": false,
+			"Position": "191"
+		}
+	]
+}

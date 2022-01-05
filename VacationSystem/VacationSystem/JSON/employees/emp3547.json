@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3547",
+	"FirstName": "Семен",
+	"MiddleName": "",
+	"LastName": "Зайцев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "50",
+			"HeadOfDepartment": false,
+			"Position": "32"
+		}
+	]
+}

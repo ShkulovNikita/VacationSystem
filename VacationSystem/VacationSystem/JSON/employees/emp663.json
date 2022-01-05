@@ -1,0 +1,14 @@
+﻿{
+	"Id": "663",
+	"FirstName": "Марина",
+	"MiddleName": "Николаевна",
+	"LastName": "Романовская",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "84",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

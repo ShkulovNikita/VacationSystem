@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1014",
+	"FirstName": "Ирина",
+	"MiddleName": "Валериевна",
+	"LastName": "Цапко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "26",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

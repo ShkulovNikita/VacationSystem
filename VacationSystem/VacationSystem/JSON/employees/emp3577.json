@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3577",
+	"FirstName": "Елена",
+	"MiddleName": "Валерьевна",
+	"LastName": "Ильиных",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "139",
+			"HeadOfDepartment": false,
+			"Position": "10"
+		}
+	]
+}

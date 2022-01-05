@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1514",
+	"FirstName": "Николай",
+	"MiddleName": "Владимирович",
+	"LastName": "Аникин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "215",
+			"HeadOfDepartment": false,
+			"Position": "25"
+		}
+	]
+}

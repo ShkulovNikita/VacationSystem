@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3398",
+	"FirstName": "Кристина",
+	"MiddleName": "Александровна",
+	"LastName": "Понушкова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "9",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

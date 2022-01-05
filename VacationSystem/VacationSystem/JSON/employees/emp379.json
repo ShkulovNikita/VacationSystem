@@ -1,0 +1,14 @@
+﻿{
+	"Id": "379",
+	"FirstName": "Сергей",
+	"MiddleName": "Алексеевич",
+	"LastName": "Горисев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "6",
+			"HeadOfDepartment": false,
+			"Position": "2"
+		}
+	]
+}

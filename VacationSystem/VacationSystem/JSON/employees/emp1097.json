@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1097",
+	"FirstName": "Николай",
+	"MiddleName": "Терентьевич",
+	"LastName": "Юнда",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "62",
+			"HeadOfDepartment": false,
+			"Position": "18"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1207",
+	"FirstName": "Анатолий",
+	"MiddleName": "Александрович",
+	"LastName": "Дмитров",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "62",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3284",
+	"FirstName": "Леонид",
+	"MiddleName": "Викторович",
+	"LastName": "Шеметов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "66",
+			"HeadOfDepartment": false,
+			"Position": "7"
+		}
+	]
+}

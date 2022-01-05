@@ -1,0 +1,14 @@
+﻿{
+	"Id": "536",
+	"FirstName": "Александр",
+	"MiddleName": "Анатольевич",
+	"LastName": "Разников",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "147",
+			"HeadOfDepartment": false,
+			"Position": "25"
+		}
+	]
+}

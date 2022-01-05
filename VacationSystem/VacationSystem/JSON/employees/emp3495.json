@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3495",
+	"FirstName": "Мария",
+	"MiddleName": "Борисовна",
+	"LastName": "Куранова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "179",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

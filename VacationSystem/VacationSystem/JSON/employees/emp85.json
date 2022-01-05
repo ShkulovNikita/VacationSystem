@@ -1,0 +1,24 @@
+﻿{
+	"Id": "85",
+	"FirstName": "Татьяна",
+	"MiddleName": "Валерьевна",
+	"LastName": "Гречкина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "15",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		},
+		{
+			"Id": "15",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		},
+		{
+			"Id": "54",
+			"HeadOfDepartment": false,
+			"Position": "33"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3441",
+	"FirstName": "Антонио",
+	"MiddleName": "",
+	"LastName": "Ди Мартино",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "51",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

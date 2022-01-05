@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3310",
+	"FirstName": "Ахмед Ибрагим Мохамед",
+	"MiddleName": "",
+	"LastName": "Ибрагим",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "19",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		}
+	]
+}

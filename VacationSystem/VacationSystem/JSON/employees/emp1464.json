@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1464",
+	"FirstName": "Любовь",
+	"MiddleName": "Павловна",
+	"LastName": "Трибус",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "2",
+			"HeadOfDepartment": false,
+			"Position": "80"
+		}
+	]
+}

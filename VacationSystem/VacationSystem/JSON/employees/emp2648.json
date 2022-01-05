@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2648",
+	"FirstName": "Александра",
+	"MiddleName": "Игоревна",
+	"LastName": "Лисовая",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "131",
+			"HeadOfDepartment": false,
+			"Position": "245"
+		}
+	]
+}

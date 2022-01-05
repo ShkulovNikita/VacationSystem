@@ -1,0 +1,19 @@
+﻿{
+	"Id": "2883",
+	"FirstName": "Артем",
+	"MiddleName": "Сергеевич",
+	"LastName": "Юдин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "15",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		},
+		{
+			"Id": "64",
+			"HeadOfDepartment": false,
+			"Position": "24"
+		}
+	]
+}

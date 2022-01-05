@@ -1,0 +1,14 @@
+﻿{
+	"Id": "14",
+	"FirstName": "Ирина",
+	"MiddleName": "Викторовна",
+	"LastName": "Кондратьева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "13",
+			"HeadOfDepartment": false,
+			"Position": "9"
+		}
+	]
+}

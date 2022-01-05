@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2059",
+	"FirstName": "Ольга",
+	"MiddleName": "Владимировна",
+	"LastName": "Деева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "63",
+			"HeadOfDepartment": false,
+			"Position": "38"
+		}
+	]
+}

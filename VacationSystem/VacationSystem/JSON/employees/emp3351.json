@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3351",
+	"FirstName": "Анна",
+	"MiddleName": "",
+	"LastName": "Ильчук",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "15",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		}
+	]
+}

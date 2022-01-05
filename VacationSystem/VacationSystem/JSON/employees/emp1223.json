@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1223",
+	"FirstName": "Максим",
+	"MiddleName": "Викторович",
+	"LastName": "Тригуб",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "15",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

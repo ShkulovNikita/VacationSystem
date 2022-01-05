@@ -1,0 +1,14 @@
+﻿{
+	"Id": "166",
+	"FirstName": "Александр",
+	"MiddleName": "Анатольевич",
+	"LastName": "Ташлыков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "39",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

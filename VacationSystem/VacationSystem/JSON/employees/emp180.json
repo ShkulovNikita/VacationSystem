@@ -1,0 +1,14 @@
+﻿{
+	"Id": "180",
+	"FirstName": "Наталья",
+	"MiddleName": "Сергеевна",
+	"LastName": "Пушилина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "53",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

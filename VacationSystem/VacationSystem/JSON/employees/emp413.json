@@ -1,0 +1,14 @@
+﻿{
+	"Id": "413",
+	"FirstName": "Нина",
+	"MiddleName": "Григорьевна",
+	"LastName": "Наливайко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "135",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

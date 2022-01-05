@@ -1,0 +1,14 @@
+﻿{
+	"Id": "391",
+	"FirstName": "Галина",
+	"MiddleName": "Васильевна",
+	"LastName": "Ерофеева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "53",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

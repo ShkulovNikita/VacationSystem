@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3225",
+	"FirstName": "Александра",
+	"MiddleName": "Александровна",
+	"LastName": "Волкова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "127",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2414",
+	"FirstName": "Людмила",
+	"MiddleName": "Николаевна",
+	"LastName": "Жулёва",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "91",
+			"HeadOfDepartment": false,
+			"Position": "166"
+		}
+	]
+}

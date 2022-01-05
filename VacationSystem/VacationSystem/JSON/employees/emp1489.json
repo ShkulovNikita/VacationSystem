@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1489",
+	"FirstName": "Юрий",
+	"MiddleName": "Владимирович",
+	"LastName": "Коц",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "187",
+			"HeadOfDepartment": false,
+			"Position": "114"
+		}
+	]
+}

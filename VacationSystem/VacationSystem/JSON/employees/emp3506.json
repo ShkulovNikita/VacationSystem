@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3506",
+	"FirstName": "Владислав",
+	"MiddleName": "Владимирович",
+	"LastName": "Томков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "45",
+			"HeadOfDepartment": false,
+			"Position": "7"
+		}
+	]
+}

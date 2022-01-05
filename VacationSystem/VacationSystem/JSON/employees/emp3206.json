@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3206",
+	"FirstName": "Александр",
+	"MiddleName": "Викторович",
+	"LastName": "Саурский",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "263",
+			"HeadOfDepartment": false,
+			"Position": "45"
+		}
+	]
+}

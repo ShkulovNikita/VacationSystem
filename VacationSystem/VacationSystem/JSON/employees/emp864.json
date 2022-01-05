@@ -1,0 +1,14 @@
+﻿{
+	"Id": "864",
+	"FirstName": "Алина",
+	"MiddleName": "Юрьевна",
+	"LastName": "Остроумова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "118",
+			"HeadOfDepartment": false,
+			"Position": "10"
+		}
+	]
+}

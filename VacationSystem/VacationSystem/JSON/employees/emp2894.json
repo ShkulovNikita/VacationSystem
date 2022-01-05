@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2894",
+	"FirstName": "Татьяна",
+	"MiddleName": "Валерьевна",
+	"LastName": "Сарычева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "23",
+			"HeadOfDepartment": false,
+			"Position": "116"
+		}
+	]
+}

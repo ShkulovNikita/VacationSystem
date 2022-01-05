@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2445",
+	"FirstName": "Сергей",
+	"MiddleName": "Максимович",
+	"LastName": "Фомин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "38",
+			"HeadOfDepartment": false,
+			"Position": "141"
+		}
+	]
+}

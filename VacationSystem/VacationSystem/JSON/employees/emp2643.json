@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2643",
+	"FirstName": "Всеволод",
+	"MiddleName": "Викторович",
+	"LastName": "Павличев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "248",
+			"HeadOfDepartment": false,
+			"Position": "7"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3727",
+	"FirstName": "Ольга",
+	"MiddleName": "Ивановна",
+	"LastName": "Орешкина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "239",
+			"HeadOfDepartment": false,
+			"Position": "223"
+		}
+	]
+}

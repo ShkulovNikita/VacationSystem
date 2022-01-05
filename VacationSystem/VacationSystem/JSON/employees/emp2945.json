@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2945",
+	"FirstName": "Надежда",
+	"MiddleName": "Петровна",
+	"LastName": "Котельникова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "85",
+			"HeadOfDepartment": false,
+			"Position": "191"
+		}
+	]
+}

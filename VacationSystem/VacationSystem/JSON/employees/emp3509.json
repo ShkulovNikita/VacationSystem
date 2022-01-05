@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3509",
+	"FirstName": "Андрей",
+	"MiddleName": "Валентинович",
+	"LastName": "Коптюг",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "188",
+			"HeadOfDepartment": false,
+			"Position": "56"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2156",
+	"FirstName": "Мария",
+	"MiddleName": "Валентиновна",
+	"LastName": "Феофилова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "158",
+			"HeadOfDepartment": false,
+			"Position": "104"
+		}
+	]
+}

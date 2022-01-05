@@ -1,0 +1,14 @@
+﻿{
+	"Id": "518",
+	"FirstName": "Николай",
+	"MiddleName": "Яковлевич",
+	"LastName": "Филишов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "79",
+			"HeadOfDepartment": false,
+			"Position": "11"
+		}
+	]
+}

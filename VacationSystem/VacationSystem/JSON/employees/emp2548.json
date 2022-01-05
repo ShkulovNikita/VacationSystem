@@ -1,0 +1,19 @@
+﻿{
+	"Id": "2548",
+	"FirstName": "Алексей",
+	"MiddleName": "Сергеевич",
+	"LastName": "Семенов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "41",
+			"HeadOfDepartment": false,
+			"Position": "25"
+		},
+		{
+			"Id": "175",
+			"HeadOfDepartment": false,
+			"Position": "170"
+		}
+	]
+}

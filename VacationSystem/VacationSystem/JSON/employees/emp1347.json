@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1347",
+	"FirstName": "Нина",
+	"MiddleName": "Борисовна",
+	"LastName": "Шахова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "65",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

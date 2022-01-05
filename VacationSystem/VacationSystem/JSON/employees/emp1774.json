@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1774",
+	"FirstName": "Анастасия",
+	"MiddleName": "Викторовна",
+	"LastName": "Новикова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "65",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

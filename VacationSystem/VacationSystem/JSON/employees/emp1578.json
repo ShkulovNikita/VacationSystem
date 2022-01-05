@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1578",
+	"FirstName": "Сергей",
+	"MiddleName": "Николаевич",
+	"LastName": "Капитанов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "222",
+			"HeadOfDepartment": false,
+			"Position": "153"
+		}
+	]
+}

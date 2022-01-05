@@ -1,0 +1,14 @@
+﻿{
+	"Id": "126",
+	"FirstName": "Иван",
+	"MiddleName": "Романович",
+	"LastName": "Чернов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "72",
+			"HeadOfDepartment": false,
+			"Position": "46"
+		}
+	]
+}

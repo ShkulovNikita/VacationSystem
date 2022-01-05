@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3466",
+	"FirstName": "Александр",
+	"MiddleName": "Александрович",
+	"LastName": "Подзигун",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "15",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

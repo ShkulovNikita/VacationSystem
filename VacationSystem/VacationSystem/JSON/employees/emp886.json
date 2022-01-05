@@ -1,0 +1,19 @@
+﻿{
+	"Id": "886",
+	"FirstName": "Василий",
+	"MiddleName": "Михайлович",
+	"LastName": "Малютин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "53",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		},
+		{
+			"Id": "53",
+			"HeadOfDepartment": false,
+			"Position": "2"
+		}
+	]
+}

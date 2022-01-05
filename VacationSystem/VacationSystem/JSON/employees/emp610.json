@@ -1,0 +1,14 @@
+﻿{
+	"Id": "610",
+	"FirstName": "Анна",
+	"MiddleName": "Леонидовна",
+	"LastName": "Волкова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "3",
+			"HeadOfDepartment": false,
+			"Position": "28"
+		}
+	]
+}

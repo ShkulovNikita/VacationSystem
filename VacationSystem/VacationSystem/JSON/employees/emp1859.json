@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1859",
+	"FirstName": "Оксана",
+	"MiddleName": "Сергеевна",
+	"LastName": "Адаховская",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "97",
+			"HeadOfDepartment": false,
+			"Position": "65"
+		}
+	]
+}

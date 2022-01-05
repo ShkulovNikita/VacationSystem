@@ -1,0 +1,14 @@
+﻿{
+	"Id": "238",
+	"FirstName": "Денис",
+	"MiddleName": "Витольдович",
+	"LastName": "Чайковский",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "100",
+			"HeadOfDepartment": false,
+			"Position": "45"
+		}
+	]
+}

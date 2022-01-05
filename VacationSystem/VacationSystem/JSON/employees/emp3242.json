@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3242",
+	"FirstName": "Александр",
+	"MiddleName": "Леонидович",
+	"LastName": "Астафьев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "88",
+			"HeadOfDepartment": false,
+			"Position": "24"
+		}
+	]
+}

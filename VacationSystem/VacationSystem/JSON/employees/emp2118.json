@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2118",
+	"FirstName": "Константин",
+	"MiddleName": "Григорьевич",
+	"LastName": "Квасников",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "25",
+			"HeadOfDepartment": false,
+			"Position": "224"
+		}
+	]
+}

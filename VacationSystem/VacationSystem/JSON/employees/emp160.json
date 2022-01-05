@@ -1,0 +1,14 @@
+﻿{
+	"Id": "160",
+	"FirstName": "Елена",
+	"MiddleName": "Юрьевна",
+	"LastName": "Устинова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "15",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "493",
+	"FirstName": "Иванна",
+	"MiddleName": "Джоновна",
+	"LastName": "Анфиногенова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "69",
+			"HeadOfDepartment": false,
+			"Position": "18"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3338",
+	"FirstName": "Юрий",
+	"MiddleName": "Алексеевич",
+	"LastName": "Глушко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "175",
+			"HeadOfDepartment": false,
+			"Position": "11"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2474",
+	"FirstName": "Андрей",
+	"MiddleName": "Владимирович",
+	"LastName": "Мухолзоев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "15",
+			"HeadOfDepartment": false,
+			"Position": "28"
+		}
+	]
+}

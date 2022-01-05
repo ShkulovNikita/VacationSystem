@@ -1,0 +1,24 @@
+﻿{
+	"Id": "1876",
+	"FirstName": "Надежда",
+	"MiddleName": "Игоревна",
+	"LastName": "Кривцова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "212",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		},
+		{
+			"Id": "36",
+			"HeadOfDepartment": false,
+			"Position": "2"
+		},
+		{
+			"Id": "36",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

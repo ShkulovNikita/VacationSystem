@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2401",
+	"FirstName": "Дмитрий",
+	"MiddleName": "Александрович",
+	"LastName": "Горлушко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "4",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

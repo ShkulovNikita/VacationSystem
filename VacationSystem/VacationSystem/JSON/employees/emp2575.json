@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2575",
+	"FirstName": "Ольга",
+	"MiddleName": "Васильевна",
+	"LastName": "Громова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "32",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

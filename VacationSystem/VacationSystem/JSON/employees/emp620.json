@@ -1,0 +1,14 @@
+﻿{
+	"Id": "620",
+	"FirstName": "Анна",
+	"MiddleName": "Михайловна",
+	"LastName": "Гардези",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "65",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

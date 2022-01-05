@@ -1,0 +1,14 @@
+﻿{
+	"Id": "474",
+	"FirstName": "Константин",
+	"MiddleName": "Иванович",
+	"LastName": "Кузеванов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "1",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

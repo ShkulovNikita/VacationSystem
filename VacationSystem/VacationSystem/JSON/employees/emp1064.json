@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1064",
+	"FirstName": "Татьяна",
+	"MiddleName": "Николаевна",
+	"LastName": "Панова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "194",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

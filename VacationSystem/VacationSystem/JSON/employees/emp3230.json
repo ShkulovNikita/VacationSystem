@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3230",
+	"FirstName": "Марина",
+	"MiddleName": "Владимировна",
+	"LastName": "Пичугова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "203",
+			"HeadOfDepartment": false,
+			"Position": "79"
+		}
+	]
+}

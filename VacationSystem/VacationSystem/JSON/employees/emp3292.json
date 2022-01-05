@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3292",
+	"FirstName": "Евгения",
+	"MiddleName": "Владимировна",
+	"LastName": "Волкова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "266",
+			"HeadOfDepartment": false,
+			"Position": "271"
+		}
+	]
+}

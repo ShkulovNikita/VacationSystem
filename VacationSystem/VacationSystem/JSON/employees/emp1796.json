@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1796",
+	"FirstName": "Елена",
+	"MiddleName": "Николаевна",
+	"LastName": "Былина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "26",
+			"HeadOfDepartment": false,
+			"Position": "2"
+		}
+	]
+}

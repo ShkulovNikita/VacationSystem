@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3574",
+	"FirstName": "Вячеслав",
+	"MiddleName": "Юрьевич",
+	"LastName": "Бабышев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "130",
+			"HeadOfDepartment": false,
+			"Position": "53"
+		}
+	]
+}

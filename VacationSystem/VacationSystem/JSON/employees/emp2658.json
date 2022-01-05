@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2658",
+	"FirstName": "Виктор",
+	"MiddleName": "Юрьевич",
+	"LastName": "Шпильной",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "216",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

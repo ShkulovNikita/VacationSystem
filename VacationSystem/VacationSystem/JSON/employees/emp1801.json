@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1801",
+	"FirstName": "Илья",
+	"MiddleName": "Сергеевич",
+	"LastName": "Черданцев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "66",
+			"HeadOfDepartment": false,
+			"Position": "7"
+		}
+	]
+}

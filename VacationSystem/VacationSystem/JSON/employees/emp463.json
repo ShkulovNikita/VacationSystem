@@ -1,0 +1,14 @@
+﻿{
+	"Id": "463",
+	"FirstName": "Юрий",
+	"MiddleName": "Иванович",
+	"LastName": "Галанов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "52",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

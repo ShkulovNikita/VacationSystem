@@ -1,0 +1,14 @@
+﻿{
+	"Id": "905",
+	"FirstName": "Сен",
+	"MiddleName": "Ер",
+	"LastName": "Им",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "2",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

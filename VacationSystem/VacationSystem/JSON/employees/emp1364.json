@@ -1,0 +1,24 @@
+﻿{
+	"Id": "1364",
+	"FirstName": "Дмитрий",
+	"MiddleName": "Андреевич",
+	"LastName": "Седнев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "209",
+			"HeadOfDepartment": false,
+			"Position": "45"
+		},
+		{
+			"Id": "210",
+			"HeadOfDepartment": false,
+			"Position": "2"
+		},
+		{
+			"Id": "17",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

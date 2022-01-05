@@ -1,0 +1,14 @@
+﻿{
+	"Id": "366",
+	"FirstName": "Наталья",
+	"MiddleName": "Ленмировна",
+	"LastName": "Бацева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "19",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

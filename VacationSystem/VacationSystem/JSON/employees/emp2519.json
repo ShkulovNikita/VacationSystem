@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2519",
+	"FirstName": "Нина",
+	"MiddleName": "Федоровна",
+	"LastName": "Шувалова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "121",
+			"HeadOfDepartment": false,
+			"Position": "160"
+		}
+	]
+}

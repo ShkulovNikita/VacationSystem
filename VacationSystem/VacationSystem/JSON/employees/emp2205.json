@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2205",
+	"FirstName": "Ирина",
+	"MiddleName": "Георгиевна",
+	"LastName": "Устинова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "52",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

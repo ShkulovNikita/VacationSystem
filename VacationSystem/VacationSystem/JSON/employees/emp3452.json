@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3452",
+	"FirstName": "Валентина",
+	"MiddleName": "Васильевна",
+	"LastName": "Кретова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "30",
+			"HeadOfDepartment": false,
+			"Position": "19"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2674",
+	"FirstName": "Галима",
+	"MiddleName": "Ахметшарифовна",
+	"LastName": "Сарычева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "171",
+			"HeadOfDepartment": false,
+			"Position": "222"
+		}
+	]
+}

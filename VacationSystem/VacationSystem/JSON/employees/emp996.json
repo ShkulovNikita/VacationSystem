@@ -1,0 +1,14 @@
+﻿{
+	"Id": "996",
+	"FirstName": "Галина",
+	"MiddleName": "Николаевна",
+	"LastName": "Климова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "19",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3504",
+	"FirstName": "Дмитрий",
+	"MiddleName": "Витальевич",
+	"LastName": "Егоров",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "74",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

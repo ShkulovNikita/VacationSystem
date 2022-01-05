@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2237",
+	"FirstName": "Светлана",
+	"MiddleName": "Николаевна",
+	"LastName": "Сорокова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "15",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

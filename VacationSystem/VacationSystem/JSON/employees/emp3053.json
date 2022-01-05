@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3053",
+	"FirstName": "Наталья",
+	"MiddleName": "Владимировна",
+	"LastName": "Койнова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "199",
+			"HeadOfDepartment": false,
+			"Position": "154"
+		}
+	]
+}

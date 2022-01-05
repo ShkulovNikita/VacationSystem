@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2545",
+	"FirstName": "Елена",
+	"MiddleName": "Анатольевна",
+	"LastName": "Вайтулевич",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "119",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3229",
+	"FirstName": "Дмитрий",
+	"MiddleName": "Алексеевич",
+	"LastName": "Лапин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "27",
+			"HeadOfDepartment": false,
+			"Position": "7"
+		}
+	]
+}

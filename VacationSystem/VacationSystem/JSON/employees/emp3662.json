@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3662",
+	"FirstName": "Виктор",
+	"MiddleName": "Николаевич",
+	"LastName": "Дворянкин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "59",
+			"HeadOfDepartment": false,
+			"Position": "37"
+		}
+	]
+}

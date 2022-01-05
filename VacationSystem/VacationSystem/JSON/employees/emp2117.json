@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2117",
+	"FirstName": "Николай",
+	"MiddleName": "Александрович",
+	"LastName": "Качалов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "0",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

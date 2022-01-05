@@ -1,0 +1,14 @@
+﻿{
+	"Id": "393",
+	"FirstName": "Валерий",
+	"MiddleName": "Николаевич",
+	"LastName": "Гофман",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "37",
+			"HeadOfDepartment": false,
+			"Position": "95"
+		}
+	]
+}

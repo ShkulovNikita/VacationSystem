@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2840",
+	"FirstName": "Евгений",
+	"MiddleName": "Александрович",
+	"LastName": "Цыденов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "2",
+			"HeadOfDepartment": false,
+			"Position": "19"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "731",
+	"FirstName": "Олег",
+	"MiddleName": "Алексеевич",
+	"LastName": "Смирнов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "2",
+			"HeadOfDepartment": false,
+			"Position": "103"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2828",
+	"FirstName": "Вячеслав",
+	"MiddleName": "Владимирович",
+	"LastName": "Леухин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "10",
+			"HeadOfDepartment": false,
+			"Position": "7"
+		}
+	]
+}

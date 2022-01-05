@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3232",
+	"FirstName": "Елена",
+	"MiddleName": "Геннадьевна",
+	"LastName": "Абызова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "32",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		}
+	]
+}

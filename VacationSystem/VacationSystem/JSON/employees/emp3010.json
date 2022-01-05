@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3010",
+	"FirstName": "Александра",
+	"MiddleName": "Викторовна",
+	"LastName": "Иценко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "2",
+			"HeadOfDepartment": false,
+			"Position": "0"
+		}
+	]
+}

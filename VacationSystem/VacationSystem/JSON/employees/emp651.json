@@ -1,0 +1,14 @@
+﻿{
+	"Id": "651",
+	"FirstName": "Елена",
+	"MiddleName": "Геннадьевна",
+	"LastName": "Леонтьева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "14",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "491",
+	"FirstName": "Владимир",
+	"MiddleName": "Васильевич",
+	"LastName": "Ширяев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "114",
+			"HeadOfDepartment": false,
+			"Position": "11"
+		}
+	]
+}

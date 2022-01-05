@@ -1,0 +1,14 @@
+﻿{
+	"Id": "632",
+	"FirstName": "Людмила",
+	"MiddleName": "Михайловна",
+	"LastName": "Мещерякова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "53",
+			"HeadOfDepartment": false,
+			"Position": "19"
+		}
+	]
+}

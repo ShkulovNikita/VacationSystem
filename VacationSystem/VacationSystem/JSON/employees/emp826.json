@@ -1,0 +1,14 @@
+﻿{
+	"Id": "826",
+	"FirstName": "Алексей",
+	"MiddleName": "Олегович",
+	"LastName": "Савельев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "26",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

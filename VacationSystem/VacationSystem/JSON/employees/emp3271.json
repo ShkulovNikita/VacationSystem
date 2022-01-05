@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3271",
+	"FirstName": "Евгений",
+	"MiddleName": "Владимирович",
+	"LastName": "Орлов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "83",
+			"HeadOfDepartment": false,
+			"Position": "35"
+		}
+	]
+}

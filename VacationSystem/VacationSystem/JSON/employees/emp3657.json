@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3657",
+	"FirstName": "Мария",
+	"MiddleName": "Михайловна",
+	"LastName": "Алексеева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "82",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

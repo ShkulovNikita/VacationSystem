@@ -1,0 +1,14 @@
+﻿{
+	"Id": "76",
+	"FirstName": "Полина",
+	"MiddleName": "Васильевна",
+	"LastName": "Тютева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "19",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

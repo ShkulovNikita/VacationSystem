@@ -1,0 +1,14 @@
+﻿{
+	"Id": "87",
+	"FirstName": "Ксения",
+	"MiddleName": "Валентиновна",
+	"LastName": "Давлетьярова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "47",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "696",
+	"FirstName": "Юрий",
+	"MiddleName": "Викторович",
+	"LastName": "Кобенко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "0",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1515",
+	"FirstName": "Иван",
+	"MiddleName": "Николаевич",
+	"LastName": "Григоров",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "72",
+			"HeadOfDepartment": false,
+			"Position": "183"
+		}
+	]
+}

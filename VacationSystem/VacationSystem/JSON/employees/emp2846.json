@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2846",
+	"FirstName": "Вероника",
+	"MiddleName": "Александровна",
+	"LastName": "Морозова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "2",
+			"HeadOfDepartment": false,
+			"Position": "0"
+		}
+	]
+}

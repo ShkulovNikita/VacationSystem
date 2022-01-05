@@ -1,0 +1,14 @@
+﻿{
+	"Id": "344",
+	"FirstName": "Наталия",
+	"MiddleName": "Владимировна",
+	"LastName": "Демьяненко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "0",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		}
+	]
+}

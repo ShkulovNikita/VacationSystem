@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2869",
+	"FirstName": "Рашид",
+	"MiddleName": "Адгамович",
+	"LastName": "Гильманов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "105",
+			"HeadOfDepartment": false,
+			"Position": "88"
+		}
+	]
+}

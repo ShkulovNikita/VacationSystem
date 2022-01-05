@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2259",
+	"FirstName": "Елена",
+	"MiddleName": "Валерьевна",
+	"LastName": "Зданкевич",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "47",
+			"HeadOfDepartment": false,
+			"Position": "30"
+		}
+	]
+}

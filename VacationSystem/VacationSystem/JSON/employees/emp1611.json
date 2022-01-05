@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1611",
+	"FirstName": "Александр",
+	"MiddleName": "Константинович",
+	"LastName": "Агафонов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "199",
+			"HeadOfDepartment": false,
+			"Position": "195"
+		}
+	]
+}

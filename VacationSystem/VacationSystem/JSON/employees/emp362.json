@@ -1,0 +1,14 @@
+﻿{
+	"Id": "362",
+	"FirstName": "Елена",
+	"MiddleName": "Анатольевна",
+	"LastName": "Заева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "61",
+			"HeadOfDepartment": false,
+			"Position": "10"
+		}
+	]
+}

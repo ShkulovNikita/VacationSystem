@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3688",
+	"FirstName": "Роман",
+	"MiddleName": "Сергеевич",
+	"LastName": "Дерябин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "213",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

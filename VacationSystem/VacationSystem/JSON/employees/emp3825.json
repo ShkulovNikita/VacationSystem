@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3825",
+	"FirstName": "Андрей",
+	"MiddleName": "Александрович",
+	"LastName": "Яковлев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "230",
+			"HeadOfDepartment": false,
+			"Position": "299"
+		}
+	]
+}

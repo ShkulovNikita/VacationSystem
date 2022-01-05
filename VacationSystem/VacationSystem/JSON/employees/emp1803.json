@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1803",
+	"FirstName": "Инна",
+	"MiddleName": "Владимировна",
+	"LastName": "Сон",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "2",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

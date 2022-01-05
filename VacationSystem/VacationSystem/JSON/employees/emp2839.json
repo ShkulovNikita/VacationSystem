@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2839",
+	"FirstName": "Анастасия",
+	"MiddleName": "Александровна",
+	"LastName": "Солопова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "36",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

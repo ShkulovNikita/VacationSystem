@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1466",
+	"FirstName": "Любовь",
+	"MiddleName": "Ивановна",
+	"LastName": "Богомолова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "163",
+			"HeadOfDepartment": false,
+			"Position": "57"
+		}
+	]
+}

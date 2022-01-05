@@ -1,0 +1,14 @@
+﻿{
+	"Id": "560",
+	"FirstName": "Николай",
+	"MiddleName": "Ефимович",
+	"LastName": "Голёнко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "112",
+			"HeadOfDepartment": false,
+			"Position": "99"
+		}
+	]
+}

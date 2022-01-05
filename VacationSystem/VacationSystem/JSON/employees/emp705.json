@@ -1,0 +1,14 @@
+﻿{
+	"Id": "705",
+	"FirstName": "Василий",
+	"MiddleName": "Васильевич",
+	"LastName": "Шестаков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "62",
+			"HeadOfDepartment": false,
+			"Position": "11"
+		}
+	]
+}

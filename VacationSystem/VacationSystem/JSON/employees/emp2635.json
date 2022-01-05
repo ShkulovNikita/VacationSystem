@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2635",
+	"FirstName": "Сергей",
+	"MiddleName": "Михайлович",
+	"LastName": "Черявко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "85",
+			"HeadOfDepartment": false,
+			"Position": "47"
+		}
+	]
+}

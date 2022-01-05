@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2964",
+	"FirstName": "Сергей",
+	"MiddleName": "Александрович",
+	"LastName": "Ласточкин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "257",
+			"HeadOfDepartment": false,
+			"Position": "64"
+		}
+	]
+}

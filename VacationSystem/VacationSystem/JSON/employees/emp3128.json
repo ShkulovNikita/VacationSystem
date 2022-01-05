@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3128",
+	"FirstName": "Валерий",
+	"MiddleName": "Алексеевич",
+	"LastName": "Пшонко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "85",
+			"HeadOfDepartment": false,
+			"Position": "35"
+		}
+	]
+}

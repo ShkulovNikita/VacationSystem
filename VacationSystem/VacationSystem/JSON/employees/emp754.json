@@ -1,0 +1,14 @@
+﻿{
+	"Id": "754",
+	"FirstName": "Нина",
+	"MiddleName": "Михайловна",
+	"LastName": "Власова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "139",
+			"HeadOfDepartment": false,
+			"Position": "98"
+		}
+	]
+}

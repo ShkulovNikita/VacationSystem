@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2684",
+	"FirstName": "Виктор",
+	"MiddleName": "Владимирович",
+	"LastName": "Кан",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "29",
+			"HeadOfDepartment": false,
+			"Position": "7"
+		}
+	]
+}

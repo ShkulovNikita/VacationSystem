@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3533",
+	"FirstName": "Александр",
+	"MiddleName": "Данилович",
+	"LastName": "Плеханов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "168",
+			"HeadOfDepartment": false,
+			"Position": "64"
+		}
+	]
+}

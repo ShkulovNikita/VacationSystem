@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1658",
+	"FirstName": "Любовь",
+	"MiddleName": "Петровна",
+	"LastName": "Прохоренко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "121",
+			"HeadOfDepartment": false,
+			"Position": "160"
+		}
+	]
+}

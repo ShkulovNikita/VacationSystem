@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2775",
+	"FirstName": "Юлия",
+	"MiddleName": "Александровна",
+	"LastName": "Власенко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "51",
+			"HeadOfDepartment": false,
+			"Position": "26"
+		}
+	]
+}

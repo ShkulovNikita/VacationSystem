@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1551",
+	"FirstName": "Сания",
+	"MiddleName": "Велдановна",
+	"LastName": "Бикова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "1",
+			"HeadOfDepartment": false,
+			"Position": "2"
+		}
+	]
+}

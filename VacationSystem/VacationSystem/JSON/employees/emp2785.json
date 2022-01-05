@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2785",
+	"FirstName": "Татьяна",
+	"MiddleName": "Александровна",
+	"LastName": "Владыкина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "34",
+			"HeadOfDepartment": false,
+			"Position": "87"
+		}
+	]
+}

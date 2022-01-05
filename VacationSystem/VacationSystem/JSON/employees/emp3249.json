@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3249",
+	"FirstName": "Валентина",
+	"MiddleName": "Петровна",
+	"LastName": "Черткова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "161",
+			"HeadOfDepartment": false,
+			"Position": "69"
+		}
+	]
+}

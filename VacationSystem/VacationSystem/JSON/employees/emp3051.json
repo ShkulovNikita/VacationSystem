@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3051",
+	"FirstName": "Армен",
+	"MiddleName": "Альбертович",
+	"LastName": "Григорян",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "50",
+			"HeadOfDepartment": false,
+			"Position": "88"
+		}
+	]
+}

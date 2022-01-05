@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3133",
+	"FirstName": "Наталья",
+	"MiddleName": "Алексеевна",
+	"LastName": "Аникина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "111",
+			"HeadOfDepartment": false,
+			"Position": "57"
+		}
+	]
+}

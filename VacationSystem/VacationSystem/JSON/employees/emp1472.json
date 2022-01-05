@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1472",
+	"FirstName": "Ася",
+	"MiddleName": "Анатольевна",
+	"LastName": "Лазарейт",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "65",
+			"HeadOfDepartment": false,
+			"Position": "0"
+		}
+	]
+}

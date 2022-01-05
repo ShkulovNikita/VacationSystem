@@ -1,0 +1,19 @@
+﻿{
+	"Id": "1788",
+	"FirstName": "Елена",
+	"MiddleName": "Владимировна",
+	"LastName": "Гершелис",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "1",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		},
+		{
+			"Id": "229",
+			"HeadOfDepartment": false,
+			"Position": "133"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "353",
+	"FirstName": "Ольга",
+	"MiddleName": "Николаевна",
+	"LastName": "Михеева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "34",
+			"HeadOfDepartment": false,
+			"Position": "87"
+		}
+	]
+}

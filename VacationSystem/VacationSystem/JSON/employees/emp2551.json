@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2551",
+	"FirstName": "Сергей",
+	"MiddleName": "Вячеславович",
+	"LastName": "Сахаров",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "2",
+			"HeadOfDepartment": false,
+			"Position": "16"
+		}
+	]
+}

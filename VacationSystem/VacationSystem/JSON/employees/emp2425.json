@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2425",
+	"FirstName": "Петр",
+	"MiddleName": "Александрович",
+	"LastName": "Хряпов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "16",
+			"HeadOfDepartment": false,
+			"Position": "11"
+		}
+	]
+}

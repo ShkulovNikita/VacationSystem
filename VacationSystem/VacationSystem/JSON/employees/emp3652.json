@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3652",
+	"FirstName": "Татьяна",
+	"MiddleName": "Михайловна",
+	"LastName": "Жукова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "215",
+			"HeadOfDepartment": false,
+			"Position": "15"
+		}
+	]
+}

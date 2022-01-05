@@ -1,0 +1,19 @@
+﻿{
+	"Id": "1058",
+	"FirstName": "Татьяна",
+	"MiddleName": "Георгиевна",
+	"LastName": "Тен",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "1",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		},
+		{
+			"Id": "2",
+			"HeadOfDepartment": false,
+			"Position": "10"
+		}
+	]
+}

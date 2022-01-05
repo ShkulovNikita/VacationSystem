@@ -1,0 +1,19 @@
+﻿{
+	"Id": "1536",
+	"FirstName": "Дмитрий",
+	"MiddleName": "Геннадьевич",
+	"LastName": "Прокопьев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "149",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		},
+		{
+			"Id": "14",
+			"HeadOfDepartment": false,
+			"Position": "48"
+		}
+	]
+}

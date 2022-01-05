@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1368",
+	"FirstName": "Эльвира",
+	"MiddleName": "Гомеровна",
+	"LastName": "Соболева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "12",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

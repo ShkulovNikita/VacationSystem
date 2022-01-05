@@ -1,0 +1,14 @@
+﻿{
+	"Id": "607",
+	"FirstName": "Ольга",
+	"MiddleName": "Юрьевна",
+	"LastName": "Бабаева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "1",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

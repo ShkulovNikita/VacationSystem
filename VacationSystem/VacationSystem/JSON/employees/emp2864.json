@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2864",
+	"FirstName": "Ульяна",
+	"MiddleName": "Анатольевна",
+	"LastName": "Егорова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "103",
+			"HeadOfDepartment": false,
+			"Position": "75"
+		}
+	]
+}

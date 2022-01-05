@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2143",
+	"FirstName": "Владислав",
+	"MiddleName": "Михайлович",
+	"LastName": "Галкин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "46",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3515",
+	"FirstName": "Нелли",
+	"MiddleName": "Дмитриевна",
+	"LastName": "Кириллова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "139",
+			"HeadOfDepartment": false,
+			"Position": "281"
+		}
+	]
+}

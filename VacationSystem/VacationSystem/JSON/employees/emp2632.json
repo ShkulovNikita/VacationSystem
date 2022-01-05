@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2632",
+	"FirstName": "Владимир",
+	"MiddleName": "Олегович",
+	"LastName": "Манишев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "49",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

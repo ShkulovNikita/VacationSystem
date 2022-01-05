@@ -1,0 +1,19 @@
+﻿{
+	"Id": "3293",
+	"FirstName": "Андрей",
+	"MiddleName": "Валентинович",
+	"LastName": "Добрынин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "246",
+			"HeadOfDepartment": false,
+			"Position": "45"
+		},
+		{
+			"Id": "102",
+			"HeadOfDepartment": false,
+			"Position": "26"
+		}
+	]
+}

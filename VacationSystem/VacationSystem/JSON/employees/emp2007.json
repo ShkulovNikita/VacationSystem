@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2007",
+	"FirstName": "Юлия",
+	"MiddleName": "Леонидовна",
+	"LastName": "Заблоцкая",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "9",
+			"HeadOfDepartment": false,
+			"Position": "18"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "598",
+	"FirstName": "Людмила",
+	"MiddleName": "Владимировна",
+	"LastName": "Вторушина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "139",
+			"HeadOfDepartment": false,
+			"Position": "9"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2601",
+	"FirstName": "Яна",
+	"MiddleName": "Владимировна",
+	"LastName": "Королькова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "65",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

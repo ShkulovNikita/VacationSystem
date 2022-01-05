@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3619",
+	"FirstName": "Евгений",
+	"MiddleName": "Борисович",
+	"LastName": "Липский",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "269",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

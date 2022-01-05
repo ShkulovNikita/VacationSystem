@@ -1,0 +1,14 @@
+﻿{
+	"Id": "682",
+	"FirstName": "Надежда",
+	"MiddleName": "Николаевна",
+	"LastName": "Князева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "0",
+			"HeadOfDepartment": false,
+			"Position": "0"
+		}
+	]
+}

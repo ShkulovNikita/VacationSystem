@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1869",
+	"FirstName": "Павел",
+	"MiddleName": "Евгеньевич",
+	"LastName": "Селиванов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "29",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

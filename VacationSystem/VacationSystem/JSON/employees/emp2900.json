@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2900",
+	"FirstName": "Екатерина",
+	"MiddleName": "Леонидовна",
+	"LastName": "Тен",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "20",
+			"HeadOfDepartment": false,
+			"Position": "40"
+		}
+	]
+}

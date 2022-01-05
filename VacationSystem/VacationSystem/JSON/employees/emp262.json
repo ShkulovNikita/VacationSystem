@@ -1,0 +1,14 @@
+﻿{
+	"Id": "262",
+	"FirstName": "Александр",
+	"MiddleName": "Юрьевич",
+	"LastName": "Долгих",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "39",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		}
+	]
+}

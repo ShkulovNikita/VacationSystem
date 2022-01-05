@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2367",
+	"FirstName": "Валерий",
+	"MiddleName": "Иванович",
+	"LastName": "Гончаров",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "6",
+			"HeadOfDepartment": false,
+			"Position": "91"
+		}
+	]
+}

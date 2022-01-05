@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2985",
+	"FirstName": "Ирина",
+	"MiddleName": "Ивановна",
+	"LastName": "Климанова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "168",
+			"HeadOfDepartment": false,
+			"Position": "144"
+		}
+	]
+}

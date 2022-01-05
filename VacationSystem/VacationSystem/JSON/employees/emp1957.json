@@ -1,0 +1,19 @@
+﻿{
+	"Id": "1957",
+	"FirstName": "Альбина",
+	"MiddleName": "Анасовна",
+	"LastName": "Новикова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "66",
+			"HeadOfDepartment": false,
+			"Position": "18"
+		},
+		{
+			"Id": "49",
+			"HeadOfDepartment": false,
+			"Position": "53"
+		}
+	]
+}

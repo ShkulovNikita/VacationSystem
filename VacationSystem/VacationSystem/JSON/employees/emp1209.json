@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1209",
+	"FirstName": "Ольга",
+	"MiddleName": "Игоревна",
+	"LastName": "Шайкина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "0",
+			"HeadOfDepartment": false,
+			"Position": "99"
+		}
+	]
+}

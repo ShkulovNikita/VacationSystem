@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3139",
+	"FirstName": "Валерий",
+	"MiddleName": "Михайлович",
+	"LastName": "Завьялов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "19",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1741",
+	"FirstName": "Татьяна",
+	"MiddleName": "Анатольевна",
+	"LastName": "Шидловская",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "225",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

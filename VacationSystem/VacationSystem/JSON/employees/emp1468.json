@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1468",
+	"FirstName": "Степан",
+	"MiddleName": "Геннадьевич",
+	"LastName": "Небаба",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "26",
+			"HeadOfDepartment": false,
+			"Position": "28"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2609",
+	"FirstName": "Евгений",
+	"MiddleName": "Дмитриевич",
+	"LastName": "Замятин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "136",
+			"HeadOfDepartment": false,
+			"Position": "79"
+		}
+	]
+}

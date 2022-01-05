@@ -1,0 +1,14 @@
+﻿{
+	"Id": "99",
+	"FirstName": "Наталья",
+	"MiddleName": "Андреевна",
+	"LastName": "Войткус",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "61",
+			"HeadOfDepartment": false,
+			"Position": "39"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "62",
+	"FirstName": "Роман",
+	"MiddleName": "Борисович",
+	"LastName": "Табакаев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "39",
+			"HeadOfDepartment": false,
+			"Position": "24"
+		}
+	]
+}

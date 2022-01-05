@@ -1,0 +1,14 @@
+﻿{
+	"Id": "973",
+	"FirstName": "Александр",
+	"MiddleName": "Иванович",
+	"LastName": "Мащенко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "186",
+			"HeadOfDepartment": false,
+			"Position": "11"
+		}
+	]
+}

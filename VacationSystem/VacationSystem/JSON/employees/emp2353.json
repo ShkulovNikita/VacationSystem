@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2353",
+	"FirstName": "Александр",
+	"MiddleName": "Владимирович",
+	"LastName": "Погребной",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "26",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

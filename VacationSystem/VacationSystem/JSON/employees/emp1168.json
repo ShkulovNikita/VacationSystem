@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1168",
+	"FirstName": "Нина",
+	"MiddleName": "Васильевна",
+	"LastName": "Ожогина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "132",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

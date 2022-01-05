@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1612",
+	"FirstName": "Кирилл",
+	"MiddleName": "Андреевич",
+	"LastName": "Козин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "17",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

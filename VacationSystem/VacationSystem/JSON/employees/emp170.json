@@ -1,0 +1,14 @@
+﻿{
+	"Id": "170",
+	"FirstName": "Анна",
+	"MiddleName": "Борисовна",
+	"LastName": "Стрельникова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "0",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1001",
+	"FirstName": "Наталия",
+	"MiddleName": "Александровна",
+	"LastName": "Митина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "4",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3800",
+	"FirstName": "Наталья",
+	"MiddleName": "Васильевна",
+	"LastName": "Шолохова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "91",
+			"HeadOfDepartment": false,
+			"Position": "288"
+		}
+	]
+}

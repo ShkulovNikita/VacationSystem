@@ -1,0 +1,14 @@
+﻿{
+	"Id": "110",
+	"FirstName": "Олеся",
+	"MiddleName": "Евгеньевна",
+	"LastName": "Лепокурова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "1",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2627",
+	"FirstName": "Ирина",
+	"MiddleName": "Игоревна",
+	"LastName": "Фефелова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "225",
+			"HeadOfDepartment": false,
+			"Position": "223"
+		}
+	]
+}

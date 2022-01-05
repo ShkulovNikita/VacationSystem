@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1138",
+	"FirstName": "Сергей",
+	"MiddleName": "Семенович",
+	"LastName": "Юркевич",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "49",
+			"HeadOfDepartment": false,
+			"Position": "88"
+		}
+	]
+}

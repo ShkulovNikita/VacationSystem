@@ -1,0 +1,19 @@
+﻿{
+	"Id": "2105",
+	"FirstName": "Андрей",
+	"MiddleName": "Юрьевич",
+	"LastName": "Иванов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "1",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		},
+		{
+			"Id": "181",
+			"HeadOfDepartment": false,
+			"Position": "45"
+		}
+	]
+}

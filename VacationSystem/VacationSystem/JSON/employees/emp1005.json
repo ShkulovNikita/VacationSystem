@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1005",
+	"FirstName": "Алексей",
+	"MiddleName": "Алексеевич",
+	"LastName": "Митякин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "46",
+			"HeadOfDepartment": false,
+			"Position": "70"
+		}
+	]
+}

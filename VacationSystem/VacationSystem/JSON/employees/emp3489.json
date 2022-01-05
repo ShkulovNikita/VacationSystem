@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3489",
+	"FirstName": "Сергей",
+	"MiddleName": "Владимирович",
+	"LastName": "Мартынов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "59",
+			"HeadOfDepartment": false,
+			"Position": "72"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3025",
+	"FirstName": "Дмитрий",
+	"MiddleName": "Анатольевич",
+	"LastName": "Конкин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "6",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		}
+	]
+}

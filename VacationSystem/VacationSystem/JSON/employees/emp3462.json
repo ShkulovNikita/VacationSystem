@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3462",
+	"FirstName": "Алина",
+	"MiddleName": "",
+	"LastName": "Маматова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "102",
+			"HeadOfDepartment": false,
+			"Position": "198"
+		}
+	]
+}

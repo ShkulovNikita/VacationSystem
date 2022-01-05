@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3079",
+	"FirstName": "Анастасия",
+	"MiddleName": "Сергеевна",
+	"LastName": "Белова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "32",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		}
+	]
+}

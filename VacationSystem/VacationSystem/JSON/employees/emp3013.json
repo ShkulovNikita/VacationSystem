@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3013",
+	"FirstName": "Ольга",
+	"MiddleName": "Олеговна",
+	"LastName": "Пехтелева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "152",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

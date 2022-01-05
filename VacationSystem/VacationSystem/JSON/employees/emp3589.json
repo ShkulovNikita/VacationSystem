@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3589",
+	"FirstName": "Светлана",
+	"MiddleName": "Витальевна",
+	"LastName": "Лебедева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "91",
+			"HeadOfDepartment": false,
+			"Position": "15"
+		}
+	]
+}

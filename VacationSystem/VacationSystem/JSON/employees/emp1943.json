@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1943",
+	"FirstName": "Алексей",
+	"MiddleName": "Игоревич",
+	"LastName": "Муравлев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "19",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		}
+	]
+}

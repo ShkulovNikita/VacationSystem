@@ -1,0 +1,14 @@
+﻿{
+	"Id": "941",
+	"FirstName": "Анатолий",
+	"MiddleName": "Алексеевич",
+	"LastName": "Филимонов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "122",
+			"HeadOfDepartment": false,
+			"Position": "11"
+		}
+	]
+}

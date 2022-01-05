@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3342",
+	"FirstName": "Фанцэ",
+	"MiddleName": "",
+	"LastName": "Чжан",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "32",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		}
+	]
+}

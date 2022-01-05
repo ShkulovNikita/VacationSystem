@@ -1,0 +1,19 @@
+﻿{
+	"Id": "2958",
+	"FirstName": "Семен",
+	"MiddleName": "Игоревич",
+	"LastName": "Горенинский",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "4",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		},
+		{
+			"Id": "4",
+			"HeadOfDepartment": false,
+			"Position": "26"
+		}
+	]
+}

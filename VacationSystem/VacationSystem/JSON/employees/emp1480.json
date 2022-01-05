@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1480",
+	"FirstName": "Андрей",
+	"MiddleName": "Геннадьевич",
+	"LastName": "Зенков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "214",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

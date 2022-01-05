@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1811",
+	"FirstName": "Глафира",
+	"MiddleName": "Михайловна",
+	"LastName": "Шестопалова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "126",
+			"HeadOfDepartment": false,
+			"Position": "71"
+		}
+	]
+}

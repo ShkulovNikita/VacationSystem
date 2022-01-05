@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2235",
+	"FirstName": "Ольга",
+	"MiddleName": "Владимировна",
+	"LastName": "Шабаловская",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "84",
+			"HeadOfDepartment": false,
+			"Position": "18"
+		}
+	]
+}

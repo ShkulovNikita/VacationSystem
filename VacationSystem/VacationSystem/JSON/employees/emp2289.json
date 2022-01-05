@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2289",
+	"FirstName": "Александра",
+	"MiddleName": "Сергеевна",
+	"LastName": "Цукублина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "2",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

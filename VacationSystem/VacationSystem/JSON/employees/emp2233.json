@@ -1,0 +1,19 @@
+﻿{
+	"Id": "2233",
+	"FirstName": "Татьяна",
+	"MiddleName": "Константиновна",
+	"LastName": "Отавина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "17",
+			"HeadOfDepartment": false,
+			"Position": "2"
+		},
+		{
+			"Id": "2",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

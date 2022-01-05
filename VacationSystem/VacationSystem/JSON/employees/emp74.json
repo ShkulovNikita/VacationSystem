@@ -1,0 +1,19 @@
+﻿{
+	"Id": "74",
+	"FirstName": "Алексей",
+	"MiddleName": "Алексеевич",
+	"LastName": "Гавриков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "36",
+			"HeadOfDepartment": false,
+			"Position": "28"
+		},
+		{
+			"Id": "36",
+			"HeadOfDepartment": false,
+			"Position": "29"
+		}
+	]
+}

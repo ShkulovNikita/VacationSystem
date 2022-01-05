@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1425",
+	"FirstName": "Ирина",
+	"MiddleName": "Сергеевна",
+	"LastName": "Солошенко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "94",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

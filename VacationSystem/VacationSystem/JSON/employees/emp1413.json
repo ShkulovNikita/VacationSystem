@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1413",
+	"FirstName": "Нина",
+	"MiddleName": "Николаевна",
+	"LastName": "Манешева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "91",
+			"HeadOfDepartment": false,
+			"Position": "166"
+		}
+	]
+}

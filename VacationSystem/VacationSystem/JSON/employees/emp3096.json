@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3096",
+	"FirstName": "Дмитрий",
+	"MiddleName": "Евгеньевич",
+	"LastName": "Руденков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "122",
+			"HeadOfDepartment": false,
+			"Position": "81"
+		}
+	]
+}

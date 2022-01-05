@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3643",
+	"FirstName": "Сергей",
+	"MiddleName": "Николаевич",
+	"LastName": "Буравский",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "80",
+			"HeadOfDepartment": false,
+			"Position": "11"
+		}
+	]
+}

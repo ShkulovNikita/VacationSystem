@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3207",
+	"FirstName": "Наталия",
+	"MiddleName": "Викторовна",
+	"LastName": "Чичерина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "57",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

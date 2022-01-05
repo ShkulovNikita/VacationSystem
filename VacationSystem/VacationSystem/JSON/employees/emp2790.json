@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2790",
+	"FirstName": "Олег",
+	"MiddleName": "Владимирович",
+	"LastName": "Семёнов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "51",
+			"HeadOfDepartment": false,
+			"Position": "26"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2729",
+	"FirstName": "Юлия",
+	"MiddleName": "Захаровна",
+	"LastName": "Васильева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "2",
+			"HeadOfDepartment": false,
+			"Position": "103"
+		}
+	]
+}

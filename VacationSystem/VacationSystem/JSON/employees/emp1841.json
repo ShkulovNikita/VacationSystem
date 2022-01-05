@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1841",
+	"FirstName": "Владимир",
+	"MiddleName": "Вилорьевич",
+	"LastName": "Ан",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "4",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

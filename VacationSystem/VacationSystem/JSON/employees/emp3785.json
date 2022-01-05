@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3785",
+	"FirstName": "Антон",
+	"MiddleName": "Эдуардович",
+	"LastName": "Моисеев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "131",
+			"HeadOfDepartment": false,
+			"Position": "297"
+		}
+	]
+}

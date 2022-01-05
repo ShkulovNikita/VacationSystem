@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3770",
+	"FirstName": "Ахмад",
+	"MiddleName": "",
+	"LastName": "Рамазани Саадатабади",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "212",
+			"HeadOfDepartment": false,
+			"Position": "56"
+		}
+	]
+}

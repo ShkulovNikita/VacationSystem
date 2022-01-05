@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1415",
+	"FirstName": "Елена",
+	"MiddleName": "Сергеевна",
+	"LastName": "Нестерова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "16",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

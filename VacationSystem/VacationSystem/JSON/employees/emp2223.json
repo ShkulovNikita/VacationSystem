@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2223",
+	"FirstName": "Сергей",
+	"MiddleName": "Геннадьевич",
+	"LastName": "Обухов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "19",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

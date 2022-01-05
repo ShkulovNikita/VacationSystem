@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1656",
+	"FirstName": "Арина",
+	"MiddleName": "Аркадиевна",
+	"LastName": "Портнягина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "92",
+			"HeadOfDepartment": false,
+			"Position": "80"
+		}
+	]
+}

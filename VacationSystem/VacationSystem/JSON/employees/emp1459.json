@@ -1,0 +1,19 @@
+﻿{
+	"Id": "1459",
+	"FirstName": "Ирина",
+	"MiddleName": "Анатольевна",
+	"LastName": "Лариошина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "172",
+			"HeadOfDepartment": false,
+			"Position": "10"
+		},
+		{
+			"Id": "32",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

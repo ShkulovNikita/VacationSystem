@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1486",
+	"FirstName": "Светлана",
+	"MiddleName": "Михайловна",
+	"LastName": "Загородская",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "47",
+			"HeadOfDepartment": false,
+			"Position": "9"
+		}
+	]
+}

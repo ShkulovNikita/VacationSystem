@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2074",
+	"FirstName": "Владимир",
+	"MiddleName": "Анатольевич",
+	"LastName": "Коковихин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "47",
+			"HeadOfDepartment": false,
+			"Position": "30"
+		}
+	]
+}

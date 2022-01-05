@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1882",
+	"FirstName": "Александр",
+	"MiddleName": "Николаевич",
+	"LastName": "Страшко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "17",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

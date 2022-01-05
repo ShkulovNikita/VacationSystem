@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3781",
+	"FirstName": "Ростислав",
+	"MiddleName": "Эдуардович",
+	"LastName": "Яворский",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "230",
+			"HeadOfDepartment": false,
+			"Position": "296"
+		}
+	]
+}

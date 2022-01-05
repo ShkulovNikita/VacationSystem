@@ -1,0 +1,14 @@
+﻿{
+	"Id": "70",
+	"FirstName": "Анастасия",
+	"MiddleName": "Анатольевна",
+	"LastName": "Батурина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "44",
+			"HeadOfDepartment": false,
+			"Position": "27"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1802",
+	"FirstName": "Виктор",
+	"MiddleName": "Васильевич",
+	"LastName": "Толов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "215",
+			"HeadOfDepartment": false,
+			"Position": "64"
+		}
+	]
+}

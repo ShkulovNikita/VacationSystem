@@ -1,0 +1,14 @@
+﻿{
+	"Id": "595",
+	"FirstName": "Нина",
+	"MiddleName": "Александровна",
+	"LastName": "Колпакова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "36",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

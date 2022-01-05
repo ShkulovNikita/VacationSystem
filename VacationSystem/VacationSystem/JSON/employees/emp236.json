@@ -1,0 +1,14 @@
+﻿{
+	"Id": "236",
+	"FirstName": "Иван",
+	"MiddleName": "Леонидович",
+	"LastName": "Климентенко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "72",
+			"HeadOfDepartment": false,
+			"Position": "47"
+		}
+	]
+}

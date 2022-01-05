@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2349",
+	"FirstName": "Сергей",
+	"MiddleName": "Автономович",
+	"LastName": "Новиков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "19",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

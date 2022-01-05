@@ -1,0 +1,14 @@
+﻿{
+	"Id": "394",
+	"FirstName": "Александр",
+	"MiddleName": "Васильевич",
+	"LastName": "Градобоев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "53",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

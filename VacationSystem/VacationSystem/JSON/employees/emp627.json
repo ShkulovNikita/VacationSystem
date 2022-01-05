@@ -1,0 +1,14 @@
+﻿{
+	"Id": "627",
+	"FirstName": "Эдуард",
+	"MiddleName": "Борисович",
+	"LastName": "Шошин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "119",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

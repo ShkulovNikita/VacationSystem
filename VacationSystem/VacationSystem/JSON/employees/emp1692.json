@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1692",
+	"FirstName": "Анна",
+	"MiddleName": "Сергеевна",
+	"LastName": "Гаврилова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "1",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2587",
+	"FirstName": "Катрина",
+	"MiddleName": "Владимировна",
+	"LastName": "Карпачева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "17",
+			"HeadOfDepartment": false,
+			"Position": "0"
+		}
+	]
+}

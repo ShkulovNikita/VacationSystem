@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3412",
+	"FirstName": "Александр",
+	"MiddleName": "Алексеевич",
+	"LastName": "Мовлян",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "155",
+			"HeadOfDepartment": false,
+			"Position": "64"
+		}
+	]
+}

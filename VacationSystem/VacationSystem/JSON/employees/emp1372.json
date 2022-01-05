@@ -1,0 +1,24 @@
+﻿{
+	"Id": "1372",
+	"FirstName": "Елена",
+	"MiddleName": "Сергеевна",
+	"LastName": "Стасюк",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "211",
+			"HeadOfDepartment": false,
+			"Position": "170"
+		},
+		{
+			"Id": "192",
+			"HeadOfDepartment": false,
+			"Position": "24"
+		},
+		{
+			"Id": "42",
+			"HeadOfDepartment": false,
+			"Position": "24"
+		}
+	]
+}

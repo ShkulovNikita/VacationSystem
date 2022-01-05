@@ -1,0 +1,19 @@
+﻿{
+	"Id": "1437",
+	"FirstName": "Анна",
+	"MiddleName": "Николаевна",
+	"LastName": "Уткина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "0",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		},
+		{
+			"Id": "0",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

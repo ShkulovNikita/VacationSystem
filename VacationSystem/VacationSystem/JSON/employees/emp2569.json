@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2569",
+	"FirstName": "Герман",
+	"MiddleName": "Алексеевич",
+	"LastName": "Филиппов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "210",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

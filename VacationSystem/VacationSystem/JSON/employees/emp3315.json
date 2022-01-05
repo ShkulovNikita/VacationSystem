@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3315",
+	"FirstName": "Михаил",
+	"MiddleName": "Георгиевич",
+	"LastName": "Булгаков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "267",
+			"HeadOfDepartment": false,
+			"Position": "64"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "803",
+	"FirstName": "Ольга",
+	"MiddleName": "Анатольевна",
+	"LastName": "Мазурина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "177",
+			"HeadOfDepartment": false,
+			"Position": "132"
+		}
+	]
+}

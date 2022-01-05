@@ -1,0 +1,19 @@
+﻿{
+	"Id": "253",
+	"FirstName": "Андрей",
+	"MiddleName": "Александрович",
+	"LastName": "Сечин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "93",
+			"HeadOfDepartment": false,
+			"Position": "28"
+		},
+		{
+			"Id": "93",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

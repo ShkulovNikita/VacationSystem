@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1184",
+	"FirstName": "Светлана",
+	"MiddleName": "Ивановна",
+	"LastName": "Каменева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "199",
+			"HeadOfDepartment": false,
+			"Position": "154"
+		}
+	]
+}

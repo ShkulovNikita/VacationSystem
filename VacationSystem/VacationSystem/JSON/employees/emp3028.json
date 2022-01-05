@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3028",
+	"FirstName": "Юлия",
+	"MiddleName": "Владимировна",
+	"LastName": "Колбышева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "0",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1958",
+	"FirstName": "Андрей",
+	"MiddleName": "Викторович",
+	"LastName": "Батранин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "193",
+			"HeadOfDepartment": false,
+			"Position": "26"
+		}
+	]
+}

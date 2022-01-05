@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3448",
+	"FirstName": "Анна",
+	"MiddleName": "Владимировна",
+	"LastName": "Богданова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "163",
+			"HeadOfDepartment": false,
+			"Position": "69"
+		}
+	]
+}

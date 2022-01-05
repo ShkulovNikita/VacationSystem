@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3571",
+	"FirstName": "Екатерина",
+	"MiddleName": "Андреевна",
+	"LastName": "Шалева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "36",
+			"HeadOfDepartment": false,
+			"Position": "70"
+		}
+	]
+}

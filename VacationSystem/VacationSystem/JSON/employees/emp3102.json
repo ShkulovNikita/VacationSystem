@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3102",
+	"FirstName": "Анжелика",
+	"MiddleName": "Юрьевна",
+	"LastName": "Григорьева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "262",
+			"HeadOfDepartment": false,
+			"Position": "157"
+		}
+	]
+}

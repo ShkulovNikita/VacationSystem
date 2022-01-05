@@ -1,0 +1,19 @@
+﻿{
+	"Id": "3258",
+	"FirstName": "Ирина",
+	"MiddleName": "Ивановна",
+	"LastName": "Авдеева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "93",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		},
+		{
+			"Id": "132",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

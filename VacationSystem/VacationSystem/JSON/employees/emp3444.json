@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3444",
+	"FirstName": "Евгения",
+	"MiddleName": "Ивановна",
+	"LastName": "Скоморощенко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "126",
+			"HeadOfDepartment": false,
+			"Position": "249"
+		}
+	]
+}

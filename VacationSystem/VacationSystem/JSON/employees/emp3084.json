@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3084",
+	"FirstName": "Вера",
+	"MiddleName": "Владимировна",
+	"LastName": "Подгаецкая",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "118",
+			"HeadOfDepartment": false,
+			"Position": "0"
+		}
+	]
+}

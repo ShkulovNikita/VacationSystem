@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2216",
+	"FirstName": "Алексей",
+	"MiddleName": "Игоревич",
+	"LastName": "Целебровский",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "112",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1623",
+	"FirstName": "Валерий",
+	"MiddleName": "Павлович",
+	"LastName": "Коробов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "50",
+			"HeadOfDepartment": false,
+			"Position": "88"
+		}
+	]
+}

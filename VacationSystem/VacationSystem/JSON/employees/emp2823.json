@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2823",
+	"FirstName": "Гелена",
+	"MiddleName": "Юрьевна",
+	"LastName": "Макарцева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "204",
+			"HeadOfDepartment": false,
+			"Position": "84"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2855",
+	"FirstName": "Роман",
+	"MiddleName": "Сергеевич",
+	"LastName": "Серебренников",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "108",
+			"HeadOfDepartment": false,
+			"Position": "64"
+		}
+	]
+}

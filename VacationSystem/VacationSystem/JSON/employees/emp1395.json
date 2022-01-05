@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1395",
+	"FirstName": "Наталия",
+	"MiddleName": "Валерьевна",
+	"LastName": "Аксёнова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "0",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

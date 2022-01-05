@@ -1,0 +1,14 @@
+﻿{
+	"Id": "809",
+	"FirstName": "Анатолий",
+	"MiddleName": "Павлович",
+	"LastName": "Вергун",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "17",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

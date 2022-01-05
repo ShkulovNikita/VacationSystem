@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2807",
+	"FirstName": "Екатерина",
+	"MiddleName": "Александровна",
+	"LastName": "Епифанова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "205",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

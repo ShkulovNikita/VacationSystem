@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1031",
+	"FirstName": "Мария",
+	"MiddleName": "Владимировна",
+	"LastName": "Галкина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "73",
+			"HeadOfDepartment": false,
+			"Position": "18"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2520",
+	"FirstName": "Михаил",
+	"MiddleName": "Александрович",
+	"LastName": "Шеремет",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "39",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

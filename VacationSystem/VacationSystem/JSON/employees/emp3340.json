@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3340",
+	"FirstName": "Михаил",
+	"MiddleName": "Владимирович",
+	"LastName": "Бурков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "15",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

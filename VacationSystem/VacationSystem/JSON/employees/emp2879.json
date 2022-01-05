@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2879",
+	"FirstName": "Сергей",
+	"MiddleName": "Владимирович",
+	"LastName": "Кетов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "32",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

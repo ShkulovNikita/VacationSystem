@@ -1,0 +1,14 @@
+﻿{
+	"Id": "972",
+	"FirstName": "Виктор",
+	"MiddleName": "Михайлович",
+	"LastName": "Машнич",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "38",
+			"HeadOfDepartment": false,
+			"Position": "141"
+		}
+	]
+}

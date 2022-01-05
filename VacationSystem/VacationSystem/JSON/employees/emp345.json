@@ -1,0 +1,14 @@
+﻿{
+	"Id": "345",
+	"FirstName": "Игорь",
+	"MiddleName": "Петрович",
+	"LastName": "Денисов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "15",
+			"HeadOfDepartment": false,
+			"Position": "2"
+		}
+	]
+}

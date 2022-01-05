@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1633",
+	"FirstName": "Ольга",
+	"MiddleName": "Сергеевна",
+	"LastName": "Токарева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "26",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

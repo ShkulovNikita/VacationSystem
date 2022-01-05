@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3704",
+	"FirstName": "Маргарита",
+	"MiddleName": "Витальевна",
+	"LastName": "Ерхова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "85",
+			"HeadOfDepartment": false,
+			"Position": "147"
+		}
+	]
+}

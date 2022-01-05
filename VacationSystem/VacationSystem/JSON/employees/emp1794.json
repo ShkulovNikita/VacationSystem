@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1794",
+	"FirstName": "София",
+	"MiddleName": "Юрьевна",
+	"LastName": "Майлина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "191",
+			"HeadOfDepartment": false,
+			"Position": "145"
+		}
+	]
+}

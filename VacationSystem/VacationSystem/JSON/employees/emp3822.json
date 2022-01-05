@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3822",
+	"FirstName": "Шицзянь",
+	"MiddleName": "",
+	"LastName": "Чжан",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "64",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		}
+	]
+}

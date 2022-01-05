@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1318",
+	"FirstName": "Денис",
+	"MiddleName": "Владимирович",
+	"LastName": "Пономарев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "64",
+			"HeadOfDepartment": false,
+			"Position": "56"
+		}
+	]
+}

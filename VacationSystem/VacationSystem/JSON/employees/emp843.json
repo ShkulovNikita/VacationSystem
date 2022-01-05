@@ -1,0 +1,14 @@
+﻿{
+	"Id": "843",
+	"FirstName": "Ирина",
+	"MiddleName": "Юрьевна",
+	"LastName": "Герасимчук",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "2",
+			"HeadOfDepartment": false,
+			"Position": "35"
+		}
+	]
+}

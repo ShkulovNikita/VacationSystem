@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1759",
+	"FirstName": "Грачик",
+	"MiddleName": "Араикович",
+	"LastName": "Еремян",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "227",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		}
+	]
+}

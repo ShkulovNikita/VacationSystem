@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1583",
+	"FirstName": "Людмила",
+	"MiddleName": "Анатольевна",
+	"LastName": "Мисник",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "9",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+﻿{
+	"Id": "1246",
+	"FirstName": "Елена",
+	"MiddleName": "Владимировна",
+	"LastName": "Гиниятова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "71",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		},
+		{
+			"Id": "20",
+			"HeadOfDepartment": false,
+			"Position": "157"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3668",
+	"FirstName": "Наталья",
+	"MiddleName": "Алексеевна",
+	"LastName": "Патрахина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "230",
+			"HeadOfDepartment": false,
+			"Position": "163"
+		}
+	]
+}

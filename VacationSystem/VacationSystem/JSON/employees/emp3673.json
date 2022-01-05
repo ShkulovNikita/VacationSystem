@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3673",
+	"FirstName": "Маурицио",
+	"MiddleName": "",
+	"LastName": "Феррари",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "15",
+			"HeadOfDepartment": false,
+			"Position": "56"
+		}
+	]
+}

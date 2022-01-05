@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1416",
+	"FirstName": "Иван",
+	"MiddleName": "Владимирович",
+	"LastName": "Корепанов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "15",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

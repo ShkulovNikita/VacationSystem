@@ -1,0 +1,14 @@
+﻿{
+	"Id": "543",
+	"FirstName": "Александр",
+	"MiddleName": "Викторович",
+	"LastName": "Ремнев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "151",
+			"HeadOfDepartment": false,
+			"Position": "64"
+		}
+	]
+}

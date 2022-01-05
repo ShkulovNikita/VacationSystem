@@ -1,0 +1,14 @@
+﻿{
+	"Id": "210",
+	"FirstName": "Анастасия",
+	"MiddleName": "Сергеевна",
+	"LastName": "Богданова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "94",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

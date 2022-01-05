@@ -1,0 +1,14 @@
+﻿{
+	"Id": "124",
+	"FirstName": "Станислав",
+	"MiddleName": "Александрович",
+	"LastName": "Янковский",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "39",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

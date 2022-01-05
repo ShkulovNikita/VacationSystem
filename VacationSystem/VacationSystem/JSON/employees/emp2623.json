@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2623",
+	"FirstName": "Наталья",
+	"MiddleName": "Юрьевна",
+	"LastName": "Луговцова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "12",
+			"HeadOfDepartment": false,
+			"Position": "28"
+		}
+	]
+}

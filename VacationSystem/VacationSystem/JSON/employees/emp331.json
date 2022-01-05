@@ -1,0 +1,19 @@
+﻿{
+	"Id": "331",
+	"FirstName": "Наталья",
+	"MiddleName": "Николаевна",
+	"LastName": "Козлова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "91",
+			"HeadOfDepartment": false,
+			"Position": "82"
+		},
+		{
+			"Id": "91",
+			"HeadOfDepartment": false,
+			"Position": "83"
+		}
+	]
+}

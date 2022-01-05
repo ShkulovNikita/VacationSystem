@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1520",
+	"FirstName": "Александр",
+	"MiddleName": "Борисович",
+	"LastName": "Панасенко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "72",
+			"HeadOfDepartment": false,
+			"Position": "184"
+		}
+	]
+}

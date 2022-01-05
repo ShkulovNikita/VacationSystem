@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1535",
+	"FirstName": "Светлана",
+	"MiddleName": "Геннадьевна",
+	"LastName": "Медведева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "218",
+			"HeadOfDepartment": false,
+			"Position": "11"
+		}
+	]
+}

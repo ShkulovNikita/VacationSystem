@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1225",
+	"FirstName": "Денис",
+	"MiddleName": "Дмитриевич",
+	"LastName": "Данн",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "88",
+			"HeadOfDepartment": false,
+			"Position": "24"
+		}
+	]
+}

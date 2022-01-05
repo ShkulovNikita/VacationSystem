@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2049",
+	"FirstName": "Наталья",
+	"MiddleName": "Юрьевна",
+	"LastName": "Реутова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "139",
+			"HeadOfDepartment": false,
+			"Position": "98"
+		}
+	]
+}

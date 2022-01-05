@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3636",
+	"FirstName": "Виктория",
+	"MiddleName": "Вячеславовна",
+	"LastName": "Статюха",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "270",
+			"HeadOfDepartment": false,
+			"Position": "157"
+		}
+	]
+}

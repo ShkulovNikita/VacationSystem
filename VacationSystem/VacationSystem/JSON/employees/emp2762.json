@@ -1,0 +1,19 @@
+﻿{
+	"Id": "2762",
+	"FirstName": "Анара",
+	"MiddleName": "",
+	"LastName": "Умурзакова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "19",
+			"HeadOfDepartment": false,
+			"Position": "28"
+		},
+		{
+			"Id": "19",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1336",
+	"FirstName": "Андрей",
+	"MiddleName": "Антонович",
+	"LastName": "Кисляк",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "112",
+			"HeadOfDepartment": false,
+			"Position": "99"
+		}
+	]
+}

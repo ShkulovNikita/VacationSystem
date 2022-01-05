@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1052",
+	"FirstName": "Алексей",
+	"MiddleName": "Васильевич",
+	"LastName": "Юрченко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "32",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

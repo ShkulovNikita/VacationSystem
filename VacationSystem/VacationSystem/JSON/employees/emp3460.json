@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3460",
+	"FirstName": "Александр",
+	"MiddleName": "Андреевич",
+	"LastName": "Щипков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "6",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

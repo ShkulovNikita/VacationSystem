@@ -1,0 +1,14 @@
+﻿{
+	"Id": "257",
+	"FirstName": "Анастасия",
+	"MiddleName": "Викторовна",
+	"LastName": "Шадрина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "46",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

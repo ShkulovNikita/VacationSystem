@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1710",
+	"FirstName": "Кирилл",
+	"MiddleName": "Борисович",
+	"LastName": "Ларионов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "39",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

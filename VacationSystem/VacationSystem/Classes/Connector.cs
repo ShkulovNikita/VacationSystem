@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using VacationSystem.Models;
-using VacationSystem.Models.Parsering;
+using VacationSystem.Models.Parsing;
 using System.IO;
 
 namespace VacationSystem.Classes
@@ -10,13 +10,13 @@ namespace VacationSystem.Classes
     /// класс для обеспечения соединения с API ТПУ
     /// и получения данных из API
     /// </summary>
-    public class Connector
+    static public class Connector
     {
         // постоянная часть ссылки на API
         private const string Url = "JSON/";
 
         // чтение нужного файла с данными
-        static public string ReadReply(string data)
+        public static string ReadReply(string data)
         {
             string path = Url + data;
 
@@ -42,7 +42,7 @@ namespace VacationSystem.Classes
         }
 
         // парсинг заданных данных
-        static public object Parse(Func<string, object> parsingMethod, string data)
+        public static object Parse(Func<string, object> parsingMethod, string data)
         {
             if (data != null)
             {
@@ -61,7 +61,7 @@ namespace VacationSystem.Classes
         }
 
         // получение производственного календаря
-        static public List<Holiday> GetCalendar(string year="")
+        public static List<Holiday> GetCalendar(string year="")
         {   
             string calendar = ReadReply("calendar" + year);
             List<Holiday> holidays = (List<Holiday>)Parse(Parser.ParseHolidays, calendar);
@@ -74,7 +74,7 @@ namespace VacationSystem.Classes
         // получение информации о конкретном сотруднике
         static public EmployeeParsed GetEmployee(string id)
         {
-            string emp = ReadReply("emp" + id);
+            string emp = ReadReply("employees/emp" + id);
             EmployeeParsed employee = (EmployeeParsed)Parse(Parser.ParseEmployee, emp);
             if (employee != null)
                 return employee;
@@ -85,7 +85,7 @@ namespace VacationSystem.Classes
         // получение информации о конкретном отделении
         static public DepartmentParsed GetDepartment(string id)
         {
-            string dep = ReadReply("dep" + id);
+            string dep = ReadReply("departments/dep" + id);
             DepartmentParsed department = (DepartmentParsed)Parse(Parser.ParseDepartment, dep);
             if (department != null)
                 return department;
@@ -94,10 +94,10 @@ namespace VacationSystem.Classes
         }
 
         // получение списка сотрудников отделения
-        static public List<EmployeeBrief> GetEmployeeList(string id)
+        static public List<EmployeeInfo> GetEmployeeList(string id)
         {
-            string emps = ReadReply("emp_list" + id);
-            List<EmployeeBrief> list = (List<EmployeeBrief>)Parse(Parser.ParseEmployeeList, emps);
+            string emps = ReadReply("emp_in_deps/emp_list" + id);
+            List<EmployeeInfo> list = (List<EmployeeInfo>)Parse(Parser.ParseEmployeeList, emps);
             if (list != null)
                 return list;
             else

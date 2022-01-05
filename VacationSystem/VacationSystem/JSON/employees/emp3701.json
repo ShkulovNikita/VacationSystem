@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3701",
+	"FirstName": "Айрат",
+	"MiddleName": "Наилович",
+	"LastName": "Мустафин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "273",
+			"HeadOfDepartment": false,
+			"Position": "153"
+		}
+	]
+}

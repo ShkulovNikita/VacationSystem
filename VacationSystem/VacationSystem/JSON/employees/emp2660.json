@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2660",
+	"FirstName": "Наталья",
+	"MiddleName": "Валерьевна",
+	"LastName": "Ушакова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "104",
+			"HeadOfDepartment": false,
+			"Position": "45"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+﻿{
+	"Id": "708",
+	"FirstName": "Леонид",
+	"MiddleName": "Иванович",
+	"LastName": "Корнеев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "168",
+			"HeadOfDepartment": false,
+			"Position": "20"
+		},
+		{
+			"Id": "168",
+			"HeadOfDepartment": false,
+			"Position": "20"
+		}
+	]
+}

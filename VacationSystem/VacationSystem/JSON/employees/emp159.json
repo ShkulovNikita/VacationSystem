@@ -1,0 +1,14 @@
+﻿{
+	"Id": "159",
+	"FirstName": "Ольга",
+	"MiddleName": "Александровна",
+	"LastName": "Гальченко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "84",
+			"HeadOfDepartment": false,
+			"Position": "54"
+		}
+	]
+}

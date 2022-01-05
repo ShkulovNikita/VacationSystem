@@ -1,0 +1,19 @@
+﻿{
+	"Id": "631",
+	"FirstName": "Виталий",
+	"MiddleName": "Павлович",
+	"LastName": "Меркулов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "46",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		},
+		{
+			"Id": "5",
+			"HeadOfDepartment": false,
+			"Position": "18"
+		}
+	]
+}

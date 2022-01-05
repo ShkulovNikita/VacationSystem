@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3217",
+	"FirstName": "Алина",
+	"MiddleName": "Игоревна",
+	"LastName": "Чудина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "264",
+			"HeadOfDepartment": false,
+			"Position": "45"
+		}
+	]
+}

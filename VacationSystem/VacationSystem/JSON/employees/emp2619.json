@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2619",
+	"FirstName": "Александр",
+	"MiddleName": "Анатольевич",
+	"LastName": "Леушкин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "214",
+			"HeadOfDepartment": false,
+			"Position": "197"
+		}
+	]
+}

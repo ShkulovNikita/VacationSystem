@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1467",
+	"FirstName": "Яна",
+	"MiddleName": "Владимировна",
+	"LastName": "Марышева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "2",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

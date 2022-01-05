@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2204",
+	"FirstName": "Екатерина",
+	"MiddleName": "Увинаминовна",
+	"LastName": "Баева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "142",
+			"HeadOfDepartment": false,
+			"Position": "187"
+		}
+	]
+}

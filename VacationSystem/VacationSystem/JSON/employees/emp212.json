@@ -1,0 +1,14 @@
+﻿{
+	"Id": "212",
+	"FirstName": "Дмитрий",
+	"MiddleName": "Владимирович",
+	"LastName": "Худяков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "92",
+			"HeadOfDepartment": false,
+			"Position": "63"
+		}
+	]
+}

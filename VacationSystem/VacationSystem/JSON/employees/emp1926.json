@@ -1,0 +1,19 @@
+﻿{
+	"Id": "1926",
+	"FirstName": "Владимир",
+	"MiddleName": "Владимирович",
+	"LastName": "Шагалов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "102",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		},
+		{
+			"Id": "17",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

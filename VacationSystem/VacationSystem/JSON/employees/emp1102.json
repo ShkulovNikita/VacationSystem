@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1102",
+	"FirstName": "Александра",
+	"MiddleName": "Евгеньевна",
+	"LastName": "Емельянова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "92",
+			"HeadOfDepartment": false,
+			"Position": "61"
+		}
+	]
+}

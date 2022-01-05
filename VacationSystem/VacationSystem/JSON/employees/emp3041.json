@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3041",
+	"FirstName": "Алексей",
+	"MiddleName": "Сергеевич",
+	"LastName": "Королев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "212",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

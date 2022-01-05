@@ -1,0 +1,14 @@
+﻿{
+	"Id": "913",
+	"FirstName": "Любовь",
+	"MiddleName": "Никифоровна",
+	"LastName": "Мурашова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "6",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

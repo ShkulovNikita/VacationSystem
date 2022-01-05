@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3173",
+	"FirstName": "Андрей",
+	"MiddleName": "Федорович",
+	"LastName": "Никитин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "231",
+			"HeadOfDepartment": false,
+			"Position": "35"
+		}
+	]
+}

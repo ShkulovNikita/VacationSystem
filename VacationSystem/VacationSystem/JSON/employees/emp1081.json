@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1081",
+	"FirstName": "Наталия",
+	"MiddleName": "Владимировна",
+	"LastName": "Куркан",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "63",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

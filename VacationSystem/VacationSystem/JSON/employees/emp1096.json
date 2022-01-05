@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1096",
+	"FirstName": "Елена",
+	"MiddleName": "Васильевна",
+	"LastName": "Лотова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "129",
+			"HeadOfDepartment": false,
+			"Position": "18"
+		}
+	]
+}

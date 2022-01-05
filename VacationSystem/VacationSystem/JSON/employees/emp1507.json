@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1507",
+	"FirstName": "Андрей",
+	"MiddleName": "Владимирович",
+	"LastName": "Мостовщиков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "186",
+			"HeadOfDepartment": false,
+			"Position": "56"
+		}
+	]
+}

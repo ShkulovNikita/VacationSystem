@@ -1,0 +1,14 @@
+﻿{
+	"Id": "363",
+	"FirstName": "Татьяна",
+	"MiddleName": "Викторовна",
+	"LastName": "Громова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "14",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		}
+	]
+}

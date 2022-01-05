@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3550",
+	"FirstName": "Вероника",
+	"MiddleName": "Викторовна",
+	"LastName": "Безгачева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "94",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

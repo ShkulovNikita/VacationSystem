@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2997",
+	"FirstName": "Михаил",
+	"MiddleName": "Алексеевич",
+	"LastName": "Гавриленко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "36",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

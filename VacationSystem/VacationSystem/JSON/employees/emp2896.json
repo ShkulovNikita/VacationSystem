@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2896",
+	"FirstName": "Елена",
+	"MiddleName": "Александровна",
+	"LastName": "Аникина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "215",
+			"HeadOfDepartment": false,
+			"Position": "20"
+		}
+	]
+}

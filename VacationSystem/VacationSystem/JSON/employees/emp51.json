@@ -1,0 +1,14 @@
+﻿{
+	"Id": "51",
+	"FirstName": "Вероника",
+	"MiddleName": "Валерьевна",
+	"LastName": "Соколова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "26",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2843",
+	"FirstName": "Аркадий",
+	"MiddleName": "Сергеевич",
+	"LastName": "Гончаров",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "254",
+			"HeadOfDepartment": false,
+			"Position": "7"
+		}
+	]
+}

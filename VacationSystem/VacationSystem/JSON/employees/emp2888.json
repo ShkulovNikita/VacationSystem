@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2888",
+	"FirstName": "Вероника",
+	"MiddleName": "Ивановна",
+	"LastName": "Марчук",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "2",
+			"HeadOfDepartment": false,
+			"Position": "0"
+		}
+	]
+}

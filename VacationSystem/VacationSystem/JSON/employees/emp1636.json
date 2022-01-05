@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1636",
+	"FirstName": "Олег",
+	"MiddleName": "Алексеевич",
+	"LastName": "Константинов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "75",
+			"HeadOfDepartment": false,
+			"Position": "49"
+		}
+	]
+}

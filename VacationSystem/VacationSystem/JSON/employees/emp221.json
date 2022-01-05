@@ -1,0 +1,14 @@
+﻿{
+	"Id": "221",
+	"FirstName": "Вячеслав",
+	"MiddleName": "Султанович",
+	"LastName": "Саидов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "2",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

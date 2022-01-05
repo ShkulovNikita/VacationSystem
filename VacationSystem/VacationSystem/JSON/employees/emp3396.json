@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3396",
+	"FirstName": "Константин",
+	"MiddleName": "Борисович",
+	"LastName": "Михайлов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "75",
+			"HeadOfDepartment": false,
+			"Position": "232"
+		}
+	]
+}

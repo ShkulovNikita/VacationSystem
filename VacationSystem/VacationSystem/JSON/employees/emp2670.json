@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2670",
+	"FirstName": "Надежда",
+	"MiddleName": "Анатольевна",
+	"LastName": "Ивлева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "142",
+			"HeadOfDepartment": false,
+			"Position": "187"
+		}
+	]
+}

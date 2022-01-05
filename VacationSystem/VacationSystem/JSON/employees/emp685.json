@@ -1,0 +1,14 @@
+﻿{
+	"Id": "685",
+	"FirstName": "Вячеслав",
+	"MiddleName": "Алексеевич",
+	"LastName": "Стародубцев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "71",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

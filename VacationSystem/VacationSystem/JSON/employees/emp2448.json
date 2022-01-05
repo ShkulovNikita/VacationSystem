@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2448",
+	"FirstName": "Наталья",
+	"MiddleName": "Васильевна",
+	"LastName": "Загуменнова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "2",
+			"HeadOfDepartment": false,
+			"Position": "11"
+		}
+	]
+}

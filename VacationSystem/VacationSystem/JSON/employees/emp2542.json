@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2542",
+	"FirstName": "Ольга",
+	"MiddleName": "Александровна",
+	"LastName": "Гончарук",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "66",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

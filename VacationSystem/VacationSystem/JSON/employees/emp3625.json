@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3625",
+	"FirstName": "Нурбану",
+	"MiddleName": "",
+	"LastName": "Сарбасова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "19",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		}
+	]
+}

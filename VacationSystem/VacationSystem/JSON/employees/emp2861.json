@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2861",
+	"FirstName": "Асия",
+	"MiddleName": "",
+	"LastName": "Касанова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "4",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		}
+	]
+}

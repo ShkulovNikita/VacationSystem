@@ -1,0 +1,14 @@
+﻿{
+	"Id": "469",
+	"FirstName": "Лилия",
+	"MiddleName": "Ильгизовна",
+	"LastName": "Асадуллина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "0",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		}
+	]
+}

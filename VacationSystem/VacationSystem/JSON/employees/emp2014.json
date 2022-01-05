@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2014",
+	"FirstName": "Ирина",
+	"MiddleName": "Александровна",
+	"LastName": "Брындина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "157",
+			"HeadOfDepartment": false,
+			"Position": "112"
+		}
+	]
+}

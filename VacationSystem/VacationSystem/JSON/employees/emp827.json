@@ -1,0 +1,14 @@
+﻿{
+	"Id": "827",
+	"FirstName": "Татьяна",
+	"MiddleName": "Юрьевна",
+	"LastName": "Вдовина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "2",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

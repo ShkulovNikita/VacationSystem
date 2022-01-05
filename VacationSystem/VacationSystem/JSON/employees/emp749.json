@@ -1,0 +1,14 @@
+﻿{
+	"Id": "749",
+	"FirstName": "Татьяна",
+	"MiddleName": "Геннадьевна",
+	"LastName": "Седых",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "47",
+			"HeadOfDepartment": false,
+			"Position": "30"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3447",
+	"FirstName": "Артём",
+	"MiddleName": "Александрович",
+	"LastName": "Пересадин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "257",
+			"HeadOfDepartment": false,
+			"Position": "64"
+		}
+	]
+}

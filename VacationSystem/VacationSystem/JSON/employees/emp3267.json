@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3267",
+	"FirstName": "Ирина",
+	"MiddleName": "",
+	"LastName": "Готман",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "53",
+			"HeadOfDepartment": false,
+			"Position": "24"
+		}
+	]
+}

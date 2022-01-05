@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3551",
+	"FirstName": "Анна",
+	"MiddleName": "Петровна",
+	"LastName": "Книтель",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "107",
+			"HeadOfDepartment": false,
+			"Position": "73"
+		}
+	]
+}

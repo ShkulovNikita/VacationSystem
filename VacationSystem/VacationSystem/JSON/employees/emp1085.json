@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1085",
+	"FirstName": "Валерий",
+	"MiddleName": "Владимирович",
+	"LastName": "Петрик",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "3",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

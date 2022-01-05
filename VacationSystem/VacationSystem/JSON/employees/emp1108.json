@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1108",
+	"FirstName": "Светлана",
+	"MiddleName": "Владимировна",
+	"LastName": "Субботина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "24",
+			"HeadOfDepartment": false,
+			"Position": "138"
+		}
+	]
+}

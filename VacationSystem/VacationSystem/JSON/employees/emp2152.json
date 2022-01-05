@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2152",
+	"FirstName": "Валентина",
+	"MiddleName": "Сергеевна",
+	"LastName": "Тумайкина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "21",
+			"HeadOfDepartment": false,
+			"Position": "64"
+		}
+	]
+}

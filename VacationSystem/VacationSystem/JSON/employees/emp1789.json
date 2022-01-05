@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1789",
+	"FirstName": "Марина",
+	"MiddleName": "Юрьевна",
+	"LastName": "Андрианова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "103",
+			"HeadOfDepartment": false,
+			"Position": "213"
+		}
+	]
+}

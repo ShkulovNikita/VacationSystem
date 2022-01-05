@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1015",
+	"FirstName": "Сергей",
+	"MiddleName": "Геннадьевич",
+	"LastName": "Цапко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "26",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

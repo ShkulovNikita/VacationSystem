@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2144",
+	"FirstName": "Оксана",
+	"MiddleName": "Владимировна",
+	"LastName": "Бондарева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "97",
+			"HeadOfDepartment": false,
+			"Position": "71"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2451",
+	"FirstName": "Ирина",
+	"MiddleName": "Николаевна",
+	"LastName": "Большанина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "154",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

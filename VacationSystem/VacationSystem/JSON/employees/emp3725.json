@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3725",
+	"FirstName": "Владислав",
+	"MiddleName": "Александрович",
+	"LastName": "Чернов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "265",
+			"HeadOfDepartment": false,
+			"Position": "292"
+		}
+	]
+}

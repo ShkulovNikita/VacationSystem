@@ -1,0 +1,14 @@
+﻿{
+	"Id": "144",
+	"FirstName": "Александр",
+	"MiddleName": "Павлович",
+	"LastName": "Шестак",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "78",
+			"HeadOfDepartment": false,
+			"Position": "24"
+		}
+	]
+}

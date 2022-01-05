@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1686",
+	"FirstName": "Раиса",
+	"MiddleName": "Анатольевна",
+	"LastName": "Малкова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "27",
+			"HeadOfDepartment": false,
+			"Position": "199"
+		}
+	]
+}

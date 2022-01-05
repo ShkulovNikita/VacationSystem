@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3124",
+	"FirstName": "Владимир",
+	"MiddleName": "Евгеньевич",
+	"LastName": "Рудник",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "249",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		}
+	]
+}

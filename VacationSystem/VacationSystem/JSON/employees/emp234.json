@@ -1,0 +1,14 @@
+﻿{
+	"Id": "234",
+	"FirstName": "Андрей",
+	"MiddleName": "Геннадьевич",
+	"LastName": "Каранкевич",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "6",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

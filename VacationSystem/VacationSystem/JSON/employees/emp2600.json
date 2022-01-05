@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2600",
+	"FirstName": "Ксения",
+	"MiddleName": "Сергеевна",
+	"LastName": "Станкевич",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "221",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		}
+	]
+}

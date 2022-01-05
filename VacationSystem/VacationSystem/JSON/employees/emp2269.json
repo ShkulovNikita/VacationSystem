@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2269",
+	"FirstName": "Екатерина",
+	"MiddleName": "Борисовна",
+	"LastName": "Трифонова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "60",
+			"HeadOfDepartment": false,
+			"Position": "38"
+		}
+	]
+}

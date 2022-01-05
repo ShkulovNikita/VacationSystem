@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1994",
+	"FirstName": "Анна",
+	"MiddleName": "Аксёновна",
+	"LastName": "Борисова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "157",
+			"HeadOfDepartment": false,
+			"Position": "112"
+		}
+	]
+}

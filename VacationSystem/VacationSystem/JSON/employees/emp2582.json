@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2582",
+	"FirstName": "Василий",
+	"MiddleName": "Иванович",
+	"LastName": "Афанасьев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "38",
+			"HeadOfDepartment": false,
+			"Position": "141"
+		}
+	]
+}

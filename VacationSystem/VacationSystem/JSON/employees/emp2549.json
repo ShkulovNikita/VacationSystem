@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2549",
+	"FirstName": "Марина",
+	"MiddleName": "Александровна",
+	"LastName": "Косминова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "2",
+			"HeadOfDepartment": false,
+			"Position": "239"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1134",
+	"FirstName": "Николай",
+	"MiddleName": "Григорьевич",
+	"LastName": "Марков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "26",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

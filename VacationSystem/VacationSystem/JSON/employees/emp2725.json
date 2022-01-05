@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2725",
+	"FirstName": "Никита",
+	"MiddleName": "Витальевич",
+	"LastName": "Лаптев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "244",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

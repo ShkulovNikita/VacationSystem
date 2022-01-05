@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3033",
+	"FirstName": "Надежда",
+	"MiddleName": "Матвеевна",
+	"LastName": "Потпоева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "1",
+			"HeadOfDepartment": false,
+			"Position": "53"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "907",
+	"FirstName": "Александр",
+	"MiddleName": "Анатольевич",
+	"LastName": "Хамухин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "26",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

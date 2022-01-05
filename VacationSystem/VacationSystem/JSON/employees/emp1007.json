@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1007",
+	"FirstName": "Галина",
+	"MiddleName": "Алексеевна",
+	"LastName": "Михайлова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "185",
+			"HeadOfDepartment": false,
+			"Position": "106"
+		}
+	]
+}

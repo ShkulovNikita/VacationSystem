@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2662",
+	"FirstName": "Сергей",
+	"MiddleName": "Геннадьевич",
+	"LastName": "Чистяков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "98",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

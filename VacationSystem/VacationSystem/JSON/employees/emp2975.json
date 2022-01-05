@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2975",
+	"FirstName": "Олеся",
+	"MiddleName": "Анатольевна",
+	"LastName": "Слабухо",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "65",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1609",
+	"FirstName": "Евгений",
+	"MiddleName": "Александрович",
+	"LastName": "Колубаев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "15",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

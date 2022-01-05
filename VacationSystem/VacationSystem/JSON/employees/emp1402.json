@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1402",
+	"FirstName": "Раиса",
+	"MiddleName": "Григорьевна",
+	"LastName": "Гроссманн",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "93",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1054",
+	"FirstName": "Роза",
+	"MiddleName": "Явидовна",
+	"LastName": "Юсубова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "4",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

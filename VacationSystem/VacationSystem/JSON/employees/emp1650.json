@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1650",
+	"FirstName": "Анна",
+	"MiddleName": "Сергеевна",
+	"LastName": "Карлюкова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "207",
+			"HeadOfDepartment": false,
+			"Position": "157"
+		}
+	]
+}

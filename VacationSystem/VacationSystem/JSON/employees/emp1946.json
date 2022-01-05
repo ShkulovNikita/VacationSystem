@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1946",
+	"FirstName": "Анна",
+	"MiddleName": "Алексеевна",
+	"LastName": "Карнаухова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "15",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2444",
+	"FirstName": "Петр",
+	"MiddleName": "Валерьевич",
+	"LastName": "Балухтин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "16",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

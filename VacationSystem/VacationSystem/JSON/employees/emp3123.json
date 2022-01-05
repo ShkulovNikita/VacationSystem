@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3123",
+	"FirstName": "Александр",
+	"MiddleName": "Евгеньевич",
+	"LastName": "Овсенёв",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "72",
+			"HeadOfDepartment": false,
+			"Position": "179"
+		}
+	]
+}

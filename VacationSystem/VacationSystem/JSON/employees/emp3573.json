@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3573",
+	"FirstName": "Роман",
+	"MiddleName": "Олегович",
+	"LastName": "Черепанов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "117",
+			"HeadOfDepartment": false,
+			"Position": "24"
+		}
+	]
+}

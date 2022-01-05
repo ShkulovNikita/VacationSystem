@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3799",
+	"FirstName": "Ольга",
+	"MiddleName": "Васильевна",
+	"LastName": "Кудрявцева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "77",
+			"HeadOfDepartment": false,
+			"Position": "108"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2530",
+	"FirstName": "Владимир",
+	"MiddleName": "Анатольевич",
+	"LastName": "Фролов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "59",
+			"HeadOfDepartment": false,
+			"Position": "37"
+		}
+	]
+}

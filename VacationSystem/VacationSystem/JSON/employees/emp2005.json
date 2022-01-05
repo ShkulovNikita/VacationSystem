@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2005",
+	"FirstName": "Галина",
+	"MiddleName": "Владимировна",
+	"LastName": "Бредихина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "69",
+			"HeadOfDepartment": false,
+			"Position": "18"
+		}
+	]
+}

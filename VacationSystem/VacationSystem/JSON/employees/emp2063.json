@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2063",
+	"FirstName": "Галина",
+	"MiddleName": "Федоровна",
+	"LastName": "Винокурова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "93",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

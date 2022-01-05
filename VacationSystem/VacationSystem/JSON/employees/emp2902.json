@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2902",
+	"FirstName": "Ольга",
+	"MiddleName": "Алексеевна",
+	"LastName": "Филиппова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "179",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+﻿{
+	"Id": "435",
+	"FirstName": "Александр",
+	"MiddleName": "Александрович",
+	"LastName": "Аристов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "8",
+			"HeadOfDepartment": false,
+			"Position": "2"
+		},
+		{
+			"Id": "8",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3058",
+	"FirstName": "Ирина",
+	"MiddleName": "Михайловна",
+	"LastName": "Кондрашова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "199",
+			"HeadOfDepartment": false,
+			"Position": "219"
+		}
+	]
+}

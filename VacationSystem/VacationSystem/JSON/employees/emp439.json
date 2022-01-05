@@ -1,0 +1,14 @@
+﻿{
+	"Id": "439",
+	"FirstName": "Галина",
+	"MiddleName": "Валериановна",
+	"LastName": "Кашкан",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "65",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

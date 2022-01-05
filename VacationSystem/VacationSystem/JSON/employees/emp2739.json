@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2739",
+	"FirstName": "Наталия",
+	"MiddleName": "Александровна",
+	"LastName": "Матвиенко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "140",
+			"HeadOfDepartment": false,
+			"Position": "9"
+		}
+	]
+}

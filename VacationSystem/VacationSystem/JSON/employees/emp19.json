@@ -1,0 +1,19 @@
+﻿{
+	"Id": "19",
+	"FirstName": "Наталья",
+	"MiddleName": "Евгеньевна",
+	"LastName": "Антони",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "17",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		},
+		{
+			"Id": "18",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2028",
+	"FirstName": "Владимир",
+	"MiddleName": "Михайлович",
+	"LastName": "Зыков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "160",
+			"HeadOfDepartment": false,
+			"Position": "58"
+		}
+	]
+}

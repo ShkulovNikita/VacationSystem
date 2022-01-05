@@ -1,0 +1,14 @@
+﻿{
+	"Id": "833",
+	"FirstName": "Елена",
+	"MiddleName": "Степановна",
+	"LastName": "Листратова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "165",
+			"HeadOfDepartment": false,
+			"Position": "20"
+		}
+	]
+}

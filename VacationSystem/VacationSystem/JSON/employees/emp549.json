@@ -1,0 +1,14 @@
+﻿{
+	"Id": "549",
+	"FirstName": "Ольга",
+	"MiddleName": "Григорьевна",
+	"LastName": "Берестнева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "26",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

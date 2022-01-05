@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3561",
+	"FirstName": "Леонид",
+	"MiddleName": "Евгеньевич",
+	"LastName": "Мокроусов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "2",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

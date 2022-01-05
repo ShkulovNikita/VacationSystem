@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3786",
+	"FirstName": "Мария",
+	"MiddleName": "Александровна",
+	"LastName": "Тайлашева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "207",
+			"HeadOfDepartment": false,
+			"Position": "157"
+		}
+	]
+}

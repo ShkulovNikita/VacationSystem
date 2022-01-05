@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1917",
+	"FirstName": "Анна",
+	"MiddleName": "Анатольевна",
+	"LastName": "Мананкова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "36",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

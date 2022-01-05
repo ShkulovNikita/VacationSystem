@@ -1,0 +1,14 @@
+﻿{
+	"Id": "508",
+	"FirstName": "Валентина",
+	"MiddleName": "Васильевна",
+	"LastName": "Власова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "83",
+			"HeadOfDepartment": false,
+			"Position": "18"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "511",
+	"FirstName": "Борис",
+	"MiddleName": "Владимирович",
+	"LastName": "Борисов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "39",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

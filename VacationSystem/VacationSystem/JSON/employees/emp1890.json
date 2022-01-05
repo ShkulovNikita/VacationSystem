@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1890",
+	"FirstName": "Павел",
+	"MiddleName": "Петрович",
+	"LastName": "Скультецкий",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "59",
+			"HeadOfDepartment": false,
+			"Position": "25"
+		}
+	]
+}

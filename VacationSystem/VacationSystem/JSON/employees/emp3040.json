@@ -1,0 +1,19 @@
+﻿{
+	"Id": "3040",
+	"FirstName": "Ахмед Али Сабри Ахмед Рефаат",
+	"MiddleName": "",
+	"LastName": "Абуеллаиль",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "8",
+			"HeadOfDepartment": false,
+			"Position": "28"
+		},
+		{
+			"Id": "8",
+			"HeadOfDepartment": false,
+			"Position": "28"
+		}
+	]
+}

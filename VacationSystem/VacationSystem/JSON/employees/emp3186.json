@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3186",
+	"FirstName": "Артём",
+	"MiddleName": "Дмитриевич",
+	"LastName": "Федоренко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "29",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3483",
+	"FirstName": "Ирина",
+	"MiddleName": "Вадимовна",
+	"LastName": "Есипова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "250",
+			"HeadOfDepartment": false,
+			"Position": "150"
+		}
+	]
+}

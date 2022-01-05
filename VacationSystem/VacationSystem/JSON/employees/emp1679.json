@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1679",
+	"FirstName": "Ирина",
+	"MiddleName": "Сергеевна",
+	"LastName": "Антонова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "14",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

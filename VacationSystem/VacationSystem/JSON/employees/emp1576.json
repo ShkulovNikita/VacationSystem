@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1576",
+	"FirstName": "Евгений",
+	"MiddleName": "Сергеевич",
+	"LastName": "Калашников",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "28",
+			"HeadOfDepartment": false,
+			"Position": "11"
+		}
+	]
+}

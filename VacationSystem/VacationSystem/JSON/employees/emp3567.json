@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3567",
+	"FirstName": "Иван",
+	"MiddleName": "Юрьевич",
+	"LastName": "Кузьменко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "117",
+			"HeadOfDepartment": false,
+			"Position": "24"
+		}
+	]
+}

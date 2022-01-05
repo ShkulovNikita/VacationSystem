@@ -1,0 +1,19 @@
+﻿{
+	"Id": "2565",
+	"FirstName": "Галина",
+	"MiddleName": "Сергеевна",
+	"LastName": "Федосеева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "246",
+			"HeadOfDepartment": false,
+			"Position": "53"
+		},
+		{
+			"Id": "17",
+			"HeadOfDepartment": false,
+			"Position": "53"
+		}
+	]
+}

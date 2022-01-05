@@ -1,0 +1,14 @@
+﻿{
+	"Id": "784",
+	"FirstName": "Лидия",
+	"MiddleName": "Касперовна",
+	"LastName": "Шубина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "146",
+			"HeadOfDepartment": false,
+			"Position": "61"
+		}
+	]
+}

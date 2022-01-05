@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1449",
+	"FirstName": "Виктор",
+	"MiddleName": "Егорович",
+	"LastName": "Селифанов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "186",
+			"HeadOfDepartment": false,
+			"Position": "103"
+		}
+	]
+}

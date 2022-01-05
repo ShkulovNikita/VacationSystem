@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3161",
+	"FirstName": "Дарья",
+	"MiddleName": "Вячеславовна",
+	"LastName": "Чекменёва",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "127",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		}
+	]
+}

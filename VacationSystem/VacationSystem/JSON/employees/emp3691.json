@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3691",
+	"FirstName": "Анастасия",
+	"MiddleName": "Анатольевна",
+	"LastName": "Хустенко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "65",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		}
+	]
+}

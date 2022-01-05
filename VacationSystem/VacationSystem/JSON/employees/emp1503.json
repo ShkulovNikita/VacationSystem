@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1503",
+	"FirstName": "Ольга",
+	"MiddleName": "Анатольевна",
+	"LastName": "Глинкина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "91",
+			"HeadOfDepartment": false,
+			"Position": "181"
+		}
+	]
+}

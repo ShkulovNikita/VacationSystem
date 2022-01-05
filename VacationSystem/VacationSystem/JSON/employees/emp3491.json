@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3491",
+	"FirstName": "Юлия",
+	"MiddleName": "Геннадьевна",
+	"LastName": "Янц",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "78",
+			"HeadOfDepartment": false,
+			"Position": "26"
+		}
+	]
+}

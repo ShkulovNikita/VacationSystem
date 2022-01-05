@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3576",
+	"FirstName": "Игорь",
+	"MiddleName": "Олегович",
+	"LastName": "Парий",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "188",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		}
+	]
+}

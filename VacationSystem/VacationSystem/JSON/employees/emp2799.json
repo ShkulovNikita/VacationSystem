@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2799",
+	"FirstName": "Юрий",
+	"MiddleName": "Владимирович",
+	"LastName": "Донцов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "117",
+			"HeadOfDepartment": false,
+			"Position": "26"
+		}
+	]
+}

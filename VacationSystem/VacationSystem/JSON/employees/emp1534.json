@@ -1,0 +1,19 @@
+﻿{
+	"Id": "1534",
+	"FirstName": "Артем",
+	"MiddleName": "Сергеевич",
+	"LastName": "Боев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "217",
+			"HeadOfDepartment": false,
+			"Position": "186"
+		},
+		{
+			"Id": "46",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

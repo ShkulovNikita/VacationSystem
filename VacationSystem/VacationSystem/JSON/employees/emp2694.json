@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2694",
+	"FirstName": "Иван",
+	"MiddleName": "Владимирович",
+	"LastName": "Зоев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "26",
+			"HeadOfDepartment": false,
+			"Position": "2"
+		}
+	]
+}

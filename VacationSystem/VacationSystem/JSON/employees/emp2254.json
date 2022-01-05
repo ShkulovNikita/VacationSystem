@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2254",
+	"FirstName": "Виктория",
+	"MiddleName": "Викторовна",
+	"LastName": "Штрыкова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "4",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

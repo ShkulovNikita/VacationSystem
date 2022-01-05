@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1179",
+	"FirstName": "Юлия",
+	"MiddleName": "Алексеевна",
+	"LastName": "Мартынова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "26",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		}
+	]
+}

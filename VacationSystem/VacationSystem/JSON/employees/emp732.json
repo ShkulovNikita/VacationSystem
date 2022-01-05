@@ -1,0 +1,14 @@
+﻿{
+	"Id": "732",
+	"FirstName": "Надежда",
+	"MiddleName": "Юрьевна",
+	"LastName": "Сипайлова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "19",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

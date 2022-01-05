@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3205",
+	"FirstName": "Валерий",
+	"MiddleName": "Анатольевич",
+	"LastName": "Пчелинцев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "52",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

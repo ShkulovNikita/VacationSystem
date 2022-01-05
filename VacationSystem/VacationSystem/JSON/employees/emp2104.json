@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2104",
+	"FirstName": "Ульяна",
+	"MiddleName": "Викторовна",
+	"LastName": "Хоречко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "65",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

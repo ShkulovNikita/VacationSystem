@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3635",
+	"FirstName": "Таринду Дилшан",
+	"MiddleName": "",
+	"LastName": "Поннимбадуге Перера",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "26",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		}
+	]
+}

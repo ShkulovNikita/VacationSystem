@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1844",
+	"FirstName": "Кирилл",
+	"MiddleName": "Владимирович",
+	"LastName": "Перфильев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "79",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3526",
+	"FirstName": "Людмила",
+	"MiddleName": "Алексеевна",
+	"LastName": "Кудашкина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "54",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

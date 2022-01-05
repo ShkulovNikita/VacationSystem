@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2798",
+	"FirstName": "Дмитрий",
+	"MiddleName": "Маркович",
+	"LastName": "Маркович",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "39",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

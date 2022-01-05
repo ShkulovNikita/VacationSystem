@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3169",
+	"FirstName": "Хитеш Санжай",
+	"MiddleName": "",
+	"LastName": "Наламвар",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "26",
+			"HeadOfDepartment": false,
+			"Position": "28"
+		}
+	]
+}

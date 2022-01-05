@@ -1,0 +1,14 @@
+﻿{
+	"Id": "689",
+	"FirstName": "Игорь",
+	"MiddleName": "Борисович",
+	"LastName": "Степанов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "167",
+			"HeadOfDepartment": false,
+			"Position": "123"
+		}
+	]
+}

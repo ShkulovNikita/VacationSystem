@@ -1,0 +1,14 @@
+﻿{
+	"Id": "992",
+	"FirstName": "Валерий",
+	"MiddleName": "Львович",
+	"LastName": "Ким",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "26",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

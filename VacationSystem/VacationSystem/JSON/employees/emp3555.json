@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3555",
+	"FirstName": "Алена",
+	"MiddleName": "Валерьевна",
+	"LastName": "Астахова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "214",
+			"HeadOfDepartment": false,
+			"Position": "197"
+		}
+	]
+}

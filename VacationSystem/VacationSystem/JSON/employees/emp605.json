@@ -1,0 +1,14 @@
+﻿{
+	"Id": "605",
+	"FirstName": "Дмитрий",
+	"MiddleName": "Дмитриевич",
+	"LastName": "Афонин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "159",
+			"HeadOfDepartment": false,
+			"Position": "64"
+		}
+	]
+}

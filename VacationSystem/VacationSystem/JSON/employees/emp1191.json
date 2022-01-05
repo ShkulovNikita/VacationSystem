@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1191",
+	"FirstName": "Ксения",
+	"MiddleName": "Константиновна",
+	"LastName": "Зайцева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "71",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

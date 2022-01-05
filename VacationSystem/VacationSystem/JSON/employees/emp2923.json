@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2923",
+	"FirstName": "Татьяна",
+	"MiddleName": "Анатольевна",
+	"LastName": "Белькова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "2",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

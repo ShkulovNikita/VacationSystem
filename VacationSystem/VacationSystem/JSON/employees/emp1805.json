@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1805",
+	"FirstName": "Степан",
+	"MiddleName": "Андреевич",
+	"LastName": "Линник",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "64",
+			"HeadOfDepartment": false,
+			"Position": "56"
+		}
+	]
+}

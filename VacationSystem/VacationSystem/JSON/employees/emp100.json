@@ -1,0 +1,14 @@
+﻿{
+	"Id": "100",
+	"FirstName": "Михаил",
+	"MiddleName": "Иванович",
+	"LastName": "Окунцов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "62",
+			"HeadOfDepartment": false,
+			"Position": "18"
+		}
+	]
+}

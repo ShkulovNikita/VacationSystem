@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3805",
+	"FirstName": "Анна",
+	"MiddleName": "Андреевна",
+	"LastName": "Кириллова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "81",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

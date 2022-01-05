@@ -1,0 +1,19 @@
+﻿{
+	"Id": "1587",
+	"FirstName": "Тамара",
+	"MiddleName": "Сергеевна",
+	"LastName": "Твердохлебова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "221",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		},
+		{
+			"Id": "56",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3488",
+	"FirstName": "Мария",
+	"MiddleName": "Анатольевна",
+	"LastName": "Цибульская",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "47",
+			"HeadOfDepartment": false,
+			"Position": "30"
+		}
+	]
+}

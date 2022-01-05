@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1110",
+	"FirstName": "Тимур",
+	"MiddleName": "Ахатович",
+	"LastName": "Тухфатуллин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "119",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

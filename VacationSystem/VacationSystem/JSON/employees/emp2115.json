@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2115",
+	"FirstName": "Валерий",
+	"MiddleName": "Алексеевич",
+	"LastName": "Касьянов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "122",
+			"HeadOfDepartment": false,
+			"Position": "2"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1757",
+	"FirstName": "Наталия",
+	"MiddleName": "Сергеевна",
+	"LastName": "Николаева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "66",
+			"HeadOfDepartment": false,
+			"Position": "7"
+		}
+	]
+}

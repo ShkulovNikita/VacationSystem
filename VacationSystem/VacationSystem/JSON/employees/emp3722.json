@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3722",
+	"FirstName": "Сахил",
+	"MiddleName": "",
+	"LastName": "Гарг",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "254",
+			"HeadOfDepartment": false,
+			"Position": "24"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1210",
+	"FirstName": "Иван",
+	"MiddleName": "Анатольевич",
+	"LastName": "Мартынов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "125",
+			"HeadOfDepartment": false,
+			"Position": "7"
+		}
+	]
+}

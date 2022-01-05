@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3433",
+	"FirstName": "Арсений",
+	"MiddleName": "Александрович",
+	"LastName": "Барышников",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "16",
+			"HeadOfDepartment": false,
+			"Position": "25"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3546",
+	"FirstName": "Ирина",
+	"MiddleName": "Сергеевна",
+	"LastName": "Шаляпина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "34",
+			"HeadOfDepartment": false,
+			"Position": "87"
+		}
+	]
+}

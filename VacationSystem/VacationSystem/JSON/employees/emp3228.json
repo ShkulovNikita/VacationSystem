@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3228",
+	"FirstName": "Владимир",
+	"MiddleName": "Анатольевич",
+	"LastName": "Альгин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "38",
+			"HeadOfDepartment": false,
+			"Position": "141"
+		}
+	]
+}

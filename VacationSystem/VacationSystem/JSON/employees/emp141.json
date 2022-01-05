@@ -1,0 +1,14 @@
+﻿{
+	"Id": "141",
+	"FirstName": "Роман",
+	"MiddleName": "Владимирович",
+	"LastName": "Седюков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "16",
+			"HeadOfDepartment": false,
+			"Position": "11"
+		}
+	]
+}

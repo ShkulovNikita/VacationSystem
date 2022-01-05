@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1071",
+	"FirstName": "Юрий",
+	"MiddleName": "Юрьевич",
+	"LastName": "Луценко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "17",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "586",
+	"FirstName": "Ильсияр",
+	"MiddleName": "Зиннуровна",
+	"LastName": "Бармина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "59",
+			"HeadOfDepartment": false,
+			"Position": "72"
+		}
+	]
+}

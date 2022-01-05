@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3163",
+	"FirstName": "Владимир",
+	"MiddleName": "Васильевич",
+	"LastName": "Пашнин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "59",
+			"HeadOfDepartment": false,
+			"Position": "37"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2595",
+	"FirstName": "Николай",
+	"MiddleName": "Ануфриевич",
+	"LastName": "Шульга",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "38",
+			"HeadOfDepartment": false,
+			"Position": "141"
+		}
+	]
+}

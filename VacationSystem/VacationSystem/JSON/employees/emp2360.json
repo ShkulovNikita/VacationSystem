@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2360",
+	"FirstName": "Юлия",
+	"MiddleName": "Александровна",
+	"LastName": "Чайка",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "0",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		}
+	]
+}

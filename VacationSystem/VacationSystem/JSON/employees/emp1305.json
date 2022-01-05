@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1305",
+	"FirstName": "Алеся",
+	"MiddleName": "Сергеевна",
+	"LastName": "Долинина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "4",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		}
+	]
+}

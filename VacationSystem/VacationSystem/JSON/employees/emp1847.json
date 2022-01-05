@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1847",
+	"FirstName": "Мария",
+	"MiddleName": "Андреевна",
+	"LastName": "Борисова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "6",
+			"HeadOfDepartment": false,
+			"Position": "28"
+		}
+	]
+}

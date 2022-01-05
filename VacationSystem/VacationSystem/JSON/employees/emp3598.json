@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3598",
+	"FirstName": "Максим",
+	"MiddleName": "",
+	"LastName": "Густомясов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "117",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		}
+	]
+}

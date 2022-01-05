@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2213",
+	"FirstName": "Валентина",
+	"MiddleName": "Петровна",
+	"LastName": "Рыжикова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "148",
+			"HeadOfDepartment": false,
+			"Position": "64"
+		}
+	]
+}

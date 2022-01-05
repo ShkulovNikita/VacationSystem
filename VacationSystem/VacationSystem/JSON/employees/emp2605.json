@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2605",
+	"FirstName": "Андрей",
+	"MiddleName": "Николаевич",
+	"LastName": "Южанин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "128",
+			"HeadOfDepartment": false,
+			"Position": "144"
+		}
+	]
+}

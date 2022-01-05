@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3455",
+	"FirstName": "Дмитрий",
+	"MiddleName": "Николаевич",
+	"LastName": "Ермаков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "199",
+			"HeadOfDepartment": false,
+			"Position": "277"
+		}
+	]
+}

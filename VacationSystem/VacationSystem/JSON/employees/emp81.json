@@ -1,0 +1,14 @@
+﻿{
+	"Id": "81",
+	"FirstName": "Алексей",
+	"MiddleName": "Викторович",
+	"LastName": "Ефремов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "50",
+			"HeadOfDepartment": false,
+			"Position": "32"
+		}
+	]
+}

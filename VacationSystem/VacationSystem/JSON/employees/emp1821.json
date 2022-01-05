@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1821",
+	"FirstName": "Валентина",
+	"MiddleName": "Витальевна",
+	"LastName": "Шананина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "119",
+			"HeadOfDepartment": false,
+			"Position": "25"
+		}
+	]
+}

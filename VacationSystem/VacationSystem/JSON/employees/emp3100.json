@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3100",
+	"FirstName": "Анастасия",
+	"MiddleName": "Олеговна",
+	"LastName": "Валова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "161",
+			"HeadOfDepartment": false,
+			"Position": "57"
+		}
+	]
+}

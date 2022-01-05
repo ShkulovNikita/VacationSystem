@@ -1,0 +1,14 @@
+﻿{
+	"Id": "874",
+	"FirstName": "Эмилия",
+	"MiddleName": "Власовна",
+	"LastName": "Третьякова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "94",
+			"HeadOfDepartment": false,
+			"Position": "38"
+		}
+	]
+}

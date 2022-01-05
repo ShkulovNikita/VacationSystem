@@ -1,0 +1,14 @@
+﻿{
+	"Id": "405",
+	"FirstName": "Милий",
+	"MiddleName": "Всеволодович",
+	"LastName": "Гуляев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "93",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		}
+	]
+}

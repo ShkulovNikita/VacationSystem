@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3401",
+	"FirstName": "Михаил",
+	"MiddleName": "Александрович",
+	"LastName": "Омолоев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "234",
+			"HeadOfDepartment": false,
+			"Position": "254"
+		}
+	]
+}

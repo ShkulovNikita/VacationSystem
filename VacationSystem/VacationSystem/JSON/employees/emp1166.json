@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1166",
+	"FirstName": "Ольга",
+	"MiddleName": "Александровна",
+	"LastName": "Бельснер",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "53",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		}
+	]
+}

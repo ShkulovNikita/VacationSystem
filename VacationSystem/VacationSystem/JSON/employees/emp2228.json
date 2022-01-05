@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2228",
+	"FirstName": "Оксана",
+	"MiddleName": "Николаевна",
+	"LastName": "Пальмина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "109",
+			"HeadOfDepartment": false,
+			"Position": "38"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2899",
+	"FirstName": "Григорий",
+	"MiddleName": "Викторович",
+	"LastName": "Сумин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "101",
+			"HeadOfDepartment": false,
+			"Position": "25"
+		}
+	]
+}

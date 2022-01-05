@@ -1,0 +1,14 @@
+﻿{
+	"Id": "179",
+	"FirstName": "Екатерина",
+	"MiddleName": "Валерьевна",
+	"LastName": "Силифонова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "14",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

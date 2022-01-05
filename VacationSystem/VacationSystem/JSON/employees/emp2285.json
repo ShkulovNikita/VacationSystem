@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2285",
+	"FirstName": "Галина",
+	"MiddleName": "Валентиновна",
+	"LastName": "Олейникова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "0",
+			"HeadOfDepartment": false,
+			"Position": "0"
+		}
+	]
+}

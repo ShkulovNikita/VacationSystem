@@ -1,0 +1,14 @@
+﻿{
+	"Id": "989",
+	"FirstName": "Надежда",
+	"MiddleName": "Владимировна",
+	"LastName": "Худинова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "179",
+			"HeadOfDepartment": false,
+			"Position": "10"
+		}
+	]
+}

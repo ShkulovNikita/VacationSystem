@@ -1,0 +1,19 @@
+﻿{
+	"Id": "22",
+	"FirstName": "Александр",
+	"MiddleName": "Савельевич",
+	"LastName": "Глазырин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "20",
+			"HeadOfDepartment": false,
+			"Position": "12"
+		},
+		{
+			"Id": "19",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

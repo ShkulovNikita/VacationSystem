@@ -1,0 +1,19 @@
+﻿{
+	"Id": "2463",
+	"FirstName": "Андрей",
+	"MiddleName": "Владимирович",
+	"LastName": "Проскоков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "2",
+			"HeadOfDepartment": false,
+			"Position": "54"
+		},
+		{
+			"Id": "12",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "761",
+	"FirstName": "Виктор",
+	"MiddleName": "Олегович",
+	"LastName": "Корняков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "75",
+			"HeadOfDepartment": false,
+			"Position": "34"
+		}
+	]
+}

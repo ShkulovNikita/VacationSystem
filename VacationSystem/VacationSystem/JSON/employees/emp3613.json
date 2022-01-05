@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3613",
+	"FirstName": "Юрий",
+	"MiddleName": "Николаевич",
+	"LastName": "Васинцев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "59",
+			"HeadOfDepartment": false,
+			"Position": "37"
+		}
+	]
+}

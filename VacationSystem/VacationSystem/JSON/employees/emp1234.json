@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1234",
+	"FirstName": "Юрий",
+	"MiddleName": "Николаевич",
+	"LastName": "Кончаков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "68",
+			"HeadOfDepartment": false,
+			"Position": "103"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1813",
+	"FirstName": "Евгений",
+	"MiddleName": "Васильевич",
+	"LastName": "Куренков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "59",
+			"HeadOfDepartment": false,
+			"Position": "37"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1499",
+	"FirstName": "Лариса",
+	"MiddleName": "Николаевна",
+	"LastName": "Никитина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "119",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2452",
+	"FirstName": "Александр",
+	"MiddleName": "Георгиевич",
+	"LastName": "Вахрушев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "16",
+			"HeadOfDepartment": false,
+			"Position": "25"
+		}
+	]
+}

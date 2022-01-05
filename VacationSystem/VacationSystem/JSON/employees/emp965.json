@@ -1,0 +1,14 @@
+﻿{
+	"Id": "965",
+	"FirstName": "Нелли",
+	"MiddleName": "Петровна",
+	"LastName": "Лялькова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "107",
+			"HeadOfDepartment": false,
+			"Position": "140"
+		}
+	]
+}

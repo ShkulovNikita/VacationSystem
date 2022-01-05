@@ -1,0 +1,14 @@
+﻿{
+	"Id": "441",
+	"FirstName": "Рамиля",
+	"MiddleName": "Абдулхамитовна",
+	"LastName": "Габитова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "139",
+			"HeadOfDepartment": false,
+			"Position": "98"
+		}
+	]
+}

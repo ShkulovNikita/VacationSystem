@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3563",
+	"FirstName": "Федор",
+	"MiddleName": "Анатольевич",
+	"LastName": "Лобинский",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "214",
+			"HeadOfDepartment": false,
+			"Position": "197"
+		}
+	]
+}

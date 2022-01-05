@@ -1,0 +1,19 @@
+﻿{
+	"Id": "1414",
+	"FirstName": "Евгений",
+	"MiddleName": "Олегович",
+	"LastName": "Акчелов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "14",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		},
+		{
+			"Id": "94",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

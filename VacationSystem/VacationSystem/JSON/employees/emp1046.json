@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1046",
+	"FirstName": "Елена",
+	"MiddleName": "Олеговна",
+	"LastName": "Кулешова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "19",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

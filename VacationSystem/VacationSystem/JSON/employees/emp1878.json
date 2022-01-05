@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1878",
+	"FirstName": "Михаил",
+	"MiddleName": "Валерьевич",
+	"LastName": "Журавлёв",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "64",
+			"HeadOfDepartment": false,
+			"Position": "24"
+		}
+	]
+}

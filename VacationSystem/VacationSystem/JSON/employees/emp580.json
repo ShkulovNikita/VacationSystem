@@ -1,0 +1,14 @@
+﻿{
+	"Id": "580",
+	"FirstName": "Николай",
+	"MiddleName": "Григорьевич",
+	"LastName": "Бутенко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "50",
+			"HeadOfDepartment": false,
+			"Position": "88"
+		}
+	]
+}

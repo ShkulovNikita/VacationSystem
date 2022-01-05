@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2741",
+	"FirstName": "Егор",
+	"MiddleName": "Владимирович",
+	"LastName": "Пахомов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "47",
+			"HeadOfDepartment": false,
+			"Position": "30"
+		}
+	]
+}

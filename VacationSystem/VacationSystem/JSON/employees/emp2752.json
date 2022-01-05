@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2752",
+	"FirstName": "Елена",
+	"MiddleName": "Николаевна",
+	"LastName": "Макаревич",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "185",
+			"HeadOfDepartment": false,
+			"Position": "14"
+		}
+	]
+}

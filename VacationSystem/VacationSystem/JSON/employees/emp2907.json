@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2907",
+	"FirstName": "Инна",
+	"MiddleName": "Петровна",
+	"LastName": "Митяйкина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "103",
+			"HeadOfDepartment": false,
+			"Position": "138"
+		}
+	]
+}

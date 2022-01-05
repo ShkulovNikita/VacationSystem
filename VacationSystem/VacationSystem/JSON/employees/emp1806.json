@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1806",
+	"FirstName": "Андрей",
+	"MiddleName": "Александрович",
+	"LastName": "Колмаков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "122",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

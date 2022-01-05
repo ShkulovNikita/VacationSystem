@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3569",
+	"FirstName": "Евгения",
+	"MiddleName": "Геннадиевна",
+	"LastName": "Таразевич",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "23",
+			"HeadOfDepartment": false,
+			"Position": "204"
+		}
+	]
+}

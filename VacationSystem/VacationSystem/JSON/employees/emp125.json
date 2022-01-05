@@ -1,0 +1,14 @@
+﻿{
+	"Id": "125",
+	"FirstName": "Ольга",
+	"MiddleName": "Михайловна",
+	"LastName": "Пономарева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "71",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

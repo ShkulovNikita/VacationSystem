@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2238",
+	"FirstName": "Людмила",
+	"MiddleName": "Ивановна",
+	"LastName": "Ямпольская",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "189",
+			"HeadOfDepartment": false,
+			"Position": "35"
+		}
+	]
+}

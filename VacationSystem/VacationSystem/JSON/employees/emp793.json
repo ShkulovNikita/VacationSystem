@@ -1,0 +1,14 @@
+﻿{
+	"Id": "793",
+	"FirstName": "Елена",
+	"MiddleName": "Юрьевна",
+	"LastName": "Ефстифеева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "131",
+			"HeadOfDepartment": false,
+			"Position": "12"
+		}
+	]
+}

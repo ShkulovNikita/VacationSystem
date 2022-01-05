@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3458",
+	"FirstName": "Татьяна",
+	"MiddleName": "Витальевна",
+	"LastName": "Евстигнеева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "91",
+			"HeadOfDepartment": false,
+			"Position": "278"
+		}
+	]
+}

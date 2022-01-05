@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1854",
+	"FirstName": "Андрей",
+	"MiddleName": "Анатольевич",
+	"LastName": "Брянцев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "2",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

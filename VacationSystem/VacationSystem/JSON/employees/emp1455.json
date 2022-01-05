@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1455",
+	"FirstName": "Ольга",
+	"MiddleName": "Сергеевна",
+	"LastName": "Пустовых",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "93",
+			"HeadOfDepartment": false,
+			"Position": "28"
+		}
+	]
+}

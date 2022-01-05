@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3003",
+	"FirstName": "Ольга",
+	"MiddleName": "Геннадьевна",
+	"LastName": "Мусич",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "77",
+			"HeadOfDepartment": false,
+			"Position": "108"
+		}
+	]
+}

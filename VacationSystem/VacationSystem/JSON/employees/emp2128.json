@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2128",
+	"FirstName": "Ольга",
+	"MiddleName": "Васильевна",
+	"LastName": "Хадеева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "54",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3749",
+	"FirstName": "Алина",
+	"MiddleName": "Александровна",
+	"LastName": "Кравец",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "131",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

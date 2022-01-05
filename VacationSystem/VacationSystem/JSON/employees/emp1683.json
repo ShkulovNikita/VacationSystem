@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1683",
+	"FirstName": "Нина",
+	"MiddleName": "Васильевна",
+	"LastName": "Бармина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "158",
+			"HeadOfDepartment": false,
+			"Position": "107"
+		}
+	]
+}

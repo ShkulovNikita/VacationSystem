@@ -1,0 +1,40 @@
+﻿{
+	"Id": "117",
+	"Employees": [
+		{
+			"Id": "309",
+			"Position": "2",
+			"Head": false
+		},
+		{
+			"Id": "1812",
+			"Position": "26",
+			"Head": false
+		},
+		{
+			"Id": "2799",
+			"Position": "26",
+			"Head": false
+		},
+		{
+			"Id": "3059",
+			"Position": "3",
+			"Head": false
+		},
+		{
+			"Id": "3567",
+			"Position": "24",
+			"Head": false
+		},
+		{
+			"Id": "3573",
+			"Position": "24",
+			"Head": false
+		},
+		{
+			"Id": "3598",
+			"Position": "5",
+			"Head": false
+		}
+	]
+}

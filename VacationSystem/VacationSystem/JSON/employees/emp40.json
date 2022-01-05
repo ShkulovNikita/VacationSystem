@@ -1,0 +1,14 @@
+﻿{
+	"Id": "40",
+	"FirstName": "Снежана",
+	"MiddleName": "Юрьевна",
+	"LastName": "Вагнер",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "29",
+			"HeadOfDepartment": false,
+			"Position": "11"
+		}
+	]
+}

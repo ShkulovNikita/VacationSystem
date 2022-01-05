@@ -1,0 +1,14 @@
+﻿{
+	"Id": "276",
+	"FirstName": "Сергей",
+	"MiddleName": "Николаевич",
+	"LastName": "Спиридонов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "108",
+			"HeadOfDepartment": false,
+			"Position": "64"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2276",
+	"FirstName": "Олеся",
+	"MiddleName": "Вячеславовна",
+	"LastName": "Савинова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "1",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "660",
+	"FirstName": "Лилия",
+	"MiddleName": "Михайловна",
+	"LastName": "Романова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "17",
+			"HeadOfDepartment": false,
+			"Position": "70"
+		}
+	]
+}

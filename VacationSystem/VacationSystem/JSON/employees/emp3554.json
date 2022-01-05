@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3554",
+	"FirstName": "Софи",
+	"MiddleName": "",
+	"LastName": "Мууну",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "65",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		}
+	]
+}

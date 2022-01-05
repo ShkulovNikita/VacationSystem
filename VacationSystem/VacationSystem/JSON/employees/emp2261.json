@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2261",
+	"FirstName": "Надежда",
+	"MiddleName": "Сергеевна",
+	"LastName": "Зорина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "240",
+			"HeadOfDepartment": false,
+			"Position": "230"
+		}
+	]
+}

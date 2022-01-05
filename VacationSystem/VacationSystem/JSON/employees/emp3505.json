@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3505",
+	"FirstName": "Евгения",
+	"MiddleName": "Витальевна",
+	"LastName": "Мальчикова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "111",
+			"HeadOfDepartment": false,
+			"Position": "57"
+		}
+	]
+}

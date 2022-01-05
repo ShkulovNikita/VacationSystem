@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3796",
+	"FirstName": "Дмитрий",
+	"MiddleName": "Станиславович",
+	"LastName": "Пашкевич",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "102",
+			"HeadOfDepartment": false,
+			"Position": "100"
+		}
+	]
+}

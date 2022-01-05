@@ -1,0 +1,14 @@
+﻿{
+	"Id": "609",
+	"FirstName": "Ольга",
+	"MiddleName": "Викторовна",
+	"LastName": "Вагина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "161",
+			"HeadOfDepartment": false,
+			"Position": "10"
+		}
+	]
+}

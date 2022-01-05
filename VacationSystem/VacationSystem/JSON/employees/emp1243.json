@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1243",
+	"FirstName": "Фёдор",
+	"MiddleName": "Иванович",
+	"LastName": "Петров",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "8",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

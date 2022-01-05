@@ -1,0 +1,14 @@
+﻿{
+	"Id": "372",
+	"FirstName": "Андрей",
+	"MiddleName": "Владимирович",
+	"LastName": "Баранов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "128",
+			"HeadOfDepartment": false,
+			"Position": "10"
+		}
+	]
+}

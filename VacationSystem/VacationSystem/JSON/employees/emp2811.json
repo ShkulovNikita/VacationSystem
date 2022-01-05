@@ -1,0 +1,19 @@
+﻿{
+	"Id": "2811",
+	"FirstName": "Мария",
+	"MiddleName": "Александровна",
+	"LastName": "Мастерова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "52",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		},
+		{
+			"Id": "52",
+			"HeadOfDepartment": false,
+			"Position": "53"
+		}
+	]
+}

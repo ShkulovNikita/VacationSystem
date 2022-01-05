@@ -1,0 +1,14 @@
+﻿{
+	"Id": "673",
+	"FirstName": "Анна",
+	"MiddleName": "Витальевна",
+	"LastName": "Полева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "0",
+			"HeadOfDepartment": false,
+			"Position": "0"
+		}
+	]
+}

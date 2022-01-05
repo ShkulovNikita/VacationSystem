@@ -1,0 +1,14 @@
+﻿{
+	"Id": "617",
+	"FirstName": "Юрий",
+	"MiddleName": "Васильевич",
+	"LastName": "Мутовин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "8",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

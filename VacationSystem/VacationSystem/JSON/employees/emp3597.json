@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3597",
+	"FirstName": "Яна",
+	"MiddleName": "Викторовна",
+	"LastName": "Азарова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "161",
+			"HeadOfDepartment": false,
+			"Position": "57"
+		}
+	]
+}

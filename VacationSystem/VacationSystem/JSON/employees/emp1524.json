@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1524",
+	"FirstName": "Марина",
+	"MiddleName": "Сергеевна",
+	"LastName": "Седюкова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "16",
+			"HeadOfDepartment": false,
+			"Position": "155"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1662",
+	"FirstName": "Александр",
+	"MiddleName": "Лукьянович",
+	"LastName": "Лаук",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "32",
+			"HeadOfDepartment": false,
+			"Position": "11"
+		}
+	]
+}

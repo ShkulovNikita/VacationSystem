@@ -1,0 +1,14 @@
+﻿{
+	"Id": "392",
+	"FirstName": "Валерий",
+	"MiddleName": "Афанасьевич",
+	"LastName": "Жадан",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "133",
+			"HeadOfDepartment": false,
+			"Position": "94"
+		}
+	]
+}

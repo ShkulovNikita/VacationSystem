@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3484",
+	"FirstName": "Людмила",
+	"MiddleName": "Анатольевна",
+	"LastName": "Тотышева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "23",
+			"HeadOfDepartment": false,
+			"Position": "125"
+		}
+	]
+}

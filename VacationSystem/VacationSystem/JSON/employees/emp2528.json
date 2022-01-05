@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2528",
+	"FirstName": "Татьяна",
+	"MiddleName": "Михайловна",
+	"LastName": "Солдатенко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "19",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		}
+	]
+}

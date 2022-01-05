@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3490",
+	"FirstName": "Анна",
+	"MiddleName": "Сергеевна",
+	"LastName": "Бондарчук",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "205",
+			"HeadOfDepartment": false,
+			"Position": "280"
+		}
+	]
+}

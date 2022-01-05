@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3153",
+	"FirstName": "Анастасия",
+	"MiddleName": "Анатольевна",
+	"LastName": "Маракулина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "9",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

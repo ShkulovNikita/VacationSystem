@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3222",
+	"FirstName": "Оксана",
+	"MiddleName": "Вячеславовна",
+	"LastName": "Пересадина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "252",
+			"HeadOfDepartment": false,
+			"Position": "20"
+		}
+	]
+}

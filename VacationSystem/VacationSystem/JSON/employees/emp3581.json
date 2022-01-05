@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3581",
+	"FirstName": "Наталья",
+	"MiddleName": "Олеговна",
+	"LastName": "Каракорскова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "131",
+			"HeadOfDepartment": false,
+			"Position": "285"
+		}
+	]
+}

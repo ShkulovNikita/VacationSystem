@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1621",
+	"FirstName": "Елена",
+	"MiddleName": "Викторовна",
+	"LastName": "Замятина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "65",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

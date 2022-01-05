@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2957",
+	"FirstName": "Андрей",
+	"MiddleName": "Ярославович",
+	"LastName": "Буряков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "85",
+			"HeadOfDepartment": false,
+			"Position": "191"
+		}
+	]
+}

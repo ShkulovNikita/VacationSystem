@@ -1,0 +1,14 @@
+﻿{
+	"Id": "112",
+	"FirstName": "Ольга",
+	"MiddleName": "Дмитриевна",
+	"LastName": "Томашевская",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "66",
+			"HeadOfDepartment": false,
+			"Position": "7"
+		}
+	]
+}

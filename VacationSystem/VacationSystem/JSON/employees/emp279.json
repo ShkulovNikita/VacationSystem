@@ -1,0 +1,14 @@
+﻿{
+	"Id": "279",
+	"FirstName": "Наталья",
+	"MiddleName": "Владимировна",
+	"LastName": "Орлова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "107",
+			"HeadOfDepartment": false,
+			"Position": "33"
+		}
+	]
+}

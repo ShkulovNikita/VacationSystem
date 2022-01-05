@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1997",
+	"FirstName": "Евгений",
+	"MiddleName": "Александрович",
+	"LastName": "Тишков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "50",
+			"HeadOfDepartment": false,
+			"Position": "88"
+		}
+	]
+}

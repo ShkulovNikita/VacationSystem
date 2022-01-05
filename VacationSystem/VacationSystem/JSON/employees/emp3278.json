@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3278",
+	"FirstName": "Александра",
+	"MiddleName": "Дмитриевна",
+	"LastName": "Пыкина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "132",
+			"HeadOfDepartment": false,
+			"Position": "25"
+		}
+	]
+}

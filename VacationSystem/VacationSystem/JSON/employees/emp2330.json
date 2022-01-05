@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2330",
+	"FirstName": "Ирина",
+	"MiddleName": "Евгеньевна",
+	"LastName": "Сафонова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "123",
+			"HeadOfDepartment": false,
+			"Position": "10"
+		}
+	]
+}

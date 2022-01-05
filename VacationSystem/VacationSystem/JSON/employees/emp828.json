@@ -1,0 +1,14 @@
+﻿{
+	"Id": "828",
+	"FirstName": "Юлия",
+	"MiddleName": "Борисовна",
+	"LastName": "Буркатовская",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "26",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

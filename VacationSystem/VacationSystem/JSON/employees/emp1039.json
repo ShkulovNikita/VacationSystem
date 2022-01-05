@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1039",
+	"FirstName": "Святослав",
+	"MiddleName": "Михайлович",
+	"LastName": "Юдин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "19",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

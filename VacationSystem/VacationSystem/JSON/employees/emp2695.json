@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2695",
+	"FirstName": "Александр",
+	"MiddleName": "Андреевич",
+	"LastName": "Шугаров",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "50",
+			"HeadOfDepartment": false,
+			"Position": "247"
+		}
+	]
+}

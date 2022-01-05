@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2420",
+	"FirstName": "Евгений",
+	"MiddleName": "Вячеславович",
+	"LastName": "Пугачев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "5",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		}
+	]
+}

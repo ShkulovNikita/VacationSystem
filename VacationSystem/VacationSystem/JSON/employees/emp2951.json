@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2951",
+	"FirstName": "Любовь",
+	"MiddleName": "Леонидовна",
+	"LastName": "Молокова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "256",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

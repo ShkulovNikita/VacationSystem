@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1826",
+	"FirstName": "София",
+	"MiddleName": "Насибуллаевна",
+	"LastName": "Джалилова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "46",
+			"HeadOfDepartment": false,
+			"Position": "28"
+		}
+	]
+}

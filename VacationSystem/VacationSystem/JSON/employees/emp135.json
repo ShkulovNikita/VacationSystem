@@ -1,0 +1,14 @@
+﻿{
+	"Id": "135",
+	"FirstName": "Роман",
+	"MiddleName": "Сергеевич",
+	"LastName": "Кашапов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "74",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

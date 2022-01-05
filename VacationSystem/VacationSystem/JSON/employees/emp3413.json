@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3413",
+	"FirstName": "Оксана",
+	"MiddleName": "Анатольевна",
+	"LastName": "Данейко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "23",
+			"HeadOfDepartment": false,
+			"Position": "116"
+		}
+	]
+}

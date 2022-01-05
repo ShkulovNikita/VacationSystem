@@ -1,0 +1,14 @@
+﻿{
+	"Id": "306",
+	"FirstName": "Дмитрий",
+	"MiddleName": "Владимирович",
+	"LastName": "Мартемьянов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "16",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

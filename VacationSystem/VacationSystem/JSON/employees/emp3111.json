@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3111",
+	"FirstName": "Ирина",
+	"MiddleName": "Олеговна",
+	"LastName": "Краевская",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "0",
+			"HeadOfDepartment": false,
+			"Position": "99"
+		}
+	]
+}

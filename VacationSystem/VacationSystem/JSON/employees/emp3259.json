@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3259",
+	"FirstName": "Александр",
+	"MiddleName": "Олегович",
+	"LastName": "Долматов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "14",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

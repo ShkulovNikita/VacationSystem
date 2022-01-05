@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2009",
+	"FirstName": "Игорь",
+	"MiddleName": "Борисович",
+	"LastName": "Силич",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "20",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

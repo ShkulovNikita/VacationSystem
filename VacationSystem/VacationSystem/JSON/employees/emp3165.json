@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3165",
+	"FirstName": "Екатерина",
+	"MiddleName": "Петровна",
+	"LastName": "Христунова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "36",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

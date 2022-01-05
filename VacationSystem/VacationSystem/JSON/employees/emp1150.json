@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1150",
+	"FirstName": "Лидия",
+	"MiddleName": "Анатольевна",
+	"LastName": "Казарина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "0",
+			"HeadOfDepartment": false,
+			"Position": "0"
+		}
+	]
+}

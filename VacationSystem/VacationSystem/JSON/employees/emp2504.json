@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2504",
+	"FirstName": "Галина",
+	"MiddleName": "Владимировна",
+	"LastName": "Лямина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "15",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

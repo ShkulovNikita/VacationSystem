@@ -1,0 +1,14 @@
+﻿{
+	"Id": "438",
+	"FirstName": "Вадим",
+	"MiddleName": "Анатольевич",
+	"LastName": "Качурин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "59",
+			"HeadOfDepartment": false,
+			"Position": "37"
+		}
+	]
+}

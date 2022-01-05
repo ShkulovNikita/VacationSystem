@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3628",
+	"FirstName": "Лев",
+	"MiddleName": "Олегович",
+	"LastName": "Игумнов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "6",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

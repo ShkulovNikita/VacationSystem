@@ -1,0 +1,14 @@
+﻿{
+	"Id": "948",
+	"FirstName": "Ольга",
+	"MiddleName": "Владимировна",
+	"LastName": "Халошина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "33",
+			"HeadOfDepartment": false,
+			"Position": "10"
+		}
+	]
+}

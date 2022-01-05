@@ -1,0 +1,14 @@
+﻿{
+	"Id": "912",
+	"FirstName": "Сергей",
+	"MiddleName": "Васильевич",
+	"LastName": "Муравьев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "6",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

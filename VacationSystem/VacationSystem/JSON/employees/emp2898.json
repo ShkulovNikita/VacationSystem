@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2898",
+	"FirstName": "Нина",
+	"MiddleName": "Васильевна",
+	"LastName": "Потехина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "3",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		}
+	]
+}

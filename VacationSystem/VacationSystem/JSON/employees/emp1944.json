@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1944",
+	"FirstName": "Алексей",
+	"MiddleName": "Алексеевич",
+	"LastName": "Друки",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "26",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

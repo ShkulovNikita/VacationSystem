@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3450",
+	"FirstName": "Марина",
+	"MiddleName": "Евгеньевна",
+	"LastName": "Павлова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "32",
+			"HeadOfDepartment": false,
+			"Position": "25"
+		}
+	]
+}

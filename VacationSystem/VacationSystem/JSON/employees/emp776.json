@@ -1,0 +1,14 @@
+﻿{
+	"Id": "776",
+	"FirstName": "Тамара",
+	"MiddleName": "Майгоновна",
+	"LastName": "Кравцова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "158",
+			"HeadOfDepartment": false,
+			"Position": "113"
+		}
+	]
+}

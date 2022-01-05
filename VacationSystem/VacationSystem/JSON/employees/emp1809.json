@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1809",
+	"FirstName": "Ксения",
+	"MiddleName": "Валерьевна",
+	"LastName": "Антюшина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "230",
+			"HeadOfDepartment": false,
+			"Position": "163"
+		}
+	]
+}

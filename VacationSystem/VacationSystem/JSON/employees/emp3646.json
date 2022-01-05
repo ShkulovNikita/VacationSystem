@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3646",
+	"FirstName": "Мария",
+	"MiddleName": "Александровна",
+	"LastName": "Нелюбина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "66",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1770",
+	"FirstName": "Ольга",
+	"MiddleName": "Викторовна",
+	"LastName": "Вершинина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "111",
+			"HeadOfDepartment": false,
+			"Position": "69"
+		}
+	]
+}

@@ -1,0 +1,24 @@
+﻿{
+	"Id": "2761",
+	"FirstName": "Наталья",
+	"MiddleName": "Ивановна",
+	"LastName": "Привалова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "251",
+			"HeadOfDepartment": false,
+			"Position": "181"
+		},
+		{
+			"Id": "91",
+			"HeadOfDepartment": false,
+			"Position": "189"
+		},
+		{
+			"Id": "91",
+			"HeadOfDepartment": false,
+			"Position": "181"
+		}
+	]
+}

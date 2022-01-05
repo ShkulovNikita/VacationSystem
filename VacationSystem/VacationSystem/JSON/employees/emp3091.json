@@ -1,0 +1,19 @@
+﻿{
+	"Id": "3091",
+	"FirstName": "Иван",
+	"MiddleName": "Андреевич",
+	"LastName": "Затонов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "8",
+			"HeadOfDepartment": false,
+			"Position": "28"
+		},
+		{
+			"Id": "68",
+			"HeadOfDepartment": false,
+			"Position": "81"
+		}
+	]
+}

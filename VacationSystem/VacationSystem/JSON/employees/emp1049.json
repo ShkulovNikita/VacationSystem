@@ -1,0 +1,24 @@
+﻿{
+	"Id": "1049",
+	"FirstName": "Роман",
+	"MiddleName": "Анатольевич",
+	"LastName": "Сурменев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "51",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		},
+		{
+			"Id": "188",
+			"HeadOfDepartment": false,
+			"Position": "41"
+		},
+		{
+			"Id": "188",
+			"HeadOfDepartment": false,
+			"Position": "58"
+		}
+	]
+}

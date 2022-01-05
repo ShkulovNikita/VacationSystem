@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2977",
+	"FirstName": "Мирослав",
+	"MiddleName": "Александрович",
+	"LastName": "Хаврошин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "29",
+			"HeadOfDepartment": false,
+			"Position": "7"
+		}
+	]
+}

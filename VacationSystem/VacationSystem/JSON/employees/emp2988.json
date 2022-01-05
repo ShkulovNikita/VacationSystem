@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2988",
+	"FirstName": "Леонид",
+	"MiddleName": "Семенович",
+	"LastName": "Ландарин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "85",
+			"HeadOfDepartment": false,
+			"Position": "47"
+		}
+	]
+}

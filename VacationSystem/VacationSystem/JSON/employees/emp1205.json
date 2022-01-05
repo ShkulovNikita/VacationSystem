@@ -1,0 +1,19 @@
+﻿{
+	"Id": "1205",
+	"FirstName": "Денис",
+	"MiddleName": "Валерьевич",
+	"LastName": "Дунбинский",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "23",
+			"HeadOfDepartment": false,
+			"Position": "116"
+		},
+		{
+			"Id": "47",
+			"HeadOfDepartment": false,
+			"Position": "30"
+		}
+	]
+}

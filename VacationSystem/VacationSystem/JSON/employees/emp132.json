@@ -1,0 +1,14 @@
+﻿{
+	"Id": "132",
+	"FirstName": "Андрей",
+	"MiddleName": "Васильевич",
+	"LastName": "Терещенко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "72",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

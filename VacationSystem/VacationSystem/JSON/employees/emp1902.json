@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1902",
+	"FirstName": "Григорий",
+	"MiddleName": "Петрович",
+	"LastName": "Мишунин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "215",
+			"HeadOfDepartment": false,
+			"Position": "64"
+		}
+	]
+}

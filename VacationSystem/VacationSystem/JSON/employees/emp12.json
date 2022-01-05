@@ -1,0 +1,14 @@
+﻿{
+	"Id": "12",
+	"FirstName": "Наталья",
+	"MiddleName": "Николаевна",
+	"LastName": "Ковынева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "11",
+			"HeadOfDepartment": false,
+			"Position": "7"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+﻿{
+	"Id": "495",
+	"FirstName": "Антон",
+	"MiddleName": "Юрьевич",
+	"LastName": "Демин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "26",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		},
+		{
+			"Id": "144",
+			"HeadOfDepartment": false,
+			"Position": "48"
+		}
+	]
+}

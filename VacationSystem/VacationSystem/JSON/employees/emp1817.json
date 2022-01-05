@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1817",
+	"FirstName": "Анна",
+	"MiddleName": "Игоревна",
+	"LastName": "Сидоренко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "20",
+			"HeadOfDepartment": false,
+			"Position": "25"
+		}
+	]
+}

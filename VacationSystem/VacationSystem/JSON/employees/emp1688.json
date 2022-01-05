@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1688",
+	"FirstName": "Светлана",
+	"MiddleName": "Сергеевна",
+	"LastName": "Стебелькова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "54",
+			"HeadOfDepartment": false,
+			"Position": "33"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "105",
+	"FirstName": "Кирилл",
+	"MiddleName": "Анатольевич",
+	"LastName": "Рядовой",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "45",
+			"HeadOfDepartment": false,
+			"Position": "16"
+		}
+	]
+}

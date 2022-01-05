@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2067",
+	"FirstName": "Зоя",
+	"MiddleName": "Васильевна",
+	"LastName": "Криницына",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "3",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

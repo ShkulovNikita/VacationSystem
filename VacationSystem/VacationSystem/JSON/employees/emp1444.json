@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1444",
+	"FirstName": "Алексей",
+	"MiddleName": "Григорьевич",
+	"LastName": "Жерлицын",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "40",
+			"HeadOfDepartment": false,
+			"Position": "11"
+		}
+	]
+}

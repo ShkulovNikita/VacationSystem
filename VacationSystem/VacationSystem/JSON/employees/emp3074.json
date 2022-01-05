@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3074",
+	"FirstName": "Сергей",
+	"MiddleName": "Андреевич",
+	"LastName": "Пластун",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "170",
+			"HeadOfDepartment": false,
+			"Position": "185"
+		}
+	]
+}

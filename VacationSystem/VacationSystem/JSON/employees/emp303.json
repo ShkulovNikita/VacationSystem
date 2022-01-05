@@ -1,0 +1,14 @@
+﻿{
+	"Id": "303",
+	"FirstName": "Дина",
+	"MiddleName": "Викторовна",
+	"LastName": "Сотникова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "20",
+			"HeadOfDepartment": false,
+			"Position": "16"
+		}
+	]
+}

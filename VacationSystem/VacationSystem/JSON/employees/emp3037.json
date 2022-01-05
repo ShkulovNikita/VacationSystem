@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3037",
+	"FirstName": "Татьяна",
+	"MiddleName": "Александровна",
+	"LastName": "Донских",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "86",
+			"HeadOfDepartment": false,
+			"Position": "35"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+﻿{
+	"Id": "1215",
+	"FirstName": "Наталия",
+	"MiddleName": "Сергеевна",
+	"LastName": "Белинская",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "36",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		},
+		{
+			"Id": "36",
+			"HeadOfDepartment": false,
+			"Position": "24"
+		}
+	]
+}

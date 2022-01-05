@@ -1,0 +1,14 @@
+﻿{
+	"Id": "572",
+	"FirstName": "Светлана",
+	"MiddleName": "Николаевна",
+	"LastName": "Аникина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "154",
+			"HeadOfDepartment": false,
+			"Position": "111"
+		}
+	]
+}

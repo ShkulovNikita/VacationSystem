@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3618",
+	"FirstName": "Минь Дай",
+	"MiddleName": "",
+	"LastName": "Хо",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "6",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		}
+	]
+}

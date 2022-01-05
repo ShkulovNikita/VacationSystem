@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2747",
+	"FirstName": "Сергей",
+	"MiddleName": "Викторович",
+	"LastName": "Разумников",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "12",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

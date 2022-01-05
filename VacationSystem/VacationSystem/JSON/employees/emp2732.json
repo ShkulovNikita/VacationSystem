@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2732",
+	"FirstName": "Александр",
+	"MiddleName": "Николаевич",
+	"LastName": "Шевченко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "50",
+			"HeadOfDepartment": false,
+			"Position": "124"
+		}
+	]
+}

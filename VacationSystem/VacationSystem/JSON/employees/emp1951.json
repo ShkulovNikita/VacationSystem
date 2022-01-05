@@ -1,0 +1,19 @@
+﻿{
+	"Id": "1951",
+	"FirstName": "Юлия",
+	"MiddleName": "Руслановна",
+	"LastName": "Мухортова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "188",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		},
+		{
+			"Id": "188",
+			"HeadOfDepartment": false,
+			"Position": "24"
+		}
+	]
+}

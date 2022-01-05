@@ -1,0 +1,14 @@
+﻿{
+	"Id": "955",
+	"FirstName": "Наталья",
+	"MiddleName": "Трофимовна",
+	"LastName": "Чуприкова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "33",
+			"HeadOfDepartment": false,
+			"Position": "21"
+		}
+	]
+}

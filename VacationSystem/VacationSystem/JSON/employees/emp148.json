@@ -1,0 +1,14 @@
+﻿{
+	"Id": "148",
+	"FirstName": "Юлия",
+	"MiddleName": "Андреевна",
+	"LastName": "Житникова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "80",
+			"HeadOfDepartment": false,
+			"Position": "52"
+		}
+	]
+}

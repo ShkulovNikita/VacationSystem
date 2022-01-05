@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1743",
+	"FirstName": "Светлана",
+	"MiddleName": "Федоровна",
+	"LastName": "Седельникова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "65",
+			"HeadOfDepartment": false,
+			"Position": "28"
+		}
+	]
+}

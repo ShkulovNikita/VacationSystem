@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1374",
+	"FirstName": "Ирина",
+	"MiddleName": "Викторовна",
+	"LastName": "Юнда",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "46",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

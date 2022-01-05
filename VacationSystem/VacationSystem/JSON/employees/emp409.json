@@ -1,0 +1,19 @@
+﻿{
+	"Id": "409",
+	"FirstName": "Вероника",
+	"MiddleName": "Сергеевна",
+	"LastName": "Иванова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "8",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		},
+		{
+			"Id": "8",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

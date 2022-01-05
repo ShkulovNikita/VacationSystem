@@ -1,0 +1,19 @@
+﻿{
+	"Id": "854",
+	"FirstName": "Сергей",
+	"MiddleName": "Николаевич",
+	"LastName": "Ливенцов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "101",
+			"HeadOfDepartment": false,
+			"Position": "2"
+		},
+		{
+			"Id": "17",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

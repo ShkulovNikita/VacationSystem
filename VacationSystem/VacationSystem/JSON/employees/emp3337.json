@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3337",
+	"FirstName": "Владимир",
+	"MiddleName": "Аркадьевич",
+	"LastName": "Кукареко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "15",
+			"HeadOfDepartment": false,
+			"Position": "41"
+		}
+	]
+}

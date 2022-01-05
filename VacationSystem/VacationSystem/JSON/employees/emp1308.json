@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1308",
+	"FirstName": "Сергей",
+	"MiddleName": "Никитович",
+	"LastName": "Похлестов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "75",
+			"HeadOfDepartment": false,
+			"Position": "49"
+		}
+	]
+}

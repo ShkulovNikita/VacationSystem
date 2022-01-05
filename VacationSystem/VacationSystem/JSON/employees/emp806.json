@@ -1,0 +1,14 @@
+﻿{
+	"Id": "806",
+	"FirstName": "Павел",
+	"MiddleName": "Викторович",
+	"LastName": "Потылицин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "125",
+			"HeadOfDepartment": false,
+			"Position": "25"
+		}
+	]
+}

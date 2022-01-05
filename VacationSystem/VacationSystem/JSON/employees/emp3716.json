@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3716",
+	"FirstName": "Гайни",
+	"MiddleName": "",
+	"LastName": "Сейтенова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "36",
+			"HeadOfDepartment": false,
+			"Position": "24"
+		}
+	]
+}

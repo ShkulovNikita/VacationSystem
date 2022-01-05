@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3720",
+	"FirstName": "Джин Джу",
+	"MiddleName": "",
+	"LastName": "Чен",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "32",
+			"HeadOfDepartment": false,
+			"Position": "24"
+		}
+	]
+}

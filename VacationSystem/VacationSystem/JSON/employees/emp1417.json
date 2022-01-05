@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1417",
+	"FirstName": "Алексей",
+	"MiddleName": "Иванович",
+	"LastName": "Штраух",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "169",
+			"HeadOfDepartment": false,
+			"Position": "174"
+		}
+	]
+}

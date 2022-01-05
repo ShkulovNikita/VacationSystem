@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1528",
+	"FirstName": "Арсений",
+	"MiddleName": "Олегович",
+	"LastName": "Чулков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "216",
+			"HeadOfDepartment": false,
+			"Position": "56"
+		}
+	]
+}

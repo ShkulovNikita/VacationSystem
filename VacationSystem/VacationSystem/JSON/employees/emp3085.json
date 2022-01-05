@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3085",
+	"FirstName": "Антон",
+	"MiddleName": "Алексеевич",
+	"LastName": "Полосин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "101",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		}
+	]
+}

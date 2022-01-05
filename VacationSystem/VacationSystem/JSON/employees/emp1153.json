@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1153",
+	"FirstName": "Светлана",
+	"MiddleName": "Александровна",
+	"LastName": "Якубович",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "163",
+			"HeadOfDepartment": false,
+			"Position": "69"
+		}
+	]
+}

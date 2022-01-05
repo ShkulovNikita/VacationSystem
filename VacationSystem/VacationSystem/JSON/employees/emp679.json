@@ -1,0 +1,14 @@
+﻿{
+	"Id": "679",
+	"FirstName": "Андрей",
+	"MiddleName": "Александрович",
+	"LastName": "Соловьев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "56",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

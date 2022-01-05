@@ -1,0 +1,19 @@
+﻿{
+	"Id": "451",
+	"FirstName": "Павел",
+	"MiddleName": "Николаевич",
+	"LastName": "Жилкин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "30",
+			"HeadOfDepartment": false,
+			"Position": "7"
+		},
+		{
+			"Id": "29",
+			"HeadOfDepartment": false,
+			"Position": "25"
+		}
+	]
+}

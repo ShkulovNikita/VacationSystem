@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2903",
+	"FirstName": "Вадим",
+	"MiddleName": "Иосифович",
+	"LastName": "Гаврилов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "168",
+			"HeadOfDepartment": false,
+			"Position": "25"
+		}
+	]
+}

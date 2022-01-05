@@ -1,0 +1,19 @@
+﻿{
+	"Id": "78",
+	"FirstName": "Леонид",
+	"MiddleName": "Григорьевич",
+	"LastName": "Сухих",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "48",
+			"HeadOfDepartment": false,
+			"Position": "31"
+		},
+		{
+			"Id": "32",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

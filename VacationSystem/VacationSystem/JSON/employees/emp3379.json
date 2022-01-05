@@ -1,0 +1,19 @@
+﻿{
+	"Id": "3379",
+	"FirstName": "Илья",
+	"MiddleName": "Вячеславович",
+	"LastName": "Ворончихин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "52",
+			"HeadOfDepartment": false,
+			"Position": "28"
+		},
+		{
+			"Id": "52",
+			"HeadOfDepartment": false,
+			"Position": "25"
+		}
+	]
+}

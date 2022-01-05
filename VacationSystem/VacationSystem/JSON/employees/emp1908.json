@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1908",
+	"FirstName": "Тамара",
+	"MiddleName": "Викторовна",
+	"LastName": "Комарова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "49",
+			"HeadOfDepartment": false,
+			"Position": "25"
+		}
+	]
+}

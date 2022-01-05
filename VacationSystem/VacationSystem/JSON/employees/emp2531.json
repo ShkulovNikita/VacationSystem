@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2531",
+	"FirstName": "Андрей",
+	"MiddleName": "Алексеевич",
+	"LastName": "Малолетко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "245",
+			"HeadOfDepartment": false,
+			"Position": "64"
+		}
+	]
+}

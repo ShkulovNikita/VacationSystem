@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1793",
+	"FirstName": "Альбина",
+	"MiddleName": "Альбертовна",
+	"LastName": "Искоркина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "153",
+			"HeadOfDepartment": false,
+			"Position": "10"
+		}
+	]
+}

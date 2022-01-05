@@ -1,0 +1,14 @@
+﻿{
+	"Id": "615",
+	"FirstName": "Александр",
+	"MiddleName": "Антанасович",
+	"LastName": "Клемайтис",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "49",
+			"HeadOfDepartment": false,
+			"Position": "88"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2933",
+	"FirstName": "Татьяна",
+	"MiddleName": "Ивановна",
+	"LastName": "Ширко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "71",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

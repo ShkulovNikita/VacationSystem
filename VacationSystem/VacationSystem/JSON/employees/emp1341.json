@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1341",
+	"FirstName": "Елена",
+	"MiddleName": "Павловна",
+	"LastName": "Теслева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "12",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

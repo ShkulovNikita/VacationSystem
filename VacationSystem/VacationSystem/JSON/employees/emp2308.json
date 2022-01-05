@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2308",
+	"FirstName": "Нина",
+	"MiddleName": "Васильевна",
+	"LastName": "Трубчик",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "1",
+			"HeadOfDepartment": false,
+			"Position": "53"
+		}
+	]
+}

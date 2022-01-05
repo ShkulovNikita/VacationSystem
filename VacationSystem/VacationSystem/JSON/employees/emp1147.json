@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1147",
+	"FirstName": "Оксана",
+	"MiddleName": "Павловна",
+	"LastName": "Кабрышева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "0",
+			"HeadOfDepartment": false,
+			"Position": "4"
+		}
+	]
+}

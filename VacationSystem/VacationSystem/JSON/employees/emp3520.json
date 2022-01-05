@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3520",
+	"FirstName": "Светлана",
+	"MiddleName": "Витальевна",
+	"LastName": "Водолажченко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "24",
+			"HeadOfDepartment": false,
+			"Position": "143"
+		}
+	]
+}

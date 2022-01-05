@@ -1,0 +1,14 @@
+﻿{
+	"Id": "943",
+	"FirstName": "Александр",
+	"MiddleName": "Александрович",
+	"LastName": "Филипас",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "6",
+			"HeadOfDepartment": false,
+			"Position": "43"
+		}
+	]
+}

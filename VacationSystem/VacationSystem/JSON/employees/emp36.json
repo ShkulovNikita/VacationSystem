@@ -1,0 +1,14 @@
+﻿{
+	"Id": "36",
+	"FirstName": "Ирина",
+	"MiddleName": "Николаевна",
+	"LastName": "Винниченко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "27",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

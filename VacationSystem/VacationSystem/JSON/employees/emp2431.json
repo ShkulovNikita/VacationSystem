@@ -1,0 +1,19 @@
+﻿{
+	"Id": "2431",
+	"FirstName": "Сергей",
+	"MiddleName": "Викторович",
+	"LastName": "Пономарев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "8",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		},
+		{
+			"Id": "8",
+			"HeadOfDepartment": false,
+			"Position": "2"
+		}
+	]
+}

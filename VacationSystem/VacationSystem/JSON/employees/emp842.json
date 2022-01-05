@@ -1,0 +1,14 @@
+﻿{
+	"Id": "842",
+	"FirstName": "Ольга",
+	"MiddleName": "Михайловна",
+	"LastName": "Герасим",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "17",
+			"HeadOfDepartment": false,
+			"Position": "2"
+		}
+	]
+}

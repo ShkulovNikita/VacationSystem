@@ -1,0 +1,14 @@
+﻿{
+	"Id": "594",
+	"FirstName": "Геннадий",
+	"MiddleName": "Николаевич",
+	"LastName": "Колпаков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "17",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

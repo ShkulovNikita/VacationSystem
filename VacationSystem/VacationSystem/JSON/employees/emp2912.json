@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2912",
+	"FirstName": "Валентина",
+	"MiddleName": "Вячеславовна",
+	"LastName": "Гавенкова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "199",
+			"HeadOfDepartment": false,
+			"Position": "159"
+		}
+	]
+}

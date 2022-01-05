@@ -1,0 +1,14 @@
+﻿{
+	"Id": "263",
+	"FirstName": "Дмитрий",
+	"MiddleName": "Витальевич",
+	"LastName": "Дронов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "75",
+			"HeadOfDepartment": false,
+			"Position": "68"
+		}
+	]
+}

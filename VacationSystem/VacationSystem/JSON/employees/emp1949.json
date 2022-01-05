@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1949",
+	"FirstName": "Алексей",
+	"MiddleName": "Сергеевич",
+	"LastName": "Васильев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "19",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

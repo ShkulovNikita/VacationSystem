@@ -1,0 +1,14 @@
+﻿{
+	"Id": "272",
+	"FirstName": "Оксана",
+	"MiddleName": "Евгеньевна",
+	"LastName": "Козырева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "65",
+			"HeadOfDepartment": false,
+			"Position": "0"
+		}
+	]
+}

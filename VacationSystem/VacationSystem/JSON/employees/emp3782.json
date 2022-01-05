@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3782",
+	"FirstName": "Сергей",
+	"MiddleName": "Николаевич",
+	"LastName": "Солостей",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "50",
+			"HeadOfDepartment": false,
+			"Position": "88"
+		}
+	]
+}

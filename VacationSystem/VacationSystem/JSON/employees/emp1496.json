@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1496",
+	"FirstName": "Яна",
+	"MiddleName": "Александровна",
+	"LastName": "Дудкина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "89",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

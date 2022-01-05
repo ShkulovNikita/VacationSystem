@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2211",
+	"FirstName": "Мария",
+	"MiddleName": "Владимировна",
+	"LastName": "Петрова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "23",
+			"HeadOfDepartment": false,
+			"Position": "125"
+		}
+	]
+}

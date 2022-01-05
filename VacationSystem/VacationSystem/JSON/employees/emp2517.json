@@ -1,0 +1,19 @@
+﻿{
+	"Id": "2517",
+	"FirstName": "Галина",
+	"MiddleName": "",
+	"LastName": "Лобова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "1",
+			"HeadOfDepartment": false,
+			"Position": "24"
+		},
+		{
+			"Id": "1",
+			"HeadOfDepartment": false,
+			"Position": "13"
+		}
+	]
+}

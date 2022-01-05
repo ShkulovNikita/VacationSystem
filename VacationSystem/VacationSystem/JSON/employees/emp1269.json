@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1269",
+	"FirstName": "Владимир",
+	"MiddleName": "Лазаревич",
+	"LastName": "Николаев",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "78",
+			"HeadOfDepartment": false,
+			"Position": "11"
+		}
+	]
+}

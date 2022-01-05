@@ -1,0 +1,14 @@
+﻿{
+	"Id": "573",
+	"FirstName": "Татьяна",
+	"MiddleName": "Степановна",
+	"LastName": "Аникина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "155",
+			"HeadOfDepartment": false,
+			"Position": "20"
+		}
+	]
+}

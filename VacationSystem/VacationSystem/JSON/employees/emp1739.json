@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1739",
+	"FirstName": "Ольга",
+	"MiddleName": "Михайловна",
+	"LastName": "Маслова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "2",
+			"HeadOfDepartment": false,
+			"Position": "206"
+		}
+	]
+}

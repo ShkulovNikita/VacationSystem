@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2015",
+	"FirstName": "Артем",
+	"MiddleName": "Андреевич",
+	"LastName": "Лысько",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "29",
+			"HeadOfDepartment": false,
+			"Position": "129"
+		}
+	]
+}

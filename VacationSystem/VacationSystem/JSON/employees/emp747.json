@@ -1,0 +1,14 @@
+﻿{
+	"Id": "747",
+	"FirstName": "Алла",
+	"MiddleName": "Александровна",
+	"LastName": "Корниенко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "3",
+			"HeadOfDepartment": false,
+			"Position": "91"
+		}
+	]
+}

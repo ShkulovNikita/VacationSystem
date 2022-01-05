@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1577",
+	"FirstName": "Светлана",
+	"MiddleName": "Викторовна",
+	"LastName": "Шкабарова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "111",
+			"HeadOfDepartment": false,
+			"Position": "193"
+		}
+	]
+}

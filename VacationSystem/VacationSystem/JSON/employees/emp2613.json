@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2613",
+	"FirstName": "Татьяна",
+	"MiddleName": "Александровна",
+	"LastName": "Рыбальченко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "199",
+			"HeadOfDepartment": false,
+			"Position": "154"
+		}
+	]
+}

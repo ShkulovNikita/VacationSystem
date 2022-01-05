@@ -1,0 +1,14 @@
+﻿{
+	"Id": "824",
+	"FirstName": "Алла",
+	"MiddleName": "Николаевна",
+	"LastName": "Баловнева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "99",
+			"HeadOfDepartment": false,
+			"Position": "38"
+		}
+	]
+}

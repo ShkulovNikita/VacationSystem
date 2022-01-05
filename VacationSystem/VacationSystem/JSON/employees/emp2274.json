@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2274",
+	"FirstName": "Ольга",
+	"MiddleName": "Сергеевна",
+	"LastName": "Лутошкина",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "71",
+			"HeadOfDepartment": false,
+			"Position": "99"
+		}
+	]
+}

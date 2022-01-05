@@ -1,0 +1,19 @@
+﻿{
+	"Id": "2755",
+	"FirstName": "Атлант",
+	"MiddleName": "Едилулы",
+	"LastName": "Нурпейис",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "39",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		},
+		{
+			"Id": "39",
+			"HeadOfDepartment": false,
+			"Position": "1"
+		}
+	]
+}

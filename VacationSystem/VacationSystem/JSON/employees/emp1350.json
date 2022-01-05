@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1350",
+	"FirstName": "Михаил",
+	"MiddleName": "Анатольевич",
+	"LastName": "Чуков",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "75",
+			"HeadOfDepartment": false,
+			"Position": "49"
+		}
+	]
+}

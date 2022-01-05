@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1355",
+	"FirstName": "Людмила",
+	"MiddleName": "Ивановна",
+	"LastName": "Рудик",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "18",
+			"HeadOfDepartment": false,
+			"Position": "25"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3629",
+	"FirstName": "Юлия",
+	"MiddleName": "Викторовна",
+	"LastName": "Хромова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "154",
+			"HeadOfDepartment": false,
+			"Position": "287"
+		}
+	]
+}

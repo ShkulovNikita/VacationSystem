@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2999",
+	"FirstName": "Александр",
+	"MiddleName": "Витальевич",
+	"LastName": "Броновицкий",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "215",
+			"HeadOfDepartment": false,
+			"Position": "242"
+		}
+	]
+}

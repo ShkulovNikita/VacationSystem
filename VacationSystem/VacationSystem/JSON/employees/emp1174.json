@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1174",
+	"FirstName": "Павел",
+	"MiddleName": "Николаевич",
+	"LastName": "Рвалов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "198",
+			"HeadOfDepartment": false,
+			"Position": "153"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "546",
+	"FirstName": "Владимир",
+	"MiddleName": "Валерьевич",
+	"LastName": "Бендерский",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "152",
+			"HeadOfDepartment": false,
+			"Position": "38"
+		}
+	]
+}

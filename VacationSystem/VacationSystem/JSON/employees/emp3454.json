@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3454",
+	"FirstName": "Ксения",
+	"MiddleName": "Александровна",
+	"LastName": "Рыжинская",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "191",
+			"HeadOfDepartment": false,
+			"Position": "196"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3256",
+	"FirstName": "Елена",
+	"MiddleName": "Юрьевна",
+	"LastName": "Сандаковская",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "17",
+			"HeadOfDepartment": false,
+			"Position": "2"
+		}
+	]
+}

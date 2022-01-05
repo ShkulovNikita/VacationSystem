@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1641",
+	"FirstName": "Владимир",
+	"MiddleName": "Николаевич",
+	"LastName": "Тучин",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "29",
+			"HeadOfDepartment": false,
+			"Position": "11"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2107",
+	"FirstName": "Олег",
+	"MiddleName": "Максимович",
+	"LastName": "Руденко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "125",
+			"HeadOfDepartment": false,
+			"Position": "7"
+		}
+	]
+}

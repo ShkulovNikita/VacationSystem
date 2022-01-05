@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1775",
+	"FirstName": "Вера",
+	"MiddleName": "Владимировна",
+	"LastName": "Чапля",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "65",
+			"HeadOfDepartment": false,
+			"Position": "0"
+		}
+	]
+}

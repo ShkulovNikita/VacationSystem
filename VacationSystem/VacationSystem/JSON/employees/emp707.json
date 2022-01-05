@@ -1,0 +1,14 @@
+﻿{
+	"Id": "707",
+	"FirstName": "Марина",
+	"MiddleName": "Николаевна",
+	"LastName": "Шило",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "33",
+			"HeadOfDepartment": false,
+			"Position": "39"
+		}
+	]
+}

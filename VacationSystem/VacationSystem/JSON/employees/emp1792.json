@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1792",
+	"FirstName": "Яна",
+	"MiddleName": "Александровна",
+	"LastName": "Рогиня",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "63",
+			"HeadOfDepartment": false,
+			"Position": "6"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3218",
+	"FirstName": "Наталья",
+	"MiddleName": "Александровна",
+	"LastName": "Ахмерова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "116",
+			"HeadOfDepartment": false,
+			"Position": "243"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "452",
+	"FirstName": "Элла",
+	"MiddleName": "Эдуардовна",
+	"LastName": "Жирова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "140",
+			"HeadOfDepartment": false,
+			"Position": "98"
+		}
+	]
+}

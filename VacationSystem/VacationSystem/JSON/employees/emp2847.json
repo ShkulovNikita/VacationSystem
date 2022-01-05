@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2847",
+	"FirstName": "Ксения",
+	"MiddleName": "Артуровна",
+	"LastName": "Батищева",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "39",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}

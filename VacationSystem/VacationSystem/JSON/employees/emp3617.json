@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3617",
+	"FirstName": "Мария",
+	"MiddleName": "Сергеевна",
+	"LastName": "Третьякова",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "192",
+			"HeadOfDepartment": false,
+			"Position": "5"
+		}
+	]
+}

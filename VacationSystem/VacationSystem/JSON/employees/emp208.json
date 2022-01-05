@@ -1,0 +1,14 @@
+﻿{
+	"Id": "208",
+	"FirstName": "Елена",
+	"MiddleName": "Юрьевна",
+	"LastName": "Шишко",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "76",
+			"HeadOfDepartment": false,
+			"Position": "50"
+		}
+	]
+}

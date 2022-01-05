@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2018",
+	"FirstName": "Наталья",
+	"MiddleName": "Борисовна",
+	"LastName": "Кирда",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "161",
+			"HeadOfDepartment": false,
+			"Position": "69"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Id": "1754",
+	"FirstName": "Евгений",
+	"MiddleName": "Сергеевич",
+	"LastName": "Кузнецов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "49",
+			"HeadOfDepartment": false,
+			"Position": "7"
+		}
+	]
+}

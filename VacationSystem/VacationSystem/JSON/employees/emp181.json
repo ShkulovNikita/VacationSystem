@@ -1,0 +1,14 @@
+﻿{
+	"Id": "181",
+	"FirstName": "Петр",
+	"MiddleName": "Николаевич",
+	"LastName": "Хорсов",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "88",
+			"HeadOfDepartment": false,
+			"Position": "26"
+		}
+	]
+}

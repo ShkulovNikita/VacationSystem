@@ -1,0 +1,14 @@
+﻿{
+	"Id": "2932",
+	"FirstName": "Наталья",
+	"MiddleName": "Сергеевна",
+	"LastName": "Янковская",
+	"Birthdate": "10-02-1970",
+	"Departments": [
+		{
+			"Id": "241",
+			"HeadOfDepartment": false,
+			"Position": "3"
+		}
+	]
+}
