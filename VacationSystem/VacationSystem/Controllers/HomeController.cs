@@ -22,7 +22,7 @@ namespace VacationSystem.Controllers
             Connector.GetPositionsList();
             Connector.GetDepartmentsList();
             Connector.GetEmployeeList("1");
-            Connector.GetEmployee("1");
+            Connector.GetEmployee("25");
             Connector.GetDepartment("1");
             Connector.GetCalendar();
             using (ApplicationContext db = new ApplicationContext())
