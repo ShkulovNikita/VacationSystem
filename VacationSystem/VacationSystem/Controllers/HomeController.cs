@@ -25,10 +25,8 @@ namespace VacationSystem.Controllers
             Connector.GetEmployee("25");
             Connector.GetDepartment("1");
             Connector.GetCalendar();
-            using (ApplicationContext db = new ApplicationContext())
-            {
-                db.SaveChanges();
-            }
+
+            DatabaseHandler.LoadData();
             
             return View();
         }
