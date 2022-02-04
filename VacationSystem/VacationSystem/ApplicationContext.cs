@@ -6,14 +6,15 @@ using Microsoft.EntityFrameworkCore;
 using VacationSystem.Models;
 using System.IO;
 using Microsoft.Extensions.Configuration;
-using System.ComponentModel.DataAnnotations;
 
 namespace VacationSystem
 {
     public class ApplicationContext : DbContext
     {
+        // файл логов БД
         private readonly StreamWriter logStream = new StreamWriter("logs.txt", true);
  
+        // таблицы БД
         public DbSet<Holiday> Holidays { get; set; }
         public DbSet<RuleType> RuleTypes { get; set; }
         public DbSet<Position> Positions { get; set; }
@@ -33,6 +34,9 @@ namespace VacationSystem
         public DbSet<VisibilityForEmployee> VisibilityForEmployees { get; set; }
         public DbSet<EmployeeRule> EmployeeRules { get; set; }
         public DbSet<EmployeeInRule> EmployeeInRules { get; set; }
+        public DbSet<Administrator> Administrators { get; set; }
+        public DbSet<Group> Groups { get; set; }
+        public DbSet<EmployeeInGroup> EmployeeInGroups { get; set; }
 
         public ApplicationContext()
         {
@@ -42,10 +46,19 @@ namespace VacationSystem
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            // ключи для слабых сущностей БД
+
             modelBuilder.Entity<EmployeeInRule>().HasKey(e => new { e.EmployeeId, e.EmployeeRuleId });
-            
+
+            modelBuilder.Entity<EmployeeInGroup>().HasKey(e => new { e.EmployeeId, e.GroupId });
+
             modelBuilder.Entity<HeadStyle>().HasKey(s => new { s.DepartmentId, s.EmployeeId, s.ManagementStyleId });
+
+            modelBuilder.Entity<Deputy>().HasKey(d => new { d.HeadEmployeeId, d.DeputyEmployeeId, d.DepartmentId });
             
+            /*несколько связей к одной и той же таблице*/
+
+            // VisibilityForEmployee и Employee
             modelBuilder.Entity<VisibilityForEmployee>()
                 .HasOne(m => m.VisibilityEmployee)
                 .WithMany(t => t.VisibilityEmployees)
@@ -60,6 +73,17 @@ namespace VacationSystem
                 .HasOne(m => m.HeadEmployee)
                 .WithMany(t => t.VisibilityHeads)
                 .HasForeignKey(m => m.HeadEmployeeId);
+
+            // Deputy и Employee
+            modelBuilder.Entity<Deputy>()
+                .HasOne(m => m.HeadEmployee)
+                .WithMany(t => t.DeputyHeads)
+                .HasForeignKey(m => m.HeadEmployeeId);
+
+            modelBuilder.Entity<Deputy>()
+                .HasOne(m => m.DeputyEmployee)
+                .WithMany(t => t.DeputyEmployees)
+                .HasForeignKey(m => m.DeputyEmployeeId);
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -91,6 +115,12 @@ namespace VacationSystem
         {
             await base.DisposeAsync();
             await logStream.DisposeAsync();
+        }
+
+        public void RecreateDatabase()
+        {
+            Database.EnsureDeleted();
+            Database.EnsureCreated();
         }
     }
 }

@@ -128,6 +128,7 @@ namespace VacationSystem.Classes
             return result;
         }
 
+        // удаление данных из БД
         static private void ClearData()
         {
             using (ApplicationContext db = new ApplicationContext())
@@ -153,6 +154,13 @@ namespace VacationSystem.Classes
 
                 db.SaveChanges();
             }
+        }
+
+        // пересоздание БД
+        static public void RecreateDB()
+        {
+            using (ApplicationContext db = new ApplicationContext())
+                db.RecreateDatabase();
         }
     }
 }

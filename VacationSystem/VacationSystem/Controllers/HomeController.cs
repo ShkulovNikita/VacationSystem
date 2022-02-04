@@ -19,14 +19,16 @@ namespace VacationSystem.Controllers
 
         public IActionResult Index()
         {
-            Connector.GetPositionsList();
+            DatabaseHandler.RecreateDB();
+
+            /*Connector.GetPositionsList();
             Connector.GetDepartmentsList();
             Connector.GetEmployeeList("1");
             Connector.GetEmployee("25");
             Connector.GetDepartment("1");
             Connector.GetCalendar();
 
-            DatabaseHandler.LoadData();
+            DatabaseHandler.LoadData();*/
             
             return View();
         }

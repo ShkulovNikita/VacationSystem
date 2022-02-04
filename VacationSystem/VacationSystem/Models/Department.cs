@@ -26,5 +26,9 @@ namespace VacationSystem.Models
         public List<HeadStyle> HeadStyles { get; set; } = new List<HeadStyle>();
 
         public List<VisibilityForEmployee> VisibilityForEmployees { get; set; } = new List<VisibilityForEmployee>();
+
+        public List<Deputy> DeputyEmployees { get; set; } = new List<Deputy>();
+
+        public List<Group> Groups { get; set; } = new List<Group>();
     }
 }

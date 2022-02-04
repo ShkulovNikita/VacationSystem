@@ -36,5 +36,13 @@ namespace VacationSystem.Models
         public List<VisibilityForEmployee> VisibilityTargets { get; set; } = new List<VisibilityForEmployee>();
 
         public List<VisibilityForEmployee> VisibilityEmployees { get; set; } = new List<VisibilityForEmployee>();
+
+        public List<Deputy> DeputyHeads { get; set; } = new List<Deputy>();
+
+        public List<Deputy> DeputyEmployees { get; set; } = new List<Deputy>();
+
+        public List<Group> Groups { get; set; } = new List<Group>();
+
+        public List<EmployeeInGroup> EmployeeInGroups { get; set; } = new List<EmployeeInGroup>();
     }
 }

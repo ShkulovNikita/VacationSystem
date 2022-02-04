@@ -9,5 +9,7 @@
         public string Name { get; set; }
 
         public string Head { get; set; }
+
+        public string HeadDepId { get; set; }
     }
 }
