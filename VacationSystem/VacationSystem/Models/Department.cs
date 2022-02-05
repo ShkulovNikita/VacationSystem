@@ -30,5 +30,7 @@ namespace VacationSystem.Models
         public List<Deputy> DeputyEmployees { get; set; } = new List<Deputy>();
 
         public List<Group> Groups { get; set; } = new List<Group>();
+
+        public List<IndividualChoicePeriod> IndividualChoicePeriods { get; set; } = new List<IndividualChoicePeriod>();
     }
 }

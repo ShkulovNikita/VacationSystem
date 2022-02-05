@@ -13,6 +13,7 @@ namespace VacationSystem.Models
     {
         public int Id { get; set; }
 
+        [Required]
         public int RuleTypeId { get; set; }
         public RuleType RuleType { get; set; }
 

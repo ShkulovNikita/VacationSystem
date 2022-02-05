@@ -7,6 +7,8 @@ namespace VacationSystem.Models
     [Table("deputies")]
     public class Deputy
     {
+        public int Id { get; set; }
+
         [Required, MaxLength(50)]
         public string HeadEmployeeId { get; set; }
         public Employee HeadEmployee { get; set; }

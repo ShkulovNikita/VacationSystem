@@ -4,12 +4,14 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace VacationSystem.Models
 {
-    [Table("employees_in_groups")]
-    public class EmployeeInGroup
+    [Table("groups_rules")]
+    public class GroupRule
     {
-        [Required, MaxLength(50)]
-        public string EmployeeId { get; set; }
-        public Employee Employee { get; set; }
+        public int Id { get; set; }
+
+        [Required]
+        public int RuleTypeId { get; set; }
+        public RuleType RuleType { get; set; }
 
         [Required]
         public int GroupId { get; set; }

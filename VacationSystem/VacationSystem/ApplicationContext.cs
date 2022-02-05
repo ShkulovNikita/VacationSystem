@@ -37,6 +37,8 @@ namespace VacationSystem
         public DbSet<Administrator> Administrators { get; set; }
         public DbSet<Group> Groups { get; set; }
         public DbSet<EmployeeInGroup> EmployeeInGroups { get; set; }
+        public DbSet<GroupRule> GroupRules { get; set; }
+        public DbSet<IndividualChoicePeriod> IndividualChoicePeriods { get; set; }
 
         public ApplicationContext()
         {
@@ -54,7 +56,11 @@ namespace VacationSystem
 
             modelBuilder.Entity<HeadStyle>().HasKey(s => new { s.DepartmentId, s.EmployeeId, s.ManagementStyleId });
 
-            modelBuilder.Entity<Deputy>().HasKey(d => new { d.HeadEmployeeId, d.DeputyEmployeeId, d.DepartmentId });
+            //modelBuilder.Entity<Deputy>().HasKey(d => new { d.HeadEmployeeId, d.DeputyEmployeeId, d.DepartmentId });
+
+            modelBuilder.Entity<ChoicePeriod>().HasKey(c => new { c.StartDate, c.DepartmentId });
+
+            modelBuilder.Entity<IndividualChoicePeriod>().HasKey(i => new { i.StartDate, i.DepartmentId, i.EmployeeId });
             
             /*несколько связей к одной и той же таблице*/
 
@@ -74,7 +80,7 @@ namespace VacationSystem
                 .WithMany(t => t.VisibilityHeads)
                 .HasForeignKey(m => m.HeadEmployeeId);
 
-            // Deputy и Employee
+            //Deputy и Employee
             modelBuilder.Entity<Deputy>()
                 .HasOne(m => m.HeadEmployee)
                 .WithMany(t => t.DeputyHeads)
@@ -84,6 +90,7 @@ namespace VacationSystem
                 .HasOne(m => m.DeputyEmployee)
                 .WithMany(t => t.DeputyEmployees)
                 .HasForeignKey(m => m.DeputyEmployeeId);
+
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

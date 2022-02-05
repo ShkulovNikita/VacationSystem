@@ -44,5 +44,7 @@ namespace VacationSystem.Models
         public List<Group> Groups { get; set; } = new List<Group>();
 
         public List<EmployeeInGroup> EmployeeInGroups { get; set; } = new List<EmployeeInGroup>();
+
+        public List<IndividualChoicePeriod> IndividualChoicePeriods { get; set; } = new List<IndividualChoicePeriod>();
     }
 }
