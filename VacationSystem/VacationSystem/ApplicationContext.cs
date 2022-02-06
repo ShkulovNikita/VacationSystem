@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using VacationSystem.Models;
@@ -54,13 +52,9 @@ namespace VacationSystem
 
             modelBuilder.Entity<EmployeeInGroup>().HasKey(e => new { e.EmployeeId, e.GroupId });
 
-            modelBuilder.Entity<HeadStyle>().HasKey(s => new { s.DepartmentId, s.EmployeeId, s.ManagementStyleId });
-
-            //modelBuilder.Entity<Deputy>().HasKey(d => new { d.HeadEmployeeId, d.DeputyEmployeeId, d.DepartmentId });
+            modelBuilder.Entity<HeadStyle>().HasKey(s => new { s.DepartmentId, s.HeadEmployeeId, s.ManagementStyleId });
 
             modelBuilder.Entity<ChoicePeriod>().HasKey(c => new { c.StartDate, c.DepartmentId });
-
-            modelBuilder.Entity<IndividualChoicePeriod>().HasKey(i => new { i.StartDate, i.DepartmentId, i.EmployeeId });
             
             /*несколько связей к одной и той же таблице*/
 
@@ -80,7 +74,7 @@ namespace VacationSystem
                 .WithMany(t => t.VisibilityHeads)
                 .HasForeignKey(m => m.HeadEmployeeId);
 
-            //Deputy и Employee
+            // Deputy и Employee
             modelBuilder.Entity<Deputy>()
                 .HasOne(m => m.HeadEmployee)
                 .WithMany(t => t.DeputyHeads)

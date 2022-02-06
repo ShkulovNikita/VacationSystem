@@ -1,4 +1,4 @@
-﻿namespace VacationSystem.Models.Parsing
+﻿namespace VacationSystem.ParsingClasses
 {
     public class EmployeeParsed
     {
@@ -13,7 +13,7 @@
         public string LastName { get; set; }
 
         public string Birthdate { get; set; }
-        
+
         public DepartmentEmployeeInfo[] Departments { get; set; }
     }
 }

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using VacationSystem.Models;
-using VacationSystem.Models.Parsing;
+using VacationSystem.ParsingClasses;
 
 namespace VacationSystem.Classes
 {

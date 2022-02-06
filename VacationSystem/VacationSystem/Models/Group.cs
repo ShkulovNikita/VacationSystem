@@ -4,22 +4,40 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace VacationSystem.Models
 {
+    /// <summary>
+    /// Группа сотрудников, создаваемая
+    /// руководителем для применения 
+    /// правил отпусков
+    /// </summary>
+
     [Table("groups")]
     public class Group
     {
         public int Id { get; set; }
 
+        /// <summary>
+        /// Наименование группы
+        /// </summary>
         [MaxLength(100)]
         public string Name { get; set; }
 
-        [Required, MaxLength(50)]
-        public string HeadId { get; set; }
-        public Employee Head { get; set; }
+        /// <summary>
+        /// Дата создания группы
+        /// </summary>
+        public DateTime Date { get; set; }
 
+        /// <summary>
+        /// Руководитель, создавший группу
+        /// </summary>
+        [Required, MaxLength(50)]
+        public string HeadEmployeeId { get; set; }
+        public Employee HeadEmployee { get; set; }
+
+        /// <summary>
+        /// Подразделение группы сотрудников
+        /// </summary>
         [Required, MaxLength(50)]
         public string DepartmentId { get; set; }
         public Department Department { get; set; }
-
-        public DateTime Date { get; set; }
     }
 }

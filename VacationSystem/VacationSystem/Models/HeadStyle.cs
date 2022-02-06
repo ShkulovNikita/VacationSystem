@@ -5,22 +5,36 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace VacationSystem.Models
 {
     /// <summary>
-    /// стиль управления конкретного руководителя
+    /// Стиль управления конкретного руководителя
     /// в конкретном отделении
     /// </summary>
     
     [Table("heads_styles")]
     public class HeadStyle
     {
-        public DateTime StyleSetDate { get; set; }
+        /// <summary>
+        /// Дата, в которую был установлен стиль
+        /// руководства
+        /// </summary>
+        public DateTime Date { get; set; }
 
+        /// <summary>
+        /// Выбранный стиль руководителя в подразделении
+        /// </summary>
         public int ManagementStyleId { get; set; }
         public ManagementStyle ManagementStyle { get; set; }
 
+        /// <summary>
+        /// Руководитель, выбравший стиль управления
+        /// </summary>
         [Required, MaxLength(50)]
-        public string EmployeeId { get; set; }
-        public Employee Employee { get; set; }
+        public string HeadEmployeeId { get; set; }
+        public Employee HeadEmployee { get; set; }
 
+        /// <summary>
+        /// Подразделение, для которого руководитель
+        /// выбрал стиль управления
+        /// </summary>
         [Required, MaxLength(50)]
         public string DepartmentId { get; set; }
         public Department Department { get; set; }

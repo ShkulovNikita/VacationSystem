@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using VacationSystem.Models;
-using VacationSystem.Models.Parsing;
+using VacationSystem.ParsingClasses;
 
 namespace VacationSystem.Classes
 {

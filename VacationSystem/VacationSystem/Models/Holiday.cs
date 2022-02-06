@@ -5,7 +5,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace VacationSystem.Models
 {
     /// <summary>
-    /// Праздники, устанавливаемые календарем
+    /// Праздник/выходные дни, устанавливаемые производственным
+    /// календарем
     /// </summary>
     
     [Table("holidays")]
@@ -13,15 +14,21 @@ namespace VacationSystem.Models
     {
         public int Id { get; set; }
 
-        // название праздника/периода выходных
+        /// <summary>
+        /// Название праздника/периода выходных
+        /// </summary>
         [MaxLength(150)]
         public string Name { get; set; }
-
-        // начало периода выходных дней
+ 
+        /// <summary>
+        /// Начало периода выходных дней
+        /// </summary>
         [Required]
         public DateTime StartDate { get; set; }
 
-        // конец периода выходных дней
+        /// <summary>
+        /// Конец периода выходных дней
+        /// </summary>
         [Required]
         public DateTime EndDate { get; set; }
 

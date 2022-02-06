@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using VacationSystem.Models;
-using VacationSystem.Models.Parsing;
 using System.IO;
+using VacationSystem.ParsingClasses;
 
 namespace VacationSystem.Classes
 {

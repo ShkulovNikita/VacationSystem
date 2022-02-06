@@ -1,4 +1,4 @@
-﻿namespace VacationSystem.Models.Parsing
+﻿namespace VacationSystem.ParsingClasses
 {
     public class CalendarHoliday
     {
