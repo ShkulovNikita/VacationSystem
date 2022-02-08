@@ -37,10 +37,11 @@ namespace VacationSystem
         public DbSet<EmployeeInGroup> EmployeeInGroups { get; set; }
         public DbSet<GroupRule> GroupRules { get; set; }
         public DbSet<IndividualChoicePeriod> IndividualChoicePeriods { get; set; }
+        public DbSet<NotificationType> NotificationTypes { get; set; }
+        public DbSet<Notification> Notifications { get; set; }
 
         public ApplicationContext()
         {
-            //Database.EnsureDeleted();
             Database.EnsureCreated();
         }
 
@@ -101,7 +102,7 @@ namespace VacationSystem
 
             optionsBuilder.UseMySql(
                 connectionString,
-                new MySqlServerVersion(new Version(5, 7, 35))
+                new MySqlServerVersion(new Version(8, 0, 28))
                 );
             optionsBuilder.LogTo(logStream.WriteLine);
         }
