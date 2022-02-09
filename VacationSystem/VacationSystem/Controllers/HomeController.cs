@@ -28,8 +28,10 @@ namespace VacationSystem.Controllers
             Connector.GetCalendar();
 
             DatabaseHandler.LoadData();
-            */
             
+            DatabaseHandler.FillAdministrators();
+            */
+
             return View();
         }
 

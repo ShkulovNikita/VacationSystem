@@ -6,9 +6,16 @@ using VacationSystem.ParsingClasses;
 
 namespace VacationSystem.Classes
 {
+    /// <summary>
+    /// Класс для выполнения различных операций с БД,
+    /// связанных с выгрузкой данных из API
+    /// </summary>
+
     static public class DatabaseHandler
     {
-        // получение и загрузка данных в БД
+        /// <summary>
+        /// Получение и загрузка начальных данных в БД
+        /// </summary>
         static public void LoadData()
         {
             try
@@ -17,6 +24,7 @@ namespace VacationSystem.Classes
                 FillPositions();
                 FillDepartments();
                 FillEmployees();
+                FillAdministrators();
             }
             catch (Exception e)
             {
@@ -24,7 +32,9 @@ namespace VacationSystem.Classes
             }
         }
 
-        // заполнить таблицу должностей
+        /// <summary>
+        /// Заполнение таблицы должностей
+        /// </summary>
         static public void FillPositions()
         {
             // получить список должностей
@@ -40,7 +50,9 @@ namespace VacationSystem.Classes
             }
         }
 
-        // заполнить таблицу отделений
+        /// <summary>
+        /// Заполнение таблицы отделений
+        /// </summary>
         static public void FillDepartments()
         {
             // получить все отделения
@@ -56,7 +68,9 @@ namespace VacationSystem.Classes
             }
         }
 
-        // заполнить таблицу сотрудников
+        /// <summary>
+        /// Заполнение таблицы сотрудников
+        /// </summary>
         static public void FillEmployees()
         {
             // получить идентификаторы отделений
@@ -76,6 +90,11 @@ namespace VacationSystem.Classes
             }
         }
 
+        /// <summary>
+        /// Добавление записей о сотрудниках в БД
+        /// </summary>
+        /// <param name="emps">Сотрудники одного подразделения</param>
+        /// <param name="emp_ids">Идентификаторы уже добавленных в БД сотрудников</param>
         static private void LoadEmployees(List<Employee> emps, List<string> emp_ids)
         {
             using (ApplicationContext db = new ApplicationContext())
@@ -92,6 +111,10 @@ namespace VacationSystem.Classes
             }
         }
 
+        /// <summary>
+        /// Получение идентификаторов всех подразделений
+        /// </summary>
+        /// <returns>Список идентификаторов подразделений ТПУ</returns>
         static private List<string> GetDepartmentsIds()
         {
             // список идентификаторов
@@ -110,6 +133,11 @@ namespace VacationSystem.Classes
             return deps_ids;
         }
 
+        /// <summary>
+        /// Получение списка сотрудников подразделения
+        /// </summary>
+        /// <param name="depId">Идентификатор подразделения</param>
+        /// <returns>Список сотрудников указанного подразделения</returns>
         static private List<Employee> GetEmployees(string depId)
         {
             // получение краткой информации о сотрудниках подразделения
@@ -128,7 +156,28 @@ namespace VacationSystem.Classes
             return result;
         }
 
-        // удаление данных из БД
+        /// <summary>
+        /// Создание профиля администратора
+        /// </summary>
+        static public void FillAdministrators()
+        {
+            Administrator adm = new Administrator
+            {
+                Id = "admin",
+                Login = "admin",
+                Password = "admin"
+            };
+
+            using (ApplicationContext db = new ApplicationContext())
+            {
+                db.Administrators.Add(adm);
+                db.SaveChanges();
+            }
+        }
+
+        /// <summary>
+        /// Удаление начальных данных из БД
+        /// </summary>
         static private void ClearData()
         {
             using (ApplicationContext db = new ApplicationContext())
@@ -156,7 +205,9 @@ namespace VacationSystem.Classes
             }
         }
 
-        // пересоздание БД
+        /// <summary>
+        /// Пересоздание БД
+        /// </summary>
         static public void RecreateDB()
         {
             using (ApplicationContext db = new ApplicationContext())
