@@ -1,0 +1,13 @@
+﻿body {
+    font-family: Clear Sans,Arial,sans-serif;
+    background-color: rgb(240, 242, 248);
+}
+
+footer {
+    background-color: rgb(28, 33, 41);
+}
+
+#tpu-logo {
+    height: 70px;
+    width: 294px;
+}

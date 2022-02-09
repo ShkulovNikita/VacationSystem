@@ -19,6 +19,7 @@ namespace VacationSystem.Controllers
 
         public IActionResult Index()
         {
+            /*
             Connector.GetPositionsList();
             Connector.GetDepartmentsList();
             Connector.GetEmployeeList("1");
@@ -27,6 +28,7 @@ namespace VacationSystem.Controllers
             Connector.GetCalendar();
 
             DatabaseHandler.LoadData();
+            */
             
             return View();
         }
