@@ -7,7 +7,7 @@ using VacationSystem.ParsingClasses;
 namespace VacationSystem.Classes
 {
     /// <summary>
-    /// класс для обеспечения соединения с API ТПУ
+    /// Класс для обеспечения соединения с API ТПУ
     /// и получения данных из API
     /// </summary>
     

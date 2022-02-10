@@ -4,7 +4,11 @@ using VacationSystem.ParsingClasses;
 
 namespace VacationSystem.Classes
 {
-    static public class Converter
+    /// <summary>
+    /// Класс для преобразования объектов, 
+    /// полученных из API, в объекты моделей
+    /// </summary>
+    static public class ModelConverter
     {
         static public Employee ConvertToEmployee(EmployeeParsed emp)
         {
@@ -70,7 +74,5 @@ namespace VacationSystem.Classes
 
             return positions_result;
         }
-
-
     }
 }

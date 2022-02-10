@@ -5,6 +5,8 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using VacationSystem.Models;
 using VacationSystem.Classes;
+using VacationSystem.ProgramClasses;
+using VacationSystem.ParsingClasses;
 
 namespace VacationSystem.Controllers
 {
@@ -19,18 +21,16 @@ namespace VacationSystem.Controllers
 
         public IActionResult Index()
         {
-            /*
-            Connector.GetPositionsList();
+
+            /*Connector.GetPositionsList();
             Connector.GetDepartmentsList();
             Connector.GetEmployeeList("1");
             Connector.GetEmployee("25");
             Connector.GetDepartment("1");
-            Connector.GetCalendar();
+            Connector.GetCalendar();*/
 
-            DatabaseHandler.LoadData();
-            
-            DatabaseHandler.FillAdministrators();
-            */
+            /*DatabaseHandler.RecreateDB();
+            DatabaseHandler.LoadData();*/
 
             return View();
         }

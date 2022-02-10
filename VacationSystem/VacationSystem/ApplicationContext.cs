@@ -124,5 +124,10 @@ namespace VacationSystem
             Database.EnsureDeleted();
             Database.EnsureCreated();
         }
+
+        public void DeleteDatabase()
+        {
+            Database.EnsureDeleted();
+        }
     }
 }
