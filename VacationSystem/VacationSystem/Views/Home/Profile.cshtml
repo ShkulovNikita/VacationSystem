@@ -1,0 +1,11 @@
+﻿@using Microsoft.AspNetCore.Http;
+
+@{
+    ViewData["Title"] = "Профиль пользователя";
+}
+
+<div class="container">
+    <div class="row">
+        <p>@Context.Session.GetString("user_type")</p>
+    </div>
+</div>

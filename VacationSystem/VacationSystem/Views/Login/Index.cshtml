@@ -5,6 +5,14 @@
 <div class="container">
     <div class="row">
         <div id="login-form" class="col-4 ml-auto mr-auto mt-3">
+            @{
+                if (ViewBag.Error != null)
+                {
+                    <div class="alert alert-danger">
+                        @ViewBag.Error
+                    </div>
+                }
+            }
             <form method="post" action="~/Login/Index">
                 <label>Логин</label>
                 <input type="text" name="login"/><br/>

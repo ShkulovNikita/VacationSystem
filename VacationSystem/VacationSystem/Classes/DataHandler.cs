@@ -21,7 +21,7 @@ namespace VacationSystem.Classes
                 return admin;
             else
             {
-                Employee emp = GetEmployeeByLogin(login);
+                Employee emp = GetEmployeeById(login);
                 if (emp != null)
                     return emp;
                 else 
@@ -55,9 +55,9 @@ namespace VacationSystem.Classes
         /// <summary>
         /// Получение сотрудника ТПУ по его идентификатору
         /// </summary>
-        /// <param name="login">Логин-идентификатор сотрудника</param>
+        /// <param name="id">Идентификатор сотрудника</param>
         /// <returns>Сотрудник с указанным идентификатором</returns>
-        static public Employee GetEmployeeByLogin(string id)
+        static public Employee GetEmployeeById(string id)
         {
             try
             {

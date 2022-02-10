@@ -10,6 +10,7 @@ namespace VacationSystem.Classes
     /// класс для обеспечения соединения с API ТПУ
     /// и получения данных из API
     /// </summary>
+    
     static public class Connector
     {
         // постоянная часть ссылки на API
@@ -41,7 +42,12 @@ namespace VacationSystem.Classes
             }
         }
 
-        // парсинг заданных данных
+        /// <summary>
+        /// Парсинг заданных данных
+        /// </summary>
+        /// <param name="parsingMethod">Метод, подходящий для принятого типа данных</param>
+        /// <param name="data">Данные в формате JSON</param>
+        /// <returns>Объект, полученный из JSON</returns>
         public static object Parse(Func<string, object> parsingMethod, string data)
         {
             if (data != null)
@@ -60,7 +66,11 @@ namespace VacationSystem.Classes
                 return null;
         }
 
-        // получение производственного календаря
+        /// <summary>
+        /// Получение производственного календаря
+        /// </summary>
+        /// <param name="year">Производственный год</param>
+        /// <returns>Список выходных и праздничных дней</returns>
         public static List<Holiday> GetCalendar(string year="")
         {   
             string calendar = ReadReply("calendar" + year);
@@ -71,7 +81,11 @@ namespace VacationSystem.Classes
                 return null;
         }
 
-        // получение информации о конкретном сотруднике
+        /// <summary>
+        /// Получение информации о конкретном сотруднике
+        /// </summary>
+        /// <param name="id">Идентификатор сотрудника</param>
+        /// <returns>Объект с данными о сотруднике</returns>
         static public EmployeeParsed GetEmployee(string id)
         {
             string emp = ReadReply("employees/emp" + id);
@@ -82,7 +96,11 @@ namespace VacationSystem.Classes
                 return null;
         }
 
-        // получение информации о конкретном отделении
+        /// <summary>
+        /// Получение информации о конкретном подразделении
+        /// </summary>
+        /// <param name="id">Идентификатор подразделения</param>
+        /// <returns>Объект с данными о подразделении</returns>
         static public DepartmentParsed GetDepartment(string id)
         {
             string dep = ReadReply("departments/dep" + id);
@@ -93,7 +111,11 @@ namespace VacationSystem.Classes
                 return null;
         }
 
-        // получение списка сотрудников отделения
+        /// <summary>
+        /// Получение списка сотрудников подразделения
+        /// </summary>
+        /// <param name="id">Идентификатор подразделения</param>
+        /// <returns>Список сотрудников подразделения</returns>
         static public List<EmployeeInfo> GetEmployeeList(string id)
         {
             string emps = ReadReply("emp_in_deps/emp_list" + id);
@@ -104,7 +126,10 @@ namespace VacationSystem.Classes
                 return null;
         }
 
-        // получение списка должностей
+        /// <summary>
+        /// Получение списка должностей в ТПУ
+        /// </summary>
+        /// <returns>Список должностей</returns>
         static public List<PositionInfo> GetPositionsList()
         {
             string positions = ReadReply("pos_list");
@@ -115,7 +140,10 @@ namespace VacationSystem.Classes
                 return null;
         }
 
-        // получение списка отделений
+        /// <summary>
+        /// Получение списка подразделений
+        /// </summary>
+        /// <returns>Список подразделений</returns>
         static public List<DepartmentInfo> GetDepartmentsList()
         {
             string departments = ReadReply("dep_list");
