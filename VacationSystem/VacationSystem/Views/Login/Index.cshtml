@@ -1,5 +1,9 @@
 ﻿@{
     ViewData["Title"] = "Авторизация в системе";
+    if ((ViewBag.Error == null) && (TempData["Error"] != null))
+    {
+        ViewBag.Error = TempData["Error"];
+    }
 }
 
 <div class="container">

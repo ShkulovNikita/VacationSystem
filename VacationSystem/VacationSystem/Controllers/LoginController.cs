@@ -3,7 +3,6 @@ using Microsoft.AspNetCore.Mvc;
 using VacationSystem.Classes;
 using VacationSystem.Models;
 using Microsoft.AspNetCore.Http;
-using VacationSystem.ParsingClasses;
 
 namespace VacationSystem.Controllers
 {
@@ -79,9 +78,10 @@ namespace VacationSystem.Controllers
             }
         }
 
-        public void Logout()
+        public IActionResult Logout()
         {
             HttpContext.Session.Clear();
+            return View("Index");
         }
     }
 }

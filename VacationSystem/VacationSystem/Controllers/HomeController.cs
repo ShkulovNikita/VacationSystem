@@ -22,27 +22,78 @@ namespace VacationSystem.Controllers
 
         public IActionResult Index()
         {
-            /*Connector.GetPositionsList();
-            Connector.GetDepartmentsList();
-            Connector.GetEmployeeList("1");
-            Connector.GetEmployee("25");
-            Connector.GetDepartment("1");
-            Connector.GetCalendar();*/
-
-            /*DatabaseHandler.RecreateDB();
-            DatabaseHandler.LoadData();*/
-
             return View();
         }
 
         public IActionResult Profile()
         {
-            // загрузка информации о пользователе из API
             string userType = HttpContext.Session.GetString("user_type");
+            string id = HttpContext.Session.GetString("id");
 
-            // данные пользователя
+            // в сессии нет значений типа или идентификатора пользователя
+            if ((id == null) || (userType == null))
+            {
+                TempData["Error"] = "Не выполнен вход в систему";
+                return RedirectToAction("Index", "Login");
+            }
 
-            return View();
+            if (userType == "administrator")
+                return View();
+            else
+            {
+                // получение данных из API о пользователе
+                Emp empInfo = Connector.GetEmployee(HttpContext.Session.GetString("id"));
+
+                if (empInfo == null)
+                {
+                    TempData["Error"] = "Ошибка загрузки данных пользователя";
+                    return RedirectToAction("Index", "Login");
+                }
+                else
+                {
+                    // сохранить в сессию данные о пользователе
+                    SessionHelper.SetObjectAsJson(HttpContext.Session, "user_info", empInfo);
+
+                    // получить подразделения и должности пользователя
+                    
+                    // подразделения сотрудника
+                    List<Dep> departments = new List<Dep>();
+
+                    // должности сотрудника
+                    List<Position> positions = new List<Position>();
+
+                    // факт руководства подразделением
+                    List<bool> head = new List<bool>();
+
+                    // проход по подразделениям пользователя
+                    foreach (DepEmpInfo depInfo in empInfo.Departments)
+                    {
+                        departments.Add(Connector.GetDepartment(depInfo.Id));
+
+                        positions.Add(DataHandler.GetPositionById(depInfo.Position));
+
+                        if (depInfo.HeadOfDepartment == true)
+                            head.Add(true);
+                        else
+                            head.Add(false);
+                    }
+
+                    // сохранение полученных данных в сессии
+                    if ((departments.Count > 0) && (positions.Count > 0) && (head.Count > 0))
+                    {
+                        SessionHelper.SetObjectAsJson(HttpContext.Session, "departments", departments);
+                        SessionHelper.SetObjectAsJson(HttpContext.Session, "positions", positions);
+                        SessionHelper.SetObjectAsJson(HttpContext.Session, "head", head);
+                    }
+                    else
+                    {
+                        TempData["Error"] = "Ошибка загрузки данных пользователя";
+                        return RedirectToAction("Index", "Login");
+                    }    
+                    
+                    return View();
+                }
+            }
         }
 
         public IActionResult Privacy()

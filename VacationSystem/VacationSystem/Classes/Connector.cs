@@ -17,7 +17,11 @@ namespace VacationSystem.Classes
         // постоянная часть ссылки на API
         private const string Url = "JSON/";
 
-        // чтение нужного файла с данными
+        /// <summary>
+        /// Чтение файла с данными от API
+        /// </summary>
+        /// <param name="data"></param>
+        /// <returns></returns>
         public static string ReadReply(string data)
         {
             string path = Url + data;

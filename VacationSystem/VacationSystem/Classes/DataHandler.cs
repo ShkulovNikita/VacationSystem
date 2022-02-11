@@ -74,5 +74,30 @@ namespace VacationSystem.Classes
                 return null;
             }
         }
+
+        /// <summary>
+        /// Получение должности сотрудника ТПУ по её идентификатору
+        /// </summary>
+        /// <param name="id">Идентификатор должности</param>
+        /// <returns>Должность сотрудника</returns>
+        static public Position GetPositionById(string id)
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    Position pos = db.Positions.FirstOrDefault(p => p.Id == id);
+                    if (pos != null)
+                        return pos;
+                    else
+                        return null;
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return null;
+            }
+        }
     }
 }
