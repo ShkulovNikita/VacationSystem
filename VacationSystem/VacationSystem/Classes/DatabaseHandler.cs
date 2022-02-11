@@ -38,7 +38,7 @@ namespace VacationSystem.Classes
         static public void FillPositions()
         {
             // получить список должностей
-            List<Position> positions = ModelConverter.ConvertToPositions(Connector.GetPositionsList());
+            List<Position> positions = ModelConverter.ConvertToPositions(Connector.GetParsedPositionsList());
 
             // заполнить таблицу БД должностей
             using (ApplicationContext db = new ApplicationContext())
@@ -56,7 +56,7 @@ namespace VacationSystem.Classes
         static public void FillDepartments()
         {
             // получить все отделения
-            List<Department> departments = ModelConverter.ConvertToDepartments(Connector.GetDepartmentsList());
+            List<Department> departments = ModelConverter.ConvertToDepartments(Connector.GetParsedDepartmentsList());
 
             // внести в БД
             using (ApplicationContext db = new ApplicationContext())
@@ -141,14 +141,14 @@ namespace VacationSystem.Classes
         static private List<Employee> GetEmployees(string depId)
         {
             // получение краткой информации о сотрудниках подразделения
-            List<EmployeeInfo> employees = Connector.GetEmployeeList(depId);
+            List<EmployeeInfo> employees = Connector.GetParsedEmployeeList(depId);
 
             // полная информация о сотрудниках подразделения
             List<EmployeeParsed> emps_result = new List<EmployeeParsed>();
 
             // получить полную информацию по идентификаторам
             foreach(EmployeeInfo emp in employees)
-                emps_result.Add(Connector.GetEmployee(emp.Id));
+                emps_result.Add(Connector.GetParsedEmployee(emp.Id));
 
             // конвертировать в класс модели
             List<Employee> result = ModelConverter.ConvertToEmployees(emps_result);

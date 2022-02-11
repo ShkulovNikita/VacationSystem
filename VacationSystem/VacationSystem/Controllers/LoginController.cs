@@ -37,17 +37,15 @@ namespace VacationSystem.Controllers
                     {
                         ViewBag.Error = "Ошибка авторизации";
                         return View();
-                    }    
+                    }
 
                     // очистка сессии
                     HttpContext.Session.Clear();
 
-                    // сохранение данных в сессии
-
                     // тип пользователя
                     HttpContext.Session.SetString("user_type", "administrator");
                     // идентификатор пользователя
-                    HttpContext.Session.SetString("login", admin.Id);
+                    HttpContext.Session.SetString("id", admin.Id);
 
                     return RedirectToAction("Profile", "Home");
                 }
@@ -62,27 +60,14 @@ namespace VacationSystem.Controllers
                         return View();
                     }
 
-                    // загрузка данных из API
-                    EmployeeParsed emp = Connector.GetEmployee(employee.Id);
-
-                    if (emp == null)
-                    {
-                        ViewBag.Error = "Ошибка авторизации";
-                        return View();
-                    }
-
                     // очистка сессии
                     HttpContext.Session.Clear();
 
-                    // сохранение данных в сессии
-
-                    // ФИО пользователя
-                    HttpContext.Session.SetString("first_name", emp.FirstName);
-                    HttpContext.Session.SetString("middle_name", emp.MiddleName);
-                    HttpContext.Session.SetString("last_name", emp.LastName);
-
                     // тип пользователя
                     HttpContext.Session.SetString("user_type", "employee");
+
+                    // идентификатор пользователя
+                    HttpContext.Session.SetString("id", employee.Id);
 
                     return RedirectToAction("Profile", "Home");
                 }

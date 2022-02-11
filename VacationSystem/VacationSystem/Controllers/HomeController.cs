@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using VacationSystem.Models;
+using Microsoft.AspNetCore.Http;
 using VacationSystem.Classes;
 using VacationSystem.ProgramClasses;
 using VacationSystem.ParsingClasses;
@@ -21,7 +22,6 @@ namespace VacationSystem.Controllers
 
         public IActionResult Index()
         {
-
             /*Connector.GetPositionsList();
             Connector.GetDepartmentsList();
             Connector.GetEmployeeList("1");
@@ -37,6 +37,11 @@ namespace VacationSystem.Controllers
 
         public IActionResult Profile()
         {
+            // загрузка информации о пользователе из API
+            string userType = HttpContext.Session.GetString("user_type");
+
+            // данные пользователя
+
             return View();
         }
 
