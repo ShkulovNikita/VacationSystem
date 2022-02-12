@@ -39,6 +39,7 @@ namespace VacationSystem
         public DbSet<IndividualChoicePeriod> IndividualChoicePeriods { get; set; }
         public DbSet<NotificationType> NotificationTypes { get; set; }
         public DbSet<Notification> Notifications { get; set; }
+        public DbSet<EmployeeInDepartment> EmployeesInDepartments { get; set; }
 
         public ApplicationContext()
         {
@@ -52,6 +53,8 @@ namespace VacationSystem
             modelBuilder.Entity<EmployeeInRule>().HasKey(e => new { e.EmployeeId, e.EmployeeRuleId });
 
             modelBuilder.Entity<EmployeeInGroup>().HasKey(e => new { e.EmployeeId, e.GroupId });
+
+            modelBuilder.Entity<EmployeeInDepartment>().HasKey(e => new { e.EmployeeId, e.DepartmentId, e.PositionId });
 
             modelBuilder.Entity<HeadStyle>().HasKey(s => new { s.DepartmentId, s.HeadEmployeeId, s.ManagementStyleId });
 

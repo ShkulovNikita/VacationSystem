@@ -78,12 +78,12 @@ namespace VacationSystem.Controllers
                             head.Add(false);
                     }
 
-                    // сохранение полученных данных в сессии
+                    // передача полученных данных в представление
                     if ((departments.Count > 0) && (positions.Count > 0) && (head.Count > 0))
                     {
-                        SessionHelper.SetObjectAsJson(HttpContext.Session, "departments", departments);
-                        SessionHelper.SetObjectAsJson(HttpContext.Session, "positions", positions);
-                        SessionHelper.SetObjectAsJson(HttpContext.Session, "head", head);
+                        ViewBag.Departments = departments;
+                        ViewBag.HeadOfDepartment = head;
+                        ViewBag.Positions = positions;
                     }
                     else
                     {

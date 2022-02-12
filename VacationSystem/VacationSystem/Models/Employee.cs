@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -31,6 +32,16 @@ namespace VacationSystem.Models
         /// </summary>
         [Required, MaxLength(50)]
         public string LastName { get; set; }
+
+        /// <summary>
+        /// Дата рождения
+        /// </summary>
+        public string Birthdate { get; set; }
+
+        /// <summary>
+        /// Дата начала работы в ТПУ
+        /// </summary>
+        public DateTime StartDate { get; set; }
 
         /// <summary>
         /// Правила для сотрудников, заданные данным руководителем
@@ -104,5 +115,10 @@ namespace VacationSystem.Models
         /// выбора отпуска
         /// </summary>
         public List<IndividualChoicePeriod> IndividualChoicePeriods { get; set; } = new List<IndividualChoicePeriod>();
+
+        /// <summary>
+        /// Должности данного сотрудника в подразделениях
+        /// </summary>
+        public List<EmployeeInDepartment> EmployeeInDepartments { get; set; } = new List<EmployeeInDepartment>();
     }
 }

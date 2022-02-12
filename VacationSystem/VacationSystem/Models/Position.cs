@@ -24,5 +24,10 @@ namespace VacationSystem.Models
         /// Правила, установленные на данную должность
         /// </summary>
         public List<RuleForPosition> RuleForPositions { get; set; } = new List<RuleForPosition>();
+
+        /// <summary>
+        /// Сотрудники, занимающие данную должность в подразделениях
+        /// </summary>
+        public List<EmployeeInDepartment> EmployeeInDepartments { get; set; } = new List<EmployeeInDepartment>();
     }
 }

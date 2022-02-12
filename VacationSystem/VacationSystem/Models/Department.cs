@@ -64,5 +64,10 @@ namespace VacationSystem.Models
         /// Группы сотрудников в подразделении
         /// </summary>
         public List<Group> Groups { get; set; } = new List<Group>();
+
+        /// <summary>
+        /// Сотрудники, занимающие должности в данном подразделении
+        /// </summary>
+        public List<EmployeeInDepartment> EmployeeInDepartments { get; set; } = new List<EmployeeInDepartment>();
     }
 }
