@@ -10,7 +10,7 @@ namespace VacationSystem
     public class ApplicationContext : DbContext
     {
         // файл логов БД
-        private readonly StreamWriter logStream = new StreamWriter("logs.txt", true);
+        //private readonly StreamWriter logStream = new StreamWriter("logs.txt", true);
  
         // таблицы БД
         public DbSet<Holiday> Holidays { get; set; }
@@ -107,19 +107,19 @@ namespace VacationSystem
                 connectionString,
                 new MySqlServerVersion(new Version(8, 0, 28))
                 );
-            optionsBuilder.LogTo(logStream.WriteLine);
+            //optionsBuilder.LogTo(logStream.WriteLine);
         }
 
         public override void Dispose()
         {
             base.Dispose();
-            logStream.Dispose();
+            //logStream.Dispose();
         }
 
         public override async ValueTask DisposeAsync()
         {
             await base.DisposeAsync();
-            await logStream.DisposeAsync();
+            //await logStream.DisposeAsync();
         }
 
         public void RecreateDatabase()
