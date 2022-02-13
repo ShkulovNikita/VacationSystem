@@ -1,0 +1,33 @@
+﻿@model DepartmentViewModel
+@using VacationSystem.ViewModels
+
+<div class="container">
+    <div class="row">
+        <div class="col-7">
+            <h2>@Model.Name</h2>
+            @if (@Model.Head != null)
+            {
+                <p>Руководитель: @Model.Head.LastName @Model.Head.FirstName @Model.Head.MiddleName</p>
+            }
+            @if (@Model.HeadDepartment != null)
+            {
+                <p>Старшее подразделение: @Model.HeadDepartment.Name</p>
+            }
+            @if (@Model.ChildDepartments.Count > 0)
+            {
+                <p>Младшие подразделения:</p>
+                @foreach(Department dep in @Model.ChildDepartments)
+                {
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                @dep.Name
+                            </h5>
+                            <a href="~/Admin/Department/@dep.Id" class="btn btn-primary">Просмотр подразделения</a>
+                        </div>
+                    </div>
+                }
+            }
+        </div>
+    </div>
+</div>

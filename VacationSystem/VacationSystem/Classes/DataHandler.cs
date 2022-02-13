@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using System.Collections.Generic;
 using VacationSystem.Models;
 
 namespace VacationSystem.Classes
@@ -89,6 +90,87 @@ namespace VacationSystem.Classes
                     Position pos = db.Positions.FirstOrDefault(p => p.Id == id);
                     if (pos != null)
                         return pos;
+                    else
+                        return null;
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return null;
+            }
+        }
+
+        /// <summary>
+        /// Получение списка подразделений ТПУ
+        /// </summary>
+        /// <returns>Список подразделений</returns>
+        static public List<Department> GetDepartments()
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    List<Department> departments = db.Departments.ToList();
+                    if (departments != null)
+                        return departments;
+                    else
+                        return null;
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return null;
+            }
+        }
+
+        /// <summary>
+        /// Получение подразделения ТПУ по его идентификатору
+        /// </summary>
+        /// <param name="id">Идентификатор подразделения</param>
+        /// <returns>Подразделение ТПУ</returns>
+        static public Department GetDepartmentById(string id)
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    Department department = db.Departments.FirstOrDefault(p => p.Id == id);
+                    if (department != null)
+                        return department;
+                    else
+                        return null;
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return null;
+            }
+        }
+
+        /// <summary>
+        /// Получение руководителя указанного подразделения
+        /// </summary>
+        /// <param name="id">Идентификатор подразделения</param>
+        /// <returns>Руководитель подразделения</returns>
+        static public Employee GetDepartmentHead(string id)
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    var query = from head in db.Employees
+                                join empDep in db.EmployeesInDepartments
+                                on head.Id equals empDep.EmployeeId
+                                where empDep.IsHead == true
+                                join dep in db.Departments
+                                on empDep.DepartmentId equals dep.Id
+                                select head;
+
+                    if (query.Count() > 0)
+                        return query.First();
                     else
                         return null;
                 }

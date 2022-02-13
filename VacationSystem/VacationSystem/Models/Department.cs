@@ -21,6 +21,18 @@ namespace VacationSystem.Models
         public string Name { get; set; }
 
         /// <summary>
+        /// Старшее подразделение
+        /// </summary>
+        [MaxLength(50)]
+        public string HeadDepartmentId { get; set; }
+        public Department HeadDepartment { get; set; }
+
+        /// <summary>
+        /// Младшие подразделения
+        /// </summary>
+        public List<Department> ChildDepartments { get; set; } = new List<Department>();
+
+        /// <summary>
         /// Правила для должностей внутри подразделения
         /// </summary>
         public List<RuleForPosition> RuleForPositions { get; set; } = new List<RuleForPosition>();
