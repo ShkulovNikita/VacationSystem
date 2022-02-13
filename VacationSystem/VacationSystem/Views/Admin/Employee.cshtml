@@ -1,0 +1,23 @@
+﻿@model Employee;
+@using VacationSystem.Models;
+
+<div class="container">
+    <div class="row">
+        <div class="col-7">
+            <h5>@Model.LastName @Model.FirstName @Model.MiddleName</h5>
+            <p>@Model.Birthdate</p>
+            @if (@Model.EmployeeInDepartments.Count > 0)
+            {
+                @foreach(EmployeeInDepartment empDep in @Model.EmployeeInDepartments)
+                {
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">@empDep.Department.Name</h5>
+                            <p>@empDep.Position.Name</p>
+                        </div>
+                    </div>
+                }
+            }
+        </div>
+    </div>
+</div>

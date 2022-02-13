@@ -111,7 +111,7 @@ namespace VacationSystem.Classes
             {
                 using (ApplicationContext db = new ApplicationContext())
                 {
-                    List<Department> departments = db.Departments.ToList();
+                    List<Department> departments = db.Departments.OrderBy(d => d.Name).ToList();
                     if (departments != null)
                         return departments;
                     else
@@ -173,6 +173,60 @@ namespace VacationSystem.Classes
                         return query.First();
                     else
                         return null;
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return null;
+            }
+        }
+
+        /// <summary>
+        /// Получение списка сотрудников ТПУ
+        /// </summary>
+        /// <returns>Список сотрудников ТПУ</returns>
+        static public List<Employee> GetEmployees()
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    List<Employee> employees = db.Employees.OrderBy(e => e.LastName)
+                                                            .ThenBy(e => e.FirstName)
+                                                            .ThenBy(e => e.MiddleName)
+                                                            .ToList();
+                    if (employees != null)
+                        return employees;
+                    else
+                        return null;
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return null;
+            }
+        }
+
+        /// <summary>
+        /// Получение списка подразделений сотрудника с его должностями
+        /// </summary>
+        /// <param name="id">Идентификатор сотрудника</param>
+        /// <returns>Список подразделений сотрудника с его должностями в них</returns>
+        static public List<EmployeeInDepartment> GetEmployeeDepartments(string id)
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    var query = from emp in db.Employees
+                                join empDep in db.EmployeesInDepartments
+                                on emp.Id equals empDep.EmployeeId
+                                where emp.Id == id
+                                select empDep;
+
+                    return query.ToList();
                 }
             }
             catch (Exception ex)

@@ -18,9 +18,7 @@ namespace VacationSystem.Controllers
         /// </summary>
         public IActionResult Departments()
         {
-            List<Department> departments = new List<Department>();
-
-            departments = DataHandler.GetDepartments();
+            List<Department> departments = DataHandler.GetDepartments();
             if (departments != null)
                 return View(departments);
             else
@@ -66,6 +64,35 @@ namespace VacationSystem.Controllers
 
                 return View(department);
             }
+        }
+
+        /// <summary>
+        /// Отображение списка всех сотрудников ТПУ
+        /// </summary>
+        /// <returns></returns>
+        public IActionResult Employees()
+        {
+            List<Employee> employees = DataHandler.GetEmployees();
+            if (employees != null)
+                return View(employees);
+            else
+            {
+                ViewBag.Error = "Не удалось получить данные о сотрудниках";
+                return View();
+            }
+        }
+
+        public IActionResult Employee(string id)
+        {
+            Employee emp = DataHandler.GetEmployeeById(id);
+
+            if (emp == null)
+            {
+                ViewBag.Error = "Не удалось получить данные о сотруднике";
+                return View();
+            }
+            else
+                return View(emp);
         }
     }
 }
