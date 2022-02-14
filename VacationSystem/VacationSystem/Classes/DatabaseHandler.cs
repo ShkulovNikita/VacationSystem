@@ -23,9 +23,9 @@ namespace VacationSystem.Classes
                 ClearData();
                 FillPositions();
                 FillDepartments();
-                // FillEmployees();
-                // FillAdministrators();
-                // FillPositionsInDepartments();
+                FillEmployees();
+                FillAdministrators();
+                FillPositionsInDepartments();
             }
             catch (Exception e)
             {
@@ -119,11 +119,6 @@ namespace VacationSystem.Classes
         /// старшее подразделение</param>
         static private void AddHeadDepartment(ApplicationContext db, Department dep)
         {
-            if (dep.Id == "230")
-            {
-                string a = "";
-            }
-
             // получить полную информацию о подразделении
             Department department = ModelConverter.ConvertToDepartment(Connector.GetParsedDepartment(dep.Id));
 
@@ -175,62 +170,104 @@ namespace VacationSystem.Classes
         }
 
         /// <summary>
-        /// Заполнение таблицы должностей сотрудников в подразделениях
+        /// Заполнение таблицы должностей сотрудников в подразделениях,
+        /// а также указание руководителей подразделений
         /// </summary>
         static public void FillPositionsInDepartments()
         {
             // список подразделений
             List<DepartmentInfo> departments = Connector.GetParsedDepartmentsList();
 
+            // заполнить данные о должностях сотрудников в каждом подразделении
             foreach (DepartmentInfo dep in departments)
-            {
-                // получение сотрудников подразделений
-                List<EmployeeInfo> employees = Connector.GetParsedEmployeeList(dep.Id);
+                LoadPositionsInDepartment(dep.Id);
 
-                // проход по найденным сотрудникам
-                foreach (EmployeeInfo emp in employees)
+            // заполнить данные о главах подразделений
+            foreach (DepartmentInfo dep in departments)
+                LoadHeadOfDepartment(dep.Id);
+        }
+
+        /// <summary>
+        /// Задание руководителя подразделения
+        /// </summary>
+        /// <param name="depId">Идентификатор подразделения</param>
+        static public void LoadHeadOfDepartment(string depId)
+        {
+            // получить данные о подразделении из API
+            Department departmentFromAPI = ModelConverter.ConvertToDepartment(Connector.GetParsedDepartment(depId));
+
+            // у подразделения есть руководитель
+            if (departmentFromAPI.HeadEmployeeId != "")
+                using (ApplicationContext db = new ApplicationContext())
                 {
-                    try
+                    // получение подразделения, для которого задается глава
+                    Department department = DataHandler.GetDepartmentById(db, depId);
+
+                    // получение сотрудника-главы подразделения
+                    Employee head = DataHandler.GetEmployeeById(db, departmentFromAPI.HeadEmployeeId);
+
+                    // задание руководителя подразделению
+                    department.HeadEmployee = head;
+
+                    db.Departments.Update(department);
+
+                    db.SaveChanges();
+                }
+        }
+
+        /// <summary>
+        /// Добавление записей о должностях сотрудников в указанном подразделении
+        /// </summary>
+        /// <param name="depId">Идентификатор подразделения</param>
+        static private void LoadPositionsInDepartment(string depId)
+        {
+            // получение сотрудников подразделений
+            List<EmployeeInfo> employees = Connector.GetParsedEmployeeList(depId);
+
+            // проход по найденным сотрудникам
+            foreach (EmployeeInfo emp in employees)
+                try
+                {
+                    LoadEmployeePositions(depId, emp);
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                    continue;
+                }
+        }
+
+        /// <summary>
+        /// Загрузить в БД данные о должностях указанного 
+        /// сотрудника в указанном подразделении
+        /// </summary>
+        /// <param name="depId">Идентификатор подразделения</param>
+        /// <param name="emp">Данные о сотруднике подразделения из API</param>
+        static private void LoadEmployeePositions(string depId, EmployeeInfo emp)
+        {
+            using (ApplicationContext db = new ApplicationContext())
+            {
+                // подразделение сотрудника
+                Department department = DataHandler.GetDepartmentById(db, depId);
+
+                // сотрудник
+                Employee employee = DataHandler.GetEmployeeById(db, emp.Id);
+
+                // должность сотрудника
+                Position position = DataHandler.GetPositionById(db, emp.Position);
+
+                if ((department != null) && (employee != null) && (position != null))
+                {
+                    EmployeeInDepartment empDep = new EmployeeInDepartment
                     {
-                        using (ApplicationContext db = new ApplicationContext())
-                        {
-                            // подразделение сотрудника
-                            Department department = DataHandler.GetDepartmentById(db, dep.Id);
+                        Employee = employee,
+                        Position = position,
+                        Department = department
+                    };
 
-                            // сотрудник
-                            Employee employee = DataHandler.GetEmployeeById(db, emp.Id);
+                    db.EmployeesInDepartments.Add(empDep);
 
-                            // должность сотрудника
-                            Position position = DataHandler.GetPositionById(db, emp.Position);
-
-                            // факт руководства
-                            bool head = false;
-                            if (emp.Head == true)
-                                head = true;
-
-                            if ((department != null) && (employee != null) && (position != null))
-                            {
-                                EmployeeInDepartment empDep = new EmployeeInDepartment
-                                {
-                                    Employee = employee,
-                                    Position = position,
-                                    Department = department,
-                                    IsHead = head
-                                };
-
-                                db.EmployeesInDepartments.Add(empDep);
-
-                                db.SaveChanges();
-                            }
-                            else
-                                continue;
-                        }
-                    }
-                    catch (Exception ex)
-                    {
-                        Console.WriteLine(ex.Message);
-                        continue;
-                    }
+                    db.SaveChanges();
                 }
             }
         }

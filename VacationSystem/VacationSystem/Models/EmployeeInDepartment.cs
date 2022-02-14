@@ -30,11 +30,5 @@ namespace VacationSystem.Models
         /// </summary>
         public string PositionId { get; set; }
         public Position Position { get; set; }
-
-        /// <summary>
-        /// Факт руководства сотрудником подразделения
-        /// </summary>
-        [Required]
-        public bool IsHead { get; set; }
     }
 }

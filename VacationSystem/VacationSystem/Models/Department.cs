@@ -28,6 +28,13 @@ namespace VacationSystem.Models
         public Department HeadDepartment { get; set; }
 
         /// <summary>
+        /// Руководитель подразделения
+        /// </summary>
+        [MaxLength(50)]
+        public string HeadEmployeeId { get; set; }
+        public Employee HeadEmployee { get; set; }
+
+        /// <summary>
         /// Младшие подразделения
         /// </summary>
         public List<Department> ChildDepartments { get; set; } = new List<Department>();

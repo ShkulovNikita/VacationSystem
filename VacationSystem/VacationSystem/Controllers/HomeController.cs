@@ -7,6 +7,8 @@ using VacationSystem.Models;
 using Microsoft.AspNetCore.Http;
 using VacationSystem.Classes;
 using VacationSystem.ProgramClasses;
+using Microsoft.EntityFrameworkCore;
+using System.Linq;
 
 namespace VacationSystem.Controllers
 {
@@ -23,6 +25,7 @@ namespace VacationSystem.Controllers
         {
             //DatabaseHandler.RecreateDB();
             DatabaseHandler.LoadData();
+
             return View();
         }
 

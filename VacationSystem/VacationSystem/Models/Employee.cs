@@ -44,6 +44,11 @@ namespace VacationSystem.Models
         public DateTime StartDate { get; set; }
 
         /// <summary>
+        /// Подразделения, которыми руководит данный сотрудник
+        /// </summary>
+        public List<Department> Departments { get; set; } = new List<Department>();
+
+        /// <summary>
         /// Правила для сотрудников, заданные данным руководителем
         /// </summary>
         public List<EmployeeRule> EmployeeRules { get; set; } = new List<EmployeeRule>();

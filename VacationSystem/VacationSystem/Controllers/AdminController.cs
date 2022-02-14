@@ -47,7 +47,7 @@ namespace VacationSystem.Controllers
                 // получение старшего подразделения
                 Department headDep = DataHandler.GetDepartmentById(dep.HeadDepartmentId);
                 // получение руководителя подразделения
-                Employee headEmp = DataHandler.GetDepartmentHead(dep.Id);
+                //Employee headEmp = DataHandler.GetDepartmentHead(dep.Id);
 
                 // передать данные о подразделении во ViewModel
                 DepartmentViewModel department = new DepartmentViewModel()
@@ -59,8 +59,8 @@ namespace VacationSystem.Controllers
 
                 if (headDep != null)
                     department.HeadDepartment = headDep;
-                if (headEmp != null)
-                    department.Head = headEmp;
+                //if (headEmp != null)
+                //    department.Head = headEmp;
 
                 return View(department);
             }

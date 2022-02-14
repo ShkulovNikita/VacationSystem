@@ -220,38 +220,6 @@ namespace VacationSystem.Classes
         }
 
         /// <summary>
-        /// Получение руководителя указанного подразделения
-        /// </summary>
-        /// <param name="id">Идентификатор подразделения</param>
-        /// <returns>Руководитель подразделения</returns>
-        static public Employee GetDepartmentHead(string id)
-        {
-            try
-            {
-                using (ApplicationContext db = new ApplicationContext())
-                {
-                    var query = from head in db.Employees
-                                join empDep in db.EmployeesInDepartments
-                                on head.Id equals empDep.EmployeeId
-                                where empDep.IsHead == true
-                                join dep in db.Departments
-                                on empDep.DepartmentId equals dep.Id
-                                select head;
-
-                    if (query.Count() > 0)
-                        return query.First();
-                    else
-                        return null;
-                }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-                return null;
-            }
-        }
-
-        /// <summary>
         /// Получение списка сотрудников ТПУ
         /// </summary>
         /// <returns>Список сотрудников ТПУ</returns>

@@ -51,7 +51,8 @@ namespace VacationSystem.Classes
             {
                 Id = dep.Id,
                 Name = dep.Name,
-                HeadDepartmentId = dep.HeadDepID
+                HeadDepartmentId = dep.HeadDepID,
+                HeadEmployeeId = dep.Head
             };
 
             return dep_result;
