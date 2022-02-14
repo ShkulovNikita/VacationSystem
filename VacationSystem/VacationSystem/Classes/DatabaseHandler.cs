@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
 using VacationSystem.Models;
 using VacationSystem.ParsingClasses;
@@ -24,9 +23,9 @@ namespace VacationSystem.Classes
                 ClearData();
                 FillPositions();
                 FillDepartments();
-                FillEmployees();
-                FillAdministrators();
-                FillPositionsInDepartments();
+                // FillEmployees();
+                // FillAdministrators();
+                // FillPositionsInDepartments();
             }
             catch (Exception e)
             {
@@ -70,45 +69,76 @@ namespace VacationSystem.Classes
             try
             {
                 // добавление подразделений
-                using (ApplicationContext db = new ApplicationContext())
-                {
-                    // пройтись по списку подразделений
-                    foreach (Department dep in departments)
-                    {
-                        db.Departments.Add(dep);
-                    }    
-
-                    db.SaveChanges();
-                }
+                LoadDepartments(departments);
 
                 // добавление связей между подразделениями
-                using (ApplicationContext db = new ApplicationContext())
-                {
-                    // пройтись по всем подразделениям
-                    foreach (Department dep in departments)
-                    {
-                        // получить полную информацию о подразделении
-                        Department department = ModelConverter.ConvertToDepartment(Connector.GetParsedDepartment(dep.Id));
-
-                        // получить подразделение из БД
-                        Department dp = DataHandler.GetDepartmentById(db, dep.Id);
-
-                        if (department.HeadDepartmentId != null)
-                        {
-                            // указать старшее подразделение
-                            dp.HeadDepartmentId = department.HeadDepartmentId;
-
-                            // сохранить изменение в БД
-                            db.Departments.Update(dp);
-
-                            db.SaveChanges();
-                        }
-                    }
-                }
+                LoadHeadDepartments(departments);
             }
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
+            }
+        }
+
+        /// <summary>
+        /// Загрузка всех подразделений в базу данных
+        /// </summary>
+        /// <param name="departments">Список подразделений для добавления</param>
+        static private void LoadDepartments(List<Department> departments)
+        {
+            using (ApplicationContext db = new ApplicationContext())
+            {
+                // пройтись по списку подразделений
+                foreach (Department dep in departments)
+                    db.Departments.Add(dep);
+
+                db.SaveChanges();
+            }
+        }
+
+        /// <summary>
+        /// Загрузка связей между подразделениями в базу данных
+        /// </summary>
+        /// <param name="departments">Список подразделений, которым добавляется старшее подразделение</param>
+        static private void LoadHeadDepartments(List<Department> departments)
+        {
+            using (ApplicationContext db = new ApplicationContext())
+            {
+                // добавление связи со старшим подразделением
+                // для всех подразделений
+                foreach (Department dep in departments)
+                    AddHeadDepartment(db, dep);
+            }
+        }
+
+        /// <summary>
+        /// Добавление одной связи подразделение -> старшее подразделение
+        /// </summary>
+        /// <param name="db">Контекст БД</param>
+        /// <param name="dep">Подразделение, для которого добавляется
+        /// старшее подразделение</param>
+        static private void AddHeadDepartment(ApplicationContext db, Department dep)
+        {
+            if (dep.Id == "230")
+            {
+                string a = "";
+            }
+
+            // получить полную информацию о подразделении
+            Department department = ModelConverter.ConvertToDepartment(Connector.GetParsedDepartment(dep.Id));
+
+            // получить подразделение из БД
+            Department dp = DataHandler.GetDepartmentById(db, dep.Id);
+
+            if (department.HeadDepartmentId != "null")
+            {
+                // указать старшее подразделение
+                dp.HeadDepartmentId = department.HeadDepartmentId;
+
+                // сохранить изменение в БД
+                db.Departments.Update(dp);
+
+                db.SaveChanges();
             }
         }
 
@@ -302,45 +332,80 @@ namespace VacationSystem.Classes
         {
             try
             {
-                using (ApplicationContext db = new ApplicationContext())
-                {
-                    // все сотрудники
-                    List<Employee> emps = db.Employees.ToList();
-
-                    // все отделения
-                    List<Department> deps = db.Departments.ToList();
-
-                    // все должности
-                    List<Position> positions = db.Positions.ToList();
-
-                    // все должности сотрудников в подразделениях
-                    List<EmployeeInDepartment> empDeps = db.EmployeesInDepartments.ToList();
-
-                    // все администраторы
-                    List<Administrator> admins = db.Administrators.ToList();
-
-                    // удалить все строки
-                    foreach (Administrator admin in admins)
-                        db.Administrators.Remove(admin);
-
-                    foreach (EmployeeInDepartment empDep in empDeps)
-                        db.EmployeesInDepartments.Remove(empDep);
-
-                    foreach (Employee emp in emps)
-                        db.Employees.Remove(emp);
-
-                    foreach (Department dep in deps)
-                        db.Departments.Remove(dep);
-
-                    foreach (Position pos in positions)
-                        db.Positions.Remove(pos);
-
-                    db.SaveChanges();
-                }
+                ClearEmployeesInDepartments();
+                ClearAdministrators();
+                ClearDepartments();
+                ClearEmployees();
+                ClearPositions();
             }
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
+            }
+        }
+
+        /// <summary>
+        /// Удалить все подразделения
+        /// </summary>
+        static private void ClearDepartments()
+        {
+            using (ApplicationContext db = new ApplicationContext())
+            {
+                List<Department> deps = db.Departments.ToList();
+                db.Departments.RemoveRange(deps);
+                db.SaveChanges();
+            }
+        }
+
+        /// <summary>
+        /// Удалить всех сотрудников
+        /// </summary>
+        static private void ClearEmployees()
+        {
+            using (ApplicationContext db = new ApplicationContext())
+            {
+                List<Employee> emps = db.Employees.ToList();
+                db.Employees.RemoveRange(emps);
+                db.SaveChanges();
+            }
+        }
+
+        /// <summary>
+        /// Удалить все должности
+        /// </summary>
+        static private void ClearPositions()
+        {
+            using (ApplicationContext db = new ApplicationContext())
+            {
+                List<Position> positions = db.Positions.ToList();
+                db.Positions.RemoveRange(positions);
+                db.SaveChanges();
+            }
+        }
+
+        /// <summary>
+        /// Удалить всех администраторов
+        /// </summary>
+        static private void ClearAdministrators()
+        {
+            using (ApplicationContext db = new ApplicationContext())
+            {
+                List<Administrator> admins = db.Administrators.ToList();
+                db.Administrators.RemoveRange(admins);
+                db.SaveChanges();
+            }
+        }
+
+        /// <summary>
+        /// Удалить все должности сотрудников в подразделениях
+        /// </summary>
+        static private void ClearEmployeesInDepartments()
+        {
+            using (ApplicationContext db = new ApplicationContext())
+            {
+                List<EmployeeInDepartment> empDeps = db.EmployeesInDepartments.ToList();
+                db.EmployeesInDepartments.RemoveRange(empDeps);
+                db.SaveChanges();
             }
         }
 
