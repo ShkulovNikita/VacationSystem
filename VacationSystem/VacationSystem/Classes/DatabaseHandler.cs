@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using VacationSystem.Models;
 using VacationSystem.ParsingClasses;
@@ -68,13 +69,41 @@ namespace VacationSystem.Classes
 
             try
             {
+                // добавление подразделений
                 using (ApplicationContext db = new ApplicationContext())
                 {
-                    // внести в БД
+                    // пройтись по списку подразделений
                     foreach (Department dep in departments)
+                    {
                         db.Departments.Add(dep);
+                    }    
 
                     db.SaveChanges();
+                }
+
+                // добавление связей между подразделениями
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    // пройтись по всем подразделениям
+                    foreach (Department dep in departments)
+                    {
+                        // получить полную информацию о подразделении
+                        Department department = ModelConverter.ConvertToDepartment(Connector.GetParsedDepartment(dep.Id));
+
+                        // получить подразделение из БД
+                        Department dp = DataHandler.GetDepartmentById(db, dep.Id);
+
+                        if (department.HeadDepartmentId != null)
+                        {
+                            // указать старшее подразделение
+                            dp.HeadDepartmentId = department.HeadDepartmentId;
+
+                            // сохранить изменение в БД
+                            db.Departments.Update(dp);
+
+                            db.SaveChanges();
+                        }
+                    }
                 }
             }
             catch (Exception ex)

@@ -54,7 +54,6 @@ namespace VacationSystem
 
             modelBuilder.Entity<EmployeeInGroup>().HasKey(e => new { e.EmployeeId, e.GroupId });
 
-
             modelBuilder.Entity<HeadStyle>().HasKey(s => new { s.DepartmentId, s.HeadEmployeeId, s.ManagementStyleId });
 
             modelBuilder.Entity<ChoicePeriod>().HasKey(c => new { c.StartDate, c.DepartmentId });
@@ -109,6 +108,11 @@ namespace VacationSystem
                 .WithMany(t => t.DeputyEmployees)
                 .HasForeignKey(m => m.DeputyEmployeeId);
 
+            // связь Departments к самой себе
+            modelBuilder.Entity<Department>()
+                .HasOne(d => d.HeadDepartment)
+                .WithMany(d => d.ChildDepartments)
+                .OnDelete(DeleteBehavior.Cascade);
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

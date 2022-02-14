@@ -38,7 +38,20 @@ namespace VacationSystem.Classes
             Department dep_result = new Department
             {
                 Id = dep.Id,
-                Name = dep.Name
+                Name = dep.Name,
+                HeadDepartmentId = dep.HeadDepId
+            };
+
+            return dep_result;
+        }
+
+        static public Department ConvertToDepartment(DepartmentParsed dep)
+        {
+            Department dep_result = new Department
+            {
+                Id = dep.Id,
+                Name = dep.Name,
+                HeadDepartmentId = dep.HeadDepID
             };
 
             return dep_result;
