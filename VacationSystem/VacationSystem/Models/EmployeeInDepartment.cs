@@ -16,21 +16,18 @@ namespace VacationSystem.Models
         /// <summary>
         /// Сотрудник
         /// </summary>
-        [Required, MaxLength(50)]
         public string EmployeeId { get; set; }
         public Employee Employee { get; set; }
 
         /// <summary>
         /// Подразделение сотрудника
         /// </summary>
-        [Required, MaxLength(50)]
         public string DepartmentId { get; set; }
         public Department Department { get; set; }
 
         /// <summary>
         /// Должность сотрудника в подразделении
         /// </summary>
-        [Required, MaxLength(50)]
         public string PositionId { get; set; }
         public Position Position { get; set; }
 

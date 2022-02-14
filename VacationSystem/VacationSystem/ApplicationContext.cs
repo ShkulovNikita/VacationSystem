@@ -54,12 +54,32 @@ namespace VacationSystem
 
             modelBuilder.Entity<EmployeeInGroup>().HasKey(e => new { e.EmployeeId, e.GroupId });
 
-            modelBuilder.Entity<EmployeeInDepartment>().HasKey(e => new { e.EmployeeId, e.DepartmentId, e.PositionId });
 
             modelBuilder.Entity<HeadStyle>().HasKey(s => new { s.DepartmentId, s.HeadEmployeeId, s.ManagementStyleId });
 
             modelBuilder.Entity<ChoicePeriod>().HasKey(c => new { c.StartDate, c.DepartmentId });
-            
+
+            /*связи многие-ко-многим*/
+
+            // должности сотрудника в подразделениях
+
+            modelBuilder.Entity<EmployeeInDepartment>().HasKey(e => new { e.EmployeeId, e.DepartmentId, e.PositionId });
+
+            modelBuilder.Entity<EmployeeInDepartment>()
+                .HasOne(e => e.Employee)
+                .WithMany(e => e.EmployeeInDepartments)
+                .HasForeignKey(e => e.EmployeeId);
+
+            modelBuilder.Entity<EmployeeInDepartment>()
+                .HasOne(e => e.Department)
+                .WithMany(d => d.EmployeeInDepartments)
+                .HasForeignKey(e => e.DepartmentId);
+
+            modelBuilder.Entity<EmployeeInDepartment>()
+                .HasOne(e => e.Position)
+                .WithMany(p => p.EmployeeInDepartments)
+                .HasForeignKey(e => e.PositionId);
+
             /*несколько связей к одной и той же таблице*/
 
             // VisibilityForEmployee и Employee

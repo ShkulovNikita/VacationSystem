@@ -21,6 +21,8 @@ namespace VacationSystem.Controllers
 
         public IActionResult Index()
         {
+            DatabaseHandler.RecreateDB();
+            DatabaseHandler.LoadData();
             return View();
         }
 

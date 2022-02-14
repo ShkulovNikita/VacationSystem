@@ -2,6 +2,8 @@
 using System.Linq;
 using System.Collections.Generic;
 using VacationSystem.Models;
+using Microsoft.EntityFrameworkCore;
+using System.Threading.Tasks;
 
 namespace VacationSystem.Classes
 {
@@ -77,6 +79,27 @@ namespace VacationSystem.Classes
         }
 
         /// <summary>
+        /// Получение сотрудника ТПУ по его идентификатору
+        /// </summary>
+        /// <param name="db">Контекст БД</param>
+        /// <param name="id">Идентификатор сотрудника</param>
+        /// <returns>Сотрудник с указанным идентификатором</returns>
+        static public Employee GetEmployeeById(ApplicationContext db, string id)
+        {
+            try
+            {
+                // попытка найти сотрудника
+                Employee emp = db.Employees.SingleOrDefault(e => e.Id == id);
+                return emp;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return null;
+            }
+        }
+
+        /// <summary>
         /// Получение должности сотрудника ТПУ по её идентификатору
         /// </summary>
         /// <param name="id">Идентификатор должности</param>
@@ -93,6 +116,29 @@ namespace VacationSystem.Classes
                     else
                         return null;
                 }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return null;
+            }
+        }
+
+        /// <summary>
+        /// Получение должности сотрудника ТПУ по её идентификатору
+        /// </summary>
+        /// <param name="db">Контекст БД</param>
+        /// <param name="id">Идентификатор должности</param>
+        /// <returns>Должность сотрудника</returns>
+        static public Position GetPositionById(ApplicationContext db, string id)
+        {
+            try
+            {
+                Position pos = db.Positions.FirstOrDefault(p => p.Id == id);
+                if (pos != null)
+                    return pos;
+                else
+                    return null;
             }
             catch (Exception ex)
             {
@@ -142,6 +188,29 @@ namespace VacationSystem.Classes
                     else
                         return null;
                 }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return null;
+            }
+        }
+
+        /// <summary>
+        /// Получение подразделения ТПУ по его идентификатору
+        /// </summary>
+        /// <param name="db">Контекст БД</param>
+        /// <param name="id">Идентификатор подразделения</param>
+        /// <returns>Подразделение ТПУ</returns>
+        static public Department GetDepartmentById(ApplicationContext db, string id)
+        {
+            try
+            {
+                Department department = db.Departments.FirstOrDefault(p => p.Id == id);
+                if (department != null)
+                    return department;
+                else
+                    return null;
             }
             catch (Exception ex)
             {
@@ -234,6 +303,18 @@ namespace VacationSystem.Classes
                 Console.WriteLine(ex.Message);
                 return null;
             }
+        }
+
+        /// <summary>
+        /// Получение подразделения ТПУ
+        /// </summary>
+        /// <param name="db">Контекст БД</param>
+        /// <param name="id">Идентификатор подразделения</param>
+        /// <returns>Подразделение ТПУ</returns>
+        static public async Task<Department> GetDepartment(ApplicationContext db, string id)
+        {
+            Department department = await db.Departments.AsNoTracking().FirstOrDefaultAsync(d => d.Id == id);
+            return department;
         }
     }
 }
