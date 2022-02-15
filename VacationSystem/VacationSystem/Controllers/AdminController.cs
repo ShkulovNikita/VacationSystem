@@ -68,21 +68,71 @@ namespace VacationSystem.Controllers
         }
 
         /// <summary>
-        /// Отображение списка всех сотрудников ТПУ
+        /// Отображение списка сотрудников ТПУ (всех или подразделения)
         /// </summary>
-        /// <returns></returns>
-        public IActionResult Employees()
+        /// <param name="id">Идентификатор подразделения (не обязателен)</param>
+        public IActionResult Employees(string id)
         {
-            List<Employee> employees = DataHandler.GetEmployees();
-            if (employees != null)
-                return View(employees);
+            // не задан идентификатор - отображаются все сотрудники ТПУ
+            if (id == null)
+            {
+                // получить всех сотрудников
+                List<Employee> employees = DataHandler.GetEmployees();
+
+                if (employees != null)
+                {
+                    // создание модели представления
+                    EmployeesViewModel emps = new EmployeesViewModel
+                    {
+                        Employees = employees
+                    };
+                    return View(emps);
+                }
+                else
+                {
+                    ViewBag.Error = "Не удалось получить данные о сотрудниках";
+                    return View();
+                }
+            }
+            // указан идентификатор - отображаются сотрудники указанного подразделения
             else
             {
-                ViewBag.Error = "Не удалось получить данные о сотрудниках";
-                return View();
+                // подразделение, для которого нужно получить сотрудников
+                Department dep = DataHandler.GetDepartmentById(id);
+
+                // проверка существования подразделения
+                if (dep == null)
+                {
+                    ViewBag.Error = "Подразделение не найдено";
+                    return View();
+                }
+                else
+                {
+                    // получить сотрудников одного подразделения
+                    List<Employee> employees = DataHandler.GetEmployees(id);
+
+                    if (employees != null)
+                    {
+                        EmployeesViewModel emps = new EmployeesViewModel
+                        {
+                            Employees = employees,
+                            Department = dep
+                        };
+                        return View(emps);
+                    }
+                    else
+                    {
+                        ViewBag.Error = "Не удалось получить данные о сотрудниках";
+                        return View();
+                    }
+                }
             }
         }
 
+        /// <summary>
+        /// Отображение информации об одном сотруднике
+        /// </summary>
+        /// <param name="id">Идентификатор сотрудника</param>
         public IActionResult Employee(string id)
         {
             Employee emp = DataHandler.GetEmployeeById(id);

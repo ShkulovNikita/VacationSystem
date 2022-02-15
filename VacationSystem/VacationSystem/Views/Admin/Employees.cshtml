@@ -1,19 +1,41 @@
-﻿@model List<Employee>
+﻿@model EmployeesViewModel
+@using VacationSystem.ViewModels
 @using VacationSystem.Models
 
 <div class="container">
     <div class="row">
         <div class="col-10">
-            @foreach (Employee emp in @Model)
+            @if (ViewBag.Error != null)
             {
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            @emp.LastName @emp.FirstName @emp.MiddleName
-                        </h5>
-                        <a href="~/Admin/Employee/@emp.Id" class="btn btn-primary">Просмотр сотрудника</a>
-                    </div>
+                <div class="alert alert-danger">
+                    @ViewBag.Error
                 </div>
+            }
+            @if (@Model != null)
+            {
+                @if (@Model.Department == null)
+                {
+                    <h2>Все сотрудники</h2>
+                }
+                else
+                {
+                    <h2>Сотрудники подразделения:
+                        <a href="~/Admin/Department/@Model.Department.Id">
+                            @Model.Department.Name
+                        </a>
+                    </h2>
+                }
+                @foreach (Employee emp in @Model.Employees)
+                {
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                @emp.LastName @emp.FirstName @emp.MiddleName
+                            </h5>
+                            <a href="~/Admin/Employee/@emp.Id" class="btn btn-primary">Просмотр сотрудника</a>
+                        </div>
+                    </div>
+                }
             }
         </div>
     </div>

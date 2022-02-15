@@ -195,7 +195,7 @@ namespace VacationSystem.Classes
 
         /// <summary>
         /// Получение данных о подразделении ТПУ, включая
-        /// подчиненные подразделения, руководителя и старшее
+        /// подчиненные подразделения, сотрудников, руководителя и старшее
         /// подразделение
         /// </summary>
         /// <param name="id">Идентификатор подразделения</param>
@@ -262,6 +262,44 @@ namespace VacationSystem.Classes
                         return employees;
                     else
                         return null;
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return null;
+            }
+        }
+
+        /// <summary>
+        /// Получение списка сотрудников подразделения
+        /// </summary>
+        /// <param name="id">Идентификатор подразделения</param>
+        /// <returns>Список сотрудников указанного подразделения</returns>
+        static public List<Employee> GetEmployees(string id)
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    // получение сотрудников из БД
+                    var employees = from dep in db.Departments
+                                    where dep.Id == id
+                                    join empDep in db.EmployeesInDepartments
+                                    on dep.Id equals empDep.DepartmentId
+                                    join emp in db.Employees
+                                    on empDep.EmployeeId equals emp.Id
+                                    select emp;
+
+                    // отсортировать по алфавиту
+                    employees = employees.OrderBy(e => e.LastName)
+                                         .ThenBy(e => e.FirstName)
+                                         .ThenBy(e => e.MiddleName);
+
+                    // удалить дубликаты и преобразовать в список
+                    List<Employee> emps_result = new HashSet<Employee>(employees).ToList();
+
+                    return emps_result;
                 }
             }
             catch (Exception ex)
