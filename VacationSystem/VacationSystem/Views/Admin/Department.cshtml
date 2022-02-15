@@ -11,7 +11,11 @@
             }
             @if (@Model.HeadDepartment != null)
             {
-                <p>Старшее подразделение: @Model.HeadDepartment.Name</p>
+                <p>Старшее подразделение: 
+                    <a href="~/Admin/Department/@Model.HeadDepartment.Id">
+                        @Model.HeadDepartment.Name
+                    </a>
+                </p>
             }
             @if (@Model.ChildDepartments.Count > 0)
             {

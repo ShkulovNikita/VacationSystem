@@ -183,10 +183,35 @@ namespace VacationSystem.Classes
                 using (ApplicationContext db = new ApplicationContext())
                 {
                     Department department = db.Departments.FirstOrDefault(p => p.Id == id);
-                    if (department != null)
                         return department;
-                    else
-                        return null;
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return null;
+            }
+        }
+
+        /// <summary>
+        /// Получение данных о подразделении ТПУ, включая
+        /// подчиненные подразделения, руководителя и старшее
+        /// подразделение
+        /// </summary>
+        /// <param name="id">Идентификатор подразделения</param>
+        /// <returns>Подразделение с полными данными</returns>
+        static public Department GetFullDepartmentById(string id)
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    Department department = db.Departments
+                        .Include(d => d.HeadDepartment)
+                        .Include(d => d.HeadEmployee)
+                        .Include(d => d.ChildDepartments)
+                        .FirstOrDefault(d => d.Id == id);
+                    return department;
                 }
             }
             catch (Exception ex)

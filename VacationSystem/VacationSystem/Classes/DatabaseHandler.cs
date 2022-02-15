@@ -125,10 +125,10 @@ namespace VacationSystem.Classes
             // получить подразделение из БД
             Department dp = DataHandler.GetDepartmentById(db, dep.Id);
 
-            if (department.HeadDepartmentId != "null")
+            if ((department.HeadDepartmentId != "null") && (department.HeadDepartmentId != dp.Id))
             {
                 // указать старшее подразделение
-                dp.HeadDepartmentId = department.HeadDepartmentId;
+                dp.HeadDepartment = DataHandler.GetDepartmentById(db, department.HeadDepartmentId);
 
                 // сохранить изменение в БД
                 db.Departments.Update(dp);

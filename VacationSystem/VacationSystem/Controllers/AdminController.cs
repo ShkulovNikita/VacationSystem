@@ -35,7 +35,7 @@ namespace VacationSystem.Controllers
         public IActionResult Department(string id)
         {
             // получение информации о подразделении из БД
-            Department dep = DataHandler.GetDepartmentById(id);
+            Department dep = DataHandler.GetFullDepartmentById(id);
 
             if (dep == null)
             {
@@ -45,9 +45,10 @@ namespace VacationSystem.Controllers
             else
             {
                 // получение старшего подразделения
-                Department headDep = DataHandler.GetDepartmentById(dep.HeadDepartmentId);
+                Department headDep = dep.HeadDepartment;
+
                 // получение руководителя подразделения
-                //Employee headEmp = DataHandler.GetDepartmentHead(dep.Id);
+                Employee headEmp = dep.HeadEmployee;
 
                 // передать данные о подразделении во ViewModel
                 DepartmentViewModel department = new DepartmentViewModel()
@@ -59,8 +60,8 @@ namespace VacationSystem.Controllers
 
                 if (headDep != null)
                     department.HeadDepartment = headDep;
-                //if (headEmp != null)
-                //    department.Head = headEmp;
+                if (headEmp != null)
+                    department.Head = headEmp;
 
                 return View(department);
             }
