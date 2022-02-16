@@ -1,22 +1,19 @@
-﻿@{
+﻿@using VacationSystem.HtmlHelpers
+
+@{
     ViewData["Title"] = "Авторизация в системе";
-    if ((ViewBag.Error == null) && (TempData["Error"] != null))
-    {
-        ViewBag.Error = TempData["Error"];
-    }
+
+    string error = null;
+    if (ViewBag.Error != null)
+        error = ViewBag.Error;
+    else if (TempData["Error"] != null)
+        error = TempData["Error"].ToString();
 }
 
 <div class="container">
     <div class="row">
         <div id="login-form" class="col-4 ml-auto mr-auto mt-3">
-            @{
-                if (ViewBag.Error != null)
-                {
-                    <div class="alert alert-danger">
-                        @ViewBag.Error
-                    </div>
-                }
-            }
+            @Html.CheckError(error)
             <form method="post" action="~/Login/Index">
                 <label>Логин</label>
                 <input type="text" name="login"/><br/>

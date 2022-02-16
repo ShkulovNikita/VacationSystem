@@ -1,15 +1,15 @@
 ﻿@model DepartmentViewModel
 @using VacationSystem.ViewModels
+@using VacationSystem.HtmlHelpers
+
+@{
+    string error = ViewBag.Error;
+}
 
 <div class="container">
     <div class="row">
         <div class="col-7">
-            @if (ViewBag.Error != null)
-            {
-                <div class="alert alert-danger">
-                    @ViewBag.Error
-                </div>
-            }
+            @Html.CheckError(error) 
             @if (@Model != null)
             {
                 <h2>@Model.Name</h2>
