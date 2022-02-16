@@ -82,10 +82,16 @@ namespace VacationSystem.Controllers
                 if (employees != null)
                 {
                     // создание модели представления
-                    EmployeesViewModel emps = new EmployeesViewModel
-                    {
-                        Employees = employees
-                    };
+                    EmployeesViewModel emps = new EmployeesViewModel();
+
+                    // создать список сотрудников
+                    List<EmpDepViewModel> employeesInUni = new List<EmpDepViewModel>();
+                    // конвертировать формат БД в формат модели представления
+                    foreach (Employee employee in employees)
+                        employeesInUni.Add(new EmpDepViewModel(employee));
+                    // передать список сотрудников
+                    emps.Employees = employeesInUni;
+
                     return View(emps);
                 }
                 else
@@ -113,11 +119,29 @@ namespace VacationSystem.Controllers
 
                     if (employees != null)
                     {
+                        // список сотрудников в подразделении с их должностями
+                        List<EmpDepViewModel> empsInDep = new List<EmpDepViewModel>();
+
+                        // перебоать полученный список сотрудников подразделения
+                        foreach (Employee employee in employees)
+                        {
+                            // передать в модель представления идентификатор и имя сотрудника
+                            EmpDepViewModel empInDep = new EmpDepViewModel(employee);
+                            // получить должности сотрудника в подразделении
+                            List<Position> positions = DataHandler.GetPositionsOfEmployee(employee.Id, id);
+                            if (positions != null)
+                            {
+                                empInDep.Positions = positions;
+                                empsInDep.Add(empInDep);
+                            }    
+                        }
+
                         EmployeesViewModel emps = new EmployeesViewModel
                         {
-                            Employees = employees,
-                            Department = dep
+                            Department = dep,
+                            Employees = empsInDep
                         };
+
                         return View(emps);
                     }
                     else

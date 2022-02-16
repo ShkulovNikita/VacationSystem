@@ -3,6 +3,10 @@ using VacationSystem.Models;
 
 namespace VacationSystem.ViewModels
 {
+    /// <summary>
+    /// Модель представления для отображения информации
+    /// об одном подразделении
+    /// </summary>
     public class DepartmentViewModel
     {
         public DepartmentViewModel() { }

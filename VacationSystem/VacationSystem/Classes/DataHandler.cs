@@ -347,5 +347,35 @@ namespace VacationSystem.Classes
             Department department = await db.Departments.AsNoTracking().FirstOrDefaultAsync(d => d.Id == id);
             return department;
         }
+
+        /// <summary>
+        /// Получение списка должностей сотрудника в подразделении
+        /// </summary>
+        /// <param name="empId">Идентификатор сотрудника</param>
+        /// <param name="depId">Идентификатор подразделения</param>
+        /// <returns></returns>
+        static public List<Position> GetPositionsOfEmployee(string empId, string depId)
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    var positions = from emp in db.Employees
+                                    where emp.Id == empId
+                                    join empDep in db.EmployeesInDepartments
+                                    on emp.Id equals empDep.EmployeeId
+                                    where empDep.DepartmentId == depId
+                                    join position in db.Positions
+                                    on empDep.PositionId equals position.Id
+                                    select position;
+                    return positions.OrderBy(p => p.Name).ToList();
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return null;
+            }
+        }
     }
 }

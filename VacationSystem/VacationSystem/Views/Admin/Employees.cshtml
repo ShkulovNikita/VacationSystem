@@ -5,18 +5,22 @@
 <div class="container">
     <div class="row">
         <div class="col-10">
+            <!--Блок ошибок-->
             @if (ViewBag.Error != null)
             {
                 <div class="alert alert-danger">
                     @ViewBag.Error
                 </div>
             }
+            <!--Вывод информации о сотрудниках, если они были найдены-->
             @if (@Model != null)
             {
+                @* Нет подразделения - выводятся все сотрудники университета *@
                 @if (@Model.Department == null)
                 {
                     <h2>Все сотрудники</h2>
                 }
+                @* Сотрудники одного подразделения *@
                 else
                 {
                     <h2>Сотрудники подразделения:
@@ -25,13 +29,39 @@
                         </a>
                     </h2>
                 }
-                @foreach (Employee emp in @Model.Employees)
+                @* Вывести список сотрудников *@
+                @foreach (EmpDepViewModel emp in @Model.Employees)
                 {
                     <div class="card">
                         <div class="card-body">
+                            @* ФИО сотрудника в заголовке *@
                             <h5 class="card-title">
                                 @emp.LastName @emp.FirstName @emp.MiddleName
                             </h5>
+                            @* Должности данного сотрудника в подразделении *@
+                            @if (@emp.Positions.Count > 0)
+                            {
+                                @if (@emp.Positions.Count == 1)
+                                {
+                                    <p>Должность: @emp.Positions[0].Name</p>
+                                }
+                                else
+                                {
+                                    <p>Должности: </p>
+                                    @for(int i = 0; i < @emp.Positions.Count; i++)
+                                    {
+                                        @if(i == @emp.Positions.Count - 1)
+                                        {
+                                            <span>@emp.Positions[i].Name</span>
+                                        }
+                                        else
+                                        {
+                                            <span>@emp.Positions[i].Name, </span>
+                                        }
+                                    }
+                                }
+                            }
+                            @* Кнопка для просмотра информации о сотруднике *@
                             <a href="~/Admin/Employee/@emp.Id" class="btn btn-primary">Просмотр сотрудника</a>
                         </div>
                     </div>
