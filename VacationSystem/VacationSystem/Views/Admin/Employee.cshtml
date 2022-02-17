@@ -1,19 +1,58 @@
-﻿@model Employee;
+﻿@model EmployeeViewModel;
 @using VacationSystem.Models;
+@using VacationSystem.ViewModels;
 
 <div class="container">
     <div class="row">
         <div class="col-7">
             <h5>@Model.LastName @Model.FirstName @Model.MiddleName</h5>
-            <p>@Model.Birthdate</p>
-            @if (@Model.EmployeeInDepartments.Count > 0)
+            @* Проход по подразделениям сотрудника с его должностями *@
+            @if(@Model.PositionsInDepartments.Count > 0)
             {
-                @foreach(EmployeeInDepartment empDep in @Model.EmployeeInDepartments)
+                @foreach(DepPositionsViewModel dep in @Model.PositionsInDepartments)
                 {
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">@empDep.Department.Name</h5>
-                            <p>@empDep.Position.Name</p>
+                            <h5 class="card-title">@dep.Department.Name</h5>
+                            @if(dep.Positions.Count == 1)
+                            {
+                                <p>Должность: @dep.Positions[0].Name</p>
+                            }
+                            else
+                            {
+                                <p>Должности: 
+                                    @for (int i = 0; i < dep.Positions.Count; i++)
+                                    {
+                                        @if(i == dep.Positions.Count - 1)
+                                        {
+                                            <span>@dep.Positions[i].Name</span>
+                                        }
+                                        else
+                                        {
+                                            <span>@dep.Positions[i].Name, </span>
+                                        }
+                                    }
+                                </p>
+                            }
+                            <a href="~/Admin/Department/@dep.Department.Id">
+                                Просмотр подразделения
+                            </a>
+                        </div>
+                    </div>
+                }
+            }
+            @* Показать подразделения, которыми руководит данный сотрудник *@
+            @if(@Model.SubordinateDepartments.Count > 0)
+            {
+                <h5>Руководит подразделениями:</h5>
+                @foreach(Department dep in @Model.SubordinateDepartments)
+                {
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                @dep.Name
+                            </h5>
+                            <a href="~/Admin/Department/@dep.Id" class="btn btn-primary">Просмотр подразделения</a>
                         </div>
                     </div>
                 }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using VacationSystem.Models;
 using VacationSystem.ViewModels;
 using VacationSystem.Classes;
+using System.Linq;
 
 namespace VacationSystem.Controllers
 {
@@ -159,6 +160,7 @@ namespace VacationSystem.Controllers
         /// <param name="id">Идентификатор сотрудника</param>
         public IActionResult Employee(string id)
         {
+            // попробовать найти сотрудника с указанным идентификатором
             Employee emp = DataHandler.GetEmployeeById(id);
 
             if (emp == null)
@@ -166,8 +168,80 @@ namespace VacationSystem.Controllers
                 ViewBag.Error = "Не удалось получить данные о сотруднике";
                 return View();
             }
+            // сотрудник существует, и его удалось получить
             else
-                return View(emp);
+            {
+                // объект модели представления с данными о сотруднике
+                EmployeeViewModel employee = new EmployeeViewModel
+                {
+                    Id = emp.Id,
+                    FirstName = emp.FirstName,
+                    MiddleName = emp.MiddleName,
+                    LastName = emp.LastName
+                };
+
+                // должности сотрудника в его подразделениях
+                List<DepPositionsViewModel> positions = GetPositionsInDepartments(employee.Id);
+                if (positions != null)
+                    employee.PositionsInDepartments = positions;
+
+                // получить подразделения, которыми управляет данный сотрудник
+                List<Department> subordinateDepartments = DataHandler.GetSubordinateDepartments(employee.Id);
+                if (subordinateDepartments != null)
+                    employee.SubordinateDepartments = subordinateDepartments;
+
+                return View(employee);
+            }
+        }
+
+        /// <summary>
+        /// Получить должности сотрудника во всех его подразделениях
+        /// </summary>
+        /// <param name="id">Идентификатор сотрудника</param>
+        /// <returns>Список, содержащий данные о должностях сотрудника в подразделениях</returns>
+        static private List<DepPositionsViewModel> GetPositionsInDepartments(string id)
+        {
+            // получить подразделения и должности сотрудника
+            List<EmployeeInDepartment> departments = DataHandler.GetEmployeeDepartments(id);
+
+            if (departments == null)
+                return null;
+            else
+            {
+                // должности по подразделениям
+                List<DepPositionsViewModel> positions = new List<DepPositionsViewModel>();
+
+                // список уже обработанных подразделений
+                List<string> depIds = new List<string>();
+
+                // перебрать все подразделения
+                foreach(EmployeeInDepartment dep in departments)
+                {
+                    // для этого подразделения уже были найдены должности
+                    if (depIds.Contains(dep.Department.Id))
+                        // добавить должность к уже добавленному подразделению
+                        positions.Find(p => p.Department.Id == dep.Department.Id)
+                                                     .Positions.Add(dep.Position);
+                    else
+                    {
+                        // создание новой пары подразделение-должность
+                        DepPositionsViewModel depPos = new DepPositionsViewModel
+                        {
+                            Department = dep.Department
+                        };
+                        depPos.Positions.Add(dep.Position);
+
+                        // сохранение данных о подразделении в должности
+                        positions.Add(depPos);
+
+                        // указать, что для данного подразделения
+                        // уже была найдена одна должность
+                        depIds.Add(dep.Department.Id);
+                    }
+                }
+
+                return positions;
+            }
         }
     }
 }

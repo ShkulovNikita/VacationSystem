@@ -17,7 +17,7 @@ namespace VacationSystem.Classes
         /// </summary>
         /// <param name="login">Логин пользователя</param>
         /// <returns>Администратор или сотрудник с указанным логином</returns>
-        static public Object GetUserByLogin(string login)
+        static public object GetUserByLogin(string login)
         {
             Administrator admin = GetAdminByLogin(login);
             if (admin != null)
@@ -326,7 +326,7 @@ namespace VacationSystem.Classes
                                 where emp.Id == id
                                 select empDep;
 
-                    return query.ToList();
+                    return query.Include(e => e.Department).Include(e => e.Position).OrderBy(e => e.Department.Name).ToList();
                 }
             }
             catch (Exception ex)
@@ -369,6 +369,33 @@ namespace VacationSystem.Classes
                                     on empDep.PositionId equals position.Id
                                     select position;
                     return positions.OrderBy(p => p.Name).ToList();
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return null;
+            }
+        }
+
+        /// <summary>
+        /// Получение списка подразделений, которыми 
+        /// руководит заданный сотрудник
+        /// </summary>
+        /// <param name="id">Идентификатор сотрудника (руководителя)</param>
+        /// <returns>Список руководимых подразделений</returns>
+        static public List<Department> GetSubordinateDepartments(string id)
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    var query = from emp in db.Employees
+                                where emp.Id == id
+                                join dep in db.Departments
+                                on emp.Id equals dep.HeadEmployeeId
+                                select dep;
+                    return query.OrderBy(d => d.Name).ToList();
                 }
             }
             catch (Exception ex)
