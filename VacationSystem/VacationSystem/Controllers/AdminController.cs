@@ -243,5 +243,27 @@ namespace VacationSystem.Controllers
                 return positions;
             }
         }
+
+        /// <summary>
+        /// Загрузить/обновить данные из API
+        /// для заполнения таблиц БД
+        /// </summary>
+        /// <param name="obj">Целевые данные в БД, которые следует обновить/загрузить</param>
+        public IActionResult Update(string obj)
+        {
+            // посещение страницы со списком кнопок:
+            // обновлять или загружать ещё ничего не нужно
+            if (obj == null)
+            {
+                // проверить, записи в какие таблицы уже были внесены
+
+                return View();
+            }
+            // администратор нажал на одну из кнопок
+            else
+            {
+                return View();
+            }
+        }
     }
 }

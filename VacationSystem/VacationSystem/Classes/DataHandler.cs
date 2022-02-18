@@ -404,5 +404,107 @@ namespace VacationSystem.Classes
                 return null;
             }
         }
+
+        /// <summary>
+        /// Получение количества записей в БД о выходных/праздничных днях
+        /// </summary>
+        /// <returns>Количество периодов выходных дней в БД</returns>
+        static public int GetHolidaysCount()
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    return db.Holidays.Count();
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return -1;
+            }
+        }
+
+        /// <summary>
+        /// Получение количества записей в БД о сотрудниках
+        /// </summary>
+        /// <returns>Количество сотрудников в БД</returns>
+        static public int GetEmployeesCount()
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    return db.Employees.Count();
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return -1;
+            }
+        }
+
+        /// <summary>
+        /// Получение количества записей в БД о подразделениях
+        /// </summary>
+        /// <returns>Количество подразделений в БД</returns>
+        static public int GetDepartmentsCount()
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    return db.Departments.Count();
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return -1;
+            }
+        }
+
+        /// <summary>
+        /// Получение количества записей в БД о должностях
+        /// </summary>
+        /// <returns>Количество должностей в БД</returns>
+        static public int GetPositionsCount()
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    return db.Positions.Count();
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return -1;
+            }
+        }
+
+        /// <summary>
+        /// Получение количества записей в БД о должностях
+        /// сотрудников в подразделениях
+        /// </summary>
+        /// <returns>Количество записей о должностях 
+        /// сотрудников в подразделениях</returns>
+        static public int GetEmployeesInDepartmentsCount()
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    return db.EmployeesInDepartments.Count();
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return -1;
+            }
+        }
     }
 }
