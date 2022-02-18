@@ -21,6 +21,7 @@ namespace VacationSystem.Classes
             try
             {
                 ClearData();
+                FillCalendar();
                 FillPositions();
                 FillDepartments();
                 FillEmployees();
@@ -30,6 +31,29 @@ namespace VacationSystem.Classes
             catch (Exception e)
             {
                 Console.WriteLine(e.Message);
+            }
+        }
+
+
+        static public void FillCalendar()
+        {
+            // получить праздничные/нерабочие дни
+            List<Holiday> holidays = Connector.GetParsedCalendar();
+
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    // заполнить таблицу БД с периодами праздников
+                    foreach (Holiday holiday in holidays)
+                        db.Holidays.Add(holiday);
+
+                    db.SaveChanges();
+                }
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex.Message);
             }
         }
 
