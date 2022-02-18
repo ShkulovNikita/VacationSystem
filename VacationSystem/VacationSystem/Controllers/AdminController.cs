@@ -255,7 +255,11 @@ namespace VacationSystem.Controllers
             // обновлять или загружать ещё ничего не нужно
             if (obj == null)
             {
-                // проверить, записи в какие таблицы уже были внесены
+                // получение количества записей в таблицах БД
+                ViewBag.HolCount = DataHandler.GetHolidaysCount();
+                ViewBag.EmpCount = DataHandler.GetEmployeesCount();
+                ViewBag.DepCount = DataHandler.GetDepartmentsCount();
+                ViewBag.EmpInDepCount = DataHandler.GetDepartmentsCount();
 
                 return View();
             }
