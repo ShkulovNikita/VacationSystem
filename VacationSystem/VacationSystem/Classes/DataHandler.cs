@@ -135,10 +135,26 @@ namespace VacationSystem.Classes
             try
             {
                 Position pos = db.Positions.FirstOrDefault(p => p.Id == id);
-                if (pos != null)
                     return pos;
-                else
-                    return null;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return null;
+            }
+        }
+
+        /// <summary>
+        /// Получить все должности в БД
+        /// </summary>
+        /// <param name="db">Контекст БД</param>
+        /// <returns>Список должностей</returns>
+        static public List<Position> GetPositions(ApplicationContext db)
+        {
+            try
+            {
+                List<Position> positions = db.Positions.ToList();
+                return positions;
             }
             catch (Exception ex)
             {

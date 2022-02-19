@@ -26,6 +26,9 @@ namespace VacationSystem.Controllers
             /*DatabaseHandler.RecreateDB();
             DatabaseHandler.LoadData();*/
 
+            //DatabaseHandler.RecreateDB();
+            DatabaseUpdater.LoadPositions();
+
             return View();
         }
 

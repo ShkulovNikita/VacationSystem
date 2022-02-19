@@ -21,6 +21,11 @@ namespace VacationSystem.Models
         public string Name { get; set; }
 
         /// <summary>
+        /// Является ли данная запись на данный момент действительной
+        /// </summary>
+        public bool isActive { get; set; } = true;
+
+        /// <summary>
         /// Старшее подразделение
         /// </summary>
         [MaxLength(50)]

@@ -44,6 +44,11 @@ namespace VacationSystem.Models
         public DateTime StartDate { get; set; }
 
         /// <summary>
+        /// Является ли данная запись на данный момент действительной
+        /// </summary>
+        public bool isActive { get; set; } = true;
+
+        /// <summary>
         /// Подразделения, которыми руководит данный сотрудник
         /// </summary>
         public List<Department> Departments { get; set; } = new List<Department>();

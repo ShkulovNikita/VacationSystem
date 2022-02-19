@@ -14,6 +14,11 @@ namespace VacationSystem.Models
         public EmployeeInDepartment() { }
 
         /// <summary>
+        /// Является ли данная запись на данный момент действительной
+        /// </summary>
+        public bool isActive { get; set; } = true;
+
+        /// <summary>
         /// Сотрудник
         /// </summary>
         public string EmployeeId { get; set; }
