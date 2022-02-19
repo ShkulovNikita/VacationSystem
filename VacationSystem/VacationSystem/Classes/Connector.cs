@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using VacationSystem.Models;
 using System.IO;
 using VacationSystem.ParsingClasses;
-using VacationSystem.ProgramClasses;
 
 namespace VacationSystem.Classes
 {
@@ -155,111 +154,6 @@ namespace VacationSystem.Classes
             List<DepartmentInfo> list = (List<DepartmentInfo>)Parse(Parser.ParseDepartmentsList, departments);
             if (list != null)
                 return list;
-            else
-                return null;
-        }
-
-        /// <summary>
-        /// Получение информации о сотруднике
-        /// </summary>
-        /// <param name="id">Идентификатор сотрудника</param>
-        /// <returns>Объект с данными о сотруднике</returns>
-        static public Emp GetEmployee(string id)
-        {
-            EmployeeParsed emp = GetParsedEmployee(id);
-
-            if (emp != null)
-            {
-                Emp employeeResult = APIConverter.ConvertEmployee(emp);
-                if (employeeResult != null)
-                    return employeeResult;
-                else
-                    return null;
-            }
-            else
-                return null;
-        }
-
-        /// <summary>
-        /// Получение информации о подразделении
-        /// </summary>
-        /// <param name="id">Идентификатор подразделения</param>
-        /// <returns>Объект с данными о подразделении</returns>
-        static public Dep GetDepartment(string id)
-        {
-            DepartmentParsed dep = GetParsedDepartment(id);
-
-            if (dep != null)
-            {
-                Dep departmentResult = APIConverter.ConvertDepartment(dep);
-                if (departmentResult != null)
-                    return departmentResult;
-                else
-                    return null;
-            }
-            else
-                return null;
-        }
-
-        /// <summary>
-        /// Получение списка сотрудников подразделения
-        /// </summary>
-        /// <param name="id">Идентификатор подразделения</param>
-        /// <returns>Список сотрудников указанного подразделения</returns>
-        static public List<EmpInfo> GetEmployeeList(string id)
-        {
-            // получение списка с краткими данными о сотрудниках
-            List<EmployeeInfo> list = GetParsedEmployeeList(id);
-
-            if (list != null)
-            {
-                // объект списка в формате API
-                EmployeeList empList = new EmployeeList { Employees = list.ToArray() };
-
-                // объект списка в формате программы
-                EmpList empsInfo = APIConverter.ConvertEmployeeList(empList);
-
-                if (empsInfo != null)
-                {
-                    List<EmpInfo> result = new List<EmpInfo>();
-                    foreach (EmpInfo em in empsInfo.Employees)
-                        result.Add(em);
-                    return result;
-                }
-                else
-                    return null;
-            }
-            else
-                return null;
-        }
-
-        /// <summary>
-        /// Получение списка подразделений ТПУ
-        /// </summary>
-        /// <returns>Список подразделений</returns>
-        static public List<DepInfo> GetDepartmentList()
-        {
-            // получение списка с краткими данными о подразделениях
-            List<DepartmentInfo> list = GetParsedDepartmentsList();
-
-            if (list != null)
-            {
-                // создание объекта списка
-                DepartmentsList depList = new DepartmentsList { Departments = list.ToArray() };
-
-                // получение объекта списка в формате программы
-                DepsList departmentsInfo = APIConverter.ConvertDepartmentsList(depList);
-
-                if (departmentsInfo != null)
-                {
-                    List<DepInfo> result = new List<DepInfo>();
-                    foreach (DepInfo dp in departmentsInfo.Departments)
-                        result.Add(dp);
-                    return result;
-                }
-                else 
-                    return null;
-            }
             else
                 return null;
         }

@@ -6,7 +6,6 @@ using System.Diagnostics;
 using VacationSystem.Models;
 using Microsoft.AspNetCore.Http;
 using VacationSystem.Classes;
-using VacationSystem.ProgramClasses;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 
@@ -49,7 +48,7 @@ namespace VacationSystem.Controllers
             else
             {
                 // получение данных из API о пользователе
-                Emp empInfo = Connector.GetEmployee(HttpContext.Session.GetString("id"));
+                Employee empInfo = DataHandler.GetEmployeeById(id);
 
                 if (empInfo == null)
                 {
@@ -64,26 +63,13 @@ namespace VacationSystem.Controllers
                     // получить подразделения и должности пользователя
                     
                     // подразделения сотрудника
-                    List<Dep> departments = new List<Dep>();
+                    List<Department> departments = new List<Department>();
 
                     // должности сотрудника
                     List<Position> positions = new List<Position>();
 
                     // факт руководства подразделением
                     List<bool> head = new List<bool>();
-
-                    // проход по подразделениям пользователя
-                    foreach (DepEmpInfo depInfo in empInfo.Departments)
-                    {
-                        departments.Add(Connector.GetDepartment(depInfo.Id));
-
-                        positions.Add(DataHandler.GetPositionById(depInfo.Position));
-
-                        if (depInfo.HeadOfDepartment == true)
-                            head.Add(true);
-                        else
-                            head.Add(false);
-                    }
 
                     // передача полученных данных в представление
                     if ((departments.Count > 0) && (positions.Count > 0) && (head.Count > 0))
