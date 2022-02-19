@@ -94,6 +94,16 @@ namespace VacationSystem.Classes
                         db.Positions.AddRange(newPositions);
                         db.SaveChanges();
                     }
+
+                    // проверка соответствия имен в БД и API
+                    foreach(Position position in positionsForUpdate)
+                    {
+                        Position pos = DataHandler.GetPositionById(position.Id);
+                        if (pos.Name != position.Name)
+                            pos.Name = position.Name;
+                    }
+
+                    db.SaveChanges();
                 }
 
                 return true;
@@ -210,6 +220,17 @@ namespace VacationSystem.Classes
 
                         db.SaveChanges();
                     }
+
+                    // проверка соответствия имен подразделений в БД
+                    // именам, полученным из API
+                    foreach(Department dep in depsForUpdate)
+                    {
+                        Department depInDb = DataHandler.GetDepartmentById(db, dep.Id);
+                        if (depInDb.Name != dep.Name)
+                            depInDb.Name = dep.Name;
+                    }
+
+                    db.SaveChanges();
                 }
 
                 return true;
