@@ -33,14 +33,25 @@ namespace VacationSystem.Classes
             return emps_result;
         }
 
-        static public Department ConvertToDepartment(DepartmentInfo dep)
+        /// <summary>
+        /// Преобразование подразделения из объекта API в объект модели
+        /// </summary>
+        /// <param name="dep">Подразделение в формате API</param>
+        /// <param name="simpleForm">false - полная информация, true - только имя и идентификатор</param>
+        /// <returns>Подразделение в формате модели БД</returns>
+        static public Department ConvertToDepartment(DepartmentInfo dep, bool simple)
         {
-            Department dep_result = new Department
+            Department dep_result = new Department();
+
+            dep_result.Id = dep.Id;
+            dep_result.Name = dep.Name;
+
+            // требуется полная информация
+            if(!simple)
             {
-                Id = dep.Id,
-                Name = dep.Name,
-                HeadDepartmentId = dep.HeadDepId
-            };
+                dep_result.HeadDepartmentId = dep.HeadDepId;
+                dep_result.HeadEmployeeId = dep.Head;
+            }
 
             return dep_result;
         }
@@ -58,12 +69,18 @@ namespace VacationSystem.Classes
             return dep_result;
         }
 
-        static public List<Department> ConvertToDepartments(List<DepartmentInfo> deps)
+        /// <summary>
+        /// Преобразование списка подразделений из формата API в формат моделей
+        /// </summary>
+        /// <param name="deps">Список подразделений в формате API</param>
+        /// <param name="simple">false - полная информация, true - только имя и идентификатор</param>
+        /// <returns>Список подразделений в формате модели БД</returns>
+        static public List<Department> ConvertToDepartments(List<DepartmentInfo> deps, bool simple)
         {
             List<Department> deps_result = new List<Department>();
 
             foreach (DepartmentInfo dep in deps)
-                deps_result.Add(ConvertToDepartment(dep));
+                deps_result.Add(ConvertToDepartment(dep, simple));
 
             return deps_result;
         }

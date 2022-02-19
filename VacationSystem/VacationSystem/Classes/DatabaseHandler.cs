@@ -87,8 +87,8 @@ namespace VacationSystem.Classes
         /// </summary>
         static public void FillDepartments()
         {
-            // получить все отделения
-            List<Department> departments = ModelConverter.ConvertToDepartments(Connector.GetParsedDepartmentsList());
+            // получить все подразделения
+            List<Department> departments = ModelConverter.ConvertToDepartments(Connector.GetParsedDepartmentsList(), true);
 
             try
             {
@@ -389,7 +389,7 @@ namespace VacationSystem.Classes
         /// <summary>
         /// Удаление начальных данных из БД
         /// </summary>
-        static private void ClearData()
+        static public void ClearData()
         {
             try
             {

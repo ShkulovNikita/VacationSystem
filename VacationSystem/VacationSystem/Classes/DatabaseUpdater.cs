@@ -7,15 +7,20 @@ namespace VacationSystem.Classes
 {
     static public class DatabaseUpdater
     {
+        /* ---------------------------- */
+        /* Загрузка данных о должностях */
+        /* ---------------------------- */
+
         /// <summary>
         /// Загрузить из API данные о должностях
         /// </summary>
-        static public void LoadPositions()
+        /// <returns>Успешность выполнения операции</returns>
+        static public bool LoadPositions()
         {
             if (DataHandler.GetPositionsCount() == 0)
-                FillPositions();
+                return FillPositions();
             else
-                UpdatePositions();
+                return UpdatePositions();
         }
 
         /// <summary>
@@ -80,7 +85,7 @@ namespace VacationSystem.Classes
 
                     // должности из ответа API, которых ещё нет в БД
                     List<Position> newPositions = positionsForUpdate
-                        .Where(p => !positionsInDb.Any(pos => pos.Id == p.Id && pos.Name == p.Name))
+                        .Where(p => !positionsInDb.Any(pos => pos.Id == p.Id))
                         .ToList();
 
                     // добавить недостающие должности в БД
@@ -99,5 +104,123 @@ namespace VacationSystem.Classes
                 return false;
             }
         }
+
+        /* -------------------------------- */
+        /* Загрузка данных о подразделениях */
+        /* -------------------------------- */
+
+        /// <summary>
+        /// Загрузить из API данные о подразделениях
+        /// </summary>
+        /// <returns>Успешность выполнения операции</returns>
+        static public bool LoadDepartments()
+        {
+            if (DataHandler.GetDepartmentsCount() == 0)
+                return FillDepartments();
+            else
+                return UpdateDepartments();
+        }
+
+        /// <summary>
+        /// Заполнение таблицы с подразделениями
+        /// </summary>
+        /// <returns>Успешность выполнения операции</returns>
+        static private bool FillDepartments()
+        {
+            // получить подразделения из API
+            List<Department> departments = ModelConverter.ConvertToDepartments(Connector.GetParsedDepartmentsList(), true);
+
+            // успешность получения должностей
+            if (departments == null)
+                return false;
+            else
+                try
+                {
+                    using (ApplicationContext db = new ApplicationContext())
+                    {
+                        db.Departments.AddRange(departments);
+                        db.SaveChanges();
+                    }
+
+                    return true;
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                    return false;
+                }
+        }
+
+        /// <summary>
+        /// Обновить данные о подразделениях
+        /// </summary>
+        /// <returns>Успешность выполнения операции</returns>
+        static private bool UpdateDepartments()
+        {
+            // получить данные о подразделениях из API
+            List<Department> depsForUpdate = ModelConverter.ConvertToDepartments(Connector.GetParsedDepartmentsList(), true);
+
+            // проверка получения данных из API
+            if (depsForUpdate == null)
+                return false;
+            else
+                return AddNewDepartments(depsForUpdate);
+        }
+
+        /// <summary>
+        /// Добавить подразделения, которых ещё нет в БД
+        /// </summary>
+        /// <param name="depsForUpdate">Список подразделений из API</param>
+        /// <returns>Успешность выполнения операции</returns>
+        static private bool AddNewDepartments(List<Department> depsForUpdate)
+        {
+           try
+           {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    // получить все подразделения в базе данных
+                    List<Department> depsInDb = DataHandler.GetDepartments(db);
+
+                    // подразделения из ответа API, которых ещё нет в БД
+                    List<Department> newDepartments = depsForUpdate
+                        .Where(d => !depsInDb.Any(dep => d.Id == dep.Id))
+                        .ToList();
+
+                    // добавить недостающие подразделения в БД
+                    if (newDepartments.Count > 0)
+                    {
+                        db.Departments.AddRange(newDepartments);
+                        db.SaveChanges();
+                    }
+
+                    // подразделения, которые есть в БД, но нет в API
+                    // их нужно "отключить"
+                    List<Department> depsForDeleting = depsInDb
+                        .Where(d => !depsForUpdate.Any(dep => d.Id == dep.Id))
+                        .ToList();
+
+                    // есть подразделения, которые больше не актуальны
+                    if (depsForDeleting.Count > 0)
+                    {
+                       foreach(Department dep in depsForDeleting)
+                       {
+                            Department deletedDep = DataHandler.GetDepartmentById(db, dep.Id);
+                            deletedDep.isActive = false;
+                       }
+
+                        db.SaveChanges();
+                    }
+                }
+
+                return true;
+            }
+           catch(Exception ex)
+           {
+               Console.WriteLine(ex.Message);
+               return false;
+           }
+        }
+
+
     }
 }

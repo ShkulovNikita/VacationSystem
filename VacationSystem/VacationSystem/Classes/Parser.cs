@@ -146,7 +146,8 @@ namespace VacationSystem.Classes
                     {
                         Id = dep.Id,
                         Name = dep.Name,
-                        Head = dep.Head
+                        Head = dep.Head,
+                        HeadDepId = dep.HeadDepId
                     });
                 }
 

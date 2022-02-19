@@ -153,7 +153,7 @@ namespace VacationSystem.Classes
         {
             try
             {
-                List<Position> positions = db.Positions.ToList();
+                List<Position> positions = db.Positions.OrderBy(p => p.Name).ToList();
                 return positions;
             }
             catch (Exception ex)
@@ -173,12 +173,26 @@ namespace VacationSystem.Classes
             {
                 using (ApplicationContext db = new ApplicationContext())
                 {
-                    List<Department> departments = db.Departments.OrderBy(d => d.Name).ToList();
-                    if (departments != null)
-                        return departments;
-                    else
-                        return null;
+                    return db.Departments.OrderBy(d => d.Name).ToList();
                 }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return null;
+            }
+        }
+
+        /// <summary>
+        /// Получение списка подразделений ТПУ
+        /// </summary>
+        /// <param name="db">Контекст БД</param>
+        /// <returns>Список подразделений</returns>
+        static public List<Department> GetDepartments(ApplicationContext db)
+        {
+            try
+            {
+                return db.Departments.OrderBy(d => d.Name).ToList();
             }
             catch (Exception ex)
             {
