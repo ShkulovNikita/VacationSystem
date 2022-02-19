@@ -203,6 +203,18 @@ namespace VacationSystem.Classes
                         db.SaveChanges();
                     }
 
+                    // подразделения из ответа API, которые уже есть в БД, но "отключены"
+                    List<Department> notActiveDeps = depsForUpdate
+                        .Where(d => depsInDb.Any(dep => d.Id == dep.Id && dep.isActive == false))
+                        .ToList();
+                    // сделать их активными
+                    foreach (Department dep in notActiveDeps)
+                    {
+                        Department depForActive = DataHandler.GetDepartmentById(db, dep.Id);
+                        depForActive.isActive = true;
+                    }
+                    db.SaveChanges();
+
                     // подразделения, которые есть в БД, но нет в API
                     // их нужно "отключить"
                     List<Department> depsForDeleting = depsInDb
