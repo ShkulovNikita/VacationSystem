@@ -56,6 +56,11 @@ namespace VacationSystem.Classes
             return dep_result;
         }
 
+        /// <summary>
+        /// Преобразование подразделения из объекта API в объект модели
+        /// </summary>
+        /// <param name="dep">Подразделение в формате API</param>
+        /// <returns>Подразделение в формате модели БД</returns>
         static public Department ConvertToDepartment(DepartmentParsed dep)
         {
             Department dep_result = new Department

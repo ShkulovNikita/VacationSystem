@@ -1,13 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using VacationSystem.Models;
 using Microsoft.AspNetCore.Http;
 using VacationSystem.Classes;
-using Microsoft.EntityFrameworkCore;
-using System.Linq;
 
 namespace VacationSystem.Controllers
 {

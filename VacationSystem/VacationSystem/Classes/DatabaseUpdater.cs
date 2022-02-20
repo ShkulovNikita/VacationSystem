@@ -124,7 +124,6 @@ namespace VacationSystem.Classes
         /// </summary>
         /// <param name="db">Контекст БД</param>
         /// <param name="positionsForUpdate">Список должностей из API</param>
-        /// <param name="positionsInDb">Список должностей в БД</param>
         /// <returns>Успешность выполнения операции</returns>
         static private bool RenamePositions(ApplicationContext db, List<Position> positionsForUpdate)
         {
@@ -374,6 +373,19 @@ namespace VacationSystem.Classes
                 Console.WriteLine(ex.Message);
                 return false;
             }
+        }
+
+        /* ----------------------------- */
+        /* Загрузка данных о сотрудниках */
+        /* ----------------------------- */
+
+        /// <summary>
+        /// Загрузить из API данные о сотрудниках
+        /// </summary>
+        /// <returns></returns>
+        static public bool LoadEmployees()
+        {
+
         }
     }
 }
