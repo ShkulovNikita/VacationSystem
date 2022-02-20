@@ -46,7 +46,7 @@ namespace VacationSystem.Models
         /// <summary>
         /// Является ли данная запись на данный момент действительной
         /// </summary>
-        public bool isActive { get; set; } = true;
+        public bool IsActive { get; set; } = true;
 
         /// <summary>
         /// Подразделения, которыми руководит данный сотрудник

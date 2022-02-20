@@ -23,12 +23,43 @@ namespace VacationSystem.Classes
             return emp_result;
         }
 
+        /// <summary>
+        /// Конвертация списка с полной информации о сотрудникех в формате API
+        /// в формат модели БД
+        /// </summary>
+        /// <param name="emps">Список с полной информацией о сотрудниках в формате API</param>
+        /// <returns>Список объектов сотрудников в формате БД</returns>
         static public List<Employee> ConvertToEmployees(List<EmployeeParsed> emps)
         {
             List<Employee> emps_result = new List<Employee>();
 
             foreach(EmployeeParsed emp in emps)
                 emps_result.Add(ConvertToEmployee(emp));
+
+            return emps_result;
+        }
+
+        /// <summary>
+        /// Конвертация списка с краткой информацией о сотрудниках в формате API
+        /// в формат модели БД
+        /// </summary>
+        /// <param name="emps">Список с краткой информацией о сотрудниках в формате API</param>
+        /// <returns>Список объектов сотрудников в формате БД</returns>
+        static public List<Employee> ConvertToEmployees(List<EmployeeInfo> emps)
+        {
+            // список сотрудников в формате модели БД
+            List<Employee> emps_result = new List<Employee>();
+
+            // список с полной информацией о сотрудниках
+            List<EmployeeParsed> emps_full = new List<EmployeeParsed>();
+
+            // перебор всех сотрудников
+            // с целью получения полной информации о них
+            foreach(EmployeeInfo emp in emps)
+                emps_full.Add(Connector.GetParsedEmployee(emp.Id));
+
+            // преобразовать список с полной информацией в объекты модели БД
+            emps_result = ConvertToEmployees(emps_full);
 
             return emps_result;
         }

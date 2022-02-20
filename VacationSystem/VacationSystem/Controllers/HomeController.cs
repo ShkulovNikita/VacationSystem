@@ -26,11 +26,15 @@ namespace VacationSystem.Controllers
             //DatabaseHandler.RecreateDB();
             //DatabaseHandler.ClearData();
 
+            DatabaseHandler.RecreateDB();
             DatabaseUpdater.UpdateDatabase();
 
             return View();
         }
 
+        /// <summary>
+        /// Профиль авторизованного пользователя
+        /// </summary>
         public IActionResult Profile()
         {
             string userType = HttpContext.Session.GetString("user_type");
