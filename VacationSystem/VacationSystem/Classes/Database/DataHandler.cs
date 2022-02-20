@@ -5,7 +5,7 @@ using VacationSystem.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
 
-namespace VacationSystem.Classes
+namespace VacationSystem.Classes.Database
 {
     /// <summary>
     /// Операции с БД по манипуляции данными
@@ -27,7 +27,7 @@ namespace VacationSystem.Classes
                 Employee emp = GetEmployeeById(login);
                 if (emp != null)
                     return emp;
-                else 
+                else
                     return null;
             }
         }
@@ -135,7 +135,7 @@ namespace VacationSystem.Classes
             try
             {
                 Position pos = db.Positions.FirstOrDefault(p => p.Id == id);
-                    return pos;
+                return pos;
             }
             catch (Exception ex)
             {
@@ -213,7 +213,7 @@ namespace VacationSystem.Classes
                 using (ApplicationContext db = new ApplicationContext())
                 {
                     Department department = db.Departments.FirstOrDefault(p => p.Id == id);
-                        return department;
+                    return department;
                 }
             }
             catch (Exception ex)

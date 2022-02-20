@@ -4,7 +4,7 @@ using System.Linq;
 using VacationSystem.Models;
 using VacationSystem.ParsingClasses;
 
-namespace VacationSystem.Classes
+namespace VacationSystem.Classes.Database
 {
     /// <summary>
     /// Класс для выполнения различных операций с БД,
@@ -51,7 +51,7 @@ namespace VacationSystem.Classes
                     db.SaveChanges();
                 }
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }
@@ -149,7 +149,7 @@ namespace VacationSystem.Classes
             // получить подразделение из БД
             Department dp = DataHandler.GetDepartmentById(db, dep.Id);
 
-            if ((department.HeadDepartmentId != "null") && (department.HeadDepartmentId != dp.Id))
+            if (department.HeadDepartmentId != "null" && department.HeadDepartmentId != dp.Id)
             {
                 // указать старшее подразделение
                 dp.HeadDepartment = DataHandler.GetDepartmentById(db, department.HeadDepartmentId);
@@ -280,7 +280,7 @@ namespace VacationSystem.Classes
                 // должность сотрудника
                 Position position = DataHandler.GetPositionById(db, emp.Position);
 
-                if ((department != null) && (employee != null) && (position != null))
+                if (department != null && employee != null && position != null)
                 {
                     EmployeeInDepartment empDep = new EmployeeInDepartment
                     {
@@ -351,7 +351,7 @@ namespace VacationSystem.Classes
             List<EmployeeParsed> emps_result = new List<EmployeeParsed>();
 
             // получить полную информацию по идентификаторам
-            foreach(EmployeeInfo emp in employees)
+            foreach (EmployeeInfo emp in employees)
                 emps_result.Add(Connector.GetParsedEmployee(emp.Id));
 
             // конвертировать в класс модели

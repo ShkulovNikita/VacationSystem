@@ -5,6 +5,7 @@ using System.Diagnostics;
 using VacationSystem.Models;
 using Microsoft.AspNetCore.Http;
 using VacationSystem.Classes;
+using VacationSystem.Classes.Database;
 
 namespace VacationSystem.Controllers
 {
@@ -24,8 +25,8 @@ namespace VacationSystem.Controllers
 
             //DatabaseHandler.RecreateDB();
             //DatabaseHandler.ClearData();
-            DatabaseUpdater.LoadPositions();
-            DatabaseUpdater.LoadDepartments();
+
+            DatabaseUpdater.UpdateDatabase();
 
             return View();
         }

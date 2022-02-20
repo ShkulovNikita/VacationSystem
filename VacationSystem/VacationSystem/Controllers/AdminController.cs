@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using VacationSystem.Models;
 using VacationSystem.ViewModels;
-using VacationSystem.Classes;
 using System.Linq;
+using VacationSystem.Classes.Database;
 
 namespace VacationSystem.Controllers
 {

@@ -1,8 +1,8 @@
 ﻿using System;
 using Microsoft.AspNetCore.Mvc;
-using VacationSystem.Classes;
 using VacationSystem.Models;
 using Microsoft.AspNetCore.Http;
+using VacationSystem.Classes.Database;
 
 namespace VacationSystem.Controllers
 {
