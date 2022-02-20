@@ -138,7 +138,15 @@ namespace VacationSystem.Classes.Database
                         // в ответе от API, но нет в БД
                         bool addingNewEmployees = AddNewEmployees(db, empsForUpdate, empsInDb);
 
-                        return addingNewEmployees;
+                        // включить отключенных сотрудников, которые
+                        // появились в ответе от API
+                        bool activatingEmployees = ActivateEmployees(db, empsForUpdate, empsInDb);
+
+                        // отключение сотрудников, которые больше
+                        // не появляются в ответах API
+                        bool deactivatingEmployees = DeactivateEmployees(db, empsForUpdate, empsInDb);
+
+                        return addingNewEmployees && activatingEmployees && deactivatingEmployees;
                     }
                 }
             }
@@ -170,6 +178,115 @@ namespace VacationSystem.Classes.Database
                     db.Employees.AddRange(newEmps);
                     db.SaveChanges();
                 }
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return false;
+            }
+        }
+
+        /// <summary>
+        /// Переключение статуса активности тем сотрудникам, которые
+        /// ранее были отключены, но снова появились в ответе API 
+        /// </summary>
+        /// <param name="db">Контекст БД</param>
+        /// <param name="empsForUpdate">Список сотрудников из API</param>
+        /// <param name="empsInDb">Список сотрудников из БД</param>
+        /// <returns>Успешность выполнения операции</returns>
+        static private bool ActivateEmployees(ApplicationContext db, List<Employee> empsForUpdate, List<Employee> empsInDb)
+        {
+            try
+            {
+                // подразделения, которые есть в ответе API, но отключены в БД
+                List<Employee> notActiveEmps = empsForUpdate
+                    .Where(e => empsInDb.Any(emp => e.Id == emp.Id && emp.IsActive == false))
+                    .ToList();
+                // сделать активными
+                foreach (Employee emp in notActiveEmps)
+                {
+                    Employee empForActive = DataHandler.GetEmployeeById(db, emp.Id);
+                    empForActive.IsActive = true;
+                }
+                db.SaveChanges();
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return false;
+            }
+        }
+
+        /// <summary>
+        /// "Отключение" сотрудников, которые больше
+        /// не появляются в ответах от API
+        /// </summary>
+        /// <param name="db">Контекст БД</param>
+        /// <param name="empsForUpdate">Список сотрудников из API</param>
+        /// <param name="empsInDb">Список сотрудников из БД</param>
+        /// <returns>Успешность выполнения операции</returns>
+        static private bool DeactivateEmployees(ApplicationContext db, List<Employee> empsForUpdate, List<Employee> empsInDb)
+        {
+            try
+            {
+                // сотрудники, которые есть в БД, но отсутствуют в ответе API
+                List<Employee> empsForDeleting = empsInDb
+                    .Where(e => !empsForUpdate.Any(emp => e.Id == emp.Id))
+                    .ToList();
+
+                // проход по сотрудникам, которые больше не активны
+                if (empsForDeleting.Count > 0)
+                {
+                    foreach (Employee emp in empsForDeleting)
+                    {
+                        Employee deletedEmp = DataHandler.GetEmployeeById(db, emp.Id);
+                        deletedEmp.IsActive = false;
+                    }
+
+                    db.SaveChanges();
+                }
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return false;
+            }
+        }
+
+        /// <summary>
+        /// Обновить ФИО сотрудников, у которых имена не совпадают
+        /// с данными из API
+        /// </summary>
+        /// <param name="db"></param>
+        /// <param name="empsForUpdate"></param>
+        /// <returns></returns>
+        static public bool RenameEmployees(ApplicationContext db, List<Employee> empsForUpdate)
+        {
+            try
+            {
+                // проверка соответствия имен сотрудников в БД и API
+                foreach (Employee emp in empsForUpdate)
+                {
+                    Employee empInDb = DataHandler.GetEmployeeById(db, emp.Id);
+                    // если что-то не совпадает - поменять
+                    // имя
+                    if (empInDb.FirstName != emp.FirstName)
+                        empInDb.FirstName = emp.FirstName;
+                    // отчество
+                    if (empInDb.LastName != emp.LastName)
+                        empInDb.LastName = emp.LastName;
+                    // фамилия
+                    if (empInDb.MiddleName != emp.MiddleName)
+                        empInDb.MiddleName = emp.MiddleName;
+                }
+
+                db.SaveChanges();
 
                 return true;
             }
