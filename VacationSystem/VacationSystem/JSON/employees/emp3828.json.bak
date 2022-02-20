@@ -1,0 +1,14 @@
+﻿{
+	"Id": "3828",
+	"FirstName": "Тест",
+	"MiddleName": "Тестович",
+	"LastName": "Тестовский",
+	"Birthdate": "10-02-1990",
+	"Departments": [
+		{
+			"Id": "155",
+			"HeadOfDepartment": false,
+			"Position": "7"
+		}
+	]
+}

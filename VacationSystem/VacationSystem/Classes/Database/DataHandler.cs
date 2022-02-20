@@ -288,10 +288,7 @@ namespace VacationSystem.Classes.Database
                                                             .ThenBy(e => e.FirstName)
                                                             .ThenBy(e => e.MiddleName)
                                                             .ToList();
-                    if (employees != null)
-                        return employees;
-                    else
-                        return null;
+                    return employees;
                 }
             }
             catch (Exception ex)
@@ -331,6 +328,28 @@ namespace VacationSystem.Classes.Database
 
                     return emps_result;
                 }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return null;
+            }
+        }
+
+        /// <summary>
+        /// Получение списка сотрудников ТПУ
+        /// </summary>
+        /// <param name="db">Контекст БД</param>
+        /// <returns>Список сотрудников ТПУ</returns>
+        static public List<Employee> GetEmployees(ApplicationContext db)
+        {
+            try
+            {
+                List<Employee> employees = db.Employees.OrderBy(e => e.LastName)
+                                                        .ThenBy(e => e.FirstName)
+                                                        .ThenBy(e => e.MiddleName)
+                                                        .ToList();
+                return employees;
             }
             catch (Exception ex)
             {

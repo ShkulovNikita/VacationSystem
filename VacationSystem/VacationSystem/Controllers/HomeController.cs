@@ -26,7 +26,6 @@ namespace VacationSystem.Controllers
             //DatabaseHandler.RecreateDB();
             //DatabaseHandler.ClearData();
 
-            DatabaseHandler.RecreateDB();
             DatabaseUpdater.UpdateDatabase();
 
             return View();
