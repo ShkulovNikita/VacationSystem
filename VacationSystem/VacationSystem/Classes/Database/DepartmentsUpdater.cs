@@ -233,5 +233,129 @@ namespace VacationSystem.Classes.Database
                 return false;
             }
         }
+
+        /// <summary>
+        /// Загрузить данные о старших подразделениях
+        /// </summary>
+        /// <returns></returns>
+        static public bool LoadHeadDepartments()
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    // список подразделений в БД
+                    List<Department> depsInDb = DataHandler.GetDepartments(db);
+
+                    if (depsInDb == null)
+                        return false;
+
+                    // список подразделений из API
+                    List<Department> depsInApi = new List<Department>();
+                    foreach(Department dep in depsInDb)
+                        depsInApi.Add(ModelConverter.ConvertToDepartment(Connector.GetParsedDepartment(dep.Id)));
+
+                    if (depsInApi.Count == 0)
+                        return false;
+                    else
+                    {
+                        // удалить неактуальные старшие подразделения
+                        bool removingHeadDeps = RemoveHeadDepartments(db, depsInDb, depsInApi);
+
+                        // добавить старшие подразделения из API
+                        bool addingHeadDeps = AddHeadDepartments(db, depsInDb, depsInApi);
+
+                        return removingHeadDeps && addingHeadDeps;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return false;
+            }
+        }
+
+        /// <summary>
+        /// Удалить записи о старших подразделениях в БД для тех
+        /// подразделений, у которых в API больше нет старших 
+        /// подразделений
+        /// </summary>
+        /// <param name="db">Контекст БД</param>
+        /// <param name="depsInDb">Список подразделений из БД</param>
+        /// <param name="depsInApi">Список подразделений из API</param>
+        /// <returns>Успешность выполнения операции</returns>
+        static private bool RemoveHeadDepartments(ApplicationContext db, List<Department> depsInDb, List<Department> depsInApi)
+        {
+            try
+            {
+                // найти те подразделения в БД, у которых значение
+                // старшего подразделения в API равно null,
+                // а в БД - не null
+                List<Department> depsForDeleteHead = depsInDb
+                    .Where(depInDb => depsInApi.Any(depInApi => depInDb.Id == depInApi.Id 
+                                                                && (depInApi.HeadDepartmentId == "null"
+                                                                || depInApi.HeadDepartmentId == null
+                                                                || depInApi.HeadDepartmentId == "")
+                                                                && depInDb.HeadDepartmentId != null))
+                    .ToList();
+
+                // пройтись по ним и обнулить их старшие подразделения
+                foreach (Department dep in depsForDeleteHead)
+                {
+                    Department depInDb = DataHandler.GetDepartmentById(db, dep.Id);
+                    if (depInDb != null)
+                        depInDb.HeadDepartmentId = null;
+                }
+
+                db.SaveChanges();
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return false;
+            }
+        }
+
+        /// <summary>
+        /// Добавить данные о старших подразделениях
+        /// </summary>
+        /// <param name="db">Контекст БД</param>
+        /// <param name="depsInDb">Список подразделений из БД</param>
+        /// <param name="depsInApi">Список подразделений из API</param>
+        /// <returns>Успешность выполнения операции</returns>
+        static private bool AddHeadDepartments(ApplicationContext db, List<Department> depsInDb, List<Department> depsInApi)
+        {
+            try
+            {
+                // получить те старшие подразделения из БД, которые есть в ответе API
+                // но не имеют старшего подразделения в БД
+                List<Department> depsForAddingHead = depsInDb
+                    .Where(depInDb => depsInApi.Any(depInApi => depInDb.Id == depInApi.Id
+                                                                && (depInApi.HeadDepartmentId != "null"
+                                                                && depInApi.HeadDepartmentId != null
+                                                                && depInApi.HeadDepartmentId != "")
+                                                                && depInDb.HeadDepartmentId == null))
+                    .ToList();
+
+                // для всех таких подразделений - добавить старшее подразделение
+                foreach (Department dep in depsForAddingHead)
+                {
+                    Department depFromDb = DataHandler.GetDepartmentById(db, dep.Id);
+                    depFromDb.HeadDepartmentId = depsInApi.Where(d => d.Id == dep.Id).FirstOrDefault().HeadDepartmentId;
+                }
+
+                db.SaveChanges();
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return false;
+            }
+        }
     }
 }

@@ -260,7 +260,7 @@ namespace VacationSystem.Classes.Database
         }
 
         /// <summary>
-        /// Обновить ФИО сотрудников, у которых имена не совпадают
+        /// Обновить данные у сотрудников, у которых они не совпадают
         /// с данными из API
         /// </summary>
         /// <param name="db"></param>
@@ -270,7 +270,7 @@ namespace VacationSystem.Classes.Database
         {
             try
             {
-                // проверка соответствия имен сотрудников в БД и API
+                // проверка соответствия данных о сотрудниках в БД и API
                 foreach (Employee emp in empsForUpdate)
                 {
                     Employee empInDb = DataHandler.GetEmployeeById(db, emp.Id);

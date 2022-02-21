@@ -27,6 +27,7 @@ namespace VacationSystem.Controllers
             //DatabaseHandler.ClearData();
 
             DatabaseUpdater.UpdateDatabase();
+            DepartmentsUpdater.LoadHeadDepartments();
 
             return View();
         }
