@@ -265,7 +265,7 @@ namespace VacationSystem.Classes.Database
         /// </summary>
         /// <param name="db"></param>
         /// <param name="empsForUpdate"></param>
-        /// <returns></returns>
+        /// <returns>Успешность выполнения операции</returns>
         static public bool RenameEmployees(ApplicationContext db, List<Employee> empsForUpdate)
         {
             try

@@ -28,6 +28,7 @@ namespace VacationSystem.Controllers
 
             DatabaseUpdater.UpdateDatabase();
             DepartmentsUpdater.LoadHeadDepartments();
+            DepartmentsUpdater.LoadHeadsOfDepartments();
 
             return View();
         }

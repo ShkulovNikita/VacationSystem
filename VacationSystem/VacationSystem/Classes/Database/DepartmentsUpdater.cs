@@ -357,5 +357,91 @@ namespace VacationSystem.Classes.Database
                 return false;
             }
         }
+
+        /// <summary>
+        /// Загрузить данные о руководителях подразделений
+        /// </summary>
+        /// <returns>Успешность выполнения операции</returns>
+        static public bool LoadHeadsOfDepartments()
+        {
+            try
+            {
+                using(ApplicationContext db = new ApplicationContext())
+                {
+                    // список подразделений в БД
+                    List<Department> depsInDb = DataHandler.GetDepartments(db);
+
+                    if (depsInDb == null)
+                        return false;
+
+                    // список подразделений из API
+                    List<Department> depsInApi = new List<Department>();
+                    foreach (Department dep in depsInDb)
+                        depsInApi.Add(ModelConverter.ConvertToDepartment(Connector.GetParsedDepartment(dep.Id)));
+
+                    if (depsInApi.Count == 0)
+                        return false;
+                    else
+                    {
+                        return UpdateHeadsOfDepartments(db, depsInDb, depsInApi);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return false;
+            }
+        }
+
+        /// <summary>
+        /// Обновить данные в БД о главах подразделений в соответствии
+        /// с данными из API
+        /// </summary>
+        /// <param name="db">Контекст БД</param>
+        /// <param name="depsInDb">Список подразделений из БД</param>
+        /// <param name="depsInApi">Список подразделений из API</param>
+        /// <returns>Успешность выполнения операции</returns>
+        static private bool UpdateHeadsOfDepartments(ApplicationContext db, List<Department> depsInDb, List<Department> depsInApi)
+        {
+            try
+            {
+                // получить те подразделения, у которых не совпадают данные
+                // по руководителям в БД и в API
+                List<Department> depForChange = depsInDb
+                    .Where(depInDb => depsInApi.Any(depInApi => depInApi.Id == depInDb.Id
+                    && depInApi.HeadEmployeeId != depInDb.HeadEmployeeId))
+                    .ToList();
+
+                // пройтись по этим подразделениям и обновить данные
+                foreach(Department dep in depForChange)
+                {
+                    // получить подразделение из БД
+                    Department depInDb = DataHandler.GetDepartmentById(db, dep.Id);
+
+                    // новое значение руководителя подразделения
+                    string headOfDep = null;
+
+                    // соответствующее подразделение из API
+                    Department depInApi = depsInApi.Where(d => d.Id == depInDb.Id).FirstOrDefault();
+                    
+                    // получить новое значение руководителя, если оно не пустое
+                    if (depInApi != null)
+                        if ((depInApi.HeadEmployeeId != "null") && (depInApi.HeadEmployeeId != null) && (depInApi.HeadEmployeeId != ""))
+                            headOfDep = depInApi.HeadEmployeeId;
+
+                    depInDb.HeadEmployeeId = headOfDep;
+                }
+
+                db.SaveChanges();
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return false;
+            }
+        }
     }
 }
