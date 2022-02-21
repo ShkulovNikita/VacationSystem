@@ -258,16 +258,57 @@ namespace VacationSystem.Classes.Database
                     if (depsInApi.Count == 0)
                         return false;
                     else
-                    {
-                        // удалить неактуальные старшие подразделения
-                        bool removingHeadDeps = RemoveHeadDepartments(db, depsInDb, depsInApi);
-
-                        // добавить старшие подразделения из API
-                        bool addingHeadDeps = AddHeadDepartments(db, depsInDb, depsInApi);
-
-                        return removingHeadDeps && addingHeadDeps;
-                    }
+                        return UpdateHeadDepartments(db, depsInDb, depsInApi);
                 }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return false;
+            }
+        }
+
+        /// <summary>
+        /// Обновить данные о старших подразделениях
+        /// </summary>
+        /// <param name="db">Контекст БД</param>
+        /// <param name="depsInDb">Список подразделений из БД</param>
+        /// <param name="depsInApi">Список подразделений из API</param>
+        /// <returns>Успешность выполнения операции</returns>
+        static private bool UpdateHeadDepartments(ApplicationContext db, List<Department> depsInDb, List<Department> depsInApi)
+        {
+            try
+            {
+                // получить подразделения, для которых не совпадают данные
+                // по старшим подразделениям
+                List<Department> depForUpdate = depsInDb
+                    .Where(depInDb => depsInApi.Any(depInApi => depInApi.Id == depInDb.Id
+                    && depInApi.HeadDepartmentId != depInDb.HeadDepartmentId))
+                    .ToList();
+
+                // пройтись по подразделениям и обновить данные
+                foreach(Department dep in depForUpdate)
+                {
+                    // получить подразделение из БД
+                    Department depInDb = DataHandler.GetDepartmentById(db, dep.Id);
+
+                    // новое значение старшего подразделения
+                    string headDep = null;
+
+                    // соответствующее подразделение из API
+                    Department depInApi = depsInApi.Where(d => d.Id == depInDb.Id).FirstOrDefault();
+
+                    // получить новое значение старшего подразделения, если оно не пустое
+                    if (depInApi != null)
+                        if ((depInApi.HeadDepartmentId != "null") && (depInApi.HeadDepartmentId != null) && (depInApi.HeadDepartmentId != ""))
+                            headDep = depInApi.HeadDepartmentId;
+
+                    depInDb.HeadDepartmentId = headDep;
+                }
+
+                db.SaveChanges();
+
+                return true;
             }
             catch (Exception ex)
             {
@@ -382,9 +423,7 @@ namespace VacationSystem.Classes.Database
                     if (depsInApi.Count == 0)
                         return false;
                     else
-                    {
                         return UpdateHeadsOfDepartments(db, depsInDb, depsInApi);
-                    }
                 }
             }
             catch (Exception ex)
