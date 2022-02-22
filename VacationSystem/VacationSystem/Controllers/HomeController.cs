@@ -20,16 +20,8 @@ namespace VacationSystem.Controllers
 
         public IActionResult Index()
         {
-            /*DatabaseHandler.RecreateDB();
-            DatabaseHandler.LoadData();*/
-
-            //DatabaseHandler.RecreateDB();
             //DatabaseHandler.ClearData();
-
-            DatabaseHandler.ClearData();
             DatabaseUpdater.UpdateDatabase();
-            DepartmentsUpdater.LoadHeadDepartments();
-            DepartmentsUpdater.LoadHeadsOfDepartments();
 
             return View();
         }

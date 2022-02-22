@@ -11,8 +11,13 @@
             bool updatingPositions = PositionsUpdater.LoadPositions();
             bool updatingDepartments = DepartmentsUpdater.LoadDepartments();
             bool updatingEmployees = EmployeesUpdater.LoadEmployees();
+            bool updatingHeadDepartments = DepartmentsUpdater.LoadHeadDepartments();
+            bool updatingHeadsOfDepartments = DepartmentsUpdater.LoadHeadsOfDepartments();
+            bool updatingEmpsInDepartments = EmployeesInDepartmentsUpdater.LoadEmployeesInDepartments();
 
-            return updatingPositions && updatingDepartments;
+            return updatingPositions && updatingDepartments && 
+                updatingEmployees && updatingHeadDepartments 
+                && updatingHeadsOfDepartments && updatingEmpsInDepartments;
         }
     }
 }

@@ -141,5 +141,53 @@ namespace VacationSystem.Classes
 
             return positions_result;
         }
+
+        static public List<EmployeeInDepartment> ConvertToPositionsInDepartments(EmployeeParsed emp)
+        {
+            List<EmployeeInDepartment> result = new List<EmployeeInDepartment>();
+
+            // пройтись по всем должностям сотрудника в подразделениях
+            foreach(DepartmentEmployeeInfo depInfo in emp.Departments)
+            {
+                result.Add(new EmployeeInDepartment
+                {
+                    EmployeeId = emp.Id,
+                    DepartmentId = depInfo.Id,
+                    PositionId = depInfo.Position
+                });
+            }
+
+            if (result.Count > 0)
+                return result;
+            else
+                return null;
+        }
+
+        /// <summary>
+        /// Получить должности сотрудников указанного подразделения
+        /// </summary>
+        /// <param name="depId">Идентификатор подразделения</param>
+        /// <param name="emps">Список с информацией о сотрудниках в подразделении</param>
+        /// <returns>Список должностей сотрудников в данном подразделении</returns>
+        static public List<EmployeeInDepartment> ConvertToPositionsInDepartments(string depId, List<EmployeeInfo> emps)
+        {
+            List<EmployeeInDepartment> result = new List<EmployeeInDepartment>();
+
+            // проход по информации о каждом сотруднике
+            foreach (EmployeeInfo emp in emps)
+            {
+                result.Add(new EmployeeInDepartment
+                {
+                    EmployeeId = emp.Id,
+                    DepartmentId = depId,
+                    PositionId = emp.Position
+                });
+            }
+
+            if (result.Count > 0)
+                return result;
+            else
+                return null;
+        }
     }
 }
