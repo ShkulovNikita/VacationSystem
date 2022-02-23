@@ -21,7 +21,6 @@ namespace VacationSystem.Controllers
         public IActionResult Index()
         {
             //DatabaseHandler.ClearData();
-            DatabaseUpdater.UpdateDatabase();
 
             return View();
         }

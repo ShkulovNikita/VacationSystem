@@ -662,5 +662,48 @@ namespace VacationSystem.Classes.Database
                 return -1;
             }
         }
+
+        /// <summary>
+        /// Получить количество строк в таблице подразделений,
+        /// имеющих указанное старшее подразделение
+        /// </summary>
+        /// <returns>Количество подразделений с непустым 
+        /// старшим подразделением</returns>
+        static public int GetHeadDepartmentsCount()
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    return db.Departments.Where(d => d.HeadDepartmentId != null).Count();
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return -1;
+            }
+        }
+
+        /// <summary>
+        /// Получить количество указанных руководителей подразделений
+        /// </summary>
+        /// <returns>Количество подразделений с непустым
+        /// значением руководителя</returns>
+        static public int GetHeadsOfDepartmentsCount()
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    return db.Departments.Where(d => d.HeadEmployeeId != null).Count();
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return - 1;
+            }
+        }
     }
 }
