@@ -13,7 +13,7 @@
 		},
 		{
 			"Id": "239",
-			"Position": "7",
+			"Position": "1",
 			"Head": false
 		},
 		{
@@ -33,11 +33,6 @@
 		},
 		{
 			"Id": "3300",
-			"Position": "7",
-			"Head": false
-		},
-		{
-			"Id": "3828",
 			"Position": "7",
 			"Head": false
 		}

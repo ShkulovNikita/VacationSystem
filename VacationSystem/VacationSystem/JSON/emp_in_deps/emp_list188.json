@@ -8,6 +8,11 @@
 		},
 		{
 			"Id": "1049",
+			"Position": "1",
+			"Head": false
+		},
+		{
+			"Id": "1049",
 			"Position": "41",
 			"Head": false
 		},
@@ -24,6 +29,11 @@
 		{
 			"Id": "1951",
 			"Position": "3",
+			"Head": false
+		},
+		{
+			"Id": "1951",
+			"Position": "24",
 			"Head": false
 		},
 		{

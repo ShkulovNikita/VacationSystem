@@ -73,6 +73,9 @@ namespace VacationSystem.Classes.Database
             foreach(string depId in depIds)
                 result = AddEmployeesFromDepartment(result, depId);
 
+            // удалить дубликаты
+            result = DataHandler.DeleteEmployeeDuplicates(result);
+
             return result;
         }
 

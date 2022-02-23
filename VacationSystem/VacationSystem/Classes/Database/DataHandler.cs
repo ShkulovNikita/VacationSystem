@@ -324,7 +324,7 @@ namespace VacationSystem.Classes.Database
                                          .ThenBy(e => e.MiddleName);
 
                     // удалить дубликаты и преобразовать в список
-                    List<Employee> emps_result = new HashSet<Employee>(employees).ToList();
+                    List<Employee> emps_result = DeleteEmployeeDuplicates(employees.ToList());
 
                     return emps_result;
                 }
@@ -334,6 +334,41 @@ namespace VacationSystem.Classes.Database
                 Console.WriteLine(ex.Message);
                 return null;
             }
+        }
+
+        /// <summary>
+        /// Удалить повторяющихся сотрудников из списка
+        /// </summary>
+        /// <param name="emps">Оригинальный список сотрудников</param>
+        /// <returns>Список сотрудников без дубликатов</returns>
+        static public List<Employee> DeleteEmployeeDuplicates(List<Employee> emps)
+        {
+            // отсортировать список по идентификаторам
+            emps = emps.OrderBy(e => e.Id).ToList();
+
+            // список без дубликатов
+            List<Employee> result = new List<Employee>();
+
+            // проход по всем сотрудникам из оригинального списка
+            for (int i = 0; i < emps.Count; i++)
+            {
+                // первый сотрудник в любом случае будет добавлен в список без дубликатов
+                if (i == 0)
+                {
+                    result.Add(emps[i]);
+                    continue;
+                }
+                
+                // сравнение текущего сотрудника с последним добавленным
+                // в список без дубликатов
+                if (emps[i].Id != result[result.Count - 1].Id)
+                    result.Add(emps[i]);
+            }
+
+            if (result.Count > 0)
+                return result;
+            else
+                return null;
         }
 
         /// <summary>
