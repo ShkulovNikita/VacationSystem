@@ -20,7 +20,7 @@ namespace VacationSystem.Controllers
 
         public IActionResult Index()
         {
-            DatabaseHandler.ClearData();
+            //DatabaseHandler.ClearData();
             DatabaseUpdater.UpdateDatabase();
 
             return View();

@@ -203,7 +203,7 @@ namespace VacationSystem.Classes.Database
         {
             try
             {
-                // подразделения, которые есть в ответе API, но отключены в БД
+                // сотрудники, которые есть в ответе API, но отключены в БД
                 List<Employee> notActiveEmps = empsForUpdate
                     .Where(e => empsInDb.Any(emp => e.Id == emp.Id && emp.IsActive == false))
                     .ToList();
@@ -211,7 +211,8 @@ namespace VacationSystem.Classes.Database
                 foreach (Employee emp in notActiveEmps)
                 {
                     Employee empForActive = DataHandler.GetEmployeeById(db, emp.Id);
-                    empForActive.IsActive = true;
+                    if (empForActive != null)
+                        empForActive.IsActive = true;
                 }
                 db.SaveChanges();
 
@@ -242,16 +243,13 @@ namespace VacationSystem.Classes.Database
                     .ToList();
 
                 // проход по сотрудникам, которые больше не активны
-                if (empsForDeleting.Count > 0)
+                foreach (Employee emp in empsForDeleting)
                 {
-                    foreach (Employee emp in empsForDeleting)
-                    {
-                        Employee deletedEmp = DataHandler.GetEmployeeById(db, emp.Id);
-                        deletedEmp.IsActive = false;
-                    }
-
-                    db.SaveChanges();
+                    Employee deletedEmp = DataHandler.GetEmployeeById(db, emp.Id);
+                    deletedEmp.IsActive = false;
                 }
+
+                db.SaveChanges();
 
                 return true;
             }

@@ -410,7 +410,11 @@ namespace VacationSystem.Classes.Database
                                 where emp.Id == id
                                 select empDep;
 
-                    return query.Include(e => e.Department).Include(e => e.Position).OrderBy(e => e.Department.Name).ToList();
+                    return RemoveEmpInDepDuplicates(query
+                        .Include(e => e.Department)
+                        .Include(e => e.Position)
+                        .OrderBy(e => e.Department.Name)
+                        .ToList());
                 }
             }
             catch (Exception ex)
@@ -418,6 +422,74 @@ namespace VacationSystem.Classes.Database
                 Console.WriteLine(ex.Message);
                 return null;
             }
+        }
+
+        /// <summary>
+        /// Получить все записи о должностях сотрудников в подразделениях
+        /// </summary>
+        /// <param name="db">Контекст БД</param>
+        /// <returns>Список должностей сотрудников в подразделениях</returns>
+        static public List<EmployeeInDepartment> GetEmployeesInDepartments(ApplicationContext db)
+        {
+            try
+            {
+                return db.EmployeesInDepartments.ToList();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return null;
+            }
+        }
+
+        /// <summary>
+        /// Получить запись о должности сотрудника в подразделении
+        /// </summary>
+        /// <param name="empId">Идентификатор сотрудника</param>
+        /// <param name="depId">Идентификатор подразделения</param>
+        /// <param name="posId">Идентификатор должности</param>
+        /// <returns>Должность сотрудника в подразделении</returns>
+        static public EmployeeInDepartment GetEmpInDep(ApplicationContext db, string empId, string depId, string posId)
+        {
+            try
+            {
+                return db.EmployeesInDepartments
+                        .Where(e => e.EmployeeId == empId
+                        && e.DepartmentId == depId
+                        && e.PositionId == posId)
+                        .FirstOrDefault();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return null;
+            }
+        }
+
+        /// <summary>
+        /// Удалить дубликаты из списка должностей сотрудников в подразделениях
+        /// </summary>
+        /// <param name="empInDeps">Оригинальный список должностей сотрудников в подразделениях</param>
+        /// <returns>Список должностей сотрудников в подразделениях без дубликатов</returns>
+        static public List<EmployeeInDepartment> RemoveEmpInDepDuplicates(List<EmployeeInDepartment> empInDeps)
+        {
+            // список без дубликатов
+            List<EmployeeInDepartment> result = new List<EmployeeInDepartment>();
+
+            foreach(EmployeeInDepartment empInDep in empInDeps)
+            {
+                // поиск, есть ли уже такой элемент в списке без дубликатов
+                if (result.Find(r => r.EmployeeId == empInDep.EmployeeId
+                                && r.PositionId == empInDep.PositionId
+                                && r.DepartmentId == empInDep.DepartmentId) == null)
+                    // если нет - добавить новый элемент
+                    result.Add(empInDep);
+            }
+
+            if (result.Count > 0)
+                return result;
+            else
+                return null;
         }
 
         /// <summary>

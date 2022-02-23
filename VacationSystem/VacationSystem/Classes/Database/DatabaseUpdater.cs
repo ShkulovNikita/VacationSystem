@@ -8,13 +8,6 @@
     {
         static public bool UpdateDatabase()
         {
-            PositionsUpdater.LoadPositions();
-            DepartmentsUpdater.LoadDepartments();
-            EmployeesUpdater.LoadEmployees();
-
-            return true;
-
-            /*
             bool updatingPositions = PositionsUpdater.LoadPositions();
             bool updatingDepartments = DepartmentsUpdater.LoadDepartments();
             bool updatingEmployees = EmployeesUpdater.LoadEmployees();
@@ -25,7 +18,6 @@
             return updatingPositions && updatingDepartments && 
                 updatingEmployees && updatingHeadDepartments 
                 && updatingHeadsOfDepartments && updatingEmpsInDepartments;
-            */
         }
     }
 }
