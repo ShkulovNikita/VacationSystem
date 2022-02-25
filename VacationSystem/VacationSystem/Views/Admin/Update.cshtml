@@ -4,6 +4,8 @@
     int empCount = ViewBag.EmpCount;
     int depCount = ViewBag.DepCount;
     int empInDepCount = ViewBag.EmpInDepCount;
+    int headDepsCount = ViewBag.HeadDepsCount;
+    int headOfDepsCount = ViewBag.HeadOfDepsCount;
 }
 
 <div class="container">
@@ -26,6 +28,10 @@
                 @Html.ShowUpdateButton(empCount, "employees", false)
                 <h4>Должности сотрудников в подразделениях</h4>
                 @Html.ShowUpdateButton(empInDepCount, "emp-in-deps", false)
+                <h4>Старшие подразделения</h4>
+                @Html.ShowUpdateButton(headDepsCount, "head-deps", false)
+                <h4>Руководители подразделений</h4>
+                @Html.ShowUpdateButton(headOfDepsCount, "head-of-deps", false)
             }
         </div>
     </div>

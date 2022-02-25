@@ -260,6 +260,8 @@ namespace VacationSystem.Controllers
                 ViewBag.EmpCount = DataHandler.GetEmployeesCount();
                 ViewBag.DepCount = DataHandler.GetDepartmentsCount();
                 ViewBag.EmpInDepCount = DataHandler.GetDepartmentsCount();
+                ViewBag.HeadDepsCount = DataHandler.GetHeadDepartmentsCount();
+                ViewBag.HeadOfDepsCount = DataHandler.GetHeadsOfDepartmentsCount();
 
                 return View();
             }
