@@ -3,14 +3,56 @@ using System.Collections.Generic;
 using VacationSystem.Models;
 using VacationSystem.ViewModels;
 using System.Linq;
+using Microsoft.AspNetCore.Http;
 using VacationSystem.Classes;
 
 namespace VacationSystem.Controllers
 {
     public class AdminController : Controller
     {
+        /// <summary>
+        /// Проверка, разрешен ли пользователю 
+        /// доступ к панели администратора
+        /// </summary>
+        /// <returns>false - запрещен, true - разрешен</returns>
+        private bool CheckAdminPermission()
+        {
+            // проверка авторизации пользователя
+            if (HttpContext.Session.GetString("user_type") == null)
+            {
+                TempData["Error"] = "Авторизуйтесь в системе";
+                return false;
+            }
+            // проверка принадлежности к группе администратора
+            if (HttpContext.Session.GetString("user_type") != "administrator")
+            {
+                TempData["Error"] = "У вас нет прав к этой странице";
+                return false;
+            }
+            // проверка правильности идентификатора администратора
+            object user = LoginHandler.GetUser(HttpContext.Session.GetString("id"));
+            if (user == null)
+            {
+                HttpContext.Session.Clear();
+                TempData["Error"] = "Неверные данные учетной записи";
+                return false;
+            }
+            if (user.GetType() == typeof(Administrator))
+            {
+                HttpContext.Session.Clear();
+                TempData["Error"] = "У вас нет прав к этой странице";
+                return false;
+            }
+
+            return true;
+        }
+
         public IActionResult Index()
         {
+            // проверка авторизации
+            if (!CheckAdminPermission())
+                return RedirectToAction("Index", "Login");
+
             return View();
         }
 
@@ -19,6 +61,10 @@ namespace VacationSystem.Controllers
         /// </summary>
         public IActionResult Departments()
         {
+            // проверка авторизации
+            if (!CheckAdminPermission())
+                return RedirectToAction("Index", "Login");
+
             List<Department> departments = Connector.GetDepartments()
                 .OrderBy(d => d.Name)
                 .ToList();
@@ -38,6 +84,10 @@ namespace VacationSystem.Controllers
         /// <param name="id">Идентификатор подразделения</param>
         public IActionResult Department(string id)
         {
+            // проверка авторизации
+            if (!CheckAdminPermission())
+                return RedirectToAction("Index", "Login");
+
             // получение информации о подразделении из БД
             Department dep = Connector.GetDepartment(id);
 
@@ -82,6 +132,10 @@ namespace VacationSystem.Controllers
         /// <param name="id">Идентификатор подразделения (не обязателен)</param>
         public IActionResult Employees(string id)
         {
+            // проверка авторизации
+            if (!CheckAdminPermission())
+                return RedirectToAction("Index", "Login");
+
             // не задан идентификатор - отображаются все сотрудники ТПУ
             if (id == null)
             {
@@ -223,6 +277,10 @@ namespace VacationSystem.Controllers
         /// <param name="id">Идентификатор сотрудника</param>
         public IActionResult Employee(string id)
         {
+            // проверка авторизации
+            if (!CheckAdminPermission())
+                return RedirectToAction("Index", "Login");
+
             // попробовать найти сотрудника с указанным идентификатором
             Employee emp = Connector.GetEmployee(id);
 
