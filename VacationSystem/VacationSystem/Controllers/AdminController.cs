@@ -47,6 +47,9 @@ namespace VacationSystem.Controllers
             return true;
         }
 
+        /// <summary>
+        /// Главная страница панели администратора
+        /// </summary>
         public IActionResult Index()
         {
             // проверка авторизации
@@ -96,34 +99,32 @@ namespace VacationSystem.Controllers
                 ViewBag.Error = "Не удалось получить данные о подразделении";
                 return View();
             }
-            else
+
+            // получение старшего подразделения
+            Department headDep = Connector.GetHeadDepartment(dep.Id);
+
+            // получение руководителя подразделения
+            Employee headEmp = Connector.GetHeadOfDepartment(dep.Id);
+
+            // получение младших подразделений
+            List<Department> lowerDeps = Connector.GetLowerDepartments(dep.Id)
+                .OrderBy(d => d.Name)
+                .ToList();
+
+            // передать данные о подразделении во ViewModel
+            DepartmentViewModel department = new DepartmentViewModel()
             {
-                // получение старшего подразделения
-                Department headDep = Connector.GetHeadDepartment(dep.HeadDepartment);
+                Id = dep.Id,
+                Name = dep.Name,
+                ChildDepartments = lowerDeps
+            };
 
-                // получение руководителя подразделения
-                Employee headEmp = Connector.GetHeadOfDepartment(dep.Head);
+            if (headDep != null)
+                department.HeadDepartment = headDep;
+            if (headEmp != null)
+                department.Head = headEmp;
 
-                // получение младших подразделений
-                List<Department> lowerDeps = Connector.GetLowerDepartments(dep.Id)
-                    .OrderBy(d => d.Name)
-                    .ToList();
-
-                // передать данные о подразделении во ViewModel
-                DepartmentViewModel department = new DepartmentViewModel()
-                {
-                    Id = dep.Id,
-                    Name = dep.Name,
-                    ChildDepartments = lowerDeps
-                };
-
-                if (headDep != null)
-                    department.HeadDepartment = headDep;
-                if (headEmp != null)
-                    department.Head = headEmp;
-
-                return View(department);
-            }
+            return View(department);
         }
 
         /// <summary>

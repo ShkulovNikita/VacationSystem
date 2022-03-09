@@ -1,0 +1,24 @@
+﻿@model List<Department>
+@using VacationSystem.Models
+
+@{
+    ViewData["Title"] = "Список подразделений";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-10">
+            @foreach (Department dep in Model)
+            {
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            @dep.Name
+                        </h5>
+                        <a href="~/Head/Department/@dep.Id" class="btn btn-primary">Просмотр подразделения</a>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>

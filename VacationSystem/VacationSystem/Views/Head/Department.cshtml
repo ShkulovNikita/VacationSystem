@@ -3,7 +3,13 @@
 @using VacationSystem.HtmlHelpers
 
 @{
-    string error = ViewBag.Error;
+    ViewData["Title"] = "Информация о подразделении";
+
+    string error = null;
+    if (ViewBag.Error != null)
+        error = ViewBag.Error;
+    else if (TempData["Error"] != null)
+        error = TempData["Error"].ToString();
 }
 
 <div class="container">
@@ -16,22 +22,18 @@
                 @if (@Model.Head != null)
                 {
                     <p>Руководитель:
-                        <a href="~/Admin/Employee/@Model.Head.Id">
-                            @Model.Head.LastName @Model.Head.FirstName @Model.Head.MiddleName
-                        </a>
+                        @Model.Head.LastName @Model.Head.FirstName @Model.Head.MiddleName
                     </p>
                 }
                 @if (@Model.HeadDepartment != null)
                 {
                     <p>Старшее подразделение: 
-                        <a href="~/Admin/Department/@Model.HeadDepartment.Id">
-                            @Model.HeadDepartment.Name
-                        </a>
+                        @Model.HeadDepartment.Name
                     </p>
                 }
-                <a href="~/Admin/Employees/@Model.Id" class="btn btn-primary">
+                @* <a href="~/Head/Employees/@Model.Id" class="btn btn-primary">
                     Список сотрудников
-                </a>
+                </a> *@
                 @if (@Model.ChildDepartments.Count > 0)
                 {
                     <p>Младшие подразделения:</p>
@@ -42,9 +44,6 @@
                                 <h5 class="card-title">
                                     @dep.Name
                                 </h5>
-                                <a href="~/Admin/Department/@dep.Id" class="btn btn-primary">
-                                    Просмотр подразделения
-                                </a>
                             </div>
                         </div>
                     }
@@ -53,3 +52,6 @@
         </div>
     </div>
 </div>
+
+
+
