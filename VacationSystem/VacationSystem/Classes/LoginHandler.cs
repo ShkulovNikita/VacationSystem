@@ -27,7 +27,11 @@ namespace VacationSystem.Classes
             {
                 // попробовать получить пользователя с таким логином
                 Employee emp = Connector.GetEmployee(login);
-                return null;
+
+                if (emp != null)
+                    return emp;
+                else
+                    return null;
             }
         }
     }

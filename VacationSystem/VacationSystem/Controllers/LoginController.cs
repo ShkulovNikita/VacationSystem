@@ -83,7 +83,7 @@ namespace VacationSystem.Controllers
         public IActionResult Logout()
         {
             HttpContext.Session.Clear();
-            return View("Index");
+            return RedirectToAction("Index", "Home");
         }
     }
 }
