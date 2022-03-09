@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1880",
-	"FirstName": "Михаил",
-	"MiddleName": "Юрьевич",
-	"LastName": "Никирагин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "85",
-			"HeadOfDepartment": false,
-			"Position": "47"
-		}
-	]
+  "Id": "1880",
+  "FirstName": "Михаил",
+  "MiddleName": "Юрьевич",
+  "LastName": "Никирагин",
+  "Time": 0.5,
+  "StartDate": "2005-12-10T00:00:00",
+  "BirthDate": "1952-02-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "47",
+      "Department": "85"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "701",
-	"FirstName": "Ирина",
-	"MiddleName": "Павловна",
-	"LastName": "Степанова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "26",
-			"HeadOfDepartment": false,
-			"Position": "2"
-		}
-	]
+  "Id": "701",
+  "FirstName": "Ирина",
+  "MiddleName": "Павловна",
+  "LastName": "Степанова",
+  "Time": 0.5,
+  "StartDate": "2015-08-07T00:00:00",
+  "BirthDate": "1981-06-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "2",
+      "Department": "26"
+    }
+  ]
 }

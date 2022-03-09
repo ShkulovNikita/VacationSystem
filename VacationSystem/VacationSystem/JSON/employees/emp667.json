@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "667",
-	"FirstName": "Ирина",
-	"MiddleName": "Евгеньевна",
-	"LastName": "Никулина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "14",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "667",
+  "FirstName": "Ирина",
+  "MiddleName": "Евгеньевна",
+  "LastName": "Никулина",
+  "Time": 0.5,
+  "StartDate": "2014-05-23T00:00:00",
+  "BirthDate": "1979-07-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "14"
+    }
+  ]
 }

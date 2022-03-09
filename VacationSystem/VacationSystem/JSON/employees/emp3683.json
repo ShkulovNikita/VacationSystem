@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3683",
-	"FirstName": "Юлия",
-	"MiddleName": "Олеговна",
-	"LastName": "Абалмасова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "139",
-			"HeadOfDepartment": false,
-			"Position": "9"
-		}
-	]
+  "Id": "3683",
+  "FirstName": "Юлия",
+  "MiddleName": "Олеговна",
+  "LastName": "Абалмасова",
+  "Time": 0.5,
+  "StartDate": "2004-07-05T00:00:00",
+  "BirthDate": "1981-10-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "9",
+      "Department": "139"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2812",
-	"FirstName": "Олег",
-	"MiddleName": "Владимирович",
-	"LastName": "Глазков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "59",
-			"HeadOfDepartment": false,
-			"Position": "37"
-		}
-	]
+  "Id": "2812",
+  "FirstName": "Олег",
+  "MiddleName": "Владимирович",
+  "LastName": "Глазков",
+  "Time": 1,
+  "StartDate": "2021-07-10T00:00:00",
+  "BirthDate": "1978-12-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "37",
+      "Department": "59"
+    }
+  ]
 }

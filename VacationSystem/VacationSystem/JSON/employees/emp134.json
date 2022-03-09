@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "134",
-	"FirstName": "Степан",
-	"MiddleName": "Витальевич",
-	"LastName": "Соколов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "1",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "134",
+  "FirstName": "Степан",
+  "MiddleName": "Витальевич",
+  "LastName": "Соколов",
+  "Time": 0.5,
+  "StartDate": "1986-12-24T00:00:00",
+  "BirthDate": "1962-03-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "1"
+    }
+  ]
 }

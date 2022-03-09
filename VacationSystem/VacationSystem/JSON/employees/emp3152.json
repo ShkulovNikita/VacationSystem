@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3152",
-	"FirstName": "Евгений",
-	"MiddleName": "Лхамацыренович",
-	"LastName": "Чойнзонов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "17",
-			"HeadOfDepartment": false,
-			"Position": "38"
-		}
-	]
+  "Id": "3152",
+  "FirstName": "Евгений",
+  "MiddleName": "Лхамацыренович",
+  "LastName": "Чойнзонов",
+  "Time": 0.5,
+  "StartDate": "1991-06-21T00:00:00",
+  "BirthDate": "1962-01-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "38",
+      "Department": "17"
+    }
+  ]
 }

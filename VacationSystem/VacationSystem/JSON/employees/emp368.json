@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "368",
-	"FirstName": "Юрий",
-	"MiddleName": "Юрьевич",
-	"LastName": "Крючков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "53",
-			"HeadOfDepartment": false,
-			"Position": "91"
-		}
-	]
+  "Id": "368",
+  "FirstName": "Юрий",
+  "MiddleName": "Юрьевич",
+  "LastName": "Крючков",
+  "Time": 1,
+  "StartDate": "2000-04-06T00:00:00",
+  "BirthDate": "1957-12-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "91",
+      "Department": "53"
+    }
+  ]
 }

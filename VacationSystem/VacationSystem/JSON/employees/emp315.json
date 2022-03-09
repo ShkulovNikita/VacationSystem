@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "315",
-	"FirstName": "Николай",
-	"MiddleName": "Борисович",
-	"LastName": "Егоров",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "17",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "315",
+  "FirstName": "Николай",
+  "MiddleName": "Борисович",
+  "LastName": "Егоров",
+  "Time": 1,
+  "StartDate": "2012-12-13T00:00:00",
+  "BirthDate": "1990-03-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "17"
+    }
+  ]
 }

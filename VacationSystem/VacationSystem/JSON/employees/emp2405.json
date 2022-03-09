@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2405",
-	"FirstName": "Владимир",
-	"MiddleName": "Николаевич",
-	"LastName": "Мартышев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "39",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "2405",
+  "FirstName": "Владимир",
+  "MiddleName": "Николаевич",
+  "LastName": "Мартышев",
+  "Time": 0.5,
+  "StartDate": "1996-05-12T00:00:00",
+  "BirthDate": "1965-09-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "39"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3296",
-	"FirstName": "Григорий",
-	"MiddleName": "Гарифуллович",
-	"LastName": "Коновчук",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "47",
-			"HeadOfDepartment": false,
-			"Position": "30"
-		}
-	]
+  "Id": "3296",
+  "FirstName": "Григорий",
+  "MiddleName": "Гарифуллович",
+  "LastName": "Коновчук",
+  "Time": 0.5,
+  "StartDate": "2018-09-03T00:00:00",
+  "BirthDate": "1974-11-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "30",
+      "Department": "47"
+    }
+  ]
 }

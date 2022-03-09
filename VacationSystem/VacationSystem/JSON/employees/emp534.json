@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "534",
-	"FirstName": "Тамара",
-	"MiddleName": "Климентьевна",
-	"LastName": "Пушникова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "16",
-			"HeadOfDepartment": false,
-			"Position": "42"
-		}
-	]
+  "Id": "534",
+  "FirstName": "Тамара",
+  "MiddleName": "Климентьевна",
+  "LastName": "Пушникова",
+  "Time": 0.5,
+  "StartDate": "2010-02-13T00:00:00",
+  "BirthDate": "1971-04-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "42",
+      "Department": "16"
+    }
+  ]
 }

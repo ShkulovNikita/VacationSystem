@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3005",
-	"FirstName": "Зинаида",
-	"MiddleName": "Сергеевна",
-	"LastName": "Завьялова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "3",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "3005",
+  "FirstName": "Зинаида",
+  "MiddleName": "Сергеевна",
+  "LastName": "Завьялова",
+  "Time": 1,
+  "StartDate": "2020-05-07T00:00:00",
+  "BirthDate": "1971-10-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "3"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "483",
-	"FirstName": "Григорий",
-	"MiddleName": "Григорьевич",
-	"LastName": "Токаренко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "46",
-			"HeadOfDepartment": false,
-			"Position": "11"
-		}
-	]
+  "Id": "483",
+  "FirstName": "Григорий",
+  "MiddleName": "Григорьевич",
+  "LastName": "Токаренко",
+  "Time": 0.5,
+  "StartDate": "1984-10-14T00:00:00",
+  "BirthDate": "1956-12-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "11",
+      "Department": "46"
+    }
+  ]
 }

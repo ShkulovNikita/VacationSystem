@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3696",
-	"FirstName": "Валентин",
-	"MiddleName": "Валерьевич",
-	"LastName": "Капустин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "102",
-			"HeadOfDepartment": false,
-			"Position": "26"
-		}
-	]
+  "Id": "3696",
+  "FirstName": "Валентин",
+  "MiddleName": "Валерьевич",
+  "LastName": "Капустин",
+  "Time": 1,
+  "StartDate": "1994-10-04T00:00:00",
+  "BirthDate": "1973-10-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "26",
+      "Department": "102"
+    }
+  ]
 }

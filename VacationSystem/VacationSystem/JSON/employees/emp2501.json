@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2501",
-	"FirstName": "Альбина",
-	"MiddleName": "Георгиевна",
-	"LastName": "Хасанова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "34",
-			"HeadOfDepartment": false,
-			"Position": "204"
-		}
-	]
+  "Id": "2501",
+  "FirstName": "Альбина",
+  "MiddleName": "Георгиевна",
+  "LastName": "Хасанова",
+  "Time": 1,
+  "StartDate": "2012-06-12T00:00:00",
+  "BirthDate": "1952-10-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "204",
+      "Department": "34"
+    }
+  ]
 }

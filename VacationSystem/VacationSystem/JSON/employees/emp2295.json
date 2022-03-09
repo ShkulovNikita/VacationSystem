@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2295",
-	"FirstName": "Наталья",
-	"MiddleName": "Юрьевна",
-	"LastName": "Репкина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "9",
-			"HeadOfDepartment": false,
-			"Position": "18"
-		}
-	]
+  "Id": "2295",
+  "FirstName": "Наталья",
+  "MiddleName": "Юрьевна",
+  "LastName": "Репкина",
+  "Time": 1,
+  "StartDate": "2007-05-02T00:00:00",
+  "BirthDate": "1975-07-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "18",
+      "Department": "9"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1104",
-	"FirstName": "Елена",
-	"MiddleName": "Борисовна",
-	"LastName": "Калугина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "189",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "1104",
+  "FirstName": "Елена",
+  "MiddleName": "Борисовна",
+  "LastName": "Калугина",
+  "Time": 1,
+  "StartDate": "2005-01-18T00:00:00",
+  "BirthDate": "1977-10-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "189"
+    }
+  ]
 }

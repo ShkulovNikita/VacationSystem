@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2560",
-	"FirstName": "Елена",
-	"MiddleName": "Юрьевна",
-	"LastName": "Кофанова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "1",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "2560",
+  "FirstName": "Елена",
+  "MiddleName": "Юрьевна",
+  "LastName": "Кофанова",
+  "Time": 0.5,
+  "StartDate": "1985-10-17T00:00:00",
+  "BirthDate": "1961-02-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "1"
+    }
+  ]
 }

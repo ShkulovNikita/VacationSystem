@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2589",
-	"FirstName": "Василий",
-	"MiddleName": "Дмитриевич",
-	"LastName": "Горев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "112",
-			"HeadOfDepartment": false,
-			"Position": "35"
-		}
-	]
+  "Id": "2589",
+  "FirstName": "Василий",
+  "MiddleName": "Дмитриевич",
+  "LastName": "Горев",
+  "Time": 0.5,
+  "StartDate": "2016-03-23T00:00:00",
+  "BirthDate": "1987-01-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "35",
+      "Department": "112"
+    }
+  ]
 }

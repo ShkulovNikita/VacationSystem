@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1967",
-	"FirstName": "Виктор",
-	"MiddleName": "Сергеевич",
-	"LastName": "Скуридин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "42",
-			"HeadOfDepartment": false,
-			"Position": "91"
-		}
-	]
+  "Id": "1967",
+  "FirstName": "Виктор",
+  "MiddleName": "Сергеевич",
+  "LastName": "Скуридин",
+  "Time": 0.5,
+  "StartDate": "2021-02-01T00:00:00",
+  "BirthDate": "1958-07-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "91",
+      "Department": "42"
+    }
+  ]
 }

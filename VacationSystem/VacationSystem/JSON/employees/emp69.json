@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "69",
-	"FirstName": "Алла",
-	"MiddleName": "Георгиевна",
-	"LastName": "Кондратьева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "17",
-			"HeadOfDepartment": false,
-			"Position": "7"
-		}
-	]
+  "Id": "69",
+  "FirstName": "Алла",
+  "MiddleName": "Георгиевна",
+  "LastName": "Кондратьева",
+  "Time": 0.5,
+  "StartDate": "2008-02-03T00:00:00",
+  "BirthDate": "1964-02-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "7",
+      "Department": "17"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3579",
-	"FirstName": "Ирина",
-	"MiddleName": "Михайловна",
-	"LastName": "Алтухова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "225",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "3579",
+  "FirstName": "Ирина",
+  "MiddleName": "Михайловна",
+  "LastName": "Алтухова",
+  "Time": 0.5,
+  "StartDate": "2008-05-10T00:00:00",
+  "BirthDate": "1957-11-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "225"
+    }
+  ]
 }

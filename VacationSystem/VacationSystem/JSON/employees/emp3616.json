@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3616",
-	"FirstName": "Елена",
-	"MiddleName": "Анатольевна",
-	"LastName": "Ульянцева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "199",
-			"HeadOfDepartment": false,
-			"Position": "154"
-		}
-	]
+  "Id": "3616",
+  "FirstName": "Елена",
+  "MiddleName": "Анатольевна",
+  "LastName": "Ульянцева",
+  "Time": 0.5,
+  "StartDate": "2011-08-07T00:00:00",
+  "BirthDate": "1952-02-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "154",
+      "Department": "199"
+    }
+  ]
 }

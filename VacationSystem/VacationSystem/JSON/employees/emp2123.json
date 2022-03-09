@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2123",
-	"FirstName": "Александр",
-	"MiddleName": "Сергеевич",
-	"LastName": "Разва",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "39",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "2123",
+  "FirstName": "Александр",
+  "MiddleName": "Сергеевич",
+  "LastName": "Разва",
+  "Time": 1,
+  "StartDate": "1987-02-19T00:00:00",
+  "BirthDate": "1954-08-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "39"
+    }
+  ]
 }

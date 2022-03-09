@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2162",
-	"FirstName": "Андрей",
-	"MiddleName": "Анатольевич",
-	"LastName": "Петрашко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "11",
-			"HeadOfDepartment": false,
-			"Position": "16"
-		}
-	]
+  "Id": "2162",
+  "FirstName": "Андрей",
+  "MiddleName": "Анатольевич",
+  "LastName": "Петрашко",
+  "Time": 0.5,
+  "StartDate": "2010-04-07T00:00:00",
+  "BirthDate": "1983-03-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "16",
+      "Department": "11"
+    }
+  ]
 }

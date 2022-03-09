@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2265",
-	"FirstName": "Наталья",
-	"MiddleName": "Васильевна",
-	"LastName": "Жарнакова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "8",
-			"HeadOfDepartment": false,
-			"Position": "0"
-		}
-	]
+  "Id": "2265",
+  "FirstName": "Наталья",
+  "MiddleName": "Васильевна",
+  "LastName": "Жарнакова",
+  "Time": 0.5,
+  "StartDate": "2011-05-04T00:00:00",
+  "BirthDate": "1958-03-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "0",
+      "Department": "8"
+    }
+  ]
 }

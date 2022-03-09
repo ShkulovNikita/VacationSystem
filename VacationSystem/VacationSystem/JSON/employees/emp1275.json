@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1275",
-	"FirstName": "Олег",
-	"MiddleName": "Геннадьевич",
-	"LastName": "Васищев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "16",
-			"HeadOfDepartment": false,
-			"Position": "162"
-		}
-	]
+  "Id": "1275",
+  "FirstName": "Олег",
+  "MiddleName": "Геннадьевич",
+  "LastName": "Васищев",
+  "Time": 1,
+  "StartDate": "1991-09-18T00:00:00",
+  "BirthDate": "1964-12-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "162",
+      "Department": "16"
+    }
+  ]
 }

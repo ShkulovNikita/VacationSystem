@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3409",
-	"FirstName": "Татьяна",
-	"MiddleName": "Владимировна",
-	"LastName": "Вичугова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "3409",
+  "FirstName": "Татьяна",
+  "MiddleName": "Владимировна",
+  "LastName": "Вичугова",
+  "Time": 1,
+  "StartDate": "1976-12-10T00:00:00",
+  "BirthDate": "1952-03-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "15"
+    }
+  ]
 }

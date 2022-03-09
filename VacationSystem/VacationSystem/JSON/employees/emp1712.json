@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1712",
-	"FirstName": "Богдан",
-	"MiddleName": "Иванович",
-	"LastName": "Василишин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "35",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "1712",
+  "FirstName": "Богдан",
+  "MiddleName": "Иванович",
+  "LastName": "Василишин",
+  "Time": 1,
+  "StartDate": "1989-05-02T00:00:00",
+  "BirthDate": "1964-01-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "35"
+    }
+  ]
 }

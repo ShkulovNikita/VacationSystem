@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "2037",
-	"FirstName": "Ирина",
-	"MiddleName": "Олеговна",
-	"LastName": "Болотина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "8",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		},
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "144"
-		}
-	]
+  "Id": "2037",
+  "FirstName": "Ирина",
+  "MiddleName": "Олеговна",
+  "LastName": "Болотина",
+  "Time": 1.5,
+  "StartDate": "2017-11-01T00:00:00",
+  "BirthDate": "1965-08-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "8"
+    },
+    {
+      "Position": "144",
+      "Department": "2"
+    }
+  ]
 }

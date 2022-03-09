@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1715",
-	"FirstName": "Ольга",
-	"MiddleName": "Владимировна",
-	"LastName": "Ноздрина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "1715",
+  "FirstName": "Ольга",
+  "MiddleName": "Владимировна",
+  "LastName": "Ноздрина",
+  "Time": 0.5,
+  "StartDate": "2016-08-01T00:00:00",
+  "BirthDate": "1988-07-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "15"
+    }
+  ]
 }

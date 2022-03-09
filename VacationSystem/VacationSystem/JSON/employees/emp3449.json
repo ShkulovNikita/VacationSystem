@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3449",
-	"FirstName": "Марина",
-	"MiddleName": "Сергеевна",
-	"LastName": "Карпанина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "86",
-			"HeadOfDepartment": false,
-			"Position": "69"
-		}
-	]
+  "Id": "3449",
+  "FirstName": "Марина",
+  "MiddleName": "Сергеевна",
+  "LastName": "Карпанина",
+  "Time": 0.5,
+  "StartDate": "2020-10-21T00:00:00",
+  "BirthDate": "1964-05-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "69",
+      "Department": "86"
+    }
+  ]
 }

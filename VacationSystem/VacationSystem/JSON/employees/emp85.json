@@ -1,24 +1,19 @@
 ﻿{
-	"Id": "85",
-	"FirstName": "Татьяна",
-	"MiddleName": "Валерьевна",
-	"LastName": "Гречкина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		},
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		},
-		{
-			"Id": "54",
-			"HeadOfDepartment": false,
-			"Position": "33"
-		}
-	]
+  "Id": "85",
+  "FirstName": "Татьяна",
+  "MiddleName": "Валерьевна",
+  "LastName": "Гречкина",
+  "Time": 1.5,
+  "StartDate": "2018-10-11T00:00:00",
+  "BirthDate": "1990-06-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "15"
+    },
+    {
+      "Position": "33",
+      "Department": "54"
+    }
+  ]
 }

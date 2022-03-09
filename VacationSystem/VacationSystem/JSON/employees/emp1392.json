@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "1392",
-	"FirstName": "Алексей",
-	"MiddleName": "Николаевич",
-	"LastName": "Коледа",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "8",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		},
-		{
-			"Id": "8",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "1392",
+  "FirstName": "Алексей",
+  "MiddleName": "Николаевич",
+  "LastName": "Коледа",
+  "Time": 2,
+  "StartDate": "2012-05-06T00:00:00",
+  "BirthDate": "1990-12-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "8"
+    },
+    {
+      "Position": "3",
+      "Department": "8"
+    }
+  ]
 }

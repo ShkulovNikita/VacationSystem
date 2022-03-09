@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3448",
-	"FirstName": "Анна",
-	"MiddleName": "Владимировна",
-	"LastName": "Богданова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "163",
-			"HeadOfDepartment": false,
-			"Position": "69"
-		}
-	]
+  "Id": "3448",
+  "FirstName": "Анна",
+  "MiddleName": "Владимировна",
+  "LastName": "Богданова",
+  "Time": 1,
+  "StartDate": "2008-12-23T00:00:00",
+  "BirthDate": "1977-08-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "69",
+      "Department": "163"
+    }
+  ]
 }

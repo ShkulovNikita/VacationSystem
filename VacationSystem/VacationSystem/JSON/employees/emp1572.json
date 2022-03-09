@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1572",
-	"FirstName": "Елена",
-	"MiddleName": "Александровна",
-	"LastName": "Селиверстова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "0",
-			"HeadOfDepartment": false,
-			"Position": "0"
-		}
-	]
+  "Id": "1572",
+  "FirstName": "Елена",
+  "MiddleName": "Александровна",
+  "LastName": "Селиверстова",
+  "Time": 1,
+  "StartDate": "2001-01-12T00:00:00",
+  "BirthDate": "1963-01-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "0",
+      "Department": "0"
+    }
+  ]
 }

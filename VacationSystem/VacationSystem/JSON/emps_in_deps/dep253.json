@@ -1,0 +1,19 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "2779",
+      "FirstName": "Айгуль",
+      "MiddleName": "Сабировна",
+      "LastName": "Кулеш",
+      "Time": 0.5,
+      "StartDate": "1982-07-09T00:00:00",
+      "BirthDate": "1957-08-24T00:00:00",
+      "Positions": [
+        {
+          "Position": "0",
+          "Department": "253"
+        }
+      ]
+    }
+  ]
+}

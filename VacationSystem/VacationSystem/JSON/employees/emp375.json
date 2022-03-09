@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "375",
-	"FirstName": "Галина",
-	"MiddleName": "Анзельмовна",
-	"LastName": "Барышева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "130",
-			"HeadOfDepartment": false,
-			"Position": "2"
-		},
-		{
-			"Id": "14",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "375",
+  "FirstName": "Галина",
+  "MiddleName": "Анзельмовна",
+  "LastName": "Барышева",
+  "Time": 1.5,
+  "StartDate": "2013-07-20T00:00:00",
+  "BirthDate": "1991-06-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "2",
+      "Department": "130"
+    },
+    {
+      "Position": "13",
+      "Department": "14"
+    }
+  ]
 }

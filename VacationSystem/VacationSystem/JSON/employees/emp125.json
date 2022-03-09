@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "125",
-	"FirstName": "Ольга",
-	"MiddleName": "Михайловна",
-	"LastName": "Пономарева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "71",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "125",
+  "FirstName": "Ольга",
+  "MiddleName": "Михайловна",
+  "LastName": "Пономарева",
+  "Time": 0.5,
+  "StartDate": "1981-06-23T00:00:00",
+  "BirthDate": "1956-01-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "71"
+    }
+  ]
 }

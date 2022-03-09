@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "988",
-	"FirstName": "Юрий",
-	"MiddleName": "Васильевич",
-	"LastName": "Хрущев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "19",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "988",
+  "FirstName": "Юрий",
+  "MiddleName": "Васильевич",
+  "LastName": "Хрущев",
+  "Time": 1,
+  "StartDate": "2003-12-09T00:00:00",
+  "BirthDate": "1966-12-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "19"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1363",
-	"FirstName": "Елена",
-	"MiddleName": "Алексеевна",
-	"LastName": "Баранова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "47",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1363",
+  "FirstName": "Елена",
+  "MiddleName": "Алексеевна",
+  "LastName": "Баранова",
+  "Time": 1,
+  "StartDate": "2020-03-21T00:00:00",
+  "BirthDate": "1977-12-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "47"
+    }
+  ]
 }

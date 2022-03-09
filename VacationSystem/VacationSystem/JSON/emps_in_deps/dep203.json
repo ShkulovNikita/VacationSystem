@@ -1,0 +1,79 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "1258",
+      "FirstName": "Юлия",
+      "MiddleName": "Васильевна",
+      "LastName": "Кунгурова",
+      "Time": 0.5,
+      "StartDate": "2012-11-09T00:00:00",
+      "BirthDate": "1986-04-07T00:00:00",
+      "Positions": [
+        {
+          "Position": "159",
+          "Department": "203"
+        }
+      ]
+    },
+    {
+      "Id": "1410",
+      "FirstName": "Валентина",
+      "MiddleName": "Сергеевна",
+      "LastName": "Иванова",
+      "Time": 1,
+      "StartDate": "2009-01-19T00:00:00",
+      "BirthDate": "1983-06-23T00:00:00",
+      "Positions": [
+        {
+          "Position": "143",
+          "Department": "203"
+        }
+      ]
+    },
+    {
+      "Id": "1422",
+      "FirstName": "Елена",
+      "MiddleName": "Николаевна",
+      "LastName": "Килина",
+      "Time": 0.5,
+      "StartDate": "2000-02-20T00:00:00",
+      "BirthDate": "1970-08-02T00:00:00",
+      "Positions": [
+        {
+          "Position": "14",
+          "Department": "203"
+        }
+      ]
+    },
+    {
+      "Id": "2803",
+      "FirstName": "Леди",
+      "MiddleName": "Левоновна",
+      "LastName": "Агаджанян",
+      "Time": 1,
+      "StartDate": "2004-06-09T00:00:00",
+      "BirthDate": "1983-10-24T00:00:00",
+      "Positions": [
+        {
+          "Position": "138",
+          "Department": "203"
+        }
+      ]
+    },
+    {
+      "Id": "3230",
+      "FirstName": "Марина",
+      "MiddleName": "Владимировна",
+      "LastName": "Пичугова",
+      "Time": 0.5,
+      "StartDate": "2011-07-18T00:00:00",
+      "BirthDate": "1991-08-07T00:00:00",
+      "Positions": [
+        {
+          "Position": "79",
+          "Department": "203"
+        }
+      ]
+    }
+  ]
+}

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3582",
-	"FirstName": "Кирилл",
-	"MiddleName": "Дмитриевич",
-	"LastName": "Ерин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "4",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "3582",
+  "FirstName": "Кирилл",
+  "MiddleName": "Дмитриевич",
+  "LastName": "Ерин",
+  "Time": 1,
+  "StartDate": "1993-09-16T00:00:00",
+  "BirthDate": "1954-04-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "4"
+    }
+  ]
 }

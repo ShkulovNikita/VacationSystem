@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2789",
-	"FirstName": "Дмитрий",
-	"MiddleName": "Геннадьевич",
-	"LastName": "Буслович",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "2789",
+  "FirstName": "Дмитрий",
+  "MiddleName": "Геннадьевич",
+  "LastName": "Буслович",
+  "Time": 1,
+  "StartDate": "2020-01-11T00:00:00",
+  "BirthDate": "1990-01-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "15"
+    }
+  ]
 }

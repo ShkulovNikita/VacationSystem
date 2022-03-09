@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "2959",
-	"FirstName": "Иван",
-	"MiddleName": "Валерьевич",
-	"LastName": "Хожаев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "6",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		},
-		{
-			"Id": "248",
-			"HeadOfDepartment": false,
-			"Position": "26"
-		}
-	]
+  "Id": "2959",
+  "FirstName": "Иван",
+  "MiddleName": "Валерьевич",
+  "LastName": "Хожаев",
+  "Time": 1.5,
+  "StartDate": "1986-04-04T00:00:00",
+  "BirthDate": "1960-11-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "6"
+    },
+    {
+      "Position": "26",
+      "Department": "248"
+    }
+  ]
 }

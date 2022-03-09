@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3490",
-	"FirstName": "Анна",
-	"MiddleName": "Сергеевна",
-	"LastName": "Бондарчук",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "205",
-			"HeadOfDepartment": false,
-			"Position": "280"
-		}
-	]
+  "Id": "3490",
+  "FirstName": "Анна",
+  "MiddleName": "Сергеевна",
+  "LastName": "Бондарчук",
+  "Time": 0.5,
+  "StartDate": "2004-06-21T00:00:00",
+  "BirthDate": "1970-03-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "280",
+      "Department": "205"
+    }
+  ]
 }

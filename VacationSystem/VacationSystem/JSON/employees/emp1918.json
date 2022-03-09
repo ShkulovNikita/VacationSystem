@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1918",
-	"FirstName": "Анастасия",
-	"MiddleName": "Валерьевна",
-	"LastName": "Жаворонок",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "3",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		}
-	]
+  "Id": "1918",
+  "FirstName": "Анастасия",
+  "MiddleName": "Валерьевна",
+  "LastName": "Жаворонок",
+  "Time": 0.5,
+  "StartDate": "2015-07-07T00:00:00",
+  "BirthDate": "1963-11-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "3"
+    }
+  ]
 }

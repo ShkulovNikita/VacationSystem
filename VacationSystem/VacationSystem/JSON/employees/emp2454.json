@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2454",
-	"FirstName": "Яков",
-	"MiddleName": "Иванович",
-	"LastName": "Корнев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "16",
-			"HeadOfDepartment": false,
-			"Position": "56"
-		}
-	]
+  "Id": "2454",
+  "FirstName": "Яков",
+  "MiddleName": "Иванович",
+  "LastName": "Корнев",
+  "Time": 1,
+  "StartDate": "2014-08-19T00:00:00",
+  "BirthDate": "1985-05-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "56",
+      "Department": "16"
+    }
+  ]
 }

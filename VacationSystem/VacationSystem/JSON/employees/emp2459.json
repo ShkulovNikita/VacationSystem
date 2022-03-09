@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2459",
-	"FirstName": "Ольга",
-	"MiddleName": "Викторовна",
-	"LastName": "Рогач",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "154",
-			"HeadOfDepartment": false,
-			"Position": "144"
-		}
-	]
+  "Id": "2459",
+  "FirstName": "Ольга",
+  "MiddleName": "Викторовна",
+  "LastName": "Рогач",
+  "Time": 0.5,
+  "StartDate": "1996-10-03T00:00:00",
+  "BirthDate": "1957-02-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "144",
+      "Department": "154"
+    }
+  ]
 }

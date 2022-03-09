@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2530",
-	"FirstName": "Владимир",
-	"MiddleName": "Анатольевич",
-	"LastName": "Фролов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "59",
-			"HeadOfDepartment": false,
-			"Position": "37"
-		}
-	]
+  "Id": "2530",
+  "FirstName": "Владимир",
+  "MiddleName": "Анатольевич",
+  "LastName": "Фролов",
+  "Time": 0.5,
+  "StartDate": "1991-09-16T00:00:00",
+  "BirthDate": "1969-08-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "37",
+      "Department": "59"
+    }
+  ]
 }

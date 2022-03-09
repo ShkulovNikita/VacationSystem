@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2331",
-	"FirstName": "Денис",
-	"MiddleName": "Борисович",
-	"LastName": "Чёпин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "29",
-			"HeadOfDepartment": false,
-			"Position": "129"
-		}
-	]
+  "Id": "2331",
+  "FirstName": "Денис",
+  "MiddleName": "Борисович",
+  "LastName": "Чёпин",
+  "Time": 1,
+  "StartDate": "2005-08-24T00:00:00",
+  "BirthDate": "1970-12-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "129",
+      "Department": "29"
+    }
+  ]
 }

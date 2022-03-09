@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1631",
-	"FirstName": "Леонтий",
-	"MiddleName": "Андреевич",
-	"LastName": "Усов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "70"
-		}
-	]
+  "Id": "1631",
+  "FirstName": "Леонтий",
+  "MiddleName": "Андреевич",
+  "LastName": "Усов",
+  "Time": 1,
+  "StartDate": "2014-01-11T00:00:00",
+  "BirthDate": "1984-03-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "70",
+      "Department": "15"
+    }
+  ]
 }

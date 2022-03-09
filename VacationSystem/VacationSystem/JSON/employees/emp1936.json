@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1936",
-	"FirstName": "Юлия",
-	"MiddleName": "Анатольевна",
-	"LastName": "Максимова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "46",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "1936",
+  "FirstName": "Юлия",
+  "MiddleName": "Анатольевна",
+  "LastName": "Максимова",
+  "Time": 0.5,
+  "StartDate": "1991-02-11T00:00:00",
+  "BirthDate": "1969-09-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "46"
+    }
+  ]
 }

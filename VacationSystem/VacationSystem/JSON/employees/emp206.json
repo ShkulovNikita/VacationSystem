@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "206",
-	"FirstName": "Владимир",
-	"MiddleName": "Леонидович",
-	"LastName": "Пашков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "30",
-			"HeadOfDepartment": false,
-			"Position": "16"
-		}
-	]
+  "Id": "206",
+  "FirstName": "Владимир",
+  "MiddleName": "Леонидович",
+  "LastName": "Пашков",
+  "Time": 0.5,
+  "StartDate": "2017-05-07T00:00:00",
+  "BirthDate": "1975-11-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "16",
+      "Department": "30"
+    }
+  ]
 }

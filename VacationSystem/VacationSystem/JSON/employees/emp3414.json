@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3414",
-	"FirstName": "Елена",
-	"MiddleName": "Леонидовна",
-	"LastName": "Лебедева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "91",
-			"HeadOfDepartment": false,
-			"Position": "86"
-		}
-	]
+  "Id": "3414",
+  "FirstName": "Елена",
+  "MiddleName": "Леонидовна",
+  "LastName": "Лебедева",
+  "Time": 1,
+  "StartDate": "2013-12-12T00:00:00",
+  "BirthDate": "1986-05-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "86",
+      "Department": "91"
+    }
+  ]
 }

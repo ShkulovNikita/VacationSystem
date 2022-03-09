@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2555",
-	"FirstName": "Игорь",
-	"MiddleName": "Александрович",
-	"LastName": "Копытин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "38",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "2555",
+  "FirstName": "Игорь",
+  "MiddleName": "Александрович",
+  "LastName": "Копытин",
+  "Time": 0.5,
+  "StartDate": "2004-10-03T00:00:00",
+  "BirthDate": "1965-10-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "38"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2256",
-	"FirstName": "Радик",
-	"MiddleName": "Минибаевич",
-	"LastName": "Гайнуллин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "75",
-			"HeadOfDepartment": false,
-			"Position": "168"
-		}
-	]
+  "Id": "2256",
+  "FirstName": "Радик",
+  "MiddleName": "Минибаевич",
+  "LastName": "Гайнуллин",
+  "Time": 0.5,
+  "StartDate": "2014-09-17T00:00:00",
+  "BirthDate": "1986-01-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "168",
+      "Department": "75"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2557",
-	"FirstName": "Виктор",
-	"MiddleName": "Васильевич",
-	"LastName": "Гаврилов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "59",
-			"HeadOfDepartment": false,
-			"Position": "78"
-		}
-	]
+  "Id": "2557",
+  "FirstName": "Виктор",
+  "MiddleName": "Васильевич",
+  "LastName": "Гаврилов",
+  "Time": 1,
+  "StartDate": "1997-11-14T00:00:00",
+  "BirthDate": "1959-09-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "78",
+      "Department": "59"
+    }
+  ]
 }

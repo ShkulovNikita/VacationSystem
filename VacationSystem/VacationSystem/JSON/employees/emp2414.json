@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2414",
-	"FirstName": "Людмила",
-	"MiddleName": "Николаевна",
-	"LastName": "Жулёва",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "91",
-			"HeadOfDepartment": false,
-			"Position": "166"
-		}
-	]
+  "Id": "2414",
+  "FirstName": "Людмила",
+  "MiddleName": "Николаевна",
+  "LastName": "Жулёва",
+  "Time": 1,
+  "StartDate": "2016-03-16T00:00:00",
+  "BirthDate": "1955-10-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "166",
+      "Department": "91"
+    }
+  ]
 }

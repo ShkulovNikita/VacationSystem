@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1666",
-	"FirstName": "Светлана",
-	"MiddleName": "Андреевна",
-	"LastName": "Николаева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "88",
-			"HeadOfDepartment": false,
-			"Position": "198"
-		}
-	]
+  "Id": "1666",
+  "FirstName": "Светлана",
+  "MiddleName": "Андреевна",
+  "LastName": "Николаева",
+  "Time": 1,
+  "StartDate": "2005-02-01T00:00:00",
+  "BirthDate": "1977-02-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "198",
+      "Department": "88"
+    }
+  ]
 }

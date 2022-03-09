@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2430",
-	"FirstName": "Татьяна",
-	"MiddleName": "Андреевна",
-	"LastName": "Сакиб",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "99",
-			"HeadOfDepartment": false,
-			"Position": "80"
-		}
-	]
+  "Id": "2430",
+  "FirstName": "Татьяна",
+  "MiddleName": "Андреевна",
+  "LastName": "Сакиб",
+  "Time": 1,
+  "StartDate": "2007-04-10T00:00:00",
+  "BirthDate": "1984-01-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "80",
+      "Department": "99"
+    }
+  ]
 }

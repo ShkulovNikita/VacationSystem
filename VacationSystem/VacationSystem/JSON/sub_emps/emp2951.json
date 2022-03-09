@@ -1,0 +1,19 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "2951",
+      "FirstName": "Любовь",
+      "MiddleName": "Леонидовна",
+      "LastName": "Молокова",
+      "Time": 0.5,
+      "StartDate": "2020-03-07T00:00:00",
+      "BirthDate": "1993-07-11T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "256"
+        }
+      ]
+    }
+  ]
+}

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2583",
-	"FirstName": "Анатолий",
-	"MiddleName": "Витальевич",
-	"LastName": "Озеров",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "125",
-			"HeadOfDepartment": false,
-			"Position": "29"
-		}
-	]
+  "Id": "2583",
+  "FirstName": "Анатолий",
+  "MiddleName": "Витальевич",
+  "LastName": "Озеров",
+  "Time": 1,
+  "StartDate": "2012-06-20T00:00:00",
+  "BirthDate": "1963-11-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "29",
+      "Department": "125"
+    }
+  ]
 }

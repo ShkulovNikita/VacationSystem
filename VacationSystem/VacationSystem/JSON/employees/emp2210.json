@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2210",
-	"FirstName": "Виктория",
-	"MiddleName": "Михайловна",
-	"LastName": "Макарова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "107",
-			"HeadOfDepartment": false,
-			"Position": "73"
-		}
-	]
+  "Id": "2210",
+  "FirstName": "Виктория",
+  "MiddleName": "Михайловна",
+  "LastName": "Макарова",
+  "Time": 0.5,
+  "StartDate": "2003-09-12T00:00:00",
+  "BirthDate": "1976-12-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "73",
+      "Department": "107"
+    }
+  ]
 }

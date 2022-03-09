@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "266",
-	"FirstName": "Геннадий",
-	"MiddleName": "Николаевич",
-	"LastName": "Дудкин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "89",
-			"HeadOfDepartment": false,
-			"Position": "56"
-		}
-	]
+  "Id": "266",
+  "FirstName": "Геннадий",
+  "MiddleName": "Николаевич",
+  "LastName": "Дудкин",
+  "Time": 0.5,
+  "StartDate": "2011-11-10T00:00:00",
+  "BirthDate": "1979-10-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "56",
+      "Department": "89"
+    }
+  ]
 }

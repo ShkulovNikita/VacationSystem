@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1261",
-	"FirstName": "Андрей",
-	"MiddleName": "Андреевич",
-	"LastName": "Бухаркин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "1261",
+  "FirstName": "Андрей",
+  "MiddleName": "Андреевич",
+  "LastName": "Бухаркин",
+  "Time": 1,
+  "StartDate": "2017-10-23T00:00:00",
+  "BirthDate": "1987-04-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "15"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "234",
-	"FirstName": "Андрей",
-	"MiddleName": "Геннадьевич",
-	"LastName": "Каранкевич",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "6",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "234",
+  "FirstName": "Андрей",
+  "MiddleName": "Геннадьевич",
+  "LastName": "Каранкевич",
+  "Time": 0.5,
+  "StartDate": "2014-03-19T00:00:00",
+  "BirthDate": "1992-07-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "6"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2322",
-	"FirstName": "Евгения",
-	"MiddleName": "Львовна",
-	"LastName": "Данилевская",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "94",
-			"HeadOfDepartment": false,
-			"Position": "233"
-		}
-	]
+  "Id": "2322",
+  "FirstName": "Евгения",
+  "MiddleName": "Львовна",
+  "LastName": "Данилевская",
+  "Time": 0.5,
+  "StartDate": "1982-11-01T00:00:00",
+  "BirthDate": "1961-08-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "233",
+      "Department": "94"
+    }
+  ]
 }

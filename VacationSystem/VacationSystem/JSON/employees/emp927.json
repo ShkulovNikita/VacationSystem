@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "927",
-	"FirstName": "Сергей",
-	"MiddleName": "Михайлович",
-	"LastName": "Семёнов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "19",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		},
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "2"
-		}
-	]
+  "Id": "927",
+  "FirstName": "Сергей",
+  "MiddleName": "Михайлович",
+  "LastName": "Семёнов",
+  "Time": 1,
+  "StartDate": "2010-04-21T00:00:00",
+  "BirthDate": "1979-03-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "19"
+    },
+    {
+      "Position": "2",
+      "Department": "2"
+    }
+  ]
 }

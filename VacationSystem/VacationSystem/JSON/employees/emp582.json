@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "582",
-	"FirstName": "Олег",
-	"MiddleName": "Владимирович",
-	"LastName": "Махинько",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "112",
-			"HeadOfDepartment": false,
-			"Position": "2"
-		}
-	]
+  "Id": "582",
+  "FirstName": "Олег",
+  "MiddleName": "Владимирович",
+  "LastName": "Махинько",
+  "Time": 0.5,
+  "StartDate": "2017-10-03T00:00:00",
+  "BirthDate": "1983-01-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "2",
+      "Department": "112"
+    }
+  ]
 }

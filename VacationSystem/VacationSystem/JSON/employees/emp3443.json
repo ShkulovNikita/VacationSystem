@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "3443",
-	"FirstName": "Наталья",
-	"MiddleName": "Андреевна",
-	"LastName": "Нигай",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		},
-		{
-			"Id": "39",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "3443",
+  "FirstName": "Наталья",
+  "MiddleName": "Андреевна",
+  "LastName": "Нигай",
+  "Time": 2,
+  "StartDate": "1997-07-15T00:00:00",
+  "BirthDate": "1958-10-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "2"
+    },
+    {
+      "Position": "3",
+      "Department": "39"
+    }
+  ]
 }

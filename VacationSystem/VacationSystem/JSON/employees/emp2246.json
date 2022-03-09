@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2246",
-	"FirstName": "Любовь",
-	"MiddleName": "Петровна",
-	"LastName": "Ильина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "34",
-			"HeadOfDepartment": false,
-			"Position": "22"
-		}
-	]
+  "Id": "2246",
+  "FirstName": "Любовь",
+  "MiddleName": "Петровна",
+  "LastName": "Ильина",
+  "Time": 1,
+  "StartDate": "2009-11-21T00:00:00",
+  "BirthDate": "1957-05-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "22",
+      "Department": "34"
+    }
+  ]
 }

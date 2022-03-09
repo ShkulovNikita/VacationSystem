@@ -1,0 +1,124 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "88",
+      "FirstName": "Надежда",
+      "MiddleName": "Викторовна",
+      "LastName": "Числова",
+      "Time": 0.5,
+      "StartDate": "2013-02-04T00:00:00",
+      "BirthDate": "1958-02-15T00:00:00",
+      "Positions": [
+        {
+          "Position": "6",
+          "Department": "55"
+        }
+      ]
+    },
+    {
+      "Id": "175",
+      "FirstName": "Анастасия",
+      "MiddleName": "Александровна",
+      "LastName": "Синельник",
+      "Time": 1,
+      "StartDate": "1983-07-17T00:00:00",
+      "BirthDate": "1962-11-22T00:00:00",
+      "Positions": [
+        {
+          "Position": "6",
+          "Department": "55"
+        }
+      ]
+    },
+    {
+      "Id": "1003",
+      "FirstName": "Марина",
+      "MiddleName": "Валерьевна",
+      "LastName": "Митрофанова",
+      "Time": 1,
+      "StartDate": "2017-04-10T00:00:00",
+      "BirthDate": "1993-12-24T00:00:00",
+      "Positions": [
+        {
+          "Position": "18",
+          "Department": "55"
+        }
+      ]
+    },
+    {
+      "Id": "2231",
+      "FirstName": "Александр",
+      "MiddleName": "Владимирович",
+      "LastName": "Чернов",
+      "Time": 0.5,
+      "StartDate": "2011-01-09T00:00:00",
+      "BirthDate": "1976-03-09T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "55"
+        }
+      ]
+    },
+    {
+      "Id": "2249",
+      "FirstName": "Виктория",
+      "MiddleName": "Юрьевна",
+      "LastName": "Маренкова",
+      "Time": 0.5,
+      "StartDate": "2017-07-15T00:00:00",
+      "BirthDate": "1972-11-14T00:00:00",
+      "Positions": [
+        {
+          "Position": "10",
+          "Department": "55"
+        }
+      ]
+    },
+    {
+      "Id": "2550",
+      "FirstName": "Дарья",
+      "MiddleName": "Сергеевна",
+      "LastName": "Бай",
+      "Time": 1,
+      "StartDate": "2001-06-22T00:00:00",
+      "BirthDate": "1966-10-22T00:00:00",
+      "Positions": [
+        {
+          "Position": "10",
+          "Department": "55"
+        }
+      ]
+    },
+    {
+      "Id": "2677",
+      "FirstName": "Татьяна",
+      "MiddleName": "Валентиновна",
+      "LastName": "Буланова",
+      "Time": 0.5,
+      "StartDate": "1992-03-16T00:00:00",
+      "BirthDate": "1968-10-15T00:00:00",
+      "Positions": [
+        {
+          "Position": "18",
+          "Department": "55"
+        }
+      ]
+    },
+    {
+      "Id": "3254",
+      "FirstName": "Евгения",
+      "MiddleName": "Владимировна",
+      "LastName": "Родина",
+      "Time": 1,
+      "StartDate": "2009-08-05T00:00:00",
+      "BirthDate": "1978-07-24T00:00:00",
+      "Positions": [
+        {
+          "Position": "108",
+          "Department": "55"
+        }
+      ]
+    }
+  ]
+}

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1969",
-	"FirstName": "Мария",
-	"MiddleName": "Александровна",
-	"LastName": "Александрова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "94",
-			"HeadOfDepartment": false,
-			"Position": "10"
-		}
-	]
+  "Id": "1969",
+  "FirstName": "Мария",
+  "MiddleName": "Александровна",
+  "LastName": "Александрова",
+  "Time": 0.5,
+  "StartDate": "1994-04-01T00:00:00",
+  "BirthDate": "1970-09-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "10",
+      "Department": "94"
+    }
+  ]
 }

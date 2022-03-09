@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2652",
-	"FirstName": "Галина",
-	"MiddleName": "Сергеевна",
-	"LastName": "Няшина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "32",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		}
-	]
+  "Id": "2652",
+  "FirstName": "Галина",
+  "MiddleName": "Сергеевна",
+  "LastName": "Няшина",
+  "Time": 1,
+  "StartDate": "2007-01-11T00:00:00",
+  "BirthDate": "1980-09-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "32"
+    }
+  ]
 }

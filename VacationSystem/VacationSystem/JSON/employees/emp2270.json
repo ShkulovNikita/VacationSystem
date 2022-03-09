@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2270",
-	"FirstName": "Светлана",
-	"MiddleName": "Федоровна",
-	"LastName": "Сизаск",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "70"
-		}
-	]
+  "Id": "2270",
+  "FirstName": "Светлана",
+  "MiddleName": "Федоровна",
+  "LastName": "Сизаск",
+  "Time": 1,
+  "StartDate": "2009-08-08T00:00:00",
+  "BirthDate": "1962-02-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "70",
+      "Department": "15"
+    }
+  ]
 }

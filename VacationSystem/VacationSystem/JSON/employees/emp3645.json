@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3645",
-	"FirstName": "Александр",
-	"MiddleName": "Васильевич",
-	"LastName": "Буторин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "5",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		}
-	]
+  "Id": "3645",
+  "FirstName": "Александр",
+  "MiddleName": "Васильевич",
+  "LastName": "Буторин",
+  "Time": 1,
+  "StartDate": "2021-05-22T00:00:00",
+  "BirthDate": "1979-11-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "5"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3208",
-	"FirstName": "Владимир",
-	"MiddleName": "Александрович",
-	"LastName": "Корин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "91",
-			"HeadOfDepartment": false,
-			"Position": "64"
-		}
-	]
+  "Id": "3208",
+  "FirstName": "Владимир",
+  "MiddleName": "Александрович",
+  "LastName": "Корин",
+  "Time": 0.5,
+  "StartDate": "2012-02-07T00:00:00",
+  "BirthDate": "1984-09-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "64",
+      "Department": "91"
+    }
+  ]
 }

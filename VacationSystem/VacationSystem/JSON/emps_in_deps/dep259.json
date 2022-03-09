@@ -1,0 +1,19 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "2979",
+      "FirstName": "Александр",
+      "MiddleName": "Станиславович",
+      "LastName": "Пусь",
+      "Time": 0.5,
+      "StartDate": "2006-02-01T00:00:00",
+      "BirthDate": "1957-12-23T00:00:00",
+      "Positions": [
+        {
+          "Position": "93",
+          "Department": "259"
+        }
+      ]
+    }
+  ]
+}

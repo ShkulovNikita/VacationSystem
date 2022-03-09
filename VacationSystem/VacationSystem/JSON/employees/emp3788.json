@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3788",
-	"FirstName": "Тао",
-	"MiddleName": "",
-	"LastName": "Хань",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "56"
-		}
-	]
+  "Id": "3788",
+  "FirstName": "Тао",
+  "MiddleName": "",
+  "LastName": "Хань",
+  "Time": 1,
+  "StartDate": "2018-07-12T00:00:00",
+  "BirthDate": "1978-09-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "56",
+      "Department": "15"
+    }
+  ]
 }

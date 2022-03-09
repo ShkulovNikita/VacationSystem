@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2150",
-	"FirstName": "Наталия",
-	"MiddleName": "Андреевна",
-	"LastName": "Колодий",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "3",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "2150",
+  "FirstName": "Наталия",
+  "MiddleName": "Андреевна",
+  "LastName": "Колодий",
+  "Time": 0.5,
+  "StartDate": "2011-12-04T00:00:00",
+  "BirthDate": "1988-08-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "3"
+    }
+  ]
 }

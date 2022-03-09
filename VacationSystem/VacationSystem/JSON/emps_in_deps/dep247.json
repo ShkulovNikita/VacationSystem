@@ -1,0 +1,19 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "2596",
+      "FirstName": "Вячеслав",
+      "MiddleName": "Викторович",
+      "LastName": "Гаппель",
+      "Time": 0.5,
+      "StartDate": "1989-12-03T00:00:00",
+      "BirthDate": "1952-01-10T00:00:00",
+      "Positions": [
+        {
+          "Position": "103",
+          "Department": "247"
+        }
+      ]
+    }
+  ]
+}

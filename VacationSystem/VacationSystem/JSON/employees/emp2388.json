@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2388",
-	"FirstName": "Татьяна",
-	"MiddleName": "Федоровна",
-	"LastName": "Щукова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "96",
-			"HeadOfDepartment": false,
-			"Position": "86"
-		}
-	]
+  "Id": "2388",
+  "FirstName": "Татьяна",
+  "MiddleName": "Федоровна",
+  "LastName": "Щукова",
+  "Time": 0.5,
+  "StartDate": "2020-03-23T00:00:00",
+  "BirthDate": "1972-09-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "86",
+      "Department": "96"
+    }
+  ]
 }

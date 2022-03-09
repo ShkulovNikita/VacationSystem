@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3240",
-	"FirstName": "Владимир",
-	"MiddleName": "Михайлович",
-	"LastName": "Попов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "75",
-			"HeadOfDepartment": false,
-			"Position": "168"
-		}
-	]
+  "Id": "3240",
+  "FirstName": "Владимир",
+  "MiddleName": "Михайлович",
+  "LastName": "Попов",
+  "Time": 1,
+  "StartDate": "2021-09-20T00:00:00",
+  "BirthDate": "1992-06-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "168",
+      "Department": "75"
+    }
+  ]
 }

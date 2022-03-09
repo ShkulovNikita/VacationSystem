@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "866",
-	"FirstName": "Людмила",
-	"MiddleName": "Владимировна",
-	"LastName": "Пузыревич",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "32",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "866",
+  "FirstName": "Людмила",
+  "MiddleName": "Владимировна",
+  "LastName": "Пузыревич",
+  "Time": 1,
+  "StartDate": "1982-02-16T00:00:00",
+  "BirthDate": "1958-05-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "32"
+    }
+  ]
 }

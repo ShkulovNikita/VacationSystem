@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1917",
-	"FirstName": "Анна",
-	"MiddleName": "Анатольевна",
-	"LastName": "Мананкова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "36",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1917",
+  "FirstName": "Анна",
+  "MiddleName": "Анатольевна",
+  "LastName": "Мананкова",
+  "Time": 0.5,
+  "StartDate": "2001-01-03T00:00:00",
+  "BirthDate": "1963-04-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "36"
+    }
+  ]
 }

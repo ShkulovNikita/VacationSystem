@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2514",
-	"FirstName": "Ольга",
-	"MiddleName": "Степановна",
-	"LastName": "Петрушина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "36",
-			"HeadOfDepartment": false,
-			"Position": "70"
-		}
-	]
+  "Id": "2514",
+  "FirstName": "Ольга",
+  "MiddleName": "Степановна",
+  "LastName": "Петрушина",
+  "Time": 1,
+  "StartDate": "2016-05-18T00:00:00",
+  "BirthDate": "1961-08-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "70",
+      "Department": "36"
+    }
+  ]
 }

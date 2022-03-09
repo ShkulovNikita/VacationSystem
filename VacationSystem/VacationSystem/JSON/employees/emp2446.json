@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2446",
-	"FirstName": "Валентина",
-	"MiddleName": "Николаевна",
-	"LastName": "Романенко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "52",
-			"HeadOfDepartment": false,
-			"Position": "7"
-		}
-	]
+  "Id": "2446",
+  "FirstName": "Валентина",
+  "MiddleName": "Николаевна",
+  "LastName": "Романенко",
+  "Time": 0.5,
+  "StartDate": "1996-05-01T00:00:00",
+  "BirthDate": "1969-02-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "7",
+      "Department": "52"
+    }
+  ]
 }

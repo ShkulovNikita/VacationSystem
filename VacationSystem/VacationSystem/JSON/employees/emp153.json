@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "153",
-	"FirstName": "Инна",
-	"MiddleName": "Алексеевна",
-	"LastName": "Лежнина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "8",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "153",
+  "FirstName": "Инна",
+  "MiddleName": "Алексеевна",
+  "LastName": "Лежнина",
+  "Time": 1,
+  "StartDate": "2008-08-24T00:00:00",
+  "BirthDate": "1983-06-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "8"
+    }
+  ]
 }

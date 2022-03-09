@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1282",
-	"FirstName": "Дмитрий",
-	"MiddleName": "Олегович",
-	"LastName": "Глушков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "32",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1282",
+  "FirstName": "Дмитрий",
+  "MiddleName": "Олегович",
+  "LastName": "Глушков",
+  "Time": 1,
+  "StartDate": "2015-05-04T00:00:00",
+  "BirthDate": "1989-11-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "32"
+    }
+  ]
 }

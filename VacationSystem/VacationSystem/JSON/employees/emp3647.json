@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3647",
-	"FirstName": "Александра",
-	"MiddleName": "Александровна",
-	"LastName": "Рослин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "127",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		}
-	]
+  "Id": "3647",
+  "FirstName": "Александра",
+  "MiddleName": "Александровна",
+  "LastName": "Рослин",
+  "Time": 1,
+  "StartDate": "1989-01-15T00:00:00",
+  "BirthDate": "1962-08-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "127"
+    }
+  ]
 }

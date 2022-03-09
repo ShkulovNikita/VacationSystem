@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1022",
-	"FirstName": "Кам Ньунг",
-	"MiddleName": "",
-	"LastName": "Фам",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "65",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		}
-	]
+  "Id": "1022",
+  "FirstName": "Кам Ньунг",
+  "MiddleName": "",
+  "LastName": "Фам",
+  "Time": 1,
+  "StartDate": "2000-09-08T00:00:00",
+  "BirthDate": "1973-04-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "65"
+    }
+  ]
 }

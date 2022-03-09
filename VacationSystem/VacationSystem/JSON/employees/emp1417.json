@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1417",
-	"FirstName": "Алексей",
-	"MiddleName": "Иванович",
-	"LastName": "Штраух",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "169",
-			"HeadOfDepartment": false,
-			"Position": "174"
-		}
-	]
+  "Id": "1417",
+  "FirstName": "Алексей",
+  "MiddleName": "Иванович",
+  "LastName": "Штраух",
+  "Time": 0.5,
+  "StartDate": "2020-04-10T00:00:00",
+  "BirthDate": "1992-12-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "174",
+      "Department": "169"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2481",
-	"FirstName": "Михаил",
-	"MiddleName": "Сергеевич",
-	"LastName": "Павлов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "46",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "2481",
+  "FirstName": "Михаил",
+  "MiddleName": "Сергеевич",
+  "LastName": "Павлов",
+  "Time": 1,
+  "StartDate": "2016-03-03T00:00:00",
+  "BirthDate": "1974-09-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "46"
+    }
+  ]
 }

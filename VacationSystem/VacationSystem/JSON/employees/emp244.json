@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "244",
-	"FirstName": "Вилена",
-	"MiddleName": "Владимировна",
-	"LastName": "Федотова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "101",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		},
-		{
-			"Id": "17",
-			"HeadOfDepartment": false,
-			"Position": "11"
-		}
-	]
+  "Id": "244",
+  "FirstName": "Вилена",
+  "MiddleName": "Владимировна",
+  "LastName": "Федотова",
+  "Time": 1,
+  "StartDate": "1983-11-09T00:00:00",
+  "BirthDate": "1959-04-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "101"
+    },
+    {
+      "Position": "11",
+      "Department": "17"
+    }
+  ]
 }

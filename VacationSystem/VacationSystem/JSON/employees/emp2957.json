@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2957",
-	"FirstName": "Андрей",
-	"MiddleName": "Ярославович",
-	"LastName": "Буряков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "85",
-			"HeadOfDepartment": false,
-			"Position": "191"
-		}
-	]
+  "Id": "2957",
+  "FirstName": "Андрей",
+  "MiddleName": "Ярославович",
+  "LastName": "Буряков",
+  "Time": 1,
+  "StartDate": "2014-08-02T00:00:00",
+  "BirthDate": "1976-05-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "191",
+      "Department": "85"
+    }
+  ]
 }

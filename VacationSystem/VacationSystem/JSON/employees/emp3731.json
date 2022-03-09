@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3731",
-	"FirstName": "Вячеслав",
-	"MiddleName": "Владимирович",
-	"LastName": "Шнайдмиллер",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "28",
-			"HeadOfDepartment": false,
-			"Position": "293"
-		}
-	]
+  "Id": "3731",
+  "FirstName": "Вячеслав",
+  "MiddleName": "Владимирович",
+  "LastName": "Шнайдмиллер",
+  "Time": 1,
+  "StartDate": "1980-08-17T00:00:00",
+  "BirthDate": "1952-07-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "293",
+      "Department": "28"
+    }
+  ]
 }

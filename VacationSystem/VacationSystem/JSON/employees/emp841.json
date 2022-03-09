@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "841",
-	"FirstName": "Вячеслав",
-	"MiddleName": "Валерьевич",
-	"LastName": "Гаузштейн",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "32",
-			"HeadOfDepartment": false,
-			"Position": "24"
-		}
-	]
+  "Id": "841",
+  "FirstName": "Вячеслав",
+  "MiddleName": "Валерьевич",
+  "LastName": "Гаузштейн",
+  "Time": 1,
+  "StartDate": "1991-09-04T00:00:00",
+  "BirthDate": "1970-06-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "24",
+      "Department": "32"
+    }
+  ]
 }

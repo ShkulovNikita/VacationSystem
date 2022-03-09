@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3198",
-	"FirstName": "Надежда",
-	"MiddleName": "Петровна",
-	"LastName": "Митрофанова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "143",
-			"HeadOfDepartment": false,
-			"Position": "15"
-		}
-	]
+  "Id": "3198",
+  "FirstName": "Надежда",
+  "MiddleName": "Петровна",
+  "LastName": "Митрофанова",
+  "Time": 1,
+  "StartDate": "2019-05-07T00:00:00",
+  "BirthDate": "1971-01-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "15",
+      "Department": "143"
+    }
+  ]
 }

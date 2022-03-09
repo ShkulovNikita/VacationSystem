@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1846",
-	"FirstName": "Александр",
-	"MiddleName": "Николаевич",
-	"LastName": "Колпащиков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "138",
-			"HeadOfDepartment": false,
-			"Position": "7"
-		}
-	]
+  "Id": "1846",
+  "FirstName": "Александр",
+  "MiddleName": "Николаевич",
+  "LastName": "Колпащиков",
+  "Time": 0.5,
+  "StartDate": "2021-11-02T00:00:00",
+  "BirthDate": "1984-07-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "7",
+      "Department": "138"
+    }
+  ]
 }

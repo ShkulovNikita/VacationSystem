@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "182",
-	"FirstName": "Андрей",
-	"MiddleName": "Дмитриевич",
-	"LastName": "Побережников",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "17",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "182",
+  "FirstName": "Андрей",
+  "MiddleName": "Дмитриевич",
+  "LastName": "Побережников",
+  "Time": 1,
+  "StartDate": "2010-10-09T00:00:00",
+  "BirthDate": "1979-12-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "17"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3738",
-	"FirstName": "Любовь",
-	"MiddleName": "Семёновна",
-	"LastName": "Мотовилова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "174",
-			"HeadOfDepartment": false,
-			"Position": "15"
-		}
-	]
+  "Id": "3738",
+  "FirstName": "Любовь",
+  "MiddleName": "Семёновна",
+  "LastName": "Мотовилова",
+  "Time": 1,
+  "StartDate": "2011-05-03T00:00:00",
+  "BirthDate": "1954-05-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "15",
+      "Department": "174"
+    }
+  ]
 }

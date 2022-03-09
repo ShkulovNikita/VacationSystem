@@ -1,0 +1,49 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "1260",
+      "FirstName": "Мария",
+      "MiddleName": "Сергеевна",
+      "LastName": "Моисеенко",
+      "Time": 1,
+      "StartDate": "2013-02-20T00:00:00",
+      "BirthDate": "1992-04-08T00:00:00",
+      "Positions": [
+        {
+          "Position": "153",
+          "Department": "204"
+        }
+      ]
+    },
+    {
+      "Id": "1707",
+      "FirstName": "Светлана",
+      "MiddleName": "Сергеевна",
+      "LastName": "Улаева",
+      "Time": 0.5,
+      "StartDate": "1973-08-09T00:00:00",
+      "BirthDate": "1952-07-16T00:00:00",
+      "Positions": [
+        {
+          "Position": "9",
+          "Department": "204"
+        }
+      ]
+    },
+    {
+      "Id": "2823",
+      "FirstName": "Гелена",
+      "MiddleName": "Юрьевна",
+      "LastName": "Макарцева",
+      "Time": 0.5,
+      "StartDate": "2020-02-22T00:00:00",
+      "BirthDate": "1974-05-19T00:00:00",
+      "Positions": [
+        {
+          "Position": "84",
+          "Department": "204"
+        }
+      ]
+    }
+  ]
+}

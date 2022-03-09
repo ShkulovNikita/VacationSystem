@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2261",
-	"FirstName": "Надежда",
-	"MiddleName": "Сергеевна",
-	"LastName": "Зорина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "240",
-			"HeadOfDepartment": false,
-			"Position": "230"
-		}
-	]
+  "Id": "2261",
+  "FirstName": "Надежда",
+  "MiddleName": "Сергеевна",
+  "LastName": "Зорина",
+  "Time": 0.5,
+  "StartDate": "2010-07-13T00:00:00",
+  "BirthDate": "1956-08-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "230",
+      "Department": "240"
+    }
+  ]
 }

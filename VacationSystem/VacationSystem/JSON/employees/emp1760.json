@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1760",
-	"FirstName": "Сергей",
-	"MiddleName": "Васильевич",
-	"LastName": "Ковылин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "0",
-			"HeadOfDepartment": false,
-			"Position": "208"
-		}
-	]
+  "Id": "1760",
+  "FirstName": "Сергей",
+  "MiddleName": "Васильевич",
+  "LastName": "Ковылин",
+  "Time": 0.5,
+  "StartDate": "2014-03-22T00:00:00",
+  "BirthDate": "1992-10-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "208",
+      "Department": "0"
+    }
+  ]
 }

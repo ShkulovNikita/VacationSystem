@@ -1,24 +1,23 @@
 ﻿{
-	"Id": "1049",
-	"FirstName": "Роман",
-	"MiddleName": "Анатольевич",
-	"LastName": "Сурменев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "51",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		},
-		{
-			"Id": "188",
-			"HeadOfDepartment": false,
-			"Position": "41"
-		},
-		{
-			"Id": "188",
-			"HeadOfDepartment": false,
-			"Position": "58"
-		}
-	]
+  "Id": "1049",
+  "FirstName": "Роман",
+  "MiddleName": "Анатольевич",
+  "LastName": "Сурменев",
+  "Time": 2.5,
+  "StartDate": "1988-11-15T00:00:00",
+  "BirthDate": "1965-07-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "51"
+    },
+    {
+      "Position": "41",
+      "Department": "188"
+    },
+    {
+      "Position": "58",
+      "Department": "188"
+    }
+  ]
 }

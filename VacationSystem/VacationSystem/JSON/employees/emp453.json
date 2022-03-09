@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "453",
-	"FirstName": "Владислав",
-	"MiddleName": "Викторович",
-	"LastName": "Жуков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "1",
-			"HeadOfDepartment": false,
-			"Position": "70"
-		}
-	]
+  "Id": "453",
+  "FirstName": "Владислав",
+  "MiddleName": "Викторович",
+  "LastName": "Жуков",
+  "Time": 0.5,
+  "StartDate": "1988-02-10T00:00:00",
+  "BirthDate": "1965-03-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "70",
+      "Department": "1"
+    }
+  ]
 }

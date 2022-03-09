@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1331",
-	"FirstName": "Евгений",
-	"MiddleName": "Анатольевич",
-	"LastName": "Темник",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "62",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "1331",
+  "FirstName": "Евгений",
+  "MiddleName": "Анатольевич",
+  "LastName": "Темник",
+  "Time": 1,
+  "StartDate": "2021-06-13T00:00:00",
+  "BirthDate": "1976-11-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "62"
+    }
+  ]
 }

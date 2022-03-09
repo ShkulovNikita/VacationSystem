@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1896",
-	"FirstName": "Николай",
-	"MiddleName": "Алексеевич",
-	"LastName": "Николаев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "59",
-			"HeadOfDepartment": false,
-			"Position": "78"
-		}
-	]
+  "Id": "1896",
+  "FirstName": "Николай",
+  "MiddleName": "Алексеевич",
+  "LastName": "Николаев",
+  "Time": 1,
+  "StartDate": "2011-10-19T00:00:00",
+  "BirthDate": "1962-12-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "78",
+      "Department": "59"
+    }
+  ]
 }

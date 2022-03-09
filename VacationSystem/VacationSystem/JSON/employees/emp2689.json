@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2689",
-	"FirstName": "Александр",
-	"MiddleName": "Анатольевич",
-	"LastName": "Перов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "231",
-			"HeadOfDepartment": false,
-			"Position": "214"
-		}
-	]
+  "Id": "2689",
+  "FirstName": "Александр",
+  "MiddleName": "Анатольевич",
+  "LastName": "Перов",
+  "Time": 0.5,
+  "StartDate": "2005-11-20T00:00:00",
+  "BirthDate": "1981-12-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "214",
+      "Department": "231"
+    }
+  ]
 }

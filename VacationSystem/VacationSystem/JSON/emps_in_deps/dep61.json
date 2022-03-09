@@ -1,0 +1,109 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "99",
+      "FirstName": "Наталья",
+      "MiddleName": "Андреевна",
+      "LastName": "Войткус",
+      "Time": 1,
+      "StartDate": "2006-07-08T00:00:00",
+      "BirthDate": "1972-01-08T00:00:00",
+      "Positions": [
+        {
+          "Position": "39",
+          "Department": "61"
+        }
+      ]
+    },
+    {
+      "Id": "362",
+      "FirstName": "Елена",
+      "MiddleName": "Анатольевна",
+      "LastName": "Заева",
+      "Time": 0.5,
+      "StartDate": "1990-12-14T00:00:00",
+      "BirthDate": "1956-12-10T00:00:00",
+      "Positions": [
+        {
+          "Position": "10",
+          "Department": "61"
+        }
+      ]
+    },
+    {
+      "Id": "402",
+      "FirstName": "Ольга",
+      "MiddleName": "Николаевна",
+      "LastName": "Жигальская",
+      "Time": 1,
+      "StartDate": "1993-12-10T00:00:00",
+      "BirthDate": "1956-07-10T00:00:00",
+      "Positions": [
+        {
+          "Position": "96",
+          "Department": "61"
+        }
+      ]
+    },
+    {
+      "Id": "853",
+      "FirstName": "Юлия",
+      "MiddleName": "Александровна",
+      "LastName": "Чернышова",
+      "Time": 0.5,
+      "StartDate": "2013-07-15T00:00:00",
+      "BirthDate": "1992-01-21T00:00:00",
+      "Positions": [
+        {
+          "Position": "39",
+          "Department": "61"
+        }
+      ]
+    },
+    {
+      "Id": "2768",
+      "FirstName": "Анна",
+      "MiddleName": "Алексеевна",
+      "LastName": "Поспелова",
+      "Time": 1,
+      "StartDate": "2017-04-05T00:00:00",
+      "BirthDate": "1983-01-12T00:00:00",
+      "Positions": [
+        {
+          "Position": "96",
+          "Department": "61"
+        }
+      ]
+    },
+    {
+      "Id": "2885",
+      "FirstName": "Наталья",
+      "MiddleName": "Сергеевна",
+      "LastName": "Перовская",
+      "Time": 1,
+      "StartDate": "2019-04-22T00:00:00",
+      "BirthDate": "1991-07-24T00:00:00",
+      "Positions": [
+        {
+          "Position": "21",
+          "Department": "61"
+        }
+      ]
+    },
+    {
+      "Id": "3744",
+      "FirstName": "Олеся",
+      "MiddleName": "Николаевна",
+      "LastName": "Болотникова",
+      "Time": 1,
+      "StartDate": "2017-02-21T00:00:00",
+      "BirthDate": "1981-09-12T00:00:00",
+      "Positions": [
+        {
+          "Position": "39",
+          "Department": "61"
+        }
+      ]
+    }
+  ]
+}

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "161",
-	"FirstName": "Марина",
-	"MiddleName": "Владимировна",
-	"LastName": "Гаврилова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "85",
-			"HeadOfDepartment": false,
-			"Position": "55"
-		}
-	]
+  "Id": "161",
+  "FirstName": "Марина",
+  "MiddleName": "Владимировна",
+  "LastName": "Гаврилова",
+  "Time": 1,
+  "StartDate": "2001-04-09T00:00:00",
+  "BirthDate": "1978-07-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "55",
+      "Department": "85"
+    }
+  ]
 }

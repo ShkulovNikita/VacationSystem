@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1398",
-	"FirstName": "Валентина",
-	"MiddleName": "Дмитриевна",
-	"LastName": "Вторушина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "83",
-			"HeadOfDepartment": false,
-			"Position": "172"
-		}
-	]
+  "Id": "1398",
+  "FirstName": "Валентина",
+  "MiddleName": "Дмитриевна",
+  "LastName": "Вторушина",
+  "Time": 0.5,
+  "StartDate": "2008-03-23T00:00:00",
+  "BirthDate": "1981-10-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "172",
+      "Department": "83"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3751",
-	"FirstName": "Раджкумар",
-	"MiddleName": "",
-	"LastName": "Самикканну",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "254",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		}
-	]
+  "Id": "3751",
+  "FirstName": "Раджкумар",
+  "MiddleName": "",
+  "LastName": "Самикканну",
+  "Time": 0.5,
+  "StartDate": "2005-10-05T00:00:00",
+  "BirthDate": "1977-01-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "254"
+    }
+  ]
 }

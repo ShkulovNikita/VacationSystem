@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3780",
-	"FirstName": "Нелли",
-	"MiddleName": "Николаевна",
-	"LastName": "Сайгушева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "33",
-			"HeadOfDepartment": false,
-			"Position": "21"
-		}
-	]
+  "Id": "3780",
+  "FirstName": "Нелли",
+  "MiddleName": "Николаевна",
+  "LastName": "Сайгушева",
+  "Time": 0.5,
+  "StartDate": "2007-04-05T00:00:00",
+  "BirthDate": "1986-02-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "21",
+      "Department": "33"
+    }
+  ]
 }

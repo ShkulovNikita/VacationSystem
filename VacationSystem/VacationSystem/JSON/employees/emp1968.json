@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1968",
-	"FirstName": "Людмила",
-	"MiddleName": "Станиславовна",
-	"LastName": "Сорока",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "36",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1968",
+  "FirstName": "Людмила",
+  "MiddleName": "Станиславовна",
+  "LastName": "Сорока",
+  "Time": 1,
+  "StartDate": "1995-09-04T00:00:00",
+  "BirthDate": "1970-05-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "36"
+    }
+  ]
 }

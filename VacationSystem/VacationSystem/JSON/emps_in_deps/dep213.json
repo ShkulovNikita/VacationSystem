@@ -1,0 +1,79 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "1394",
+      "FirstName": "Юлия",
+      "MiddleName": "Петровна",
+      "LastName": "Николас",
+      "Time": 1,
+      "StartDate": "2015-03-11T00:00:00",
+      "BirthDate": "1953-12-15T00:00:00",
+      "Positions": [
+        {
+          "Position": "10",
+          "Department": "213"
+        }
+      ]
+    },
+    {
+      "Id": "1767",
+      "FirstName": "Анастасия",
+      "MiddleName": "Сергеевна",
+      "LastName": "Корякина",
+      "Time": 0.5,
+      "StartDate": "2004-01-15T00:00:00",
+      "BirthDate": "1975-04-19T00:00:00",
+      "Positions": [
+        {
+          "Position": "209",
+          "Department": "213"
+        }
+      ]
+    },
+    {
+      "Id": "2686",
+      "FirstName": "Алина",
+      "MiddleName": "Владимировна",
+      "LastName": "Боровская",
+      "Time": 1,
+      "StartDate": "1999-08-10T00:00:00",
+      "BirthDate": "1979-08-19T00:00:00",
+      "Positions": [
+        {
+          "Position": "40",
+          "Department": "213"
+        }
+      ]
+    },
+    {
+      "Id": "2787",
+      "FirstName": "Екатерина",
+      "MiddleName": "Андреевна",
+      "LastName": "Тришкина",
+      "Time": 1,
+      "StartDate": "2009-04-01T00:00:00",
+      "BirthDate": "1977-06-14T00:00:00",
+      "Positions": [
+        {
+          "Position": "164",
+          "Department": "213"
+        }
+      ]
+    },
+    {
+      "Id": "3688",
+      "FirstName": "Роман",
+      "MiddleName": "Сергеевич",
+      "LastName": "Дерябин",
+      "Time": 0.5,
+      "StartDate": "2005-11-21T00:00:00",
+      "BirthDate": "1964-10-10T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "213"
+        }
+      ]
+    }
+  ]
+}

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "175",
-	"FirstName": "Анастасия",
-	"MiddleName": "Александровна",
-	"LastName": "Синельник",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "55",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "175",
+  "FirstName": "Анастасия",
+  "MiddleName": "Александровна",
+  "LastName": "Синельник",
+  "Time": 1,
+  "StartDate": "1983-07-17T00:00:00",
+  "BirthDate": "1962-11-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "55"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2009",
-	"FirstName": "Игорь",
-	"MiddleName": "Борисович",
-	"LastName": "Силич",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "20",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "2009",
+  "FirstName": "Игорь",
+  "MiddleName": "Борисович",
+  "LastName": "Силич",
+  "Time": 0.5,
+  "StartDate": "1980-11-03T00:00:00",
+  "BirthDate": "1960-09-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "20"
+    }
+  ]
 }

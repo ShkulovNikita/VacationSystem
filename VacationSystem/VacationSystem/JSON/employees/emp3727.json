@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3727",
-	"FirstName": "Ольга",
-	"MiddleName": "Ивановна",
-	"LastName": "Орешкина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "239",
-			"HeadOfDepartment": false,
-			"Position": "223"
-		}
-	]
+  "Id": "3727",
+  "FirstName": "Ольга",
+  "MiddleName": "Ивановна",
+  "LastName": "Орешкина",
+  "Time": 0.5,
+  "StartDate": "1992-09-12T00:00:00",
+  "BirthDate": "1969-03-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "223",
+      "Department": "239"
+    }
+  ]
 }

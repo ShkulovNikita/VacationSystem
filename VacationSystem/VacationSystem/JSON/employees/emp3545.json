@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3545",
-	"FirstName": "Екатерина",
-	"MiddleName": "Евгеньевна",
-	"LastName": "Петрова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "6",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "3545",
+  "FirstName": "Екатерина",
+  "MiddleName": "Евгеньевна",
+  "LastName": "Петрова",
+  "Time": 1,
+  "StartDate": "2015-01-07T00:00:00",
+  "BirthDate": "1991-12-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "6"
+    }
+  ]
 }

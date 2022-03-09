@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3595",
-	"FirstName": "Надежда",
-	"MiddleName": "Ивановна",
-	"LastName": "Леонова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "96",
-			"HeadOfDepartment": false,
-			"Position": "86"
-		}
-	]
+  "Id": "3595",
+  "FirstName": "Надежда",
+  "MiddleName": "Ивановна",
+  "LastName": "Леонова",
+  "Time": 1,
+  "StartDate": "2015-11-18T00:00:00",
+  "BirthDate": "1967-09-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "86",
+      "Department": "96"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "376",
-	"FirstName": "Владимир",
-	"MiddleName": "Григорьевич",
-	"LastName": "Домашенко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "16",
-			"HeadOfDepartment": false,
-			"Position": "84"
-		}
-	]
+  "Id": "376",
+  "FirstName": "Владимир",
+  "MiddleName": "Григорьевич",
+  "LastName": "Домашенко",
+  "Time": 1,
+  "StartDate": "2011-09-05T00:00:00",
+  "BirthDate": "1973-07-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "84",
+      "Department": "16"
+    }
+  ]
 }

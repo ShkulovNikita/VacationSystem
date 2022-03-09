@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2907",
-	"FirstName": "Инна",
-	"MiddleName": "Петровна",
-	"LastName": "Митяйкина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "103",
-			"HeadOfDepartment": false,
-			"Position": "138"
-		}
-	]
+  "Id": "2907",
+  "FirstName": "Инна",
+  "MiddleName": "Петровна",
+  "LastName": "Митяйкина",
+  "Time": 1,
+  "StartDate": "2009-12-18T00:00:00",
+  "BirthDate": "1965-12-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "138",
+      "Department": "103"
+    }
+  ]
 }

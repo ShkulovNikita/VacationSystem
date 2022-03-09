@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2028",
-	"FirstName": "Владимир",
-	"MiddleName": "Михайлович",
-	"LastName": "Зыков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "160",
-			"HeadOfDepartment": false,
-			"Position": "58"
-		}
-	]
+  "Id": "2028",
+  "FirstName": "Владимир",
+  "MiddleName": "Михайлович",
+  "LastName": "Зыков",
+  "Time": 0.5,
+  "StartDate": "2018-06-11T00:00:00",
+  "BirthDate": "1970-07-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "58",
+      "Department": "160"
+    }
+  ]
 }

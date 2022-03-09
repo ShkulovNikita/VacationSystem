@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1895",
-	"FirstName": "Татьяна",
-	"MiddleName": "Васильевна",
-	"LastName": "Молодцова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "40",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "1895",
+  "FirstName": "Татьяна",
+  "MiddleName": "Васильевна",
+  "LastName": "Молодцова",
+  "Time": 1,
+  "StartDate": "2000-02-09T00:00:00",
+  "BirthDate": "1956-01-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "40"
+    }
+  ]
 }

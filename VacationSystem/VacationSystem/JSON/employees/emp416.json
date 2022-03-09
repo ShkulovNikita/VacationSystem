@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "416",
-	"FirstName": "Марк",
-	"MiddleName": "Давыдович",
-	"LastName": "Кац",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "39",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "416",
+  "FirstName": "Марк",
+  "MiddleName": "Давыдович",
+  "LastName": "Кац",
+  "Time": 1,
+  "StartDate": "2017-11-05T00:00:00",
+  "BirthDate": "1992-05-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "39"
+    }
+  ]
 }

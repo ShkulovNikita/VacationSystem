@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1426",
-	"FirstName": "Алексей",
-	"MiddleName": "Васильевич",
-	"LastName": "Казаков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "158",
-			"HeadOfDepartment": false,
-			"Position": "156"
-		}
-	]
+  "Id": "1426",
+  "FirstName": "Алексей",
+  "MiddleName": "Васильевич",
+  "LastName": "Казаков",
+  "Time": 1,
+  "StartDate": "2016-08-07T00:00:00",
+  "BirthDate": "1993-06-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "156",
+      "Department": "158"
+    }
+  ]
 }

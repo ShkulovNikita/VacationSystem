@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3504",
-	"FirstName": "Дмитрий",
-	"MiddleName": "Витальевич",
-	"LastName": "Егоров",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "74",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "3504",
+  "FirstName": "Дмитрий",
+  "MiddleName": "Витальевич",
+  "LastName": "Егоров",
+  "Time": 0.5,
+  "StartDate": "2002-11-19T00:00:00",
+  "BirthDate": "1979-12-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "74"
+    }
+  ]
 }

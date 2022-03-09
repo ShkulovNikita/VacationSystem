@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2645",
-	"FirstName": "Надежда",
-	"MiddleName": "Викторовна",
-	"LastName": "Даниленко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "221",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		}
-	]
+  "Id": "2645",
+  "FirstName": "Надежда",
+  "MiddleName": "Викторовна",
+  "LastName": "Даниленко",
+  "Time": 1,
+  "StartDate": "1990-06-07T00:00:00",
+  "BirthDate": "1966-01-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "221"
+    }
+  ]
 }

@@ -1,19 +1,15 @@
 ﻿{
-	"Id": "1100",
-	"FirstName": "Эмилия",
-	"MiddleName": "Валерьевна",
-	"LastName": "Плучевская",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "14",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		},
-		{
-			"Id": "14",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1100",
+  "FirstName": "Эмилия",
+  "MiddleName": "Валерьевна",
+  "LastName": "Плучевская",
+  "Time": 1,
+  "StartDate": "2013-01-21T00:00:00",
+  "BirthDate": "1982-09-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "14"
+    }
+  ]
 }

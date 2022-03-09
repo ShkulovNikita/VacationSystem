@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1877",
-	"FirstName": "Родион",
-	"MiddleName": "Алексеевич",
-	"LastName": "Шубин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "215",
-			"HeadOfDepartment": false,
-			"Position": "216"
-		}
-	]
+  "Id": "1877",
+  "FirstName": "Родион",
+  "MiddleName": "Алексеевич",
+  "LastName": "Шубин",
+  "Time": 1,
+  "StartDate": "2011-04-11T00:00:00",
+  "BirthDate": "1984-07-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "216",
+      "Department": "215"
+    }
+  ]
 }

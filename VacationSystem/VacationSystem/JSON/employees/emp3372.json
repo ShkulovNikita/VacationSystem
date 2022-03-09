@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3372",
-	"FirstName": "Иван",
-	"MiddleName": "Алексеевич",
-	"LastName": "Дорошенко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "51",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "3372",
+  "FirstName": "Иван",
+  "MiddleName": "Алексеевич",
+  "LastName": "Дорошенко",
+  "Time": 0.5,
+  "StartDate": "2004-02-18T00:00:00",
+  "BirthDate": "1978-01-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "51"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "470",
-	"FirstName": "Олег",
-	"MiddleName": "Хайдарович",
-	"LastName": "Асаинов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "40",
-			"HeadOfDepartment": false,
-			"Position": "2"
-		}
-	]
+  "Id": "470",
+  "FirstName": "Олег",
+  "MiddleName": "Хайдарович",
+  "LastName": "Асаинов",
+  "Time": 0.5,
+  "StartDate": "2016-01-07T00:00:00",
+  "BirthDate": "1992-03-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "2",
+      "Department": "40"
+    }
+  ]
 }

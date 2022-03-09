@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1503",
-	"FirstName": "Ольга",
-	"MiddleName": "Анатольевна",
-	"LastName": "Глинкина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "91",
-			"HeadOfDepartment": false,
-			"Position": "181"
-		}
-	]
+  "Id": "1503",
+  "FirstName": "Ольга",
+  "MiddleName": "Анатольевна",
+  "LastName": "Глинкина",
+  "Time": 0.5,
+  "StartDate": "2001-08-24T00:00:00",
+  "BirthDate": "1960-11-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "181",
+      "Department": "91"
+    }
+  ]
 }

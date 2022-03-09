@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2126",
-	"FirstName": "Татьяна",
-	"MiddleName": "Петровна",
-	"LastName": "Латыговская",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "3",
-			"HeadOfDepartment": false,
-			"Position": "0"
-		}
-	]
+  "Id": "2126",
+  "FirstName": "Татьяна",
+  "MiddleName": "Петровна",
+  "LastName": "Латыговская",
+  "Time": 0.5,
+  "StartDate": "2004-01-06T00:00:00",
+  "BirthDate": "1980-11-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "0",
+      "Department": "3"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1840",
-	"FirstName": "Радик",
-	"MiddleName": "Эмирханович",
-	"LastName": "Кодермятов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "122",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "1840",
+  "FirstName": "Радик",
+  "MiddleName": "Эмирханович",
+  "LastName": "Кодермятов",
+  "Time": 1,
+  "StartDate": "1998-05-13T00:00:00",
+  "BirthDate": "1974-11-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "122"
+    }
+  ]
 }

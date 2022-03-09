@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "397",
-	"FirstName": "Рауза",
-	"MiddleName": "Хамидовна",
-	"LastName": "Губайдулина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "12",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "397",
+  "FirstName": "Рауза",
+  "MiddleName": "Хамидовна",
+  "LastName": "Губайдулина",
+  "Time": 0.5,
+  "StartDate": "1978-10-19T00:00:00",
+  "BirthDate": "1953-04-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "12"
+    }
+  ]
 }

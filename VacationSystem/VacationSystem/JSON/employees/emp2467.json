@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2467",
-	"FirstName": "Александр",
-	"MiddleName": "Валериевич",
-	"LastName": "Тивоченко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "201",
-			"HeadOfDepartment": false,
-			"Position": "156"
-		}
-	]
+  "Id": "2467",
+  "FirstName": "Александр",
+  "MiddleName": "Валериевич",
+  "LastName": "Тивоченко",
+  "Time": 0.5,
+  "StartDate": "1992-12-09T00:00:00",
+  "BirthDate": "1953-07-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "156",
+      "Department": "201"
+    }
+  ]
 }

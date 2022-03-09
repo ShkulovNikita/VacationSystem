@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1093",
-	"FirstName": "Сергей",
-	"MiddleName": "Анатольевич",
-	"LastName": "Лопаткин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1093",
+  "FirstName": "Сергей",
+  "MiddleName": "Анатольевич",
+  "LastName": "Лопаткин",
+  "Time": 0.5,
+  "StartDate": "2007-04-04T00:00:00",
+  "BirthDate": "1971-03-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "15"
+    }
+  ]
 }

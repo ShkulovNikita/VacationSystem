@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2379",
-	"FirstName": "Ирина",
-	"MiddleName": "Васильевна",
-	"LastName": "Олешко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "29"
-		}
-	]
+  "Id": "2379",
+  "FirstName": "Ирина",
+  "MiddleName": "Васильевна",
+  "LastName": "Олешко",
+  "Time": 1,
+  "StartDate": "2017-09-22T00:00:00",
+  "BirthDate": "1988-01-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "29",
+      "Department": "2"
+    }
+  ]
 }

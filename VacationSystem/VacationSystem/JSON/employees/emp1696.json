@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1696",
-	"FirstName": "Лилия",
-	"MiddleName": "Александровна",
-	"LastName": "Леонова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "17",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1696",
+  "FirstName": "Лилия",
+  "MiddleName": "Александровна",
+  "LastName": "Леонова",
+  "Time": 1,
+  "StartDate": "2002-10-24T00:00:00",
+  "BirthDate": "1971-06-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "17"
+    }
+  ]
 }

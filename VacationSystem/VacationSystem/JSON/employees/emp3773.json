@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3773",
-	"FirstName": "Татьяна",
-	"MiddleName": "Викторовна",
-	"LastName": "Митрофанова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "103",
-			"HeadOfDepartment": false,
-			"Position": "15"
-		}
-	]
+  "Id": "3773",
+  "FirstName": "Татьяна",
+  "MiddleName": "Викторовна",
+  "LastName": "Митрофанова",
+  "Time": 1,
+  "StartDate": "1998-08-16T00:00:00",
+  "BirthDate": "1974-12-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "15",
+      "Department": "103"
+    }
+  ]
 }

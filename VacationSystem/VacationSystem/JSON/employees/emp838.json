@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "838",
-	"FirstName": "Юлия",
-	"MiddleName": "Борисовна",
-	"LastName": "Моржикова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "119",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "838",
+  "FirstName": "Юлия",
+  "MiddleName": "Борисовна",
+  "LastName": "Моржикова",
+  "Time": 0.5,
+  "StartDate": "2000-02-05T00:00:00",
+  "BirthDate": "1954-09-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "119"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "142",
-	"FirstName": "Дмитрий",
-	"MiddleName": "Алексеевич",
-	"LastName": "Завьялов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "6",
-			"HeadOfDepartment": false,
-			"Position": "7"
-		}
-	]
+  "Id": "142",
+  "FirstName": "Дмитрий",
+  "MiddleName": "Алексеевич",
+  "LastName": "Завьялов",
+  "Time": 1,
+  "StartDate": "2007-01-03T00:00:00",
+  "BirthDate": "1982-02-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "7",
+      "Department": "6"
+    }
+  ]
 }

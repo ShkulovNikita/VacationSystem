@@ -1,0 +1,19 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "176",
+      "FirstName": "Алексей",
+      "MiddleName": "Николаевич",
+      "LastName": "Ковынев",
+      "Time": 1,
+      "StartDate": "2012-06-05T00:00:00",
+      "BirthDate": "1973-08-14T00:00:00",
+      "Positions": [
+        {
+          "Position": "58",
+          "Department": "87"
+        }
+      ]
+    }
+  ]
+}

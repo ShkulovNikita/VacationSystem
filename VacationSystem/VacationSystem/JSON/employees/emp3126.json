@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3126",
-	"FirstName": "Александр",
-	"MiddleName": "Константинович",
-	"LastName": "Томилин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "93",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "3126",
+  "FirstName": "Александр",
+  "MiddleName": "Константинович",
+  "LastName": "Томилин",
+  "Time": 1,
+  "StartDate": "2017-12-22T00:00:00",
+  "BirthDate": "1963-12-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "93"
+    }
+  ]
 }

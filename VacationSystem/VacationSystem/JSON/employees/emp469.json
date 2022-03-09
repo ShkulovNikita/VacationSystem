@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "469",
-	"FirstName": "Лилия",
-	"MiddleName": "Ильгизовна",
-	"LastName": "Асадуллина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "0",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "469",
+  "FirstName": "Лилия",
+  "MiddleName": "Ильгизовна",
+  "LastName": "Асадуллина",
+  "Time": 0.5,
+  "StartDate": "2011-12-21T00:00:00",
+  "BirthDate": "1959-07-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "0"
+    }
+  ]
 }

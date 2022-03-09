@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2046",
-	"FirstName": "Антон",
-	"MiddleName": "Николаевич",
-	"LastName": "Созоров",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "138",
-			"HeadOfDepartment": false,
-			"Position": "10"
-		}
-	]
+  "Id": "2046",
+  "FirstName": "Антон",
+  "MiddleName": "Николаевич",
+  "LastName": "Созоров",
+  "Time": 0.5,
+  "StartDate": "2013-07-06T00:00:00",
+  "BirthDate": "1989-10-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "10",
+      "Department": "138"
+    }
+  ]
 }

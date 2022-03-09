@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "713",
-	"FirstName": "Валерий",
-	"MiddleName": "Анатольевич",
-	"LastName": "Пашкин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "25"
-		}
-	]
+  "Id": "713",
+  "FirstName": "Валерий",
+  "MiddleName": "Анатольевич",
+  "LastName": "Пашкин",
+  "Time": 0.5,
+  "StartDate": "1980-07-19T00:00:00",
+  "BirthDate": "1955-04-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "25",
+      "Department": "2"
+    }
+  ]
 }

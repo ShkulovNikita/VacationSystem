@@ -9,49 +9,32 @@ namespace VacationSystem.Models
     /// Сотрудник ТПУ
     /// </summary>
 
-    [Table("employees")]
+    [NotMapped, Table("employees")]
     public class Employee
     {
         [Key, Required, MaxLength(50)]
         public string Id { get; set; }
 
-        /// <summary>
-        /// Имя сотрудника
-        /// </summary>
-        [Required, MaxLength(50)]
+        [NotMapped, MaxLength(150)]
         public string FirstName { get; set; }
 
-        /// <summary>
-        /// Отчество сотрудника
-        /// </summary>
-        [MaxLength(50)]
+        [NotMapped, MaxLength(150)]
         public string MiddleName { get; set; }
 
-        /// <summary>
-        /// Фамилия сотрудника
-        /// </summary>
-        [Required, MaxLength(50)]
+        [NotMapped, MaxLength(150)]
         public string LastName { get; set; }
 
-        /// <summary>
-        /// Дата рождения
-        /// </summary>
-        public string Birthdate { get; set; }
+        [NotMapped]
+        public double Time { get; set; }
 
-        /// <summary>
-        /// Дата начала работы в ТПУ
-        /// </summary>
+        [NotMapped]
         public DateTime StartDate { get; set; }
 
-        /// <summary>
-        /// Является ли данная запись на данный момент действительной
-        /// </summary>
-        public bool IsActive { get; set; } = true;
+        [NotMapped]
+        public DateTime BirthDate { get; set; }
 
-        /// <summary>
-        /// Подразделения, которыми руководит данный сотрудник
-        /// </summary>
-        public List<Department> Departments { get; set; } = new List<Department>();
+        [NotMapped]
+        public PositionInDepartment[] Positions { get; set; }
 
         /// <summary>
         /// Правила для сотрудников, заданные данным руководителем
@@ -125,10 +108,5 @@ namespace VacationSystem.Models
         /// выбора отпуска
         /// </summary>
         public List<IndividualChoicePeriod> IndividualChoicePeriods { get; set; } = new List<IndividualChoicePeriod>();
-
-        /// <summary>
-        /// Должности данного сотрудника в подразделениях
-        /// </summary>
-        public List<EmployeeInDepartment> EmployeeInDepartments { get; set; } = new List<EmployeeInDepartment>();
     }
 }

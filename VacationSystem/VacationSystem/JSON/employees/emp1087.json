@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1087",
-	"FirstName": "Анна",
-	"MiddleName": "Георгиевна",
-	"LastName": "Князева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "1087",
+  "FirstName": "Анна",
+  "MiddleName": "Георгиевна",
+  "LastName": "Князева",
+  "Time": 0.5,
+  "StartDate": "2010-11-08T00:00:00",
+  "BirthDate": "1975-07-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "15"
+    }
+  ]
 }

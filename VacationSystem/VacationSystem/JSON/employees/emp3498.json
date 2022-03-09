@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3498",
-	"FirstName": "Игорь",
-	"MiddleName": "Александрович",
-	"LastName": "Щепёткин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "4",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "3498",
+  "FirstName": "Игорь",
+  "MiddleName": "Александрович",
+  "LastName": "Щепёткин",
+  "Time": 0.5,
+  "StartDate": "1996-02-15T00:00:00",
+  "BirthDate": "1952-04-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "4"
+    }
+  ]
 }

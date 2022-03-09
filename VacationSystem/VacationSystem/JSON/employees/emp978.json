@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "978",
-	"FirstName": "Сергей",
-	"MiddleName": "Владимирович",
-	"LastName": "Романенко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "51",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "978",
+  "FirstName": "Сергей",
+  "MiddleName": "Владимирович",
+  "LastName": "Романенко",
+  "Time": 1,
+  "StartDate": "2019-01-08T00:00:00",
+  "BirthDate": "1966-09-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "51"
+    }
+  ]
 }

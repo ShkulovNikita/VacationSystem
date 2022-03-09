@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1074",
-	"FirstName": "Татьяна",
-	"MiddleName": "Борисовна",
-	"LastName": "Лысунец",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "0",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "1074",
+  "FirstName": "Татьяна",
+  "MiddleName": "Борисовна",
+  "LastName": "Лысунец",
+  "Time": 1,
+  "StartDate": "2020-06-07T00:00:00",
+  "BirthDate": "1991-12-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "0"
+    }
+  ]
 }

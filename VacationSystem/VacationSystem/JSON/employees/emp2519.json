@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2519",
-	"FirstName": "Нина",
-	"MiddleName": "Федоровна",
-	"LastName": "Шувалова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "121",
-			"HeadOfDepartment": false,
-			"Position": "160"
-		}
-	]
+  "Id": "2519",
+  "FirstName": "Нина",
+  "MiddleName": "Федоровна",
+  "LastName": "Шувалова",
+  "Time": 1,
+  "StartDate": "2021-10-14T00:00:00",
+  "BirthDate": "1978-07-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "160",
+      "Department": "121"
+    }
+  ]
 }

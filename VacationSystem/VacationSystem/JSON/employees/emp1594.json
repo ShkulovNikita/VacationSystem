@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1594",
-	"FirstName": "Дмитрий",
-	"MiddleName": "Борисович",
-	"LastName": "Белошков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "59",
-			"HeadOfDepartment": false,
-			"Position": "25"
-		}
-	]
+  "Id": "1594",
+  "FirstName": "Дмитрий",
+  "MiddleName": "Борисович",
+  "LastName": "Белошков",
+  "Time": 1,
+  "StartDate": "2019-07-12T00:00:00",
+  "BirthDate": "1961-12-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "25",
+      "Department": "59"
+    }
+  ]
 }

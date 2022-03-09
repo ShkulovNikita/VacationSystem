@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3670",
-	"FirstName": "Ольга",
-	"MiddleName": "Александровна",
-	"LastName": "Гребенкина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "124",
-			"HeadOfDepartment": false,
-			"Position": "21"
-		}
-	]
+  "Id": "3670",
+  "FirstName": "Ольга",
+  "MiddleName": "Александровна",
+  "LastName": "Гребенкина",
+  "Time": 0.5,
+  "StartDate": "2001-08-24T00:00:00",
+  "BirthDate": "1977-09-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "21",
+      "Department": "124"
+    }
+  ]
 }

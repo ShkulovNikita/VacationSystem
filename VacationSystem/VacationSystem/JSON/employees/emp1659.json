@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1659",
-	"FirstName": "Валентина",
-	"MiddleName": "Михайловна",
-	"LastName": "Мартыновская",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "214",
-			"HeadOfDepartment": false,
-			"Position": "197"
-		}
-	]
+  "Id": "1659",
+  "FirstName": "Валентина",
+  "MiddleName": "Михайловна",
+  "LastName": "Мартыновская",
+  "Time": 0.5,
+  "StartDate": "2011-06-11T00:00:00",
+  "BirthDate": "1971-10-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "197",
+      "Department": "214"
+    }
+  ]
 }

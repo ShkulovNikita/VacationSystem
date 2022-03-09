@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1065",
-	"FirstName": "Станислав",
-	"MiddleName": "Евгеньевич",
-	"LastName": "Луконин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "62",
-			"HeadOfDepartment": false,
-			"Position": "11"
-		}
-	]
+  "Id": "1065",
+  "FirstName": "Станислав",
+  "MiddleName": "Евгеньевич",
+  "LastName": "Луконин",
+  "Time": 0.5,
+  "StartDate": "1976-03-10T00:00:00",
+  "BirthDate": "1953-10-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "11",
+      "Department": "62"
+    }
+  ]
 }

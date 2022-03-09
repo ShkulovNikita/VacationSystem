@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "641",
-	"FirstName": "Владимир",
-	"MiddleName": "Иванович",
-	"LastName": "Корепанов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "641",
+  "FirstName": "Владимир",
+  "MiddleName": "Иванович",
+  "LastName": "Корепанов",
+  "Time": 0.5,
+  "StartDate": "2021-03-23T00:00:00",
+  "BirthDate": "1975-10-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "15"
+    }
+  ]
 }

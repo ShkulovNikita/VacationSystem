@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "834",
-	"FirstName": "Ольга",
-	"MiddleName": "Борисовна",
-	"LastName": "Лобаненко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "71",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		},
-		{
-			"Id": "156",
-			"HeadOfDepartment": false,
-			"Position": "16"
-		}
-	]
+  "Id": "834",
+  "FirstName": "Ольга",
+  "MiddleName": "Борисовна",
+  "LastName": "Лобаненко",
+  "Time": 2,
+  "StartDate": "2010-08-03T00:00:00",
+  "BirthDate": "1973-07-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "71"
+    },
+    {
+      "Position": "16",
+      "Department": "156"
+    }
+  ]
 }

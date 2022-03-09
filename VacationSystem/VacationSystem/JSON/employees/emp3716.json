@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3716",
-	"FirstName": "Гайни",
-	"MiddleName": "",
-	"LastName": "Сейтенова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "36",
-			"HeadOfDepartment": false,
-			"Position": "24"
-		}
-	]
+  "Id": "3716",
+  "FirstName": "Гайни",
+  "MiddleName": "",
+  "LastName": "Сейтенова",
+  "Time": 0.5,
+  "StartDate": "1987-10-15T00:00:00",
+  "BirthDate": "1954-04-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "24",
+      "Department": "36"
+    }
+  ]
 }

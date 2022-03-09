@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1661",
-	"FirstName": "Николай",
-	"MiddleName": "Геннадьевич",
-	"LastName": "Голещихин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "59",
-			"HeadOfDepartment": false,
-			"Position": "37"
-		}
-	]
+  "Id": "1661",
+  "FirstName": "Николай",
+  "MiddleName": "Геннадьевич",
+  "LastName": "Голещихин",
+  "Time": 1,
+  "StartDate": "2012-01-14T00:00:00",
+  "BirthDate": "1992-06-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "37",
+      "Department": "59"
+    }
+  ]
 }

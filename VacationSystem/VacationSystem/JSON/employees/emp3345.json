@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3345",
-	"FirstName": "Екатерина",
-	"MiddleName": "Михайловна",
-	"LastName": "Понкратова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "65",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "3345",
+  "FirstName": "Екатерина",
+  "MiddleName": "Михайловна",
+  "LastName": "Понкратова",
+  "Time": 1,
+  "StartDate": "1990-01-15T00:00:00",
+  "BirthDate": "1970-09-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "65"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "697",
-	"FirstName": "Юлия",
-	"MiddleName": "Юрьевна",
-	"LastName": "Вебер",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "17",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "697",
+  "FirstName": "Юлия",
+  "MiddleName": "Юрьевна",
+  "LastName": "Вебер",
+  "Time": 1,
+  "StartDate": "2018-11-09T00:00:00",
+  "BirthDate": "1955-06-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "17"
+    }
+  ]
 }

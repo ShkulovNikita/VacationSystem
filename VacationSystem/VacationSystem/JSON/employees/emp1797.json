@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1797",
-	"FirstName": "Александр",
-	"MiddleName": "Дмитриевич",
-	"LastName": "Брагин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "26",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		}
-	]
+  "Id": "1797",
+  "FirstName": "Александр",
+  "MiddleName": "Дмитриевич",
+  "LastName": "Брагин",
+  "Time": 0.5,
+  "StartDate": "1999-11-05T00:00:00",
+  "BirthDate": "1969-09-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "26"
+    }
+  ]
 }

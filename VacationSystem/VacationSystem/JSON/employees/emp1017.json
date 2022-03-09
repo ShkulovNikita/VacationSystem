@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1017",
-	"FirstName": "Игорь",
-	"MiddleName": "Александрович",
-	"LastName": "Цехановский",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "52",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1017",
+  "FirstName": "Игорь",
+  "MiddleName": "Александрович",
+  "LastName": "Цехановский",
+  "Time": 1,
+  "StartDate": "2006-03-21T00:00:00",
+  "BirthDate": "1982-03-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "52"
+    }
+  ]
 }

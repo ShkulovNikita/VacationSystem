@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2369",
-	"FirstName": "Елена",
-	"MiddleName": "Васильевна",
-	"LastName": "Светланова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "34",
-			"HeadOfDepartment": false,
-			"Position": "235"
-		}
-	]
+  "Id": "2369",
+  "FirstName": "Елена",
+  "MiddleName": "Васильевна",
+  "LastName": "Светланова",
+  "Time": 1,
+  "StartDate": "1993-11-19T00:00:00",
+  "BirthDate": "1971-10-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "235",
+      "Department": "34"
+    }
+  ]
 }

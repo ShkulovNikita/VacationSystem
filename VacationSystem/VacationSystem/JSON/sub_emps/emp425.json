@@ -1,0 +1,76 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "425",
+      "FirstName": "Эдгар",
+      "MiddleName": "Сергеевич",
+      "LastName": "Двилис",
+      "Time": 1.5,
+      "StartDate": "2010-06-22T00:00:00",
+      "BirthDate": "1966-12-16T00:00:00",
+      "Positions": [
+        {
+          "Position": "13",
+          "Department": "15"
+        },
+        {
+          "Position": "56",
+          "Department": "137"
+        }
+      ]
+    },
+    {
+      "Id": "894",
+      "FirstName": "Валентина",
+      "MiddleName": "Валентиновна",
+      "LastName": "Полисадова",
+      "Time": 1,
+      "StartDate": "2019-03-22T00:00:00",
+      "BirthDate": "1988-07-12T00:00:00",
+      "Positions": [
+        {
+          "Position": "11",
+          "Department": "137"
+        }
+      ]
+    },
+    {
+      "Id": "983",
+      "FirstName": "Олег",
+      "MiddleName": "Леонидович",
+      "LastName": "Хасанов",
+      "Time": 1,
+      "StartDate": "2014-01-20T00:00:00",
+      "BirthDate": "1952-01-16T00:00:00",
+      "Positions": [
+        {
+          "Position": "45",
+          "Department": "137"
+        },
+        {
+          "Position": "13",
+          "Department": "15"
+        }
+      ]
+    },
+    {
+      "Id": "2726",
+      "FirstName": "Олег",
+      "MiddleName": "Сергеевич",
+      "LastName": "Толкачёв",
+      "Time": 1.5,
+      "StartDate": "2010-07-16T00:00:00",
+      "BirthDate": "1985-10-06T00:00:00",
+      "Positions": [
+        {
+          "Position": "24",
+          "Department": "137"
+        },
+        {
+          "Position": "3",
+          "Department": "15"
+        }
+      ]
+    }
+  ]
+}

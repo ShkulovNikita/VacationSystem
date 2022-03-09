@@ -1,0 +1,49 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "2531",
+      "FirstName": "Андрей",
+      "MiddleName": "Алексеевич",
+      "LastName": "Малолетко",
+      "Time": 1,
+      "StartDate": "1998-10-15T00:00:00",
+      "BirthDate": "1955-02-17T00:00:00",
+      "Positions": [
+        {
+          "Position": "64",
+          "Department": "245"
+        }
+      ]
+    },
+    {
+      "Id": "2586",
+      "FirstName": "Татьяна",
+      "MiddleName": "Алексеевна",
+      "LastName": "Матвеева",
+      "Time": 0.5,
+      "StartDate": "2009-08-18T00:00:00",
+      "BirthDate": "1957-10-23T00:00:00",
+      "Positions": [
+        {
+          "Position": "64",
+          "Department": "245"
+        }
+      ]
+    },
+    {
+      "Id": "3750",
+      "FirstName": "Татьяна",
+      "MiddleName": "Викторовна",
+      "LastName": "Кулапина",
+      "Time": 0.5,
+      "StartDate": "2017-12-24T00:00:00",
+      "BirthDate": "1963-01-01T00:00:00",
+      "Positions": [
+        {
+          "Position": "20",
+          "Department": "245"
+        }
+      ]
+    }
+  ]
+}

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3117",
-	"FirstName": "Анастасия",
-	"MiddleName": "Юрьевна",
-	"LastName": "Кайда",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "26",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		}
-	]
+  "Id": "3117",
+  "FirstName": "Анастасия",
+  "MiddleName": "Юрьевна",
+  "LastName": "Кайда",
+  "Time": 1,
+  "StartDate": "1987-07-11T00:00:00",
+  "BirthDate": "1962-12-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "26"
+    }
+  ]
 }

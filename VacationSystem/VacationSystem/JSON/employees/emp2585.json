@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2585",
-	"FirstName": "Тамара",
-	"MiddleName": "Михайловна",
-	"LastName": "Будовская",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "121",
-			"HeadOfDepartment": false,
-			"Position": "160"
-		}
-	]
+  "Id": "2585",
+  "FirstName": "Тамара",
+  "MiddleName": "Михайловна",
+  "LastName": "Будовская",
+  "Time": 0.5,
+  "StartDate": "2003-11-01T00:00:00",
+  "BirthDate": "1981-10-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "160",
+      "Department": "121"
+    }
+  ]
 }

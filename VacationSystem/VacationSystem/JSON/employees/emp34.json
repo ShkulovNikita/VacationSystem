@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "34",
-	"FirstName": "Александр",
-	"MiddleName": "Сергеевич",
-	"LastName": "Сафьянов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "16",
-			"HeadOfDepartment": false,
-			"Position": "16"
-		}
-	]
+  "Id": "34",
+  "FirstName": "Александр",
+  "MiddleName": "Сергеевич",
+  "LastName": "Сафьянов",
+  "Time": 0.5,
+  "StartDate": "2015-10-20T00:00:00",
+  "BirthDate": "1981-05-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "16",
+      "Department": "16"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3371",
-	"FirstName": "Сергей",
-	"MiddleName": "Михайлович",
-	"LastName": "Захаренко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "66",
-			"HeadOfDepartment": false,
-			"Position": "256"
-		}
-	]
+  "Id": "3371",
+  "FirstName": "Сергей",
+  "MiddleName": "Михайлович",
+  "LastName": "Захаренко",
+  "Time": 1,
+  "StartDate": "2005-07-19T00:00:00",
+  "BirthDate": "1984-02-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "256",
+      "Department": "66"
+    }
+  ]
 }

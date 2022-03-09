@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1792",
-	"FirstName": "Яна",
-	"MiddleName": "Александровна",
-	"LastName": "Рогиня",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "63",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "1792",
+  "FirstName": "Яна",
+  "MiddleName": "Александровна",
+  "LastName": "Рогиня",
+  "Time": 1,
+  "StartDate": "2011-10-06T00:00:00",
+  "BirthDate": "1982-04-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "63"
+    }
+  ]
 }

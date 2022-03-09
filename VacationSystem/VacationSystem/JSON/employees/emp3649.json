@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3649",
-	"FirstName": "Алексей",
-	"MiddleName": "Викторович",
-	"LastName": "Пестерев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "212",
-			"HeadOfDepartment": false,
-			"Position": "24"
-		}
-	]
+  "Id": "3649",
+  "FirstName": "Алексей",
+  "MiddleName": "Викторович",
+  "LastName": "Пестерев",
+  "Time": 0.5,
+  "StartDate": "2007-04-24T00:00:00",
+  "BirthDate": "1979-12-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "24",
+      "Department": "212"
+    }
+  ]
 }

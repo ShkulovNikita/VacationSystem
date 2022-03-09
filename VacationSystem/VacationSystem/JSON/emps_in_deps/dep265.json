@@ -1,0 +1,49 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "3276",
+      "FirstName": "Светлана",
+      "MiddleName": "Владимировна",
+      "LastName": "Лукиных",
+      "Time": 0.5,
+      "StartDate": "2019-01-02T00:00:00",
+      "BirthDate": "1992-07-11T00:00:00",
+      "Positions": [
+        {
+          "Position": "267",
+          "Department": "265"
+        }
+      ]
+    },
+    {
+      "Id": "3327",
+      "FirstName": "Александр",
+      "MiddleName": "Григорьевич",
+      "LastName": "Чернявский",
+      "Time": 1,
+      "StartDate": "2017-10-01T00:00:00",
+      "BirthDate": "1961-12-03T00:00:00",
+      "Positions": [
+        {
+          "Position": "274",
+          "Department": "265"
+        }
+      ]
+    },
+    {
+      "Id": "3725",
+      "FirstName": "Владислав",
+      "MiddleName": "Александрович",
+      "LastName": "Чернов",
+      "Time": 1,
+      "StartDate": "2002-11-03T00:00:00",
+      "BirthDate": "1957-04-15T00:00:00",
+      "Positions": [
+        {
+          "Position": "292",
+          "Department": "265"
+        }
+      ]
+    }
+  ]
+}

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1292",
-	"FirstName": "Дмитрий",
-	"MiddleName": "Сергеевич",
-	"LastName": "Деев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "66",
-			"HeadOfDepartment": false,
-			"Position": "164"
-		}
-	]
+  "Id": "1292",
+  "FirstName": "Дмитрий",
+  "MiddleName": "Сергеевич",
+  "LastName": "Деев",
+  "Time": 0.5,
+  "StartDate": "2011-02-14T00:00:00",
+  "BirthDate": "1988-05-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "164",
+      "Department": "66"
+    }
+  ]
 }

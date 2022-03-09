@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3147",
-	"FirstName": "Ольга",
-	"MiddleName": "Алексеевна",
-	"LastName": "Антоневич",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "93",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "3147",
+  "FirstName": "Ольга",
+  "MiddleName": "Алексеевна",
+  "LastName": "Антоневич",
+  "Time": 1,
+  "StartDate": "2018-05-03T00:00:00",
+  "BirthDate": "1972-08-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "93"
+    }
+  ]
 }

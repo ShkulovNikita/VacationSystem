@@ -1,0 +1,10 @@
+﻿{
+  "Departments": [
+    {
+      "Id": "20",
+      "Name": "Издательство ТПУ",
+      "Head": "1286",
+      "HeadDepartment": "265"
+    }
+  ]
+}

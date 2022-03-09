@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2054",
-	"FirstName": "Павел",
-	"MiddleName": "Алексеевич",
-	"LastName": "Костюнин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "68",
-			"HeadOfDepartment": false,
-			"Position": "81"
-		}
-	]
+  "Id": "2054",
+  "FirstName": "Павел",
+  "MiddleName": "Алексеевич",
+  "LastName": "Костюнин",
+  "Time": 1,
+  "StartDate": "1983-01-09T00:00:00",
+  "BirthDate": "1952-12-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "81",
+      "Department": "68"
+    }
+  ]
 }

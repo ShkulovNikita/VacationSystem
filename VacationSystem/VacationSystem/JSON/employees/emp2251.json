@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2251",
-	"FirstName": "Инна",
-	"MiddleName": "Викторовна",
-	"LastName": "Григорьева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "34",
-			"HeadOfDepartment": false,
-			"Position": "229"
-		}
-	]
+  "Id": "2251",
+  "FirstName": "Инна",
+  "MiddleName": "Викторовна",
+  "LastName": "Григорьева",
+  "Time": 0.5,
+  "StartDate": "2008-07-23T00:00:00",
+  "BirthDate": "1960-06-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "229",
+      "Department": "34"
+    }
+  ]
 }

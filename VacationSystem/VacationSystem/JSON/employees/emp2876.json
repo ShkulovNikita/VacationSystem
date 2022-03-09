@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2876",
-	"FirstName": "Геннадий",
-	"MiddleName": "Эрнстович",
-	"LastName": "Гожин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "50",
-			"HeadOfDepartment": false,
-			"Position": "88"
-		}
-	]
+  "Id": "2876",
+  "FirstName": "Геннадий",
+  "MiddleName": "Эрнстович",
+  "LastName": "Гожин",
+  "Time": 1,
+  "StartDate": "1985-04-10T00:00:00",
+  "BirthDate": "1953-12-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "88",
+      "Department": "50"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2849",
-	"FirstName": "Илья",
-	"MiddleName": "",
-	"LastName": "Богданов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "36",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		}
-	]
+  "Id": "2849",
+  "FirstName": "Илья",
+  "MiddleName": "",
+  "LastName": "Богданов",
+  "Time": 0.5,
+  "StartDate": "2005-01-15T00:00:00",
+  "BirthDate": "1964-11-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "36"
+    }
+  ]
 }

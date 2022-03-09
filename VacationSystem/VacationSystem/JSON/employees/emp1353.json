@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1353",
-	"FirstName": "Мария",
-	"MiddleName": "Николаевна",
-	"LastName": "Южанина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "91",
-			"HeadOfDepartment": false,
-			"Position": "167"
-		}
-	]
+  "Id": "1353",
+  "FirstName": "Мария",
+  "MiddleName": "Николаевна",
+  "LastName": "Южанина",
+  "Time": 0.5,
+  "StartDate": "1990-04-18T00:00:00",
+  "BirthDate": "1961-08-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "167",
+      "Department": "91"
+    }
+  ]
 }

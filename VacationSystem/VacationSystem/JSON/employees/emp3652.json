@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3652",
-	"FirstName": "Татьяна",
-	"MiddleName": "Михайловна",
-	"LastName": "Жукова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "215",
-			"HeadOfDepartment": false,
-			"Position": "15"
-		}
-	]
+  "Id": "3652",
+  "FirstName": "Татьяна",
+  "MiddleName": "Михайловна",
+  "LastName": "Жукова",
+  "Time": 0.5,
+  "StartDate": "2015-10-08T00:00:00",
+  "BirthDate": "1988-11-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "15",
+      "Department": "215"
+    }
+  ]
 }

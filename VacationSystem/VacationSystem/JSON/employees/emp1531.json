@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1531",
-	"FirstName": "Олег",
-	"MiddleName": "Олегович",
-	"LastName": "Золотов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "170",
-			"HeadOfDepartment": false,
-			"Position": "185"
-		}
-	]
+  "Id": "1531",
+  "FirstName": "Олег",
+  "MiddleName": "Олегович",
+  "LastName": "Золотов",
+  "Time": 1,
+  "StartDate": "2009-10-11T00:00:00",
+  "BirthDate": "1989-12-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "185",
+      "Department": "170"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3332",
-	"FirstName": "Павел",
-	"MiddleName": "Александрович",
-	"LastName": "Потапов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "134",
-			"HeadOfDepartment": false,
-			"Position": "157"
-		}
-	]
+  "Id": "3332",
+  "FirstName": "Павел",
+  "MiddleName": "Александрович",
+  "LastName": "Потапов",
+  "Time": 1,
+  "StartDate": "1990-05-01T00:00:00",
+  "BirthDate": "1965-09-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "157",
+      "Department": "134"
+    }
+  ]
 }

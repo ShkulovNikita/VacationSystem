@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3723",
-	"FirstName": "Николай",
-	"MiddleName": "Сергеевич",
-	"LastName": "Евсеев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "46",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "3723",
+  "FirstName": "Николай",
+  "MiddleName": "Сергеевич",
+  "LastName": "Евсеев",
+  "Time": 1,
+  "StartDate": "1991-01-11T00:00:00",
+  "BirthDate": "1970-03-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "46"
+    }
+  ]
 }

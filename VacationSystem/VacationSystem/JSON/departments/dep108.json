@@ -1,6 +1,6 @@
 ﻿{
-	"Id": "108",
-	"Name": "1 корпус",
-	"Head": "",
-	"HeadDepID": "38"
+  "Id": "108",
+  "Name": "1 корпус",
+  "Head": "276",
+  "HeadDepartment": "38"
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2724",
-	"FirstName": "Степан",
-	"MiddleName": "Игоревич",
-	"LastName": "Скрипко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "8",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		}
-	]
+  "Id": "2724",
+  "FirstName": "Степан",
+  "MiddleName": "Игоревич",
+  "LastName": "Скрипко",
+  "Time": 1,
+  "StartDate": "2016-03-06T00:00:00",
+  "BirthDate": "1979-01-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "8"
+    }
+  ]
 }

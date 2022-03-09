@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1082",
-	"FirstName": "Андрей",
-	"MiddleName": "Михайлович",
-	"LastName": "Петелин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "20",
-			"HeadOfDepartment": false,
-			"Position": "45"
-		}
-	]
+  "Id": "1082",
+  "FirstName": "Андрей",
+  "MiddleName": "Михайлович",
+  "LastName": "Петелин",
+  "Time": 0.5,
+  "StartDate": "1997-04-18T00:00:00",
+  "BirthDate": "1972-11-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "45",
+      "Department": "20"
+    }
+  ]
 }

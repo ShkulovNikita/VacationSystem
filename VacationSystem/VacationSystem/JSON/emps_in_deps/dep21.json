@@ -1,0 +1,49 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "23",
+      "FirstName": "Наталья",
+      "MiddleName": "Юрьевна",
+      "LastName": "Новикова",
+      "Time": 0.5,
+      "StartDate": "2020-10-10T00:00:00",
+      "BirthDate": "1965-01-24T00:00:00",
+      "Positions": [
+        {
+          "Position": "14",
+          "Department": "21"
+        }
+      ]
+    },
+    {
+      "Id": "783",
+      "FirstName": "Зоя",
+      "MiddleName": "Михайловна",
+      "LastName": "Шубина",
+      "Time": 0.5,
+      "StartDate": "2010-10-13T00:00:00",
+      "BirthDate": "1972-09-24T00:00:00",
+      "Positions": [
+        {
+          "Position": "106",
+          "Department": "21"
+        }
+      ]
+    },
+    {
+      "Id": "2152",
+      "FirstName": "Валентина",
+      "MiddleName": "Сергеевна",
+      "LastName": "Тумайкина",
+      "Time": 1,
+      "StartDate": "2010-03-15T00:00:00",
+      "BirthDate": "1975-08-18T00:00:00",
+      "Positions": [
+        {
+          "Position": "64",
+          "Department": "21"
+        }
+      ]
+    }
+  ]
+}

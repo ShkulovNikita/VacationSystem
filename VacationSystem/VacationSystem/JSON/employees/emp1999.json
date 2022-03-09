@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1999",
-	"FirstName": "Юрий",
-	"MiddleName": "Викторович",
-	"LastName": "Бородин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "57",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1999",
+  "FirstName": "Юрий",
+  "MiddleName": "Викторович",
+  "LastName": "Бородин",
+  "Time": 1,
+  "StartDate": "1986-08-01T00:00:00",
+  "BirthDate": "1961-04-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "57"
+    }
+  ]
 }

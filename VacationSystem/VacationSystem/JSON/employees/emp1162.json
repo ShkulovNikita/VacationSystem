@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1162",
-	"FirstName": "Николай",
-	"MiddleName": "Вячеславович",
-	"LastName": "Гончаров",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "46",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1162",
+  "FirstName": "Николай",
+  "MiddleName": "Вячеславович",
+  "LastName": "Гончаров",
+  "Time": 0.5,
+  "StartDate": "2020-03-03T00:00:00",
+  "BirthDate": "1976-07-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "46"
+    }
+  ]
 }

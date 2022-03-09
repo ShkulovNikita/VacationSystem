@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "129",
-	"FirstName": "Антон",
-	"MiddleName": "Викторович",
-	"LastName": "Прохоров",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "19",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "129",
+  "FirstName": "Антон",
+  "MiddleName": "Викторович",
+  "LastName": "Прохоров",
+  "Time": 1,
+  "StartDate": "2006-05-01T00:00:00",
+  "BirthDate": "1959-06-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "19"
+    }
+  ]
 }

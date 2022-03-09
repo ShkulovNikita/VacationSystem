@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1220",
-	"FirstName": "Елена",
-	"MiddleName": "Аркадьевна",
-	"LastName": "Попко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "103",
-			"HeadOfDepartment": false,
-			"Position": "45"
-		}
-	]
+  "Id": "1220",
+  "FirstName": "Елена",
+  "MiddleName": "Аркадьевна",
+  "LastName": "Попко",
+  "Time": 0.5,
+  "StartDate": "2016-04-07T00:00:00",
+  "BirthDate": "1985-04-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "45",
+      "Department": "103"
+    }
+  ]
 }

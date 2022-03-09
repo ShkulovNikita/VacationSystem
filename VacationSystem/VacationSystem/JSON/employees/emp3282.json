@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "3282",
-	"FirstName": "Валентин",
-	"MiddleName": "",
-	"LastName": "Генцельман",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "78",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		},
-		{
-			"Id": "78",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "3282",
+  "FirstName": "Валентин",
+  "MiddleName": "",
+  "LastName": "Генцельман",
+  "Time": 2,
+  "StartDate": "2011-01-13T00:00:00",
+  "BirthDate": "1984-01-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "78"
+    },
+    {
+      "Position": "3",
+      "Department": "78"
+    }
+  ]
 }

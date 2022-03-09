@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1255",
-	"FirstName": "Юлия",
-	"MiddleName": "Викторовна",
-	"LastName": "Боброва",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "10",
-			"HeadOfDepartment": false,
-			"Position": "7"
-		}
-	]
+  "Id": "1255",
+  "FirstName": "Юлия",
+  "MiddleName": "Викторовна",
+  "LastName": "Боброва",
+  "Time": 1,
+  "StartDate": "2018-02-09T00:00:00",
+  "BirthDate": "1992-12-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "7",
+      "Department": "10"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2198",
-	"FirstName": "Наталья",
-	"MiddleName": "Александровна",
-	"LastName": "Зимина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "0"
-		}
-	]
+  "Id": "2198",
+  "FirstName": "Наталья",
+  "MiddleName": "Александровна",
+  "LastName": "Зимина",
+  "Time": 0.5,
+  "StartDate": "2018-06-11T00:00:00",
+  "BirthDate": "1972-07-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "0",
+      "Department": "2"
+    }
+  ]
 }

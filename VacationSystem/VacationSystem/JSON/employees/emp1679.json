@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1679",
-	"FirstName": "Ирина",
-	"MiddleName": "Сергеевна",
-	"LastName": "Антонова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "14",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1679",
+  "FirstName": "Ирина",
+  "MiddleName": "Сергеевна",
+  "LastName": "Антонова",
+  "Time": 1,
+  "StartDate": "2011-11-12T00:00:00",
+  "BirthDate": "1983-06-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "14"
+    }
+  ]
 }

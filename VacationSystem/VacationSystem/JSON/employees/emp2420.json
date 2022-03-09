@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2420",
-	"FirstName": "Евгений",
-	"MiddleName": "Вячеславович",
-	"LastName": "Пугачев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "5",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		}
-	]
+  "Id": "2420",
+  "FirstName": "Евгений",
+  "MiddleName": "Вячеславович",
+  "LastName": "Пугачев",
+  "Time": 0.5,
+  "StartDate": "2003-11-21T00:00:00",
+  "BirthDate": "1973-05-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "5"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3219",
-	"FirstName": "Наталья",
-	"MiddleName": "Анатольевна",
-	"LastName": "Милюченко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "9",
-			"HeadOfDepartment": false,
-			"Position": "18"
-		}
-	]
+  "Id": "3219",
+  "FirstName": "Наталья",
+  "MiddleName": "Анатольевна",
+  "LastName": "Милюченко",
+  "Time": 0.5,
+  "StartDate": "2015-03-12T00:00:00",
+  "BirthDate": "1983-04-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "18",
+      "Department": "9"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "158",
-	"FirstName": "Павел",
-	"MiddleName": "Александрович",
-	"LastName": "Стрижак",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "39",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "158",
+  "FirstName": "Павел",
+  "MiddleName": "Александрович",
+  "LastName": "Стрижак",
+  "Time": 0.5,
+  "StartDate": "2018-11-09T00:00:00",
+  "BirthDate": "1973-10-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "39"
+    }
+  ]
 }

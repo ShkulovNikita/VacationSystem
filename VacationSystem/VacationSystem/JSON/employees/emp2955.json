@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2955",
-	"FirstName": "Владимир",
-	"MiddleName": "Григорьевич",
-	"LastName": "Любарец",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "30",
-			"HeadOfDepartment": false,
-			"Position": "254"
-		}
-	]
+  "Id": "2955",
+  "FirstName": "Владимир",
+  "MiddleName": "Григорьевич",
+  "LastName": "Любарец",
+  "Time": 0.5,
+  "StartDate": "2014-02-07T00:00:00",
+  "BirthDate": "1969-12-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "254",
+      "Department": "30"
+    }
+  ]
 }

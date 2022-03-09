@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "589",
-	"FirstName": "Василий",
-	"MiddleName": "Владимирович",
-	"LastName": "Василиненко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "47",
-			"HeadOfDepartment": false,
-			"Position": "30"
-		}
-	]
+  "Id": "589",
+  "FirstName": "Василий",
+  "MiddleName": "Владимирович",
+  "LastName": "Василиненко",
+  "Time": 0.5,
+  "StartDate": "2003-12-24T00:00:00",
+  "BirthDate": "1982-11-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "30",
+      "Department": "47"
+    }
+  ]
 }

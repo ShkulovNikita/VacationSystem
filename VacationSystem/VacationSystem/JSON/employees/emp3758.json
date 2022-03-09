@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3758",
-	"FirstName": "Кристина",
-	"MiddleName": "Олеговна",
-	"LastName": "Димова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "54",
-			"HeadOfDepartment": false,
-			"Position": "33"
-		}
-	]
+  "Id": "3758",
+  "FirstName": "Кристина",
+  "MiddleName": "Олеговна",
+  "LastName": "Димова",
+  "Time": 1,
+  "StartDate": "2000-11-20T00:00:00",
+  "BirthDate": "1976-08-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "33",
+      "Department": "54"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "558",
-	"FirstName": "Татьяна",
-	"MiddleName": "Сергеевна",
-	"LastName": "Коврижных",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "56",
-			"HeadOfDepartment": false,
-			"Position": "70"
-		}
-	]
+  "Id": "558",
+  "FirstName": "Татьяна",
+  "MiddleName": "Сергеевна",
+  "LastName": "Коврижных",
+  "Time": 1,
+  "StartDate": "2019-02-08T00:00:00",
+  "BirthDate": "1968-05-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "70",
+      "Department": "56"
+    }
+  ]
 }

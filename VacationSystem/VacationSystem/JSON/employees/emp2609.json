@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2609",
-	"FirstName": "Евгений",
-	"MiddleName": "Дмитриевич",
-	"LastName": "Замятин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "136",
-			"HeadOfDepartment": false,
-			"Position": "79"
-		}
-	]
+  "Id": "2609",
+  "FirstName": "Евгений",
+  "MiddleName": "Дмитриевич",
+  "LastName": "Замятин",
+  "Time": 0.5,
+  "StartDate": "2006-07-08T00:00:00",
+  "BirthDate": "1980-06-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "79",
+      "Department": "136"
+    }
+  ]
 }

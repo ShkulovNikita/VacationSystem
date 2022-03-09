@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2495",
-	"FirstName": "Дарья",
-	"MiddleName": "Александровна",
-	"LastName": "Дерусова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "216",
-			"HeadOfDepartment": false,
-			"Position": "56"
-		}
-	]
+  "Id": "2495",
+  "FirstName": "Дарья",
+  "MiddleName": "Александровна",
+  "LastName": "Дерусова",
+  "Time": 0.5,
+  "StartDate": "1996-12-24T00:00:00",
+  "BirthDate": "1965-12-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "56",
+      "Department": "216"
+    }
+  ]
 }

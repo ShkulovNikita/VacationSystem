@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3051",
-	"FirstName": "Армен",
-	"MiddleName": "Альбертович",
-	"LastName": "Григорян",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "50",
-			"HeadOfDepartment": false,
-			"Position": "88"
-		}
-	]
+  "Id": "3051",
+  "FirstName": "Армен",
+  "MiddleName": "Альбертович",
+  "LastName": "Григорян",
+  "Time": 0.5,
+  "StartDate": "2014-08-11T00:00:00",
+  "BirthDate": "1993-12-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "88",
+      "Department": "50"
+    }
+  ]
 }

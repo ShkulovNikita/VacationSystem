@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "144",
-	"FirstName": "Александр",
-	"MiddleName": "Павлович",
-	"LastName": "Шестак",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "78",
-			"HeadOfDepartment": false,
-			"Position": "24"
-		}
-	]
+  "Id": "144",
+  "FirstName": "Александр",
+  "MiddleName": "Павлович",
+  "LastName": "Шестак",
+  "Time": 1,
+  "StartDate": "2019-05-21T00:00:00",
+  "BirthDate": "1990-04-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "24",
+      "Department": "78"
+    }
+  ]
 }

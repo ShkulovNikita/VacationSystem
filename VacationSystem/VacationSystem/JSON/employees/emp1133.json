@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1133",
-	"FirstName": "Олег",
-	"MiddleName": "Владимирович",
-	"LastName": "Манишев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "49",
-			"HeadOfDepartment": false,
-			"Position": "102"
-		}
-	]
+  "Id": "1133",
+  "FirstName": "Олег",
+  "MiddleName": "Владимирович",
+  "LastName": "Манишев",
+  "Time": 1,
+  "StartDate": "2016-09-24T00:00:00",
+  "BirthDate": "1993-02-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "102",
+      "Department": "49"
+    }
+  ]
 }

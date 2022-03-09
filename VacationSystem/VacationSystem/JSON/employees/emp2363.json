@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2363",
-	"FirstName": "Ольга",
-	"MiddleName": "Владимировна",
-	"LastName": "Коваленко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "172",
-			"HeadOfDepartment": false,
-			"Position": "75"
-		}
-	]
+  "Id": "2363",
+  "FirstName": "Ольга",
+  "MiddleName": "Владимировна",
+  "LastName": "Коваленко",
+  "Time": 1,
+  "StartDate": "2017-05-10T00:00:00",
+  "BirthDate": "1991-07-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "75",
+      "Department": "172"
+    }
+  ]
 }

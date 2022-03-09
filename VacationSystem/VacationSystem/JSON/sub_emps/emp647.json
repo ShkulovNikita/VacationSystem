@@ -1,0 +1,27 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "647",
+      "FirstName": "Роман",
+      "MiddleName": "Вячеславович",
+      "LastName": "Оствальд",
+      "Time": 2.5,
+      "StartDate": "2013-07-16T00:00:00",
+      "BirthDate": "1988-07-08T00:00:00",
+      "Positions": [
+        {
+          "Position": "41",
+          "Department": "102"
+        },
+        {
+          "Position": "120",
+          "Department": "164"
+        },
+        {
+          "Position": "1",
+          "Department": "17"
+        }
+      ]
+    }
+  ]
+}

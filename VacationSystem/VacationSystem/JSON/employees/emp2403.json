@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2403",
-	"FirstName": "Наталья",
-	"MiddleName": "Владимировна",
-	"LastName": "Козлова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "126",
-			"HeadOfDepartment": false,
-			"Position": "65"
-		}
-	]
+  "Id": "2403",
+  "FirstName": "Наталья",
+  "MiddleName": "Владимировна",
+  "LastName": "Козлова",
+  "Time": 0.5,
+  "StartDate": "1995-01-15T00:00:00",
+  "BirthDate": "1975-11-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "65",
+      "Department": "126"
+    }
+  ]
 }

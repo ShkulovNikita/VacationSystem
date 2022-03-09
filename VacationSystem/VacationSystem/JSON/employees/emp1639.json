@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1639",
-	"FirstName": "Галина",
-	"MiddleName": "Петровна",
-	"LastName": "Поздеева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "0",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1639",
+  "FirstName": "Галина",
+  "MiddleName": "Петровна",
+  "LastName": "Поздеева",
+  "Time": 0.5,
+  "StartDate": "2016-05-24T00:00:00",
+  "BirthDate": "1976-02-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "0"
+    }
+  ]
 }

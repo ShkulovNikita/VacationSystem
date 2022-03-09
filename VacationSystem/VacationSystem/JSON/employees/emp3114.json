@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3114",
-	"FirstName": "Наталья",
-	"MiddleName": "Валерьевна",
-	"LastName": "Асеева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "36",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "3114",
+  "FirstName": "Наталья",
+  "MiddleName": "Валерьевна",
+  "LastName": "Асеева",
+  "Time": 0.5,
+  "StartDate": "2010-09-07T00:00:00",
+  "BirthDate": "1974-11-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "36"
+    }
+  ]
 }

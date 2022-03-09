@@ -1,0 +1,49 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "1599",
+      "FirstName": "Михаил",
+      "MiddleName": "Николаевич",
+      "LastName": "Аникин",
+      "Time": 1,
+      "StartDate": "2010-05-15T00:00:00",
+      "BirthDate": "1973-12-07T00:00:00",
+      "Positions": [
+        {
+          "Position": "35",
+          "Department": "223"
+        }
+      ]
+    },
+    {
+      "Id": "3302",
+      "FirstName": "Никита",
+      "MiddleName": "Викторович",
+      "LastName": "Смольников",
+      "Time": 1,
+      "StartDate": "2020-09-24T00:00:00",
+      "BirthDate": "1960-05-07T00:00:00",
+      "Positions": [
+        {
+          "Position": "272",
+          "Department": "223"
+        }
+      ]
+    },
+    {
+      "Id": "3422",
+      "FirstName": "Ирина",
+      "MiddleName": "Валерьевна",
+      "LastName": "Давтян",
+      "Time": 0.5,
+      "StartDate": "2019-06-05T00:00:00",
+      "BirthDate": "1987-05-23T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "223"
+        }
+      ]
+    }
+  ]
+}

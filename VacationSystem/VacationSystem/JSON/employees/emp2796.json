@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2796",
-	"FirstName": "Андрей",
-	"MiddleName": "",
-	"LastName": "Коломейцев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "8",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "2796",
+  "FirstName": "Андрей",
+  "MiddleName": "",
+  "LastName": "Коломейцев",
+  "Time": 0.5,
+  "StartDate": "2008-09-05T00:00:00",
+  "BirthDate": "1987-09-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "8"
+    }
+  ]
 }

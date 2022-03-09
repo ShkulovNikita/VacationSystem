@@ -1,0 +1,34 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "217",
+      "FirstName": "Татьяна",
+      "MiddleName": "Викторовна",
+      "LastName": "Смолина",
+      "Time": 1,
+      "StartDate": "2020-08-08T00:00:00",
+      "BirthDate": "1990-02-10T00:00:00",
+      "Positions": [
+        {
+          "Position": "20",
+          "Department": "95"
+        }
+      ]
+    },
+    {
+      "Id": "1637",
+      "FirstName": "Валерий",
+      "MiddleName": "Юрьевич",
+      "LastName": "Лисичко",
+      "Time": 0.5,
+      "StartDate": "2016-10-07T00:00:00",
+      "BirthDate": "1966-06-24T00:00:00",
+      "Positions": [
+        {
+          "Position": "64",
+          "Department": "95"
+        }
+      ]
+    }
+  ]
+}

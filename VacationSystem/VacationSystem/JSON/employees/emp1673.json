@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1673",
-	"FirstName": "Алексей",
-	"MiddleName": "Иванович",
-	"LastName": "Мазеин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "7"
-		}
-	]
+  "Id": "1673",
+  "FirstName": "Алексей",
+  "MiddleName": "Иванович",
+  "LastName": "Мазеин",
+  "Time": 1,
+  "StartDate": "2013-09-15T00:00:00",
+  "BirthDate": "1987-06-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "7",
+      "Department": "2"
+    }
+  ]
 }

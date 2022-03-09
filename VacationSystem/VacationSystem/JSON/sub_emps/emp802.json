@@ -1,0 +1,124 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "428",
+      "FirstName": "Галина",
+      "MiddleName": "Алексеевна",
+      "LastName": "Гречнева",
+      "Time": 1,
+      "StartDate": "2012-07-04T00:00:00",
+      "BirthDate": "1956-10-22T00:00:00",
+      "Positions": [
+        {
+          "Position": "25",
+          "Department": "138"
+        }
+      ]
+    },
+    {
+      "Id": "755",
+      "FirstName": "Михаил",
+      "MiddleName": "Владимирович",
+      "LastName": "Пермяков",
+      "Time": 0.5,
+      "StartDate": "2014-03-13T00:00:00",
+      "BirthDate": "1976-04-14T00:00:00",
+      "Positions": [
+        {
+          "Position": "53",
+          "Department": "138"
+        }
+      ]
+    },
+    {
+      "Id": "802",
+      "FirstName": "Ибрагим",
+      "MiddleName": "Усманович",
+      "LastName": "Магамаев",
+      "Time": 1,
+      "StartDate": "2017-11-23T00:00:00",
+      "BirthDate": "1989-01-21T00:00:00",
+      "Positions": [
+        {
+          "Position": "102",
+          "Department": "138"
+        }
+      ]
+    },
+    {
+      "Id": "1404",
+      "FirstName": "Елена",
+      "MiddleName": "Витальевна",
+      "LastName": "Шведова",
+      "Time": 1,
+      "StartDate": "2007-10-12T00:00:00",
+      "BirthDate": "1952-01-10T00:00:00",
+      "Positions": [
+        {
+          "Position": "25",
+          "Department": "138"
+        }
+      ]
+    },
+    {
+      "Id": "1846",
+      "FirstName": "Александр",
+      "MiddleName": "Николаевич",
+      "LastName": "Колпащиков",
+      "Time": 0.5,
+      "StartDate": "2021-11-02T00:00:00",
+      "BirthDate": "1984-07-04T00:00:00",
+      "Positions": [
+        {
+          "Position": "7",
+          "Department": "138"
+        }
+      ]
+    },
+    {
+      "Id": "1870",
+      "FirstName": "Виктория",
+      "MiddleName": "Александровна",
+      "LastName": "Зуева-Краснослободцева",
+      "Time": 1,
+      "StartDate": "2011-10-05T00:00:00",
+      "BirthDate": "1971-07-09T00:00:00",
+      "Positions": [
+        {
+          "Position": "53",
+          "Department": "138"
+        }
+      ]
+    },
+    {
+      "Id": "2035",
+      "FirstName": "Александр",
+      "MiddleName": "Гаврилович",
+      "LastName": "Власенко",
+      "Time": 1,
+      "StartDate": "1998-06-19T00:00:00",
+      "BirthDate": "1968-04-04T00:00:00",
+      "Positions": [
+        {
+          "Position": "102",
+          "Department": "138"
+        }
+      ]
+    },
+    {
+      "Id": "2046",
+      "FirstName": "Антон",
+      "MiddleName": "Николаевич",
+      "LastName": "Созоров",
+      "Time": 0.5,
+      "StartDate": "2013-07-06T00:00:00",
+      "BirthDate": "1989-10-04T00:00:00",
+      "Positions": [
+        {
+          "Position": "10",
+          "Department": "138"
+        }
+      ]
+    }
+  ]
+}

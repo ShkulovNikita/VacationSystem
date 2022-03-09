@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2602",
-	"FirstName": "Елена",
-	"MiddleName": "Анатольевна",
-	"LastName": "Ефимова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "116",
-			"HeadOfDepartment": false,
-			"Position": "243"
-		}
-	]
+  "Id": "2602",
+  "FirstName": "Елена",
+  "MiddleName": "Анатольевна",
+  "LastName": "Ефимова",
+  "Time": 0.5,
+  "StartDate": "1990-12-10T00:00:00",
+  "BirthDate": "1961-05-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "243",
+      "Department": "116"
+    }
+  ]
 }

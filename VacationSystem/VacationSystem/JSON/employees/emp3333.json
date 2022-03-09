@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3333",
-	"FirstName": "Елена",
-	"MiddleName": "Борисовна",
-	"LastName": "Каргина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "240",
-			"HeadOfDepartment": false,
-			"Position": "18"
-		}
-	]
+  "Id": "3333",
+  "FirstName": "Елена",
+  "MiddleName": "Борисовна",
+  "LastName": "Каргина",
+  "Time": 0.5,
+  "StartDate": "2012-11-24T00:00:00",
+  "BirthDate": "1957-03-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "18",
+      "Department": "240"
+    }
+  ]
 }

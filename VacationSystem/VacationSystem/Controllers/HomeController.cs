@@ -1,10 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using System.Collections.Generic;
 using System.Diagnostics;
 using VacationSystem.Models;
-using Microsoft.AspNetCore.Http;
 using VacationSystem.Classes;
+using System.Collections.Generic;
 using VacationSystem.Classes.Database;
 
 namespace VacationSystem.Controllers
@@ -20,70 +19,7 @@ namespace VacationSystem.Controllers
 
         public IActionResult Index()
         {
-            //DatabaseHandler.ClearData();
-
             return View();
-        }
-
-        /// <summary>
-        /// Профиль авторизованного пользователя
-        /// </summary>
-        public IActionResult Profile()
-        {
-            string userType = HttpContext.Session.GetString("user_type");
-            string id = HttpContext.Session.GetString("id");
-
-            // в сессии нет значений типа или идентификатора пользователя
-            if ((id == null) || (userType == null))
-            {
-                TempData["Error"] = "Не выполнен вход в систему";
-                return RedirectToAction("Index", "Login");
-            }
-
-            if (userType == "administrator")
-                return View();
-            else
-            {
-                // получение данных из API о пользователе
-                Employee empInfo = DataHandler.GetEmployeeById(id);
-
-                if (empInfo == null)
-                {
-                    TempData["Error"] = "Ошибка загрузки данных пользователя";
-                    return RedirectToAction("Index", "Login");
-                }
-                else
-                {
-                    // сохранить в сессию данные о пользователе
-                    SessionHelper.SetObjectAsJson(HttpContext.Session, "user_info", empInfo);
-
-                    // получить подразделения и должности пользователя
-                    
-                    // подразделения сотрудника
-                    List<Department> departments = new List<Department>();
-
-                    // должности сотрудника
-                    List<Position> positions = new List<Position>();
-
-                    // факт руководства подразделением
-                    List<bool> head = new List<bool>();
-
-                    // передача полученных данных в представление
-                    if ((departments.Count > 0) && (positions.Count > 0) && (head.Count > 0))
-                    {
-                        ViewBag.Departments = departments;
-                        ViewBag.HeadOfDepartment = head;
-                        ViewBag.Positions = positions;
-                    }
-                    else
-                    {
-                        TempData["Error"] = "Ошибка загрузки данных пользователя";
-                        return RedirectToAction("Index", "Login");
-                    }
-                    
-                    return View();
-                }
-            }
         }
 
         public IActionResult Privacy()

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1752",
-	"FirstName": "Сергей",
-	"MiddleName": "Юрьевич",
-	"LastName": "Гоголев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "17",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		}
-	]
+  "Id": "1752",
+  "FirstName": "Сергей",
+  "MiddleName": "Юрьевич",
+  "LastName": "Гоголев",
+  "Time": 1,
+  "StartDate": "2011-09-09T00:00:00",
+  "BirthDate": "1981-10-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "17"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "899",
-	"FirstName": "Алексей",
-	"MiddleName": "Карпович",
-	"LastName": "Мазуров",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "1",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "899",
+  "FirstName": "Алексей",
+  "MiddleName": "Карпович",
+  "LastName": "Мазуров",
+  "Time": 1,
+  "StartDate": "2007-11-12T00:00:00",
+  "BirthDate": "1966-07-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "1"
+    }
+  ]
 }

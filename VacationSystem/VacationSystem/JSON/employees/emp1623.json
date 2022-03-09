@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1623",
-	"FirstName": "Валерий",
-	"MiddleName": "Павлович",
-	"LastName": "Коробов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "50",
-			"HeadOfDepartment": false,
-			"Position": "88"
-		}
-	]
+  "Id": "1623",
+  "FirstName": "Валерий",
+  "MiddleName": "Павлович",
+  "LastName": "Коробов",
+  "Time": 0.5,
+  "StartDate": "2020-03-04T00:00:00",
+  "BirthDate": "1959-06-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "88",
+      "Department": "50"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1983",
-	"FirstName": "Геннадий",
-	"MiddleName": "Ефимович",
-	"LastName": "Ремнёв",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "64",
-			"HeadOfDepartment": false,
-			"Position": "2"
-		}
-	]
+  "Id": "1983",
+  "FirstName": "Геннадий",
+  "MiddleName": "Ефимович",
+  "LastName": "Ремнёв",
+  "Time": 0.5,
+  "StartDate": "2008-07-13T00:00:00",
+  "BirthDate": "1982-07-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "2",
+      "Department": "64"
+    }
+  ]
 }

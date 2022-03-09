@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1498",
-	"FirstName": "Игорь",
-	"MiddleName": "Рифатович",
-	"LastName": "Ситдиков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "214",
-			"HeadOfDepartment": false,
-			"Position": "180"
-		}
-	]
+  "Id": "1498",
+  "FirstName": "Игорь",
+  "MiddleName": "Рифатович",
+  "LastName": "Ситдиков",
+  "Time": 1,
+  "StartDate": "1988-11-02T00:00:00",
+  "BirthDate": "1960-04-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "180",
+      "Department": "214"
+    }
+  ]
 }

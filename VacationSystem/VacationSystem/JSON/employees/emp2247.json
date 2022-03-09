@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2247",
-	"FirstName": "Роман",
-	"MiddleName": "Евгеньевич",
-	"LastName": "Лукин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "85",
-			"HeadOfDepartment": false,
-			"Position": "191"
-		}
-	]
+  "Id": "2247",
+  "FirstName": "Роман",
+  "MiddleName": "Евгеньевич",
+  "LastName": "Лукин",
+  "Time": 1,
+  "StartDate": "2018-02-04T00:00:00",
+  "BirthDate": "1969-06-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "191",
+      "Department": "85"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "417",
-	"FirstName": "Евгений",
-	"MiddleName": "Петрович",
-	"LastName": "Богданов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "19",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "417",
+  "FirstName": "Евгений",
+  "MiddleName": "Петрович",
+  "LastName": "Богданов",
+  "Time": 0.5,
+  "StartDate": "2014-11-18T00:00:00",
+  "BirthDate": "1990-04-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "19"
+    }
+  ]
 }

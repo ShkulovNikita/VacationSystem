@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "651",
-	"FirstName": "Елена",
-	"MiddleName": "Геннадьевна",
-	"LastName": "Леонтьева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "14",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "651",
+  "FirstName": "Елена",
+  "MiddleName": "Геннадьевна",
+  "LastName": "Леонтьева",
+  "Time": 0.5,
+  "StartDate": "2021-04-18T00:00:00",
+  "BirthDate": "1964-04-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "14"
+    }
+  ]
 }

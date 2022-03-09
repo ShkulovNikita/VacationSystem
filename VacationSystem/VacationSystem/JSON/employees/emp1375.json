@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1375",
-	"FirstName": "Юлия",
-	"MiddleName": "Леонидовна",
-	"LastName": "Замятина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "1",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1375",
+  "FirstName": "Юлия",
+  "MiddleName": "Леонидовна",
+  "LastName": "Замятина",
+  "Time": 0.5,
+  "StartDate": "2008-01-13T00:00:00",
+  "BirthDate": "1954-04-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "1"
+    }
+  ]
 }

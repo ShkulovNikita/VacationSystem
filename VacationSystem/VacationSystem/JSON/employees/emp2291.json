@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "2291",
-	"FirstName": "Анастасия",
-	"MiddleName": "Андреевна",
-	"LastName": "Петрова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "149",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		},
-		{
-			"Id": "51",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "2291",
+  "FirstName": "Анастасия",
+  "MiddleName": "Андреевна",
+  "LastName": "Петрова",
+  "Time": 2,
+  "StartDate": "2006-02-17T00:00:00",
+  "BirthDate": "1952-12-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "149"
+    },
+    {
+      "Position": "3",
+      "Department": "51"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "723",
-	"FirstName": "Валерий",
-	"MiddleName": "Павлович",
-	"LastName": "Кривобоков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "56",
-			"HeadOfDepartment": false,
-			"Position": "89"
-		}
-	]
+  "Id": "723",
+  "FirstName": "Валерий",
+  "MiddleName": "Павлович",
+  "LastName": "Кривобоков",
+  "Time": 0.5,
+  "StartDate": "2002-12-24T00:00:00",
+  "BirthDate": "1958-09-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "89",
+      "Department": "56"
+    }
+  ]
 }

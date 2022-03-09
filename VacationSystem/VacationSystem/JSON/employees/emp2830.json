@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2830",
-	"FirstName": "Анатолий",
-	"MiddleName": "Александрович",
-	"LastName": "Андраханов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "6",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "2830",
+  "FirstName": "Анатолий",
+  "MiddleName": "Александрович",
+  "LastName": "Андраханов",
+  "Time": 1,
+  "StartDate": "2004-08-14T00:00:00",
+  "BirthDate": "1975-04-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "6"
+    }
+  ]
 }

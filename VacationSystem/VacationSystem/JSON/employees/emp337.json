@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "337",
-	"FirstName": "Ольга",
-	"MiddleName": "Ефимовна",
-	"LastName": "Мойзес",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "36",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "337",
+  "FirstName": "Ольга",
+  "MiddleName": "Ефимовна",
+  "LastName": "Мойзес",
+  "Time": 1,
+  "StartDate": "1982-08-24T00:00:00",
+  "BirthDate": "1955-01-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "36"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "947",
-	"FirstName": "Расима",
-	"MiddleName": "Маликовна",
-	"LastName": "Халиулина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "184",
-			"HeadOfDepartment": false,
-			"Position": "20"
-		}
-	]
+  "Id": "947",
+  "FirstName": "Расима",
+  "MiddleName": "Маликовна",
+  "LastName": "Халиулина",
+  "Time": 0.5,
+  "StartDate": "2018-07-05T00:00:00",
+  "BirthDate": "1988-11-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "20",
+      "Department": "184"
+    }
+  ]
 }

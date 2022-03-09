@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1212",
-	"FirstName": "Ирэна",
-	"MiddleName": "Олеговна",
-	"LastName": "Долганова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "36",
-			"HeadOfDepartment": false,
-			"Position": "24"
-		}
-	]
+  "Id": "1212",
+  "FirstName": "Ирэна",
+  "MiddleName": "Олеговна",
+  "LastName": "Долганова",
+  "Time": 1,
+  "StartDate": "2015-04-24T00:00:00",
+  "BirthDate": "1992-09-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "24",
+      "Department": "36"
+    }
+  ]
 }

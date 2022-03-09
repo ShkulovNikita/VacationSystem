@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3113",
-	"FirstName": "Анастасия",
-	"MiddleName": "Руслановна",
-	"LastName": "Коврижина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "4",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		}
-	]
+  "Id": "3113",
+  "FirstName": "Анастасия",
+  "MiddleName": "Руслановна",
+  "LastName": "Коврижина",
+  "Time": 0.5,
+  "StartDate": "1993-03-21T00:00:00",
+  "BirthDate": "1961-02-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "4"
+    }
+  ]
 }

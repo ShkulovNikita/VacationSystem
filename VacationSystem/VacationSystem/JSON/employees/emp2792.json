@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "2792",
-	"FirstName": "Канипа",
-	"MiddleName": "",
-	"LastName": "Ибраева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "39",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		},
-		{
-			"Id": "39",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		}
-	]
+  "Id": "2792",
+  "FirstName": "Канипа",
+  "MiddleName": "",
+  "LastName": "Ибраева",
+  "Time": 1,
+  "StartDate": "2017-07-04T00:00:00",
+  "BirthDate": "1987-05-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "39"
+    },
+    {
+      "Position": "5",
+      "Department": "39"
+    }
+  ]
 }

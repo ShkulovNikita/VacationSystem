@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "279",
-	"FirstName": "Наталья",
-	"MiddleName": "Владимировна",
-	"LastName": "Орлова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "107",
-			"HeadOfDepartment": false,
-			"Position": "33"
-		}
-	]
+  "Id": "279",
+  "FirstName": "Наталья",
+  "MiddleName": "Владимировна",
+  "LastName": "Орлова",
+  "Time": 1,
+  "StartDate": "2012-03-19T00:00:00",
+  "BirthDate": "1984-02-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "33",
+      "Department": "107"
+    }
+  ]
 }

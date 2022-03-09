@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3411",
-	"FirstName": "Марина",
-	"MiddleName": "Сергеевна",
-	"LastName": "Гончарова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "163",
-			"HeadOfDepartment": false,
-			"Position": "69"
-		}
-	]
+  "Id": "3411",
+  "FirstName": "Марина",
+  "MiddleName": "Сергеевна",
+  "LastName": "Гончарова",
+  "Time": 0.5,
+  "StartDate": "2002-10-20T00:00:00",
+  "BirthDate": "1982-07-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "69",
+      "Department": "163"
+    }
+  ]
 }

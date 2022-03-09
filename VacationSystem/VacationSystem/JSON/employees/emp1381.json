@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1381",
-	"FirstName": "Антон",
-	"MiddleName": "Михайлович",
-	"LastName": "Янин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "16",
-			"HeadOfDepartment": false,
-			"Position": "173"
-		}
-	]
+  "Id": "1381",
+  "FirstName": "Антон",
+  "MiddleName": "Михайлович",
+  "LastName": "Янин",
+  "Time": 0.5,
+  "StartDate": "2021-06-21T00:00:00",
+  "BirthDate": "1979-10-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "173",
+      "Department": "16"
+    }
+  ]
 }

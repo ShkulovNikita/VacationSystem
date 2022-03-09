@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3335",
-	"FirstName": "Надежда",
-	"MiddleName": "Анатольевна",
-	"LastName": "Переверзина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "199",
-			"HeadOfDepartment": false,
-			"Position": "154"
-		}
-	]
+  "Id": "3335",
+  "FirstName": "Надежда",
+  "MiddleName": "Анатольевна",
+  "LastName": "Переверзина",
+  "Time": 1,
+  "StartDate": "2007-03-17T00:00:00",
+  "BirthDate": "1977-01-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "154",
+      "Department": "199"
+    }
+  ]
 }

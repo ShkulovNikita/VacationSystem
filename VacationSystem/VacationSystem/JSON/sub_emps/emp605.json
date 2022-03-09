@@ -1,0 +1,49 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "605",
+      "FirstName": "Дмитрий",
+      "MiddleName": "Дмитриевич",
+      "LastName": "Афонин",
+      "Time": 0.5,
+      "StartDate": "2017-11-01T00:00:00",
+      "BirthDate": "1971-02-22T00:00:00",
+      "Positions": [
+        {
+          "Position": "64",
+          "Department": "159"
+        }
+      ]
+    },
+    {
+      "Id": "949",
+      "FirstName": "Галина",
+      "MiddleName": "Николаевна",
+      "LastName": "Семенова",
+      "Time": 0.5,
+      "StartDate": "2002-03-15T00:00:00",
+      "BirthDate": "1971-02-13T00:00:00",
+      "Positions": [
+        {
+          "Position": "106",
+          "Department": "159"
+        }
+      ]
+    },
+    {
+      "Id": "3246",
+      "FirstName": "Лариса",
+      "MiddleName": "Станиславовна",
+      "LastName": "Устюгова",
+      "Time": 0.5,
+      "StartDate": "1997-04-10T00:00:00",
+      "BirthDate": "1964-02-21T00:00:00",
+      "Positions": [
+        {
+          "Position": "14",
+          "Department": "159"
+        }
+      ]
+    }
+  ]
+}

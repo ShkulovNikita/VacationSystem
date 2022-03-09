@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1180",
-	"FirstName": "Владимир",
-	"MiddleName": "Сергеевич",
-	"LastName": "Сыпченко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "53",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1180",
+  "FirstName": "Владимир",
+  "MiddleName": "Сергеевич",
+  "LastName": "Сыпченко",
+  "Time": 0.5,
+  "StartDate": "2015-02-10T00:00:00",
+  "BirthDate": "1977-09-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "53"
+    }
+  ]
 }

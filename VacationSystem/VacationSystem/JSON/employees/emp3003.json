@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3003",
-	"FirstName": "Ольга",
-	"MiddleName": "Геннадьевна",
-	"LastName": "Мусич",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "77",
-			"HeadOfDepartment": false,
-			"Position": "108"
-		}
-	]
+  "Id": "3003",
+  "FirstName": "Ольга",
+  "MiddleName": "Геннадьевна",
+  "LastName": "Мусич",
+  "Time": 0.5,
+  "StartDate": "1978-02-14T00:00:00",
+  "BirthDate": "1958-09-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "108",
+      "Department": "77"
+    }
+  ]
 }

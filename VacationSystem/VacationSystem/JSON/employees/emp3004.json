@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3004",
-	"FirstName": "Марьяна",
-	"MiddleName": "Юрьевна",
-	"LastName": "Грегер",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "99",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "3004",
+  "FirstName": "Марьяна",
+  "MiddleName": "Юрьевна",
+  "LastName": "Грегер",
+  "Time": 0.5,
+  "StartDate": "2015-12-05T00:00:00",
+  "BirthDate": "1988-01-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "99"
+    }
+  ]
 }

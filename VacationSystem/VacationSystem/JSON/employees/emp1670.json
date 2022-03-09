@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1670",
-	"FirstName": "Александр",
-	"MiddleName": "Вячеславович",
-	"LastName": "Еремин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		}
-	]
+  "Id": "1670",
+  "FirstName": "Александр",
+  "MiddleName": "Вячеславович",
+  "LastName": "Еремин",
+  "Time": 1,
+  "StartDate": "2017-09-03T00:00:00",
+  "BirthDate": "1990-12-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "15"
+    }
+  ]
 }

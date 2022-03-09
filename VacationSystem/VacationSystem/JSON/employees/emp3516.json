@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3516",
-	"FirstName": "Сергей",
-	"MiddleName": "Сергеевич",
-	"LastName": "Кузнецов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "215",
-			"HeadOfDepartment": false,
-			"Position": "242"
-		}
-	]
+  "Id": "3516",
+  "FirstName": "Сергей",
+  "MiddleName": "Сергеевич",
+  "LastName": "Кузнецов",
+  "Time": 1,
+  "StartDate": "1991-07-12T00:00:00",
+  "BirthDate": "1952-12-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "242",
+      "Department": "215"
+    }
+  ]
 }

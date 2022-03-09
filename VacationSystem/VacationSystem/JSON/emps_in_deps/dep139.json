@@ -1,0 +1,154 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "441",
+      "FirstName": "Рамиля",
+      "MiddleName": "Абдулхамитовна",
+      "LastName": "Габитова",
+      "Time": 0.5,
+      "StartDate": "1977-11-17T00:00:00",
+      "BirthDate": "1952-04-02T00:00:00",
+      "Positions": [
+        {
+          "Position": "98",
+          "Department": "139"
+        }
+      ]
+    },
+    {
+      "Id": "484",
+      "FirstName": "Любовь",
+      "MiddleName": "Ивановна",
+      "LastName": "Токаренко",
+      "Time": 1,
+      "StartDate": "2016-02-01T00:00:00",
+      "BirthDate": "1990-01-01T00:00:00",
+      "Positions": [
+        {
+          "Position": "9",
+          "Department": "139"
+        }
+      ]
+    },
+    {
+      "Id": "598",
+      "FirstName": "Людмила",
+      "MiddleName": "Владимировна",
+      "LastName": "Вторушина",
+      "Time": 1,
+      "StartDate": "2014-05-18T00:00:00",
+      "BirthDate": "1963-07-23T00:00:00",
+      "Positions": [
+        {
+          "Position": "9",
+          "Department": "139"
+        }
+      ]
+    },
+    {
+      "Id": "754",
+      "FirstName": "Нина",
+      "MiddleName": "Михайловна",
+      "LastName": "Власова",
+      "Time": 1,
+      "StartDate": "2018-06-08T00:00:00",
+      "BirthDate": "1984-10-01T00:00:00",
+      "Positions": [
+        {
+          "Position": "98",
+          "Department": "139"
+        }
+      ]
+    },
+    {
+      "Id": "1420",
+      "FirstName": "Валентина",
+      "MiddleName": "Викторовна",
+      "LastName": "Машина",
+      "Time": 0.5,
+      "StartDate": "2001-03-17T00:00:00",
+      "BirthDate": "1963-05-17T00:00:00",
+      "Positions": [
+        {
+          "Position": "9",
+          "Department": "139"
+        }
+      ]
+    },
+    {
+      "Id": "2049",
+      "FirstName": "Наталья",
+      "MiddleName": "Юрьевна",
+      "LastName": "Реутова",
+      "Time": 0.5,
+      "StartDate": "2016-03-12T00:00:00",
+      "BirthDate": "1975-03-15T00:00:00",
+      "Positions": [
+        {
+          "Position": "98",
+          "Department": "139"
+        }
+      ]
+    },
+    {
+      "Id": "2621",
+      "FirstName": "Наталия",
+      "MiddleName": "Владимировна",
+      "LastName": "Шабанова",
+      "Time": 0.5,
+      "StartDate": "2007-12-09T00:00:00",
+      "BirthDate": "1962-04-12T00:00:00",
+      "Positions": [
+        {
+          "Position": "98",
+          "Department": "139"
+        }
+      ]
+    },
+    {
+      "Id": "3515",
+      "FirstName": "Нелли",
+      "MiddleName": "Дмитриевна",
+      "LastName": "Кириллова",
+      "Time": 1,
+      "StartDate": "2003-06-05T00:00:00",
+      "BirthDate": "1978-05-02T00:00:00",
+      "Positions": [
+        {
+          "Position": "281",
+          "Department": "139"
+        }
+      ]
+    },
+    {
+      "Id": "3577",
+      "FirstName": "Елена",
+      "MiddleName": "Валерьевна",
+      "LastName": "Ильиных",
+      "Time": 0.5,
+      "StartDate": "2012-09-08T00:00:00",
+      "BirthDate": "1977-09-20T00:00:00",
+      "Positions": [
+        {
+          "Position": "10",
+          "Department": "139"
+        }
+      ]
+    },
+    {
+      "Id": "3683",
+      "FirstName": "Юлия",
+      "MiddleName": "Олеговна",
+      "LastName": "Абалмасова",
+      "Time": 0.5,
+      "StartDate": "2004-07-05T00:00:00",
+      "BirthDate": "1981-10-06T00:00:00",
+      "Positions": [
+        {
+          "Position": "9",
+          "Department": "139"
+        }
+      ]
+    }
+  ]
+}

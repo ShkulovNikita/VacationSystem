@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3321",
-	"FirstName": "Анатолий",
-	"MiddleName": "Федорович",
-	"LastName": "Анюгин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "56",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "3321",
+  "FirstName": "Анатолий",
+  "MiddleName": "Федорович",
+  "LastName": "Анюгин",
+  "Time": 0.5,
+  "StartDate": "2005-02-14T00:00:00",
+  "BirthDate": "1976-12-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "56"
+    }
+  ]
 }

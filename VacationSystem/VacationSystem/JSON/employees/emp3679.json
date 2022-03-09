@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3679",
-	"FirstName": "Геннадий",
-	"MiddleName": "Владимирович",
-	"LastName": "Шекунов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "50",
-			"HeadOfDepartment": false,
-			"Position": "88"
-		}
-	]
+  "Id": "3679",
+  "FirstName": "Геннадий",
+  "MiddleName": "Владимирович",
+  "LastName": "Шекунов",
+  "Time": 1,
+  "StartDate": "2014-09-16T00:00:00",
+  "BirthDate": "1986-02-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "88",
+      "Department": "50"
+    }
+  ]
 }

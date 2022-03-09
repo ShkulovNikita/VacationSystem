@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "972",
-	"FirstName": "Виктор",
-	"MiddleName": "Михайлович",
-	"LastName": "Машнич",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "38",
-			"HeadOfDepartment": false,
-			"Position": "141"
-		}
-	]
+  "Id": "972",
+  "FirstName": "Виктор",
+  "MiddleName": "Михайлович",
+  "LastName": "Машнич",
+  "Time": 1,
+  "StartDate": "1991-08-15T00:00:00",
+  "BirthDate": "1969-10-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "141",
+      "Department": "38"
+    }
+  ]
 }

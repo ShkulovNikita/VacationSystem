@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "657",
-	"FirstName": "Сергей",
-	"MiddleName": "Викторович",
-	"LastName": "Панин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "657",
+  "FirstName": "Сергей",
+  "MiddleName": "Викторович",
+  "LastName": "Панин",
+  "Time": 1,
+  "StartDate": "2016-08-16T00:00:00",
+  "BirthDate": "1956-02-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "15"
+    }
+  ]
 }

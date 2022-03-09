@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2201",
-	"FirstName": "Роман",
-	"MiddleName": "Юрьевич",
-	"LastName": "Килин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "52",
-			"HeadOfDepartment": false,
-			"Position": "0"
-		}
-	]
+  "Id": "2201",
+  "FirstName": "Роман",
+  "MiddleName": "Юрьевич",
+  "LastName": "Килин",
+  "Time": 0.5,
+  "StartDate": "2012-10-12T00:00:00",
+  "BirthDate": "1983-05-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "0",
+      "Department": "52"
+    }
+  ]
 }

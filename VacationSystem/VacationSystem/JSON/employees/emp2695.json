@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2695",
-	"FirstName": "Александр",
-	"MiddleName": "Андреевич",
-	"LastName": "Шугаров",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "50",
-			"HeadOfDepartment": false,
-			"Position": "247"
-		}
-	]
+  "Id": "2695",
+  "FirstName": "Александр",
+  "MiddleName": "Андреевич",
+  "LastName": "Шугаров",
+  "Time": 0.5,
+  "StartDate": "2019-04-17T00:00:00",
+  "BirthDate": "1956-06-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "247",
+      "Department": "50"
+    }
+  ]
 }

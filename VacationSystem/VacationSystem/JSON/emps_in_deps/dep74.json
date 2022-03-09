@@ -1,0 +1,132 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "135",
+      "FirstName": "Роман",
+      "MiddleName": "Сергеевич",
+      "LastName": "Кашапов",
+      "Time": 0.5,
+      "StartDate": "1978-10-11T00:00:00",
+      "BirthDate": "1954-06-11T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "74"
+        }
+      ]
+    },
+    {
+      "Id": "507",
+      "FirstName": "Владимир",
+      "MiddleName": "Борисович",
+      "LastName": "Белозеров",
+      "Time": 2,
+      "StartDate": "2012-11-08T00:00:00",
+      "BirthDate": "1990-03-16T00:00:00",
+      "Positions": [
+        {
+          "Position": "2",
+          "Department": "74"
+        }
+      ]
+    },
+    {
+      "Id": "1461",
+      "FirstName": "Станислав",
+      "MiddleName": "Сергеевич",
+      "LastName": "Сливкин",
+      "Time": 1,
+      "StartDate": "2002-11-12T00:00:00",
+      "BirthDate": "1982-01-15T00:00:00",
+      "Positions": [
+        {
+          "Position": "5",
+          "Department": "74"
+        },
+        {
+          "Position": "3",
+          "Department": "74"
+        }
+      ]
+    },
+    {
+      "Id": "1671",
+      "FirstName": "Дмитрий",
+      "MiddleName": "Владимирович",
+      "LastName": "Коношонкин",
+      "Time": 1.5,
+      "StartDate": "2015-01-12T00:00:00",
+      "BirthDate": "1989-03-17T00:00:00",
+      "Positions": [
+        {
+          "Position": "5",
+          "Department": "74"
+        },
+        {
+          "Position": "3",
+          "Department": "74"
+        }
+      ]
+    },
+    {
+      "Id": "1716",
+      "FirstName": "Наталия",
+      "MiddleName": "Юрьевна",
+      "LastName": "Коношонкина",
+      "Time": 1,
+      "StartDate": "2009-06-01T00:00:00",
+      "BirthDate": "1964-09-11T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "74"
+        }
+      ]
+    },
+    {
+      "Id": "1765",
+      "FirstName": "Ксения",
+      "MiddleName": "Владимировна",
+      "LastName": "Иконникова",
+      "Time": 1,
+      "StartDate": "2016-05-15T00:00:00",
+      "BirthDate": "1956-09-10T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "74"
+        }
+      ]
+    },
+    {
+      "Id": "2714",
+      "FirstName": "Артем",
+      "MiddleName": "Вадимович",
+      "LastName": "Степико",
+      "Time": 1,
+      "StartDate": "2007-09-23T00:00:00",
+      "BirthDate": "1962-05-14T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "74"
+        }
+      ]
+    },
+    {
+      "Id": "3504",
+      "FirstName": "Дмитрий",
+      "MiddleName": "Витальевич",
+      "LastName": "Егоров",
+      "Time": 0.5,
+      "StartDate": "2002-11-19T00:00:00",
+      "BirthDate": "1979-12-24T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "74"
+        }
+      ]
+    }
+  ]
+}

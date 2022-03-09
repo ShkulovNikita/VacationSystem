@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "106",
-	"FirstName": "Анна",
-	"MiddleName": "Николаевна",
-	"LastName": "Серебренникова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "65",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "106",
+  "FirstName": "Анна",
+  "MiddleName": "Николаевна",
+  "LastName": "Серебренникова",
+  "Time": 0.5,
+  "StartDate": "1975-07-15T00:00:00",
+  "BirthDate": "1953-08-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "65"
+    }
+  ]
 }

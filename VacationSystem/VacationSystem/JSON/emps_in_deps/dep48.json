@@ -1,0 +1,19 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "78",
+      "FirstName": "Леонид",
+      "MiddleName": "Григорьевич",
+      "LastName": "Сухих",
+      "Time": 1,
+      "StartDate": "1994-12-14T00:00:00",
+      "BirthDate": "1972-03-16T00:00:00",
+      "Positions": [
+        {
+          "Position": "31",
+          "Department": "48"
+        }
+      ]
+    }
+  ]
+}

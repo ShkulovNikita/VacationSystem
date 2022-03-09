@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2540",
-	"FirstName": "Алла",
-	"MiddleName": "Геннадьевна",
-	"LastName": "Шапрова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "47",
-			"HeadOfDepartment": false,
-			"Position": "30"
-		}
-	]
+  "Id": "2540",
+  "FirstName": "Алла",
+  "MiddleName": "Геннадьевна",
+  "LastName": "Шапрова",
+  "Time": 1,
+  "StartDate": "2015-05-04T00:00:00",
+  "BirthDate": "1981-01-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "30",
+      "Department": "47"
+    }
+  ]
 }

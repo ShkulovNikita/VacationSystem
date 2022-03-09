@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2048",
-	"FirstName": "Лариса",
-	"MiddleName": "Александровна",
-	"LastName": "Зубцова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "92",
-			"HeadOfDepartment": false,
-			"Position": "142"
-		}
-	]
+  "Id": "2048",
+  "FirstName": "Лариса",
+  "MiddleName": "Александровна",
+  "LastName": "Зубцова",
+  "Time": 0.5,
+  "StartDate": "2013-04-24T00:00:00",
+  "BirthDate": "1984-02-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "142",
+      "Department": "92"
+    }
+  ]
 }

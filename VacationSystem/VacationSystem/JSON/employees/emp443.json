@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "443",
-	"FirstName": "Алексей",
-	"MiddleName": "Александрович",
-	"LastName": "Гаврилов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "112",
-			"HeadOfDepartment": false,
-			"Position": "99"
-		}
-	]
+  "Id": "443",
+  "FirstName": "Алексей",
+  "MiddleName": "Александрович",
+  "LastName": "Гаврилов",
+  "Time": 0.5,
+  "StartDate": "1992-11-24T00:00:00",
+  "BirthDate": "1966-11-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "99",
+      "Department": "112"
+    }
+  ]
 }

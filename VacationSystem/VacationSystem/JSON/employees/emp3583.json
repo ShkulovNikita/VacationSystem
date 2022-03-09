@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3583",
-	"FirstName": "Елена",
-	"MiddleName": "Витальевна",
-	"LastName": "Ковалёва",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "14",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "3583",
+  "FirstName": "Елена",
+  "MiddleName": "Витальевна",
+  "LastName": "Ковалёва",
+  "Time": 0.5,
+  "StartDate": "2010-07-09T00:00:00",
+  "BirthDate": "1968-01-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "14"
+    }
+  ]
 }

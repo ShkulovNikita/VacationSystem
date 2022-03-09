@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3355",
-	"FirstName": "Алина",
-	"MiddleName": "",
-	"LastName": "Горбунова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "51",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "3355",
+  "FirstName": "Алина",
+  "MiddleName": "",
+  "LastName": "Горбунова",
+  "Time": 1,
+  "StartDate": "2011-01-01T00:00:00",
+  "BirthDate": "1972-07-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "51"
+    }
+  ]
 }

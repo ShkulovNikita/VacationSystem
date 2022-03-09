@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2372",
-	"FirstName": "Ольга",
-	"MiddleName": "Александровна",
-	"LastName": "Севостьянова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "189",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "2372",
+  "FirstName": "Ольга",
+  "MiddleName": "Александровна",
+  "LastName": "Севостьянова",
+  "Time": 1,
+  "StartDate": "2015-03-20T00:00:00",
+  "BirthDate": "1978-12-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "189"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3245",
-	"FirstName": "Татьяна",
-	"MiddleName": "Владимировна",
-	"LastName": "Немыкина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "17",
-			"HeadOfDepartment": false,
-			"Position": "53"
-		}
-	]
+  "Id": "3245",
+  "FirstName": "Татьяна",
+  "MiddleName": "Владимировна",
+  "LastName": "Немыкина",
+  "Time": 1,
+  "StartDate": "2021-09-12T00:00:00",
+  "BirthDate": "1992-10-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "53",
+      "Department": "17"
+    }
+  ]
 }

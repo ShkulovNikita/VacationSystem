@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3170",
-	"FirstName": "Инна",
-	"MiddleName": "Владимировна",
-	"LastName": "Коробицына",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "207",
-			"HeadOfDepartment": false,
-			"Position": "10"
-		}
-	]
+  "Id": "3170",
+  "FirstName": "Инна",
+  "MiddleName": "Владимировна",
+  "LastName": "Коробицына",
+  "Time": 1,
+  "StartDate": "2008-12-16T00:00:00",
+  "BirthDate": "1983-08-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "10",
+      "Department": "207"
+    }
+  ]
 }

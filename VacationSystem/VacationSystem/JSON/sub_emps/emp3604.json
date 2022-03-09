@@ -1,0 +1,919 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "52",
+      "FirstName": "Татьяна",
+      "MiddleName": "Муллануровна",
+      "LastName": "Алыева",
+      "Time": 0.5,
+      "StartDate": "2016-11-05T00:00:00",
+      "BirthDate": "1984-05-21T00:00:00",
+      "Positions": [
+        {
+          "Position": "22",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "252",
+      "FirstName": "Любовь",
+      "MiddleName": "Павловна",
+      "LastName": "Ульянова",
+      "Time": 1,
+      "StartDate": "2002-06-18T00:00:00",
+      "BirthDate": "1953-05-05T00:00:00",
+      "Positions": [
+        {
+          "Position": "66",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "261",
+      "FirstName": "Людмила",
+      "MiddleName": "Николаевна",
+      "LastName": "Дмитрова",
+      "Time": 0.5,
+      "StartDate": "2008-04-12T00:00:00",
+      "BirthDate": "1988-03-15T00:00:00",
+      "Positions": [
+        {
+          "Position": "67",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "353",
+      "FirstName": "Ольга",
+      "MiddleName": "Николаевна",
+      "LastName": "Михеева",
+      "Time": 0.5,
+      "StartDate": "2000-12-18T00:00:00",
+      "BirthDate": "1952-11-14T00:00:00",
+      "Positions": [
+        {
+          "Position": "87",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "408",
+      "FirstName": "Татьяна",
+      "MiddleName": "Петровна",
+      "LastName": "Назаренко",
+      "Time": 1,
+      "StartDate": "2002-09-17T00:00:00",
+      "BirthDate": "1954-03-22T00:00:00",
+      "Positions": [
+        {
+          "Position": "97",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "489",
+      "FirstName": "Зинаида",
+      "MiddleName": "Александровна",
+      "LastName": "Шенбергер",
+      "Time": 0.5,
+      "StartDate": "2016-03-03T00:00:00",
+      "BirthDate": "1981-10-07T00:00:00",
+      "Positions": [
+        {
+          "Position": "87",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "515",
+      "FirstName": "Таслима",
+      "MiddleName": "Тахабиевна",
+      "LastName": "Розова",
+      "Time": 0.5,
+      "StartDate": "2018-01-03T00:00:00",
+      "BirthDate": "1993-08-09T00:00:00",
+      "Positions": [
+        {
+          "Position": "104",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "565",
+      "FirstName": "Надежда",
+      "MiddleName": "Васильевна",
+      "LastName": "Алиферова",
+      "Time": 1,
+      "StartDate": "2012-01-08T00:00:00",
+      "BirthDate": "1992-09-01T00:00:00",
+      "Positions": [
+        {
+          "Position": "110",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "571",
+      "FirstName": "Татьяна",
+      "MiddleName": "Николаевна",
+      "LastName": "Анепер",
+      "Time": 0.5,
+      "StartDate": "2019-09-10T00:00:00",
+      "BirthDate": "1957-02-20T00:00:00",
+      "Positions": [
+        {
+          "Position": "87",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "584",
+      "FirstName": "Надежда",
+      "MiddleName": "Петровна",
+      "LastName": "Шарепо",
+      "Time": 0.5,
+      "StartDate": "2011-03-03T00:00:00",
+      "BirthDate": "1985-06-21T00:00:00",
+      "Positions": [
+        {
+          "Position": "87",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "614",
+      "FirstName": "Елена",
+      "MiddleName": "Анатольевна",
+      "LastName": "Кислова",
+      "Time": 0.5,
+      "StartDate": "2016-02-15T00:00:00",
+      "BirthDate": "1991-03-20T00:00:00",
+      "Positions": [
+        {
+          "Position": "116",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "668",
+      "FirstName": "Елена",
+      "MiddleName": "Александровна",
+      "LastName": "Бурматова",
+      "Time": 1,
+      "StartDate": "2002-04-17T00:00:00",
+      "BirthDate": "1976-10-09T00:00:00",
+      "Positions": [
+        {
+          "Position": "87",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "786",
+      "FirstName": "Надежда",
+      "MiddleName": "Филипповна",
+      "LastName": "Шуваева",
+      "Time": 0.5,
+      "StartDate": "2019-11-07T00:00:00",
+      "BirthDate": "1990-07-21T00:00:00",
+      "Positions": [
+        {
+          "Position": "87",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "836",
+      "FirstName": "Ирина",
+      "MiddleName": "Викторовна",
+      "LastName": "Логинова",
+      "Time": 0.5,
+      "StartDate": "2020-07-05T00:00:00",
+      "BirthDate": "1979-11-13T00:00:00",
+      "Positions": [
+        {
+          "Position": "87",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "909",
+      "FirstName": "Любовь",
+      "MiddleName": "Геннадьевна",
+      "LastName": "Колокольникова",
+      "Time": 0.5,
+      "StartDate": "2013-03-23T00:00:00",
+      "BirthDate": "1972-05-23T00:00:00",
+      "Positions": [
+        {
+          "Position": "22",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "945",
+      "FirstName": "Надежда",
+      "MiddleName": "Владимировна",
+      "LastName": "Маскалюк",
+      "Time": 1,
+      "StartDate": "2016-11-11T00:00:00",
+      "BirthDate": "1953-06-18T00:00:00",
+      "Positions": [
+        {
+          "Position": "87",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "953",
+      "FirstName": "Ольга",
+      "MiddleName": "Валерьевна",
+      "LastName": "Чихман",
+      "Time": 1,
+      "StartDate": "2005-12-13T00:00:00",
+      "BirthDate": "1980-12-09T00:00:00",
+      "Positions": [
+        {
+          "Position": "87",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "970",
+      "FirstName": "Ирина",
+      "MiddleName": "Юрьевна",
+      "LastName": "Тропина",
+      "Time": 1,
+      "StartDate": "2019-12-24T00:00:00",
+      "BirthDate": "1976-10-08T00:00:00",
+      "Positions": [
+        {
+          "Position": "87",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "987",
+      "FirstName": "Юлия",
+      "MiddleName": "Сергеевна",
+      "LastName": "Хренюк",
+      "Time": 0.5,
+      "StartDate": "1981-04-18T00:00:00",
+      "BirthDate": "1961-05-23T00:00:00",
+      "Positions": [
+        {
+          "Position": "143",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "1117",
+      "FirstName": "Раиса",
+      "MiddleName": "Андреевна",
+      "LastName": "Урнева",
+      "Time": 0.5,
+      "StartDate": "1979-10-24T00:00:00",
+      "BirthDate": "1955-08-18T00:00:00",
+      "Positions": [
+        {
+          "Position": "151",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "1618",
+      "FirstName": "Татьяна",
+      "MiddleName": "Викторовна",
+      "LastName": "Каркавина",
+      "Time": 0.5,
+      "StartDate": "2014-01-07T00:00:00",
+      "BirthDate": "1993-07-22T00:00:00",
+      "Positions": [
+        {
+          "Position": "22",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "1700",
+      "FirstName": "Светлана",
+      "MiddleName": "Сергеевна",
+      "LastName": "Голубовская",
+      "Time": 1,
+      "StartDate": "2015-09-14T00:00:00",
+      "BirthDate": "1990-10-13T00:00:00",
+      "Positions": [
+        {
+          "Position": "67",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "1773",
+      "FirstName": "Ксения",
+      "MiddleName": "Александровна",
+      "LastName": "Кравченко",
+      "Time": 1,
+      "StartDate": "1986-06-04T00:00:00",
+      "BirthDate": "1966-10-05T00:00:00",
+      "Positions": [
+        {
+          "Position": "110",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "1980",
+      "FirstName": "Татьяна",
+      "MiddleName": "Семеновна",
+      "LastName": "Бирюкова",
+      "Time": 0.5,
+      "StartDate": "1990-04-16T00:00:00",
+      "BirthDate": "1969-12-04T00:00:00",
+      "Positions": [
+        {
+          "Position": "97",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "2004",
+      "FirstName": "Рашида",
+      "MiddleName": "Ахатовна",
+      "LastName": "Бохан",
+      "Time": 1,
+      "StartDate": "2012-03-21T00:00:00",
+      "BirthDate": "1991-07-11T00:00:00",
+      "Positions": [
+        {
+          "Position": "220",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "2057",
+      "FirstName": "Элла",
+      "MiddleName": "Владимировна",
+      "LastName": "Золоторева",
+      "Time": 1,
+      "StartDate": "1998-12-15T00:00:00",
+      "BirthDate": "1977-05-12T00:00:00",
+      "Positions": [
+        {
+          "Position": "87",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "2061",
+      "FirstName": "Александра",
+      "MiddleName": "Сергеевна",
+      "LastName": "Веселова",
+      "Time": 0.5,
+      "StartDate": "2009-06-21T00:00:00",
+      "BirthDate": "1989-12-15T00:00:00",
+      "Positions": [
+        {
+          "Position": "87",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "2141",
+      "FirstName": "Надежда",
+      "MiddleName": "Ивановна",
+      "LastName": "Белошкова",
+      "Time": 1,
+      "StartDate": "1983-02-01T00:00:00",
+      "BirthDate": "1961-06-13T00:00:00",
+      "Positions": [
+        {
+          "Position": "225",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "2153",
+      "FirstName": "Оксана",
+      "MiddleName": "Романовна",
+      "LastName": "Перевалова",
+      "Time": 0.5,
+      "StartDate": "2020-12-17T00:00:00",
+      "BirthDate": "1983-12-14T00:00:00",
+      "Positions": [
+        {
+          "Position": "87",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "2190",
+      "FirstName": "Надежда",
+      "MiddleName": "Петровна",
+      "LastName": "Петрова",
+      "Time": 1,
+      "StartDate": "1990-06-19T00:00:00",
+      "BirthDate": "1952-09-15T00:00:00",
+      "Positions": [
+        {
+          "Position": "220",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "2219",
+      "FirstName": "Тамара",
+      "MiddleName": "Николаевна",
+      "LastName": "Юнусова",
+      "Time": 1,
+      "StartDate": "2011-10-16T00:00:00",
+      "BirthDate": "1981-10-06T00:00:00",
+      "Positions": [
+        {
+          "Position": "87",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "2246",
+      "FirstName": "Любовь",
+      "MiddleName": "Петровна",
+      "LastName": "Ильина",
+      "Time": 1,
+      "StartDate": "2009-11-21T00:00:00",
+      "BirthDate": "1957-05-13T00:00:00",
+      "Positions": [
+        {
+          "Position": "22",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "2251",
+      "FirstName": "Инна",
+      "MiddleName": "Викторовна",
+      "LastName": "Григорьева",
+      "Time": 0.5,
+      "StartDate": "2008-07-23T00:00:00",
+      "BirthDate": "1960-06-13T00:00:00",
+      "Positions": [
+        {
+          "Position": "229",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "2329",
+      "FirstName": "Оксана",
+      "MiddleName": "Леонидовна",
+      "LastName": "Муравьева",
+      "Time": 0.5,
+      "StartDate": "1990-01-02T00:00:00",
+      "BirthDate": "1957-11-23T00:00:00",
+      "Positions": [
+        {
+          "Position": "220",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "2332",
+      "FirstName": "Татьяна",
+      "MiddleName": "Николаевна",
+      "LastName": "Комарова",
+      "Time": 1,
+      "StartDate": "2004-02-01T00:00:00",
+      "BirthDate": "1957-03-09T00:00:00",
+      "Positions": [
+        {
+          "Position": "220",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "2369",
+      "FirstName": "Елена",
+      "MiddleName": "Васильевна",
+      "LastName": "Светланова",
+      "Time": 1,
+      "StartDate": "1993-11-19T00:00:00",
+      "BirthDate": "1971-10-01T00:00:00",
+      "Positions": [
+        {
+          "Position": "235",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "2501",
+      "FirstName": "Альбина",
+      "MiddleName": "Георгиевна",
+      "LastName": "Хасанова",
+      "Time": 1,
+      "StartDate": "2012-06-12T00:00:00",
+      "BirthDate": "1952-10-21T00:00:00",
+      "Positions": [
+        {
+          "Position": "204",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "2523",
+      "FirstName": "Елена",
+      "MiddleName": "Викторовна",
+      "LastName": "Ячная",
+      "Time": 0.5,
+      "StartDate": "2004-05-04T00:00:00",
+      "BirthDate": "1970-12-23T00:00:00",
+      "Positions": [
+        {
+          "Position": "22",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "2544",
+      "FirstName": "Любовь",
+      "MiddleName": "Павловна",
+      "LastName": "Молоткова",
+      "Time": 1,
+      "StartDate": "2016-04-14T00:00:00",
+      "BirthDate": "1988-01-20T00:00:00",
+      "Positions": [
+        {
+          "Position": "64",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "2624",
+      "FirstName": "Ольга",
+      "MiddleName": "Вениаминовна",
+      "LastName": "Прокопец",
+      "Time": 0.5,
+      "StartDate": "2002-12-06T00:00:00",
+      "BirthDate": "1981-02-12T00:00:00",
+      "Positions": [
+        {
+          "Position": "87",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "2784",
+      "FirstName": "Ирина",
+      "MiddleName": "Викторовна",
+      "LastName": "Сыропятова",
+      "Time": 1,
+      "StartDate": "2021-05-02T00:00:00",
+      "BirthDate": "1978-06-09T00:00:00",
+      "Positions": [
+        {
+          "Position": "248",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "2785",
+      "FirstName": "Татьяна",
+      "MiddleName": "Александровна",
+      "LastName": "Владыкина",
+      "Time": 0.5,
+      "StartDate": "1998-07-24T00:00:00",
+      "BirthDate": "1958-07-08T00:00:00",
+      "Positions": [
+        {
+          "Position": "87",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "2857",
+      "FirstName": "Галина",
+      "MiddleName": "Евгеньевна",
+      "LastName": "Иванова",
+      "Time": 0.5,
+      "StartDate": "1991-06-19T00:00:00",
+      "BirthDate": "1958-01-15T00:00:00",
+      "Positions": [
+        {
+          "Position": "22",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "3012",
+      "FirstName": "Евгения",
+      "MiddleName": "Павловна",
+      "LastName": "Берг",
+      "Time": 0.5,
+      "StartDate": "1987-04-20T00:00:00",
+      "BirthDate": "1964-01-06T00:00:00",
+      "Positions": [
+        {
+          "Position": "79",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "3016",
+      "FirstName": "Ольга",
+      "MiddleName": "Владимировна",
+      "LastName": "Пицунова",
+      "Time": 1,
+      "StartDate": "2009-01-03T00:00:00",
+      "BirthDate": "1957-12-07T00:00:00",
+      "Positions": [
+        {
+          "Position": "22",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "3042",
+      "FirstName": "Ирина",
+      "MiddleName": "Ивановна",
+      "LastName": "Костик",
+      "Time": 0.5,
+      "StartDate": "2011-05-11T00:00:00",
+      "BirthDate": "1959-04-01T00:00:00",
+      "Positions": [
+        {
+          "Position": "110",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "3095",
+      "FirstName": "Оксана",
+      "MiddleName": "Александровна",
+      "LastName": "Куклина",
+      "Time": 1,
+      "StartDate": "2018-09-20T00:00:00",
+      "BirthDate": "1984-04-10T00:00:00",
+      "Positions": [
+        {
+          "Position": "22",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "3129",
+      "FirstName": "Нина",
+      "MiddleName": "Сергеевна",
+      "LastName": "Васильева",
+      "Time": 1,
+      "StartDate": "1989-08-24T00:00:00",
+      "BirthDate": "1963-12-11T00:00:00",
+      "Positions": [
+        {
+          "Position": "22",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "3187",
+      "FirstName": "Татьяна",
+      "MiddleName": "Владимировна",
+      "LastName": "Амирзянова",
+      "Time": 1,
+      "StartDate": "1990-08-22T00:00:00",
+      "BirthDate": "1968-05-10T00:00:00",
+      "Positions": [
+        {
+          "Position": "87",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "3236",
+      "FirstName": "Елена",
+      "MiddleName": "Владимировна",
+      "LastName": "Черкасова",
+      "Time": 1,
+      "StartDate": "2016-11-12T00:00:00",
+      "BirthDate": "1983-03-06T00:00:00",
+      "Positions": [
+        {
+          "Position": "264",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "3389",
+      "FirstName": "Елена",
+      "MiddleName": "Николаевна",
+      "LastName": "Перова",
+      "Time": 1,
+      "StartDate": "2011-03-01T00:00:00",
+      "BirthDate": "1961-11-14T00:00:00",
+      "Positions": [
+        {
+          "Position": "110",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "3482",
+      "FirstName": "Елена",
+      "MiddleName": "Александровна",
+      "LastName": "Савко",
+      "Time": 1,
+      "StartDate": "2019-08-21T00:00:00",
+      "BirthDate": "1961-05-20T00:00:00",
+      "Positions": [
+        {
+          "Position": "87",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "3518",
+      "FirstName": "Мария",
+      "MiddleName": "Григорьевна",
+      "LastName": "Попова",
+      "Time": 0.5,
+      "StartDate": "1997-10-11T00:00:00",
+      "BirthDate": "1952-01-15T00:00:00",
+      "Positions": [
+        {
+          "Position": "87",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "3546",
+      "FirstName": "Ирина",
+      "MiddleName": "Сергеевна",
+      "LastName": "Шаляпина",
+      "Time": 0.5,
+      "StartDate": "1984-07-08T00:00:00",
+      "BirthDate": "1964-09-03T00:00:00",
+      "Positions": [
+        {
+          "Position": "87",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "3556",
+      "FirstName": "Ирина",
+      "MiddleName": "Александровна",
+      "LastName": "Ладяева",
+      "Time": 0.5,
+      "StartDate": "2013-03-06T00:00:00",
+      "BirthDate": "1965-07-13T00:00:00",
+      "Positions": [
+        {
+          "Position": "22",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "3604",
+      "FirstName": "Наталия",
+      "MiddleName": "Анатольевна",
+      "LastName": "Башкардина",
+      "Time": 1,
+      "StartDate": "2008-02-10T00:00:00",
+      "BirthDate": "1959-01-10T00:00:00",
+      "Positions": [
+        {
+          "Position": "22",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "3644",
+      "FirstName": "Виктория",
+      "MiddleName": "Алексеевна",
+      "LastName": "Инешина",
+      "Time": 0.5,
+      "StartDate": "2011-05-22T00:00:00",
+      "BirthDate": "1986-11-17T00:00:00",
+      "Positions": [
+        {
+          "Position": "229",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "3658",
+      "FirstName": "Джамалутдин",
+      "MiddleName": "Магомедович",
+      "LastName": "Муртузалиев",
+      "Time": 1,
+      "StartDate": "1992-11-17T00:00:00",
+      "BirthDate": "1969-02-04T00:00:00",
+      "Positions": [
+        {
+          "Position": "64",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "3677",
+      "FirstName": "Светлана",
+      "MiddleName": "Сергеевна",
+      "LastName": "Галеева",
+      "Time": 1,
+      "StartDate": "2015-09-06T00:00:00",
+      "BirthDate": "1982-10-06T00:00:00",
+      "Positions": [
+        {
+          "Position": "87",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "3735",
+      "FirstName": "Юлия",
+      "MiddleName": "Сергеевна",
+      "LastName": "Танакова",
+      "Time": 1,
+      "StartDate": "2015-01-18T00:00:00",
+      "BirthDate": "1972-11-22T00:00:00",
+      "Positions": [
+        {
+          "Position": "22",
+          "Department": "34"
+        }
+      ]
+    },
+    {
+      "Id": "3794",
+      "FirstName": "Алла",
+      "MiddleName": "Анатольевна",
+      "LastName": "Ивлева",
+      "Time": 0.5,
+      "StartDate": "2009-04-11T00:00:00",
+      "BirthDate": "1986-08-04T00:00:00",
+      "Positions": [
+        {
+          "Position": "22",
+          "Department": "34"
+        }
+      ]
+    }
+  ]
+}

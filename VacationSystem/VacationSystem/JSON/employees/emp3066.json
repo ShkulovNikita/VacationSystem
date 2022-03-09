@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3066",
-	"FirstName": "Надежда",
-	"MiddleName": "Сергеевна",
-	"LastName": "Гизатуллина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "126",
-			"HeadOfDepartment": false,
-			"Position": "71"
-		}
-	]
+  "Id": "3066",
+  "FirstName": "Надежда",
+  "MiddleName": "Сергеевна",
+  "LastName": "Гизатуллина",
+  "Time": 0.5,
+  "StartDate": "2010-10-08T00:00:00",
+  "BirthDate": "1961-07-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "71",
+      "Department": "126"
+    }
+  ]
 }

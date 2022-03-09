@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1072",
-	"FirstName": "Наталия",
-	"MiddleName": "Михайловна",
-	"LastName": "Луцкова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "47",
-			"HeadOfDepartment": false,
-			"Position": "0"
-		}
-	]
+  "Id": "1072",
+  "FirstName": "Наталия",
+  "MiddleName": "Михайловна",
+  "LastName": "Луцкова",
+  "Time": 0.5,
+  "StartDate": "1996-06-23T00:00:00",
+  "BirthDate": "1962-10-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "0",
+      "Department": "47"
+    }
+  ]
 }

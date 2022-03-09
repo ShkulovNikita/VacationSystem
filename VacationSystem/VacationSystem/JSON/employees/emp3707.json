@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3707",
-	"FirstName": "Александр",
-	"MiddleName": "Викторович",
-	"LastName": "Вайхель",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "261",
-			"HeadOfDepartment": false,
-			"Position": "270"
-		}
-	]
+  "Id": "3707",
+  "FirstName": "Александр",
+  "MiddleName": "Викторович",
+  "LastName": "Вайхель",
+  "Time": 1,
+  "StartDate": "2015-07-17T00:00:00",
+  "BirthDate": "1975-08-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "270",
+      "Department": "261"
+    }
+  ]
 }

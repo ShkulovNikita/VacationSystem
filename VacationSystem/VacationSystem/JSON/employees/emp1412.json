@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1412",
-	"FirstName": "Анатолий",
-	"MiddleName": "Георгиевич",
-	"LastName": "Терещенко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "16",
-			"HeadOfDepartment": false,
-			"Position": "41"
-		}
-	]
+  "Id": "1412",
+  "FirstName": "Анатолий",
+  "MiddleName": "Георгиевич",
+  "LastName": "Терещенко",
+  "Time": 1,
+  "StartDate": "2009-01-08T00:00:00",
+  "BirthDate": "1985-06-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "41",
+      "Department": "16"
+    }
+  ]
 }

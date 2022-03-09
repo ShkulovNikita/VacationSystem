@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3053",
-	"FirstName": "Наталья",
-	"MiddleName": "Владимировна",
-	"LastName": "Койнова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "199",
-			"HeadOfDepartment": false,
-			"Position": "154"
-		}
-	]
+  "Id": "3053",
+  "FirstName": "Наталья",
+  "MiddleName": "Владимировна",
+  "LastName": "Койнова",
+  "Time": 1,
+  "StartDate": "1997-05-20T00:00:00",
+  "BirthDate": "1957-06-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "154",
+      "Department": "199"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "706",
-	"FirstName": "Любовь",
-	"MiddleName": "Васильевна",
-	"LastName": "Шестакова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "0",
-			"HeadOfDepartment": false,
-			"Position": "0"
-		}
-	]
+  "Id": "706",
+  "FirstName": "Любовь",
+  "MiddleName": "Васильевна",
+  "LastName": "Шестакова",
+  "Time": 0.5,
+  "StartDate": "2011-03-10T00:00:00",
+  "BirthDate": "1987-09-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "0",
+      "Department": "0"
+    }
+  ]
 }

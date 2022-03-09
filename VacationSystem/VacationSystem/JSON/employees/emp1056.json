@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1056",
-	"FirstName": "Сергей",
-	"MiddleName": "Иванович",
-	"LastName": "Твердохлебов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "56",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1056",
+  "FirstName": "Сергей",
+  "MiddleName": "Иванович",
+  "LastName": "Твердохлебов",
+  "Time": 0.5,
+  "StartDate": "1999-12-21T00:00:00",
+  "BirthDate": "1962-01-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "56"
+    }
+  ]
 }

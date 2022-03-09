@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1131",
-	"FirstName": "Сергей",
-	"MiddleName": "Николаевич",
-	"LastName": "Тимченко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "17",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1131",
+  "FirstName": "Сергей",
+  "MiddleName": "Николаевич",
+  "LastName": "Тимченко",
+  "Time": 1,
+  "StartDate": "2000-02-21T00:00:00",
+  "BirthDate": "1954-03-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "17"
+    }
+  ]
 }

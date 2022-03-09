@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2944",
-	"FirstName": "Анатолий",
-	"MiddleName": "Львович",
-	"LastName": "Крылов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "75",
-			"HeadOfDepartment": false,
-			"Position": "49"
-		}
-	]
+  "Id": "2944",
+  "FirstName": "Анатолий",
+  "MiddleName": "Львович",
+  "LastName": "Крылов",
+  "Time": 1,
+  "StartDate": "1991-07-11T00:00:00",
+  "BirthDate": "1960-05-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "49",
+      "Department": "75"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3000",
-	"FirstName": "Наталья",
-	"MiddleName": "Викторовна",
-	"LastName": "Волоцкая",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "59",
-			"HeadOfDepartment": false,
-			"Position": "72"
-		}
-	]
+  "Id": "3000",
+  "FirstName": "Наталья",
+  "MiddleName": "Викторовна",
+  "LastName": "Волоцкая",
+  "Time": 0.5,
+  "StartDate": "2015-08-01T00:00:00",
+  "BirthDate": "1960-02-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "72",
+      "Department": "59"
+    }
+  ]
 }

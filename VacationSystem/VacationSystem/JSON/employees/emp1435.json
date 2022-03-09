@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1435",
-	"FirstName": "Михаил",
-	"MiddleName": "Маркович",
-	"LastName": "Карачаков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "96",
-			"HeadOfDepartment": false,
-			"Position": "64"
-		}
-	]
+  "Id": "1435",
+  "FirstName": "Михаил",
+  "MiddleName": "Маркович",
+  "LastName": "Карачаков",
+  "Time": 1,
+  "StartDate": "2012-01-07T00:00:00",
+  "BirthDate": "1980-12-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "64",
+      "Department": "96"
+    }
+  ]
 }

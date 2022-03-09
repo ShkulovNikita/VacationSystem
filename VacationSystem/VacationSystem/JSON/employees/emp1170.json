@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1170",
-	"FirstName": "И-Кан",
-	"MiddleName": "",
-	"LastName": "Ан",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "93",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "1170",
+  "FirstName": "И-Кан",
+  "MiddleName": "",
+  "LastName": "Ан",
+  "Time": 1,
+  "StartDate": "2007-05-23T00:00:00",
+  "BirthDate": "1975-06-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "93"
+    }
+  ]
 }

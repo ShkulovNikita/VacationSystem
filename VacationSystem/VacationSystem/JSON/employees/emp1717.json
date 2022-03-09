@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1717",
-	"FirstName": "Анна",
-	"MiddleName": "Владимировна",
-	"LastName": "Симбирская",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "47",
-			"HeadOfDepartment": false,
-			"Position": "201"
-		}
-	]
+  "Id": "1717",
+  "FirstName": "Анна",
+  "MiddleName": "Владимировна",
+  "LastName": "Симбирская",
+  "Time": 0.5,
+  "StartDate": "2012-08-16T00:00:00",
+  "BirthDate": "1990-07-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "201",
+      "Department": "47"
+    }
+  ]
 }

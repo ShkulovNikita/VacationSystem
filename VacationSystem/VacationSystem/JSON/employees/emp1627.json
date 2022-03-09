@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1627",
-	"FirstName": "Михаил",
-	"MiddleName": "Вемирович",
-	"LastName": "Долгих",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "92",
-			"HeadOfDepartment": false,
-			"Position": "25"
-		}
-	]
+  "Id": "1627",
+  "FirstName": "Михаил",
+  "MiddleName": "Вемирович",
+  "LastName": "Долгих",
+  "Time": 0.5,
+  "StartDate": "2018-03-09T00:00:00",
+  "BirthDate": "1961-12-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "25",
+      "Department": "92"
+    }
+  ]
 }

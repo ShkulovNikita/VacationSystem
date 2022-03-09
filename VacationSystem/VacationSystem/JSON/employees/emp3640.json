@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3640",
-	"FirstName": "Екатерина",
-	"MiddleName": "Александровна",
-	"LastName": "Безверхняя",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "192",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		}
-	]
+  "Id": "3640",
+  "FirstName": "Екатерина",
+  "MiddleName": "Александровна",
+  "LastName": "Безверхняя",
+  "Time": 0.5,
+  "StartDate": "1978-11-23T00:00:00",
+  "BirthDate": "1952-05-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "192"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1570",
-	"FirstName": "Антон",
-	"MiddleName": "Анатольевич",
-	"LastName": "Дронов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "12",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "1570",
+  "FirstName": "Антон",
+  "MiddleName": "Анатольевич",
+  "LastName": "Дронов",
+  "Time": 1,
+  "StartDate": "2021-05-03T00:00:00",
+  "BirthDate": "1963-12-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "12"
+    }
+  ]
 }

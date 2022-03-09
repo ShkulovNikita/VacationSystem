@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3123",
-	"FirstName": "Александр",
-	"MiddleName": "Евгеньевич",
-	"LastName": "Овсенёв",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "72",
-			"HeadOfDepartment": false,
-			"Position": "179"
-		}
-	]
+  "Id": "3123",
+  "FirstName": "Александр",
+  "MiddleName": "Евгеньевич",
+  "LastName": "Овсенёв",
+  "Time": 0.5,
+  "StartDate": "2002-08-09T00:00:00",
+  "BirthDate": "1977-05-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "179",
+      "Department": "72"
+    }
+  ]
 }

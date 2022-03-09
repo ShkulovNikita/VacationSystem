@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "735",
-	"FirstName": "Алексей",
-	"MiddleName": "Иванович",
-	"LastName": "Перелыгин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "169",
-			"HeadOfDepartment": false,
-			"Position": "68"
-		}
-	]
+  "Id": "735",
+  "FirstName": "Алексей",
+  "MiddleName": "Иванович",
+  "LastName": "Перелыгин",
+  "Time": 1,
+  "StartDate": "2020-04-10T00:00:00",
+  "BirthDate": "1980-02-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "68",
+      "Department": "169"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3048",
-	"FirstName": "Жанна",
-	"MiddleName": "Андреевна",
-	"LastName": "Косторева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "39",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "3048",
+  "FirstName": "Жанна",
+  "MiddleName": "Андреевна",
+  "LastName": "Косторева",
+  "Time": 1,
+  "StartDate": "2019-09-12T00:00:00",
+  "BirthDate": "1970-12-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "39"
+    }
+  ]
 }

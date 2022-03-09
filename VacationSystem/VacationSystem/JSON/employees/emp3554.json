@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3554",
-	"FirstName": "Софи",
-	"MiddleName": "",
-	"LastName": "Мууну",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "65",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		}
-	]
+  "Id": "3554",
+  "FirstName": "Софи",
+  "MiddleName": "",
+  "LastName": "Мууну",
+  "Time": 1,
+  "StartDate": "2000-08-12T00:00:00",
+  "BirthDate": "1958-04-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "65"
+    }
+  ]
 }

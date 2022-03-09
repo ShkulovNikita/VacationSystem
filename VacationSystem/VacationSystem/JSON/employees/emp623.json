@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "623",
-	"FirstName": "Вячеслав",
-	"MiddleName": "Федорович",
-	"LastName": "Мышкин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "17",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "623",
+  "FirstName": "Вячеслав",
+  "MiddleName": "Федорович",
+  "LastName": "Мышкин",
+  "Time": 1,
+  "StartDate": "2002-05-02T00:00:00",
+  "BirthDate": "1971-06-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "17"
+    }
+  ]
 }

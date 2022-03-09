@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1004",
-	"FirstName": "Наталья",
-	"MiddleName": "Анатольевна",
-	"LastName": "Малогина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "46",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "1004",
+  "FirstName": "Наталья",
+  "MiddleName": "Анатольевна",
+  "LastName": "Малогина",
+  "Time": 0.5,
+  "StartDate": "2006-05-18T00:00:00",
+  "BirthDate": "1983-05-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "46"
+    }
+  ]
 }

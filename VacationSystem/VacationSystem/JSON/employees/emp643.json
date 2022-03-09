@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "643",
-	"FirstName": "Анна",
-	"MiddleName": "Владимировна",
-	"LastName": "Гиберт",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "24",
-			"HeadOfDepartment": false,
-			"Position": "113"
-		}
-	]
+  "Id": "643",
+  "FirstName": "Анна",
+  "MiddleName": "Владимировна",
+  "LastName": "Гиберт",
+  "Time": 0.5,
+  "StartDate": "2021-04-04T00:00:00",
+  "BirthDate": "1952-05-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "113",
+      "Department": "24"
+    }
+  ]
 }

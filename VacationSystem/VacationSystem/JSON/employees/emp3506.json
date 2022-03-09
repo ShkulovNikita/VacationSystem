@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3506",
-	"FirstName": "Владислав",
-	"MiddleName": "Владимирович",
-	"LastName": "Томков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "45",
-			"HeadOfDepartment": false,
-			"Position": "7"
-		}
-	]
+  "Id": "3506",
+  "FirstName": "Владислав",
+  "MiddleName": "Владимирович",
+  "LastName": "Томков",
+  "Time": 1,
+  "StartDate": "2010-12-06T00:00:00",
+  "BirthDate": "1990-03-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "7",
+      "Department": "45"
+    }
+  ]
 }

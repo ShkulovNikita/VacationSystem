@@ -1,0 +1,49 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "546",
+      "FirstName": "Владимир",
+      "MiddleName": "Валерьевич",
+      "LastName": "Бендерский",
+      "Time": 1,
+      "StartDate": "1998-08-09T00:00:00",
+      "BirthDate": "1971-07-24T00:00:00",
+      "Positions": [
+        {
+          "Position": "38",
+          "Department": "152"
+        }
+      ]
+    },
+    {
+      "Id": "2567",
+      "FirstName": "Анастасия",
+      "MiddleName": "Александровна",
+      "LastName": "Горбачёва",
+      "Time": 1,
+      "StartDate": "2010-05-11T00:00:00",
+      "BirthDate": "1973-05-14T00:00:00",
+      "Positions": [
+        {
+          "Position": "80",
+          "Department": "152"
+        }
+      ]
+    },
+    {
+      "Id": "3013",
+      "FirstName": "Ольга",
+      "MiddleName": "Олеговна",
+      "LastName": "Пехтелева",
+      "Time": 1,
+      "StartDate": "1983-11-12T00:00:00",
+      "BirthDate": "1963-09-16T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "152"
+        }
+      ]
+    }
+  ]
+}

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "561",
-	"FirstName": "Елена",
-	"MiddleName": "Владимировна",
-	"LastName": "Кузнецова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "33",
-			"HeadOfDepartment": false,
-			"Position": "39"
-		}
-	]
+  "Id": "561",
+  "FirstName": "Елена",
+  "MiddleName": "Владимировна",
+  "LastName": "Кузнецова",
+  "Time": 0.5,
+  "StartDate": "2007-10-05T00:00:00",
+  "BirthDate": "1986-03-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "39",
+      "Department": "33"
+    }
+  ]
 }

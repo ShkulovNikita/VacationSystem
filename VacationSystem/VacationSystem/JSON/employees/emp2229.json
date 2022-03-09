@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2229",
-	"FirstName": "Наталья",
-	"MiddleName": "Михайловна",
-	"LastName": "Панькова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "3",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "2229",
+  "FirstName": "Наталья",
+  "MiddleName": "Михайловна",
+  "LastName": "Панькова",
+  "Time": 1,
+  "StartDate": "2016-10-07T00:00:00",
+  "BirthDate": "1953-11-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "3"
+    }
+  ]
 }

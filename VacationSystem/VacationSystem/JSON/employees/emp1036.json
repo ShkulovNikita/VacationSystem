@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1036",
-	"FirstName": "Антон",
-	"MiddleName": "Владимирович",
-	"LastName": "Епихин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "46",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "1036",
+  "FirstName": "Антон",
+  "MiddleName": "Владимирович",
+  "LastName": "Епихин",
+  "Time": 1,
+  "StartDate": "2021-02-02T00:00:00",
+  "BirthDate": "1975-09-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "46"
+    }
+  ]
 }

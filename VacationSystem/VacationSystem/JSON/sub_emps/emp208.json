@@ -1,0 +1,94 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "140",
+      "FirstName": "Екатерина",
+      "MiddleName": "Юрьевна",
+      "LastName": "Иванова",
+      "Time": 0.5,
+      "StartDate": "2017-06-10T00:00:00",
+      "BirthDate": "1985-05-20T00:00:00",
+      "Positions": [
+        {
+          "Position": "50",
+          "Department": "76"
+        }
+      ]
+    },
+    {
+      "Id": "208",
+      "FirstName": "Елена",
+      "MiddleName": "Юрьевна",
+      "LastName": "Шишко",
+      "Time": 1,
+      "StartDate": "1979-11-10T00:00:00",
+      "BirthDate": "1958-01-22T00:00:00",
+      "Positions": [
+        {
+          "Position": "50",
+          "Department": "76"
+        }
+      ]
+    },
+    {
+      "Id": "717",
+      "FirstName": "Надежда",
+      "MiddleName": "Иннокентьевна",
+      "LastName": "Седельникова",
+      "Time": 0.5,
+      "StartDate": "2019-03-11T00:00:00",
+      "BirthDate": "1970-06-15T00:00:00",
+      "Positions": [
+        {
+          "Position": "50",
+          "Department": "76"
+        }
+      ]
+    },
+    {
+      "Id": "875",
+      "FirstName": "Татьяна",
+      "MiddleName": "Юрьевна",
+      "LastName": "Тригубенко",
+      "Time": 1,
+      "StartDate": "2012-12-15T00:00:00",
+      "BirthDate": "1986-08-16T00:00:00",
+      "Positions": [
+        {
+          "Position": "10",
+          "Department": "76"
+        }
+      ]
+    },
+    {
+      "Id": "1278",
+      "FirstName": "Ольга",
+      "MiddleName": "Евгеньевна",
+      "LastName": "Дульзон",
+      "Time": 1,
+      "StartDate": "2008-11-22T00:00:00",
+      "BirthDate": "1955-04-24T00:00:00",
+      "Positions": [
+        {
+          "Position": "50",
+          "Department": "76"
+        }
+      ]
+    },
+    {
+      "Id": "2687",
+      "FirstName": "Марина",
+      "MiddleName": "Леонидовна",
+      "LastName": "Хасанова",
+      "Time": 0.5,
+      "StartDate": "1990-12-02T00:00:00",
+      "BirthDate": "1970-08-17T00:00:00",
+      "Positions": [
+        {
+          "Position": "50",
+          "Department": "76"
+        }
+      ]
+    }
+  ]
+}

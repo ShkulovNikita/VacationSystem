@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3094",
-	"FirstName": "Екатерина",
-	"MiddleName": "Александровна",
-	"LastName": "Алфёрова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "3094",
+  "FirstName": "Екатерина",
+  "MiddleName": "Александровна",
+  "LastName": "Алфёрова",
+  "Time": 1,
+  "StartDate": "2014-02-04T00:00:00",
+  "BirthDate": "1986-09-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "15"
+    }
+  ]
 }

@@ -1,0 +1,64 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "1528",
+      "FirstName": "Арсений",
+      "MiddleName": "Олегович",
+      "LastName": "Чулков",
+      "Time": 0.5,
+      "StartDate": "1982-09-06T00:00:00",
+      "BirthDate": "1958-04-04T00:00:00",
+      "Positions": [
+        {
+          "Position": "56",
+          "Department": "216"
+        }
+      ]
+    },
+    {
+      "Id": "1642",
+      "FirstName": "Антонина",
+      "MiddleName": "Геннадьевна",
+      "LastName": "Долгих",
+      "Time": 0.5,
+      "StartDate": "2011-03-22T00:00:00",
+      "BirthDate": "1983-01-20T00:00:00",
+      "Positions": [
+        {
+          "Position": "26",
+          "Department": "216"
+        }
+      ]
+    },
+    {
+      "Id": "2495",
+      "FirstName": "Дарья",
+      "MiddleName": "Александровна",
+      "LastName": "Дерусова",
+      "Time": 0.5,
+      "StartDate": "1996-12-24T00:00:00",
+      "BirthDate": "1965-12-12T00:00:00",
+      "Positions": [
+        {
+          "Position": "56",
+          "Department": "216"
+        }
+      ]
+    },
+    {
+      "Id": "2658",
+      "FirstName": "Виктор",
+      "MiddleName": "Юрьевич",
+      "LastName": "Шпильной",
+      "Time": 1,
+      "StartDate": "2017-06-23T00:00:00",
+      "BirthDate": "1989-09-04T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "216"
+        }
+      ]
+    }
+  ]
+}

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3574",
-	"FirstName": "Вячеслав",
-	"MiddleName": "Юрьевич",
-	"LastName": "Бабышев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "130",
-			"HeadOfDepartment": false,
-			"Position": "53"
-		}
-	]
+  "Id": "3574",
+  "FirstName": "Вячеслав",
+  "MiddleName": "Юрьевич",
+  "LastName": "Бабышев",
+  "Time": 0.5,
+  "StartDate": "2018-07-09T00:00:00",
+  "BirthDate": "1978-08-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "53",
+      "Department": "130"
+    }
+  ]
 }

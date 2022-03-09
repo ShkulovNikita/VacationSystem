@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3771",
-	"FirstName": "Игорь",
-	"MiddleName": "Александрович",
-	"LastName": "Малышенко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "92",
-			"HeadOfDepartment": false,
-			"Position": "25"
-		}
-	]
+  "Id": "3771",
+  "FirstName": "Игорь",
+  "MiddleName": "Александрович",
+  "LastName": "Малышенко",
+  "Time": 0.5,
+  "StartDate": "1999-07-07T00:00:00",
+  "BirthDate": "1964-09-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "25",
+      "Department": "92"
+    }
+  ]
 }

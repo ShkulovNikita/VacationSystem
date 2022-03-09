@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "816",
-	"FirstName": "Дмитрий",
-	"MiddleName": "Геннадьевич",
-	"LastName": "Видяев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "17",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "816",
+  "FirstName": "Дмитрий",
+  "MiddleName": "Геннадьевич",
+  "LastName": "Видяев",
+  "Time": 0.5,
+  "StartDate": "1986-02-03T00:00:00",
+  "BirthDate": "1953-02-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "17"
+    }
+  ]
 }

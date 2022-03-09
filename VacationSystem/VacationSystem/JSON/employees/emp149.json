@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "149",
-	"FirstName": "Ольга",
-	"MiddleName": "Владимировна",
-	"LastName": "Хаустова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "81",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "149",
+  "FirstName": "Ольга",
+  "MiddleName": "Владимировна",
+  "LastName": "Хаустова",
+  "Time": 1,
+  "StartDate": "2007-11-05T00:00:00",
+  "BirthDate": "1966-05-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "81"
+    }
+  ]
 }

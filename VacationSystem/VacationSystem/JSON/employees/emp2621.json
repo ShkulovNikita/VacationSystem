@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2621",
-	"FirstName": "Наталия",
-	"MiddleName": "Владимировна",
-	"LastName": "Шабанова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "139",
-			"HeadOfDepartment": false,
-			"Position": "98"
-		}
-	]
+  "Id": "2621",
+  "FirstName": "Наталия",
+  "MiddleName": "Владимировна",
+  "LastName": "Шабанова",
+  "Time": 0.5,
+  "StartDate": "2007-12-09T00:00:00",
+  "BirthDate": "1962-04-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "98",
+      "Department": "139"
+    }
+  ]
 }

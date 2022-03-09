@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1181",
-	"FirstName": "Семен",
-	"MiddleName": "Владимирович",
-	"LastName": "Сыродой",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "39",
-			"HeadOfDepartment": false,
-			"Position": "24"
-		}
-	]
+  "Id": "1181",
+  "FirstName": "Семен",
+  "MiddleName": "Владимирович",
+  "LastName": "Сыродой",
+  "Time": 1,
+  "StartDate": "1990-02-13T00:00:00",
+  "BirthDate": "1961-01-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "24",
+      "Department": "39"
+    }
+  ]
 }

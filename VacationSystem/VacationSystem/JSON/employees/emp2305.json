@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2305",
-	"FirstName": "Татьяна",
-	"MiddleName": "Петровна",
-	"LastName": "Толмачева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "16",
-			"HeadOfDepartment": false,
-			"Position": "170"
-		}
-	]
+  "Id": "2305",
+  "FirstName": "Татьяна",
+  "MiddleName": "Петровна",
+  "LastName": "Толмачева",
+  "Time": 0.5,
+  "StartDate": "2002-03-10T00:00:00",
+  "BirthDate": "1970-07-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "170",
+      "Department": "16"
+    }
+  ]
 }

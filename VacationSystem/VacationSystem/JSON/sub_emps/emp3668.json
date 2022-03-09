@@ -1,0 +1,109 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "1809",
+      "FirstName": "Ксения",
+      "MiddleName": "Валерьевна",
+      "LastName": "Антюшина",
+      "Time": 0.5,
+      "StartDate": "2014-06-10T00:00:00",
+      "BirthDate": "1971-10-19T00:00:00",
+      "Positions": [
+        {
+          "Position": "163",
+          "Department": "230"
+        }
+      ]
+    },
+    {
+      "Id": "1883",
+      "FirstName": "Ольга",
+      "MiddleName": "Афанасьевна",
+      "LastName": "Ананьева",
+      "Time": 1,
+      "StartDate": "2018-11-18T00:00:00",
+      "BirthDate": "1989-06-22T00:00:00",
+      "Positions": [
+        {
+          "Position": "8",
+          "Department": "230"
+        }
+      ]
+    },
+    {
+      "Id": "3668",
+      "FirstName": "Наталья",
+      "MiddleName": "Алексеевна",
+      "LastName": "Патрахина",
+      "Time": 1,
+      "StartDate": "2013-04-21T00:00:00",
+      "BirthDate": "1981-09-07T00:00:00",
+      "Positions": [
+        {
+          "Position": "163",
+          "Department": "230"
+        }
+      ]
+    },
+    {
+      "Id": "3712",
+      "FirstName": "Богдан",
+      "MiddleName": "Вячеславович",
+      "LastName": "Дорошенко",
+      "Time": 0.5,
+      "StartDate": "1999-11-02T00:00:00",
+      "BirthDate": "1970-02-10T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "230"
+        }
+      ]
+    },
+    {
+      "Id": "3781",
+      "FirstName": "Ростислав",
+      "MiddleName": "Эдуардович",
+      "LastName": "Яворский",
+      "Time": 0.5,
+      "StartDate": "1983-12-13T00:00:00",
+      "BirthDate": "1952-03-14T00:00:00",
+      "Positions": [
+        {
+          "Position": "296",
+          "Department": "230"
+        }
+      ]
+    },
+    {
+      "Id": "3798",
+      "FirstName": "Виктор",
+      "MiddleName": "Алексеевич",
+      "LastName": "Кафаров",
+      "Time": 1,
+      "StartDate": "2015-02-11T00:00:00",
+      "BirthDate": "1964-03-12T00:00:00",
+      "Positions": [
+        {
+          "Position": "298",
+          "Department": "230"
+        }
+      ]
+    },
+    {
+      "Id": "3825",
+      "FirstName": "Андрей",
+      "MiddleName": "Александрович",
+      "LastName": "Яковлев",
+      "Time": 0.5,
+      "StartDate": "2009-12-01T00:00:00",
+      "BirthDate": "1976-03-16T00:00:00",
+      "Positions": [
+        {
+          "Position": "299",
+          "Department": "230"
+        }
+      ]
+    }
+  ]
+}

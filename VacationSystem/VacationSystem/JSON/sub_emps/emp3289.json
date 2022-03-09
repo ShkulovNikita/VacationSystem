@@ -1,0 +1,49 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "3050",
+      "FirstName": "Вячеслав",
+      "MiddleName": "Сергеевич",
+      "LastName": "Начевный",
+      "Time": 0.5,
+      "StartDate": "2013-03-08T00:00:00",
+      "BirthDate": "1960-08-03T00:00:00",
+      "Positions": [
+        {
+          "Position": "10",
+          "Department": "261"
+        }
+      ]
+    },
+    {
+      "Id": "3289",
+      "FirstName": "Ольга",
+      "MiddleName": "Святославовна",
+      "LastName": "Мальцева",
+      "Time": 0.5,
+      "StartDate": "1998-07-11T00:00:00",
+      "BirthDate": "1959-10-10T00:00:00",
+      "Positions": [
+        {
+          "Position": "270",
+          "Department": "261"
+        }
+      ]
+    },
+    {
+      "Id": "3707",
+      "FirstName": "Александр",
+      "MiddleName": "Викторович",
+      "LastName": "Вайхель",
+      "Time": 1,
+      "StartDate": "2015-07-17T00:00:00",
+      "BirthDate": "1975-08-12T00:00:00",
+      "Positions": [
+        {
+          "Position": "270",
+          "Department": "261"
+        }
+      ]
+    }
+  ]
+}

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2084",
-	"FirstName": "Тамара",
-	"MiddleName": "Александровна",
-	"LastName": "Савиных",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "33",
-			"HeadOfDepartment": false,
-			"Position": "39"
-		}
-	]
+  "Id": "2084",
+  "FirstName": "Тамара",
+  "MiddleName": "Александровна",
+  "LastName": "Савиных",
+  "Time": 1,
+  "StartDate": "2010-07-22T00:00:00",
+  "BirthDate": "1989-03-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "39",
+      "Department": "33"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3437",
-	"FirstName": "Анастасия",
-	"MiddleName": "Игоревна",
-	"LastName": "Щеголихина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "149",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		}
-	]
+  "Id": "3437",
+  "FirstName": "Анастасия",
+  "MiddleName": "Игоревна",
+  "LastName": "Щеголихина",
+  "Time": 1,
+  "StartDate": "2016-11-13T00:00:00",
+  "BirthDate": "1956-11-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "149"
+    }
+  ]
 }

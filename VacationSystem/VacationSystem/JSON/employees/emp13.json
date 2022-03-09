@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "13",
-	"FirstName": "Оксана",
-	"MiddleName": "Николаевна",
-	"LastName": "Фисоченко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "12",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "13",
+  "FirstName": "Оксана",
+  "MiddleName": "Николаевна",
+  "LastName": "Фисоченко",
+  "Time": 0.5,
+  "StartDate": "1992-02-23T00:00:00",
+  "BirthDate": "1962-08-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "12"
+    }
+  ]
 }

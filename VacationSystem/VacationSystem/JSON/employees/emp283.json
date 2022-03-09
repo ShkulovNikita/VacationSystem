@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "283",
-	"FirstName": "Любовь",
-	"MiddleName": "Александровна",
-	"LastName": "Воронцова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "107",
-			"HeadOfDepartment": false,
-			"Position": "73"
-		}
-	]
+  "Id": "283",
+  "FirstName": "Любовь",
+  "MiddleName": "Александровна",
+  "LastName": "Воронцова",
+  "Time": 0.5,
+  "StartDate": "2008-06-15T00:00:00",
+  "BirthDate": "1983-05-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "73",
+      "Department": "107"
+    }
+  ]
 }

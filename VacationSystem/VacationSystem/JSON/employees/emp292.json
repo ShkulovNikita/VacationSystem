@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "292",
-	"FirstName": "Валентина",
-	"MiddleName": "Николаевна",
-	"LastName": "Неверова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "115",
-			"HeadOfDepartment": false,
-			"Position": "77"
-		}
-	]
+  "Id": "292",
+  "FirstName": "Валентина",
+  "MiddleName": "Николаевна",
+  "LastName": "Неверова",
+  "Time": 1,
+  "StartDate": "2016-08-15T00:00:00",
+  "BirthDate": "1992-04-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "77",
+      "Department": "115"
+    }
+  ]
 }

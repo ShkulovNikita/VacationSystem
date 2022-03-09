@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using VacationSystem.Models;
 using System.IO;
-using VacationSystem.ParsingClasses;
 
 namespace VacationSystem.Classes
 {
@@ -10,7 +10,6 @@ namespace VacationSystem.Classes
     /// Класс для обеспечения соединения с API ТПУ
     /// и получения данных из API
     /// </summary>
-    
     static public class Connector
     {
         // постоянная часть ссылки на API
@@ -39,9 +38,9 @@ namespace VacationSystem.Classes
                 else
                     return null;
             }
-            catch (Exception e)
+            catch (Exception ex)
             {
-                Console.WriteLine(e.Message);
+                Debug.WriteLine(ex.Message);
                 return null;
             }
         }
@@ -60,9 +59,9 @@ namespace VacationSystem.Classes
                 {
                     return parsingMethod(data);
                 }
-                catch (Exception e)
+                catch (Exception ex)
                 {
-                    Console.WriteLine(e.Message);
+                    Debug.WriteLine(ex.Message);
                     return null;
                 }
             }
@@ -71,91 +70,159 @@ namespace VacationSystem.Classes
         }
 
         /// <summary>
-        /// Получение производственного календаря
-        /// </summary>
-        /// <param name="year">Производственный год</param>
-        /// <returns>Список выходных и праздничных дней</returns>
-        public static List<Holiday> GetParsedCalendar(string year="")
-        {   
-            string calendar = ReadReply("calendar" + year);
-            List<Holiday> holidays = (List<Holiday>)Parse(Parser.ParseHolidays, calendar);
-            if (holidays != null)
-                return holidays;
-            else
-                return null;
-        }
-
-        /// <summary>
-        /// Получение информации о конкретном сотруднике (формат API)
+        /// Получение сотрудника по его идентификатору
         /// </summary>
         /// <param name="id">Идентификатор сотрудника</param>
-        /// <returns>Объект с данными о сотруднике</returns>
-        static public EmployeeParsed GetParsedEmployee(string id)
+        /// <returns>Сотрудник</returns>
+        public static Employee GetEmployee(string id)
         {
             string emp = ReadReply("employees/emp" + id);
-            EmployeeParsed employee = (EmployeeParsed)Parse(Parser.ParseEmployee, emp);
-            if (employee != null)
-                return employee;
-            else
-                return null;
+            Employee employee = (Employee)Parse(Parser.ParseEmployee, emp);
+            return employee;
         }
 
         /// <summary>
-        /// Получение информации о конкретном подразделении (формат API)
+        /// Получение подразделения по его идентификатору
         /// </summary>
         /// <param name="id">Идентификатор подразделения</param>
-        /// <returns>Объект с данными о подразделении</returns>
-        static public DepartmentParsed GetParsedDepartment(string id)
+        /// <returns>Подразделение</returns>
+        public static Department GetDepartment(string id)
         {
             string dep = ReadReply("departments/dep" + id);
-            DepartmentParsed department = (DepartmentParsed)Parse(Parser.ParseDepartment, dep);
-            if (department != null)
-                return department;
-            else
-                return null;
+            Department department = (Department)Parse(Parser.ParseDepartment, dep);
+            return department;
         }
 
         /// <summary>
-        /// Получение списка сотрудников подразделения (формат API)
+        /// Получение списка сотрудников подразделения
         /// </summary>
         /// <param name="id">Идентификатор подразделения</param>
-        /// <returns>Список сотрудников подразделения</returns>
-        static public List<EmployeeInfo> GetParsedEmployeeList(string id)
+        /// <returns>Список сотрудников</returns>
+        public static List<Employee> GetEmployeesOfDepartment(string id)
         {
-            string emps = ReadReply("emp_in_deps/emp_list" + id);
-            List<EmployeeInfo> list = (List<EmployeeInfo>)Parse(Parser.ParseEmployeeList, emps);
-            if (list != null)
-                return list;
-            else
-                return null;
+            string emps = ReadReply("emps_in_deps/dep" + id);
+            List<Employee> employees = (List<Employee>)Parse(Parser.ParseEmployees, emps);
+            return employees;
         }
 
         /// <summary>
-        /// Получение списка должностей в ТПУ (формат API)
-        /// </summary>
-        /// <returns>Список должностей</returns>
-        static public List<PositionInfo> GetParsedPositionsList()
-        {
-            string positions = ReadReply("pos_list");
-            List<PositionInfo> list = (List<PositionInfo>)Parse(Parser.ParsePositionsList, positions);
-            if (list != null)
-                return list;
-            else
-                return null;
-        }
-
-        /// <summary>
-        /// Получение списка подразделений (формат API)
+        /// Получение списка всех подразделений ТПУ
         /// </summary>
         /// <returns>Список подразделений</returns>
-        static public List<DepartmentInfo> GetParsedDepartmentsList()
+        public static List<Department> GetDepartments()
         {
-            string departments = ReadReply("dep_list");
-            List<DepartmentInfo> list = (List<DepartmentInfo>)Parse(Parser.ParseDepartmentsList, departments);
-            if (list != null)
-                return list;
-            else
-                return null;
+            string deps = ReadReply("dep_list");
+            List<Department> departments = (List<Department>)Parse(Parser.ParseDepartments, deps);
+            return departments;
+        }
+
+        /// <summary>
+        /// Получение списка должностей указанного сотрудника
+        /// </summary>
+        /// <param name="id">Идентификатор сотрудника</param>
+        /// <returns>Список должностей сотрудника</returns>
+        public static List<PositionInDepartment> GetEmployeePositions(string id)
+        {
+            string pos = ReadReply("emp_positions/emp" + id);
+            List<PositionInDepartment> positions = (List<PositionInDepartment>)Parse(Parser.ParsePositionsInDepartments, pos);
+            return positions;
+        }
+
+        /// <summary>
+        /// Получение списка должностей
+        /// </summary>
+        /// <returns>Список всех должностей</returns>
+        public static List<Position> GetPositions()
+        {
+            string pos = ReadReply("pos_list");
+            List<Position> positions = (List<Position>)Parse(Parser.ParsePositions, pos);
+            return positions;
+        }
+
+        /// <summary>
+        /// Получение старшего подразделения для указанного
+        /// </summary>
+        /// <param name="id">Идентификатор подразделения</param>
+        /// <returns>Старшее подразделение относительно заданного подразделения</returns>
+        public static Department GetHeadDepartment(string id)
+        {
+            string dep = ReadReply("head_deps/dep" + id);
+            Department department = (Department)Parse(Parser.ParseDepartment, dep);
+            return department;
+        }
+
+        /// <summary>
+        /// Получение руководителя подразделения
+        /// </summary>
+        /// <param name="id">Идентификатор подразделения</param>
+        /// <returns>Руководитель указанного подразделения</returns>
+        public static Employee GetHeadOfDepartment(string id)
+        {
+            string emp = ReadReply("heads_of_deps/dep" + id);
+            Employee employee = (Employee)Parse(Parser.ParseEmployee, emp);
+            return employee;
+        }
+
+        /// <summary>
+        /// Получение должностей сотрудника в указанном подразделении
+        /// </summary>
+        /// <param name="depId">Идентификатор подразделения</param>
+        /// <param name="empId">Идентификатор сотрудника</param>
+        /// <returns>Список должностей указанного сотрудника в заданном подразделении</returns>
+        public static List<PositionInDepartment> GetPositionsInDepartment(string depId, string empId)
+        {
+            string pos = ReadReply("pos_in_deps/dep" + depId + "/emp" + empId);
+            List<PositionInDepartment> positions = (List<PositionInDepartment>)Parse(Parser.ParsePositionsInDepartments, pos);
+            return positions;
+        }
+
+        /// <summary>
+        /// Получение указанной должности
+        /// </summary>
+        /// <param name="id">Идентификатор должности</param>
+        /// <returns>Должность</returns>
+        public static Position GetPosition(string id)
+        {
+            string pos = ReadReply("positions/pos" + id);
+            Position position = (Position)Parse(Parser.ParsePosition, pos);
+            return position;
+        }
+
+        /// <summary>
+        /// Получение младшних подразделений
+        /// </summary>
+        /// <param name="id">Идентификатор старшего подразделения</param>
+        /// <returns>Список младших подразделений относительно заданного
+        /// старшего подразделения</returns>
+        public static List<Department> GetLowerDepartments(string id)
+        {
+            string deps = ReadReply("sub_deps/dep" + id);
+            List<Department> departments = (List<Department>)Parse(Parser.ParseDepartments, deps);
+            return departments;
+        }
+
+        /// <summary>
+        /// Получение подчиненных подразделений
+        /// </summary>
+        /// <param name="id">Идентификатор руководителя</param>
+        /// <returns>Список подчиненных подразделений указанного руководителя</returns>
+        public static List<Department> GetSubordinateDepartments(string id)
+        {
+            string deps = ReadReply("sub_deps_head/emp" + id);
+            List<Department> departments = (List<Department>)Parse(Parser.ParseDepartments, deps);
+            return departments;
+        }
+
+        /// <summary>
+        /// Получение подчиненных сотрудников
+        /// </summary>
+        /// <param name="id">Идентификатор руководителя</param>
+        /// <returns>Список сотрудников, подчиненных указанному руководителю</returns>
+        public static List<Employee> GetSubordinateEmployees(string id)
+        {
+            string emps = ReadReply("sub_emps/emp" + id);
+            List<Employee> employees = (List<Employee>)Parse(Parser.ParseEmployees, emps);
+            return employees;
         }
     }
 }

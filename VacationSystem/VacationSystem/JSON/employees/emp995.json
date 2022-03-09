@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "995",
-	"FirstName": "Василий",
-	"MiddleName": "Александрович",
-	"LastName": "Клименов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		},
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "43"
-		}
-	]
+  "Id": "995",
+  "FirstName": "Василий",
+  "MiddleName": "Александрович",
+  "LastName": "Клименов",
+  "Time": 2,
+  "StartDate": "2017-11-08T00:00:00",
+  "BirthDate": "1987-04-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "15"
+    },
+    {
+      "Position": "43",
+      "Department": "15"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "205",
-	"FirstName": "Иван",
-	"MiddleName": "Иванович",
-	"LastName": "Медведев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "27",
-			"HeadOfDepartment": false,
-			"Position": "62"
-		}
-	]
+  "Id": "205",
+  "FirstName": "Иван",
+  "MiddleName": "Иванович",
+  "LastName": "Медведев",
+  "Time": 1,
+  "StartDate": "2013-07-05T00:00:00",
+  "BirthDate": "1987-10-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "62",
+      "Department": "27"
+    }
+  ]
 }

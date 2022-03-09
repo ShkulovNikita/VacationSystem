@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2104",
-	"FirstName": "Ульяна",
-	"MiddleName": "Викторовна",
-	"LastName": "Хоречко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "65",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "2104",
+  "FirstName": "Ульяна",
+  "MiddleName": "Викторовна",
+  "LastName": "Хоречко",
+  "Time": 0.5,
+  "StartDate": "2005-01-01T00:00:00",
+  "BirthDate": "1973-09-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "65"
+    }
+  ]
 }

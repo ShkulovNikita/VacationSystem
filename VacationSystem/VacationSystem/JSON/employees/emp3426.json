@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3426",
-	"FirstName": "Алина",
-	"MiddleName": "",
-	"LastName": "Владеску",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "188",
-			"HeadOfDepartment": false,
-			"Position": "56"
-		}
-	]
+  "Id": "3426",
+  "FirstName": "Алина",
+  "MiddleName": "",
+  "LastName": "Владеску",
+  "Time": 1,
+  "StartDate": "2012-02-10T00:00:00",
+  "BirthDate": "1964-12-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "56",
+      "Department": "188"
+    }
+  ]
 }

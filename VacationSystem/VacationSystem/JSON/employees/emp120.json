@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "120",
-	"FirstName": "Оксана",
-	"MiddleName": "Михайловна",
-	"LastName": "Зеленская",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "69",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "120",
+  "FirstName": "Оксана",
+  "MiddleName": "Михайловна",
+  "LastName": "Зеленская",
+  "Time": 0.5,
+  "StartDate": "2020-02-10T00:00:00",
+  "BirthDate": "1964-09-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "69"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1728",
-	"FirstName": "Александра",
-	"MiddleName": "Евгеньевна",
-	"LastName": "Киреева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "149",
-			"HeadOfDepartment": false,
-			"Position": "0"
-		}
-	]
+  "Id": "1728",
+  "FirstName": "Александра",
+  "MiddleName": "Евгеньевна",
+  "LastName": "Киреева",
+  "Time": 1,
+  "StartDate": "1997-08-15T00:00:00",
+  "BirthDate": "1975-08-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "0",
+      "Department": "149"
+    }
+  ]
 }

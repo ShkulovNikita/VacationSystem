@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2153",
-	"FirstName": "Оксана",
-	"MiddleName": "Романовна",
-	"LastName": "Перевалова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "34",
-			"HeadOfDepartment": false,
-			"Position": "87"
-		}
-	]
+  "Id": "2153",
+  "FirstName": "Оксана",
+  "MiddleName": "Романовна",
+  "LastName": "Перевалова",
+  "Time": 0.5,
+  "StartDate": "2020-12-17T00:00:00",
+  "BirthDate": "1983-12-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "87",
+      "Department": "34"
+    }
+  ]
 }

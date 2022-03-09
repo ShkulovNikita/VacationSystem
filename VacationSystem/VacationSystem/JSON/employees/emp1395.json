@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1395",
-	"FirstName": "Наталия",
-	"MiddleName": "Валерьевна",
-	"LastName": "Аксёнова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "0",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1395",
+  "FirstName": "Наталия",
+  "MiddleName": "Валерьевна",
+  "LastName": "Аксёнова",
+  "Time": 1,
+  "StartDate": "1993-02-09T00:00:00",
+  "BirthDate": "1968-08-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "0"
+    }
+  ]
 }

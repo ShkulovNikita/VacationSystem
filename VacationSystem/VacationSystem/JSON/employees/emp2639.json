@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2639",
-	"FirstName": "Степан",
-	"MiddleName": "Сергеевич",
-	"LastName": "Салодкин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "175",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "2639",
+  "FirstName": "Степан",
+  "MiddleName": "Сергеевич",
+  "LastName": "Салодкин",
+  "Time": 0.5,
+  "StartDate": "1997-02-06T00:00:00",
+  "BirthDate": "1972-03-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "175"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3721",
-	"FirstName": "Карлос Хавьер",
-	"MiddleName": "",
-	"LastName": "Вильягомес Охеда",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "32",
-			"HeadOfDepartment": false,
-			"Position": "24"
-		}
-	]
+  "Id": "3721",
+  "FirstName": "Карлос Хавьер",
+  "MiddleName": "",
+  "LastName": "Вильягомес Охеда",
+  "Time": 1,
+  "StartDate": "1997-03-15T00:00:00",
+  "BirthDate": "1977-08-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "24",
+      "Department": "32"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "506",
-	"FirstName": "Денис",
-	"MiddleName": "Васильевич",
-	"LastName": "Муцин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "50",
-			"HeadOfDepartment": false,
-			"Position": "88"
-		}
-	]
+  "Id": "506",
+  "FirstName": "Денис",
+  "MiddleName": "Васильевич",
+  "LastName": "Муцин",
+  "Time": 1,
+  "StartDate": "2004-09-24T00:00:00",
+  "BirthDate": "1958-09-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "88",
+      "Department": "50"
+    }
+  ]
 }

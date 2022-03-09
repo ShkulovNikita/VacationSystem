@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "193",
-	"FirstName": "Евгения",
-	"MiddleName": "Викторовна",
-	"LastName": "Восколович",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "92",
-			"HeadOfDepartment": false,
-			"Position": "61"
-		}
-	]
+  "Id": "193",
+  "FirstName": "Евгения",
+  "MiddleName": "Викторовна",
+  "LastName": "Восколович",
+  "Time": 1,
+  "StartDate": "1999-08-17T00:00:00",
+  "BirthDate": "1953-12-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "61",
+      "Department": "92"
+    }
+  ]
 }

@@ -1,19 +1,15 @@
 ﻿{
-	"Id": "2906",
-	"FirstName": "Наталия",
-	"MiddleName": "Алексеевна",
-	"LastName": "Федорова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "71",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		},
-		{
-			"Id": "71",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "2906",
+  "FirstName": "Наталия",
+  "MiddleName": "Алексеевна",
+  "LastName": "Федорова",
+  "Time": 1,
+  "StartDate": "2009-07-11T00:00:00",
+  "BirthDate": "1973-03-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "71"
+    }
+  ]
 }

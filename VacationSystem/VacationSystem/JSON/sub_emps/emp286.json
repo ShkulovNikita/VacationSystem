@@ -1,0 +1,38 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "286",
+      "FirstName": "Виктор",
+      "MiddleName": "Николаевич",
+      "LastName": "Щербинин",
+      "Time": 2,
+      "StartDate": "1998-12-09T00:00:00",
+      "BirthDate": "1956-05-14T00:00:00",
+      "Positions": [
+        {
+          "Position": "75",
+          "Department": "113"
+        },
+        {
+          "Position": "18",
+          "Department": "2"
+        }
+      ]
+    },
+    {
+      "Id": "2730",
+      "FirstName": "Анастасия",
+      "MiddleName": "Михайловна",
+      "LastName": "Сульгина",
+      "Time": 0.5,
+      "StartDate": "1999-08-02T00:00:00",
+      "BirthDate": "1957-07-03T00:00:00",
+      "Positions": [
+        {
+          "Position": "80",
+          "Department": "113"
+        }
+      ]
+    }
+  ]
+}

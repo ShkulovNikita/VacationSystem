@@ -1,0 +1,64 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "1788",
+      "FirstName": "Елена",
+      "MiddleName": "Владимировна",
+      "LastName": "Гершелис",
+      "Time": 1.5,
+      "StartDate": "2008-06-19T00:00:00",
+      "BirthDate": "1964-02-03T00:00:00",
+      "Positions": [
+        {
+          "Position": "133",
+          "Department": "229"
+        }
+      ]
+    },
+    {
+      "Id": "2897",
+      "FirstName": "Сергей",
+      "MiddleName": "Владимирович",
+      "LastName": "Щаденко",
+      "Time": 1,
+      "StartDate": "2011-07-19T00:00:00",
+      "BirthDate": "1979-01-01T00:00:00",
+      "Positions": [
+        {
+          "Position": "6",
+          "Department": "229"
+        }
+      ]
+    },
+    {
+      "Id": "3239",
+      "FirstName": "Геннадий",
+      "MiddleName": "",
+      "LastName": "Мурастов",
+      "Time": 1,
+      "StartDate": "2020-10-07T00:00:00",
+      "BirthDate": "1969-07-18T00:00:00",
+      "Positions": [
+        {
+          "Position": "6",
+          "Department": "229"
+        }
+      ]
+    },
+    {
+      "Id": "3290",
+      "FirstName": "Аура Самид",
+      "MiddleName": "",
+      "LastName": "Гарсия Бальса",
+      "Time": 2,
+      "StartDate": "2011-07-12T00:00:00",
+      "BirthDate": "1967-11-20T00:00:00",
+      "Positions": [
+        {
+          "Position": "6",
+          "Department": "229"
+        }
+      ]
+    }
+  ]
+}

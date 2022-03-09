@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3197",
-	"FirstName": "Игорь",
-	"MiddleName": "Леонидович",
-	"LastName": "Боровков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "260",
-			"HeadOfDepartment": false,
-			"Position": "263"
-		}
-	]
+  "Id": "3197",
+  "FirstName": "Игорь",
+  "MiddleName": "Леонидович",
+  "LastName": "Боровков",
+  "Time": 1,
+  "StartDate": "2016-03-02T00:00:00",
+  "BirthDate": "1992-02-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "263",
+      "Department": "260"
+    }
+  ]
 }

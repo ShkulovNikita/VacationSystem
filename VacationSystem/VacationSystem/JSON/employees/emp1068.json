@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1068",
-	"FirstName": "Виктор",
-	"MiddleName": "Григорьевич",
-	"LastName": "Лукьянов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "46",
-			"HeadOfDepartment": false,
-			"Position": "91"
-		}
-	]
+  "Id": "1068",
+  "FirstName": "Виктор",
+  "MiddleName": "Григорьевич",
+  "LastName": "Лукьянов",
+  "Time": 1,
+  "StartDate": "2003-08-17T00:00:00",
+  "BirthDate": "1981-09-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "91",
+      "Department": "46"
+    }
+  ]
 }

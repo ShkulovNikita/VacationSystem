@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2143",
-	"FirstName": "Владислав",
-	"MiddleName": "Михайлович",
-	"LastName": "Галкин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "46",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "2143",
+  "FirstName": "Владислав",
+  "MiddleName": "Михайлович",
+  "LastName": "Галкин",
+  "Time": 1,
+  "StartDate": "2017-05-10T00:00:00",
+  "BirthDate": "1993-02-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "46"
+    }
+  ]
 }

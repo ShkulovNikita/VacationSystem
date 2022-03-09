@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3403",
-	"FirstName": "Артём",
-	"MiddleName": "",
-	"LastName": "Прима",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "3403",
+  "FirstName": "Артём",
+  "MiddleName": "",
+  "LastName": "Прима",
+  "Time": 1,
+  "StartDate": "1996-01-16T00:00:00",
+  "BirthDate": "1972-05-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "15"
+    }
+  ]
 }

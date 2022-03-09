@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3553",
-	"FirstName": "Раиса",
-	"MiddleName": "Николаевна",
-	"LastName": "Смирнова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "23",
-			"HeadOfDepartment": false,
-			"Position": "15"
-		}
-	]
+  "Id": "3553",
+  "FirstName": "Раиса",
+  "MiddleName": "Николаевна",
+  "LastName": "Смирнова",
+  "Time": 0.5,
+  "StartDate": "2016-12-10T00:00:00",
+  "BirthDate": "1992-05-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "15",
+      "Department": "23"
+    }
+  ]
 }

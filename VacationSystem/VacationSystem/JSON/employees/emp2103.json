@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2103",
-	"FirstName": "Михаил",
-	"MiddleName": "Эдуардович",
-	"LastName": "Гусельников",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "57",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "2103",
+  "FirstName": "Михаил",
+  "MiddleName": "Эдуардович",
+  "LastName": "Гусельников",
+  "Time": 0.5,
+  "StartDate": "2002-11-23T00:00:00",
+  "BirthDate": "1969-06-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "57"
+    }
+  ]
 }

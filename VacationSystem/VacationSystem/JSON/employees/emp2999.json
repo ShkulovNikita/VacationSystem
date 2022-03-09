@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2999",
-	"FirstName": "Александр",
-	"MiddleName": "Витальевич",
-	"LastName": "Броновицкий",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "215",
-			"HeadOfDepartment": false,
-			"Position": "242"
-		}
-	]
+  "Id": "2999",
+  "FirstName": "Александр",
+  "MiddleName": "Витальевич",
+  "LastName": "Броновицкий",
+  "Time": 0.5,
+  "StartDate": "2021-12-17T00:00:00",
+  "BirthDate": "1992-05-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "242",
+      "Department": "215"
+    }
+  ]
 }

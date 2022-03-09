@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3656",
-	"FirstName": "Станислав",
-	"MiddleName": "",
-	"LastName": "Болдырев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "51",
-			"HeadOfDepartment": false,
-			"Position": "24"
-		}
-	]
+  "Id": "3656",
+  "FirstName": "Станислав",
+  "MiddleName": "",
+  "LastName": "Болдырев",
+  "Time": 0.5,
+  "StartDate": "2014-08-09T00:00:00",
+  "BirthDate": "1990-06-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "24",
+      "Department": "51"
+    }
+  ]
 }

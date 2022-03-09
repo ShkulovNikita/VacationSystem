@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2784",
-	"FirstName": "Ирина",
-	"MiddleName": "Викторовна",
-	"LastName": "Сыропятова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "34",
-			"HeadOfDepartment": false,
-			"Position": "248"
-		}
-	]
+  "Id": "2784",
+  "FirstName": "Ирина",
+  "MiddleName": "Викторовна",
+  "LastName": "Сыропятова",
+  "Time": 1,
+  "StartDate": "2021-05-02T00:00:00",
+  "BirthDate": "1978-06-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "248",
+      "Department": "34"
+    }
+  ]
 }

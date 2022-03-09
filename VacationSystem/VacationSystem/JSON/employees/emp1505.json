@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1505",
-	"FirstName": "Елизавета",
-	"MiddleName": "Витальевна",
-	"LastName": "Свиридова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "51",
-			"HeadOfDepartment": false,
-			"Position": "26"
-		}
-	]
+  "Id": "1505",
+  "FirstName": "Елизавета",
+  "MiddleName": "Витальевна",
+  "LastName": "Свиридова",
+  "Time": 0.5,
+  "StartDate": "2016-05-23T00:00:00",
+  "BirthDate": "1972-11-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "26",
+      "Department": "51"
+    }
+  ]
 }

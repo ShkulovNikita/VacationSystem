@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "818",
-	"FirstName": "Любовь",
-	"MiddleName": "Геннадьевна",
-	"LastName": "Аверкиева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "0",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "818",
+  "FirstName": "Любовь",
+  "MiddleName": "Геннадьевна",
+  "LastName": "Аверкиева",
+  "Time": 0.5,
+  "StartDate": "2015-11-05T00:00:00",
+  "BirthDate": "1958-06-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "0"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1138",
-	"FirstName": "Сергей",
-	"MiddleName": "Семенович",
-	"LastName": "Юркевич",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "49",
-			"HeadOfDepartment": false,
-			"Position": "88"
-		}
-	]
+  "Id": "1138",
+  "FirstName": "Сергей",
+  "MiddleName": "Семенович",
+  "LastName": "Юркевич",
+  "Time": 0.5,
+  "StartDate": "2009-10-13T00:00:00",
+  "BirthDate": "1955-11-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "88",
+      "Department": "49"
+    }
+  ]
 }

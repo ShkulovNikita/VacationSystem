@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2564",
-	"FirstName": "Николай",
-	"MiddleName": "Петрович",
-	"LastName": "Кривков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "174",
-			"HeadOfDepartment": false,
-			"Position": "64"
-		}
-	]
+  "Id": "2564",
+  "FirstName": "Николай",
+  "MiddleName": "Петрович",
+  "LastName": "Кривков",
+  "Time": 1,
+  "StartDate": "1987-04-03T00:00:00",
+  "BirthDate": "1952-11-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "64",
+      "Department": "174"
+    }
+  ]
 }

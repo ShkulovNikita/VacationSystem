@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3156",
-	"FirstName": "Андрей",
-	"MiddleName": "Викторович",
-	"LastName": "Никульчиков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "46",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "3156",
+  "FirstName": "Андрей",
+  "MiddleName": "Викторович",
+  "LastName": "Никульчиков",
+  "Time": 1,
+  "StartDate": "1999-08-06T00:00:00",
+  "BirthDate": "1974-03-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "46"
+    }
+  ]
 }

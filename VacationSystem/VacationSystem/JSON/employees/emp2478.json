@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2478",
-	"FirstName": "Светлана",
-	"MiddleName": "Сергеевна",
-	"LastName": "Шиленкова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "79",
-			"HeadOfDepartment": false,
-			"Position": "11"
-		}
-	]
+  "Id": "2478",
+  "FirstName": "Светлана",
+  "MiddleName": "Сергеевна",
+  "LastName": "Шиленкова",
+  "Time": 1,
+  "StartDate": "2007-02-11T00:00:00",
+  "BirthDate": "1956-10-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "11",
+      "Department": "79"
+    }
+  ]
 }

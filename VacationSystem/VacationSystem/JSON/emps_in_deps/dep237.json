@@ -1,0 +1,64 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "1939",
+      "FirstName": "Анна",
+      "MiddleName": "Викторовна",
+      "LastName": "Литвяк",
+      "Time": 1,
+      "StartDate": "2008-07-20T00:00:00",
+      "BirthDate": "1988-03-22T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "237"
+        }
+      ]
+    },
+    {
+      "Id": "2250",
+      "FirstName": "Наталия",
+      "MiddleName": "Владимировна",
+      "LastName": "Данилейко",
+      "Time": 1,
+      "StartDate": "1989-06-16T00:00:00",
+      "BirthDate": "1952-08-02T00:00:00",
+      "Positions": [
+        {
+          "Position": "10",
+          "Department": "237"
+        }
+      ]
+    },
+    {
+      "Id": "2806",
+      "FirstName": "Екатерина",
+      "MiddleName": "Владимировна",
+      "LastName": "Болтовская",
+      "Time": 0.5,
+      "StartDate": "2017-01-01T00:00:00",
+      "BirthDate": "1979-09-05T00:00:00",
+      "Positions": [
+        {
+          "Position": "249",
+          "Department": "237"
+        }
+      ]
+    },
+    {
+      "Id": "3405",
+      "FirstName": "Ольга",
+      "MiddleName": "Андреевна",
+      "LastName": "Винтовкина",
+      "Time": 1,
+      "StartDate": "2020-08-09T00:00:00",
+      "BirthDate": "1959-03-13T00:00:00",
+      "Positions": [
+        {
+          "Position": "157",
+          "Department": "237"
+        }
+      ]
+    }
+  ]
+}

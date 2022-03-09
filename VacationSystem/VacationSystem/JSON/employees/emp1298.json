@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1298",
-	"FirstName": "Анна",
-	"MiddleName": "Владимировна",
-	"LastName": "Валуева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "165"
-		}
-	]
+  "Id": "1298",
+  "FirstName": "Анна",
+  "MiddleName": "Владимировна",
+  "LastName": "Валуева",
+  "Time": 1,
+  "StartDate": "2015-07-20T00:00:00",
+  "BirthDate": "1993-07-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "165",
+      "Department": "2"
+    }
+  ]
 }

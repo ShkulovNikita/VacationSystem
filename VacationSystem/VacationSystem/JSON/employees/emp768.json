@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "768",
-	"FirstName": "Александр",
-	"MiddleName": "Геннадьевич",
-	"LastName": "Коротких",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "39",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "768",
+  "FirstName": "Александр",
+  "MiddleName": "Геннадьевич",
+  "LastName": "Коротких",
+  "Time": 1,
+  "StartDate": "2013-08-05T00:00:00",
+  "BirthDate": "1987-10-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "39"
+    }
+  ]
 }

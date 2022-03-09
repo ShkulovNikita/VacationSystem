@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2474",
-	"FirstName": "Андрей",
-	"MiddleName": "Владимирович",
-	"LastName": "Мухолзоев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		}
-	]
+  "Id": "2474",
+  "FirstName": "Андрей",
+  "MiddleName": "Владимирович",
+  "LastName": "Мухолзоев",
+  "Time": 0.5,
+  "StartDate": "1991-12-19T00:00:00",
+  "BirthDate": "1965-09-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "15"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1675",
-	"FirstName": "Ильяс",
-	"MiddleName": "Аминович",
-	"LastName": "Рахматуллин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "19",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1675",
+  "FirstName": "Ильяс",
+  "MiddleName": "Аминович",
+  "LastName": "Рахматуллин",
+  "Time": 0.5,
+  "StartDate": "2005-05-04T00:00:00",
+  "BirthDate": "1970-02-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "19"
+    }
+  ]
 }

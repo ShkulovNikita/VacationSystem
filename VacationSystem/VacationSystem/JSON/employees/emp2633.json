@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2633",
-	"FirstName": "Дмитрий",
-	"MiddleName": "Юрьевич",
-	"LastName": "Колпащиков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "244",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "2633",
+  "FirstName": "Дмитрий",
+  "MiddleName": "Юрьевич",
+  "LastName": "Колпащиков",
+  "Time": 0.5,
+  "StartDate": "1993-03-04T00:00:00",
+  "BirthDate": "1971-10-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "244"
+    }
+  ]
 }

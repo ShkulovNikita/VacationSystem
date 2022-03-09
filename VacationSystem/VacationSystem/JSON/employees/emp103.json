@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "103",
-	"FirstName": "Татьяна",
-	"MiddleName": "Николаевна",
-	"LastName": "Козлова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "63",
-			"HeadOfDepartment": false,
-			"Position": "40"
-		}
-	]
+  "Id": "103",
+  "FirstName": "Татьяна",
+  "MiddleName": "Николаевна",
+  "LastName": "Козлова",
+  "Time": 1,
+  "StartDate": "2006-05-08T00:00:00",
+  "BirthDate": "1973-06-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "40",
+      "Department": "63"
+    }
+  ]
 }

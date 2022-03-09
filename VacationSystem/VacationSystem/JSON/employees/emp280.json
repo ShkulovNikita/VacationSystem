@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "280",
-	"FirstName": "Андрей",
-	"MiddleName": "Николаевич",
-	"LastName": "Шредер",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "109",
-			"HeadOfDepartment": false,
-			"Position": "61"
-		}
-	]
+  "Id": "280",
+  "FirstName": "Андрей",
+  "MiddleName": "Николаевич",
+  "LastName": "Шредер",
+  "Time": 1,
+  "StartDate": "1983-07-15T00:00:00",
+  "BirthDate": "1961-11-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "61",
+      "Department": "109"
+    }
+  ]
 }

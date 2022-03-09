@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "510",
-	"FirstName": "Владимир",
-	"MiddleName": "Васильевич",
-	"LastName": "Гузырь",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "100",
-			"HeadOfDepartment": false,
-			"Position": "48"
-		},
-		{
-			"Id": "3",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "510",
+  "FirstName": "Владимир",
+  "MiddleName": "Васильевич",
+  "LastName": "Гузырь",
+  "Time": 1,
+  "StartDate": "2020-11-02T00:00:00",
+  "BirthDate": "1975-07-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "48",
+      "Department": "100"
+    },
+    {
+      "Position": "1",
+      "Department": "3"
+    }
+  ]
 }

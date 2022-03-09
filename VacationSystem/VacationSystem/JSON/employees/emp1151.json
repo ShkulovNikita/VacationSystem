@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1151",
-	"FirstName": "Олег",
-	"MiddleName": "Геннадьевич",
-	"LastName": "Савичев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "1",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "1151",
+  "FirstName": "Олег",
+  "MiddleName": "Геннадьевич",
+  "LastName": "Савичев",
+  "Time": 0.5,
+  "StartDate": "1992-12-21T00:00:00",
+  "BirthDate": "1964-09-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "1"
+    }
+  ]
 }

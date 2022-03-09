@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2272",
-	"FirstName": "Лариса",
-	"MiddleName": "Алексеевна",
-	"LastName": "Оголь",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "70"
-		}
-	]
+  "Id": "2272",
+  "FirstName": "Лариса",
+  "MiddleName": "Алексеевна",
+  "LastName": "Оголь",
+  "Time": 1,
+  "StartDate": "2015-10-16T00:00:00",
+  "BirthDate": "1993-03-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "70",
+      "Department": "15"
+    }
+  ]
 }

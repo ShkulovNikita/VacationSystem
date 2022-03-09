@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3377",
-	"FirstName": "Евгений",
-	"MiddleName": "Александрович",
-	"LastName": "Карташев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "75",
-			"HeadOfDepartment": false,
-			"Position": "174"
-		}
-	]
+  "Id": "3377",
+  "FirstName": "Евгений",
+  "MiddleName": "Александрович",
+  "LastName": "Карташев",
+  "Time": 1,
+  "StartDate": "2013-08-21T00:00:00",
+  "BirthDate": "1981-03-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "174",
+      "Department": "75"
+    }
+  ]
 }

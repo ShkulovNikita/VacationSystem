@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "2682",
-	"FirstName": "Антон",
-	"MiddleName": "Евгеньевич",
-	"LastName": "Кулагин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "52",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		},
-		{
-			"Id": "52",
-			"HeadOfDepartment": false,
-			"Position": "53"
-		}
-	]
+  "Id": "2682",
+  "FirstName": "Антон",
+  "MiddleName": "Евгеньевич",
+  "LastName": "Кулагин",
+  "Time": 2,
+  "StartDate": "2008-12-24T00:00:00",
+  "BirthDate": "1966-03-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "52"
+    },
+    {
+      "Position": "53",
+      "Department": "52"
+    }
+  ]
 }

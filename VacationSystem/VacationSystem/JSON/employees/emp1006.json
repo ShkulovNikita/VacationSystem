@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1006",
-	"FirstName": "Александр",
-	"MiddleName": "Федорович",
-	"LastName": "Михайлов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "187",
-			"HeadOfDepartment": false,
-			"Position": "114"
-		}
-	]
+  "Id": "1006",
+  "FirstName": "Александр",
+  "MiddleName": "Федорович",
+  "LastName": "Михайлов",
+  "Time": 1,
+  "StartDate": "2010-03-09T00:00:00",
+  "BirthDate": "1967-07-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "114",
+      "Department": "187"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2614",
-	"FirstName": "Юлия",
-	"MiddleName": "Алексеевна",
-	"LastName": "Савина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "24",
-			"HeadOfDepartment": false,
-			"Position": "138"
-		}
-	]
+  "Id": "2614",
+  "FirstName": "Юлия",
+  "MiddleName": "Алексеевна",
+  "LastName": "Савина",
+  "Time": 1,
+  "StartDate": "1992-08-24T00:00:00",
+  "BirthDate": "1964-11-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "138",
+      "Department": "24"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1732",
-	"FirstName": "Василий",
-	"MiddleName": "Николаевич",
-	"LastName": "Вашуркин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "59",
-			"HeadOfDepartment": false,
-			"Position": "37"
-		}
-	]
+  "Id": "1732",
+  "FirstName": "Василий",
+  "MiddleName": "Николаевич",
+  "LastName": "Вашуркин",
+  "Time": 0.5,
+  "StartDate": "2015-10-06T00:00:00",
+  "BirthDate": "1984-01-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "37",
+      "Department": "59"
+    }
+  ]
 }

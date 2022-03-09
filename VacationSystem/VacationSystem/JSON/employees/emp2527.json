@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2527",
-	"FirstName": "Марина",
-	"MiddleName": "Александровна",
-	"LastName": "Халдеева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "3",
-			"HeadOfDepartment": false,
-			"Position": "53"
-		}
-	]
+  "Id": "2527",
+  "FirstName": "Марина",
+  "MiddleName": "Александровна",
+  "LastName": "Халдеева",
+  "Time": 0.5,
+  "StartDate": "2011-07-18T00:00:00",
+  "BirthDate": "1966-12-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "53",
+      "Department": "3"
+    }
+  ]
 }

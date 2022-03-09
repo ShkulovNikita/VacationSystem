@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "254",
-	"FirstName": "Антон",
-	"MiddleName": "Сергеевич",
-	"LastName": "Гордынец",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "8",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "254",
+  "FirstName": "Антон",
+  "MiddleName": "Сергеевич",
+  "LastName": "Гордынец",
+  "Time": 1,
+  "StartDate": "2020-11-11T00:00:00",
+  "BirthDate": "1979-08-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "8"
+    }
+  ]
 }

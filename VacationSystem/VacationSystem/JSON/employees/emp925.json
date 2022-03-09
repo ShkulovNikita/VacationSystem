@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "925",
-	"FirstName": "Евгений",
-	"MiddleName": "Сергеевич",
-	"LastName": "Чердынцев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "26",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "925",
+  "FirstName": "Евгений",
+  "MiddleName": "Сергеевич",
+  "LastName": "Чердынцев",
+  "Time": 1,
+  "StartDate": "2021-04-04T00:00:00",
+  "BirthDate": "1980-08-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "26"
+    }
+  ]
 }

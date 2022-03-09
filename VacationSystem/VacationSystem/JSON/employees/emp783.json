@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "783",
-	"FirstName": "Зоя",
-	"MiddleName": "Михайловна",
-	"LastName": "Шубина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "21",
-			"HeadOfDepartment": false,
-			"Position": "106"
-		}
-	]
+  "Id": "783",
+  "FirstName": "Зоя",
+  "MiddleName": "Михайловна",
+  "LastName": "Шубина",
+  "Time": 0.5,
+  "StartDate": "2010-10-13T00:00:00",
+  "BirthDate": "1972-09-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "106",
+      "Department": "21"
+    }
+  ]
 }

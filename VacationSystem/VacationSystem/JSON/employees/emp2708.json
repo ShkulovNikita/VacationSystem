@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2708",
-	"FirstName": "Валерия",
-	"MiddleName": "Львовна",
-	"LastName": "Кудрявцева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "221",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		}
-	]
+  "Id": "2708",
+  "FirstName": "Валерия",
+  "MiddleName": "Львовна",
+  "LastName": "Кудрявцева",
+  "Time": 1,
+  "StartDate": "2019-04-01T00:00:00",
+  "BirthDate": "1986-09-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "221"
+    }
+  ]
 }

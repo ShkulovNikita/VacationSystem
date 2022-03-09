@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "148",
-	"FirstName": "Юлия",
-	"MiddleName": "Андреевна",
-	"LastName": "Житникова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "80",
-			"HeadOfDepartment": false,
-			"Position": "52"
-		}
-	]
+  "Id": "148",
+  "FirstName": "Юлия",
+  "MiddleName": "Андреевна",
+  "LastName": "Житникова",
+  "Time": 1,
+  "StartDate": "1980-06-06T00:00:00",
+  "BirthDate": "1960-05-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "52",
+      "Department": "80"
+    }
+  ]
 }

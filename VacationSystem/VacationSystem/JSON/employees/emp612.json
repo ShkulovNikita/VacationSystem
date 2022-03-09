@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "612",
-	"FirstName": "Владимир",
-	"MiddleName": "Иванович",
-	"LastName": "Байдаков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "112",
-			"HeadOfDepartment": false,
-			"Position": "101"
-		}
-	]
+  "Id": "612",
+  "FirstName": "Владимир",
+  "MiddleName": "Иванович",
+  "LastName": "Байдаков",
+  "Time": 1,
+  "StartDate": "2007-09-24T00:00:00",
+  "BirthDate": "1965-11-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "101",
+      "Department": "112"
+    }
+  ]
 }

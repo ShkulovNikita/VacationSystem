@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2777",
-	"FirstName": "Александр",
-	"MiddleName": "Геннадьевич",
-	"LastName": "Пересадин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "252",
-			"HeadOfDepartment": false,
-			"Position": "212"
-		}
-	]
+  "Id": "2777",
+  "FirstName": "Александр",
+  "MiddleName": "Геннадьевич",
+  "LastName": "Пересадин",
+  "Time": 0.5,
+  "StartDate": "2019-01-15T00:00:00",
+  "BirthDate": "1965-07-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "212",
+      "Department": "252"
+    }
+  ]
 }

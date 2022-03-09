@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "969",
-	"FirstName": "Александра",
-	"MiddleName": "Николаевна",
-	"LastName": "Хомяченко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "124",
-			"HeadOfDepartment": false,
-			"Position": "10"
-		}
-	]
+  "Id": "969",
+  "FirstName": "Александра",
+  "MiddleName": "Николаевна",
+  "LastName": "Хомяченко",
+  "Time": 0.5,
+  "StartDate": "2011-08-04T00:00:00",
+  "BirthDate": "1986-05-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "10",
+      "Department": "124"
+    }
+  ]
 }

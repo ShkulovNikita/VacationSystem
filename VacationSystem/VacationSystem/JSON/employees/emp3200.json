@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3200",
-	"FirstName": "Дмитрий",
-	"MiddleName": "Хамидович",
-	"LastName": "Тазидинов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "16",
-			"HeadOfDepartment": false,
-			"Position": "25"
-		}
-	]
+  "Id": "3200",
+  "FirstName": "Дмитрий",
+  "MiddleName": "Хамидович",
+  "LastName": "Тазидинов",
+  "Time": 1,
+  "StartDate": "2001-11-18T00:00:00",
+  "BirthDate": "1980-03-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "25",
+      "Department": "16"
+    }
+  ]
 }

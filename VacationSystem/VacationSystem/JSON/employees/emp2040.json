@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2040",
-	"FirstName": "Мария",
-	"MiddleName": "Сергеевна",
-	"LastName": "Егорова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "3",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		}
-	]
+  "Id": "2040",
+  "FirstName": "Мария",
+  "MiddleName": "Сергеевна",
+  "LastName": "Егорова",
+  "Time": 0.5,
+  "StartDate": "2012-06-24T00:00:00",
+  "BirthDate": "1983-04-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "3"
+    }
+  ]
 }

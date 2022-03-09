@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "201",
-	"FirstName": "Вадим",
-	"MiddleName": "Анатольевич",
-	"LastName": "Дорофеев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "26",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "201",
+  "FirstName": "Вадим",
+  "MiddleName": "Анатольевич",
+  "LastName": "Дорофеев",
+  "Time": 0.5,
+  "StartDate": "2014-06-13T00:00:00",
+  "BirthDate": "1976-02-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "26"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1051",
-	"FirstName": "Владимир",
-	"MiddleName": "Григорьевич",
-	"LastName": "Сырцов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "105",
-			"HeadOfDepartment": false,
-			"Position": "37"
-		}
-	]
+  "Id": "1051",
+  "FirstName": "Владимир",
+  "MiddleName": "Григорьевич",
+  "LastName": "Сырцов",
+  "Time": 1,
+  "StartDate": "2014-07-01T00:00:00",
+  "BirthDate": "1990-07-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "37",
+      "Department": "105"
+    }
+  ]
 }

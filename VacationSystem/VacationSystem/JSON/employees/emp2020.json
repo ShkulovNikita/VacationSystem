@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2020",
-	"FirstName": "Татьяна",
-	"MiddleName": "Петровна",
-	"LastName": "Чернышова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "174",
-			"HeadOfDepartment": false,
-			"Position": "20"
-		}
-	]
+  "Id": "2020",
+  "FirstName": "Татьяна",
+  "MiddleName": "Петровна",
+  "LastName": "Чернышова",
+  "Time": 0.5,
+  "StartDate": "2001-10-04T00:00:00",
+  "BirthDate": "1977-03-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "20",
+      "Department": "174"
+    }
+  ]
 }

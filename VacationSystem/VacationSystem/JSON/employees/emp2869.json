@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2869",
-	"FirstName": "Рашид",
-	"MiddleName": "Адгамович",
-	"LastName": "Гильманов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "105",
-			"HeadOfDepartment": false,
-			"Position": "88"
-		}
-	]
+  "Id": "2869",
+  "FirstName": "Рашид",
+  "MiddleName": "Адгамович",
+  "LastName": "Гильманов",
+  "Time": 1,
+  "StartDate": "2004-09-13T00:00:00",
+  "BirthDate": "1978-10-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "88",
+      "Department": "105"
+    }
+  ]
 }

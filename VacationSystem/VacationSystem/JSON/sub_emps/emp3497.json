@@ -1,0 +1,274 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "708",
+      "FirstName": "Леонид",
+      "MiddleName": "Иванович",
+      "LastName": "Корнеев",
+      "Time": 0.5,
+      "StartDate": "2009-12-05T00:00:00",
+      "BirthDate": "1980-03-10T00:00:00",
+      "Positions": [
+        {
+          "Position": "20",
+          "Department": "168"
+        }
+      ]
+    },
+    {
+      "Id": "1470",
+      "FirstName": "Олег",
+      "MiddleName": "Михайлович",
+      "LastName": "Шевелев",
+      "Time": 1,
+      "StartDate": "2002-04-06T00:00:00",
+      "BirthDate": "1982-03-04T00:00:00",
+      "Positions": [
+        {
+          "Position": "64",
+          "Department": "168"
+        }
+      ]
+    },
+    {
+      "Id": "1819",
+      "FirstName": "Эдуард",
+      "MiddleName": "Васильевич",
+      "LastName": "Сопыряев",
+      "Time": 0.5,
+      "StartDate": "2004-02-14T00:00:00",
+      "BirthDate": "1960-02-13T00:00:00",
+      "Positions": [
+        {
+          "Position": "10",
+          "Department": "168"
+        }
+      ]
+    },
+    {
+      "Id": "2552",
+      "FirstName": "Геннадий",
+      "MiddleName": "Иванович",
+      "LastName": "Уртамов",
+      "Time": 1,
+      "StartDate": "2004-11-19T00:00:00",
+      "BirthDate": "1977-11-10T00:00:00",
+      "Positions": [
+        {
+          "Position": "156",
+          "Department": "168"
+        }
+      ]
+    },
+    {
+      "Id": "2903",
+      "FirstName": "Вадим",
+      "MiddleName": "Иосифович",
+      "LastName": "Гаврилов",
+      "Time": 1,
+      "StartDate": "1992-03-12T00:00:00",
+      "BirthDate": "1960-01-02T00:00:00",
+      "Positions": [
+        {
+          "Position": "25",
+          "Department": "168"
+        }
+      ]
+    },
+    {
+      "Id": "2920",
+      "FirstName": "Валерий",
+      "MiddleName": "Фалеевич",
+      "LastName": "Черников",
+      "Time": 1,
+      "StartDate": "1997-05-15T00:00:00",
+      "BirthDate": "1970-12-05T00:00:00",
+      "Positions": [
+        {
+          "Position": "25",
+          "Department": "168"
+        }
+      ]
+    },
+    {
+      "Id": "2935",
+      "FirstName": "Николай",
+      "MiddleName": "Николаевич",
+      "LastName": "Горшков",
+      "Time": 0.5,
+      "StartDate": "2021-08-05T00:00:00",
+      "BirthDate": "1991-09-05T00:00:00",
+      "Positions": [
+        {
+          "Position": "25",
+          "Department": "168"
+        }
+      ]
+    },
+    {
+      "Id": "2936",
+      "FirstName": "Анатолий",
+      "MiddleName": "Иванович",
+      "LastName": "Воробьев",
+      "Time": 1,
+      "StartDate": "2015-03-23T00:00:00",
+      "BirthDate": "1978-04-23T00:00:00",
+      "Positions": [
+        {
+          "Position": "156",
+          "Department": "168"
+        }
+      ]
+    },
+    {
+      "Id": "2985",
+      "FirstName": "Ирина",
+      "MiddleName": "Ивановна",
+      "LastName": "Климанова",
+      "Time": 1,
+      "StartDate": "1995-10-07T00:00:00",
+      "BirthDate": "1973-09-09T00:00:00",
+      "Positions": [
+        {
+          "Position": "144",
+          "Department": "168"
+        }
+      ]
+    },
+    {
+      "Id": "3155",
+      "FirstName": "Александр",
+      "MiddleName": "Александрович",
+      "LastName": "Костюченко",
+      "Time": 0.5,
+      "StartDate": "2012-06-02T00:00:00",
+      "BirthDate": "1985-10-08T00:00:00",
+      "Positions": [
+        {
+          "Position": "156",
+          "Department": "168"
+        }
+      ]
+    },
+    {
+      "Id": "3305",
+      "FirstName": "Олег",
+      "MiddleName": "Яковлевич",
+      "LastName": "Вишнивецкий",
+      "Time": 1,
+      "StartDate": "2007-10-13T00:00:00",
+      "BirthDate": "1975-02-07T00:00:00",
+      "Positions": [
+        {
+          "Position": "156",
+          "Department": "168"
+        }
+      ]
+    },
+    {
+      "Id": "3334",
+      "FirstName": "Александр",
+      "MiddleName": "Агафонович",
+      "LastName": "Полькин",
+      "Time": 0.5,
+      "StartDate": "2014-12-02T00:00:00",
+      "BirthDate": "1993-10-01T00:00:00",
+      "Positions": [
+        {
+          "Position": "156",
+          "Department": "168"
+        }
+      ]
+    },
+    {
+      "Id": "3473",
+      "FirstName": "Сергей",
+      "MiddleName": "Владимирович",
+      "LastName": "Терещенко",
+      "Time": 1,
+      "StartDate": "2011-08-15T00:00:00",
+      "BirthDate": "1976-09-21T00:00:00",
+      "Positions": [
+        {
+          "Position": "156",
+          "Department": "168"
+        }
+      ]
+    },
+    {
+      "Id": "3492",
+      "FirstName": "Евгений",
+      "MiddleName": "Владимирович",
+      "LastName": "Урусов",
+      "Time": 0.5,
+      "StartDate": "2017-05-13T00:00:00",
+      "BirthDate": "1975-11-05T00:00:00",
+      "Positions": [
+        {
+          "Position": "103",
+          "Department": "168"
+        }
+      ]
+    },
+    {
+      "Id": "3497",
+      "FirstName": "Егор",
+      "MiddleName": "Игоревич",
+      "LastName": "Арышев",
+      "Time": 0.5,
+      "StartDate": "2015-05-02T00:00:00",
+      "BirthDate": "1953-12-16T00:00:00",
+      "Positions": [
+        {
+          "Position": "156",
+          "Department": "168"
+        }
+      ]
+    },
+    {
+      "Id": "3517",
+      "FirstName": "Андрей",
+      "MiddleName": "Алексеевич",
+      "LastName": "Гудничев",
+      "Time": 0.5,
+      "StartDate": "1999-07-02T00:00:00",
+      "BirthDate": "1957-06-18T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "168"
+        }
+      ]
+    },
+    {
+      "Id": "3533",
+      "FirstName": "Александр",
+      "MiddleName": "Данилович",
+      "LastName": "Плеханов",
+      "Time": 1,
+      "StartDate": "2009-05-15T00:00:00",
+      "BirthDate": "1988-06-19T00:00:00",
+      "Positions": [
+        {
+          "Position": "64",
+          "Department": "168"
+        }
+      ]
+    },
+    {
+      "Id": "3565",
+      "FirstName": "Сергей",
+      "MiddleName": "Венедиктович",
+      "LastName": "Русинов",
+      "Time": 1,
+      "StartDate": "2019-03-15T00:00:00",
+      "BirthDate": "1979-09-11T00:00:00",
+      "Positions": [
+        {
+          "Position": "156",
+          "Department": "168"
+        }
+      ]
+    }
+  ]
+}

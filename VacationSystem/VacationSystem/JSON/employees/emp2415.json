@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2415",
-	"FirstName": "Наталья",
-	"MiddleName": "Евгеньевна",
-	"LastName": "Баирова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "170",
-			"HeadOfDepartment": false,
-			"Position": "185"
-		}
-	]
+  "Id": "2415",
+  "FirstName": "Наталья",
+  "MiddleName": "Евгеньевна",
+  "LastName": "Баирова",
+  "Time": 1,
+  "StartDate": "2006-08-09T00:00:00",
+  "BirthDate": "1963-06-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "185",
+      "Department": "170"
+    }
+  ]
 }

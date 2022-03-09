@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3622",
-	"FirstName": "Юрий",
-	"MiddleName": "Владимирович",
-	"LastName": "Дубинин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "39",
-			"HeadOfDepartment": false,
-			"Position": "24"
-		}
-	]
+  "Id": "3622",
+  "FirstName": "Юрий",
+  "MiddleName": "Владимирович",
+  "LastName": "Дубинин",
+  "Time": 1,
+  "StartDate": "2012-03-03T00:00:00",
+  "BirthDate": "1987-12-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "24",
+      "Department": "39"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2715",
-	"FirstName": "Павел",
-	"MiddleName": "Владимирович",
-	"LastName": "Марьин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "221",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		}
-	]
+  "Id": "2715",
+  "FirstName": "Павел",
+  "MiddleName": "Владимирович",
+  "LastName": "Марьин",
+  "Time": 0.5,
+  "StartDate": "2001-10-14T00:00:00",
+  "BirthDate": "1956-10-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "221"
+    }
+  ]
 }

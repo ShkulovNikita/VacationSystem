@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3735",
-	"FirstName": "Юлия",
-	"MiddleName": "Сергеевна",
-	"LastName": "Танакова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "34",
-			"HeadOfDepartment": false,
-			"Position": "22"
-		}
-	]
+  "Id": "3735",
+  "FirstName": "Юлия",
+  "MiddleName": "Сергеевна",
+  "LastName": "Танакова",
+  "Time": 1,
+  "StartDate": "2015-01-18T00:00:00",
+  "BirthDate": "1972-11-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "22",
+      "Department": "34"
+    }
+  ]
 }

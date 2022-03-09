@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3358",
-	"FirstName": "Сергей",
-	"MiddleName": "",
-	"LastName": "Рубаненко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "84",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "3358",
+  "FirstName": "Сергей",
+  "MiddleName": "",
+  "LastName": "Рубаненко",
+  "Time": 0.5,
+  "StartDate": "2010-08-05T00:00:00",
+  "BirthDate": "1986-08-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "84"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1201",
-	"FirstName": "Светлана",
-	"MiddleName": "Сергеевна",
-	"LastName": "Деревянченко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "14",
-			"HeadOfDepartment": false,
-			"Position": "38"
-		}
-	]
+  "Id": "1201",
+  "FirstName": "Светлана",
+  "MiddleName": "Сергеевна",
+  "LastName": "Деревянченко",
+  "Time": 1,
+  "StartDate": "2015-03-13T00:00:00",
+  "BirthDate": "1971-07-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "38",
+      "Department": "14"
+    }
+  ]
 }

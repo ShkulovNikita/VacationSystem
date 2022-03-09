@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "157",
-	"FirstName": "Елена",
-	"MiddleName": "Евгеньевна",
-	"LastName": "Лазуткина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "19",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		}
-	]
+  "Id": "157",
+  "FirstName": "Елена",
+  "MiddleName": "Евгеньевна",
+  "LastName": "Лазуткина",
+  "Time": 1,
+  "StartDate": "1987-04-01T00:00:00",
+  "BirthDate": "1966-10-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "19"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1315",
-	"FirstName": "Павел",
-	"MiddleName": "Владимирович",
-	"LastName": "Рубанов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "62",
-			"HeadOfDepartment": false,
-			"Position": "2"
-		}
-	]
+  "Id": "1315",
+  "FirstName": "Павел",
+  "MiddleName": "Владимирович",
+  "LastName": "Рубанов",
+  "Time": 1,
+  "StartDate": "2013-04-17T00:00:00",
+  "BirthDate": "1979-07-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "2",
+      "Department": "62"
+    }
+  ]
 }

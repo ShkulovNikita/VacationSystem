@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3090",
-	"FirstName": "Ольга",
-	"MiddleName": "Владимировна",
-	"LastName": "Мотырева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "124",
-			"HeadOfDepartment": false,
-			"Position": "21"
-		}
-	]
+  "Id": "3090",
+  "FirstName": "Ольга",
+  "MiddleName": "Владимировна",
+  "LastName": "Мотырева",
+  "Time": 0.5,
+  "StartDate": "1991-08-18T00:00:00",
+  "BirthDate": "1962-05-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "21",
+      "Department": "124"
+    }
+  ]
 }

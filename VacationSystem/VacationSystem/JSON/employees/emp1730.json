@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1730",
-	"FirstName": "Екатерина",
-	"MiddleName": "Анатольевна",
-	"LastName": "Тунгусова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "154",
-			"HeadOfDepartment": false,
-			"Position": "10"
-		}
-	]
+  "Id": "1730",
+  "FirstName": "Екатерина",
+  "MiddleName": "Анатольевна",
+  "LastName": "Тунгусова",
+  "Time": 1,
+  "StartDate": "2018-04-15T00:00:00",
+  "BirthDate": "1983-01-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "10",
+      "Department": "154"
+    }
+  ]
 }

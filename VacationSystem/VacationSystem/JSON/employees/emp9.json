@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "9",
-	"FirstName": "Анжела",
-	"MiddleName": "Всеволодовна",
-	"LastName": "Алимаева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "9",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "9",
+  "FirstName": "Анжела",
+  "MiddleName": "Всеволодовна",
+  "LastName": "Алимаева",
+  "Time": 1,
+  "StartDate": "2014-12-02T00:00:00",
+  "BirthDate": "1965-06-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "9"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2805",
-	"FirstName": "Татьяна",
-	"MiddleName": "Владимировна",
-	"LastName": "Пегушина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "84",
-			"HeadOfDepartment": false,
-			"Position": "18"
-		}
-	]
+  "Id": "2805",
+  "FirstName": "Татьяна",
+  "MiddleName": "Владимировна",
+  "LastName": "Пегушина",
+  "Time": 0.5,
+  "StartDate": "2019-09-24T00:00:00",
+  "BirthDate": "1977-01-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "18",
+      "Department": "84"
+    }
+  ]
 }

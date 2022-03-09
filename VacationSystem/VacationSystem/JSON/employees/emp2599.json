@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2599",
-	"FirstName": "Александр",
-	"MiddleName": "Сергеевич",
-	"LastName": "Попов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "101",
-			"HeadOfDepartment": false,
-			"Position": "36"
-		}
-	]
+  "Id": "2599",
+  "FirstName": "Александр",
+  "MiddleName": "Сергеевич",
+  "LastName": "Попов",
+  "Time": 0.5,
+  "StartDate": "2018-08-04T00:00:00",
+  "BirthDate": "1976-07-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "36",
+      "Department": "101"
+    }
+  ]
 }

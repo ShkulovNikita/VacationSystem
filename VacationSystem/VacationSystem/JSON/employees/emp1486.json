@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1486",
-	"FirstName": "Светлана",
-	"MiddleName": "Михайловна",
-	"LastName": "Загородская",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "47",
-			"HeadOfDepartment": false,
-			"Position": "9"
-		}
-	]
+  "Id": "1486",
+  "FirstName": "Светлана",
+  "MiddleName": "Михайловна",
+  "LastName": "Загородская",
+  "Time": 1,
+  "StartDate": "2001-06-14T00:00:00",
+  "BirthDate": "1980-05-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "9",
+      "Department": "47"
+    }
+  ]
 }

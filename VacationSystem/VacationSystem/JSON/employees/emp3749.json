@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3749",
-	"FirstName": "Алина",
-	"MiddleName": "Александровна",
-	"LastName": "Кравец",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "131",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "3749",
+  "FirstName": "Алина",
+  "MiddleName": "Александровна",
+  "LastName": "Кравец",
+  "Time": 1,
+  "StartDate": "2011-07-24T00:00:00",
+  "BirthDate": "1960-06-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "131"
+    }
+  ]
 }

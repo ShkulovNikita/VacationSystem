@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2392",
-	"FirstName": "Валентина",
-	"MiddleName": "Ивановна",
-	"LastName": "Тащиян",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "199",
-			"HeadOfDepartment": false,
-			"Position": "154"
-		}
-	]
+  "Id": "2392",
+  "FirstName": "Валентина",
+  "MiddleName": "Ивановна",
+  "LastName": "Тащиян",
+  "Time": 1,
+  "StartDate": "2010-08-02T00:00:00",
+  "BirthDate": "1988-07-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "154",
+      "Department": "199"
+    }
+  ]
 }

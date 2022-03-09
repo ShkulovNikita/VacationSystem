@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "113",
-	"FirstName": "Ольга",
-	"MiddleName": "Александровна",
-	"LastName": "Никиткина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "45",
-			"HeadOfDepartment": false,
-			"Position": "16"
-		}
-	]
+  "Id": "113",
+  "FirstName": "Ольга",
+  "MiddleName": "Александровна",
+  "LastName": "Никиткина",
+  "Time": 1,
+  "StartDate": "2018-09-06T00:00:00",
+  "BirthDate": "1991-03-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "16",
+      "Department": "45"
+    }
+  ]
 }

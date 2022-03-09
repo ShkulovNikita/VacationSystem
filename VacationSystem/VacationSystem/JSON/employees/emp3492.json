@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3492",
-	"FirstName": "Евгений",
-	"MiddleName": "Владимирович",
-	"LastName": "Урусов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "168",
-			"HeadOfDepartment": false,
-			"Position": "103"
-		}
-	]
+  "Id": "3492",
+  "FirstName": "Евгений",
+  "MiddleName": "Владимирович",
+  "LastName": "Урусов",
+  "Time": 0.5,
+  "StartDate": "2017-05-13T00:00:00",
+  "BirthDate": "1975-11-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "103",
+      "Department": "168"
+    }
+  ]
 }

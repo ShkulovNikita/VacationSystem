@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "572",
-	"FirstName": "Светлана",
-	"MiddleName": "Николаевна",
-	"LastName": "Аникина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "154",
-			"HeadOfDepartment": false,
-			"Position": "111"
-		}
-	]
+  "Id": "572",
+  "FirstName": "Светлана",
+  "MiddleName": "Николаевна",
+  "LastName": "Аникина",
+  "Time": 0.5,
+  "StartDate": "2007-10-22T00:00:00",
+  "BirthDate": "1976-11-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "111",
+      "Department": "154"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3477",
-	"FirstName": "Полина",
-	"MiddleName": "Михайловна",
-	"LastName": "Шестакова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "264",
-			"HeadOfDepartment": false,
-			"Position": "279"
-		}
-	]
+  "Id": "3477",
+  "FirstName": "Полина",
+  "MiddleName": "Михайловна",
+  "LastName": "Шестакова",
+  "Time": 0.5,
+  "StartDate": "2016-08-20T00:00:00",
+  "BirthDate": "1993-10-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "279",
+      "Department": "264"
+    }
+  ]
 }

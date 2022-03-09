@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3084",
-	"FirstName": "Вера",
-	"MiddleName": "Владимировна",
-	"LastName": "Подгаецкая",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "118",
-			"HeadOfDepartment": false,
-			"Position": "0"
-		}
-	]
+  "Id": "3084",
+  "FirstName": "Вера",
+  "MiddleName": "Владимировна",
+  "LastName": "Подгаецкая",
+  "Time": 1,
+  "StartDate": "1996-04-11T00:00:00",
+  "BirthDate": "1970-05-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "0",
+      "Department": "118"
+    }
+  ]
 }

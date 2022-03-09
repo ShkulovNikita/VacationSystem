@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "255",
-	"FirstName": "Вячеслав",
-	"MiddleName": "Борисович",
-	"LastName": "Тюханов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "105",
-			"HeadOfDepartment": false,
-			"Position": "37"
-		}
-	]
+  "Id": "255",
+  "FirstName": "Вячеслав",
+  "MiddleName": "Борисович",
+  "LastName": "Тюханов",
+  "Time": 1,
+  "StartDate": "2017-09-04T00:00:00",
+  "BirthDate": "1980-12-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "37",
+      "Department": "105"
+    }
+  ]
 }

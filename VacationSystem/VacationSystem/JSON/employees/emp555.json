@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "555",
-	"FirstName": "Наталия",
-	"MiddleName": "Валерьевна",
-	"LastName": "Редутинская",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "91",
-			"HeadOfDepartment": false,
-			"Position": "109"
-		}
-	]
+  "Id": "555",
+  "FirstName": "Наталия",
+  "MiddleName": "Валерьевна",
+  "LastName": "Редутинская",
+  "Time": 1,
+  "StartDate": "1996-06-11T00:00:00",
+  "BirthDate": "1954-09-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "109",
+      "Department": "91"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1342",
-	"FirstName": "Евгений",
-	"MiddleName": "Владимирович",
-	"LastName": "Чибисов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "37",
-			"HeadOfDepartment": false,
-			"Position": "42"
-		}
-	]
+  "Id": "1342",
+  "FirstName": "Евгений",
+  "MiddleName": "Владимирович",
+  "LastName": "Чибисов",
+  "Time": 1,
+  "StartDate": "2011-06-16T00:00:00",
+  "BirthDate": "1991-10-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "42",
+      "Department": "37"
+    }
+  ]
 }

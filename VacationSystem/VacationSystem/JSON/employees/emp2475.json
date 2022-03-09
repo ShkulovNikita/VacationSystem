@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2475",
-	"FirstName": "Вячеслав",
-	"MiddleName": "Владимирович",
-	"LastName": "Данилов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "244",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "2475",
+  "FirstName": "Вячеслав",
+  "MiddleName": "Владимирович",
+  "LastName": "Данилов",
+  "Time": 1,
+  "StartDate": "1990-03-23T00:00:00",
+  "BirthDate": "1959-09-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "244"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "655",
-	"FirstName": "Сергей",
-	"MiddleName": "Валерьевич",
-	"LastName": "Парначев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "127",
-			"HeadOfDepartment": false,
-			"Position": "11"
-		}
-	]
+  "Id": "655",
+  "FirstName": "Сергей",
+  "MiddleName": "Валерьевич",
+  "LastName": "Парначев",
+  "Time": 1,
+  "StartDate": "2016-12-17T00:00:00",
+  "BirthDate": "1959-12-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "11",
+      "Department": "127"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2905",
-	"FirstName": "Ирина",
-	"MiddleName": "Викторовна",
-	"LastName": "Салосина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "65",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "2905",
+  "FirstName": "Ирина",
+  "MiddleName": "Викторовна",
+  "LastName": "Салосина",
+  "Time": 1,
+  "StartDate": "1998-12-09T00:00:00",
+  "BirthDate": "1963-07-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "65"
+    }
+  ]
 }

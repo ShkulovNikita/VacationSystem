@@ -1,0 +1,109 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "10",
+      "FirstName": "Наталья",
+      "MiddleName": "Викторовна",
+      "LastName": "Стародубцева",
+      "Time": 1,
+      "StartDate": "2014-10-22T00:00:00",
+      "BirthDate": "1957-11-07T00:00:00",
+      "Positions": [
+        {
+          "Position": "7",
+          "Department": "10"
+        }
+      ]
+    },
+    {
+      "Id": "15",
+      "FirstName": "Александр",
+      "MiddleName": "Александрович",
+      "LastName": "Цибульников",
+      "Time": 1,
+      "StartDate": "2005-09-17T00:00:00",
+      "BirthDate": "1970-11-18T00:00:00",
+      "Positions": [
+        {
+          "Position": "10",
+          "Department": "10"
+        }
+      ]
+    },
+    {
+      "Id": "239",
+      "FirstName": "Виктория",
+      "MiddleName": "Викторовна",
+      "LastName": "Осипова",
+      "Time": 1,
+      "StartDate": "2005-08-22T00:00:00",
+      "BirthDate": "1964-04-13T00:00:00",
+      "Positions": [
+        {
+          "Position": "7",
+          "Department": "10"
+        }
+      ]
+    },
+    {
+      "Id": "1255",
+      "FirstName": "Юлия",
+      "MiddleName": "Викторовна",
+      "LastName": "Боброва",
+      "Time": 1,
+      "StartDate": "2018-02-09T00:00:00",
+      "BirthDate": "1992-12-14T00:00:00",
+      "Positions": [
+        {
+          "Position": "7",
+          "Department": "10"
+        }
+      ]
+    },
+    {
+      "Id": "1916",
+      "FirstName": "Анастасия",
+      "MiddleName": "Николаевна",
+      "LastName": "Недоступ",
+      "Time": 0.5,
+      "StartDate": "2017-10-04T00:00:00",
+      "BirthDate": "1983-12-14T00:00:00",
+      "Positions": [
+        {
+          "Position": "16",
+          "Department": "10"
+        }
+      ]
+    },
+    {
+      "Id": "2828",
+      "FirstName": "Вячеслав",
+      "MiddleName": "Владимирович",
+      "LastName": "Леухин",
+      "Time": 1,
+      "StartDate": "1997-08-16T00:00:00",
+      "BirthDate": "1965-07-22T00:00:00",
+      "Positions": [
+        {
+          "Position": "7",
+          "Department": "10"
+        }
+      ]
+    },
+    {
+      "Id": "3300",
+      "FirstName": "Дмитрий",
+      "MiddleName": "Владимирович",
+      "LastName": "Копасов",
+      "Time": 0.5,
+      "StartDate": "2012-08-21T00:00:00",
+      "BirthDate": "1955-03-03T00:00:00",
+      "Positions": [
+        {
+          "Position": "7",
+          "Department": "10"
+        }
+      ]
+    }
+  ]
+}

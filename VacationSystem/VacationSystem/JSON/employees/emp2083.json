@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2083",
-	"FirstName": "Наталья",
-	"MiddleName": "Николаевна",
-	"LastName": "Кабанова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "18"
-		}
-	]
+  "Id": "2083",
+  "FirstName": "Наталья",
+  "MiddleName": "Николаевна",
+  "LastName": "Кабанова",
+  "Time": 0.5,
+  "StartDate": "2003-03-20T00:00:00",
+  "BirthDate": "1974-01-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "18",
+      "Department": "2"
+    }
+  ]
 }

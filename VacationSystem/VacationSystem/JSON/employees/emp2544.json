@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2544",
-	"FirstName": "Любовь",
-	"MiddleName": "Павловна",
-	"LastName": "Молоткова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "34",
-			"HeadOfDepartment": false,
-			"Position": "64"
-		}
-	]
+  "Id": "2544",
+  "FirstName": "Любовь",
+  "MiddleName": "Павловна",
+  "LastName": "Молоткова",
+  "Time": 1,
+  "StartDate": "2016-04-14T00:00:00",
+  "BirthDate": "1988-01-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "64",
+      "Department": "34"
+    }
+  ]
 }

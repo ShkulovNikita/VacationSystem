@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2834",
-	"FirstName": "Енлик",
-	"MiddleName": "",
-	"LastName": "Нурпейис",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "51",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "2834",
+  "FirstName": "Енлик",
+  "MiddleName": "",
+  "LastName": "Нурпейис",
+  "Time": 0.5,
+  "StartDate": "1999-11-24T00:00:00",
+  "BirthDate": "1971-06-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "51"
+    }
+  ]
 }

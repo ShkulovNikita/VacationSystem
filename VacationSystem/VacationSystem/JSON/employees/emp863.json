@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "863",
-	"FirstName": "Валерия",
-	"MiddleName": "Вадимовна",
-	"LastName": "Бикбавова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "126",
-			"HeadOfDepartment": false,
-			"Position": "65"
-		}
-	]
+  "Id": "863",
+  "FirstName": "Валерия",
+  "MiddleName": "Вадимовна",
+  "LastName": "Бикбавова",
+  "Time": 1,
+  "StartDate": "2012-07-22T00:00:00",
+  "BirthDate": "1989-05-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "65",
+      "Department": "126"
+    }
+  ]
 }

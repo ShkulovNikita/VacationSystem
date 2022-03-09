@@ -1,0 +1,79 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "1301",
+      "FirstName": "Николай",
+      "MiddleName": "Анатольевич",
+      "LastName": "Алексеев",
+      "Time": 1,
+      "StartDate": "1986-07-06T00:00:00",
+      "BirthDate": "1957-01-01T00:00:00",
+      "Positions": [
+        {
+          "Position": "36",
+          "Department": "205"
+        }
+      ]
+    },
+    {
+      "Id": "2807",
+      "FirstName": "Екатерина",
+      "MiddleName": "Александровна",
+      "LastName": "Епифанова",
+      "Time": 0.5,
+      "StartDate": "2014-03-12T00:00:00",
+      "BirthDate": "1975-01-09T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "205"
+        }
+      ]
+    },
+    {
+      "Id": "2918",
+      "FirstName": "Александр",
+      "MiddleName": "Николаевич",
+      "LastName": "Искрин",
+      "Time": 1,
+      "StartDate": "2021-09-13T00:00:00",
+      "BirthDate": "1987-08-20T00:00:00",
+      "Positions": [
+        {
+          "Position": "84",
+          "Department": "205"
+        }
+      ]
+    },
+    {
+      "Id": "2919",
+      "FirstName": "Василий",
+      "MiddleName": "Германович",
+      "LastName": "Ли",
+      "Time": 0.5,
+      "StartDate": "1983-09-24T00:00:00",
+      "BirthDate": "1963-07-15T00:00:00",
+      "Positions": [
+        {
+          "Position": "251",
+          "Department": "205"
+        }
+      ]
+    },
+    {
+      "Id": "3490",
+      "FirstName": "Анна",
+      "MiddleName": "Сергеевна",
+      "LastName": "Бондарчук",
+      "Time": 0.5,
+      "StartDate": "2004-06-21T00:00:00",
+      "BirthDate": "1970-03-24T00:00:00",
+      "Positions": [
+        {
+          "Position": "280",
+          "Department": "205"
+        }
+      ]
+    }
+  ]
+}

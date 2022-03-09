@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3819",
-	"FirstName": "Карлыгаш",
-	"MiddleName": "",
-	"LastName": "Тулебаева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "6",
-			"HeadOfDepartment": false,
-			"Position": "7"
-		}
-	]
+  "Id": "3819",
+  "FirstName": "Карлыгаш",
+  "MiddleName": "",
+  "LastName": "Тулебаева",
+  "Time": 1,
+  "StartDate": "1999-02-03T00:00:00",
+  "BirthDate": "1952-10-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "7",
+      "Department": "6"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3468",
-	"FirstName": "Владимир",
-	"MiddleName": "Анатольевич",
-	"LastName": "Пуховский",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "75",
-			"HeadOfDepartment": false,
-			"Position": "168"
-		}
-	]
+  "Id": "3468",
+  "FirstName": "Владимир",
+  "MiddleName": "Анатольевич",
+  "LastName": "Пуховский",
+  "Time": 0.5,
+  "StartDate": "2005-03-17T00:00:00",
+  "BirthDate": "1967-06-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "168",
+      "Department": "75"
+    }
+  ]
 }

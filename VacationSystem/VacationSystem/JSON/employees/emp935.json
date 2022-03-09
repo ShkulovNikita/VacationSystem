@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "935",
-	"FirstName": "Мария",
-	"MiddleName": "Станиславовна",
-	"LastName": "Петюкевич",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		},
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "35"
-		}
-	]
+  "Id": "935",
+  "FirstName": "Мария",
+  "MiddleName": "Станиславовна",
+  "LastName": "Петюкевич",
+  "Time": 1.5,
+  "StartDate": "2010-07-05T00:00:00",
+  "BirthDate": "1964-02-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "15"
+    },
+    {
+      "Position": "35",
+      "Department": "2"
+    }
+  ]
 }

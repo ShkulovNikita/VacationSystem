@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3033",
-	"FirstName": "Надежда",
-	"MiddleName": "Матвеевна",
-	"LastName": "Потпоева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "1",
-			"HeadOfDepartment": false,
-			"Position": "53"
-		}
-	]
+  "Id": "3033",
+  "FirstName": "Надежда",
+  "MiddleName": "Матвеевна",
+  "LastName": "Потпоева",
+  "Time": 1,
+  "StartDate": "2019-02-11T00:00:00",
+  "BirthDate": "1988-08-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "53",
+      "Department": "1"
+    }
+  ]
 }

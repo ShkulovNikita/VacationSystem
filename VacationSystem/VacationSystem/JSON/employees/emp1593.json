@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1593",
-	"FirstName": "Павел",
-	"MiddleName": "Иванович",
-	"LastName": "Никитин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "103",
-			"HeadOfDepartment": false,
-			"Position": "194"
-		}
-	]
+  "Id": "1593",
+  "FirstName": "Павел",
+  "MiddleName": "Иванович",
+  "LastName": "Никитин",
+  "Time": 1,
+  "StartDate": "2015-01-01T00:00:00",
+  "BirthDate": "1983-09-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "194",
+      "Department": "103"
+    }
+  ]
 }

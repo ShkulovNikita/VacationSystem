@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3740",
-	"FirstName": "Ольга",
-	"MiddleName": "Викторовна",
-	"LastName": "Коновалова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "1",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "3740",
+  "FirstName": "Ольга",
+  "MiddleName": "Викторовна",
+  "LastName": "Коновалова",
+  "Time": 1,
+  "StartDate": "2013-09-19T00:00:00",
+  "BirthDate": "1991-11-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "1"
+    }
+  ]
 }

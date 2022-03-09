@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1247",
-	"FirstName": "Елена",
-	"MiddleName": "Владимировна",
-	"LastName": "Дорожко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "36",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1247",
+  "FirstName": "Елена",
+  "MiddleName": "Владимировна",
+  "LastName": "Дорожко",
+  "Time": 0.5,
+  "StartDate": "2020-03-20T00:00:00",
+  "BirthDate": "1971-03-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "36"
+    }
+  ]
 }

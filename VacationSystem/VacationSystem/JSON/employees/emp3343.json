@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3343",
-	"FirstName": "Николай",
-	"MiddleName": "Валерьевич",
-	"LastName": "Матюнин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "50",
-			"HeadOfDepartment": false,
-			"Position": "88"
-		}
-	]
+  "Id": "3343",
+  "FirstName": "Николай",
+  "MiddleName": "Валерьевич",
+  "LastName": "Матюнин",
+  "Time": 1,
+  "StartDate": "2011-11-15T00:00:00",
+  "BirthDate": "1959-07-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "88",
+      "Department": "50"
+    }
+  ]
 }

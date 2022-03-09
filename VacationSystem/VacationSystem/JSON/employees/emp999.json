@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "999",
-	"FirstName": "Анна",
-	"MiddleName": "Владимировна",
-	"LastName": "Леонова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "1",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "999",
+  "FirstName": "Анна",
+  "MiddleName": "Владимировна",
+  "LastName": "Леонова",
+  "Time": 0.5,
+  "StartDate": "1991-12-11T00:00:00",
+  "BirthDate": "1966-02-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "1"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "61",
-	"FirstName": "Андрей",
-	"MiddleName": "Александрович",
-	"LastName": "Феденёв",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "38",
-			"HeadOfDepartment": false,
-			"Position": "11"
-		}
-	]
+  "Id": "61",
+  "FirstName": "Андрей",
+  "MiddleName": "Александрович",
+  "LastName": "Феденёв",
+  "Time": 1,
+  "StartDate": "2021-11-21T00:00:00",
+  "BirthDate": "1992-01-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "11",
+      "Department": "38"
+    }
+  ]
 }

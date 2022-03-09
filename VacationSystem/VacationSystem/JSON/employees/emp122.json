@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "122",
-	"FirstName": "Андрей",
-	"MiddleName": "Владимирович",
-	"LastName": "Степанов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "32",
-			"HeadOfDepartment": false,
-			"Position": "24"
-		}
-	]
+  "Id": "122",
+  "FirstName": "Андрей",
+  "MiddleName": "Владимирович",
+  "LastName": "Степанов",
+  "Time": 1,
+  "StartDate": "2020-11-12T00:00:00",
+  "BirthDate": "1988-03-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "24",
+      "Department": "32"
+    }
+  ]
 }

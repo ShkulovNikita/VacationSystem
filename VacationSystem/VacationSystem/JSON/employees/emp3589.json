@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3589",
-	"FirstName": "Светлана",
-	"MiddleName": "Витальевна",
-	"LastName": "Лебедева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "91",
-			"HeadOfDepartment": false,
-			"Position": "15"
-		}
-	]
+  "Id": "3589",
+  "FirstName": "Светлана",
+  "MiddleName": "Витальевна",
+  "LastName": "Лебедева",
+  "Time": 0.5,
+  "StartDate": "2001-08-16T00:00:00",
+  "BirthDate": "1971-08-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "15",
+      "Department": "91"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3703",
-	"FirstName": "Павел",
-	"MiddleName": "Константинович",
-	"LastName": "Михайлюк",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "4",
-			"HeadOfDepartment": false,
-			"Position": "56"
-		}
-	]
+  "Id": "3703",
+  "FirstName": "Павел",
+  "MiddleName": "Константинович",
+  "LastName": "Михайлюк",
+  "Time": 1,
+  "StartDate": "1999-09-08T00:00:00",
+  "BirthDate": "1960-03-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "56",
+      "Department": "4"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "364",
-	"FirstName": "Любовь",
-	"MiddleName": "Васильевна",
-	"LastName": "Батретдинова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "1",
-			"HeadOfDepartment": false,
-			"Position": "70"
-		}
-	]
+  "Id": "364",
+  "FirstName": "Любовь",
+  "MiddleName": "Васильевна",
+  "LastName": "Батретдинова",
+  "Time": 1,
+  "StartDate": "2013-12-24T00:00:00",
+  "BirthDate": "1960-04-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "70",
+      "Department": "1"
+    }
+  ]
 }

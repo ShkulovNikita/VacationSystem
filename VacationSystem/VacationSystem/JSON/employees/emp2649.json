@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2649",
-	"FirstName": "Глеб",
-	"MiddleName": "",
-	"LastName": "Дубиненко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "221",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		}
-	]
+  "Id": "2649",
+  "FirstName": "Глеб",
+  "MiddleName": "",
+  "LastName": "Дубиненко",
+  "Time": 0.5,
+  "StartDate": "1980-03-21T00:00:00",
+  "BirthDate": "1953-02-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "221"
+    }
+  ]
 }

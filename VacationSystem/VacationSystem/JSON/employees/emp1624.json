@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "1624",
-	"FirstName": "Елена",
-	"MiddleName": "Владимировна",
-	"LastName": "Корсун",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "36",
-			"HeadOfDepartment": false,
-			"Position": "2"
-		},
-		{
-			"Id": "36",
-			"HeadOfDepartment": false,
-			"Position": "19"
-		}
-	]
+  "Id": "1624",
+  "FirstName": "Елена",
+  "MiddleName": "Владимировна",
+  "LastName": "Корсун",
+  "Time": 1.5,
+  "StartDate": "2014-05-18T00:00:00",
+  "BirthDate": "1988-09-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "2",
+      "Department": "36"
+    },
+    {
+      "Position": "19",
+      "Department": "36"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3570",
-	"FirstName": "Ирина",
-	"MiddleName": "Петровна",
-	"LastName": "Курочкина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "214",
-			"HeadOfDepartment": false,
-			"Position": "197"
-		}
-	]
+  "Id": "3570",
+  "FirstName": "Ирина",
+  "MiddleName": "Петровна",
+  "LastName": "Курочкина",
+  "Time": 0.5,
+  "StartDate": "1980-01-07T00:00:00",
+  "BirthDate": "1960-09-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "197",
+      "Department": "214"
+    }
+  ]
 }

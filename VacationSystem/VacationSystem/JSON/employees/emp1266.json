@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1266",
-	"FirstName": "Юлиана",
-	"MiddleName": "Константиновна",
-	"LastName": "Атрошенко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "39",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1266",
+  "FirstName": "Юлиана",
+  "MiddleName": "Константиновна",
+  "LastName": "Атрошенко",
+  "Time": 1,
+  "StartDate": "2003-05-17T00:00:00",
+  "BirthDate": "1967-06-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "39"
+    }
+  ]
 }

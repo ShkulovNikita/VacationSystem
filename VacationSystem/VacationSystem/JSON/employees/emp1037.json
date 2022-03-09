@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1037",
-	"FirstName": "Ксения",
-	"MiddleName": "Сергеевна",
-	"LastName": "Софина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "77",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "1037",
+  "FirstName": "Ксения",
+  "MiddleName": "Сергеевна",
+  "LastName": "Софина",
+  "Time": 1,
+  "StartDate": "1995-02-24T00:00:00",
+  "BirthDate": "1966-03-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "77"
+    }
+  ]
 }

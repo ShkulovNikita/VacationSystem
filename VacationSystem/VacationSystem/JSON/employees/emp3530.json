@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3530",
-	"FirstName": "Юрий",
-	"MiddleName": "Александрович",
-	"LastName": "Ефимов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "75",
-			"HeadOfDepartment": false,
-			"Position": "171"
-		}
-	]
+  "Id": "3530",
+  "FirstName": "Юрий",
+  "MiddleName": "Александрович",
+  "LastName": "Ефимов",
+  "Time": 1,
+  "StartDate": "1993-11-12T00:00:00",
+  "BirthDate": "1955-10-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "171",
+      "Department": "75"
+    }
+  ]
 }

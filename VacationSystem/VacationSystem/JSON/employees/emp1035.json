@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1035",
-	"FirstName": "Эльвира",
-	"MiddleName": "Яковлевна",
-	"LastName": "Соколова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "0",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "1035",
+  "FirstName": "Эльвира",
+  "MiddleName": "Яковлевна",
+  "LastName": "Соколова",
+  "Time": 1,
+  "StartDate": "2002-07-02T00:00:00",
+  "BirthDate": "1954-02-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "0"
+    }
+  ]
 }

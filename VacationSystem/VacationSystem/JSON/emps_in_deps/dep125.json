@@ -1,0 +1,154 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "369",
+      "FirstName": "Сергей",
+      "MiddleName": "Андреевич",
+      "LastName": "Баженов",
+      "Time": 0.5,
+      "StartDate": "2020-06-23T00:00:00",
+      "BirthDate": "1968-12-18T00:00:00",
+      "Positions": [
+        {
+          "Position": "29",
+          "Department": "125"
+        }
+      ]
+    },
+    {
+      "Id": "482",
+      "FirstName": "Юрий",
+      "MiddleName": "Александрович",
+      "LastName": "Ткаченко",
+      "Time": 1,
+      "StartDate": "2012-10-23T00:00:00",
+      "BirthDate": "1955-09-16T00:00:00",
+      "Positions": [
+        {
+          "Position": "102",
+          "Department": "125"
+        }
+      ]
+    },
+    {
+      "Id": "806",
+      "FirstName": "Павел",
+      "MiddleName": "Викторович",
+      "LastName": "Потылицин",
+      "Time": 0.5,
+      "StartDate": "1999-10-07T00:00:00",
+      "BirthDate": "1965-05-09T00:00:00",
+      "Positions": [
+        {
+          "Position": "25",
+          "Department": "125"
+        }
+      ]
+    },
+    {
+      "Id": "1182",
+      "FirstName": "Евгений",
+      "MiddleName": "Александрович",
+      "LastName": "Саломатов",
+      "Time": 0.5,
+      "StartDate": "1999-06-23T00:00:00",
+      "BirthDate": "1979-03-07T00:00:00",
+      "Positions": [
+        {
+          "Position": "7",
+          "Department": "125"
+        }
+      ]
+    },
+    {
+      "Id": "1210",
+      "FirstName": "Иван",
+      "MiddleName": "Анатольевич",
+      "LastName": "Мартынов",
+      "Time": 1,
+      "StartDate": "2013-04-23T00:00:00",
+      "BirthDate": "1965-03-10T00:00:00",
+      "Positions": [
+        {
+          "Position": "7",
+          "Department": "125"
+        }
+      ]
+    },
+    {
+      "Id": "2107",
+      "FirstName": "Олег",
+      "MiddleName": "Максимович",
+      "LastName": "Руденко",
+      "Time": 0.5,
+      "StartDate": "2017-06-07T00:00:00",
+      "BirthDate": "1992-10-20T00:00:00",
+      "Positions": [
+        {
+          "Position": "7",
+          "Department": "125"
+        }
+      ]
+    },
+    {
+      "Id": "2240",
+      "FirstName": "Алексей",
+      "MiddleName": "Анатольевич",
+      "LastName": "Мартынов",
+      "Time": 0.5,
+      "StartDate": "2008-07-09T00:00:00",
+      "BirthDate": "1987-10-15T00:00:00",
+      "Positions": [
+        {
+          "Position": "16",
+          "Department": "125"
+        }
+      ]
+    },
+    {
+      "Id": "2583",
+      "FirstName": "Анатолий",
+      "MiddleName": "Витальевич",
+      "LastName": "Озеров",
+      "Time": 1,
+      "StartDate": "2012-06-20T00:00:00",
+      "BirthDate": "1963-11-06T00:00:00",
+      "Positions": [
+        {
+          "Position": "29",
+          "Department": "125"
+        }
+      ]
+    },
+    {
+      "Id": "3394",
+      "FirstName": "Вячеслав",
+      "MiddleName": "Юрьевич",
+      "LastName": "Вишняков",
+      "Time": 0.5,
+      "StartDate": "2015-12-17T00:00:00",
+      "BirthDate": "1989-03-24T00:00:00",
+      "Positions": [
+        {
+          "Position": "7",
+          "Department": "125"
+        }
+      ]
+    },
+    {
+      "Id": "3752",
+      "FirstName": "Дмитрий",
+      "MiddleName": "Сергеевич",
+      "LastName": "Феоктистов",
+      "Time": 1,
+      "StartDate": "2015-08-16T00:00:00",
+      "BirthDate": "1985-09-10T00:00:00",
+      "Positions": [
+        {
+          "Position": "25",
+          "Department": "125"
+        }
+      ]
+    }
+  ]
+}

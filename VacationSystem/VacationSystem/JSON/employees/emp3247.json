@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3247",
-	"FirstName": "Павел",
-	"MiddleName": "Николаевич",
-	"LastName": "Зятиков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "46",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "3247",
+  "FirstName": "Павел",
+  "MiddleName": "Николаевич",
+  "LastName": "Зятиков",
+  "Time": 1,
+  "StartDate": "2000-08-02T00:00:00",
+  "BirthDate": "1953-11-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "46"
+    }
+  ]
 }

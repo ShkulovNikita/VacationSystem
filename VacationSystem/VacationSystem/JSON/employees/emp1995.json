@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1995",
-	"FirstName": "Светлана",
-	"MiddleName": "Викторовна",
-	"LastName": "Жаркова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "20",
-			"HeadOfDepartment": false,
-			"Position": "40"
-		}
-	]
+  "Id": "1995",
+  "FirstName": "Светлана",
+  "MiddleName": "Викторовна",
+  "LastName": "Жаркова",
+  "Time": 1,
+  "StartDate": "2001-03-16T00:00:00",
+  "BirthDate": "1966-03-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "40",
+      "Department": "20"
+    }
+  ]
 }

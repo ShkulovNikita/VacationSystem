@@ -1,19 +1,15 @@
 ﻿{
-	"Id": "1628",
-	"FirstName": "Ольга",
-	"MiddleName": "Юрьевна",
-	"LastName": "Ваулина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		},
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1628",
+  "FirstName": "Ольга",
+  "MiddleName": "Юрьевна",
+  "LastName": "Ваулина",
+  "Time": 0.5,
+  "StartDate": "1978-12-03T00:00:00",
+  "BirthDate": "1955-01-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "15"
+    }
+  ]
 }

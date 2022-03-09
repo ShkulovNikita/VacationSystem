@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2378",
-	"FirstName": "Владимир",
-	"MiddleName": "Юрьевич",
-	"LastName": "Обносов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "86",
-			"HeadOfDepartment": false,
-			"Position": "16"
-		}
-	]
+  "Id": "2378",
+  "FirstName": "Владимир",
+  "MiddleName": "Юрьевич",
+  "LastName": "Обносов",
+  "Time": 0.5,
+  "StartDate": "1997-09-14T00:00:00",
+  "BirthDate": "1971-09-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "16",
+      "Department": "86"
+    }
+  ]
 }

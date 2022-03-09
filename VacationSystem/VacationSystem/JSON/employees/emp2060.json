@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2060",
-	"FirstName": "Владимир",
-	"MiddleName": "Иванович",
-	"LastName": "Верещагин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "4",
-			"HeadOfDepartment": false,
-			"Position": "91"
-		}
-	]
+  "Id": "2060",
+  "FirstName": "Владимир",
+  "MiddleName": "Иванович",
+  "LastName": "Верещагин",
+  "Time": 1,
+  "StartDate": "2019-03-13T00:00:00",
+  "BirthDate": "1987-07-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "91",
+      "Department": "4"
+    }
+  ]
 }

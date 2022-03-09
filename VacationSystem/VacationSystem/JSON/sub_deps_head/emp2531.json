@@ -1,0 +1,10 @@
+﻿{
+  "Departments": [
+    {
+      "Id": "245",
+      "Name": "11 корпус",
+      "Head": "2531",
+      "HeadDepartment": "38"
+    }
+  ]
+}

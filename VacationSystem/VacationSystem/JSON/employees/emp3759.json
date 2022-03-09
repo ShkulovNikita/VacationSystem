@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3759",
-	"FirstName": "Сергей",
-	"MiddleName": "Петрович",
-	"LastName": "Кряжевских",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "59",
-			"HeadOfDepartment": false,
-			"Position": "295"
-		}
-	]
+  "Id": "3759",
+  "FirstName": "Сергей",
+  "MiddleName": "Петрович",
+  "LastName": "Кряжевских",
+  "Time": 0.5,
+  "StartDate": "1997-06-21T00:00:00",
+  "BirthDate": "1976-03-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "295",
+      "Department": "59"
+    }
+  ]
 }

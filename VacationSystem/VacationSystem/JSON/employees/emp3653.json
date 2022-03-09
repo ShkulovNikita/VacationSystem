@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3653",
-	"FirstName": "Александр",
-	"MiddleName": "Валерьевич",
-	"LastName": "Карасев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "75",
-			"HeadOfDepartment": false,
-			"Position": "232"
-		}
-	]
+  "Id": "3653",
+  "FirstName": "Александр",
+  "MiddleName": "Валерьевич",
+  "LastName": "Карасев",
+  "Time": 0.5,
+  "StartDate": "1994-09-17T00:00:00",
+  "BirthDate": "1972-08-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "232",
+      "Department": "75"
+    }
+  ]
 }

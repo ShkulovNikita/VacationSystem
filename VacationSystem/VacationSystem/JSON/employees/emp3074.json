@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3074",
-	"FirstName": "Сергей",
-	"MiddleName": "Андреевич",
-	"LastName": "Пластун",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "170",
-			"HeadOfDepartment": false,
-			"Position": "185"
-		}
-	]
+  "Id": "3074",
+  "FirstName": "Сергей",
+  "MiddleName": "Андреевич",
+  "LastName": "Пластун",
+  "Time": 1,
+  "StartDate": "2012-02-23T00:00:00",
+  "BirthDate": "1969-05-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "185",
+      "Department": "170"
+    }
+  ]
 }

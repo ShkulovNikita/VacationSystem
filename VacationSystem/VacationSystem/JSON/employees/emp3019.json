@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3019",
-	"FirstName": "Дмитрий",
-	"MiddleName": "Рудольфович",
-	"LastName": "Еговцев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "180",
-			"HeadOfDepartment": false,
-			"Position": "79"
-		}
-	]
+  "Id": "3019",
+  "FirstName": "Дмитрий",
+  "MiddleName": "Рудольфович",
+  "LastName": "Еговцев",
+  "Time": 0.5,
+  "StartDate": "2013-08-13T00:00:00",
+  "BirthDate": "1991-08-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "79",
+      "Department": "180"
+    }
+  ]
 }

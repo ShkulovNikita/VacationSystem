@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2434",
-	"FirstName": "Наталья",
-	"MiddleName": "Игоревна",
-	"LastName": "Романова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "2434",
+  "FirstName": "Наталья",
+  "MiddleName": "Игоревна",
+  "LastName": "Романова",
+  "Time": 0.5,
+  "StartDate": "2018-01-14T00:00:00",
+  "BirthDate": "1967-04-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "15"
+    }
+  ]
 }

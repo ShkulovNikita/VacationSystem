@@ -1,0 +1,64 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "339",
+      "FirstName": "Полина",
+      "MiddleName": "Юрьевна",
+      "LastName": "Молчанова",
+      "Time": 1,
+      "StartDate": "2000-05-06T00:00:00",
+      "BirthDate": "1973-11-18T00:00:00",
+      "Positions": [
+        {
+          "Position": "18",
+          "Department": "123"
+        }
+      ]
+    },
+    {
+      "Id": "2032",
+      "FirstName": "Любовь",
+      "MiddleName": "Владимировна",
+      "LastName": "Гребенщикова",
+      "Time": 1,
+      "StartDate": "2020-02-10T00:00:00",
+      "BirthDate": "1993-06-06T00:00:00",
+      "Positions": [
+        {
+          "Position": "21",
+          "Department": "123"
+        }
+      ]
+    },
+    {
+      "Id": "2330",
+      "FirstName": "Ирина",
+      "MiddleName": "Евгеньевна",
+      "LastName": "Сафонова",
+      "Time": 1,
+      "StartDate": "2021-11-14T00:00:00",
+      "BirthDate": "1956-03-02T00:00:00",
+      "Positions": [
+        {
+          "Position": "10",
+          "Department": "123"
+        }
+      ]
+    },
+    {
+      "Id": "3224",
+      "FirstName": "Анастасия",
+      "MiddleName": "Андреевна",
+      "LastName": "Вергунова",
+      "Time": 0.5,
+      "StartDate": "2002-09-04T00:00:00",
+      "BirthDate": "1980-12-17T00:00:00",
+      "Positions": [
+        {
+          "Position": "21",
+          "Department": "123"
+        }
+      ]
+    }
+  ]
+}

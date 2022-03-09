@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "501",
-	"FirstName": "Лидия",
-	"MiddleName": "Александровна",
-	"LastName": "Егорова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "66",
-			"HeadOfDepartment": false,
-			"Position": "18"
-		}
-	]
+  "Id": "501",
+  "FirstName": "Лидия",
+  "MiddleName": "Александровна",
+  "LastName": "Егорова",
+  "Time": 1,
+  "StartDate": "2011-05-09T00:00:00",
+  "BirthDate": "1982-03-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "18",
+      "Department": "66"
+    }
+  ]
 }

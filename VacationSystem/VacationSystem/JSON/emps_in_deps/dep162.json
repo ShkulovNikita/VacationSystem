@@ -1,0 +1,19 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "616",
+      "FirstName": "Николай",
+      "MiddleName": "Станиславович",
+      "LastName": "Криницын",
+      "Time": 1,
+      "StartDate": "2014-04-14T00:00:00",
+      "BirthDate": "1955-02-22T00:00:00",
+      "Positions": [
+        {
+          "Position": "2",
+          "Department": "162"
+        }
+      ]
+    }
+  ]
+}

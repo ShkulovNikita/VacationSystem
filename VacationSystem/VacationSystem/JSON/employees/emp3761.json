@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3761",
-	"FirstName": "Танзила",
-	"MiddleName": "Умаровна",
-	"LastName": "Фаргиева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "32",
-			"HeadOfDepartment": false,
-			"Position": "25"
-		}
-	]
+  "Id": "3761",
+  "FirstName": "Танзила",
+  "MiddleName": "Умаровна",
+  "LastName": "Фаргиева",
+  "Time": 0.5,
+  "StartDate": "1986-07-18T00:00:00",
+  "BirthDate": "1961-01-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "25",
+      "Department": "32"
+    }
+  ]
 }

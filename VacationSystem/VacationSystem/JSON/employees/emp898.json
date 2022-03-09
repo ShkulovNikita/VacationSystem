@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "898",
-	"FirstName": "Галина",
-	"MiddleName": "Николаевна",
-	"LastName": "Терскова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "181",
-			"HeadOfDepartment": false,
-			"Position": "131"
-		}
-	]
+  "Id": "898",
+  "FirstName": "Галина",
+  "MiddleName": "Николаевна",
+  "LastName": "Терскова",
+  "Time": 1,
+  "StartDate": "2006-10-07T00:00:00",
+  "BirthDate": "1962-03-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "131",
+      "Department": "181"
+    }
+  ]
 }

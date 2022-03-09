@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1344",
-	"FirstName": "Татьяна",
-	"MiddleName": "Сергеевна",
-	"LastName": "Гоголева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "17",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		}
-	]
+  "Id": "1344",
+  "FirstName": "Татьяна",
+  "MiddleName": "Сергеевна",
+  "LastName": "Гоголева",
+  "Time": 0.5,
+  "StartDate": "2012-10-14T00:00:00",
+  "BirthDate": "1986-10-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "17"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1020",
-	"FirstName": "Анастасия",
-	"MiddleName": "Михайловна",
-	"LastName": "Цыганова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "33",
-			"HeadOfDepartment": false,
-			"Position": "21"
-		}
-	]
+  "Id": "1020",
+  "FirstName": "Анастасия",
+  "MiddleName": "Михайловна",
+  "LastName": "Цыганова",
+  "Time": 0.5,
+  "StartDate": "2009-05-24T00:00:00",
+  "BirthDate": "1985-12-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "21",
+      "Department": "33"
+    }
+  ]
 }

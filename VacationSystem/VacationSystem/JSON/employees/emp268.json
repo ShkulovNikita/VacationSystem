@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "268",
-	"FirstName": "Алена",
-	"MiddleName": "Васильевна",
-	"LastName": "Хаперская",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "14",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "268",
+  "FirstName": "Алена",
+  "MiddleName": "Васильевна",
+  "LastName": "Хаперская",
+  "Time": 0.5,
+  "StartDate": "2008-10-14T00:00:00",
+  "BirthDate": "1974-02-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "14"
+    }
+  ]
 }

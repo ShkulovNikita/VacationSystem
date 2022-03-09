@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "408",
-	"FirstName": "Татьяна",
-	"MiddleName": "Петровна",
-	"LastName": "Назаренко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "34",
-			"HeadOfDepartment": false,
-			"Position": "97"
-		}
-	]
+  "Id": "408",
+  "FirstName": "Татьяна",
+  "MiddleName": "Петровна",
+  "LastName": "Назаренко",
+  "Time": 1,
+  "StartDate": "2002-09-17T00:00:00",
+  "BirthDate": "1954-03-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "97",
+      "Department": "34"
+    }
+  ]
 }

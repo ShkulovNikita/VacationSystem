@@ -39,7 +39,6 @@ namespace VacationSystem
         public DbSet<IndividualChoicePeriod> IndividualChoicePeriods { get; set; }
         public DbSet<NotificationType> NotificationTypes { get; set; }
         public DbSet<Notification> Notifications { get; set; }
-        public DbSet<EmployeeInDepartment> EmployeesInDepartments { get; set; }
 
         public ApplicationContext()
         {
@@ -57,62 +56,6 @@ namespace VacationSystem
             modelBuilder.Entity<HeadStyle>().HasKey(s => new { s.DepartmentId, s.HeadEmployeeId, s.ManagementStyleId });
 
             modelBuilder.Entity<ChoicePeriod>().HasKey(c => new { c.StartDate, c.DepartmentId });
-
-            /*связи многие-ко-многим*/
-
-            // должности сотрудника в подразделениях
-
-            modelBuilder.Entity<EmployeeInDepartment>().HasKey(e => new { e.EmployeeId, e.DepartmentId, e.PositionId });
-
-            modelBuilder.Entity<EmployeeInDepartment>()
-                .HasOne(e => e.Employee)
-                .WithMany(e => e.EmployeeInDepartments)
-                .HasForeignKey(e => e.EmployeeId);
-
-            modelBuilder.Entity<EmployeeInDepartment>()
-                .HasOne(e => e.Department)
-                .WithMany(d => d.EmployeeInDepartments)
-                .HasForeignKey(e => e.DepartmentId);
-
-            modelBuilder.Entity<EmployeeInDepartment>()
-                .HasOne(e => e.Position)
-                .WithMany(p => p.EmployeeInDepartments)
-                .HasForeignKey(e => e.PositionId);
-
-            /*несколько связей к одной и той же таблице*/
-
-            // VisibilityForEmployee и Employee
-            modelBuilder.Entity<VisibilityForEmployee>()
-                .HasOne(m => m.VisibilityEmployee)
-                .WithMany(t => t.VisibilityEmployees)
-                .HasForeignKey(m => m.VisibilityEmployeeId);
-
-            modelBuilder.Entity<VisibilityForEmployee>()
-                .HasOne(m => m.TargetEmployee)
-                .WithMany(t => t.VisibilityTargets)
-                .HasForeignKey(m => m.TargetEmployeeId);
-            
-            modelBuilder.Entity<VisibilityForEmployee>()
-                .HasOne(m => m.HeadEmployee)
-                .WithMany(t => t.VisibilityHeads)
-                .HasForeignKey(m => m.HeadEmployeeId);
-
-            // Deputy и Employee
-            modelBuilder.Entity<Deputy>()
-                .HasOne(m => m.HeadEmployee)
-                .WithMany(t => t.DeputyHeads)
-                .HasForeignKey(m => m.HeadEmployeeId);
-
-            modelBuilder.Entity<Deputy>()
-                .HasOne(m => m.DeputyEmployee)
-                .WithMany(t => t.DeputyEmployees)
-                .HasForeignKey(m => m.DeputyEmployeeId);
-
-            // связь Departments к самой себе
-            modelBuilder.Entity<Department>()
-                .HasOne(d => d.HeadDepartment)
-                .WithMany(d => d.ChildDepartments)
-                .OnDelete(DeleteBehavior.Cascade);
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "263",
-	"FirstName": "Дмитрий",
-	"MiddleName": "Витальевич",
-	"LastName": "Дронов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "75",
-			"HeadOfDepartment": false,
-			"Position": "68"
-		}
-	]
+  "Id": "263",
+  "FirstName": "Дмитрий",
+  "MiddleName": "Витальевич",
+  "LastName": "Дронов",
+  "Time": 1,
+  "StartDate": "2010-03-16T00:00:00",
+  "BirthDate": "1972-11-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "68",
+      "Department": "75"
+    }
+  ]
 }

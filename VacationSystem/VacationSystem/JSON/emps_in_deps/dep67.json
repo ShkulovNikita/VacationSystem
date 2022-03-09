@@ -1,0 +1,64 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "115",
+      "FirstName": "Артем",
+      "MiddleName": "Георгиевич",
+      "LastName": "Наймушин",
+      "Time": 1,
+      "StartDate": "2009-05-12T00:00:00",
+      "BirthDate": "1985-04-12T00:00:00",
+      "Positions": [
+        {
+          "Position": "44",
+          "Department": "67"
+        }
+      ]
+    },
+    {
+      "Id": "226",
+      "FirstName": "Иван",
+      "MiddleName": "Викторович",
+      "LastName": "Ломов",
+      "Time": 1.5,
+      "StartDate": "1976-04-14T00:00:00",
+      "BirthDate": "1955-06-13T00:00:00",
+      "Positions": [
+        {
+          "Position": "48",
+          "Department": "67"
+        }
+      ]
+    },
+    {
+      "Id": "294",
+      "FirstName": "Олег",
+      "MiddleName": "Юрьевич",
+      "LastName": "Долматов",
+      "Time": 2,
+      "StartDate": "2009-09-10T00:00:00",
+      "BirthDate": "1979-07-22T00:00:00",
+      "Positions": [
+        {
+          "Position": "45",
+          "Department": "67"
+        }
+      ]
+    },
+    {
+      "Id": "811",
+      "FirstName": "Вера",
+      "MiddleName": "Викторовна",
+      "LastName": "Верхотурова",
+      "Time": 2,
+      "StartDate": "1994-04-13T00:00:00",
+      "BirthDate": "1965-02-16T00:00:00",
+      "Positions": [
+        {
+          "Position": "134",
+          "Department": "67"
+        }
+      ]
+    }
+  ]
+}

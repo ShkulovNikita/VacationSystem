@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "251",
-	"FirstName": "Елена",
-	"MiddleName": "Викторовна",
-	"LastName": "Панковец",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "103",
-			"HeadOfDepartment": false,
-			"Position": "9"
-		},
-		{
-			"Id": "104",
-			"HeadOfDepartment": false,
-			"Position": "9"
-		}
-	]
+  "Id": "251",
+  "FirstName": "Елена",
+  "MiddleName": "Викторовна",
+  "LastName": "Панковец",
+  "Time": 2,
+  "StartDate": "1997-10-23T00:00:00",
+  "BirthDate": "1962-09-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "9",
+      "Department": "103"
+    },
+    {
+      "Position": "9",
+      "Department": "104"
+    }
+  ]
 }

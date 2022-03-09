@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1801",
-	"FirstName": "Илья",
-	"MiddleName": "Сергеевич",
-	"LastName": "Черданцев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "66",
-			"HeadOfDepartment": false,
-			"Position": "7"
-		}
-	]
+  "Id": "1801",
+  "FirstName": "Илья",
+  "MiddleName": "Сергеевич",
+  "LastName": "Черданцев",
+  "Time": 0.5,
+  "StartDate": "2013-05-18T00:00:00",
+  "BirthDate": "1991-04-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "7",
+      "Department": "66"
+    }
+  ]
 }

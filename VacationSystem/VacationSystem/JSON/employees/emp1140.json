@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1140",
-	"FirstName": "Андрей",
-	"MiddleName": "Геннадьевич",
-	"LastName": "Попов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "2"
-		}
-	]
+  "Id": "1140",
+  "FirstName": "Андрей",
+  "MiddleName": "Геннадьевич",
+  "LastName": "Попов",
+  "Time": 1,
+  "StartDate": "2019-05-03T00:00:00",
+  "BirthDate": "1964-01-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "2",
+      "Department": "15"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "261",
-	"FirstName": "Людмила",
-	"MiddleName": "Николаевна",
-	"LastName": "Дмитрова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "34",
-			"HeadOfDepartment": false,
-			"Position": "67"
-		}
-	]
+  "Id": "261",
+  "FirstName": "Людмила",
+  "MiddleName": "Николаевна",
+  "LastName": "Дмитрова",
+  "Time": 0.5,
+  "StartDate": "2008-04-12T00:00:00",
+  "BirthDate": "1988-03-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "67",
+      "Department": "34"
+    }
+  ]
 }

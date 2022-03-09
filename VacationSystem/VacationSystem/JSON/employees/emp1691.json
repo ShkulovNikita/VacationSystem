@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1691",
-	"FirstName": "Евгения",
-	"MiddleName": "Сергеевна",
-	"LastName": "Сухих",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "17",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1691",
+  "FirstName": "Евгения",
+  "MiddleName": "Сергеевна",
+  "LastName": "Сухих",
+  "Time": 1,
+  "StartDate": "1989-08-08T00:00:00",
+  "BirthDate": "1954-02-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "17"
+    }
+  ]
 }

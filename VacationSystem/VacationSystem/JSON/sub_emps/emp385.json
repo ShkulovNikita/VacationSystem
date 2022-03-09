@@ -1,0 +1,91 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "385",
+      "FirstName": "Василий",
+      "MiddleName": "Михайлович",
+      "LastName": "Бондаренко",
+      "Time": 2,
+      "StartDate": "1999-11-10T00:00:00",
+      "BirthDate": "1956-04-11T00:00:00",
+      "Positions": [
+        {
+          "Position": "88",
+          "Department": "50"
+        },
+        {
+          "Position": "25",
+          "Department": "132"
+        }
+      ]
+    },
+    {
+      "Id": "1168",
+      "FirstName": "Нина",
+      "MiddleName": "Васильевна",
+      "LastName": "Ожогина",
+      "Time": 0.5,
+      "StartDate": "2002-11-04T00:00:00",
+      "BirthDate": "1963-09-13T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "132"
+        }
+      ]
+    },
+    {
+      "Id": "2917",
+      "FirstName": "Игорь",
+      "MiddleName": "Иванович",
+      "LastName": "Романцов",
+      "Time": 2,
+      "StartDate": "1992-12-20T00:00:00",
+      "BirthDate": "1964-08-10T00:00:00",
+      "Positions": [
+        {
+          "Position": "1",
+          "Department": "93"
+        },
+        {
+          "Position": "35",
+          "Department": "132"
+        }
+      ]
+    },
+    {
+      "Id": "3258",
+      "FirstName": "Ирина",
+      "MiddleName": "Ивановна",
+      "LastName": "Авдеева",
+      "Time": 1.5,
+      "StartDate": "2014-07-07T00:00:00",
+      "BirthDate": "1965-10-05T00:00:00",
+      "Positions": [
+        {
+          "Position": "4",
+          "Department": "93"
+        },
+        {
+          "Position": "3",
+          "Department": "132"
+        }
+      ]
+    },
+    {
+      "Id": "3278",
+      "FirstName": "Александра",
+      "MiddleName": "Дмитриевна",
+      "LastName": "Пыкина",
+      "Time": 1,
+      "StartDate": "2019-12-06T00:00:00",
+      "BirthDate": "1993-03-10T00:00:00",
+      "Positions": [
+        {
+          "Position": "25",
+          "Department": "132"
+        }
+      ]
+    }
+  ]
+}

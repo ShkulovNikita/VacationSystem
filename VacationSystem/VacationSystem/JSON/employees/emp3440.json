@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "3440",
-	"FirstName": "Данышпан",
-	"MiddleName": "",
-	"LastName": "Мухамбеталин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "175",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		},
-		{
-			"Id": "175",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "3440",
+  "FirstName": "Данышпан",
+  "MiddleName": "",
+  "LastName": "Мухамбеталин",
+  "Time": 2,
+  "StartDate": "2010-06-14T00:00:00",
+  "BirthDate": "1984-04-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "175"
+    },
+    {
+      "Position": "3",
+      "Department": "175"
+    }
+  ]
 }

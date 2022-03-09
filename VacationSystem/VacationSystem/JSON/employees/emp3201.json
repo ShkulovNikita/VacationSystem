@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3201",
-	"FirstName": "Олег",
-	"MiddleName": "Александрович",
-	"LastName": "Волков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "105",
-			"HeadOfDepartment": false,
-			"Position": "37"
-		}
-	]
+  "Id": "3201",
+  "FirstName": "Олег",
+  "MiddleName": "Александрович",
+  "LastName": "Волков",
+  "Time": 0.5,
+  "StartDate": "2021-04-19T00:00:00",
+  "BirthDate": "1992-08-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "37",
+      "Department": "105"
+    }
+  ]
 }

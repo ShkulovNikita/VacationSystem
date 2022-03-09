@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2880",
-	"FirstName": "Ольга",
-	"MiddleName": "Александровна",
-	"LastName": "Гилёва",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "126",
-			"HeadOfDepartment": false,
-			"Position": "71"
-		}
-	]
+  "Id": "2880",
+  "FirstName": "Ольга",
+  "MiddleName": "Александровна",
+  "LastName": "Гилёва",
+  "Time": 0.5,
+  "StartDate": "2016-03-24T00:00:00",
+  "BirthDate": "1993-05-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "71",
+      "Department": "126"
+    }
+  ]
 }

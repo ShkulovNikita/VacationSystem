@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1773",
-	"FirstName": "Ксения",
-	"MiddleName": "Александровна",
-	"LastName": "Кравченко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "34",
-			"HeadOfDepartment": false,
-			"Position": "110"
-		}
-	]
+  "Id": "1773",
+  "FirstName": "Ксения",
+  "MiddleName": "Александровна",
+  "LastName": "Кравченко",
+  "Time": 1,
+  "StartDate": "1986-06-04T00:00:00",
+  "BirthDate": "1966-10-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "110",
+      "Department": "34"
+    }
+  ]
 }

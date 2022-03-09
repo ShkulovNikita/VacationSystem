@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3577",
-	"FirstName": "Елена",
-	"MiddleName": "Валерьевна",
-	"LastName": "Ильиных",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "139",
-			"HeadOfDepartment": false,
-			"Position": "10"
-		}
-	]
+  "Id": "3577",
+  "FirstName": "Елена",
+  "MiddleName": "Валерьевна",
+  "LastName": "Ильиных",
+  "Time": 0.5,
+  "StartDate": "2012-09-08T00:00:00",
+  "BirthDate": "1977-09-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "10",
+      "Department": "139"
+    }
+  ]
 }

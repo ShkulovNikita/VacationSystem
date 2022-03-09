@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2283",
-	"FirstName": "Валентина",
-	"MiddleName": "Андреевна",
-	"LastName": "Ожеред",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "36",
-			"HeadOfDepartment": false,
-			"Position": "2"
-		}
-	]
+  "Id": "2283",
+  "FirstName": "Валентина",
+  "MiddleName": "Андреевна",
+  "LastName": "Ожеред",
+  "Time": 1,
+  "StartDate": "2011-01-16T00:00:00",
+  "BirthDate": "1964-03-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "2",
+      "Department": "36"
+    }
+  ]
 }

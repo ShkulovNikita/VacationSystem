@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3002",
-	"FirstName": "Дмитрий",
-	"MiddleName": "Игоревич",
-	"LastName": "Цехановский",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "131",
-			"HeadOfDepartment": false,
-			"Position": "256"
-		}
-	]
+  "Id": "3002",
+  "FirstName": "Дмитрий",
+  "MiddleName": "Игоревич",
+  "LastName": "Цехановский",
+  "Time": 1,
+  "StartDate": "2002-05-16T00:00:00",
+  "BirthDate": "1962-12-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "256",
+      "Department": "131"
+    }
+  ]
 }

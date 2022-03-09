@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3541",
-	"FirstName": "Елена",
-	"MiddleName": "Борисовна",
-	"LastName": "Бауэр",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "23",
-			"HeadOfDepartment": false,
-			"Position": "204"
-		}
-	]
+  "Id": "3541",
+  "FirstName": "Елена",
+  "MiddleName": "Борисовна",
+  "LastName": "Бауэр",
+  "Time": 0.5,
+  "StartDate": "2019-02-04T00:00:00",
+  "BirthDate": "1982-07-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "204",
+      "Department": "23"
+    }
+  ]
 }

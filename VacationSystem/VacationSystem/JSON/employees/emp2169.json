@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2169",
-	"FirstName": "Анатолий",
-	"MiddleName": "Васильевич",
-	"LastName": "Глазков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "193",
-			"HeadOfDepartment": false,
-			"Position": "11"
-		}
-	]
+  "Id": "2169",
+  "FirstName": "Анатолий",
+  "MiddleName": "Васильевич",
+  "LastName": "Глазков",
+  "Time": 1,
+  "StartDate": "2014-02-17T00:00:00",
+  "BirthDate": "1990-09-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "11",
+      "Department": "193"
+    }
+  ]
 }

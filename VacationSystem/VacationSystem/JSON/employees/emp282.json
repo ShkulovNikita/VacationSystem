@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "282",
-	"FirstName": "Игорь",
-	"MiddleName": "Станиславович",
-	"LastName": "Яскевич",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "110",
-			"HeadOfDepartment": false,
-			"Position": "71"
-		},
-		{
-			"Id": "59",
-			"HeadOfDepartment": false,
-			"Position": "72"
-		}
-	]
+  "Id": "282",
+  "FirstName": "Игорь",
+  "MiddleName": "Станиславович",
+  "LastName": "Яскевич",
+  "Time": 1,
+  "StartDate": "2016-03-13T00:00:00",
+  "BirthDate": "1953-01-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "71",
+      "Department": "110"
+    },
+    {
+      "Position": "72",
+      "Department": "59"
+    }
+  ]
 }

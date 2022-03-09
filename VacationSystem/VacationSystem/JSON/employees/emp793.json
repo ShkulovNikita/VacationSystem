@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "793",
-	"FirstName": "Елена",
-	"MiddleName": "Юрьевна",
-	"LastName": "Ефстифеева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "131",
-			"HeadOfDepartment": false,
-			"Position": "12"
-		}
-	]
+  "Id": "793",
+  "FirstName": "Елена",
+  "MiddleName": "Юрьевна",
+  "LastName": "Ефстифеева",
+  "Time": 0.5,
+  "StartDate": "1986-02-18T00:00:00",
+  "BirthDate": "1962-09-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "12",
+      "Department": "131"
+    }
+  ]
 }

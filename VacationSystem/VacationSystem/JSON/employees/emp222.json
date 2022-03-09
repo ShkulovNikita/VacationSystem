@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "222",
-	"FirstName": "Галина",
-	"MiddleName": "Александровна",
-	"LastName": "Елгина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "19",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "222",
+  "FirstName": "Галина",
+  "MiddleName": "Александровна",
+  "LastName": "Елгина",
+  "Time": 1,
+  "StartDate": "2015-12-19T00:00:00",
+  "BirthDate": "1979-05-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "19"
+    }
+  ]
 }

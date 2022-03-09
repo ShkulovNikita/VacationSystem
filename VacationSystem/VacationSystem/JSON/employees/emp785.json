@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "785",
-	"FirstName": "Галина",
-	"MiddleName": "Степановна",
-	"LastName": "Логунович",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "174",
-			"HeadOfDepartment": false,
-			"Position": "15"
-		}
-	]
+  "Id": "785",
+  "FirstName": "Галина",
+  "MiddleName": "Степановна",
+  "LastName": "Логунович",
+  "Time": 0.5,
+  "StartDate": "2021-06-18T00:00:00",
+  "BirthDate": "1964-04-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "15",
+      "Department": "174"
+    }
+  ]
 }

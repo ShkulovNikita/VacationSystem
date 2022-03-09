@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1230",
-	"FirstName": "Юрий",
-	"MiddleName": "Николаевич",
-	"LastName": "Карташов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "68",
-			"HeadOfDepartment": false,
-			"Position": "103"
-		}
-	]
+  "Id": "1230",
+  "FirstName": "Юрий",
+  "MiddleName": "Николаевич",
+  "LastName": "Карташов",
+  "Time": 0.5,
+  "StartDate": "2011-08-15T00:00:00",
+  "BirthDate": "1988-09-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "103",
+      "Department": "68"
+    }
+  ]
 }

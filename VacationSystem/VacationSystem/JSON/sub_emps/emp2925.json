@@ -1,0 +1,188 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "80",
+      "FirstName": "Сергей",
+      "MiddleName": "Александрович",
+      "LastName": "Сысоев",
+      "Time": 0.5,
+      "StartDate": "2005-10-18T00:00:00",
+      "BirthDate": "1963-09-21T00:00:00",
+      "Positions": [
+        {
+          "Position": "16",
+          "Department": "49"
+        }
+      ]
+    },
+    {
+      "Id": "615",
+      "FirstName": "Александр",
+      "MiddleName": "Антанасович",
+      "LastName": "Клемайтис",
+      "Time": 1,
+      "StartDate": "2011-07-14T00:00:00",
+      "BirthDate": "1979-09-18T00:00:00",
+      "Positions": [
+        {
+          "Position": "88",
+          "Department": "49"
+        }
+      ]
+    },
+    {
+      "Id": "1133",
+      "FirstName": "Олег",
+      "MiddleName": "Владимирович",
+      "LastName": "Манишев",
+      "Time": 1,
+      "StartDate": "2016-09-24T00:00:00",
+      "BirthDate": "1993-02-07T00:00:00",
+      "Positions": [
+        {
+          "Position": "102",
+          "Department": "49"
+        }
+      ]
+    },
+    {
+      "Id": "1138",
+      "FirstName": "Сергей",
+      "MiddleName": "Семенович",
+      "LastName": "Юркевич",
+      "Time": 0.5,
+      "StartDate": "2009-10-13T00:00:00",
+      "BirthDate": "1955-11-22T00:00:00",
+      "Positions": [
+        {
+          "Position": "88",
+          "Department": "49"
+        }
+      ]
+    },
+    {
+      "Id": "1754",
+      "FirstName": "Евгений",
+      "MiddleName": "Сергеевич",
+      "LastName": "Кузнецов",
+      "Time": 1,
+      "StartDate": "2014-02-11T00:00:00",
+      "BirthDate": "1955-07-22T00:00:00",
+      "Positions": [
+        {
+          "Position": "7",
+          "Department": "49"
+        }
+      ]
+    },
+    {
+      "Id": "1836",
+      "FirstName": "Илья",
+      "MiddleName": "Владимирович",
+      "LastName": "Баранчин",
+      "Time": 1,
+      "StartDate": "2001-08-18T00:00:00",
+      "BirthDate": "1980-04-12T00:00:00",
+      "Positions": [
+        {
+          "Position": "88",
+          "Department": "49"
+        }
+      ]
+    },
+    {
+      "Id": "1908",
+      "FirstName": "Тамара",
+      "MiddleName": "Викторовна",
+      "LastName": "Комарова",
+      "Time": 0.5,
+      "StartDate": "2008-05-11T00:00:00",
+      "BirthDate": "1975-02-06T00:00:00",
+      "Positions": [
+        {
+          "Position": "25",
+          "Department": "49"
+        }
+      ]
+    },
+    {
+      "Id": "1941",
+      "FirstName": "Алексей",
+      "MiddleName": "Сергеевич",
+      "LastName": "Томашевский",
+      "Time": 1,
+      "StartDate": "1992-05-22T00:00:00",
+      "BirthDate": "1971-05-01T00:00:00",
+      "Positions": [
+        {
+          "Position": "10",
+          "Department": "49"
+        }
+      ]
+    },
+    {
+      "Id": "1957",
+      "FirstName": "Альбина",
+      "MiddleName": "Анасовна",
+      "LastName": "Новикова",
+      "Time": 2,
+      "StartDate": "1999-10-11T00:00:00",
+      "BirthDate": "1971-02-23T00:00:00",
+      "Positions": [
+        {
+          "Position": "18",
+          "Department": "66"
+        },
+        {
+          "Position": "53",
+          "Department": "49"
+        }
+      ]
+    },
+    {
+      "Id": "2632",
+      "FirstName": "Владимир",
+      "MiddleName": "Олегович",
+      "LastName": "Манишев",
+      "Time": 0.5,
+      "StartDate": "2011-07-04T00:00:00",
+      "BirthDate": "1987-11-03T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "49"
+        }
+      ]
+    },
+    {
+      "Id": "2925",
+      "FirstName": "Анатолий",
+      "MiddleName": "Васильевич",
+      "LastName": "Карташов",
+      "Time": 0.5,
+      "StartDate": "2011-10-10T00:00:00",
+      "BirthDate": "1979-06-24T00:00:00",
+      "Positions": [
+        {
+          "Position": "88",
+          "Department": "49"
+        }
+      ]
+    },
+    {
+      "Id": "2954",
+      "FirstName": "Анатолий",
+      "MiddleName": "Николаевич",
+      "LastName": "Чалкин",
+      "Time": 0.5,
+      "StartDate": "1995-06-15T00:00:00",
+      "BirthDate": "1971-09-14T00:00:00",
+      "Positions": [
+        {
+          "Position": "7",
+          "Department": "49"
+        }
+      ]
+    }
+  ]
+}

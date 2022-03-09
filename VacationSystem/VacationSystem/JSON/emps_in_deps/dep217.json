@@ -1,0 +1,49 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "1534",
+      "FirstName": "Артем",
+      "MiddleName": "Сергеевич",
+      "LastName": "Боев",
+      "Time": 1.5,
+      "StartDate": "2016-12-10T00:00:00",
+      "BirthDate": "1952-04-16T00:00:00",
+      "Positions": [
+        {
+          "Position": "186",
+          "Department": "217"
+        }
+      ]
+    },
+    {
+      "Id": "3328",
+      "FirstName": "Ирина",
+      "MiddleName": "Вадимовна",
+      "LastName": "Воробей",
+      "Time": 0.5,
+      "StartDate": "2014-01-04T00:00:00",
+      "BirthDate": "1978-09-03T00:00:00",
+      "Positions": [
+        {
+          "Position": "11",
+          "Department": "217"
+        }
+      ]
+    },
+    {
+      "Id": "3748",
+      "FirstName": "Антон",
+      "MiddleName": "Александрович",
+      "LastName": "Пожарницкий",
+      "Time": 1,
+      "StartDate": "2010-07-24T00:00:00",
+      "BirthDate": "1977-02-11T00:00:00",
+      "Positions": [
+        {
+          "Position": "11",
+          "Department": "217"
+        }
+      ]
+    }
+  ]
+}

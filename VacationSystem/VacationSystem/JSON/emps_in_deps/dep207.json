@@ -1,0 +1,109 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "1325",
+      "FirstName": "Ксения",
+      "MiddleName": "Валериевна",
+      "LastName": "Политова",
+      "Time": 1,
+      "StartDate": "2012-08-20T00:00:00",
+      "BirthDate": "1990-02-15T00:00:00",
+      "Positions": [
+        {
+          "Position": "157",
+          "Department": "207"
+        }
+      ]
+    },
+    {
+      "Id": "1650",
+      "FirstName": "Анна",
+      "MiddleName": "Сергеевна",
+      "LastName": "Карлюкова",
+      "Time": 0.5,
+      "StartDate": "1997-04-05T00:00:00",
+      "BirthDate": "1970-08-15T00:00:00",
+      "Positions": [
+        {
+          "Position": "157",
+          "Department": "207"
+        }
+      ]
+    },
+    {
+      "Id": "2782",
+      "FirstName": "Анастасия",
+      "MiddleName": "Дмитриевна",
+      "LastName": "Епифанова",
+      "Time": 0.5,
+      "StartDate": "2019-11-12T00:00:00",
+      "BirthDate": "1976-01-03T00:00:00",
+      "Positions": [
+        {
+          "Position": "157",
+          "Department": "207"
+        }
+      ]
+    },
+    {
+      "Id": "3170",
+      "FirstName": "Инна",
+      "MiddleName": "Владимировна",
+      "LastName": "Коробицына",
+      "Time": 1,
+      "StartDate": "2008-12-16T00:00:00",
+      "BirthDate": "1983-08-19T00:00:00",
+      "Positions": [
+        {
+          "Position": "10",
+          "Department": "207"
+        }
+      ]
+    },
+    {
+      "Id": "3503",
+      "FirstName": "Виктория",
+      "MiddleName": "Олеговна",
+      "LastName": "Кондратенко",
+      "Time": 1,
+      "StartDate": "2008-11-24T00:00:00",
+      "BirthDate": "1984-07-19T00:00:00",
+      "Positions": [
+        {
+          "Position": "157",
+          "Department": "207"
+        }
+      ]
+    },
+    {
+      "Id": "3784",
+      "FirstName": "Екатерина",
+      "MiddleName": "Павловна",
+      "LastName": "Изотова",
+      "Time": 1,
+      "StartDate": "2011-09-01T00:00:00",
+      "BirthDate": "1982-05-18T00:00:00",
+      "Positions": [
+        {
+          "Position": "157",
+          "Department": "207"
+        }
+      ]
+    },
+    {
+      "Id": "3786",
+      "FirstName": "Мария",
+      "MiddleName": "Александровна",
+      "LastName": "Тайлашева",
+      "Time": 1,
+      "StartDate": "2018-08-03T00:00:00",
+      "BirthDate": "1982-09-18T00:00:00",
+      "Positions": [
+        {
+          "Position": "157",
+          "Department": "207"
+        }
+      ]
+    }
+  ]
+}

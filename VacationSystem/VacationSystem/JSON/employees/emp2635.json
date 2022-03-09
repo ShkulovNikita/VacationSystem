@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2635",
-	"FirstName": "Сергей",
-	"MiddleName": "Михайлович",
-	"LastName": "Черявко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "85",
-			"HeadOfDepartment": false,
-			"Position": "47"
-		}
-	]
+  "Id": "2635",
+  "FirstName": "Сергей",
+  "MiddleName": "Михайлович",
+  "LastName": "Черявко",
+  "Time": 1,
+  "StartDate": "1995-01-08T00:00:00",
+  "BirthDate": "1961-07-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "47",
+      "Department": "85"
+    }
+  ]
 }

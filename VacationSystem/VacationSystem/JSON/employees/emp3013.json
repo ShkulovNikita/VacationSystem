@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3013",
-	"FirstName": "Ольга",
-	"MiddleName": "Олеговна",
-	"LastName": "Пехтелева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "152",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "3013",
+  "FirstName": "Ольга",
+  "MiddleName": "Олеговна",
+  "LastName": "Пехтелева",
+  "Time": 1,
+  "StartDate": "1983-11-12T00:00:00",
+  "BirthDate": "1963-09-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "152"
+    }
+  ]
 }

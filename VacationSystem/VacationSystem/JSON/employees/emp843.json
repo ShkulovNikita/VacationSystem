@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "843",
-	"FirstName": "Ирина",
-	"MiddleName": "Юрьевна",
-	"LastName": "Герасимчук",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "35"
-		}
-	]
+  "Id": "843",
+  "FirstName": "Ирина",
+  "MiddleName": "Юрьевна",
+  "LastName": "Герасимчук",
+  "Time": 0.5,
+  "StartDate": "2020-07-23T00:00:00",
+  "BirthDate": "1969-03-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "35",
+      "Department": "2"
+    }
+  ]
 }

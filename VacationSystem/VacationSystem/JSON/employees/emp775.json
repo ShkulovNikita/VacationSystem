@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "775",
-	"FirstName": "Людмила",
-	"MiddleName": "Ивановна",
-	"LastName": "Кравцова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "173",
-			"HeadOfDepartment": false,
-			"Position": "16"
-		}
-	]
+  "Id": "775",
+  "FirstName": "Людмила",
+  "MiddleName": "Ивановна",
+  "LastName": "Кравцова",
+  "Time": 0.5,
+  "StartDate": "2005-01-21T00:00:00",
+  "BirthDate": "1984-02-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "16",
+      "Department": "173"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2607",
-	"FirstName": "Полина",
-	"MiddleName": "Александровна",
-	"LastName": "Шлехт",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "47",
-			"HeadOfDepartment": false,
-			"Position": "30"
-		}
-	]
+  "Id": "2607",
+  "FirstName": "Полина",
+  "MiddleName": "Александровна",
+  "LastName": "Шлехт",
+  "Time": 1,
+  "StartDate": "1989-03-13T00:00:00",
+  "BirthDate": "1960-05-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "30",
+      "Department": "47"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3124",
-	"FirstName": "Владимир",
-	"MiddleName": "Евгеньевич",
-	"LastName": "Рудник",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "249",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		}
-	]
+  "Id": "3124",
+  "FirstName": "Владимир",
+  "MiddleName": "Евгеньевич",
+  "LastName": "Рудник",
+  "Time": 1,
+  "StartDate": "2005-03-14T00:00:00",
+  "BirthDate": "1978-05-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "249"
+    }
+  ]
 }

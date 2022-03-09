@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "628",
-	"FirstName": "Людмила",
-	"MiddleName": "Ивановна",
-	"LastName": "Шпигарь",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "46",
-			"HeadOfDepartment": false,
-			"Position": "103"
-		}
-	]
+  "Id": "628",
+  "FirstName": "Людмила",
+  "MiddleName": "Ивановна",
+  "LastName": "Шпигарь",
+  "Time": 0.5,
+  "StartDate": "2008-08-11T00:00:00",
+  "BirthDate": "1969-10-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "103",
+      "Department": "46"
+    }
+  ]
 }

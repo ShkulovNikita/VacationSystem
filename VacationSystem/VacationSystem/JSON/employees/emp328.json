@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "328",
-	"FirstName": "Анна",
-	"MiddleName": "Александровна",
-	"LastName": "Сыскина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "0",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "328",
+  "FirstName": "Анна",
+  "MiddleName": "Александровна",
+  "LastName": "Сыскина",
+  "Time": 0.5,
+  "StartDate": "2018-01-18T00:00:00",
+  "BirthDate": "1985-06-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "0"
+    }
+  ]
 }

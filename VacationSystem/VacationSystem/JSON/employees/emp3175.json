@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3175",
-	"FirstName": "Зденек",
-	"MiddleName": "",
-	"LastName": "Белоглав",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "36",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "3175",
+  "FirstName": "Зденек",
+  "MiddleName": "",
+  "LastName": "Белоглав",
+  "Time": 0.5,
+  "StartDate": "2019-11-14T00:00:00",
+  "BirthDate": "1984-05-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "36"
+    }
+  ]
 }

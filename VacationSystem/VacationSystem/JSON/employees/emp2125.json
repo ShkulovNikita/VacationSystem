@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2125",
-	"FirstName": "Виктор",
-	"MiddleName": "Олегович",
-	"LastName": "Панковец",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "103",
-			"HeadOfDepartment": false,
-			"Position": "25"
-		}
-	]
+  "Id": "2125",
+  "FirstName": "Виктор",
+  "MiddleName": "Олегович",
+  "LastName": "Панковец",
+  "Time": 0.5,
+  "StartDate": "2021-03-09T00:00:00",
+  "BirthDate": "1985-11-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "25",
+      "Department": "103"
+    }
+  ]
 }

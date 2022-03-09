@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "442",
-	"FirstName": "Светлана",
-	"MiddleName": "Федоровна",
-	"LastName": "Гаврикова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "8",
-			"HeadOfDepartment": false,
-			"Position": "70"
-		}
-	]
+  "Id": "442",
+  "FirstName": "Светлана",
+  "MiddleName": "Федоровна",
+  "LastName": "Гаврикова",
+  "Time": 1,
+  "StartDate": "2003-07-21T00:00:00",
+  "BirthDate": "1974-01-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "70",
+      "Department": "8"
+    }
+  ]
 }

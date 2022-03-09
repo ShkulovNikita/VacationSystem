@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2366",
-	"FirstName": "Алексей",
-	"MiddleName": "Никандрович",
-	"LastName": "Голиков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "8",
-			"HeadOfDepartment": false,
-			"Position": "2"
-		}
-	]
+  "Id": "2366",
+  "FirstName": "Алексей",
+  "MiddleName": "Никандрович",
+  "LastName": "Голиков",
+  "Time": 1,
+  "StartDate": "2019-08-11T00:00:00",
+  "BirthDate": "1968-04-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "2",
+      "Department": "8"
+    }
+  ]
 }

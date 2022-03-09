@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1044",
-	"FirstName": "Анастасия",
-	"MiddleName": "Михайловна",
-	"LastName": "Шевцова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "13",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "1044",
+  "FirstName": "Анастасия",
+  "MiddleName": "Михайловна",
+  "LastName": "Шевцова",
+  "Time": 0.5,
+  "StartDate": "2002-11-06T00:00:00",
+  "BirthDate": "1967-03-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "13"
+    }
+  ]
 }

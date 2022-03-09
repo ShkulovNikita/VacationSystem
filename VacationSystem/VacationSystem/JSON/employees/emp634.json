@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "634",
-	"FirstName": "Михаил",
-	"MiddleName": "Григорьевич",
-	"LastName": "Минин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "71",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "634",
+  "FirstName": "Михаил",
+  "MiddleName": "Григорьевич",
+  "LastName": "Минин",
+  "Time": 1,
+  "StartDate": "2020-08-06T00:00:00",
+  "BirthDate": "1992-11-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "71"
+    }
+  ]
 }

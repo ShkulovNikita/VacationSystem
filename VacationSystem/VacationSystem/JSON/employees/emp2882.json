@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2882",
-	"FirstName": "Сергей",
-	"MiddleName": "Михайлович",
-	"LastName": "Зверев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "59",
-			"HeadOfDepartment": false,
-			"Position": "37"
-		}
-	]
+  "Id": "2882",
+  "FirstName": "Сергей",
+  "MiddleName": "Михайлович",
+  "LastName": "Зверев",
+  "Time": 1,
+  "StartDate": "1977-10-09T00:00:00",
+  "BirthDate": "1954-03-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "37",
+      "Department": "59"
+    }
+  ]
 }

@@ -1,0 +1,94 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "737",
+      "FirstName": "Максим",
+      "MiddleName": "Евгеньевич",
+      "LastName": "Силаев",
+      "Time": 1.5,
+      "StartDate": "2017-04-03T00:00:00",
+      "BirthDate": "1983-04-17T00:00:00",
+      "Positions": [
+        {
+          "Position": "126",
+          "Department": "170"
+        }
+      ]
+    },
+    {
+      "Id": "1531",
+      "FirstName": "Олег",
+      "MiddleName": "Олегович",
+      "LastName": "Золотов",
+      "Time": 1,
+      "StartDate": "2009-10-11T00:00:00",
+      "BirthDate": "1989-12-17T00:00:00",
+      "Positions": [
+        {
+          "Position": "185",
+          "Department": "170"
+        }
+      ]
+    },
+    {
+      "Id": "1714",
+      "FirstName": "Роберт",
+      "MiddleName": "Игоревич",
+      "LastName": "Лейсле",
+      "Time": 1,
+      "StartDate": "2019-07-22T00:00:00",
+      "BirthDate": "1991-03-18T00:00:00",
+      "Positions": [
+        {
+          "Position": "185",
+          "Department": "170"
+        }
+      ]
+    },
+    {
+      "Id": "2415",
+      "FirstName": "Наталья",
+      "MiddleName": "Евгеньевна",
+      "LastName": "Баирова",
+      "Time": 1,
+      "StartDate": "2006-08-09T00:00:00",
+      "BirthDate": "1963-06-09T00:00:00",
+      "Positions": [
+        {
+          "Position": "185",
+          "Department": "170"
+        }
+      ]
+    },
+    {
+      "Id": "2433",
+      "FirstName": "Ольга",
+      "MiddleName": "Михайловна",
+      "LastName": "Худолеева",
+      "Time": 0.5,
+      "StartDate": "1980-04-15T00:00:00",
+      "BirthDate": "1952-10-10T00:00:00",
+      "Positions": [
+        {
+          "Position": "180",
+          "Department": "170"
+        }
+      ]
+    },
+    {
+      "Id": "3074",
+      "FirstName": "Сергей",
+      "MiddleName": "Андреевич",
+      "LastName": "Пластун",
+      "Time": 1,
+      "StartDate": "2012-02-23T00:00:00",
+      "BirthDate": "1969-05-01T00:00:00",
+      "Positions": [
+        {
+          "Position": "185",
+          "Department": "170"
+        }
+      ]
+    }
+  ]
+}

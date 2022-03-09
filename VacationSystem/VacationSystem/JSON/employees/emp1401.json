@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1401",
-	"FirstName": "Оксана",
-	"MiddleName": "Викторовна",
-	"LastName": "Сурова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "47",
-			"HeadOfDepartment": false,
-			"Position": "9"
-		}
-	]
+  "Id": "1401",
+  "FirstName": "Оксана",
+  "MiddleName": "Викторовна",
+  "LastName": "Сурова",
+  "Time": 0.5,
+  "StartDate": "2014-01-19T00:00:00",
+  "BirthDate": "1960-10-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "9",
+      "Department": "47"
+    }
+  ]
 }

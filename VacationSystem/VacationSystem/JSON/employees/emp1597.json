@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1597",
-	"FirstName": "Венера",
-	"MiddleName": "Алмазовна",
-	"LastName": "Сулайманова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "19",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		}
-	]
+  "Id": "1597",
+  "FirstName": "Венера",
+  "MiddleName": "Алмазовна",
+  "LastName": "Сулайманова",
+  "Time": 0.5,
+  "StartDate": "2008-06-13T00:00:00",
+  "BirthDate": "1978-06-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "19"
+    }
+  ]
 }

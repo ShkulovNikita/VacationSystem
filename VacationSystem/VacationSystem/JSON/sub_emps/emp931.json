@@ -1,0 +1,139 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "572",
+      "FirstName": "Светлана",
+      "MiddleName": "Николаевна",
+      "LastName": "Аникина",
+      "Time": 0.5,
+      "StartDate": "2007-10-22T00:00:00",
+      "BirthDate": "1976-11-23T00:00:00",
+      "Positions": [
+        {
+          "Position": "111",
+          "Department": "154"
+        }
+      ]
+    },
+    {
+      "Id": "931",
+      "FirstName": "Елена",
+      "MiddleName": "Борисовна",
+      "LastName": "Резник",
+      "Time": 0.5,
+      "StartDate": "2011-02-14T00:00:00",
+      "BirthDate": "1958-12-13T00:00:00",
+      "Positions": [
+        {
+          "Position": "111",
+          "Department": "154"
+        }
+      ]
+    },
+    {
+      "Id": "1069",
+      "FirstName": "Александр",
+      "MiddleName": "Алексеевич",
+      "LastName": "Лупу",
+      "Time": 0.5,
+      "StartDate": "2016-06-12T00:00:00",
+      "BirthDate": "1978-11-08T00:00:00",
+      "Positions": [
+        {
+          "Position": "149",
+          "Department": "154"
+        }
+      ]
+    },
+    {
+      "Id": "1730",
+      "FirstName": "Екатерина",
+      "MiddleName": "Анатольевна",
+      "LastName": "Тунгусова",
+      "Time": 1,
+      "StartDate": "2018-04-15T00:00:00",
+      "BirthDate": "1983-01-20T00:00:00",
+      "Positions": [
+        {
+          "Position": "10",
+          "Department": "154"
+        }
+      ]
+    },
+    {
+      "Id": "2451",
+      "FirstName": "Ирина",
+      "MiddleName": "Николаевна",
+      "LastName": "Большанина",
+      "Time": 0.5,
+      "StartDate": "2009-03-20T00:00:00",
+      "BirthDate": "1981-03-21T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "154"
+        }
+      ]
+    },
+    {
+      "Id": "2459",
+      "FirstName": "Ольга",
+      "MiddleName": "Викторовна",
+      "LastName": "Рогач",
+      "Time": 0.5,
+      "StartDate": "1996-10-03T00:00:00",
+      "BirthDate": "1957-02-17T00:00:00",
+      "Positions": [
+        {
+          "Position": "144",
+          "Department": "154"
+        }
+      ]
+    },
+    {
+      "Id": "2738",
+      "FirstName": "Александр",
+      "MiddleName": "Евгеньевич",
+      "LastName": "Высоких",
+      "Time": 0.5,
+      "StartDate": "2017-03-03T00:00:00",
+      "BirthDate": "1984-11-10T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "154"
+        }
+      ]
+    },
+    {
+      "Id": "2952",
+      "FirstName": "Эдуард",
+      "MiddleName": "Иванович",
+      "LastName": "Гиль",
+      "Time": 1,
+      "StartDate": "2011-09-19T00:00:00",
+      "BirthDate": "1958-07-11T00:00:00",
+      "Positions": [
+        {
+          "Position": "253",
+          "Department": "154"
+        }
+      ]
+    },
+    {
+      "Id": "3629",
+      "FirstName": "Юлия",
+      "MiddleName": "Викторовна",
+      "LastName": "Хромова",
+      "Time": 0.5,
+      "StartDate": "2013-11-19T00:00:00",
+      "BirthDate": "1988-11-10T00:00:00",
+      "Positions": [
+        {
+          "Position": "287",
+          "Department": "154"
+        }
+      ]
+    }
+  ]
+}

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1367",
-	"FirstName": "Владислав",
-	"MiddleName": "Леонидович",
-	"LastName": "Бибик",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "9",
-			"HeadOfDepartment": false,
-			"Position": "58"
-		}
-	]
+  "Id": "1367",
+  "FirstName": "Владислав",
+  "MiddleName": "Леонидович",
+  "LastName": "Бибик",
+  "Time": 0.5,
+  "StartDate": "1998-11-12T00:00:00",
+  "BirthDate": "1969-11-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "58",
+      "Department": "9"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "603",
-	"FirstName": "Валерий",
-	"MiddleName": "Васильевич",
-	"LastName": "Астраханцев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "59",
-			"HeadOfDepartment": false,
-			"Position": "114"
-		}
-	]
+  "Id": "603",
+  "FirstName": "Валерий",
+  "MiddleName": "Васильевич",
+  "LastName": "Астраханцев",
+  "Time": 1,
+  "StartDate": "2015-11-23T00:00:00",
+  "BirthDate": "1982-04-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "114",
+      "Department": "59"
+    }
+  ]
 }

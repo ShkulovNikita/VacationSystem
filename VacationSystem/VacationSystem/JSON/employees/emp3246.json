@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3246",
-	"FirstName": "Лариса",
-	"MiddleName": "Станиславовна",
-	"LastName": "Устюгова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "159",
-			"HeadOfDepartment": false,
-			"Position": "14"
-		}
-	]
+  "Id": "3246",
+  "FirstName": "Лариса",
+  "MiddleName": "Станиславовна",
+  "LastName": "Устюгова",
+  "Time": 0.5,
+  "StartDate": "1997-04-10T00:00:00",
+  "BirthDate": "1964-02-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "14",
+      "Department": "159"
+    }
+  ]
 }

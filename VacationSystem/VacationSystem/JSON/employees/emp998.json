@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "998",
-	"FirstName": "Константин",
-	"MiddleName": "Станиславович",
-	"LastName": "Бразовский",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "51",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "998",
+  "FirstName": "Константин",
+  "MiddleName": "Станиславович",
+  "LastName": "Бразовский",
+  "Time": 0.5,
+  "StartDate": "2015-02-04T00:00:00",
+  "BirthDate": "1989-08-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "51"
+    }
+  ]
 }

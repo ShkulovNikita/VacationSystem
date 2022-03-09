@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2250",
-	"FirstName": "Наталия",
-	"MiddleName": "Владимировна",
-	"LastName": "Данилейко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "237",
-			"HeadOfDepartment": false,
-			"Position": "10"
-		}
-	]
+  "Id": "2250",
+  "FirstName": "Наталия",
+  "MiddleName": "Владимировна",
+  "LastName": "Данилейко",
+  "Time": 1,
+  "StartDate": "1989-06-16T00:00:00",
+  "BirthDate": "1952-08-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "10",
+      "Department": "237"
+    }
+  ]
 }

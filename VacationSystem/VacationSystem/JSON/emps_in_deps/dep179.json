@@ -1,0 +1,64 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "879",
+      "FirstName": "Елена",
+      "MiddleName": "Дмитриевна",
+      "LastName": "Канащенко",
+      "Time": 0.5,
+      "StartDate": "2006-10-12T00:00:00",
+      "BirthDate": "1965-09-02T00:00:00",
+      "Positions": [
+        {
+          "Position": "6",
+          "Department": "179"
+        }
+      ]
+    },
+    {
+      "Id": "989",
+      "FirstName": "Надежда",
+      "MiddleName": "Владимировна",
+      "LastName": "Худинова",
+      "Time": 1,
+      "StartDate": "2019-06-21T00:00:00",
+      "BirthDate": "1957-01-05T00:00:00",
+      "Positions": [
+        {
+          "Position": "10",
+          "Department": "179"
+        }
+      ]
+    },
+    {
+      "Id": "2902",
+      "FirstName": "Ольга",
+      "MiddleName": "Алексеевна",
+      "LastName": "Филиппова",
+      "Time": 1,
+      "StartDate": "2009-10-19T00:00:00",
+      "BirthDate": "1985-06-20T00:00:00",
+      "Positions": [
+        {
+          "Position": "6",
+          "Department": "179"
+        }
+      ]
+    },
+    {
+      "Id": "3495",
+      "FirstName": "Мария",
+      "MiddleName": "Борисовна",
+      "LastName": "Куранова",
+      "Time": 0.5,
+      "StartDate": "2005-06-05T00:00:00",
+      "BirthDate": "1972-02-18T00:00:00",
+      "Positions": [
+        {
+          "Position": "6",
+          "Department": "179"
+        }
+      ]
+    }
+  ]
+}

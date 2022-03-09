@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2826",
-	"FirstName": "Марина",
-	"MiddleName": "Александровна",
-	"LastName": "Герасимова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "128",
-			"HeadOfDepartment": false,
-			"Position": "250"
-		}
-	]
+  "Id": "2826",
+  "FirstName": "Марина",
+  "MiddleName": "Александровна",
+  "LastName": "Герасимова",
+  "Time": 1,
+  "StartDate": "1993-11-17T00:00:00",
+  "BirthDate": "1966-01-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "250",
+      "Department": "128"
+    }
+  ]
 }

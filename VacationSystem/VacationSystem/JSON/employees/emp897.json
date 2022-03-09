@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "897",
-	"FirstName": "Дина",
-	"MiddleName": "Анатольевна",
-	"LastName": "Терре",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "0",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "897",
+  "FirstName": "Дина",
+  "MiddleName": "Анатольевна",
+  "LastName": "Терре",
+  "Time": 1,
+  "StartDate": "1995-07-15T00:00:00",
+  "BirthDate": "1956-03-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "0"
+    }
+  ]
 }

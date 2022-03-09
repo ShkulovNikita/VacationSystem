@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "650",
-	"FirstName": "Яувхарат",
-	"MiddleName": "Габдрахимовна",
-	"LastName": "Леонова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "56",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "650",
+  "FirstName": "Яувхарат",
+  "MiddleName": "Габдрахимовна",
+  "LastName": "Леонова",
+  "Time": 1,
+  "StartDate": "1982-09-23T00:00:00",
+  "BirthDate": "1954-05-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "56"
+    }
+  ]
 }

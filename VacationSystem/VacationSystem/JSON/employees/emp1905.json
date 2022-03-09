@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1905",
-	"FirstName": "Мария",
-	"MiddleName": "Петровна",
-	"LastName": "Иванова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "46",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		}
-	]
+  "Id": "1905",
+  "FirstName": "Мария",
+  "MiddleName": "Петровна",
+  "LastName": "Иванова",
+  "Time": 1,
+  "StartDate": "1985-05-16T00:00:00",
+  "BirthDate": "1960-06-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "46"
+    }
+  ]
 }

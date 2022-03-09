@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3353",
-	"FirstName": "Самал",
-	"MiddleName": "",
-	"LastName": "Дурбаева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "102",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "3353",
+  "FirstName": "Самал",
+  "MiddleName": "",
+  "LastName": "Дурбаева",
+  "Time": 1,
+  "StartDate": "1992-08-19T00:00:00",
+  "BirthDate": "1967-10-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "102"
+    }
+  ]
 }

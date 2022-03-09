@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2758",
-	"FirstName": "Марина",
-	"MiddleName": "Викторовна",
-	"LastName": "Барон",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "96",
-			"HeadOfDepartment": false,
-			"Position": "86"
-		}
-	]
+  "Id": "2758",
+  "FirstName": "Марина",
+  "MiddleName": "Викторовна",
+  "LastName": "Барон",
+  "Time": 0.5,
+  "StartDate": "2013-11-16T00:00:00",
+  "BirthDate": "1982-06-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "86",
+      "Department": "96"
+    }
+  ]
 }

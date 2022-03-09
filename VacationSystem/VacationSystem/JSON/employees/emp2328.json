@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2328",
-	"FirstName": "Тимофей",
-	"MiddleName": "Васильевич",
-	"LastName": "Тимкин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "1",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "2328",
+  "FirstName": "Тимофей",
+  "MiddleName": "Васильевич",
+  "LastName": "Тимкин",
+  "Time": 0.5,
+  "StartDate": "2021-12-06T00:00:00",
+  "BirthDate": "1976-06-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "1"
+    }
+  ]
 }

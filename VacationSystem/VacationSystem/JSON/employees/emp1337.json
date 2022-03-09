@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1337",
-	"FirstName": "Елена",
-	"MiddleName": "Владимировна",
-	"LastName": "Курганова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "46",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "1337",
+  "FirstName": "Елена",
+  "MiddleName": "Владимировна",
+  "LastName": "Курганова",
+  "Time": 1,
+  "StartDate": "2014-01-22T00:00:00",
+  "BirthDate": "1966-10-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "46"
+    }
+  ]
 }

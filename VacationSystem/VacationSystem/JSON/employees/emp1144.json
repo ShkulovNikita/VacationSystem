@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "1144",
-	"FirstName": "Юсуп",
-	"MiddleName": "Ниязбекович",
-	"LastName": "Исаев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "19",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		},
-		{
-			"Id": "6",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "1144",
+  "FirstName": "Юсуп",
+  "MiddleName": "Ниязбекович",
+  "LastName": "Исаев",
+  "Time": 1.5,
+  "StartDate": "2010-02-03T00:00:00",
+  "BirthDate": "1978-05-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "19"
+    },
+    {
+      "Position": "13",
+      "Department": "6"
+    }
+  ]
 }

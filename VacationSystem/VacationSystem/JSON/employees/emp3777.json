@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3777",
-	"FirstName": "Андрей",
-	"MiddleName": "Иванович",
-	"LastName": "Шацкий",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "51",
-			"HeadOfDepartment": false,
-			"Position": "24"
-		}
-	]
+  "Id": "3777",
+  "FirstName": "Андрей",
+  "MiddleName": "Иванович",
+  "LastName": "Шацкий",
+  "Time": 0.5,
+  "StartDate": "2015-05-05T00:00:00",
+  "BirthDate": "1983-01-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "24",
+      "Department": "51"
+    }
+  ]
 }

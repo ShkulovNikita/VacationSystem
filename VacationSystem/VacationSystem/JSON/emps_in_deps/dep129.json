@@ -1,0 +1,49 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "374",
+      "FirstName": "Анна",
+      "MiddleName": "Валерьевна",
+      "LastName": "Барская",
+      "Time": 0.5,
+      "StartDate": "2008-12-01T00:00:00",
+      "BirthDate": "1985-08-11T00:00:00",
+      "Positions": [
+        {
+          "Position": "92",
+          "Department": "129"
+        }
+      ]
+    },
+    {
+      "Id": "1096",
+      "FirstName": "Елена",
+      "MiddleName": "Васильевна",
+      "LastName": "Лотова",
+      "Time": 0.5,
+      "StartDate": "2002-09-23T00:00:00",
+      "BirthDate": "1970-02-12T00:00:00",
+      "Positions": [
+        {
+          "Position": "18",
+          "Department": "129"
+        }
+      ]
+    },
+    {
+      "Id": "2490",
+      "FirstName": "Анна",
+      "MiddleName": "Юрьевна",
+      "LastName": "Захарова",
+      "Time": 0.5,
+      "StartDate": "2014-03-19T00:00:00",
+      "BirthDate": "1986-12-09T00:00:00",
+      "Positions": [
+        {
+          "Position": "0",
+          "Department": "129"
+        }
+      ]
+    }
+  ]
+}

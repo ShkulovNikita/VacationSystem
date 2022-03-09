@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "992",
-	"FirstName": "Валерий",
-	"MiddleName": "Львович",
-	"LastName": "Ким",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "26",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "992",
+  "FirstName": "Валерий",
+  "MiddleName": "Львович",
+  "LastName": "Ким",
+  "Time": 1,
+  "StartDate": "2006-08-17T00:00:00",
+  "BirthDate": "1970-02-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "26"
+    }
+  ]
 }

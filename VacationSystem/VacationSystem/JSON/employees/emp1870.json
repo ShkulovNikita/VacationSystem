@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1870",
-	"FirstName": "Виктория",
-	"MiddleName": "Александровна",
-	"LastName": "Зуева-Краснослободцева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "138",
-			"HeadOfDepartment": false,
-			"Position": "53"
-		}
-	]
+  "Id": "1870",
+  "FirstName": "Виктория",
+  "MiddleName": "Александровна",
+  "LastName": "Зуева-Краснослободцева",
+  "Time": 1,
+  "StartDate": "2011-10-05T00:00:00",
+  "BirthDate": "1971-07-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "53",
+      "Department": "138"
+    }
+  ]
 }

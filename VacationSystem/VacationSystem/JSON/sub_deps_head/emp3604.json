@@ -1,0 +1,10 @@
+﻿{
+  "Departments": [
+    {
+      "Id": "34",
+      "Name": "Детский сад №108",
+      "Head": "3604",
+      "HeadDepartment": "265"
+    }
+  ]
+}

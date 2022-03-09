@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2900",
-	"FirstName": "Екатерина",
-	"MiddleName": "Леонидовна",
-	"LastName": "Тен",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "20",
-			"HeadOfDepartment": false,
-			"Position": "40"
-		}
-	]
+  "Id": "2900",
+  "FirstName": "Екатерина",
+  "MiddleName": "Леонидовна",
+  "LastName": "Тен",
+  "Time": 0.5,
+  "StartDate": "1996-03-11T00:00:00",
+  "BirthDate": "1954-07-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "40",
+      "Department": "20"
+    }
+  ]
 }

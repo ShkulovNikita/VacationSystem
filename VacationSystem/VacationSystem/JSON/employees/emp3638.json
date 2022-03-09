@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3638",
-	"FirstName": "Мохаммад Фуркан",
-	"MiddleName": "",
-	"LastName": "Али",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "254",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		}
-	]
+  "Id": "3638",
+  "FirstName": "Мохаммад Фуркан",
+  "MiddleName": "",
+  "LastName": "Али",
+  "Time": 1,
+  "StartDate": "2011-05-04T00:00:00",
+  "BirthDate": "1962-12-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "254"
+    }
+  ]
 }

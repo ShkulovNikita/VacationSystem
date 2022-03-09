@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3270",
-	"FirstName": "Вячеслав",
-	"MiddleName": "Игоревич",
-	"LastName": "Расторгуев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "37",
-			"HeadOfDepartment": false,
-			"Position": "25"
-		}
-	]
+  "Id": "3270",
+  "FirstName": "Вячеслав",
+  "MiddleName": "Игоревич",
+  "LastName": "Расторгуев",
+  "Time": 1,
+  "StartDate": "2012-06-10T00:00:00",
+  "BirthDate": "1970-11-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "25",
+      "Department": "37"
+    }
+  ]
 }

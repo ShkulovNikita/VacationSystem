@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3644",
-	"FirstName": "Виктория",
-	"MiddleName": "Алексеевна",
-	"LastName": "Инешина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "34",
-			"HeadOfDepartment": false,
-			"Position": "229"
-		}
-	]
+  "Id": "3644",
+  "FirstName": "Виктория",
+  "MiddleName": "Алексеевна",
+  "LastName": "Инешина",
+  "Time": 0.5,
+  "StartDate": "2011-05-22T00:00:00",
+  "BirthDate": "1986-11-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "229",
+      "Department": "34"
+    }
+  ]
 }

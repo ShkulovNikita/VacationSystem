@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2264",
-	"FirstName": "Татьяна",
-	"MiddleName": "Леонидовна",
-	"LastName": "Конюхова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "143",
-			"HeadOfDepartment": false,
-			"Position": "15"
-		}
-	]
+  "Id": "2264",
+  "FirstName": "Татьяна",
+  "MiddleName": "Леонидовна",
+  "LastName": "Конюхова",
+  "Time": 1,
+  "StartDate": "2020-01-23T00:00:00",
+  "BirthDate": "1974-11-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "15",
+      "Department": "143"
+    }
+  ]
 }

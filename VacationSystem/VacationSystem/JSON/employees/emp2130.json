@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2130",
-	"FirstName": "Марина",
-	"MiddleName": "Владимировна",
-	"LastName": "Гаевская",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "47",
-			"HeadOfDepartment": false,
-			"Position": "30"
-		}
-	]
+  "Id": "2130",
+  "FirstName": "Марина",
+  "MiddleName": "Владимировна",
+  "LastName": "Гаевская",
+  "Time": 0.5,
+  "StartDate": "2021-04-16T00:00:00",
+  "BirthDate": "1990-07-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "30",
+      "Department": "47"
+    }
+  ]
 }

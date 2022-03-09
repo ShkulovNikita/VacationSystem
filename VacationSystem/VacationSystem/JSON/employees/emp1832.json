@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "1832",
-	"FirstName": "Ирина",
-	"MiddleName": "Александровна",
-	"LastName": "Божко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "8"
-		},
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1832",
+  "FirstName": "Ирина",
+  "MiddleName": "Александровна",
+  "LastName": "Божко",
+  "Time": 1.5,
+  "StartDate": "2016-06-06T00:00:00",
+  "BirthDate": "1986-01-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "8",
+      "Department": "2"
+    },
+    {
+      "Position": "1",
+      "Department": "15"
+    }
+  ]
 }

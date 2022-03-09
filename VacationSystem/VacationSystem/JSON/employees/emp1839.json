@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1839",
-	"FirstName": "Илья",
-	"MiddleName": "Сергеевич",
-	"LastName": "Мусоров",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "8",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		}
-	]
+  "Id": "1839",
+  "FirstName": "Илья",
+  "MiddleName": "Сергеевич",
+  "LastName": "Мусоров",
+  "Time": 1,
+  "StartDate": "2001-07-07T00:00:00",
+  "BirthDate": "1977-08-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "8"
+    }
+  ]
 }

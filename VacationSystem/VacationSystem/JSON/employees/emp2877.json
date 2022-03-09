@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2877",
-	"FirstName": "Екатерина",
-	"MiddleName": "Олеговна",
-	"LastName": "Филиппова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "2877",
+  "FirstName": "Екатерина",
+  "MiddleName": "Олеговна",
+  "LastName": "Филиппова",
+  "Time": 1,
+  "StartDate": "2005-03-18T00:00:00",
+  "BirthDate": "1973-11-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "2"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2426",
-	"FirstName": "Владимир",
-	"MiddleName": "Александрович",
-	"LastName": "Баранов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "58",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "2426",
+  "FirstName": "Владимир",
+  "MiddleName": "Александрович",
+  "LastName": "Баранов",
+  "Time": 1,
+  "StartDate": "2013-08-10T00:00:00",
+  "BirthDate": "1956-01-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "58"
+    }
+  ]
 }

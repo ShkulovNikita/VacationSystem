@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2858",
-	"FirstName": "Александр",
-	"MiddleName": "Васильевич",
-	"LastName": "Тырышкин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "6",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "2858",
+  "FirstName": "Александр",
+  "MiddleName": "Васильевич",
+  "LastName": "Тырышкин",
+  "Time": 0.5,
+  "StartDate": "2012-02-05T00:00:00",
+  "BirthDate": "1991-01-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "6"
+    }
+  ]
 }

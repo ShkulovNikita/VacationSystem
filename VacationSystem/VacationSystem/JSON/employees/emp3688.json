@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3688",
-	"FirstName": "Роман",
-	"MiddleName": "Сергеевич",
-	"LastName": "Дерябин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "213",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "3688",
+  "FirstName": "Роман",
+  "MiddleName": "Сергеевич",
+  "LastName": "Дерябин",
+  "Time": 0.5,
+  "StartDate": "2005-11-21T00:00:00",
+  "BirthDate": "1964-10-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "213"
+    }
+  ]
 }

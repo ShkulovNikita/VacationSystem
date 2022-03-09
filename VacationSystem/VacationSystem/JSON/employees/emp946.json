@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "946",
-	"FirstName": "Александр",
-	"MiddleName": "Андреевич",
-	"LastName": "Дитц",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "4",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "946",
+  "FirstName": "Александр",
+  "MiddleName": "Андреевич",
+  "LastName": "Дитц",
+  "Time": 1,
+  "StartDate": "2020-12-20T00:00:00",
+  "BirthDate": "1981-05-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "4"
+    }
+  ]
 }

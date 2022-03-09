@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3223",
-	"FirstName": "Ольга",
-	"MiddleName": "Сергеевна",
-	"LastName": "Курулюк",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "29",
-			"HeadOfDepartment": false,
-			"Position": "7"
-		}
-	]
+  "Id": "3223",
+  "FirstName": "Ольга",
+  "MiddleName": "Сергеевна",
+  "LastName": "Курулюк",
+  "Time": 1,
+  "StartDate": "2012-03-01T00:00:00",
+  "BirthDate": "1984-03-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "7",
+      "Department": "29"
+    }
+  ]
 }

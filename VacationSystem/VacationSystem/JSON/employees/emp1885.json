@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1885",
-	"FirstName": "Аркадий",
-	"MiddleName": "Вячеславович",
-	"LastName": "Аникин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "96",
-			"HeadOfDepartment": false,
-			"Position": "156"
-		}
-	]
+  "Id": "1885",
+  "FirstName": "Аркадий",
+  "MiddleName": "Вячеславович",
+  "LastName": "Аникин",
+  "Time": 1,
+  "StartDate": "2019-05-08T00:00:00",
+  "BirthDate": "1980-03-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "156",
+      "Department": "96"
+    }
+  ]
 }

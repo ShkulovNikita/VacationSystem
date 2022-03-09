@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3469",
-	"FirstName": "Станислав",
-	"MiddleName": "",
-	"LastName": "Сизов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "101",
-			"HeadOfDepartment": false,
-			"Position": "25"
-		}
-	]
+  "Id": "3469",
+  "FirstName": "Станислав",
+  "MiddleName": "",
+  "LastName": "Сизов",
+  "Time": 0.5,
+  "StartDate": "2016-11-05T00:00:00",
+  "BirthDate": "1982-01-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "25",
+      "Department": "101"
+    }
+  ]
 }

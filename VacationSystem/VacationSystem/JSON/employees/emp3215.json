@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3215",
-	"FirstName": "Алла",
-	"MiddleName": "Петровна",
-	"LastName": "Филюкова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "143",
-			"HeadOfDepartment": false,
-			"Position": "15"
-		}
-	]
+  "Id": "3215",
+  "FirstName": "Алла",
+  "MiddleName": "Петровна",
+  "LastName": "Филюкова",
+  "Time": 1,
+  "StartDate": "2017-06-17T00:00:00",
+  "BirthDate": "1993-03-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "15",
+      "Department": "143"
+    }
+  ]
 }

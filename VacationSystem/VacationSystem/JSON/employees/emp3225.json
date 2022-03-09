@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3225",
-	"FirstName": "Александра",
-	"MiddleName": "Александровна",
-	"LastName": "Волкова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "127",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		}
-	]
+  "Id": "3225",
+  "FirstName": "Александра",
+  "MiddleName": "Александровна",
+  "LastName": "Волкова",
+  "Time": 0.5,
+  "StartDate": "1987-01-10T00:00:00",
+  "BirthDate": "1966-08-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "127"
+    }
+  ]
 }

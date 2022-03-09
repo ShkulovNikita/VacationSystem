@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3",
-	"FirstName": "Наталья",
-	"MiddleName": "Александровна",
-	"LastName": "Гончарова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "3",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "3",
+  "FirstName": "Наталья",
+  "MiddleName": "Александровна",
+  "LastName": "Гончарова",
+  "Time": 1,
+  "StartDate": "2020-12-16T00:00:00",
+  "BirthDate": "1958-11-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "3"
+    }
+  ]
 }

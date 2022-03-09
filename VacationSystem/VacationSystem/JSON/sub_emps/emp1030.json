@@ -1,0 +1,49 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "1030",
+      "FirstName": "Полина",
+      "MiddleName": "Алексеевна",
+      "LastName": "Кисенкова",
+      "Time": 0.5,
+      "StartDate": "2017-12-05T00:00:00",
+      "BirthDate": "1983-10-14T00:00:00",
+      "Positions": [
+        {
+          "Position": "131",
+          "Department": "190"
+        }
+      ]
+    },
+    {
+      "Id": "2383",
+      "FirstName": "Ирина",
+      "MiddleName": "Васильевна",
+      "LastName": "Чередниченко",
+      "Time": 0.5,
+      "StartDate": "2011-06-02T00:00:00",
+      "BirthDate": "1972-10-13T00:00:00",
+      "Positions": [
+        {
+          "Position": "14",
+          "Department": "190"
+        }
+      ]
+    },
+    {
+      "Id": "2756",
+      "FirstName": "Бахтияр",
+      "MiddleName": "Мухтарджанович",
+      "LastName": "Нарбаев",
+      "Time": 0.5,
+      "StartDate": "2020-01-07T00:00:00",
+      "BirthDate": "1969-04-21T00:00:00",
+      "Positions": [
+        {
+          "Position": "64",
+          "Department": "190"
+        }
+      ]
+    }
+  ]
+}

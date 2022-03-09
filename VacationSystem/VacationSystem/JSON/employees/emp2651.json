@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2651",
-	"FirstName": "Анастасия",
-	"MiddleName": "Юрьевна",
-	"LastName": "Никитина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "47",
-			"HeadOfDepartment": false,
-			"Position": "30"
-		}
-	]
+  "Id": "2651",
+  "FirstName": "Анастасия",
+  "MiddleName": "Юрьевна",
+  "LastName": "Никитина",
+  "Time": 0.5,
+  "StartDate": "2009-10-02T00:00:00",
+  "BirthDate": "1988-08-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "30",
+      "Department": "47"
+    }
+  ]
 }

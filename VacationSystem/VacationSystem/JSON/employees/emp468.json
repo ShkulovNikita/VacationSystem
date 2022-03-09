@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "468",
-	"FirstName": "Сергей",
-	"MiddleName": "Иннокентьевич",
-	"LastName": "Арышев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "17",
-			"HeadOfDepartment": false,
-			"Position": "2"
-		}
-	]
+  "Id": "468",
+  "FirstName": "Сергей",
+  "MiddleName": "Иннокентьевич",
+  "LastName": "Арышев",
+  "Time": 0.5,
+  "StartDate": "2020-09-16T00:00:00",
+  "BirthDate": "1976-04-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "2",
+      "Department": "17"
+    }
+  ]
 }

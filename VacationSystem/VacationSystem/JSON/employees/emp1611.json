@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1611",
-	"FirstName": "Александр",
-	"MiddleName": "Константинович",
-	"LastName": "Агафонов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "199",
-			"HeadOfDepartment": false,
-			"Position": "195"
-		}
-	]
+  "Id": "1611",
+  "FirstName": "Александр",
+  "MiddleName": "Константинович",
+  "LastName": "Агафонов",
+  "Time": 1,
+  "StartDate": "2011-09-05T00:00:00",
+  "BirthDate": "1960-05-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "195",
+      "Department": "199"
+    }
+  ]
 }

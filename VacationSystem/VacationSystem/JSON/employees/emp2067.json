@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2067",
-	"FirstName": "Зоя",
-	"MiddleName": "Васильевна",
-	"LastName": "Криницына",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "3",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "2067",
+  "FirstName": "Зоя",
+  "MiddleName": "Васильевна",
+  "LastName": "Криницына",
+  "Time": 0.5,
+  "StartDate": "2020-04-22T00:00:00",
+  "BirthDate": "1993-09-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "3"
+    }
+  ]
 }

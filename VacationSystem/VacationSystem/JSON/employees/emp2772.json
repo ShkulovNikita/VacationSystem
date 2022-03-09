@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2772",
-	"FirstName": "Александр",
-	"MiddleName": "Сергеевич",
-	"LastName": "Вашкелевичус",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "50",
-			"HeadOfDepartment": false,
-			"Position": "88"
-		}
-	]
+  "Id": "2772",
+  "FirstName": "Александр",
+  "MiddleName": "Сергеевич",
+  "LastName": "Вашкелевичус",
+  "Time": 1,
+  "StartDate": "2017-12-10T00:00:00",
+  "BirthDate": "1982-09-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "88",
+      "Department": "50"
+    }
+  ]
 }

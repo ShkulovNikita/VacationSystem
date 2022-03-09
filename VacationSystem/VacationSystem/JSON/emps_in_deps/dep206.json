@@ -1,0 +1,49 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "1321",
+      "FirstName": "Ольга",
+      "MiddleName": "Георгиевна",
+      "LastName": "Дуплинская",
+      "Time": 1,
+      "StartDate": "2017-05-05T00:00:00",
+      "BirthDate": "1993-01-03T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "206"
+        }
+      ]
+    },
+    {
+      "Id": "1651",
+      "FirstName": "Алена",
+      "MiddleName": "Владимировна",
+      "LastName": "Зворыгина",
+      "Time": 0.5,
+      "StartDate": "1996-09-19T00:00:00",
+      "BirthDate": "1965-03-20T00:00:00",
+      "Positions": [
+        {
+          "Position": "161",
+          "Department": "206"
+        }
+      ]
+    },
+    {
+      "Id": "1713",
+      "FirstName": "Иван",
+      "MiddleName": "Игоревич",
+      "LastName": "Лебедев",
+      "Time": 1.5,
+      "StartDate": "2017-11-06T00:00:00",
+      "BirthDate": "1992-06-05T00:00:00",
+      "Positions": [
+        {
+          "Position": "129",
+          "Department": "206"
+        }
+      ]
+    }
+  ]
+}

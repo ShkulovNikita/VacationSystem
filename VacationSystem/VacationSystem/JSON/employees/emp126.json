@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "126",
-	"FirstName": "Иван",
-	"MiddleName": "Романович",
-	"LastName": "Чернов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "72",
-			"HeadOfDepartment": false,
-			"Position": "46"
-		}
-	]
+  "Id": "126",
+  "FirstName": "Иван",
+  "MiddleName": "Романович",
+  "LastName": "Чернов",
+  "Time": 0.5,
+  "StartDate": "2007-08-10T00:00:00",
+  "BirthDate": "1954-10-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "46",
+      "Department": "72"
+    }
+  ]
 }

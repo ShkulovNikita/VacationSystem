@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1189",
-	"FirstName": "Ольга",
-	"MiddleName": "Витальевна",
-	"LastName": "Сычевская",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "131",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "1189",
+  "FirstName": "Ольга",
+  "MiddleName": "Витальевна",
+  "LastName": "Сычевская",
+  "Time": 0.5,
+  "StartDate": "2011-11-18T00:00:00",
+  "BirthDate": "1977-11-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "131"
+    }
+  ]
 }

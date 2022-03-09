@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "798",
-	"FirstName": "Владимир",
-	"MiddleName": "Маркович",
-	"LastName": "Замятин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "175",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "798",
+  "FirstName": "Владимир",
+  "MiddleName": "Маркович",
+  "LastName": "Замятин",
+  "Time": 1,
+  "StartDate": "1992-10-18T00:00:00",
+  "BirthDate": "1970-06-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "175"
+    }
+  ]
 }

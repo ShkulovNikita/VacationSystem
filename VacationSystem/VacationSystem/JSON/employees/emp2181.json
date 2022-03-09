@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2181",
-	"FirstName": "Юрий",
-	"MiddleName": "Борисович",
-	"LastName": "Швалев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "4",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "2181",
+  "FirstName": "Юрий",
+  "MiddleName": "Борисович",
+  "LastName": "Швалев",
+  "Time": 1,
+  "StartDate": "2007-03-21T00:00:00",
+  "BirthDate": "1972-02-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "4"
+    }
+  ]
 }

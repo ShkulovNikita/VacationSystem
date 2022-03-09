@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "2548",
-	"FirstName": "Алексей",
-	"MiddleName": "Сергеевич",
-	"LastName": "Семенов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "41",
-			"HeadOfDepartment": false,
-			"Position": "25"
-		},
-		{
-			"Id": "175",
-			"HeadOfDepartment": false,
-			"Position": "170"
-		}
-	]
+  "Id": "2548",
+  "FirstName": "Алексей",
+  "MiddleName": "Сергеевич",
+  "LastName": "Семенов",
+  "Time": 2,
+  "StartDate": "2014-06-02T00:00:00",
+  "BirthDate": "1987-11-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "25",
+      "Department": "41"
+    },
+    {
+      "Position": "170",
+      "Department": "175"
+    }
+  ]
 }

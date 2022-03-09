@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3590",
-	"FirstName": "Елена",
-	"MiddleName": "Николаевна",
-	"LastName": "Пономарева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "142",
-			"HeadOfDepartment": false,
-			"Position": "187"
-		}
-	]
+  "Id": "3590",
+  "FirstName": "Елена",
+  "MiddleName": "Николаевна",
+  "LastName": "Пономарева",
+  "Time": 1,
+  "StartDate": "2015-08-06T00:00:00",
+  "BirthDate": "1970-11-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "187",
+      "Department": "142"
+    }
+  ]
 }

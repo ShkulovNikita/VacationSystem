@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1025",
-	"FirstName": "Денис",
-	"MiddleName": "Леонидович",
-	"LastName": "Гамов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "158",
-			"HeadOfDepartment": false,
-			"Position": "144"
-		}
-	]
+  "Id": "1025",
+  "FirstName": "Денис",
+  "MiddleName": "Леонидович",
+  "LastName": "Гамов",
+  "Time": 0.5,
+  "StartDate": "2021-10-19T00:00:00",
+  "BirthDate": "1992-06-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "144",
+      "Department": "158"
+    }
+  ]
 }

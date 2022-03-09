@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "740",
-	"FirstName": "Евгения",
-	"MiddleName": "Алексеевна",
-	"LastName": "Агафонова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "99",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "740",
+  "FirstName": "Евгения",
+  "MiddleName": "Алексеевна",
+  "LastName": "Агафонова",
+  "Time": 1,
+  "StartDate": "1982-04-22T00:00:00",
+  "BirthDate": "1955-07-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "99"
+    }
+  ]
 }

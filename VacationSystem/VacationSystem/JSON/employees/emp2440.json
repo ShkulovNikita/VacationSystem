@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2440",
-	"FirstName": "Петр",
-	"MiddleName": "Николаевич",
-	"LastName": "Худолеев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "243",
-			"HeadOfDepartment": false,
-			"Position": "119"
-		}
-	]
+  "Id": "2440",
+  "FirstName": "Петр",
+  "MiddleName": "Николаевич",
+  "LastName": "Худолеев",
+  "Time": 1,
+  "StartDate": "2011-06-24T00:00:00",
+  "BirthDate": "1990-03-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "119",
+      "Department": "243"
+    }
+  ]
 }

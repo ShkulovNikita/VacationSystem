@@ -1,0 +1,19 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "2969",
+      "FirstName": "Юлия",
+      "MiddleName": "Владимировна",
+      "LastName": "Минина",
+      "Time": 0.5,
+      "StartDate": "2019-12-18T00:00:00",
+      "BirthDate": "1993-12-13T00:00:00",
+      "Positions": [
+        {
+          "Position": "255",
+          "Department": "258"
+        }
+      ]
+    }
+  ]
+}

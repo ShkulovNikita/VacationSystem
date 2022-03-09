@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2551",
-	"FirstName": "Сергей",
-	"MiddleName": "Вячеславович",
-	"LastName": "Сахаров",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "16"
-		}
-	]
+  "Id": "2551",
+  "FirstName": "Сергей",
+  "MiddleName": "Вячеславович",
+  "LastName": "Сахаров",
+  "Time": 1,
+  "StartDate": "2013-06-03T00:00:00",
+  "BirthDate": "1992-04-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "16",
+      "Department": "2"
+    }
+  ]
 }

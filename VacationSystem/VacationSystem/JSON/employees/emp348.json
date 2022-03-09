@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "348",
-	"FirstName": "Виктор",
-	"MiddleName": "Петрович",
-	"LastName": "Дмитриенко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "64",
-			"HeadOfDepartment": false,
-			"Position": "84"
-		}
-	]
+  "Id": "348",
+  "FirstName": "Виктор",
+  "MiddleName": "Петрович",
+  "LastName": "Дмитриенко",
+  "Time": 1,
+  "StartDate": "2014-04-20T00:00:00",
+  "BirthDate": "1990-02-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "84",
+      "Department": "64"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2647",
-	"FirstName": "Александр",
-	"MiddleName": "Олегович",
-	"LastName": "Плетнев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "101",
-			"HeadOfDepartment": false,
-			"Position": "26"
-		}
-	]
+  "Id": "2647",
+  "FirstName": "Александр",
+  "MiddleName": "Олегович",
+  "LastName": "Плетнев",
+  "Time": 1,
+  "StartDate": "1998-05-07T00:00:00",
+  "BirthDate": "1962-07-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "26",
+      "Department": "101"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1075",
-	"FirstName": "Антонина",
-	"MiddleName": "Васильевна",
-	"LastName": "Макиенко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "119",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1075",
+  "FirstName": "Антонина",
+  "MiddleName": "Васильевна",
+  "LastName": "Макиенко",
+  "Time": 0.5,
+  "StartDate": "2015-07-12T00:00:00",
+  "BirthDate": "1954-01-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "119"
+    }
+  ]
 }

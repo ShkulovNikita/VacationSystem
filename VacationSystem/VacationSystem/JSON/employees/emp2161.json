@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2161",
-	"FirstName": "Алексей",
-	"MiddleName": "Николаевич",
-	"LastName": "Пестряков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "51",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "2161",
+  "FirstName": "Алексей",
+  "MiddleName": "Николаевич",
+  "LastName": "Пестряков",
+  "Time": 1,
+  "StartDate": "2000-12-05T00:00:00",
+  "BirthDate": "1980-07-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "51"
+    }
+  ]
 }

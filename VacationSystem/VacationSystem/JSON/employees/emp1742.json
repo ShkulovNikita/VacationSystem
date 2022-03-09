@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1742",
-	"FirstName": "Людмила",
-	"MiddleName": "Ивановна",
-	"LastName": "Вяткина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "17",
-			"HeadOfDepartment": false,
-			"Position": "53"
-		}
-	]
+  "Id": "1742",
+  "FirstName": "Людмила",
+  "MiddleName": "Ивановна",
+  "LastName": "Вяткина",
+  "Time": 0.5,
+  "StartDate": "2019-01-11T00:00:00",
+  "BirthDate": "1985-02-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "53",
+      "Department": "17"
+    }
+  ]
 }

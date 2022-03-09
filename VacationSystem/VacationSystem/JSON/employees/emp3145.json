@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3145",
-	"FirstName": "Олдрих",
-	"MiddleName": "",
-	"LastName": "Стары",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "57",
-			"HeadOfDepartment": false,
-			"Position": "56"
-		}
-	]
+  "Id": "3145",
+  "FirstName": "Олдрих",
+  "MiddleName": "",
+  "LastName": "Стары",
+  "Time": 1,
+  "StartDate": "2011-01-08T00:00:00",
+  "BirthDate": "1988-06-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "56",
+      "Department": "57"
+    }
+  ]
 }

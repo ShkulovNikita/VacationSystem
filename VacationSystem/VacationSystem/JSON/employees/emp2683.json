@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2683",
-	"FirstName": "Екатерина",
-	"MiddleName": "Владимировна",
-	"LastName": "Абдульменова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "2683",
+  "FirstName": "Екатерина",
+  "MiddleName": "Владимировна",
+  "LastName": "Абдульменова",
+  "Time": 0.5,
+  "StartDate": "2017-12-14T00:00:00",
+  "BirthDate": "1990-12-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "15"
+    }
+  ]
 }

@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "979",
-	"FirstName": "Элеонора",
-	"MiddleName": "Сергеевна",
-	"LastName": "Романенко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "119",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		},
-		{
-			"Id": "79",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "979",
+  "FirstName": "Элеонора",
+  "MiddleName": "Сергеевна",
+  "LastName": "Романенко",
+  "Time": 1,
+  "StartDate": "2021-05-20T00:00:00",
+  "BirthDate": "1974-05-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "119"
+    },
+    {
+      "Position": "3",
+      "Department": "79"
+    }
+  ]
 }

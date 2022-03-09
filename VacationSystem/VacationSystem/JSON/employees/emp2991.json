@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2991",
-	"FirstName": "Гуанхуэй",
-	"MiddleName": "",
-	"LastName": "Гэ",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "26"
-		}
-	]
+  "Id": "2991",
+  "FirstName": "Гуанхуэй",
+  "MiddleName": "",
+  "LastName": "Гэ",
+  "Time": 0.5,
+  "StartDate": "1990-09-20T00:00:00",
+  "BirthDate": "1956-06-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "26",
+      "Department": "15"
+    }
+  ]
 }

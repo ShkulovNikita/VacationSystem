@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3329",
-	"FirstName": "Игорь",
-	"MiddleName": "",
-	"LastName": "Пятков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "64",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		}
-	]
+  "Id": "3329",
+  "FirstName": "Игорь",
+  "MiddleName": "",
+  "LastName": "Пятков",
+  "Time": 1,
+  "StartDate": "1995-11-11T00:00:00",
+  "BirthDate": "1973-04-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "64"
+    }
+  ]
 }

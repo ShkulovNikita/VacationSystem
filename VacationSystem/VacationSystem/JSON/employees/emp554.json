@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "554",
-	"FirstName": "Ольга",
-	"MiddleName": "Геннадьевна",
-	"LastName": "Ревинская",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "56",
-			"HeadOfDepartment": false,
-			"Position": "2"
-		}
-	]
+  "Id": "554",
+  "FirstName": "Ольга",
+  "MiddleName": "Геннадьевна",
+  "LastName": "Ревинская",
+  "Time": 0.5,
+  "StartDate": "2009-06-12T00:00:00",
+  "BirthDate": "1974-12-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "2",
+      "Department": "56"
+    }
+  ]
 }

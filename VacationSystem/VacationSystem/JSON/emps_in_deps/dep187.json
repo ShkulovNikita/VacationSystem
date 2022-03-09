@@ -1,0 +1,94 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "1006",
+      "FirstName": "Александр",
+      "MiddleName": "Федорович",
+      "LastName": "Михайлов",
+      "Time": 1,
+      "StartDate": "2010-03-09T00:00:00",
+      "BirthDate": "1967-07-08T00:00:00",
+      "Positions": [
+        {
+          "Position": "114",
+          "Department": "187"
+        }
+      ]
+    },
+    {
+      "Id": "1122",
+      "FirstName": "Сергей",
+      "MiddleName": "Владимирович",
+      "LastName": "Сузанский",
+      "Time": 0.5,
+      "StartDate": "2016-07-14T00:00:00",
+      "BirthDate": "1965-04-22T00:00:00",
+      "Positions": [
+        {
+          "Position": "35",
+          "Department": "187"
+        }
+      ]
+    },
+    {
+      "Id": "1489",
+      "FirstName": "Юрий",
+      "MiddleName": "Владимирович",
+      "LastName": "Коц",
+      "Time": 1,
+      "StartDate": "2021-12-02T00:00:00",
+      "BirthDate": "1984-10-14T00:00:00",
+      "Positions": [
+        {
+          "Position": "114",
+          "Department": "187"
+        }
+      ]
+    },
+    {
+      "Id": "1982",
+      "FirstName": "Павел",
+      "MiddleName": "Анатольевич",
+      "LastName": "Захаренко",
+      "Time": 1,
+      "StartDate": "2018-07-07T00:00:00",
+      "BirthDate": "1986-08-16T00:00:00",
+      "Positions": [
+        {
+          "Position": "219",
+          "Department": "187"
+        }
+      ]
+    },
+    {
+      "Id": "2534",
+      "FirstName": "Роман",
+      "MiddleName": "Александрович",
+      "LastName": "Лашманов",
+      "Time": 0.5,
+      "StartDate": "2000-03-24T00:00:00",
+      "BirthDate": "1980-04-23T00:00:00",
+      "Positions": [
+        {
+          "Position": "174",
+          "Department": "187"
+        }
+      ]
+    },
+    {
+      "Id": "3063",
+      "FirstName": "Татьяна",
+      "MiddleName": "Николаевна",
+      "LastName": "Коробова",
+      "Time": 0.5,
+      "StartDate": "2008-12-18T00:00:00",
+      "BirthDate": "1972-12-02T00:00:00",
+      "Positions": [
+        {
+          "Position": "114",
+          "Department": "187"
+        }
+      ]
+    }
+  ]
+}

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1397",
-	"FirstName": "Юлия",
-	"MiddleName": "Викторовна",
-	"LastName": "Щеголихина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "0",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1397",
+  "FirstName": "Юлия",
+  "MiddleName": "Викторовна",
+  "LastName": "Щеголихина",
+  "Time": 1,
+  "StartDate": "1990-03-05T00:00:00",
+  "BirthDate": "1956-08-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "0"
+    }
+  ]
 }

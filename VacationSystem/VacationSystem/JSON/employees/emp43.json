@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "43",
-	"FirstName": "Надежда",
-	"MiddleName": "Александровна",
-	"LastName": "Кобзева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "0",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "43",
+  "FirstName": "Надежда",
+  "MiddleName": "Александровна",
+  "LastName": "Кобзева",
+  "Time": 1,
+  "StartDate": "2018-02-19T00:00:00",
+  "BirthDate": "1993-12-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "0"
+    }
+  ]
 }

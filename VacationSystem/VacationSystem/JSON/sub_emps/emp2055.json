@@ -1,0 +1,53 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "1231",
+      "FirstName": "Станислав",
+      "MiddleName": "Юрьевич",
+      "LastName": "Карташов",
+      "Time": 1,
+      "StartDate": "2016-11-13T00:00:00",
+      "BirthDate": "1955-11-01T00:00:00",
+      "Positions": [
+        {
+          "Position": "156",
+          "Department": "201"
+        }
+      ]
+    },
+    {
+      "Id": "2055",
+      "FirstName": "Тамара",
+      "MiddleName": "Анатольевна",
+      "LastName": "Курочкина",
+      "Time": 1,
+      "StartDate": "2009-01-07T00:00:00",
+      "BirthDate": "1962-02-15T00:00:00",
+      "Positions": [
+        {
+          "Position": "20",
+          "Department": "201"
+        },
+        {
+          "Position": "25",
+          "Department": "62"
+        }
+      ]
+    },
+    {
+      "Id": "2467",
+      "FirstName": "Александр",
+      "MiddleName": "Валериевич",
+      "LastName": "Тивоченко",
+      "Time": 0.5,
+      "StartDate": "1992-12-09T00:00:00",
+      "BirthDate": "1953-07-10T00:00:00",
+      "Positions": [
+        {
+          "Position": "156",
+          "Department": "201"
+        }
+      ]
+    }
+  ]
+}

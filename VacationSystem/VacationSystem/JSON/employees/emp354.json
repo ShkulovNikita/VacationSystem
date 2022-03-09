@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "354",
-	"FirstName": "Наталья",
-	"MiddleName": "Александровна",
-	"LastName": "Мишанкина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "65",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "354",
+  "FirstName": "Наталья",
+  "MiddleName": "Александровна",
+  "LastName": "Мишанкина",
+  "Time": 1,
+  "StartDate": "2015-08-10T00:00:00",
+  "BirthDate": "1980-12-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "65"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3598",
-	"FirstName": "Максим",
-	"MiddleName": "",
-	"LastName": "Густомясов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "117",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		}
-	]
+  "Id": "3598",
+  "FirstName": "Максим",
+  "MiddleName": "",
+  "LastName": "Густомясов",
+  "Time": 0.5,
+  "StartDate": "2015-04-16T00:00:00",
+  "BirthDate": "1992-03-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "117"
+    }
+  ]
 }

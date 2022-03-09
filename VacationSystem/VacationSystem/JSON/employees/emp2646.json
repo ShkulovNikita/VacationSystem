@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2646",
-	"FirstName": "Алексей",
-	"MiddleName": "Владимирович",
-	"LastName": "Полуботко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "23",
-			"HeadOfDepartment": false,
-			"Position": "116"
-		}
-	]
+  "Id": "2646",
+  "FirstName": "Алексей",
+  "MiddleName": "Владимирович",
+  "LastName": "Полуботко",
+  "Time": 0.5,
+  "StartDate": "2017-07-21T00:00:00",
+  "BirthDate": "1968-02-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "116",
+      "Department": "23"
+    }
+  ]
 }

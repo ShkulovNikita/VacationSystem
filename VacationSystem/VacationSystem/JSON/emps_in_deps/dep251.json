@@ -1,0 +1,19 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "2761",
+      "FirstName": "Наталья",
+      "MiddleName": "Ивановна",
+      "LastName": "Привалова",
+      "Time": 2.5,
+      "StartDate": "2000-11-05T00:00:00",
+      "BirthDate": "1979-07-11T00:00:00",
+      "Positions": [
+        {
+          "Position": "181",
+          "Department": "251"
+        }
+      ]
+    }
+  ]
+}

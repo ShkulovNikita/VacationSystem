@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1358",
-	"FirstName": "Юлия",
-	"MiddleName": "Владимировна",
-	"LastName": "Ясюкевич",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "108"
-		}
-	]
+  "Id": "1358",
+  "FirstName": "Юлия",
+  "MiddleName": "Владимировна",
+  "LastName": "Ясюкевич",
+  "Time": 0.5,
+  "StartDate": "2014-02-15T00:00:00",
+  "BirthDate": "1992-04-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "108",
+      "Department": "2"
+    }
+  ]
 }

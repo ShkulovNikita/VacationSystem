@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1384",
-	"FirstName": "Юрий",
-	"MiddleName": "Борисович",
-	"LastName": "Лишманов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "42",
-			"HeadOfDepartment": false,
-			"Position": "11"
-		}
-	]
+  "Id": "1384",
+  "FirstName": "Юрий",
+  "MiddleName": "Борисович",
+  "LastName": "Лишманов",
+  "Time": 1,
+  "StartDate": "2000-03-05T00:00:00",
+  "BirthDate": "1980-07-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "11",
+      "Department": "42"
+    }
+  ]
 }

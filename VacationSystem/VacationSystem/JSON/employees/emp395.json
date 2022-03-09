@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "395",
-	"FirstName": "Сергей",
-	"MiddleName": "Иванович",
-	"LastName": "Грицай",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "11"
-		}
-	]
+  "Id": "395",
+  "FirstName": "Сергей",
+  "MiddleName": "Иванович",
+  "LastName": "Грицай",
+  "Time": 0.5,
+  "StartDate": "2008-10-19T00:00:00",
+  "BirthDate": "1963-06-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "11",
+      "Department": "2"
+    }
+  ]
 }

@@ -1,0 +1,94 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "55",
+      "FirstName": "Антон",
+      "MiddleName": "Александрович",
+      "LastName": "Чигорко",
+      "Time": 0.5,
+      "StartDate": "2010-06-22T00:00:00",
+      "BirthDate": "1964-03-12T00:00:00",
+      "Positions": [
+        {
+          "Position": "11",
+          "Department": "35"
+        }
+      ]
+    },
+    {
+      "Id": "1163",
+      "FirstName": "Андрей",
+      "MiddleName": "Александрович",
+      "LastName": "Лукащук",
+      "Time": 1,
+      "StartDate": "2010-02-09T00:00:00",
+      "BirthDate": "1955-02-02T00:00:00",
+      "Positions": [
+        {
+          "Position": "11",
+          "Department": "35"
+        }
+      ]
+    },
+    {
+      "Id": "1418",
+      "FirstName": "Дмитрий",
+      "MiddleName": "Александрович",
+      "LastName": "Нейман",
+      "Time": 0.5,
+      "StartDate": "2019-04-20T00:00:00",
+      "BirthDate": "1987-01-15T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "35"
+        }
+      ]
+    },
+    {
+      "Id": "1712",
+      "FirstName": "Богдан",
+      "MiddleName": "Иванович",
+      "LastName": "Василишин",
+      "Time": 1,
+      "StartDate": "1989-05-02T00:00:00",
+      "BirthDate": "1964-01-24T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "35"
+        }
+      ]
+    },
+    {
+      "Id": "2277",
+      "FirstName": "Юрий",
+      "MiddleName": "Алексеевич",
+      "LastName": "Бежаев",
+      "Time": 1,
+      "StartDate": "2010-12-16T00:00:00",
+      "BirthDate": "1977-12-02T00:00:00",
+      "Positions": [
+        {
+          "Position": "11",
+          "Department": "35"
+        }
+      ]
+    },
+    {
+      "Id": "2397",
+      "FirstName": "Александр",
+      "MiddleName": "Михайлович",
+      "LastName": "Владимиров",
+      "Time": 1,
+      "StartDate": "2015-01-16T00:00:00",
+      "BirthDate": "1965-08-21T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "35"
+        }
+      ]
+    }
+  ]
+}

@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "3273",
-	"FirstName": "Антон",
-	"MiddleName": "",
-	"LastName": "Ломыгин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "53",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		},
-		{
-			"Id": "53",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "3273",
+  "FirstName": "Антон",
+  "MiddleName": "",
+  "LastName": "Ломыгин",
+  "Time": 1,
+  "StartDate": "2020-05-07T00:00:00",
+  "BirthDate": "1984-09-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "53"
+    },
+    {
+      "Position": "3",
+      "Department": "53"
+    }
+  ]
 }

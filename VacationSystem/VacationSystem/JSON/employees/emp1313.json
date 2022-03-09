@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1313",
-	"FirstName": "Александр",
-	"MiddleName": "Александрович",
-	"LastName": "Гарапацкий",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "175",
-			"HeadOfDepartment": false,
-			"Position": "11"
-		}
-	]
+  "Id": "1313",
+  "FirstName": "Александр",
+  "MiddleName": "Александрович",
+  "LastName": "Гарапацкий",
+  "Time": 0.5,
+  "StartDate": "2009-08-01T00:00:00",
+  "BirthDate": "1988-11-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "11",
+      "Department": "175"
+    }
+  ]
 }

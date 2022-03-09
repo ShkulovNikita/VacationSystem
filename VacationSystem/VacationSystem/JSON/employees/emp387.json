@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "387",
-	"FirstName": "Валерий",
-	"MiddleName": "Владимирович",
-	"LastName": "Борин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "26",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "387",
+  "FirstName": "Валерий",
+  "MiddleName": "Владимирович",
+  "LastName": "Борин",
+  "Time": 1,
+  "StartDate": "1995-05-13T00:00:00",
+  "BirthDate": "1974-09-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "26"
+    }
+  ]
 }

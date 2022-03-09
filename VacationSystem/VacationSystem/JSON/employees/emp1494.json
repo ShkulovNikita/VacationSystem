@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1494",
-	"FirstName": "Татьяна",
-	"MiddleName": "Владимировна",
-	"LastName": "Бузоверова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "72",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "1494",
+  "FirstName": "Татьяна",
+  "MiddleName": "Владимировна",
+  "LastName": "Бузоверова",
+  "Time": 1,
+  "StartDate": "2019-04-05T00:00:00",
+  "BirthDate": "1988-09-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "72"
+    }
+  ]
 }

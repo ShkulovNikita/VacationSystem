@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "2837",
-	"FirstName": "Дмитрий",
-	"MiddleName": "Андреевич",
-	"LastName": "Иванов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "52",
-			"HeadOfDepartment": false,
-			"Position": "53"
-		},
-		{
-			"Id": "52",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		}
-	]
+  "Id": "2837",
+  "FirstName": "Дмитрий",
+  "MiddleName": "Андреевич",
+  "LastName": "Иванов",
+  "Time": 1.5,
+  "StartDate": "2016-08-08T00:00:00",
+  "BirthDate": "1953-06-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "53",
+      "Department": "52"
+    },
+    {
+      "Position": "28",
+      "Department": "52"
+    }
+  ]
 }

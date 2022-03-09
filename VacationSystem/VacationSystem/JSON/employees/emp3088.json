@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3088",
-	"FirstName": "Артём",
-	"MiddleName": "",
-	"LastName": "Прядко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "51",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		}
-	]
+  "Id": "3088",
+  "FirstName": "Артём",
+  "MiddleName": "",
+  "LastName": "Прядко",
+  "Time": 1,
+  "StartDate": "2013-09-04T00:00:00",
+  "BirthDate": "1974-06-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "51"
+    }
+  ]
 }

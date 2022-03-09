@@ -1,0 +1,49 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "131",
+      "FirstName": "Денис",
+      "MiddleName": "Геннадьевич",
+      "LastName": "Куртенков",
+      "Time": 1,
+      "StartDate": "2007-10-02T00:00:00",
+      "BirthDate": "1970-09-18T00:00:00",
+      "Positions": [
+        {
+          "Position": "10",
+          "Department": "73"
+        }
+      ]
+    },
+    {
+      "Id": "1031",
+      "FirstName": "Мария",
+      "MiddleName": "Владимировна",
+      "LastName": "Галкина",
+      "Time": 1,
+      "StartDate": "2018-02-07T00:00:00",
+      "BirthDate": "1976-07-12T00:00:00",
+      "Positions": [
+        {
+          "Position": "18",
+          "Department": "73"
+        }
+      ]
+    },
+    {
+      "Id": "3264",
+      "FirstName": "Владимир",
+      "MiddleName": "Анатольевич",
+      "LastName": "Ухмылин",
+      "Time": 1,
+      "StartDate": "1999-04-03T00:00:00",
+      "BirthDate": "1953-06-07T00:00:00",
+      "Positions": [
+        {
+          "Position": "157",
+          "Department": "73"
+        }
+      ]
+    }
+  ]
+}

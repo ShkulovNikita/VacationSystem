@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "895",
-	"FirstName": "Елена",
-	"MiddleName": "Федоровна",
-	"LastName": "Полисадова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "895",
+  "FirstName": "Елена",
+  "MiddleName": "Федоровна",
+  "LastName": "Полисадова",
+  "Time": 0.5,
+  "StartDate": "2014-10-17T00:00:00",
+  "BirthDate": "1986-04-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "15"
+    }
+  ]
 }

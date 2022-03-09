@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3364",
-	"FirstName": "Владислав",
-	"MiddleName": "Викторович",
-	"LastName": "Заречнев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "188",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		}
-	]
+  "Id": "3364",
+  "FirstName": "Владислав",
+  "MiddleName": "Викторович",
+  "LastName": "Заречнев",
+  "Time": 0.5,
+  "StartDate": "2006-12-09T00:00:00",
+  "BirthDate": "1971-03-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "188"
+    }
+  ]
 }

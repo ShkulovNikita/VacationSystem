@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "583",
-	"FirstName": "Ольга",
-	"MiddleName": "Борисовна",
-	"LastName": "Махрина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "94",
-			"HeadOfDepartment": false,
-			"Position": "16"
-		}
-	]
+  "Id": "583",
+  "FirstName": "Ольга",
+  "MiddleName": "Борисовна",
+  "LastName": "Махрина",
+  "Time": 0.5,
+  "StartDate": "2017-05-05T00:00:00",
+  "BirthDate": "1964-08-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "16",
+      "Department": "94"
+    }
+  ]
 }

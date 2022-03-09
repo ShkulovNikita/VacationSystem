@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "2982",
-	"FirstName": "Константин",
-	"MiddleName": "Мадестович",
-	"LastName": "Минаев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "212",
-			"HeadOfDepartment": false,
-			"Position": "2"
-		},
-		{
-			"Id": "46",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "2982",
+  "FirstName": "Константин",
+  "MiddleName": "Мадестович",
+  "LastName": "Минаев",
+  "Time": 1.5,
+  "StartDate": "2001-01-21T00:00:00",
+  "BirthDate": "1974-08-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "2",
+      "Department": "212"
+    },
+    {
+      "Position": "1",
+      "Department": "46"
+    }
+  ]
 }

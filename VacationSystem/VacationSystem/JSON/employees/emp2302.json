@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2302",
-	"FirstName": "Николай",
-	"MiddleName": "Петрович",
-	"LastName": "Кабиков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "75",
-			"HeadOfDepartment": false,
-			"Position": "232"
-		}
-	]
+  "Id": "2302",
+  "FirstName": "Николай",
+  "MiddleName": "Петрович",
+  "LastName": "Кабиков",
+  "Time": 0.5,
+  "StartDate": "2010-08-04T00:00:00",
+  "BirthDate": "1980-01-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "232",
+      "Department": "75"
+    }
+  ]
 }

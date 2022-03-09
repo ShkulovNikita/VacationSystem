@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "714",
-	"FirstName": "Александр",
-	"MiddleName": "Андреевич",
-	"LastName": "Светашков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "93",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		},
-		{
-			"Id": "46",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "714",
+  "FirstName": "Александр",
+  "MiddleName": "Андреевич",
+  "LastName": "Светашков",
+  "Time": 2,
+  "StartDate": "2019-06-07T00:00:00",
+  "BirthDate": "1979-11-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "93"
+    },
+    {
+      "Position": "13",
+      "Department": "46"
+    }
+  ]
 }

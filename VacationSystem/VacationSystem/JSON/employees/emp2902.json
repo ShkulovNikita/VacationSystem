@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2902",
-	"FirstName": "Ольга",
-	"MiddleName": "Алексеевна",
-	"LastName": "Филиппова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "179",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "2902",
+  "FirstName": "Ольга",
+  "MiddleName": "Алексеевна",
+  "LastName": "Филиппова",
+  "Time": 1,
+  "StartDate": "2009-10-19T00:00:00",
+  "BirthDate": "1985-06-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "179"
+    }
+  ]
 }

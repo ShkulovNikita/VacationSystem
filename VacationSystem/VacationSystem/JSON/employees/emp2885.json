@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2885",
-	"FirstName": "Наталья",
-	"MiddleName": "Сергеевна",
-	"LastName": "Перовская",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "61",
-			"HeadOfDepartment": false,
-			"Position": "21"
-		}
-	]
+  "Id": "2885",
+  "FirstName": "Наталья",
+  "MiddleName": "Сергеевна",
+  "LastName": "Перовская",
+  "Time": 1,
+  "StartDate": "2019-04-22T00:00:00",
+  "BirthDate": "1991-07-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "21",
+      "Department": "61"
+    }
+  ]
 }

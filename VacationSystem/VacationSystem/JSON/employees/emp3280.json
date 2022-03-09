@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "3280",
-	"FirstName": "Сергей",
-	"MiddleName": "Анатольевич",
-	"LastName": "Янов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "91",
-			"HeadOfDepartment": false,
-			"Position": "268"
-		},
-		{
-			"Id": "91",
-			"HeadOfDepartment": false,
-			"Position": "269"
-		}
-	]
+  "Id": "3280",
+  "FirstName": "Сергей",
+  "MiddleName": "Анатольевич",
+  "LastName": "Янов",
+  "Time": 1,
+  "StartDate": "2013-07-09T00:00:00",
+  "BirthDate": "1959-11-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "268",
+      "Department": "91"
+    },
+    {
+      "Position": "269",
+      "Department": "91"
+    }
+  ]
 }

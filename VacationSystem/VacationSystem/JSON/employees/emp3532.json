@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3532",
-	"FirstName": "Алла",
-	"MiddleName": "Анатольевна",
-	"LastName": "Русакова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "107",
-			"HeadOfDepartment": false,
-			"Position": "10"
-		}
-	]
+  "Id": "3532",
+  "FirstName": "Алла",
+  "MiddleName": "Анатольевна",
+  "LastName": "Русакова",
+  "Time": 0.5,
+  "StartDate": "2015-07-19T00:00:00",
+  "BirthDate": "1958-05-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "10",
+      "Department": "107"
+    }
+  ]
 }

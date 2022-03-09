@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1117",
-	"FirstName": "Раиса",
-	"MiddleName": "Андреевна",
-	"LastName": "Урнева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "34",
-			"HeadOfDepartment": false,
-			"Position": "151"
-		}
-	]
+  "Id": "1117",
+  "FirstName": "Раиса",
+  "MiddleName": "Андреевна",
+  "LastName": "Урнева",
+  "Time": 0.5,
+  "StartDate": "1979-10-24T00:00:00",
+  "BirthDate": "1955-08-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "151",
+      "Department": "34"
+    }
+  ]
 }

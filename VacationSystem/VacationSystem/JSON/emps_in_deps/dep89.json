@@ -1,0 +1,124 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "187",
+      "FirstName": "Евгений",
+      "MiddleName": "Геннадьевич",
+      "LastName": "Емец",
+      "Time": 0.5,
+      "StartDate": "2020-10-17T00:00:00",
+      "BirthDate": "1990-11-24T00:00:00",
+      "Positions": [
+        {
+          "Position": "11",
+          "Department": "89"
+        }
+      ]
+    },
+    {
+      "Id": "266",
+      "FirstName": "Геннадий",
+      "MiddleName": "Николаевич",
+      "LastName": "Дудкин",
+      "Time": 0.5,
+      "StartDate": "2011-11-10T00:00:00",
+      "BirthDate": "1979-10-20T00:00:00",
+      "Positions": [
+        {
+          "Position": "56",
+          "Department": "89"
+        }
+      ]
+    },
+    {
+      "Id": "1218",
+      "FirstName": "Антон",
+      "MiddleName": "Александрович",
+      "LastName": "Нестеров",
+      "Time": 1,
+      "StartDate": "2021-01-23T00:00:00",
+      "BirthDate": "1992-12-11T00:00:00",
+      "Positions": [
+        {
+          "Position": "11",
+          "Department": "89"
+        }
+      ]
+    },
+    {
+      "Id": "1496",
+      "FirstName": "Яна",
+      "MiddleName": "Александровна",
+      "LastName": "Дудкина",
+      "Time": 0.5,
+      "StartDate": "2003-09-19T00:00:00",
+      "BirthDate": "1974-03-22T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "89"
+        }
+      ]
+    },
+    {
+      "Id": "1845",
+      "FirstName": "Андрей",
+      "MiddleName": "Владимирович",
+      "LastName": "Ачин",
+      "Time": 1,
+      "StartDate": "2010-07-18T00:00:00",
+      "BirthDate": "1988-07-19T00:00:00",
+      "Positions": [
+        {
+          "Position": "11",
+          "Department": "89"
+        }
+      ]
+    },
+    {
+      "Id": "1976",
+      "FirstName": "Денис",
+      "MiddleName": "Владимирович",
+      "LastName": "Прохоренко",
+      "Time": 0.5,
+      "StartDate": "1989-08-23T00:00:00",
+      "BirthDate": "1954-06-01T00:00:00",
+      "Positions": [
+        {
+          "Position": "25",
+          "Department": "89"
+        }
+      ]
+    },
+    {
+      "Id": "2178",
+      "FirstName": "Валерий",
+      "MiddleName": "Александрович",
+      "LastName": "Варлачев",
+      "Time": 1.5,
+      "StartDate": "2016-07-01T00:00:00",
+      "BirthDate": "1990-11-12T00:00:00",
+      "Positions": [
+        {
+          "Position": "2",
+          "Department": "89"
+        }
+      ]
+    },
+    {
+      "Id": "3212",
+      "FirstName": "Владимир",
+      "MiddleName": "Александрович",
+      "LastName": "Говорухин",
+      "Time": 0.5,
+      "StartDate": "2011-07-21T00:00:00",
+      "BirthDate": "1970-08-15T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "89"
+        }
+      ]
+    }
+  ]
+}

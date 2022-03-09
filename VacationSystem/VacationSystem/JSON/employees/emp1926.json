@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "1926",
-	"FirstName": "Владимир",
-	"MiddleName": "Владимирович",
-	"LastName": "Шагалов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "102",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		},
-		{
-			"Id": "17",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1926",
+  "FirstName": "Владимир",
+  "MiddleName": "Владимирович",
+  "LastName": "Шагалов",
+  "Time": 1.5,
+  "StartDate": "2021-11-23T00:00:00",
+  "BirthDate": "1975-02-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "102"
+    },
+    {
+      "Position": "1",
+      "Department": "17"
+    }
+  ]
 }

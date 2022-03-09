@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1097",
-	"FirstName": "Николай",
-	"MiddleName": "Терентьевич",
-	"LastName": "Юнда",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "62",
-			"HeadOfDepartment": false,
-			"Position": "18"
-		}
-	]
+  "Id": "1097",
+  "FirstName": "Николай",
+  "MiddleName": "Терентьевич",
+  "LastName": "Юнда",
+  "Time": 1,
+  "StartDate": "2018-07-13T00:00:00",
+  "BirthDate": "1967-07-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "18",
+      "Department": "62"
+    }
+  ]
 }

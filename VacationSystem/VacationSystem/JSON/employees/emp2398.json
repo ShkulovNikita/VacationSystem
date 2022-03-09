@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2398",
-	"FirstName": "Вячеслав",
-	"MiddleName": "Владимирович",
-	"LastName": "Дурнев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "59",
-			"HeadOfDepartment": false,
-			"Position": "37"
-		}
-	]
+  "Id": "2398",
+  "FirstName": "Вячеслав",
+  "MiddleName": "Владимирович",
+  "LastName": "Дурнев",
+  "Time": 0.5,
+  "StartDate": "2003-11-11T00:00:00",
+  "BirthDate": "1970-03-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "37",
+      "Department": "59"
+    }
+  ]
 }

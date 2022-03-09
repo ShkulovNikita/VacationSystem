@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2436",
-	"FirstName": "Алексей",
-	"MiddleName": "Михайлович",
-	"LastName": "Большаков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "175",
-			"HeadOfDepartment": false,
-			"Position": "11"
-		}
-	]
+  "Id": "2436",
+  "FirstName": "Алексей",
+  "MiddleName": "Михайлович",
+  "LastName": "Большаков",
+  "Time": 0.5,
+  "StartDate": "2010-04-19T00:00:00",
+  "BirthDate": "1978-06-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "11",
+      "Department": "175"
+    }
+  ]
 }

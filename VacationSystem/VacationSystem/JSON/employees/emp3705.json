@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3705",
-	"FirstName": "Наталья",
-	"MiddleName": "Владимировна",
-	"LastName": "Карманова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "111",
-			"HeadOfDepartment": false,
-			"Position": "69"
-		}
-	]
+  "Id": "3705",
+  "FirstName": "Наталья",
+  "MiddleName": "Владимировна",
+  "LastName": "Карманова",
+  "Time": 1,
+  "StartDate": "2004-12-06T00:00:00",
+  "BirthDate": "1960-07-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "69",
+      "Department": "111"
+    }
+  ]
 }

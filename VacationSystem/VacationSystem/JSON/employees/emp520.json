@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "520",
-	"FirstName": "Татьяна",
-	"MiddleName": "Александровна",
-	"LastName": "Чернышева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "93",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "520",
+  "FirstName": "Татьяна",
+  "MiddleName": "Александровна",
+  "LastName": "Чернышева",
+  "Time": 0.5,
+  "StartDate": "1991-05-05T00:00:00",
+  "BirthDate": "1969-10-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "93"
+    }
+  ]
 }

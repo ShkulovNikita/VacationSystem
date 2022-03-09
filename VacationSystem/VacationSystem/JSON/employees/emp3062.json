@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3062",
-	"FirstName": "Роман",
-	"MiddleName": "Владимирович",
-	"LastName": "Зельчан",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "192",
-			"HeadOfDepartment": false,
-			"Position": "24"
-		}
-	]
+  "Id": "3062",
+  "FirstName": "Роман",
+  "MiddleName": "Владимирович",
+  "LastName": "Зельчан",
+  "Time": 1,
+  "StartDate": "2008-04-04T00:00:00",
+  "BirthDate": "1969-02-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "24",
+      "Department": "192"
+    }
+  ]
 }

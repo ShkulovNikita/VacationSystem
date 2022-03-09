@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "230",
-	"FirstName": "Михаил",
-	"MiddleName": "Викторович",
-	"LastName": "Шевелев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "98",
-			"HeadOfDepartment": false,
-			"Position": "56"
-		}
-	]
+  "Id": "230",
+  "FirstName": "Михаил",
+  "MiddleName": "Викторович",
+  "LastName": "Шевелев",
+  "Time": 0.5,
+  "StartDate": "2007-06-03T00:00:00",
+  "BirthDate": "1966-06-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "56",
+      "Department": "98"
+    }
+  ]
 }

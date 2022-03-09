@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2918",
-	"FirstName": "Александр",
-	"MiddleName": "Николаевич",
-	"LastName": "Искрин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "205",
-			"HeadOfDepartment": false,
-			"Position": "84"
-		}
-	]
+  "Id": "2918",
+  "FirstName": "Александр",
+  "MiddleName": "Николаевич",
+  "LastName": "Искрин",
+  "Time": 1,
+  "StartDate": "2021-09-13T00:00:00",
+  "BirthDate": "1987-08-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "84",
+      "Department": "205"
+    }
+  ]
 }

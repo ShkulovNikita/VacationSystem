@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "832",
-	"FirstName": "Виктор",
-	"MiddleName": "Михайлович",
-	"LastName": "Лисицын",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "91"
-		}
-	]
+  "Id": "832",
+  "FirstName": "Виктор",
+  "MiddleName": "Михайлович",
+  "LastName": "Лисицын",
+  "Time": 0.5,
+  "StartDate": "2003-12-13T00:00:00",
+  "BirthDate": "1973-01-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "91",
+      "Department": "15"
+    }
+  ]
 }

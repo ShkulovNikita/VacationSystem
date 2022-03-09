@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2717",
-	"FirstName": "Алексей",
-	"MiddleName": "Валерьевич",
-	"LastName": "Кузнецов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "32",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		}
-	]
+  "Id": "2717",
+  "FirstName": "Алексей",
+  "MiddleName": "Валерьевич",
+  "LastName": "Кузнецов",
+  "Time": 0.5,
+  "StartDate": "2017-12-19T00:00:00",
+  "BirthDate": "1974-12-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "32"
+    }
+  ]
 }

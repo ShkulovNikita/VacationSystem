@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1258",
-	"FirstName": "Юлия",
-	"MiddleName": "Васильевна",
-	"LastName": "Кунгурова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "203",
-			"HeadOfDepartment": false,
-			"Position": "159"
-		}
-	]
+  "Id": "1258",
+  "FirstName": "Юлия",
+  "MiddleName": "Васильевна",
+  "LastName": "Кунгурова",
+  "Time": 0.5,
+  "StartDate": "2012-11-09T00:00:00",
+  "BirthDate": "1986-04-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "159",
+      "Department": "203"
+    }
+  ]
 }

@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "910",
-	"FirstName": "Игорь",
-	"MiddleName": "Олегович",
-	"LastName": "Муравлев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "133",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		},
-		{
-			"Id": "19",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "910",
+  "FirstName": "Игорь",
+  "MiddleName": "Олегович",
+  "LastName": "Муравлев",
+  "Time": 1,
+  "StartDate": "2012-03-15T00:00:00",
+  "BirthDate": "1992-01-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "133"
+    },
+    {
+      "Position": "1",
+      "Department": "19"
+    }
+  ]
 }

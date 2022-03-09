@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2861",
-	"FirstName": "Асия",
-	"MiddleName": "",
-	"LastName": "Касанова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "4",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "2861",
+  "FirstName": "Асия",
+  "MiddleName": "",
+  "LastName": "Касанова",
+  "Time": 1,
+  "StartDate": "2018-11-22T00:00:00",
+  "BirthDate": "1990-10-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "4"
+    }
+  ]
 }

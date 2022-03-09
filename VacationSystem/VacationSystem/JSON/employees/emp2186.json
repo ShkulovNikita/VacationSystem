@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2186",
-	"FirstName": "Виктор",
-	"MiddleName": "Юрьевич",
-	"LastName": "Яковлев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "91"
-		}
-	]
+  "Id": "2186",
+  "FirstName": "Виктор",
+  "MiddleName": "Юрьевич",
+  "LastName": "Яковлев",
+  "Time": 1,
+  "StartDate": "1997-11-11T00:00:00",
+  "BirthDate": "1953-06-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "91",
+      "Department": "15"
+    }
+  ]
 }

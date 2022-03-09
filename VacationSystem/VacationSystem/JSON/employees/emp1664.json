@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1664",
-	"FirstName": "Оксана",
-	"MiddleName": "Васильевна",
-	"LastName": "Проскура",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "0"
-		}
-	]
+  "Id": "1664",
+  "FirstName": "Оксана",
+  "MiddleName": "Васильевна",
+  "LastName": "Проскура",
+  "Time": 0.5,
+  "StartDate": "2021-05-22T00:00:00",
+  "BirthDate": "1969-09-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "0",
+      "Department": "2"
+    }
+  ]
 }

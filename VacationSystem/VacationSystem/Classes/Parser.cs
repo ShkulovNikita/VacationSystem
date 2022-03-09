@@ -1,164 +1,172 @@
-﻿using System.Collections.Generic;
-using VacationSystem.Models;
+﻿using VacationSystem.Models;
+using VacationSystem.ApiClasses;
+using System.Collections.Generic;
 using System.Text.Json;
+using System.Diagnostics;
 using System;
-using VacationSystem.ParsingClasses;
 
 namespace VacationSystem.Classes
 {
-    public class Parser
+    /// <summary>
+    /// Класс, отвечающий за парсинг сообщений в формате JSON
+    /// во внутренние классы программы
+    /// </summary>
+    static public class Parser
     {
-        static public List<Holiday> ParseHolidays(string json)
+        /// <summary>
+        /// Парсинг ответа от API с информацией о сотруднике
+        /// </summary>
+        /// <param name="json">Строка JSON, полученная от API</param>
+        /// <returns>Сотрудник</returns>
+        static public Employee ParseEmployee(string json)
         {
             try
             {
-                CalendarHoliday data = JsonSerializer.Deserialize<CalendarHoliday>(json);
-
-                // массив с праздниками по календарю
-                List<Holiday> holidays = new List<Holiday>();
-
-                // получение из JSON всех периодов праздников
-                foreach (HolidayPeriod period in data.Holidays)
-                {
-                    Holiday hlday = new Holiday();
-
-                    if (period.Name != "null")
-                        hlday.Name = period.Name;
-                    else
-                        hlday.Name = null;
-
-                    hlday.StartDate = DateTime.Parse(period.StartDate);
-                    hlday.EndDate = DateTime.Parse(period.EndDate);
-
-                    holidays.Add(hlday);
-                }
-
-                return holidays;
+                Employee employee = JsonSerializer.Deserialize<Employee>(json);
+                return employee;
             }
-            catch (Exception e)
+            catch (Exception ex)
             {
-                Console.WriteLine(e.Message);
+                Debug.WriteLine(ex.Message);
                 return null;
             }
         }
 
-        static public EmployeeParsed ParseEmployee(string json) 
+        /// <summary>
+        /// Парсинг ответа от API со списком сотрудников
+        /// </summary>
+        /// <param name="json">Строка JSON, полученная от API</param>
+        /// <returns>Список сотрудников</returns>
+        static public List<Employee> ParseEmployees(string json)
         {
             try
             {
-                EmployeeParsed data = JsonSerializer.Deserialize<EmployeeParsed>(json);
-                return data;
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e.Message);
-                return null;
-            }
-        }
-
-        static public DepartmentParsed ParseDepartment(string json)
-        {
-            try
-            {
-                DepartmentParsed data = JsonSerializer.Deserialize<DepartmentParsed>(json);
-                return data;
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e.Message);
-                return null;
-            }
-        }
-
-        static public List<EmployeeInfo> ParseEmployeeList(string json)
-        {
-            try
-            {
-                EmployeeList data = JsonSerializer.Deserialize<EmployeeList>(json);
-
-                // получение списка сотрудников из ответа
-                List<EmployeeInfo> list = new List<EmployeeInfo>();
-
-                foreach (EmployeeInfo emp in data.Employees)
-                {
-                    list.Add(new EmployeeInfo
-                    {
-                        Id = emp.Id,
-                        Position = emp.Position,
-                        Head = emp.Head
-                    });
-                }
-
-                if (list.Count > 0)
-                    return list;
-                else
+                EmployeesList list = JsonSerializer.Deserialize<EmployeesList>(json);
+                if (list == null)
                     return null;
+
+                // проверка списка на пустоту
+                if (list.Employees == null)
+                    return new List<Employee>();
+
+                return new List<Employee>(list.Employees);
             }
-            catch (Exception e)
+            catch (Exception ex)
             {
-                Console.WriteLine(e.Message);
+                Debug.WriteLine(ex.Message);
                 return null;
             }
         }
 
-        static public List<PositionInfo> ParsePositionsList(string json)
+        /// <summary>
+        /// Парсинг ответа от API с данными о подразделении
+        /// </summary>
+        /// <param name="json">Строка JSON, полученная от API</param>
+        /// <returns>Подразделение</returns>
+        static public Department ParseDepartment(string json)
         {
             try
             {
-                PositionsList data = JsonSerializer.Deserialize<PositionsList>(json);
-
-                // получение списка должностей из ответа
-                List<PositionInfo> list = new List<PositionInfo>();
-
-                foreach(PositionInfo position in data.Positions)
-                {
-                    list.Add(new PositionInfo
-                    {
-                        Id = position.Id,
-                        Name = position.Name
-                    });
-                }
-
-                if (list.Count > 0)
-                    return list;
-                else
-                    return null;
+                Department dep = JsonSerializer.Deserialize<Department>(json);
+                return dep;
             }
-            catch (Exception e)
+            catch (Exception ex)
             {
-                Console.WriteLine(e.Message);
+                Debug.WriteLine(ex.Message);
                 return null;
             }
         }
 
-        static public List<DepartmentInfo> ParseDepartmentsList(string json)
+        /// <summary>
+        /// Парсинг ответа от API со списком подразделений
+        /// </summary>
+        /// <param name="json">Строка JSON, полученная от API</param>
+        /// <returns>Список подразделений</returns>
+        static public List<Department> ParseDepartments(string json)
         {
             try
             {
-                DepartmentsList data = JsonSerializer.Deserialize<DepartmentsList>(json);
-
-                // получение списка отделений из ответа
-                List<DepartmentInfo> list = new List<DepartmentInfo>();
-
-                foreach(DepartmentInfo dep in data.Departments)
-                {
-                    list.Add(new DepartmentInfo
-                    {
-                        Id = dep.Id,
-                        Name = dep.Name,
-                        Head = dep.Head,
-                        HeadDepId = dep.HeadDepId
-                    });
-                }
-
-                if (list.Count > 0)
-                    return list;
-                else
+                DepartmentsList list = JsonSerializer.Deserialize<DepartmentsList>(json);
+                if (list == null)
                     return null;
+
+                if (list.Departments == null)
+                    return new List<Department>();
+
+                return new List<Department>(list.Departments);
             }
-            catch (Exception e)
+            catch (Exception ex)
             {
-                Console.WriteLine(e.Message);
+                Debug.WriteLine(ex.Message);
+                return null;
+            }
+        }
+
+        /// <summary>
+        /// Парсинг ответа от API с данными о должности
+        /// </summary>
+        /// <param name="json">Строка JSON, полученная от API</param>
+        /// <returns>Должность</returns>
+        static public Position ParsePosition(string json)
+        {
+            try
+            {
+                Position position = JsonSerializer.Deserialize<Position>(json);
+                return position;
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return null;
+            }
+        }
+
+        /// <summary>
+        /// Парсинг ответа от API со списком должностей
+        /// </summary>
+        /// <param name="json">Строка JSON, полученная от API</param>
+        /// <returns>Список должностей</returns>
+        static public List<Position> ParsePositions(string json)
+        {
+            try
+            {
+                PositionsList list = JsonSerializer.Deserialize<PositionsList>(json);
+                if (list == null)
+                    return null;
+
+                if (list.Positions == null)
+                    return new List<Position>();
+
+                return new List<Position>(list.Positions);
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return null;
+            }
+        }
+
+        /// <summary>
+        /// Парсинг ответа от API со списком должностей в подразделениях
+        /// </summary>
+        /// <param name="json">Строка JSON, полученная от API</param>
+        /// <returns>Список должностей в подразделениях</returns>
+        static public List<PositionInDepartment> ParsePositionsInDepartments(string json)
+        {
+            try
+            {
+                PositionsInDepartments list = JsonSerializer.Deserialize<PositionsInDepartments>(json);
+                if (list == null)
+                    return null;
+
+                if (list.Positions == null)
+                    return new List<PositionInDepartment>();
+
+                return new List<PositionInDepartment>(list.Positions);
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
                 return null;
             }
         }

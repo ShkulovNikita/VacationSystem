@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1927",
-	"FirstName": "Елена",
-	"MiddleName": "Геннадьевна",
-	"LastName": "Волчек",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "18",
-			"HeadOfDepartment": false,
-			"Position": "10"
-		}
-	]
+  "Id": "1927",
+  "FirstName": "Елена",
+  "MiddleName": "Геннадьевна",
+  "LastName": "Волчек",
+  "Time": 1,
+  "StartDate": "1994-10-01T00:00:00",
+  "BirthDate": "1967-01-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "10",
+      "Department": "18"
+    }
+  ]
 }

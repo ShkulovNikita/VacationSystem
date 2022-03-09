@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3691",
-	"FirstName": "Анастасия",
-	"MiddleName": "Анатольевна",
-	"LastName": "Хустенко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "65",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		}
-	]
+  "Id": "3691",
+  "FirstName": "Анастасия",
+  "MiddleName": "Анатольевна",
+  "LastName": "Хустенко",
+  "Time": 0.5,
+  "StartDate": "2019-06-20T00:00:00",
+  "BirthDate": "1984-09-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "65"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "154",
-	"FirstName": "Антон",
-	"MiddleName": "Васильевич",
-	"LastName": "Черний",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "83",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "154",
+  "FirstName": "Антон",
+  "MiddleName": "Васильевич",
+  "LastName": "Черний",
+  "Time": 0.5,
+  "StartDate": "2010-12-17T00:00:00",
+  "BirthDate": "1989-04-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "83"
+    }
+  ]
 }

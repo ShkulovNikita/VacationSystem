@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "419",
-	"FirstName": "Елена",
-	"MiddleName": "Васильевна",
-	"LastName": "Богданова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "0"
-		}
-	]
+  "Id": "419",
+  "FirstName": "Елена",
+  "MiddleName": "Васильевна",
+  "LastName": "Богданова",
+  "Time": 1,
+  "StartDate": "2004-10-12T00:00:00",
+  "BirthDate": "1984-02-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "0",
+      "Department": "2"
+    }
+  ]
 }

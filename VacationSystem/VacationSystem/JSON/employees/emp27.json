@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "27",
-	"FirstName": "Нелли",
-	"MiddleName": "Оскаровна",
-	"LastName": "Котегова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "23",
-			"HeadOfDepartment": false,
-			"Position": "15"
-		}
-	]
+  "Id": "27",
+  "FirstName": "Нелли",
+  "MiddleName": "Оскаровна",
+  "LastName": "Котегова",
+  "Time": 1,
+  "StartDate": "2017-01-21T00:00:00",
+  "BirthDate": "1989-06-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "15",
+      "Department": "23"
+    }
+  ]
 }

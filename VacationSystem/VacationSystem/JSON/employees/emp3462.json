@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3462",
-	"FirstName": "Алина",
-	"MiddleName": "",
-	"LastName": "Маматова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "102",
-			"HeadOfDepartment": false,
-			"Position": "198"
-		}
-	]
+  "Id": "3462",
+  "FirstName": "Алина",
+  "MiddleName": "",
+  "LastName": "Маматова",
+  "Time": 0.5,
+  "StartDate": "2012-09-06T00:00:00",
+  "BirthDate": "1992-11-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "198",
+      "Department": "102"
+    }
+  ]
 }

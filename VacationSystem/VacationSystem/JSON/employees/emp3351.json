@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3351",
-	"FirstName": "Анна",
-	"MiddleName": "",
-	"LastName": "Ильчук",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		}
-	]
+  "Id": "3351",
+  "FirstName": "Анна",
+  "MiddleName": "",
+  "LastName": "Ильчук",
+  "Time": 1,
+  "StartDate": "2019-09-07T00:00:00",
+  "BirthDate": "1968-12-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "15"
+    }
+  ]
 }

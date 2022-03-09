@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3363",
-	"FirstName": "Алина",
-	"MiddleName": "Степановна",
-	"LastName": "Зайцева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "102",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "3363",
+  "FirstName": "Алина",
+  "MiddleName": "Степановна",
+  "LastName": "Зайцева",
+  "Time": 0.5,
+  "StartDate": "2017-05-18T00:00:00",
+  "BirthDate": "1986-08-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "102"
+    }
+  ]
 }

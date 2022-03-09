@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2099",
-	"FirstName": "Алексей",
-	"MiddleName": "Валентинович",
-	"LastName": "Дубровин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "2"
-		}
-	]
+  "Id": "2099",
+  "FirstName": "Алексей",
+  "MiddleName": "Валентинович",
+  "LastName": "Дубровин",
+  "Time": 1,
+  "StartDate": "2012-02-05T00:00:00",
+  "BirthDate": "1980-12-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "2",
+      "Department": "2"
+    }
+  ]
 }

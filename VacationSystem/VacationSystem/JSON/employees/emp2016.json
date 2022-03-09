@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2016",
-	"FirstName": "Артем",
-	"MiddleName": "Викторович",
-	"LastName": "Обходский",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "17",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "2016",
+  "FirstName": "Артем",
+  "MiddleName": "Викторович",
+  "LastName": "Обходский",
+  "Time": 1,
+  "StartDate": "2018-05-06T00:00:00",
+  "BirthDate": "1992-05-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "17"
+    }
+  ]
 }

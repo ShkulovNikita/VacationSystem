@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "542",
-	"FirstName": "Юлия",
-	"MiddleName": "Владимировна",
-	"LastName": "Рейхерт",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "150",
-			"HeadOfDepartment": false,
-			"Position": "107"
-		}
-	]
+  "Id": "542",
+  "FirstName": "Юлия",
+  "MiddleName": "Владимировна",
+  "LastName": "Рейхерт",
+  "Time": 0.5,
+  "StartDate": "2001-12-16T00:00:00",
+  "BirthDate": "1975-10-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "107",
+      "Department": "150"
+    }
+  ]
 }

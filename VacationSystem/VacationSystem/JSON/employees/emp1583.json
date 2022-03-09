@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1583",
-	"FirstName": "Людмила",
-	"MiddleName": "Анатольевна",
-	"LastName": "Мисник",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "9",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "1583",
+  "FirstName": "Людмила",
+  "MiddleName": "Анатольевна",
+  "LastName": "Мисник",
+  "Time": 1,
+  "StartDate": "1974-07-18T00:00:00",
+  "BirthDate": "1953-02-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "9"
+    }
+  ]
 }

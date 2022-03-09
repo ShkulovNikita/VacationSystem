@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3722",
-	"FirstName": "Сахил",
-	"MiddleName": "",
-	"LastName": "Гарг",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "254",
-			"HeadOfDepartment": false,
-			"Position": "24"
-		}
-	]
+  "Id": "3722",
+  "FirstName": "Сахил",
+  "MiddleName": "",
+  "LastName": "Гарг",
+  "Time": 1,
+  "StartDate": "1983-04-03T00:00:00",
+  "BirthDate": "1957-07-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "24",
+      "Department": "254"
+    }
+  ]
 }

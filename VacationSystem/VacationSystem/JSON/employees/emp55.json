@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "55",
-	"FirstName": "Антон",
-	"MiddleName": "Александрович",
-	"LastName": "Чигорко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "35",
-			"HeadOfDepartment": false,
-			"Position": "11"
-		}
-	]
+  "Id": "55",
+  "FirstName": "Антон",
+  "MiddleName": "Александрович",
+  "LastName": "Чигорко",
+  "Time": 0.5,
+  "StartDate": "2010-06-22T00:00:00",
+  "BirthDate": "1964-03-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "11",
+      "Department": "35"
+    }
+  ]
 }

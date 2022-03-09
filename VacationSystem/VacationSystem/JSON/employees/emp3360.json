@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3360",
-	"FirstName": "Татьяна",
-	"MiddleName": "Владимировна",
-	"LastName": "Исаева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "218",
-			"HeadOfDepartment": false,
-			"Position": "10"
-		}
-	]
+  "Id": "3360",
+  "FirstName": "Татьяна",
+  "MiddleName": "Владимировна",
+  "LastName": "Исаева",
+  "Time": 1,
+  "StartDate": "2009-06-05T00:00:00",
+  "BirthDate": "1984-02-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "10",
+      "Department": "218"
+    }
+  ]
 }

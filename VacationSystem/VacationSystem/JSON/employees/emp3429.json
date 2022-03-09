@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3429",
-	"FirstName": "Кристина",
-	"MiddleName": "Алексеевна",
-	"LastName": "Путинцева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "102",
-			"HeadOfDepartment": false,
-			"Position": "198"
-		}
-	]
+  "Id": "3429",
+  "FirstName": "Кристина",
+  "MiddleName": "Алексеевна",
+  "LastName": "Путинцева",
+  "Time": 1,
+  "StartDate": "1994-08-08T00:00:00",
+  "BirthDate": "1961-12-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "198",
+      "Department": "102"
+    }
+  ]
 }

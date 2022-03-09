@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "913",
-	"FirstName": "Любовь",
-	"MiddleName": "Никифоровна",
-	"LastName": "Мурашова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "6",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "913",
+  "FirstName": "Любовь",
+  "MiddleName": "Никифоровна",
+  "LastName": "Мурашова",
+  "Time": 0.5,
+  "StartDate": "2014-03-05T00:00:00",
+  "BirthDate": "1956-06-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "6"
+    }
+  ]
 }

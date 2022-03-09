@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "274",
-	"FirstName": "Светлана",
-	"MiddleName": "Анатольевна",
-	"LastName": "Коленчук",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "93",
-			"HeadOfDepartment": false,
-			"Position": "70"
-		}
-	]
+  "Id": "274",
+  "FirstName": "Светлана",
+  "MiddleName": "Анатольевна",
+  "LastName": "Коленчук",
+  "Time": 1,
+  "StartDate": "1983-03-22T00:00:00",
+  "BirthDate": "1963-05-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "70",
+      "Department": "93"
+    }
+  ]
 }

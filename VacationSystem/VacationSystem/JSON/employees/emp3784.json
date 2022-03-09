@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3784",
-	"FirstName": "Екатерина",
-	"MiddleName": "Павловна",
-	"LastName": "Изотова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "207",
-			"HeadOfDepartment": false,
-			"Position": "157"
-		}
-	]
+  "Id": "3784",
+  "FirstName": "Екатерина",
+  "MiddleName": "Павловна",
+  "LastName": "Изотова",
+  "Time": 1,
+  "StartDate": "2011-09-01T00:00:00",
+  "BirthDate": "1982-05-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "157",
+      "Department": "207"
+    }
+  ]
 }

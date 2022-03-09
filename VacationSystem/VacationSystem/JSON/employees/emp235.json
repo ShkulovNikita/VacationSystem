@@ -1,19 +1,15 @@
 ﻿{
-	"Id": "235",
-	"FirstName": "Екатерина",
-	"MiddleName": "Сергеевна",
-	"LastName": "Чернякова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "36",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		},
-		{
-			"Id": "36",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "235",
+  "FirstName": "Екатерина",
+  "MiddleName": "Сергеевна",
+  "LastName": "Чернякова",
+  "Time": 1,
+  "StartDate": "2011-09-20T00:00:00",
+  "BirthDate": "1989-04-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "36"
+    }
+  ]
 }

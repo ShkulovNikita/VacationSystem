@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "588",
-	"FirstName": "Анна",
-	"MiddleName": "Александровна",
-	"LastName": "Садовская",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "99",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "588",
+  "FirstName": "Анна",
+  "MiddleName": "Александровна",
+  "LastName": "Садовская",
+  "Time": 0.5,
+  "StartDate": "1989-02-06T00:00:00",
+  "BirthDate": "1961-06-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "99"
+    }
+  ]
 }

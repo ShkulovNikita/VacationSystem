@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2222",
-	"FirstName": "Юрий",
-	"MiddleName": "Владимирович",
-	"LastName": "Цыганков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "26",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		}
-	]
+  "Id": "2222",
+  "FirstName": "Юрий",
+  "MiddleName": "Владимирович",
+  "LastName": "Цыганков",
+  "Time": 1,
+  "StartDate": "2014-06-06T00:00:00",
+  "BirthDate": "1984-06-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "26"
+    }
+  ]
 }

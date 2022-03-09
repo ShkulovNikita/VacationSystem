@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2751",
-	"FirstName": "Ольга",
-	"MiddleName": "Дмитриевна",
-	"LastName": "Брагина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "192",
-			"HeadOfDepartment": false,
-			"Position": "24"
-		}
-	]
+  "Id": "2751",
+  "FirstName": "Ольга",
+  "MiddleName": "Дмитриевна",
+  "LastName": "Брагина",
+  "Time": 1,
+  "StartDate": "2016-06-01T00:00:00",
+  "BirthDate": "1959-12-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "24",
+      "Department": "192"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "467",
-	"FirstName": "Наталья",
-	"MiddleName": "Алексеевна",
-	"LastName": "Антропова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "46",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "467",
+  "FirstName": "Наталья",
+  "MiddleName": "Алексеевна",
+  "LastName": "Антропова",
+  "Time": 0.5,
+  "StartDate": "2012-01-11T00:00:00",
+  "BirthDate": "1983-07-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "46"
+    }
+  ]
 }

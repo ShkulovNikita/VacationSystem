@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "345",
-	"FirstName": "Игорь",
-	"MiddleName": "Петрович",
-	"LastName": "Денисов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "2"
-		}
-	]
+  "Id": "345",
+  "FirstName": "Игорь",
+  "MiddleName": "Петрович",
+  "LastName": "Денисов",
+  "Time": 0.5,
+  "StartDate": "1995-08-07T00:00:00",
+  "BirthDate": "1966-09-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "2",
+      "Department": "15"
+    }
+  ]
 }

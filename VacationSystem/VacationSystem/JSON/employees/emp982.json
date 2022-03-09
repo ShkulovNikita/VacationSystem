@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "982",
-	"FirstName": "Ольга",
-	"MiddleName": "Юрьевна",
-	"LastName": "Харченко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "136",
-			"HeadOfDepartment": false,
-			"Position": "142"
-		}
-	]
+  "Id": "982",
+  "FirstName": "Ольга",
+  "MiddleName": "Юрьевна",
+  "LastName": "Харченко",
+  "Time": 1,
+  "StartDate": "2012-09-01T00:00:00",
+  "BirthDate": "1979-04-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "142",
+      "Department": "136"
+    }
+  ]
 }

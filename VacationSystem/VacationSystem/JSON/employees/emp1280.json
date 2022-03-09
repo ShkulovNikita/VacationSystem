@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1280",
-	"FirstName": "Лариса",
-	"MiddleName": "Юрьевна",
-	"LastName": "Попова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "64",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "1280",
+  "FirstName": "Лариса",
+  "MiddleName": "Юрьевна",
+  "LastName": "Попова",
+  "Time": 0.5,
+  "StartDate": "2005-01-14T00:00:00",
+  "BirthDate": "1976-01-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "64"
+    }
+  ]
 }

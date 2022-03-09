@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3776",
-	"FirstName": "Наталья",
-	"MiddleName": "Михайловна",
-	"LastName": "Агалакова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "196",
-			"HeadOfDepartment": false,
-			"Position": "14"
-		}
-	]
+  "Id": "3776",
+  "FirstName": "Наталья",
+  "MiddleName": "Михайловна",
+  "LastName": "Агалакова",
+  "Time": 0.5,
+  "StartDate": "2015-10-06T00:00:00",
+  "BirthDate": "1987-12-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "14",
+      "Department": "196"
+    }
+  ]
 }

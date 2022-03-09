@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "1676",
-	"FirstName": "Лилия",
-	"MiddleName": "Рашидовна",
-	"LastName": "Меринова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "16",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		},
-		{
-			"Id": "64",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "1676",
+  "FirstName": "Лилия",
+  "MiddleName": "Рашидовна",
+  "LastName": "Меринова",
+  "Time": 2,
+  "StartDate": "2017-01-15T00:00:00",
+  "BirthDate": "1992-01-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "16"
+    },
+    {
+      "Position": "3",
+      "Department": "64"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3236",
-	"FirstName": "Елена",
-	"MiddleName": "Владимировна",
-	"LastName": "Черкасова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "34",
-			"HeadOfDepartment": false,
-			"Position": "264"
-		}
-	]
+  "Id": "3236",
+  "FirstName": "Елена",
+  "MiddleName": "Владимировна",
+  "LastName": "Черкасова",
+  "Time": 1,
+  "StartDate": "2016-11-12T00:00:00",
+  "BirthDate": "1983-03-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "264",
+      "Department": "34"
+    }
+  ]
 }

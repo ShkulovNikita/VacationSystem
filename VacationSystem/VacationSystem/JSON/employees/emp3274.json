@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3274",
-	"FirstName": "Юлия",
-	"MiddleName": "Анатольевна",
-	"LastName": "Шанина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "107",
-			"HeadOfDepartment": false,
-			"Position": "73"
-		}
-	]
+  "Id": "3274",
+  "FirstName": "Юлия",
+  "MiddleName": "Анатольевна",
+  "LastName": "Шанина",
+  "Time": 0.5,
+  "StartDate": "2008-11-17T00:00:00",
+  "BirthDate": "1979-12-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "73",
+      "Department": "107"
+    }
+  ]
 }

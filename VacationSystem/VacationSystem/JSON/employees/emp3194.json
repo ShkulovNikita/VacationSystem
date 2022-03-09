@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3194",
-	"FirstName": "Таисия",
-	"MiddleName": "Александровна",
-	"LastName": "Саитова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "107",
-			"HeadOfDepartment": false,
-			"Position": "262"
-		}
-	]
+  "Id": "3194",
+  "FirstName": "Таисия",
+  "MiddleName": "Александровна",
+  "LastName": "Саитова",
+  "Time": 1,
+  "StartDate": "2016-04-22T00:00:00",
+  "BirthDate": "1973-07-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "262",
+      "Department": "107"
+    }
+  ]
 }

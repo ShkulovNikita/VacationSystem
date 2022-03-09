@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2670",
-	"FirstName": "Надежда",
-	"MiddleName": "Анатольевна",
-	"LastName": "Ивлева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "142",
-			"HeadOfDepartment": false,
-			"Position": "187"
-		}
-	]
+  "Id": "2670",
+  "FirstName": "Надежда",
+  "MiddleName": "Анатольевна",
+  "LastName": "Ивлева",
+  "Time": 1,
+  "StartDate": "2014-03-22T00:00:00",
+  "BirthDate": "1985-02-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "187",
+      "Department": "142"
+    }
+  ]
 }

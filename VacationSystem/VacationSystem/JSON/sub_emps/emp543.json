@@ -1,0 +1,19 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "543",
+      "FirstName": "Александр",
+      "MiddleName": "Викторович",
+      "LastName": "Ремнев",
+      "Time": 1,
+      "StartDate": "1980-03-02T00:00:00",
+      "BirthDate": "1953-02-22T00:00:00",
+      "Positions": [
+        {
+          "Position": "64",
+          "Department": "151"
+        }
+      ]
+    }
+  ]
+}

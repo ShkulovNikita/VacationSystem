@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "430",
-	"FirstName": "Валерий",
-	"MiddleName": "Николаевич",
-	"LastName": "Арбузов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "46",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "430",
+  "FirstName": "Валерий",
+  "MiddleName": "Николаевич",
+  "LastName": "Арбузов",
+  "Time": 0.5,
+  "StartDate": "2018-04-03T00:00:00",
+  "BirthDate": "1990-07-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "46"
+    }
+  ]
 }

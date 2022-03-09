@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3161",
-	"FirstName": "Дарья",
-	"MiddleName": "Вячеславовна",
-	"LastName": "Чекменёва",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "127",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		}
-	]
+  "Id": "3161",
+  "FirstName": "Дарья",
+  "MiddleName": "Вячеславовна",
+  "LastName": "Чекменёва",
+  "Time": 0.5,
+  "StartDate": "2000-09-06T00:00:00",
+  "BirthDate": "1960-10-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "127"
+    }
+  ]
 }

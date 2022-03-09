@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "362",
-	"FirstName": "Елена",
-	"MiddleName": "Анатольевна",
-	"LastName": "Заева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "61",
-			"HeadOfDepartment": false,
-			"Position": "10"
-		}
-	]
+  "Id": "362",
+  "FirstName": "Елена",
+  "MiddleName": "Анатольевна",
+  "LastName": "Заева",
+  "Time": 0.5,
+  "StartDate": "1990-12-14T00:00:00",
+  "BirthDate": "1956-12-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "10",
+      "Department": "61"
+    }
+  ]
 }

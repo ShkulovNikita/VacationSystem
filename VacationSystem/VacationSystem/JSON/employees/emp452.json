@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "452",
-	"FirstName": "Элла",
-	"MiddleName": "Эдуардовна",
-	"LastName": "Жирова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "140",
-			"HeadOfDepartment": false,
-			"Position": "98"
-		}
-	]
+  "Id": "452",
+  "FirstName": "Элла",
+  "MiddleName": "Эдуардовна",
+  "LastName": "Жирова",
+  "Time": 1,
+  "StartDate": "1983-01-10T00:00:00",
+  "BirthDate": "1954-03-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "98",
+      "Department": "140"
+    }
+  ]
 }

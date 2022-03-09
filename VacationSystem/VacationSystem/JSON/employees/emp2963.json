@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2963",
-	"FirstName": "Вера",
-	"MiddleName": "Сергеевна",
-	"LastName": "Ефимова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "9",
-			"HeadOfDepartment": false,
-			"Position": "18"
-		}
-	]
+  "Id": "2963",
+  "FirstName": "Вера",
+  "MiddleName": "Сергеевна",
+  "LastName": "Ефимова",
+  "Time": 1,
+  "StartDate": "1999-04-07T00:00:00",
+  "BirthDate": "1952-10-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "18",
+      "Department": "9"
+    }
+  ]
 }

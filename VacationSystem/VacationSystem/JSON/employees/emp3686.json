@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3686",
-	"FirstName": "Алина",
-	"MiddleName": "Юрьевна",
-	"LastName": "Герасимова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "124",
-			"HeadOfDepartment": false,
-			"Position": "21"
-		}
-	]
+  "Id": "3686",
+  "FirstName": "Алина",
+  "MiddleName": "Юрьевна",
+  "LastName": "Герасимова",
+  "Time": 1,
+  "StartDate": "2013-07-24T00:00:00",
+  "BirthDate": "1974-12-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "21",
+      "Department": "124"
+    }
+  ]
 }

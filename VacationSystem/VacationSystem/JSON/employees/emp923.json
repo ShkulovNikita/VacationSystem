@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "923",
-	"FirstName": "Александр",
-	"MiddleName": "Иванович",
-	"LastName": "Чепрасов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "57",
-			"HeadOfDepartment": false,
-			"Position": "18"
-		}
-	]
+  "Id": "923",
+  "FirstName": "Александр",
+  "MiddleName": "Иванович",
+  "LastName": "Чепрасов",
+  "Time": 0.5,
+  "StartDate": "2013-08-24T00:00:00",
+  "BirthDate": "1987-01-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "18",
+      "Department": "57"
+    }
+  ]
 }

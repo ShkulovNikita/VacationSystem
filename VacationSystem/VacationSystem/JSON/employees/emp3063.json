@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3063",
-	"FirstName": "Татьяна",
-	"MiddleName": "Николаевна",
-	"LastName": "Коробова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "187",
-			"HeadOfDepartment": false,
-			"Position": "114"
-		}
-	]
+  "Id": "3063",
+  "FirstName": "Татьяна",
+  "MiddleName": "Николаевна",
+  "LastName": "Коробова",
+  "Time": 0.5,
+  "StartDate": "2008-12-18T00:00:00",
+  "BirthDate": "1972-12-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "114",
+      "Department": "187"
+    }
+  ]
 }

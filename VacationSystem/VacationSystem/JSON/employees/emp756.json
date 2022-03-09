@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "756",
-	"FirstName": "Оксана",
-	"MiddleName": "Валерьевна",
-	"LastName": "Лопатина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "119",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		}
-	]
+  "Id": "756",
+  "FirstName": "Оксана",
+  "MiddleName": "Валерьевна",
+  "LastName": "Лопатина",
+  "Time": 1,
+  "StartDate": "1988-02-12T00:00:00",
+  "BirthDate": "1954-08-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "119"
+    }
+  ]
 }

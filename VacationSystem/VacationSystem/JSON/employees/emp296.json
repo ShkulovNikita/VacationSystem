@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "296",
-	"FirstName": "Максим",
-	"MiddleName": "Павлович",
-	"LastName": "Шешиков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "79",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "296",
+  "FirstName": "Максим",
+  "MiddleName": "Павлович",
+  "LastName": "Шешиков",
+  "Time": 0.5,
+  "StartDate": "2013-05-05T00:00:00",
+  "BirthDate": "1991-01-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "79"
+    }
+  ]
 }

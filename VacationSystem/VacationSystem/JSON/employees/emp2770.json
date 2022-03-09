@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "2770",
-	"FirstName": "Нельсон Энрике",
-	"MiddleName": "",
-	"LastName": "Вилья Пинеда",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "175",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		},
-		{
-			"Id": "175",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		}
-	]
+  "Id": "2770",
+  "FirstName": "Нельсон Энрике",
+  "MiddleName": "",
+  "LastName": "Вилья Пинеда",
+  "Time": 1,
+  "StartDate": "2017-11-21T00:00:00",
+  "BirthDate": "1985-12-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "175"
+    },
+    {
+      "Position": "5",
+      "Department": "175"
+    }
+  ]
 }

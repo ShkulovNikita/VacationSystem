@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3471",
-	"FirstName": "Сергей",
-	"MiddleName": "Владимирович",
-	"LastName": "Синявский",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "188",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "3471",
+  "FirstName": "Сергей",
+  "MiddleName": "Владимирович",
+  "LastName": "Синявский",
+  "Time": 1,
+  "StartDate": "2005-08-23T00:00:00",
+  "BirthDate": "1962-12-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "188"
+    }
+  ]
 }

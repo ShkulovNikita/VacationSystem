@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3139",
-	"FirstName": "Валерий",
-	"MiddleName": "Михайлович",
-	"LastName": "Завьялов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "19",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "3139",
+  "FirstName": "Валерий",
+  "MiddleName": "Михайлович",
+  "LastName": "Завьялов",
+  "Time": 1,
+  "StartDate": "1979-01-23T00:00:00",
+  "BirthDate": "1959-09-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "19"
+    }
+  ]
 }

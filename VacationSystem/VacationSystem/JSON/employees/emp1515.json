@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1515",
-	"FirstName": "Иван",
-	"MiddleName": "Николаевич",
-	"LastName": "Григоров",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "72",
-			"HeadOfDepartment": false,
-			"Position": "183"
-		}
-	]
+  "Id": "1515",
+  "FirstName": "Иван",
+  "MiddleName": "Николаевич",
+  "LastName": "Григоров",
+  "Time": 0.5,
+  "StartDate": "2008-02-07T00:00:00",
+  "BirthDate": "1984-09-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "183",
+      "Department": "72"
+    }
+  ]
 }

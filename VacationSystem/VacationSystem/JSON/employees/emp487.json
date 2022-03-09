@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "487",
-	"FirstName": "Елена",
-	"MiddleName": "Львовна",
-	"LastName": "Бойцова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "17",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "487",
+  "FirstName": "Елена",
+  "MiddleName": "Львовна",
+  "LastName": "Бойцова",
+  "Time": 1,
+  "StartDate": "2013-02-14T00:00:00",
+  "BirthDate": "1993-01-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "17"
+    }
+  ]
 }

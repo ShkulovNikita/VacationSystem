@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "994",
-	"FirstName": "Ольга",
-	"MiddleName": "Викторовна",
-	"LastName": "Клименко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "27",
-			"HeadOfDepartment": false,
-			"Position": "7"
-		}
-	]
+  "Id": "994",
+  "FirstName": "Ольга",
+  "MiddleName": "Викторовна",
+  "LastName": "Клименко",
+  "Time": 0.5,
+  "StartDate": "2005-01-04T00:00:00",
+  "BirthDate": "1982-01-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "7",
+      "Department": "27"
+    }
+  ]
 }

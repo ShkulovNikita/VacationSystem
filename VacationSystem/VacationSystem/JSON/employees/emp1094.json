@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1094",
-	"FirstName": "Виктор",
-	"MiddleName": "Адамович",
-	"LastName": "Лось",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "59",
-			"HeadOfDepartment": false,
-			"Position": "32"
-		}
-	]
+  "Id": "1094",
+  "FirstName": "Виктор",
+  "MiddleName": "Адамович",
+  "LastName": "Лось",
+  "Time": 0.5,
+  "StartDate": "1993-09-10T00:00:00",
+  "BirthDate": "1969-09-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "32",
+      "Department": "59"
+    }
+  ]
 }

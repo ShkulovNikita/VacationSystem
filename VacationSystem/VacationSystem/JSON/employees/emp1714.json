@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1714",
-	"FirstName": "Роберт",
-	"MiddleName": "Игоревич",
-	"LastName": "Лейсле",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "170",
-			"HeadOfDepartment": false,
-			"Position": "185"
-		}
-	]
+  "Id": "1714",
+  "FirstName": "Роберт",
+  "MiddleName": "Игоревич",
+  "LastName": "Лейсле",
+  "Time": 1,
+  "StartDate": "2019-07-22T00:00:00",
+  "BirthDate": "1991-03-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "185",
+      "Department": "170"
+    }
+  ]
 }

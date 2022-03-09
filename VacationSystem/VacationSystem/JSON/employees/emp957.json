@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "957",
-	"FirstName": "Виктор",
-	"MiddleName": "Павлович",
-	"LastName": "Игнатов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "4",
-			"HeadOfDepartment": false,
-			"Position": "2"
-		}
-	]
+  "Id": "957",
+  "FirstName": "Виктор",
+  "MiddleName": "Павлович",
+  "LastName": "Игнатов",
+  "Time": 1,
+  "StartDate": "2009-08-20T00:00:00",
+  "BirthDate": "1974-04-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "2",
+      "Department": "4"
+    }
+  ]
 }

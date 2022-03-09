@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1191",
-	"FirstName": "Ксения",
-	"MiddleName": "Константиновна",
-	"LastName": "Зайцева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "71",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1191",
+  "FirstName": "Ксения",
+  "MiddleName": "Константиновна",
+  "LastName": "Зайцева",
+  "Time": 1,
+  "StartDate": "1997-08-12T00:00:00",
+  "BirthDate": "1963-07-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "71"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3676",
-	"FirstName": "Варвара",
-	"MiddleName": "Васильевна",
-	"LastName": "Неверова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "103",
-			"HeadOfDepartment": false,
-			"Position": "138"
-		}
-	]
+  "Id": "3676",
+  "FirstName": "Варвара",
+  "MiddleName": "Васильевна",
+  "LastName": "Неверова",
+  "Time": 0.5,
+  "StartDate": "2012-05-23T00:00:00",
+  "BirthDate": "1980-09-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "138",
+      "Department": "103"
+    }
+  ]
 }

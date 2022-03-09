@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1112",
-	"FirstName": "Юрий",
-	"MiddleName": "Иванович",
-	"LastName": "Тюрин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "53",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "1112",
+  "FirstName": "Юрий",
+  "MiddleName": "Иванович",
+  "LastName": "Тюрин",
+  "Time": 0.5,
+  "StartDate": "1994-05-10T00:00:00",
+  "BirthDate": "1963-06-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "53"
+    }
+  ]
 }

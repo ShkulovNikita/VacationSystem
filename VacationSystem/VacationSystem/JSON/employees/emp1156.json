@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "1156",
-	"FirstName": "Мария",
-	"MiddleName": "Сергеевна",
-	"LastName": "Кухта",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		},
-		{
-			"Id": "6",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "1156",
+  "FirstName": "Мария",
+  "MiddleName": "Сергеевна",
+  "LastName": "Кухта",
+  "Time": 1,
+  "StartDate": "1983-07-09T00:00:00",
+  "BirthDate": "1956-04-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "15"
+    },
+    {
+      "Position": "13",
+      "Department": "6"
+    }
+  ]
 }

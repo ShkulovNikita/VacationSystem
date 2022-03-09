@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "523",
-	"FirstName": "Андрей",
-	"MiddleName": "Иванович",
-	"LastName": "Воробьев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "26",
-			"HeadOfDepartment": false,
-			"Position": "2"
-		}
-	]
+  "Id": "523",
+  "FirstName": "Андрей",
+  "MiddleName": "Иванович",
+  "LastName": "Воробьев",
+  "Time": 0.5,
+  "StartDate": "2019-12-16T00:00:00",
+  "BirthDate": "1990-08-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "2",
+      "Department": "26"
+    }
+  ]
 }

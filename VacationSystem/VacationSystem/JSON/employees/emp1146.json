@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1146",
-	"FirstName": "Галия",
-	"MiddleName": "Сейтжановна",
-	"LastName": "Искакова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "47",
-			"HeadOfDepartment": false,
-			"Position": "30"
-		}
-	]
+  "Id": "1146",
+  "FirstName": "Галия",
+  "MiddleName": "Сейтжановна",
+  "LastName": "Искакова",
+  "Time": 0.5,
+  "StartDate": "2021-11-05T00:00:00",
+  "BirthDate": "1977-04-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "30",
+      "Department": "47"
+    }
+  ]
 }

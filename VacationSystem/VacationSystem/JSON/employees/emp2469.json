@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2469",
-	"FirstName": "Евгений",
-	"MiddleName": "Михайлович",
-	"LastName": "Матвеев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "122",
-			"HeadOfDepartment": false,
-			"Position": "103"
-		}
-	]
+  "Id": "2469",
+  "FirstName": "Евгений",
+  "MiddleName": "Михайлович",
+  "LastName": "Матвеев",
+  "Time": 1,
+  "StartDate": "1994-07-11T00:00:00",
+  "BirthDate": "1969-09-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "103",
+      "Department": "122"
+    }
+  ]
 }

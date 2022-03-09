@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "2543",
-	"FirstName": "Сергей",
-	"MiddleName": "Петрович",
-	"LastName": "Журавков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "102",
-			"HeadOfDepartment": false,
-			"Position": "41"
-		},
-		{
-			"Id": "17",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "2543",
+  "FirstName": "Сергей",
+  "MiddleName": "Петрович",
+  "LastName": "Журавков",
+  "Time": 1,
+  "StartDate": "2018-11-05T00:00:00",
+  "BirthDate": "1953-04-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "41",
+      "Department": "102"
+    },
+    {
+      "Position": "1",
+      "Department": "17"
+    }
+  ]
 }

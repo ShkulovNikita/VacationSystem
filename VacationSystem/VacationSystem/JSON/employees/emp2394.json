@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2394",
-	"FirstName": "Сергей",
-	"MiddleName": "Владимирович",
-	"LastName": "Чахлов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "193",
-			"HeadOfDepartment": false,
-			"Position": "2"
-		}
-	]
+  "Id": "2394",
+  "FirstName": "Сергей",
+  "MiddleName": "Владимирович",
+  "LastName": "Чахлов",
+  "Time": 1,
+  "StartDate": "2010-11-11T00:00:00",
+  "BirthDate": "1980-05-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "2",
+      "Department": "193"
+    }
+  ]
 }

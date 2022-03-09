@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2769",
-	"FirstName": "Дмитрий",
-	"MiddleName": "Сергеевич",
-	"LastName": "Шевченко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "10"
-		}
-	]
+  "Id": "2769",
+  "FirstName": "Дмитрий",
+  "MiddleName": "Сергеевич",
+  "LastName": "Шевченко",
+  "Time": 1,
+  "StartDate": "2013-07-08T00:00:00",
+  "BirthDate": "1966-07-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "10",
+      "Department": "2"
+    }
+  ]
 }

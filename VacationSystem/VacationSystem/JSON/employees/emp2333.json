@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "2333",
-	"FirstName": "Татьяна",
-	"MiddleName": "Иосифовна",
-	"LastName": "Щукина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "191",
-			"HeadOfDepartment": false,
-			"Position": "196"
-		},
-		{
-			"Id": "51",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "2333",
+  "FirstName": "Татьяна",
+  "MiddleName": "Иосифовна",
+  "LastName": "Щукина",
+  "Time": 2,
+  "StartDate": "2013-11-01T00:00:00",
+  "BirthDate": "1985-05-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "196",
+      "Department": "191"
+    },
+    {
+      "Position": "3",
+      "Department": "51"
+    }
+  ]
 }

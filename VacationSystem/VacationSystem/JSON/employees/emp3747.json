@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3747",
-	"FirstName": "Петр",
-	"MiddleName": "Михайлович",
-	"LastName": "Елецкий",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "39",
-			"HeadOfDepartment": false,
-			"Position": "24"
-		}
-	]
+  "Id": "3747",
+  "FirstName": "Петр",
+  "MiddleName": "Михайлович",
+  "LastName": "Елецкий",
+  "Time": 0.5,
+  "StartDate": "2021-04-10T00:00:00",
+  "BirthDate": "1985-05-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "24",
+      "Department": "39"
+    }
+  ]
 }

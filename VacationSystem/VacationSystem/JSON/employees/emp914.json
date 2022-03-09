@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "914",
-	"FirstName": "Елена",
-	"MiddleName": "Аркадьевна",
-	"LastName": "Трифонова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "9",
-			"HeadOfDepartment": false,
-			"Position": "18"
-		}
-	]
+  "Id": "914",
+  "FirstName": "Елена",
+  "MiddleName": "Аркадьевна",
+  "LastName": "Трифонова",
+  "Time": 1,
+  "StartDate": "1980-03-02T00:00:00",
+  "BirthDate": "1954-07-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "18",
+      "Department": "9"
+    }
+  ]
 }

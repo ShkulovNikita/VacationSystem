@@ -1,0 +1,64 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "452",
+      "FirstName": "Элла",
+      "MiddleName": "Эдуардовна",
+      "LastName": "Жирова",
+      "Time": 1,
+      "StartDate": "1983-01-10T00:00:00",
+      "BirthDate": "1954-03-12T00:00:00",
+      "Positions": [
+        {
+          "Position": "98",
+          "Department": "140"
+        }
+      ]
+    },
+    {
+      "Id": "1284",
+      "FirstName": "Григорий",
+      "MiddleName": "Павлович",
+      "LastName": "Казьмин",
+      "Time": 0.5,
+      "StartDate": "1986-02-12T00:00:00",
+      "BirthDate": "1959-08-02T00:00:00",
+      "Positions": [
+        {
+          "Position": "163",
+          "Department": "140"
+        }
+      ]
+    },
+    {
+      "Id": "2739",
+      "FirstName": "Наталия",
+      "MiddleName": "Александровна",
+      "LastName": "Матвиенко",
+      "Time": 1,
+      "StartDate": "1995-07-17T00:00:00",
+      "BirthDate": "1974-09-24T00:00:00",
+      "Positions": [
+        {
+          "Position": "9",
+          "Department": "140"
+        }
+      ]
+    },
+    {
+      "Id": "3348",
+      "FirstName": "Станислав",
+      "MiddleName": "Юрьевич",
+      "LastName": "Глушков",
+      "Time": 0.5,
+      "StartDate": "2003-02-24T00:00:00",
+      "BirthDate": "1958-09-23T00:00:00",
+      "Positions": [
+        {
+          "Position": "275",
+          "Department": "140"
+        }
+      ]
+    }
+  ]
+}

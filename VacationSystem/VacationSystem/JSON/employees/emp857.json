@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "857",
-	"FirstName": "Владимир",
-	"MiddleName": "Федорович",
-	"LastName": "Пичугин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "32",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		},
-		{
-			"Id": "56",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "857",
+  "FirstName": "Владимир",
+  "MiddleName": "Федорович",
+  "LastName": "Пичугин",
+  "Time": 1.5,
+  "StartDate": "2020-04-21T00:00:00",
+  "BirthDate": "1990-08-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "32"
+    },
+    {
+      "Position": "13",
+      "Department": "56"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1184",
-	"FirstName": "Светлана",
-	"MiddleName": "Ивановна",
-	"LastName": "Каменева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "199",
-			"HeadOfDepartment": false,
-			"Position": "154"
-		}
-	]
+  "Id": "1184",
+  "FirstName": "Светлана",
+  "MiddleName": "Ивановна",
+  "LastName": "Каменева",
+  "Time": 1,
+  "StartDate": "2019-11-20T00:00:00",
+  "BirthDate": "1987-05-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "154",
+      "Department": "199"
+    }
+  ]
 }

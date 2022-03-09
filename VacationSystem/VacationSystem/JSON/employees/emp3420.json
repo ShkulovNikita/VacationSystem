@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3420",
-	"FirstName": "Николай",
-	"MiddleName": "Викторович",
-	"LastName": "Антоненко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "52",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "3420",
+  "FirstName": "Николай",
+  "MiddleName": "Викторович",
+  "LastName": "Антоненко",
+  "Time": 0.5,
+  "StartDate": "2018-07-04T00:00:00",
+  "BirthDate": "1987-04-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "52"
+    }
+  ]
 }

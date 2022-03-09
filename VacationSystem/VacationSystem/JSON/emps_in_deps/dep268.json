@@ -1,0 +1,19 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "3538",
+      "FirstName": "Анна",
+      "MiddleName": "Сергеевна",
+      "LastName": "Копошенко",
+      "Time": 1,
+      "StartDate": "2014-03-24T00:00:00",
+      "BirthDate": "1966-01-10T00:00:00",
+      "Positions": [
+        {
+          "Position": "283",
+          "Department": "268"
+        }
+      ]
+    }
+  ]
+}

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1285",
-	"FirstName": "Дмитрий",
-	"MiddleName": "Анатольевич",
-	"LastName": "Чинахов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "12",
-			"HeadOfDepartment": false,
-			"Position": "45"
-		}
-	]
+  "Id": "1285",
+  "FirstName": "Дмитрий",
+  "MiddleName": "Анатольевич",
+  "LastName": "Чинахов",
+  "Time": 1,
+  "StartDate": "2002-12-22T00:00:00",
+  "BirthDate": "1977-03-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "45",
+      "Department": "12"
+    }
+  ]
 }

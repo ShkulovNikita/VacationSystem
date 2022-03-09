@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2035",
-	"FirstName": "Александр",
-	"MiddleName": "Гаврилович",
-	"LastName": "Власенко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "138",
-			"HeadOfDepartment": false,
-			"Position": "102"
-		}
-	]
+  "Id": "2035",
+  "FirstName": "Александр",
+  "MiddleName": "Гаврилович",
+  "LastName": "Власенко",
+  "Time": 1,
+  "StartDate": "1998-06-19T00:00:00",
+  "BirthDate": "1968-04-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "102",
+      "Department": "138"
+    }
+  ]
 }

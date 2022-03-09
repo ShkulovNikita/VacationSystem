@@ -8,26 +8,18 @@ namespace VacationSystem.Models
     /// Должность сотрудника ТПУ
     /// </summary>
 
-    [Table("positions")]
+    [NotMapped, Table("positions")]
     public class Position
     {
         [Key, Required, MaxLength(50)]
         public string Id { get; set; }
 
-        /// <summary>
-        /// Наименование должности
-        /// </summary>
-        [Required, MaxLength(150)]
+        [NotMapped, MaxLength(150)]
         public string Name { get; set; }
 
         /// <summary>
         /// Правила, установленные на данную должность
         /// </summary>
         public List<RuleForPosition> RuleForPositions { get; set; } = new List<RuleForPosition>();
-
-        /// <summary>
-        /// Сотрудники, занимающие данную должность в подразделениях
-        /// </summary>
-        public List<EmployeeInDepartment> EmployeeInDepartments { get; set; } = new List<EmployeeInDepartment>();
     }
 }

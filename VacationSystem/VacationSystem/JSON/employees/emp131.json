@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "131",
-	"FirstName": "Денис",
-	"MiddleName": "Геннадьевич",
-	"LastName": "Куртенков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "73",
-			"HeadOfDepartment": false,
-			"Position": "10"
-		}
-	]
+  "Id": "131",
+  "FirstName": "Денис",
+  "MiddleName": "Геннадьевич",
+  "LastName": "Куртенков",
+  "Time": 1,
+  "StartDate": "2007-10-02T00:00:00",
+  "BirthDate": "1970-09-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "10",
+      "Department": "73"
+    }
+  ]
 }

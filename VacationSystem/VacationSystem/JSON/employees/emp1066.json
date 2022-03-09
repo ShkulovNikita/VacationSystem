@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1066",
-	"FirstName": "Алексей",
-	"MiddleName": "Владимирович",
-	"LastName": "Лукутин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "11"
-		}
-	]
+  "Id": "1066",
+  "FirstName": "Алексей",
+  "MiddleName": "Владимирович",
+  "LastName": "Лукутин",
+  "Time": 1,
+  "StartDate": "2008-06-14T00:00:00",
+  "BirthDate": "1988-07-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "11",
+      "Department": "2"
+    }
+  ]
 }

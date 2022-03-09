@@ -1,0 +1,124 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "225",
+      "FirstName": "Диана",
+      "MiddleName": "Сергеевна",
+      "LastName": "Довгань",
+      "Time": 0.5,
+      "StartDate": "1987-11-16T00:00:00",
+      "BirthDate": "1964-11-04T00:00:00",
+      "Positions": [
+        {
+          "Position": "65",
+          "Department": "97"
+        }
+      ]
+    },
+    {
+      "Id": "456",
+      "FirstName": "Татьяна",
+      "MiddleName": "Владимировна",
+      "LastName": "Арцер",
+      "Time": 1,
+      "StartDate": "2013-10-08T00:00:00",
+      "BirthDate": "1987-01-01T00:00:00",
+      "Positions": [
+        {
+          "Position": "10",
+          "Department": "97"
+        }
+      ]
+    },
+    {
+      "Id": "709",
+      "FirstName": "Екатерина",
+      "MiddleName": "Андреевна",
+      "LastName": "Горбунова",
+      "Time": 1,
+      "StartDate": "1984-07-03T00:00:00",
+      "BirthDate": "1955-01-02T00:00:00",
+      "Positions": [
+        {
+          "Position": "71",
+          "Department": "97"
+        }
+      ]
+    },
+    {
+      "Id": "1474",
+      "FirstName": "Светлана",
+      "MiddleName": "Николаевна",
+      "LastName": "Клименко",
+      "Time": 0.5,
+      "StartDate": "2004-03-04T00:00:00",
+      "BirthDate": "1970-06-24T00:00:00",
+      "Positions": [
+        {
+          "Position": "65",
+          "Department": "97"
+        }
+      ]
+    },
+    {
+      "Id": "1506",
+      "FirstName": "Анна",
+      "MiddleName": "Владимировна",
+      "LastName": "Гонец",
+      "Time": 1,
+      "StartDate": "2011-06-07T00:00:00",
+      "BirthDate": "1961-06-21T00:00:00",
+      "Positions": [
+        {
+          "Position": "38",
+          "Department": "97"
+        }
+      ]
+    },
+    {
+      "Id": "1859",
+      "FirstName": "Оксана",
+      "MiddleName": "Сергеевна",
+      "LastName": "Адаховская",
+      "Time": 1,
+      "StartDate": "1994-06-01T00:00:00",
+      "BirthDate": "1963-04-10T00:00:00",
+      "Positions": [
+        {
+          "Position": "65",
+          "Department": "97"
+        }
+      ]
+    },
+    {
+      "Id": "2144",
+      "FirstName": "Оксана",
+      "MiddleName": "Владимировна",
+      "LastName": "Бондарева",
+      "Time": 0.5,
+      "StartDate": "2009-01-08T00:00:00",
+      "BirthDate": "1972-10-14T00:00:00",
+      "Positions": [
+        {
+          "Position": "71",
+          "Department": "97"
+        }
+      ]
+    },
+    {
+      "Id": "2822",
+      "FirstName": "Ольга",
+      "MiddleName": "Юрьевна",
+      "LastName": "Комарова",
+      "Time": 1,
+      "StartDate": "2014-01-04T00:00:00",
+      "BirthDate": "1962-06-08T00:00:00",
+      "Positions": [
+        {
+          "Position": "71",
+          "Department": "97"
+        }
+      ]
+    }
+  ]
+}

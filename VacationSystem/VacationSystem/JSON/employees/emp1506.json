@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1506",
-	"FirstName": "Анна",
-	"MiddleName": "Владимировна",
-	"LastName": "Гонец",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "97",
-			"HeadOfDepartment": false,
-			"Position": "38"
-		}
-	]
+  "Id": "1506",
+  "FirstName": "Анна",
+  "MiddleName": "Владимировна",
+  "LastName": "Гонец",
+  "Time": 1,
+  "StartDate": "2011-06-07T00:00:00",
+  "BirthDate": "1961-06-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "38",
+      "Department": "97"
+    }
+  ]
 }

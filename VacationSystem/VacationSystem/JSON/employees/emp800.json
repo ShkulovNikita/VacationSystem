@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "800",
-	"FirstName": "Татьяна",
-	"MiddleName": "Владимировна",
-	"LastName": "Захарова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "176",
-			"HeadOfDepartment": false,
-			"Position": "131"
-		}
-	]
+  "Id": "800",
+  "FirstName": "Татьяна",
+  "MiddleName": "Владимировна",
+  "LastName": "Захарова",
+  "Time": 0.5,
+  "StartDate": "2020-11-06T00:00:00",
+  "BirthDate": "1988-03-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "131",
+      "Department": "176"
+    }
+  ]
 }

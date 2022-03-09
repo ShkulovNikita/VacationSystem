@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "194",
-	"FirstName": "Виктор",
-	"MiddleName": "Александрович",
-	"LastName": "Кутугин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "4",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "194",
+  "FirstName": "Виктор",
+  "MiddleName": "Александрович",
+  "LastName": "Кутугин",
+  "Time": 0.5,
+  "StartDate": "2013-08-09T00:00:00",
+  "BirthDate": "1986-05-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "4"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2134",
-	"FirstName": "Роман",
-	"MiddleName": "Николаевич",
-	"LastName": "Фисенко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "2"
-		}
-	]
+  "Id": "2134",
+  "FirstName": "Роман",
+  "MiddleName": "Николаевич",
+  "LastName": "Фисенко",
+  "Time": 0.5,
+  "StartDate": "2007-03-01T00:00:00",
+  "BirthDate": "1983-12-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "2",
+      "Department": "2"
+    }
+  ]
 }

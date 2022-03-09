@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3424",
-	"FirstName": "Ваган",
-	"MiddleName": "Рашидович",
-	"LastName": "Кочарян",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "32",
-			"HeadOfDepartment": false,
-			"Position": "24"
-		}
-	]
+  "Id": "3424",
+  "FirstName": "Ваган",
+  "MiddleName": "Рашидович",
+  "LastName": "Кочарян",
+  "Time": 1,
+  "StartDate": "2008-03-03T00:00:00",
+  "BirthDate": "1958-03-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "24",
+      "Department": "32"
+    }
+  ]
 }

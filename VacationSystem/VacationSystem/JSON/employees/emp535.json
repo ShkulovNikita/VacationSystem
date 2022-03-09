@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "535",
-	"FirstName": "Анатолий",
-	"MiddleName": "Яковлевич",
-	"LastName": "Пшеничкин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "1",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "535",
+  "FirstName": "Анатолий",
+  "MiddleName": "Яковлевич",
+  "LastName": "Пшеничкин",
+  "Time": 0.5,
+  "StartDate": "1998-10-16T00:00:00",
+  "BirthDate": "1966-08-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "1"
+    }
+  ]
 }

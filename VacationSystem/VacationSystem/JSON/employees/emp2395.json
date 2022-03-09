@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2395",
-	"FirstName": "Артём",
-	"MiddleName": "Сергеевич",
-	"LastName": "Бабаев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "2395",
+  "FirstName": "Артём",
+  "MiddleName": "Сергеевич",
+  "LastName": "Бабаев",
+  "Time": 0.5,
+  "StartDate": "2007-09-15T00:00:00",
+  "BirthDate": "1982-10-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "15"
+    }
+  ]
 }

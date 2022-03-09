@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1343",
-	"FirstName": "Сергей",
-	"MiddleName": "Валентинович",
-	"LastName": "Дектярев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "202",
-			"HeadOfDepartment": false,
-			"Position": "51"
-		}
-	]
+  "Id": "1343",
+  "FirstName": "Сергей",
+  "MiddleName": "Валентинович",
+  "LastName": "Дектярев",
+  "Time": 1,
+  "StartDate": "2019-08-03T00:00:00",
+  "BirthDate": "1984-08-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "51",
+      "Department": "202"
+    }
+  ]
 }

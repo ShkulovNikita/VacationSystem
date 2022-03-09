@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3389",
-	"FirstName": "Елена",
-	"MiddleName": "Николаевна",
-	"LastName": "Перова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "34",
-			"HeadOfDepartment": false,
-			"Position": "110"
-		}
-	]
+  "Id": "3389",
+  "FirstName": "Елена",
+  "MiddleName": "Николаевна",
+  "LastName": "Перова",
+  "Time": 1,
+  "StartDate": "2011-03-01T00:00:00",
+  "BirthDate": "1961-11-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "110",
+      "Department": "34"
+    }
+  ]
 }

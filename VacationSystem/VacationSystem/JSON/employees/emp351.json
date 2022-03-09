@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "351",
-	"FirstName": "Нина",
-	"MiddleName": "Тимофеевна",
-	"LastName": "Михалева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "96",
-			"HeadOfDepartment": false,
-			"Position": "86"
-		}
-	]
+  "Id": "351",
+  "FirstName": "Нина",
+  "MiddleName": "Тимофеевна",
+  "LastName": "Михалева",
+  "Time": 0.5,
+  "StartDate": "2009-04-11T00:00:00",
+  "BirthDate": "1975-06-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "86",
+      "Department": "96"
+    }
+  ]
 }

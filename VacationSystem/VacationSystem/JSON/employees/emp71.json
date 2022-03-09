@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "71",
-	"FirstName": "Алексей",
-	"MiddleName": "Александрович",
-	"LastName": "Кулюкин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "45",
-			"HeadOfDepartment": false,
-			"Position": "16"
-		}
-	]
+  "Id": "71",
+  "FirstName": "Алексей",
+  "MiddleName": "Александрович",
+  "LastName": "Кулюкин",
+  "Time": 0.5,
+  "StartDate": "2015-02-03T00:00:00",
+  "BirthDate": "1991-11-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "16",
+      "Department": "45"
+    }
+  ]
 }

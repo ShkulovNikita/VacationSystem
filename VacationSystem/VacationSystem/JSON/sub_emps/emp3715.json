@@ -1,0 +1,68 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "403",
+      "FirstName": "Артем",
+      "MiddleName": "Георгиевич",
+      "LastName": "Данков",
+      "Time": 1.5,
+      "StartDate": "2003-11-16T00:00:00",
+      "BirthDate": "1972-12-21T00:00:00",
+      "Positions": [
+        {
+          "Position": "1",
+          "Department": "14"
+        },
+        {
+          "Position": "10",
+          "Department": "134"
+        }
+      ]
+    },
+    {
+      "Id": "3332",
+      "FirstName": "Павел",
+      "MiddleName": "Александрович",
+      "LastName": "Потапов",
+      "Time": 1,
+      "StartDate": "1990-05-01T00:00:00",
+      "BirthDate": "1965-09-22T00:00:00",
+      "Positions": [
+        {
+          "Position": "157",
+          "Department": "134"
+        }
+      ]
+    },
+    {
+      "Id": "3715",
+      "FirstName": "Анастасия",
+      "MiddleName": "Игоревна",
+      "LastName": "Солодкова",
+      "Time": 0.5,
+      "StartDate": "2014-10-10T00:00:00",
+      "BirthDate": "1965-01-10T00:00:00",
+      "Positions": [
+        {
+          "Position": "157",
+          "Department": "134"
+        }
+      ]
+    },
+    {
+      "Id": "3789",
+      "FirstName": "Павел",
+      "MiddleName": "Алексеевич",
+      "LastName": "Стуканов",
+      "Time": 0.5,
+      "StartDate": "2020-05-24T00:00:00",
+      "BirthDate": "1959-05-01T00:00:00",
+      "Positions": [
+        {
+          "Position": "157",
+          "Department": "134"
+        }
+      ]
+    }
+  ]
+}

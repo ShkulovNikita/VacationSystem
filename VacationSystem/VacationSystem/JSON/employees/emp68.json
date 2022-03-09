@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "68",
-	"FirstName": "Алексей",
-	"MiddleName": "Борисович",
-	"LastName": "Слободенюк",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "43",
-			"HeadOfDepartment": false,
-			"Position": "14"
-		}
-	]
+  "Id": "68",
+  "FirstName": "Алексей",
+  "MiddleName": "Борисович",
+  "LastName": "Слободенюк",
+  "Time": 1,
+  "StartDate": "2016-06-16T00:00:00",
+  "BirthDate": "1989-04-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "14",
+      "Department": "43"
+    }
+  ]
 }

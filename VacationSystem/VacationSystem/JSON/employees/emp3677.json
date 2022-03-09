@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3677",
-	"FirstName": "Светлана",
-	"MiddleName": "Сергеевна",
-	"LastName": "Галеева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "34",
-			"HeadOfDepartment": false,
-			"Position": "87"
-		}
-	]
+  "Id": "3677",
+  "FirstName": "Светлана",
+  "MiddleName": "Сергеевна",
+  "LastName": "Галеева",
+  "Time": 1,
+  "StartDate": "2015-09-06T00:00:00",
+  "BirthDate": "1982-10-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "87",
+      "Department": "34"
+    }
+  ]
 }

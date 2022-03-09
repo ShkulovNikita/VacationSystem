@@ -1,0 +1,64 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "1759",
+      "FirstName": "Грачик",
+      "MiddleName": "Араикович",
+      "LastName": "Еремян",
+      "Time": 1,
+      "StartDate": "2011-05-03T00:00:00",
+      "BirthDate": "1979-04-21T00:00:00",
+      "Positions": [
+        {
+          "Position": "5",
+          "Department": "227"
+        }
+      ]
+    },
+    {
+      "Id": "2468",
+      "FirstName": "Жанна",
+      "MiddleName": "Владимировна",
+      "LastName": "Елькина",
+      "Time": 0.5,
+      "StartDate": "2021-07-21T00:00:00",
+      "BirthDate": "1964-03-01T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "227"
+        }
+      ]
+    },
+    {
+      "Id": "3006",
+      "FirstName": "Екатерина",
+      "MiddleName": "Андреевна",
+      "LastName": "Фофанова",
+      "Time": 1,
+      "StartDate": "2003-06-21T00:00:00",
+      "BirthDate": "1981-01-09T00:00:00",
+      "Positions": [
+        {
+          "Position": "2",
+          "Department": "227"
+        }
+      ]
+    },
+    {
+      "Id": "3813",
+      "FirstName": "Максим",
+      "MiddleName": "Олегович",
+      "LastName": "Мельников",
+      "Time": 1,
+      "StartDate": "1985-06-16T00:00:00",
+      "BirthDate": "1965-04-02T00:00:00",
+      "Positions": [
+        {
+          "Position": "5",
+          "Department": "227"
+        }
+      ]
+    }
+  ]
+}

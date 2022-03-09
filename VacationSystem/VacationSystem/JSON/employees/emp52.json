@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "52",
-	"FirstName": "Татьяна",
-	"MiddleName": "Муллануровна",
-	"LastName": "Алыева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "34",
-			"HeadOfDepartment": false,
-			"Position": "22"
-		}
-	]
+  "Id": "52",
+  "FirstName": "Татьяна",
+  "MiddleName": "Муллануровна",
+  "LastName": "Алыева",
+  "Time": 0.5,
+  "StartDate": "2016-11-05T00:00:00",
+  "BirthDate": "1984-05-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "22",
+      "Department": "34"
+    }
+  ]
 }

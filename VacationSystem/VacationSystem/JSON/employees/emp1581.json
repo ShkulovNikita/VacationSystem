@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1581",
-	"FirstName": "Игорь",
-	"MiddleName": "Анатольевич",
-	"LastName": "Мельник",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "46",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "1581",
+  "FirstName": "Игорь",
+  "MiddleName": "Анатольевич",
+  "LastName": "Мельник",
+  "Time": 0.5,
+  "StartDate": "1984-03-12T00:00:00",
+  "BirthDate": "1959-07-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "46"
+    }
+  ]
 }

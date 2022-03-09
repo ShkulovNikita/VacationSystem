@@ -1,0 +1,23 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "1199",
+      "FirstName": "Александр",
+      "MiddleName": "Яковлевич",
+      "LastName": "Пак",
+      "Time": 1.5,
+      "StartDate": "2011-05-14T00:00:00",
+      "BirthDate": "1961-12-20T00:00:00",
+      "Positions": [
+        {
+          "Position": "1",
+          "Department": "6"
+        },
+        {
+          "Position": "24",
+          "Department": "200"
+        }
+      ]
+    }
+  ]
+}

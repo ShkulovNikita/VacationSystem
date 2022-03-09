@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1652",
-	"FirstName": "Сергей",
-	"MiddleName": "Юрьевич",
-	"LastName": "Камашев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "68",
-			"HeadOfDepartment": false,
-			"Position": "103"
-		}
-	]
+  "Id": "1652",
+  "FirstName": "Сергей",
+  "MiddleName": "Юрьевич",
+  "LastName": "Камашев",
+  "Time": 0.5,
+  "StartDate": "2005-09-05T00:00:00",
+  "BirthDate": "1964-03-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "103",
+      "Department": "68"
+    }
+  ]
 }

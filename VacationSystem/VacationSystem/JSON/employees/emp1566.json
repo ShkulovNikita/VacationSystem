@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1566",
-	"FirstName": "Ирина",
-	"MiddleName": "Александровна",
-	"LastName": "Пахотина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "20",
-			"HeadOfDepartment": false,
-			"Position": "103"
-		}
-	]
+  "Id": "1566",
+  "FirstName": "Ирина",
+  "MiddleName": "Александровна",
+  "LastName": "Пахотина",
+  "Time": 1,
+  "StartDate": "1985-09-03T00:00:00",
+  "BirthDate": "1960-02-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "103",
+      "Department": "20"
+    }
+  ]
 }

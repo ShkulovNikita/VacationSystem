@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3374",
-	"FirstName": "Дмитрий",
-	"MiddleName": "Анатольевич",
-	"LastName": "Якимов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "64",
-			"HeadOfDepartment": false,
-			"Position": "25"
-		}
-	]
+  "Id": "3374",
+  "FirstName": "Дмитрий",
+  "MiddleName": "Анатольевич",
+  "LastName": "Якимов",
+  "Time": 0.5,
+  "StartDate": "1995-03-02T00:00:00",
+  "BirthDate": "1952-02-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "25",
+      "Department": "64"
+    }
+  ]
 }

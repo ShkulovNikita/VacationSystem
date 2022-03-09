@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1938",
-	"FirstName": "Наталья",
-	"MiddleName": "Владимировна",
-	"LastName": "Лисеенко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "4",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "1938",
+  "FirstName": "Наталья",
+  "MiddleName": "Владимировна",
+  "LastName": "Лисеенко",
+  "Time": 0.5,
+  "StartDate": "2016-12-06T00:00:00",
+  "BirthDate": "1977-05-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "4"
+    }
+  ]
 }

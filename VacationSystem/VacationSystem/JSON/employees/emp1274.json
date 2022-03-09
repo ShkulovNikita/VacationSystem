@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1274",
-	"FirstName": "Юрий",
-	"MiddleName": "Михайлович",
-	"LastName": "Носов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "64",
-			"HeadOfDepartment": false,
-			"Position": "103"
-		}
-	]
+  "Id": "1274",
+  "FirstName": "Юрий",
+  "MiddleName": "Михайлович",
+  "LastName": "Носов",
+  "Time": 0.5,
+  "StartDate": "2014-02-04T00:00:00",
+  "BirthDate": "1991-09-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "103",
+      "Department": "64"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3136",
-	"FirstName": "Светлана",
-	"MiddleName": "Петровна",
-	"LastName": "Сопова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "12",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "3136",
+  "FirstName": "Светлана",
+  "MiddleName": "Петровна",
+  "LastName": "Сопова",
+  "Time": 0.5,
+  "StartDate": "2008-04-19T00:00:00",
+  "BirthDate": "1971-03-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "12"
+    }
+  ]
 }

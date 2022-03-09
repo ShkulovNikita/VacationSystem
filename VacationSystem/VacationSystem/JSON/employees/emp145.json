@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "145",
-	"FirstName": "Денис",
-	"MiddleName": "Викторович",
-	"LastName": "Кабанов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "37",
-			"HeadOfDepartment": false,
-			"Position": "51"
-		}
-	]
+  "Id": "145",
+  "FirstName": "Денис",
+  "MiddleName": "Викторович",
+  "LastName": "Кабанов",
+  "Time": 1,
+  "StartDate": "1996-01-01T00:00:00",
+  "BirthDate": "1965-10-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "51",
+      "Department": "37"
+    }
+  ]
 }

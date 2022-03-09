@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2208",
-	"FirstName": "Марина",
-	"MiddleName": "Юрьевна",
-	"LastName": "Пичугина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "3",
-			"HeadOfDepartment": false,
-			"Position": "0"
-		}
-	]
+  "Id": "2208",
+  "FirstName": "Марина",
+  "MiddleName": "Юрьевна",
+  "LastName": "Пичугина",
+  "Time": 0.5,
+  "StartDate": "2005-12-17T00:00:00",
+  "BirthDate": "1955-08-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "0",
+      "Department": "3"
+    }
+  ]
 }

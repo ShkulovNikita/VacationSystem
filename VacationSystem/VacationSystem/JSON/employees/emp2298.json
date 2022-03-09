@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2298",
-	"FirstName": "Надежда",
-	"MiddleName": "Герасимовна",
-	"LastName": "Суркова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "86",
-			"HeadOfDepartment": false,
-			"Position": "69"
-		}
-	]
+  "Id": "2298",
+  "FirstName": "Надежда",
+  "MiddleName": "Герасимовна",
+  "LastName": "Суркова",
+  "Time": 0.5,
+  "StartDate": "1977-07-21T00:00:00",
+  "BirthDate": "1955-11-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "69",
+      "Department": "86"
+    }
+  ]
 }

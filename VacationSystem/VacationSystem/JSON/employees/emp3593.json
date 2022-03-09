@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3593",
-	"FirstName": "Лариса",
-	"MiddleName": "Владимировна",
-	"LastName": "Лучишина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "250",
-			"HeadOfDepartment": false,
-			"Position": "15"
-		}
-	]
+  "Id": "3593",
+  "FirstName": "Лариса",
+  "MiddleName": "Владимировна",
+  "LastName": "Лучишина",
+  "Time": 0.5,
+  "StartDate": "2021-11-11T00:00:00",
+  "BirthDate": "1993-12-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "15",
+      "Department": "250"
+    }
+  ]
 }

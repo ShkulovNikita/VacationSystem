@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "353",
-	"FirstName": "Ольга",
-	"MiddleName": "Николаевна",
-	"LastName": "Михеева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "34",
-			"HeadOfDepartment": false,
-			"Position": "87"
-		}
-	]
+  "Id": "353",
+  "FirstName": "Ольга",
+  "MiddleName": "Николаевна",
+  "LastName": "Михеева",
+  "Time": 0.5,
+  "StartDate": "2000-12-18T00:00:00",
+  "BirthDate": "1952-11-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "87",
+      "Department": "34"
+    }
+  ]
 }

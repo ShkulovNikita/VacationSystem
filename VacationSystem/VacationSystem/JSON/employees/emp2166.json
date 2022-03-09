@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2166",
-	"FirstName": "Людмила",
-	"MiddleName": "Михайловна",
-	"LastName": "Полтанова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "1",
-			"HeadOfDepartment": false,
-			"Position": "2"
-		}
-	]
+  "Id": "2166",
+  "FirstName": "Людмила",
+  "MiddleName": "Михайловна",
+  "LastName": "Полтанова",
+  "Time": 0.5,
+  "StartDate": "2014-08-19T00:00:00",
+  "BirthDate": "1975-12-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "2",
+      "Department": "1"
+    }
+  ]
 }

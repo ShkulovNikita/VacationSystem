@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2012",
-	"FirstName": "Александр",
-	"MiddleName": "Владимирович",
-	"LastName": "Кузнецов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "66",
-			"HeadOfDepartment": false,
-			"Position": "221"
-		}
-	]
+  "Id": "2012",
+  "FirstName": "Александр",
+  "MiddleName": "Владимирович",
+  "LastName": "Кузнецов",
+  "Time": 0.5,
+  "StartDate": "1992-11-10T00:00:00",
+  "BirthDate": "1961-02-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "221",
+      "Department": "66"
+    }
+  ]
 }

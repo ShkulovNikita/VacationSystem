@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2929",
-	"FirstName": "Тамара",
-	"MiddleName": "Николаевна",
-	"LastName": "Чепурная",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "158",
-			"HeadOfDepartment": false,
-			"Position": "138"
-		}
-	]
+  "Id": "2929",
+  "FirstName": "Тамара",
+  "MiddleName": "Николаевна",
+  "LastName": "Чепурная",
+  "Time": 1,
+  "StartDate": "2010-11-07T00:00:00",
+  "BirthDate": "1972-02-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "138",
+      "Department": "158"
+    }
+  ]
 }

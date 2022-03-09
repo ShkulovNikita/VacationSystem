@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2846",
-	"FirstName": "Вероника",
-	"MiddleName": "Александровна",
-	"LastName": "Морозова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "0"
-		}
-	]
+  "Id": "2846",
+  "FirstName": "Вероника",
+  "MiddleName": "Александровна",
+  "LastName": "Морозова",
+  "Time": 0.5,
+  "StartDate": "1996-03-14T00:00:00",
+  "BirthDate": "1962-04-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "0",
+      "Department": "2"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1555",
-	"FirstName": "Евгений",
-	"MiddleName": "Григорьевич",
-	"LastName": "Левочко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "92",
-			"HeadOfDepartment": false,
-			"Position": "34"
-		}
-	]
+  "Id": "1555",
+  "FirstName": "Евгений",
+  "MiddleName": "Григорьевич",
+  "LastName": "Левочко",
+  "Time": 1,
+  "StartDate": "2017-03-01T00:00:00",
+  "BirthDate": "1984-12-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "34",
+      "Department": "92"
+    }
+  ]
 }

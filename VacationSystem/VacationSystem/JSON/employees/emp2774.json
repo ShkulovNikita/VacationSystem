@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2774",
-	"FirstName": "Иван",
-	"MiddleName": "Александрович",
-	"LastName": "Лызин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "26",
-			"HeadOfDepartment": false,
-			"Position": "7"
-		}
-	]
+  "Id": "2774",
+  "FirstName": "Иван",
+  "MiddleName": "Александрович",
+  "LastName": "Лызин",
+  "Time": 1,
+  "StartDate": "2017-11-06T00:00:00",
+  "BirthDate": "1960-06-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "7",
+      "Department": "26"
+    }
+  ]
 }

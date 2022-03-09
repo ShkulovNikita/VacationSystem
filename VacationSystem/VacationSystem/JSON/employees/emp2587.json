@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2587",
-	"FirstName": "Катрина",
-	"MiddleName": "Владимировна",
-	"LastName": "Карпачева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "17",
-			"HeadOfDepartment": false,
-			"Position": "0"
-		}
-	]
+  "Id": "2587",
+  "FirstName": "Катрина",
+  "MiddleName": "Владимировна",
+  "LastName": "Карпачева",
+  "Time": 0.5,
+  "StartDate": "2003-08-10T00:00:00",
+  "BirthDate": "1964-11-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "0",
+      "Department": "17"
+    }
+  ]
 }

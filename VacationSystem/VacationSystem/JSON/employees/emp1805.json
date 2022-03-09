@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1805",
-	"FirstName": "Степан",
-	"MiddleName": "Андреевич",
-	"LastName": "Линник",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "64",
-			"HeadOfDepartment": false,
-			"Position": "56"
-		}
-	]
+  "Id": "1805",
+  "FirstName": "Степан",
+  "MiddleName": "Андреевич",
+  "LastName": "Линник",
+  "Time": 0.5,
+  "StartDate": "2013-11-11T00:00:00",
+  "BirthDate": "1993-05-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "56",
+      "Department": "64"
+    }
+  ]
 }

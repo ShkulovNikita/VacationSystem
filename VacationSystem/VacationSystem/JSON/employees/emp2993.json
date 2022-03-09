@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2993",
-	"FirstName": "Анна",
-	"MiddleName": "Евгеньевна",
-	"LastName": "Зинакова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "2993",
+  "FirstName": "Анна",
+  "MiddleName": "Евгеньевна",
+  "LastName": "Зинакова",
+  "Time": 1,
+  "StartDate": "1999-08-07T00:00:00",
+  "BirthDate": "1973-05-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "2"
+    }
+  ]
 }

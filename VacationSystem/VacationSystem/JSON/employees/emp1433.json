@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1433",
-	"FirstName": "Елена",
-	"MiddleName": "Николаевна",
-	"LastName": "Селивёрстова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "9",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "1433",
+  "FirstName": "Елена",
+  "MiddleName": "Николаевна",
+  "LastName": "Селивёрстова",
+  "Time": 1,
+  "StartDate": "2008-02-09T00:00:00",
+  "BirthDate": "1969-09-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "9"
+    }
+  ]
 }

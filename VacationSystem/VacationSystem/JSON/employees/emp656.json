@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "656",
-	"FirstName": "Елена",
-	"MiddleName": "Ивановна",
-	"LastName": "Пакулько",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "124",
-			"HeadOfDepartment": false,
-			"Position": "39"
-		}
-	]
+  "Id": "656",
+  "FirstName": "Елена",
+  "MiddleName": "Ивановна",
+  "LastName": "Пакулько",
+  "Time": 0.5,
+  "StartDate": "2015-02-05T00:00:00",
+  "BirthDate": "1991-09-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "39",
+      "Department": "124"
+    }
+  ]
 }

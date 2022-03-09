@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3514",
-	"FirstName": "Юлия",
-	"MiddleName": "Сергеевна",
-	"LastName": "Чепина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "77",
-			"HeadOfDepartment": false,
-			"Position": "18"
-		}
-	]
+  "Id": "3514",
+  "FirstName": "Юлия",
+  "MiddleName": "Сергеевна",
+  "LastName": "Чепина",
+  "Time": 1,
+  "StartDate": "2012-06-01T00:00:00",
+  "BirthDate": "1985-07-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "18",
+      "Department": "77"
+    }
+  ]
 }

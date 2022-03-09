@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2069",
-	"FirstName": "Инга",
-	"MiddleName": "Александровна",
-	"LastName": "Крупская",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "239",
-			"HeadOfDepartment": false,
-			"Position": "223"
-		}
-	]
+  "Id": "2069",
+  "FirstName": "Инга",
+  "MiddleName": "Александровна",
+  "LastName": "Крупская",
+  "Time": 0.5,
+  "StartDate": "2018-03-13T00:00:00",
+  "BirthDate": "1992-01-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "223",
+      "Department": "239"
+    }
+  ]
 }

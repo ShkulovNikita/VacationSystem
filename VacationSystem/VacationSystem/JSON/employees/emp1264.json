@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "1264",
-	"FirstName": "Галина",
-	"MiddleName": "Анатольевна",
-	"LastName": "Лютц",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "41",
-			"HeadOfDepartment": false,
-			"Position": "25"
-		},
-		{
-			"Id": "121",
-			"HeadOfDepartment": false,
-			"Position": "160"
-		}
-	]
+  "Id": "1264",
+  "FirstName": "Галина",
+  "MiddleName": "Анатольевна",
+  "LastName": "Лютц",
+  "Time": 1.5,
+  "StartDate": "2008-09-02T00:00:00",
+  "BirthDate": "1985-07-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "25",
+      "Department": "41"
+    },
+    {
+      "Position": "160",
+      "Department": "121"
+    }
+  ]
 }

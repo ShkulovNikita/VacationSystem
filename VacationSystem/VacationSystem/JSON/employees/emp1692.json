@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1692",
-	"FirstName": "Анна",
-	"MiddleName": "Сергеевна",
-	"LastName": "Гаврилова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "1",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "1692",
+  "FirstName": "Анна",
+  "MiddleName": "Сергеевна",
+  "LastName": "Гаврилова",
+  "Time": 1,
+  "StartDate": "2017-07-16T00:00:00",
+  "BirthDate": "1967-01-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "1"
+    }
+  ]
 }

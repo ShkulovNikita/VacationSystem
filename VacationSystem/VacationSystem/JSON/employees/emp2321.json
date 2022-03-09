@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2321",
-	"FirstName": "Тамара",
-	"MiddleName": "Петровна",
-	"LastName": "Шкумат",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "112",
-			"HeadOfDepartment": false,
-			"Position": "21"
-		}
-	]
+  "Id": "2321",
+  "FirstName": "Тамара",
+  "MiddleName": "Петровна",
+  "LastName": "Шкумат",
+  "Time": 0.5,
+  "StartDate": "2019-09-06T00:00:00",
+  "BirthDate": "1980-07-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "21",
+      "Department": "112"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "232",
-	"FirstName": "Оксана",
-	"MiddleName": "Анатольевна",
-	"LastName": "Мартынюк",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "51",
-			"HeadOfDepartment": false,
-			"Position": "38"
-		}
-	]
+  "Id": "232",
+  "FirstName": "Оксана",
+  "MiddleName": "Анатольевна",
+  "LastName": "Мартынюк",
+  "Time": 0.5,
+  "StartDate": "2006-07-04T00:00:00",
+  "BirthDate": "1963-02-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "38",
+      "Department": "51"
+    }
+  ]
 }

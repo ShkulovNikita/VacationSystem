@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3781",
-	"FirstName": "Ростислав",
-	"MiddleName": "Эдуардович",
-	"LastName": "Яворский",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "230",
-			"HeadOfDepartment": false,
-			"Position": "296"
-		}
-	]
+  "Id": "3781",
+  "FirstName": "Ростислав",
+  "MiddleName": "Эдуардович",
+  "LastName": "Яворский",
+  "Time": 0.5,
+  "StartDate": "1983-12-13T00:00:00",
+  "BirthDate": "1952-03-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "296",
+      "Department": "230"
+    }
+  ]
 }

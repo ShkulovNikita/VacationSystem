@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "1518",
-	"FirstName": "Анатолий",
-	"MiddleName": "Спиридонович",
-	"LastName": "Конарев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "59",
-			"HeadOfDepartment": false,
-			"Position": "37"
-		},
-		{
-			"Id": "72",
-			"HeadOfDepartment": false,
-			"Position": "184"
-		}
-	]
+  "Id": "1518",
+  "FirstName": "Анатолий",
+  "MiddleName": "Спиридонович",
+  "LastName": "Конарев",
+  "Time": 2,
+  "StartDate": "2007-12-19T00:00:00",
+  "BirthDate": "1980-02-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "37",
+      "Department": "59"
+    },
+    {
+      "Position": "184",
+      "Department": "72"
+    }
+  ]
 }

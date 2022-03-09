@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3552",
-	"FirstName": "Дмитрий",
-	"MiddleName": "Евгеньевич",
-	"LastName": "Гончаров",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "116",
-			"HeadOfDepartment": false,
-			"Position": "266"
-		}
-	]
+  "Id": "3552",
+  "FirstName": "Дмитрий",
+  "MiddleName": "Евгеньевич",
+  "LastName": "Гончаров",
+  "Time": 0.5,
+  "StartDate": "2004-08-17T00:00:00",
+  "BirthDate": "1978-06-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "266",
+      "Department": "116"
+    }
+  ]
 }

@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "74",
-	"FirstName": "Алексей",
-	"MiddleName": "Алексеевич",
-	"LastName": "Гавриков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "36",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		},
-		{
-			"Id": "36",
-			"HeadOfDepartment": false,
-			"Position": "29"
-		}
-	]
+  "Id": "74",
+  "FirstName": "Алексей",
+  "MiddleName": "Алексеевич",
+  "LastName": "Гавриков",
+  "Time": 1.5,
+  "StartDate": "2012-01-19T00:00:00",
+  "BirthDate": "1989-09-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "36"
+    },
+    {
+      "Position": "29",
+      "Department": "36"
+    }
+  ]
 }

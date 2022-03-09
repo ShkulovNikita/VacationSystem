@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2219",
-	"FirstName": "Тамара",
-	"MiddleName": "Николаевна",
-	"LastName": "Юнусова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "34",
-			"HeadOfDepartment": false,
-			"Position": "87"
-		}
-	]
+  "Id": "2219",
+  "FirstName": "Тамара",
+  "MiddleName": "Николаевна",
+  "LastName": "Юнусова",
+  "Time": 1,
+  "StartDate": "2011-10-16T00:00:00",
+  "BirthDate": "1981-10-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "87",
+      "Department": "34"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2432",
-	"FirstName": "Михаил",
-	"MiddleName": "Борисович",
-	"LastName": "Хаскельберг",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "16",
-			"HeadOfDepartment": false,
-			"Position": "11"
-		}
-	]
+  "Id": "2432",
+  "FirstName": "Михаил",
+  "MiddleName": "Борисович",
+  "LastName": "Хаскельберг",
+  "Time": 1,
+  "StartDate": "1990-09-13T00:00:00",
+  "BirthDate": "1960-02-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "11",
+      "Department": "16"
+    }
+  ]
 }

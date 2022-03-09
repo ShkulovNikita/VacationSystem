@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3646",
-	"FirstName": "Мария",
-	"MiddleName": "Александровна",
-	"LastName": "Нелюбина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "66",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "3646",
+  "FirstName": "Мария",
+  "MiddleName": "Александровна",
+  "LastName": "Нелюбина",
+  "Time": 1,
+  "StartDate": "1998-11-21T00:00:00",
+  "BirthDate": "1974-09-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "66"
+    }
+  ]
 }

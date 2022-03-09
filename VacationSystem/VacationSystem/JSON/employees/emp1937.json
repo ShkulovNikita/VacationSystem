@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1937",
-	"FirstName": "Валерия",
-	"MiddleName": "Валерьевна",
-	"LastName": "Кравченко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "4",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "1937",
+  "FirstName": "Валерия",
+  "MiddleName": "Валерьевна",
+  "LastName": "Кравченко",
+  "Time": 0.5,
+  "StartDate": "1994-11-13T00:00:00",
+  "BirthDate": "1955-06-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "4"
+    }
+  ]
 }

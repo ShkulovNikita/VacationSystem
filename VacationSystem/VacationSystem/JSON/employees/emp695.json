@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "695",
-	"FirstName": "Марина",
-	"MiddleName": "Николаевна",
-	"LastName": "Тарасова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "124",
-			"HeadOfDepartment": false,
-			"Position": "39"
-		}
-	]
+  "Id": "695",
+  "FirstName": "Марина",
+  "MiddleName": "Николаевна",
+  "LastName": "Тарасова",
+  "Time": 1,
+  "StartDate": "2009-08-04T00:00:00",
+  "BirthDate": "1972-08-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "39",
+      "Department": "124"
+    }
+  ]
 }

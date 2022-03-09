@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3708",
-	"FirstName": "Гульнара",
-	"MiddleName": "",
-	"LastName": "Абдуллина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "36",
-			"HeadOfDepartment": false,
-			"Position": "24"
-		}
-	]
+  "Id": "3708",
+  "FirstName": "Гульнара",
+  "MiddleName": "",
+  "LastName": "Абдуллина",
+  "Time": 0.5,
+  "StartDate": "2016-10-16T00:00:00",
+  "BirthDate": "1961-11-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "24",
+      "Department": "36"
+    }
+  ]
 }

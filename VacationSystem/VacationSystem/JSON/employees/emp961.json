@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "961",
-	"FirstName": "Екатерина",
-	"MiddleName": "Александровна",
-	"LastName": "Головачева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "66",
-			"HeadOfDepartment": false,
-			"Position": "61"
-		}
-	]
+  "Id": "961",
+  "FirstName": "Екатерина",
+  "MiddleName": "Александровна",
+  "LastName": "Головачева",
+  "Time": 1,
+  "StartDate": "2021-02-12T00:00:00",
+  "BirthDate": "1981-01-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "61",
+      "Department": "66"
+    }
+  ]
 }

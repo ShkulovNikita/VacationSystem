@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "302",
-	"FirstName": "Константин",
-	"MiddleName": "Владимирович",
-	"LastName": "Казачек",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "103",
-			"HeadOfDepartment": false,
-			"Position": "79"
-		}
-	]
+  "Id": "302",
+  "FirstName": "Константин",
+  "MiddleName": "Владимирович",
+  "LastName": "Казачек",
+  "Time": 0.5,
+  "StartDate": "2013-11-11T00:00:00",
+  "BirthDate": "1969-04-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "79",
+      "Department": "103"
+    }
+  ]
 }

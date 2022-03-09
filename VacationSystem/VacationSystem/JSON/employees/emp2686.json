@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2686",
-	"FirstName": "Алина",
-	"MiddleName": "Владимировна",
-	"LastName": "Боровская",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "213",
-			"HeadOfDepartment": false,
-			"Position": "40"
-		}
-	]
+  "Id": "2686",
+  "FirstName": "Алина",
+  "MiddleName": "Владимировна",
+  "LastName": "Боровская",
+  "Time": 1,
+  "StartDate": "1999-08-10T00:00:00",
+  "BirthDate": "1979-08-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "40",
+      "Department": "213"
+    }
+  ]
 }

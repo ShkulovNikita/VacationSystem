@@ -1,0 +1,49 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "454",
+      "FirstName": "Мария",
+      "MiddleName": "Михайловна",
+      "LastName": "Жуликова",
+      "Time": 1,
+      "StartDate": "1989-11-09T00:00:00",
+      "BirthDate": "1964-08-01T00:00:00",
+      "Positions": [
+        {
+          "Position": "14",
+          "Department": "141"
+        }
+      ]
+    },
+    {
+      "Id": "1755",
+      "FirstName": "Ирина",
+      "MiddleName": "Владимировна",
+      "LastName": "Стрелкова",
+      "Time": 0.5,
+      "StartDate": "2011-06-24T00:00:00",
+      "BirthDate": "1977-05-20T00:00:00",
+      "Positions": [
+        {
+          "Position": "142",
+          "Department": "141"
+        }
+      ]
+    },
+    {
+      "Id": "2641",
+      "FirstName": "Никита",
+      "MiddleName": "Сергеевич",
+      "LastName": "Зверев",
+      "Time": 1,
+      "StartDate": "2017-01-16T00:00:00",
+      "BirthDate": "1979-06-20T00:00:00",
+      "Positions": [
+        {
+          "Position": "64",
+          "Department": "141"
+        }
+      ]
+    }
+  ]
+}

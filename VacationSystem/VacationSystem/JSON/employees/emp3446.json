@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3446",
-	"FirstName": "Алексей",
-	"MiddleName": "Николаевич",
-	"LastName": "Какаулин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "32",
-			"HeadOfDepartment": false,
-			"Position": "25"
-		}
-	]
+  "Id": "3446",
+  "FirstName": "Алексей",
+  "MiddleName": "Николаевич",
+  "LastName": "Какаулин",
+  "Time": 1,
+  "StartDate": "2011-09-15T00:00:00",
+  "BirthDate": "1964-09-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "25",
+      "Department": "32"
+    }
+  ]
 }

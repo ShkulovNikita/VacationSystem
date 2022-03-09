@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "611",
-	"FirstName": "Татьяна",
-	"MiddleName": "Александровна",
-	"LastName": "Нагорнова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "39",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "611",
+  "FirstName": "Татьяна",
+  "MiddleName": "Александровна",
+  "LastName": "Нагорнова",
+  "Time": 0.5,
+  "StartDate": "2021-11-17T00:00:00",
+  "BirthDate": "1968-09-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "39"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1219",
-	"FirstName": "Евгений",
-	"MiddleName": "Александрович",
-	"LastName": "Куприянов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "84",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "1219",
+  "FirstName": "Евгений",
+  "MiddleName": "Александрович",
+  "LastName": "Куприянов",
+  "Time": 1,
+  "StartDate": "1994-09-23T00:00:00",
+  "BirthDate": "1961-10-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "84"
+    }
+  ]
 }

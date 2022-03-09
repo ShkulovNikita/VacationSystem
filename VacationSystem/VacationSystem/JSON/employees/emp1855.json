@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1855",
-	"FirstName": "Александр",
-	"MiddleName": "Александрович",
-	"LastName": "Кондаков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "1855",
+  "FirstName": "Александр",
+  "MiddleName": "Александрович",
+  "LastName": "Кондаков",
+  "Time": 0.5,
+  "StartDate": "1992-09-10T00:00:00",
+  "BirthDate": "1962-10-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "2"
+    }
+  ]
 }

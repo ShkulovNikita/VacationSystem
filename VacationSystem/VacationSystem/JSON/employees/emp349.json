@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "349",
-	"FirstName": "Евгения",
-	"MiddleName": "Викторовна",
-	"LastName": "Денежкина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "38",
-			"HeadOfDepartment": false,
-			"Position": "25"
-		}
-	]
+  "Id": "349",
+  "FirstName": "Евгения",
+  "MiddleName": "Викторовна",
+  "LastName": "Денежкина",
+  "Time": 0.5,
+  "StartDate": "2010-05-19T00:00:00",
+  "BirthDate": "1977-03-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "25",
+      "Department": "38"
+    }
+  ]
 }

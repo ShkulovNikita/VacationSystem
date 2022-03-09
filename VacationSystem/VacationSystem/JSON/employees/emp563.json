@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "563",
-	"FirstName": "Александр",
-	"MiddleName": "Ефремович",
-	"LastName": "Гольдштейн",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "57",
-			"HeadOfDepartment": false,
-			"Position": "2"
-		},
-		{
-			"Id": "57",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "563",
+  "FirstName": "Александр",
+  "MiddleName": "Ефремович",
+  "LastName": "Гольдштейн",
+  "Time": 2,
+  "StartDate": "2015-02-02T00:00:00",
+  "BirthDate": "1981-04-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "2",
+      "Department": "57"
+    },
+    {
+      "Position": "13",
+      "Department": "57"
+    }
+  ]
 }

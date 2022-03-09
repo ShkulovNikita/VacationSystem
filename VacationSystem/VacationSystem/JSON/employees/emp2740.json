@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2740",
-	"FirstName": "Марина",
-	"MiddleName": "Андреевна",
-	"LastName": "Лощилова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "12",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "2740",
+  "FirstName": "Марина",
+  "MiddleName": "Андреевна",
+  "LastName": "Лощилова",
+  "Time": 1,
+  "StartDate": "2014-06-13T00:00:00",
+  "BirthDate": "1981-08-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "12"
+    }
+  ]
 }

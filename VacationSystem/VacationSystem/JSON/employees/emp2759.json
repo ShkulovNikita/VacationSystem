@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2759",
-	"FirstName": "Ирина",
-	"MiddleName": "Васильевна",
-	"LastName": "Бейнарис",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "96",
-			"HeadOfDepartment": false,
-			"Position": "86"
-		}
-	]
+  "Id": "2759",
+  "FirstName": "Ирина",
+  "MiddleName": "Васильевна",
+  "LastName": "Бейнарис",
+  "Time": 1,
+  "StartDate": "2000-03-15T00:00:00",
+  "BirthDate": "1963-09-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "86",
+      "Department": "96"
+    }
+  ]
 }

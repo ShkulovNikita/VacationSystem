@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3251",
-	"FirstName": "Олеся",
-	"MiddleName": "Владимировна",
-	"LastName": "Андреева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "91",
-			"HeadOfDepartment": false,
-			"Position": "204"
-		}
-	]
+  "Id": "3251",
+  "FirstName": "Олеся",
+  "MiddleName": "Владимировна",
+  "LastName": "Андреева",
+  "Time": 1,
+  "StartDate": "2015-06-06T00:00:00",
+  "BirthDate": "1978-04-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "204",
+      "Department": "91"
+    }
+  ]
 }

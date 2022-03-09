@@ -1,0 +1,19 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "3206",
+      "FirstName": "Александр",
+      "MiddleName": "Викторович",
+      "LastName": "Саурский",
+      "Time": 0.5,
+      "StartDate": "1993-06-15T00:00:00",
+      "BirthDate": "1966-11-06T00:00:00",
+      "Positions": [
+        {
+          "Position": "45",
+          "Department": "263"
+        }
+      ]
+    }
+  ]
+}

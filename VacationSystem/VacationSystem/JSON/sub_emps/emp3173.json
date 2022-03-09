@@ -1,0 +1,169 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "1818",
+      "FirstName": "Юрий",
+      "MiddleName": "Васильевич",
+      "LastName": "Буртовой",
+      "Time": 0.5,
+      "StartDate": "1999-07-10T00:00:00",
+      "BirthDate": "1953-06-19T00:00:00",
+      "Positions": [
+        {
+          "Position": "214",
+          "Department": "231"
+        }
+      ]
+    },
+    {
+      "Id": "2689",
+      "FirstName": "Александр",
+      "MiddleName": "Анатольевич",
+      "LastName": "Перов",
+      "Time": 0.5,
+      "StartDate": "2005-11-20T00:00:00",
+      "BirthDate": "1981-12-11T00:00:00",
+      "Positions": [
+        {
+          "Position": "214",
+          "Department": "231"
+        }
+      ]
+    },
+    {
+      "Id": "2690",
+      "FirstName": "Николай",
+      "MiddleName": "Иванович",
+      "LastName": "Кузьмин",
+      "Time": 0.5,
+      "StartDate": "2012-02-22T00:00:00",
+      "BirthDate": "1983-12-13T00:00:00",
+      "Positions": [
+        {
+          "Position": "214",
+          "Department": "231"
+        }
+      ]
+    },
+    {
+      "Id": "2833",
+      "FirstName": "Денис",
+      "MiddleName": "Ромуальдович",
+      "LastName": "Марзоль",
+      "Time": 0.5,
+      "StartDate": "2010-10-10T00:00:00",
+      "BirthDate": "1976-07-05T00:00:00",
+      "Positions": [
+        {
+          "Position": "214",
+          "Department": "231"
+        }
+      ]
+    },
+    {
+      "Id": "2922",
+      "FirstName": "Павел",
+      "MiddleName": "Сергеевич",
+      "LastName": "Вершиловский",
+      "Time": 0.5,
+      "StartDate": "2012-04-03T00:00:00",
+      "BirthDate": "1984-05-20T00:00:00",
+      "Positions": [
+        {
+          "Position": "214",
+          "Department": "231"
+        }
+      ]
+    },
+    {
+      "Id": "2998",
+      "FirstName": "Степан",
+      "MiddleName": "Анатольевич",
+      "LastName": "Шабалин",
+      "Time": 1,
+      "StartDate": "2016-04-16T00:00:00",
+      "BirthDate": "1986-09-03T00:00:00",
+      "Positions": [
+        {
+          "Position": "214",
+          "Department": "231"
+        }
+      ]
+    },
+    {
+      "Id": "3173",
+      "FirstName": "Андрей",
+      "MiddleName": "Федорович",
+      "LastName": "Никитин",
+      "Time": 0.5,
+      "StartDate": "1991-08-08T00:00:00",
+      "BirthDate": "1962-06-07T00:00:00",
+      "Positions": [
+        {
+          "Position": "35",
+          "Department": "231"
+        }
+      ]
+    },
+    {
+      "Id": "3303",
+      "FirstName": "Евгений",
+      "MiddleName": "Александрович",
+      "LastName": "Волков",
+      "Time": 1,
+      "StartDate": "2018-10-14T00:00:00",
+      "BirthDate": "1981-08-09T00:00:00",
+      "Positions": [
+        {
+          "Position": "214",
+          "Department": "231"
+        }
+      ]
+    },
+    {
+      "Id": "3459",
+      "FirstName": "Петр",
+      "MiddleName": "Борисович",
+      "LastName": "Гладченко",
+      "Time": 1,
+      "StartDate": "2001-03-23T00:00:00",
+      "BirthDate": "1973-02-19T00:00:00",
+      "Positions": [
+        {
+          "Position": "214",
+          "Department": "231"
+        }
+      ]
+    },
+    {
+      "Id": "3741",
+      "FirstName": "Александр",
+      "MiddleName": "Александрович",
+      "LastName": "Каверин",
+      "Time": 0.5,
+      "StartDate": "2016-07-19T00:00:00",
+      "BirthDate": "1986-02-19T00:00:00",
+      "Positions": [
+        {
+          "Position": "214",
+          "Department": "231"
+        }
+      ]
+    },
+    {
+      "Id": "3772",
+      "FirstName": "Евгений",
+      "MiddleName": "Леонидович",
+      "LastName": "Андреев",
+      "Time": 1,
+      "StartDate": "2016-06-04T00:00:00",
+      "BirthDate": "1978-03-04T00:00:00",
+      "Positions": [
+        {
+          "Position": "214",
+          "Department": "231"
+        }
+      ]
+    }
+  ]
+}

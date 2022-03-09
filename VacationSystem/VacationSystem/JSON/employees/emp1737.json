@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1737",
-	"FirstName": "Фарида",
-	"MiddleName": "Алимбаевна",
-	"LastName": "Долгова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "118",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "1737",
+  "FirstName": "Фарида",
+  "MiddleName": "Алимбаевна",
+  "LastName": "Долгова",
+  "Time": 1,
+  "StartDate": "2010-04-15T00:00:00",
+  "BirthDate": "1987-03-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "118"
+    }
+  ]
 }

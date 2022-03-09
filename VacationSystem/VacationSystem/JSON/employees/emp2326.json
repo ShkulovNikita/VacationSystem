@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2326",
-	"FirstName": "Татьяна",
-	"MiddleName": "Николаевна",
-	"LastName": "Ануфриева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "0",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "2326",
+  "FirstName": "Татьяна",
+  "MiddleName": "Николаевна",
+  "LastName": "Ануфриева",
+  "Time": 1,
+  "StartDate": "2009-12-11T00:00:00",
+  "BirthDate": "1969-11-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "0"
+    }
+  ]
 }

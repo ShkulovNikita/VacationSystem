@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2750",
-	"FirstName": "Олег",
-	"MiddleName": "Игоревич",
-	"LastName": "Коломенский",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "2750",
+  "FirstName": "Олег",
+  "MiddleName": "Игоревич",
+  "LastName": "Коломенский",
+  "Time": 1,
+  "StartDate": "2021-12-18T00:00:00",
+  "BirthDate": "1990-05-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "2"
+    }
+  ]
 }

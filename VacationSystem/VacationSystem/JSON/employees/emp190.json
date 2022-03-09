@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "190",
-	"FirstName": "Елена",
-	"MiddleName": "Николаевна",
-	"LastName": "Ивашкина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "36",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "190",
+  "FirstName": "Елена",
+  "MiddleName": "Николаевна",
+  "LastName": "Ивашкина",
+  "Time": 1,
+  "StartDate": "1990-11-15T00:00:00",
+  "BirthDate": "1966-12-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "36"
+    }
+  ]
 }

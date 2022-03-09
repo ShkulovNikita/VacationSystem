@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "383",
-	"FirstName": "Владимир",
-	"MiddleName": "Григорьевич",
-	"LastName": "Бондалетов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "36",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "383",
+  "FirstName": "Владимир",
+  "MiddleName": "Григорьевич",
+  "LastName": "Бондалетов",
+  "Time": 1,
+  "StartDate": "2011-03-21T00:00:00",
+  "BirthDate": "1952-09-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "36"
+    }
+  ]
 }

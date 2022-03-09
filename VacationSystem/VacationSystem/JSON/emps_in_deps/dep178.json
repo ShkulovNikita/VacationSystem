@@ -1,0 +1,49 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "861",
+      "FirstName": "Светлана",
+      "MiddleName": "Станиславовна",
+      "LastName": "Подгол",
+      "Time": 1,
+      "StartDate": "2004-12-22T00:00:00",
+      "BirthDate": "1984-09-23T00:00:00",
+      "Positions": [
+        {
+          "Position": "106",
+          "Department": "178"
+        }
+      ]
+    },
+    {
+      "Id": "1158",
+      "FirstName": "Татьяна",
+      "MiddleName": "Петровна",
+      "LastName": "Прохоренко",
+      "Time": 0.5,
+      "StartDate": "2021-02-13T00:00:00",
+      "BirthDate": "1986-03-14T00:00:00",
+      "Positions": [
+        {
+          "Position": "14",
+          "Department": "178"
+        }
+      ]
+    },
+    {
+      "Id": "2230",
+      "FirstName": "Елена",
+      "MiddleName": "Михайловна",
+      "LastName": "Романова",
+      "Time": 1,
+      "StartDate": "2010-07-20T00:00:00",
+      "BirthDate": "1963-04-20T00:00:00",
+      "Positions": [
+        {
+          "Position": "20",
+          "Department": "178"
+        }
+      ]
+    }
+  ]
+}

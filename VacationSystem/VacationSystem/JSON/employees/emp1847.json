@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1847",
-	"FirstName": "Мария",
-	"MiddleName": "Андреевна",
-	"LastName": "Борисова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "6",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		}
-	]
+  "Id": "1847",
+  "FirstName": "Мария",
+  "MiddleName": "Андреевна",
+  "LastName": "Борисова",
+  "Time": 0.5,
+  "StartDate": "2016-11-07T00:00:00",
+  "BirthDate": "1989-04-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "6"
+    }
+  ]
 }

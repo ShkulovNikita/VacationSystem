@@ -1,6 +1,6 @@
 ﻿{
-	"Id": "152",
-	"Name": "Отдел программ MBA",
-	"Head": "",
-	"HeadDepID": "166"
+  "Id": "152",
+  "Name": "Отдел программ MBA",
+  "Head": "546",
+  "HeadDepartment": "166"
 }

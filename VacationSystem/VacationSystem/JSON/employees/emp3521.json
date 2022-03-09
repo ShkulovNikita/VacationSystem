@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3521",
-	"FirstName": "Сергей",
-	"MiddleName": "Владимирович",
-	"LastName": "Матвеев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "105",
-			"HeadOfDepartment": false,
-			"Position": "88"
-		}
-	]
+  "Id": "3521",
+  "FirstName": "Сергей",
+  "MiddleName": "Владимирович",
+  "LastName": "Матвеев",
+  "Time": 0.5,
+  "StartDate": "2001-07-17T00:00:00",
+  "BirthDate": "1969-04-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "88",
+      "Department": "105"
+    }
+  ]
 }

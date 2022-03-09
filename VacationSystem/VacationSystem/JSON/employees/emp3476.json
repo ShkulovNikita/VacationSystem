@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3476",
-	"FirstName": "Борис",
-	"MiddleName": "Георгиевич",
-	"LastName": "Аванесов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "50",
-			"HeadOfDepartment": false,
-			"Position": "88"
-		}
-	]
+  "Id": "3476",
+  "FirstName": "Борис",
+  "MiddleName": "Георгиевич",
+  "LastName": "Аванесов",
+  "Time": 1,
+  "StartDate": "2012-11-22T00:00:00",
+  "BirthDate": "1990-10-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "88",
+      "Department": "50"
+    }
+  ]
 }

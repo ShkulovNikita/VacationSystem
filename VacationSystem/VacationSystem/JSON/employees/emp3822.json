@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3822",
-	"FirstName": "Шицзянь",
-	"MiddleName": "",
-	"LastName": "Чжан",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "64",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		}
-	]
+  "Id": "3822",
+  "FirstName": "Шицзянь",
+  "MiddleName": "",
+  "LastName": "Чжан",
+  "Time": 0.5,
+  "StartDate": "2015-06-17T00:00:00",
+  "BirthDate": "1992-12-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "64"
+    }
+  ]
 }

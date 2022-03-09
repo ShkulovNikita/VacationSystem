@@ -1,0 +1,109 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "392",
+      "FirstName": "Валерий",
+      "MiddleName": "Афанасьевич",
+      "LastName": "Жадан",
+      "Time": 0.5,
+      "StartDate": "2009-04-13T00:00:00",
+      "BirthDate": "1977-05-05T00:00:00",
+      "Positions": [
+        {
+          "Position": "94",
+          "Department": "133"
+        }
+      ]
+    },
+    {
+      "Id": "873",
+      "FirstName": "Елена",
+      "MiddleName": "Ильинична",
+      "LastName": "Тренихина",
+      "Time": 0.5,
+      "StartDate": "2000-06-08T00:00:00",
+      "BirthDate": "1963-06-15T00:00:00",
+      "Positions": [
+        {
+          "Position": "0",
+          "Department": "133"
+        }
+      ]
+    },
+    {
+      "Id": "910",
+      "FirstName": "Игорь",
+      "MiddleName": "Олегович",
+      "LastName": "Муравлев",
+      "Time": 1,
+      "StartDate": "2012-03-15T00:00:00",
+      "BirthDate": "1992-01-16T00:00:00",
+      "Positions": [
+        {
+          "Position": "6",
+          "Department": "133"
+        }
+      ]
+    },
+    {
+      "Id": "1571",
+      "FirstName": "Мария",
+      "MiddleName": "Юрьевна",
+      "LastName": "Червач",
+      "Time": 1,
+      "StartDate": "2021-06-13T00:00:00",
+      "BirthDate": "1990-11-19T00:00:00",
+      "Positions": [
+        {
+          "Position": "18",
+          "Department": "133"
+        }
+      ]
+    },
+    {
+      "Id": "2192",
+      "FirstName": "Лариса",
+      "MiddleName": "Александровна",
+      "LastName": "Русина",
+      "Time": 1,
+      "StartDate": "2008-10-11T00:00:00",
+      "BirthDate": "1963-12-17T00:00:00",
+      "Positions": [
+        {
+          "Position": "6",
+          "Department": "133"
+        }
+      ]
+    },
+    {
+      "Id": "2279",
+      "FirstName": "Любовь",
+      "MiddleName": "Александровна",
+      "LastName": "Хоботкова",
+      "Time": 1,
+      "StartDate": "1988-12-10T00:00:00",
+      "BirthDate": "1961-07-01T00:00:00",
+      "Positions": [
+        {
+          "Position": "0",
+          "Department": "133"
+        }
+      ]
+    },
+    {
+      "Id": "2801",
+      "FirstName": "Любовь",
+      "MiddleName": "Николаевна",
+      "LastName": "Горянова",
+      "Time": 2,
+      "StartDate": "2008-11-21T00:00:00",
+      "BirthDate": "1973-08-12T00:00:00",
+      "Positions": [
+        {
+          "Position": "10",
+          "Department": "133"
+        }
+      ]
+    }
+  ]
+}

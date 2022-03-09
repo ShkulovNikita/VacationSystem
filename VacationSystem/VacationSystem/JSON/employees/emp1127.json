@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "1127",
-	"FirstName": "Евгений",
-	"MiddleName": "Валерьевич",
-	"LastName": "Якимов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "57",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		},
-		{
-			"Id": "57",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1127",
+  "FirstName": "Евгений",
+  "MiddleName": "Валерьевич",
+  "LastName": "Якимов",
+  "Time": 2,
+  "StartDate": "2011-11-17T00:00:00",
+  "BirthDate": "1979-07-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "57"
+    },
+    {
+      "Position": "1",
+      "Department": "57"
+    }
+  ]
 }

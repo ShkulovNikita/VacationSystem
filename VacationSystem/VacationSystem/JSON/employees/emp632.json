@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "632",
-	"FirstName": "Людмила",
-	"MiddleName": "Михайловна",
-	"LastName": "Мещерякова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "53",
-			"HeadOfDepartment": false,
-			"Position": "19"
-		}
-	]
+  "Id": "632",
+  "FirstName": "Людмила",
+  "MiddleName": "Михайловна",
+  "LastName": "Мещерякова",
+  "Time": 0.5,
+  "StartDate": "1979-04-01T00:00:00",
+  "BirthDate": "1957-05-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "19",
+      "Department": "53"
+    }
+  ]
 }

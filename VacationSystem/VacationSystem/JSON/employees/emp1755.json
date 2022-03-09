@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1755",
-	"FirstName": "Ирина",
-	"MiddleName": "Владимировна",
-	"LastName": "Стрелкова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "141",
-			"HeadOfDepartment": false,
-			"Position": "142"
-		}
-	]
+  "Id": "1755",
+  "FirstName": "Ирина",
+  "MiddleName": "Владимировна",
+  "LastName": "Стрелкова",
+  "Time": 0.5,
+  "StartDate": "2011-06-24T00:00:00",
+  "BirthDate": "1977-05-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "142",
+      "Department": "141"
+    }
+  ]
 }

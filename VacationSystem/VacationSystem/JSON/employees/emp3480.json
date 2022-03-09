@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3480",
-	"FirstName": "Анна",
-	"MiddleName": "Александровна",
-	"LastName": "Шавлохова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "3480",
+  "FirstName": "Анна",
+  "MiddleName": "Александровна",
+  "LastName": "Шавлохова",
+  "Time": 0.5,
+  "StartDate": "1997-06-24T00:00:00",
+  "BirthDate": "1977-06-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "2"
+    }
+  ]
 }

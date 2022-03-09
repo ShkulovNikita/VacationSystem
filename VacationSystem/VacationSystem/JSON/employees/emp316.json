@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "316",
-	"FirstName": "Юрий",
-	"MiddleName": "Петрович",
-	"LastName": "Егоров",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "2"
-		}
-	]
+  "Id": "316",
+  "FirstName": "Юрий",
+  "MiddleName": "Петрович",
+  "LastName": "Егоров",
+  "Time": 0.5,
+  "StartDate": "2008-03-05T00:00:00",
+  "BirthDate": "1985-07-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "2",
+      "Department": "15"
+    }
+  ]
 }

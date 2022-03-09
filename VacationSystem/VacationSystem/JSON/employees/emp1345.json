@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1345",
-	"FirstName": "Татьяна",
-	"MiddleName": "Васильевна",
-	"LastName": "Былкова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "3",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1345",
+  "FirstName": "Татьяна",
+  "MiddleName": "Васильевна",
+  "LastName": "Былкова",
+  "Time": 1,
+  "StartDate": "2001-12-01T00:00:00",
+  "BirthDate": "1975-04-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "3"
+    }
+  ]
 }

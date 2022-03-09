@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1509",
-	"FirstName": "Владимир",
-	"MiddleName": "Иванович",
-	"LastName": "Ерофеев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "46",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "1509",
+  "FirstName": "Владимир",
+  "MiddleName": "Иванович",
+  "LastName": "Ерофеев",
+  "Time": 0.5,
+  "StartDate": "2017-07-14T00:00:00",
+  "BirthDate": "1991-06-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "46"
+    }
+  ]
 }

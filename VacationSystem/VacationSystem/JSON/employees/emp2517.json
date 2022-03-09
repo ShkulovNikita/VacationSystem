@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "2517",
-	"FirstName": "Галина",
-	"MiddleName": "",
-	"LastName": "Лобова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "1",
-			"HeadOfDepartment": false,
-			"Position": "24"
-		},
-		{
-			"Id": "1",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "2517",
+  "FirstName": "Галина",
+  "MiddleName": "",
+  "LastName": "Лобова",
+  "Time": 2,
+  "StartDate": "2011-08-01T00:00:00",
+  "BirthDate": "1987-05-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "24",
+      "Department": "1"
+    },
+    {
+      "Position": "13",
+      "Department": "1"
+    }
+  ]
 }

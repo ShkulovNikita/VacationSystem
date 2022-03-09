@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2205",
-	"FirstName": "Ирина",
-	"MiddleName": "Георгиевна",
-	"LastName": "Устинова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "52",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "2205",
+  "FirstName": "Ирина",
+  "MiddleName": "Георгиевна",
+  "LastName": "Устинова",
+  "Time": 1,
+  "StartDate": "2011-08-18T00:00:00",
+  "BirthDate": "1983-04-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "52"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3144",
-	"FirstName": "Валентин",
-	"MiddleName": "Сергеевич",
-	"LastName": "Николаенко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "3",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		}
-	]
+  "Id": "3144",
+  "FirstName": "Валентин",
+  "MiddleName": "Сергеевич",
+  "LastName": "Николаенко",
+  "Time": 0.5,
+  "StartDate": "1996-05-21T00:00:00",
+  "BirthDate": "1961-05-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "3"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1329",
-	"FirstName": "Ирина",
-	"MiddleName": "Борисовна",
-	"LastName": "Новикова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "12",
-			"HeadOfDepartment": false,
-			"Position": "33"
-		}
-	]
+  "Id": "1329",
+  "FirstName": "Ирина",
+  "MiddleName": "Борисовна",
+  "LastName": "Новикова",
+  "Time": 1,
+  "StartDate": "2016-09-19T00:00:00",
+  "BirthDate": "1982-12-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "33",
+      "Department": "12"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3594",
-	"FirstName": "Елена",
-	"MiddleName": "Викторовна",
-	"LastName": "Агафонникова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "44",
-			"HeadOfDepartment": false,
-			"Position": "10"
-		}
-	]
+  "Id": "3594",
+  "FirstName": "Елена",
+  "MiddleName": "Викторовна",
+  "LastName": "Агафонникова",
+  "Time": 0.5,
+  "StartDate": "1994-09-09T00:00:00",
+  "BirthDate": "1958-05-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "10",
+      "Department": "44"
+    }
+  ]
 }

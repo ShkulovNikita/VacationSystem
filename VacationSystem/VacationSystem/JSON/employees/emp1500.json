@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1500",
-	"FirstName": "Светлана",
-	"MiddleName": "Юрьевна",
-	"LastName": "Авдеенко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "12",
-			"HeadOfDepartment": false,
-			"Position": "73"
-		}
-	]
+  "Id": "1500",
+  "FirstName": "Светлана",
+  "MiddleName": "Юрьевна",
+  "LastName": "Авдеенко",
+  "Time": 0.5,
+  "StartDate": "2017-06-11T00:00:00",
+  "BirthDate": "1993-10-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "73",
+      "Department": "12"
+    }
+  ]
 }

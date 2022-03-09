@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1050",
-	"FirstName": "Елена",
-	"MiddleName": "Павловна",
-	"LastName": "Сурнина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "99",
-			"HeadOfDepartment": false,
-			"Position": "38"
-		}
-	]
+  "Id": "1050",
+  "FirstName": "Елена",
+  "MiddleName": "Павловна",
+  "LastName": "Сурнина",
+  "Time": 0.5,
+  "StartDate": "2013-01-03T00:00:00",
+  "BirthDate": "1988-07-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "38",
+      "Department": "99"
+    }
+  ]
 }

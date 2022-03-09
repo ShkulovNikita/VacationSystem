@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2279",
-	"FirstName": "Любовь",
-	"MiddleName": "Александровна",
-	"LastName": "Хоботкова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "133",
-			"HeadOfDepartment": false,
-			"Position": "0"
-		}
-	]
+  "Id": "2279",
+  "FirstName": "Любовь",
+  "MiddleName": "Александровна",
+  "LastName": "Хоботкова",
+  "Time": 1,
+  "StartDate": "1988-12-10T00:00:00",
+  "BirthDate": "1961-07-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "0",
+      "Department": "133"
+    }
+  ]
 }

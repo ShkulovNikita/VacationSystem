@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "907",
-	"FirstName": "Александр",
-	"MiddleName": "Анатольевич",
-	"LastName": "Хамухин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "26",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "907",
+  "FirstName": "Александр",
+  "MiddleName": "Анатольевич",
+  "LastName": "Хамухин",
+  "Time": 0.5,
+  "StartDate": "1990-02-16T00:00:00",
+  "BirthDate": "1965-12-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "26"
+    }
+  ]
 }

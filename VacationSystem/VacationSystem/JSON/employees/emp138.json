@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "138",
-	"FirstName": "Марина",
-	"MiddleName": "Евгеньевна",
-	"LastName": "Трусова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "51",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		},
-		{
-			"Id": "51",
-			"HeadOfDepartment": false,
-			"Position": "45"
-		}
-	]
+  "Id": "138",
+  "FirstName": "Марина",
+  "MiddleName": "Евгеньевна",
+  "LastName": "Трусова",
+  "Time": 1.5,
+  "StartDate": "2014-08-15T00:00:00",
+  "BirthDate": "1971-09-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "51"
+    },
+    {
+      "Position": "45",
+      "Department": "51"
+    }
+  ]
 }

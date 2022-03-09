@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3610",
-	"FirstName": "Иван",
-	"MiddleName": "Васильевич",
-	"LastName": "Тайлашев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "59",
-			"HeadOfDepartment": false,
-			"Position": "37"
-		}
-	]
+  "Id": "3610",
+  "FirstName": "Иван",
+  "MiddleName": "Васильевич",
+  "LastName": "Тайлашев",
+  "Time": 1,
+  "StartDate": "2015-12-24T00:00:00",
+  "BirthDate": "1961-08-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "37",
+      "Department": "59"
+    }
+  ]
 }

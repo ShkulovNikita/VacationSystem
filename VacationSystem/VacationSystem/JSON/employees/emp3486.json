@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3486",
-	"FirstName": "Евгений",
-	"MiddleName": "Валерьевич",
-	"LastName": "Галунин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "51",
-			"HeadOfDepartment": false,
-			"Position": "24"
-		}
-	]
+  "Id": "3486",
+  "FirstName": "Евгений",
+  "MiddleName": "Валерьевич",
+  "LastName": "Галунин",
+  "Time": 1,
+  "StartDate": "2016-05-19T00:00:00",
+  "BirthDate": "1961-12-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "24",
+      "Department": "51"
+    }
+  ]
 }

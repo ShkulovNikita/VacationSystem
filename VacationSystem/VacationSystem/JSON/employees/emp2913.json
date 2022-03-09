@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2913",
-	"FirstName": "Виктор",
-	"MiddleName": "Александрович",
-	"LastName": "Подгорный",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "112",
-			"HeadOfDepartment": false,
-			"Position": "99"
-		}
-	]
+  "Id": "2913",
+  "FirstName": "Виктор",
+  "MiddleName": "Александрович",
+  "LastName": "Подгорный",
+  "Time": 0.5,
+  "StartDate": "2011-09-24T00:00:00",
+  "BirthDate": "1978-02-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "99",
+      "Department": "112"
+    }
+  ]
 }

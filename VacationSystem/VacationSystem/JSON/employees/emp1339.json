@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1339",
-	"FirstName": "Юрий",
-	"MiddleName": "Александрович",
-	"LastName": "Готовцев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "75",
-			"HeadOfDepartment": false,
-			"Position": "103"
-		}
-	]
+  "Id": "1339",
+  "FirstName": "Юрий",
+  "MiddleName": "Александрович",
+  "LastName": "Готовцев",
+  "Time": 1,
+  "StartDate": "2003-12-08T00:00:00",
+  "BirthDate": "1955-05-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "103",
+      "Department": "75"
+    }
+  ]
 }

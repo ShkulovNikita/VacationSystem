@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3798",
-	"FirstName": "Виктор",
-	"MiddleName": "Алексеевич",
-	"LastName": "Кафаров",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "230",
-			"HeadOfDepartment": false,
-			"Position": "298"
-		}
-	]
+  "Id": "3798",
+  "FirstName": "Виктор",
+  "MiddleName": "Алексеевич",
+  "LastName": "Кафаров",
+  "Time": 1,
+  "StartDate": "2015-02-11T00:00:00",
+  "BirthDate": "1964-03-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "298",
+      "Department": "230"
+    }
+  ]
 }

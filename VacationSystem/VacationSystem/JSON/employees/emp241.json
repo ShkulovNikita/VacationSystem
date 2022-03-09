@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "241",
-	"FirstName": "Сергей",
-	"MiddleName": "Алексеевич",
-	"LastName": "Чуфистов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "72",
-			"HeadOfDepartment": false,
-			"Position": "47"
-		}
-	]
+  "Id": "241",
+  "FirstName": "Сергей",
+  "MiddleName": "Алексеевич",
+  "LastName": "Чуфистов",
+  "Time": 1,
+  "StartDate": "2002-10-02T00:00:00",
+  "BirthDate": "1976-01-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "47",
+      "Department": "72"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2687",
-	"FirstName": "Марина",
-	"MiddleName": "Леонидовна",
-	"LastName": "Хасанова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "76",
-			"HeadOfDepartment": false,
-			"Position": "50"
-		}
-	]
+  "Id": "2687",
+  "FirstName": "Марина",
+  "MiddleName": "Леонидовна",
+  "LastName": "Хасанова",
+  "Time": 0.5,
+  "StartDate": "1990-12-02T00:00:00",
+  "BirthDate": "1970-08-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "50",
+      "Department": "76"
+    }
+  ]
 }

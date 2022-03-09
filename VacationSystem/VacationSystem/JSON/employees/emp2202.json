@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2202",
-	"FirstName": "Татьяна",
-	"MiddleName": "Юрьевна",
-	"LastName": "Клыкова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "18"
-		}
-	]
+  "Id": "2202",
+  "FirstName": "Татьяна",
+  "MiddleName": "Юрьевна",
+  "LastName": "Клыкова",
+  "Time": 1,
+  "StartDate": "2008-08-19T00:00:00",
+  "BirthDate": "1973-11-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "18",
+      "Department": "2"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1256",
-	"FirstName": "Светлана",
-	"MiddleName": "Алексеевна",
-	"LastName": "Ласкеева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "16"
-		}
-	]
+  "Id": "1256",
+  "FirstName": "Светлана",
+  "MiddleName": "Алексеевна",
+  "LastName": "Ласкеева",
+  "Time": 0.5,
+  "StartDate": "2014-06-17T00:00:00",
+  "BirthDate": "1979-03-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "16",
+      "Department": "2"
+    }
+  ]
 }

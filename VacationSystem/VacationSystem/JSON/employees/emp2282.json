@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2282",
-	"FirstName": "Людмила",
-	"MiddleName": "Владимировна",
-	"LastName": "Кривова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "19",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "2282",
+  "FirstName": "Людмила",
+  "MiddleName": "Владимировна",
+  "LastName": "Кривова",
+  "Time": 1,
+  "StartDate": "1979-02-03T00:00:00",
+  "BirthDate": "1957-02-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "19"
+    }
+  ]
 }

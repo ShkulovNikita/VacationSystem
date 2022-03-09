@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "313",
-	"FirstName": "Арина",
-	"MiddleName": "Михайловна",
-	"LastName": "Евсеева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "0",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "313",
+  "FirstName": "Арина",
+  "MiddleName": "Михайловна",
+  "LastName": "Евсеева",
+  "Time": 0.5,
+  "StartDate": "2021-07-20T00:00:00",
+  "BirthDate": "1993-05-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "0"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2781",
-	"FirstName": "Валерий",
-	"MiddleName": "Сергеевич",
-	"LastName": "Вострухин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "110",
-			"HeadOfDepartment": false,
-			"Position": "11"
-		}
-	]
+  "Id": "2781",
+  "FirstName": "Валерий",
+  "MiddleName": "Сергеевич",
+  "LastName": "Вострухин",
+  "Time": 0.5,
+  "StartDate": "2014-01-03T00:00:00",
+  "BirthDate": "1967-04-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "11",
+      "Department": "110"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1254",
-	"FirstName": "Мария",
-	"MiddleName": "Александровна",
-	"LastName": "Анисимова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "1254",
+  "FirstName": "Мария",
+  "MiddleName": "Александровна",
+  "LastName": "Анисимова",
+  "Time": 1,
+  "StartDate": "2002-03-02T00:00:00",
+  "BirthDate": "1978-09-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "15"
+    }
+  ]
 }

@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "2058",
-	"FirstName": "Сергей",
-	"MiddleName": "Анатольевич",
-	"LastName": "Гынгазов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "57",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		},
-		{
-			"Id": "88",
-			"HeadOfDepartment": false,
-			"Position": "41"
-		}
-	]
+  "Id": "2058",
+  "FirstName": "Сергей",
+  "MiddleName": "Анатольевич",
+  "LastName": "Гынгазов",
+  "Time": 2,
+  "StartDate": "2013-10-17T00:00:00",
+  "BirthDate": "1981-12-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "57"
+    },
+    {
+      "Position": "41",
+      "Department": "88"
+    }
+  ]
 }

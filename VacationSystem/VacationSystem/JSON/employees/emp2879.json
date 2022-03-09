@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2879",
-	"FirstName": "Сергей",
-	"MiddleName": "Владимирович",
-	"LastName": "Кетов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "32",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "2879",
+  "FirstName": "Сергей",
+  "MiddleName": "Владимирович",
+  "LastName": "Кетов",
+  "Time": 0.5,
+  "StartDate": "1996-01-21T00:00:00",
+  "BirthDate": "1953-12-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "32"
+    }
+  ]
 }

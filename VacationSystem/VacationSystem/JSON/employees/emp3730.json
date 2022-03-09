@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3730",
-	"FirstName": "Никхил",
-	"MiddleName": "",
-	"LastName": "Шарма",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "254",
-			"HeadOfDepartment": false,
-			"Position": "24"
-		}
-	]
+  "Id": "3730",
+  "FirstName": "Никхил",
+  "MiddleName": "",
+  "LastName": "Шарма",
+  "Time": 1,
+  "StartDate": "2011-11-23T00:00:00",
+  "BirthDate": "1978-01-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "24",
+      "Department": "254"
+    }
+  ]
 }

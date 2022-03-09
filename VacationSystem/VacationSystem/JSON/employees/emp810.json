@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "810",
-	"FirstName": "Марина",
-	"MiddleName": "Витальевна",
-	"LastName": "Верховская",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "3",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "810",
+  "FirstName": "Марина",
+  "MiddleName": "Витальевна",
+  "LastName": "Верховская",
+  "Time": 1,
+  "StartDate": "2004-01-17T00:00:00",
+  "BirthDate": "1959-04-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "3"
+    }
+  ]
 }

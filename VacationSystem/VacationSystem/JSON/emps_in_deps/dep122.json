@@ -1,0 +1,184 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "333",
+      "FirstName": "Станислав",
+      "MiddleName": "Валериевич",
+      "LastName": "Касьянов",
+      "Time": 0.5,
+      "StartDate": "2012-06-19T00:00:00",
+      "BirthDate": "1990-02-14T00:00:00",
+      "Positions": [
+        {
+          "Position": "56",
+          "Department": "122"
+        }
+      ]
+    },
+    {
+      "Id": "941",
+      "FirstName": "Анатолий",
+      "MiddleName": "Алексеевич",
+      "LastName": "Филимонов",
+      "Time": 1,
+      "StartDate": "2021-08-04T00:00:00",
+      "BirthDate": "1980-01-15T00:00:00",
+      "Positions": [
+        {
+          "Position": "11",
+          "Department": "122"
+        }
+      ]
+    },
+    {
+      "Id": "1270",
+      "FirstName": "Алексей",
+      "MiddleName": "Александрович",
+      "LastName": "Логинов",
+      "Time": 1,
+      "StartDate": "2010-10-23T00:00:00",
+      "BirthDate": "1982-08-15T00:00:00",
+      "Positions": [
+        {
+          "Position": "114",
+          "Department": "122"
+        }
+      ]
+    },
+    {
+      "Id": "1357",
+      "FirstName": "Александр",
+      "MiddleName": "Валерьевич",
+      "LastName": "Шадрин",
+      "Time": 0.5,
+      "StartDate": "2017-11-12T00:00:00",
+      "BirthDate": "1988-08-04T00:00:00",
+      "Positions": [
+        {
+          "Position": "103",
+          "Department": "122"
+        }
+      ]
+    },
+    {
+      "Id": "1598",
+      "FirstName": "Дмитрий",
+      "MiddleName": "Николаевич",
+      "LastName": "Акимов",
+      "Time": 1,
+      "StartDate": "1997-07-21T00:00:00",
+      "BirthDate": "1973-02-20T00:00:00",
+      "Positions": [
+        {
+          "Position": "103",
+          "Department": "122"
+        }
+      ]
+    },
+    {
+      "Id": "1806",
+      "FirstName": "Андрей",
+      "MiddleName": "Александрович",
+      "LastName": "Колмаков",
+      "Time": 1,
+      "StartDate": "2006-05-14T00:00:00",
+      "BirthDate": "1984-01-24T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "122"
+        }
+      ]
+    },
+    {
+      "Id": "1840",
+      "FirstName": "Радик",
+      "MiddleName": "Эмирханович",
+      "LastName": "Кодермятов",
+      "Time": 1,
+      "StartDate": "1998-05-13T00:00:00",
+      "BirthDate": "1974-11-23T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "122"
+        }
+      ]
+    },
+    {
+      "Id": "2029",
+      "FirstName": "Владимир",
+      "MiddleName": "Михайлович",
+      "LastName": "Зырянов",
+      "Time": 1,
+      "StartDate": "2018-06-04T00:00:00",
+      "BirthDate": "1993-12-20T00:00:00",
+      "Positions": [
+        {
+          "Position": "11",
+          "Department": "122"
+        }
+      ]
+    },
+    {
+      "Id": "2115",
+      "FirstName": "Валерий",
+      "MiddleName": "Алексеевич",
+      "LastName": "Касьянов",
+      "Time": 0.5,
+      "StartDate": "2006-01-11T00:00:00",
+      "BirthDate": "1985-03-14T00:00:00",
+      "Positions": [
+        {
+          "Position": "2",
+          "Department": "122"
+        }
+      ]
+    },
+    {
+      "Id": "2464",
+      "FirstName": "Любовь",
+      "MiddleName": "Емельяновна",
+      "LastName": "Степцюра",
+      "Time": 0.5,
+      "StartDate": "2001-12-09T00:00:00",
+      "BirthDate": "1973-06-01T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "122"
+        }
+      ]
+    },
+    {
+      "Id": "2469",
+      "FirstName": "Евгений",
+      "MiddleName": "Михайлович",
+      "LastName": "Матвеев",
+      "Time": 1,
+      "StartDate": "1994-07-11T00:00:00",
+      "BirthDate": "1969-09-04T00:00:00",
+      "Positions": [
+        {
+          "Position": "103",
+          "Department": "122"
+        }
+      ]
+    },
+    {
+      "Id": "3096",
+      "FirstName": "Дмитрий",
+      "MiddleName": "Евгеньевич",
+      "LastName": "Руденков",
+      "Time": 1,
+      "StartDate": "2014-08-07T00:00:00",
+      "BirthDate": "1976-02-14T00:00:00",
+      "Positions": [
+        {
+          "Position": "81",
+          "Department": "122"
+        }
+      ]
+    }
+  ]
+}

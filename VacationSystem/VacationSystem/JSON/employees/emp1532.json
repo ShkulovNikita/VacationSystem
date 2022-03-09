@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1532",
-	"FirstName": "Андрей",
-	"MiddleName": "Андреевич",
-	"LastName": "Шараевский",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "28",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "1532",
+  "FirstName": "Андрей",
+  "MiddleName": "Андреевич",
+  "LastName": "Шараевский",
+  "Time": 0.5,
+  "StartDate": "2007-09-01T00:00:00",
+  "BirthDate": "1976-03-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "28"
+    }
+  ]
 }

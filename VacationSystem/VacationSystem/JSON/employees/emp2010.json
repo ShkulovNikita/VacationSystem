@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2010",
-	"FirstName": "Владимир",
-	"MiddleName": "Григорьевич",
-	"LastName": "Волков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "68",
-			"HeadOfDepartment": false,
-			"Position": "56"
-		}
-	]
+  "Id": "2010",
+  "FirstName": "Владимир",
+  "MiddleName": "Григорьевич",
+  "LastName": "Волков",
+  "Time": 1,
+  "StartDate": "1998-03-11T00:00:00",
+  "BirthDate": "1964-01-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "56",
+      "Department": "68"
+    }
+  ]
 }

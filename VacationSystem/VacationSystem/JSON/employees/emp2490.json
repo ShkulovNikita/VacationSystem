@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2490",
-	"FirstName": "Анна",
-	"MiddleName": "Юрьевна",
-	"LastName": "Захарова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "129",
-			"HeadOfDepartment": false,
-			"Position": "0"
-		}
-	]
+  "Id": "2490",
+  "FirstName": "Анна",
+  "MiddleName": "Юрьевна",
+  "LastName": "Захарова",
+  "Time": 0.5,
+  "StartDate": "2014-03-19T00:00:00",
+  "BirthDate": "1986-12-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "0",
+      "Department": "129"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1029",
-	"FirstName": "Екатерина",
-	"MiddleName": "Александровна",
-	"LastName": "Кулинич",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "8"
-		}
-	]
+  "Id": "1029",
+  "FirstName": "Екатерина",
+  "MiddleName": "Александровна",
+  "LastName": "Кулинич",
+  "Time": 0.5,
+  "StartDate": "1998-03-06T00:00:00",
+  "BirthDate": "1978-08-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "8",
+      "Department": "2"
+    }
+  ]
 }

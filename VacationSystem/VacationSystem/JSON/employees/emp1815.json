@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1815",
-	"FirstName": "Ольга",
-	"MiddleName": "Андреевна",
-	"LastName": "Гусельникова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "51",
-			"HeadOfDepartment": false,
-			"Position": "24"
-		}
-	]
+  "Id": "1815",
+  "FirstName": "Ольга",
+  "MiddleName": "Андреевна",
+  "LastName": "Гусельникова",
+  "Time": 1,
+  "StartDate": "2012-02-02T00:00:00",
+  "BirthDate": "1981-01-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "24",
+      "Department": "51"
+    }
+  ]
 }

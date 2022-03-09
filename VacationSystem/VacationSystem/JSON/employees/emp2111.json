@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2111",
-	"FirstName": "Ольга",
-	"MiddleName": "Брониславовна",
-	"LastName": "Назаренко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "57",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "2111",
+  "FirstName": "Ольга",
+  "MiddleName": "Брониславовна",
+  "LastName": "Назаренко",
+  "Time": 1,
+  "StartDate": "2002-12-04T00:00:00",
+  "BirthDate": "1960-08-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "57"
+    }
+  ]
 }

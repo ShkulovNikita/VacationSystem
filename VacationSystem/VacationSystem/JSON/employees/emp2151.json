@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2151",
-	"FirstName": "Анна",
-	"MiddleName": "Валерьевна",
-	"LastName": "Долматова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "7"
-		}
-	]
+  "Id": "2151",
+  "FirstName": "Анна",
+  "MiddleName": "Валерьевна",
+  "LastName": "Долматова",
+  "Time": 1,
+  "StartDate": "2018-11-14T00:00:00",
+  "BirthDate": "1975-02-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "7",
+      "Department": "2"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2376",
-	"FirstName": "Юрий",
-	"MiddleName": "Маркелович",
-	"LastName": "Новосельцев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "50",
-			"HeadOfDepartment": false,
-			"Position": "88"
-		}
-	]
+  "Id": "2376",
+  "FirstName": "Юрий",
+  "MiddleName": "Маркелович",
+  "LastName": "Новосельцев",
+  "Time": 1,
+  "StartDate": "1992-03-19T00:00:00",
+  "BirthDate": "1972-02-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "88",
+      "Department": "50"
+    }
+  ]
 }

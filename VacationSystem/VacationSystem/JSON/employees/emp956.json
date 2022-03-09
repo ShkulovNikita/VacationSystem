@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "956",
-	"FirstName": "Александр",
-	"MiddleName": "Леонидович",
-	"LastName": "Игнатов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "47",
-			"HeadOfDepartment": false,
-			"Position": "30"
-		}
-	]
+  "Id": "956",
+  "FirstName": "Александр",
+  "MiddleName": "Леонидович",
+  "LastName": "Игнатов",
+  "Time": 1,
+  "StartDate": "1996-04-12T00:00:00",
+  "BirthDate": "1961-02-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "30",
+      "Department": "47"
+    }
+  ]
 }

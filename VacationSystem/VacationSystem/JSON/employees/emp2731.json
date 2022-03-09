@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2731",
-	"FirstName": "Елена",
-	"MiddleName": "Руслановна",
-	"LastName": "Лобова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "28",
-			"HeadOfDepartment": false,
-			"Position": "71"
-		}
-	]
+  "Id": "2731",
+  "FirstName": "Елена",
+  "MiddleName": "Руслановна",
+  "LastName": "Лобова",
+  "Time": 1,
+  "StartDate": "2020-04-14T00:00:00",
+  "BirthDate": "1964-02-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "71",
+      "Department": "28"
+    }
+  ]
 }

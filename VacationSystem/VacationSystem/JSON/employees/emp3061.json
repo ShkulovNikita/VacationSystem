@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3061",
-	"FirstName": "Анна",
-	"MiddleName": "Борисовна",
-	"LastName": "Петрова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "57",
-			"HeadOfDepartment": false,
-			"Position": "26"
-		}
-	]
+  "Id": "3061",
+  "FirstName": "Анна",
+  "MiddleName": "Борисовна",
+  "LastName": "Петрова",
+  "Time": 1,
+  "StartDate": "2018-02-17T00:00:00",
+  "BirthDate": "1981-05-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "26",
+      "Department": "57"
+    }
+  ]
 }

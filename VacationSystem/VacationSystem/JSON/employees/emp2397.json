@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2397",
-	"FirstName": "Александр",
-	"MiddleName": "Михайлович",
-	"LastName": "Владимиров",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "35",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "2397",
+  "FirstName": "Александр",
+  "MiddleName": "Михайлович",
+  "LastName": "Владимиров",
+  "Time": 1,
+  "StartDate": "2015-01-16T00:00:00",
+  "BirthDate": "1965-08-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "35"
+    }
+  ]
 }

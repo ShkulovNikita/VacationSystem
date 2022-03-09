@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "547",
-	"FirstName": "Людмила",
-	"MiddleName": "Михайловна",
-	"LastName": "Бер",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "52",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "547",
+  "FirstName": "Людмила",
+  "MiddleName": "Михайловна",
+  "LastName": "Бер",
+  "Time": 1,
+  "StartDate": "2020-07-24T00:00:00",
+  "BirthDate": "1986-08-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "52"
+    }
+  ]
 }

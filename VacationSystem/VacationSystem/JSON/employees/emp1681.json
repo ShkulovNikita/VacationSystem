@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "1681",
-	"FirstName": "Ирина",
-	"MiddleName": "Сергеевна",
-	"LastName": "Лобанова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "57",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		},
-		{
-			"Id": "57",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1681",
+  "FirstName": "Ирина",
+  "MiddleName": "Сергеевна",
+  "LastName": "Лобанова",
+  "Time": 1,
+  "StartDate": "2009-05-05T00:00:00",
+  "BirthDate": "1983-12-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "57"
+    },
+    {
+      "Position": "1",
+      "Department": "57"
+    }
+  ]
 }

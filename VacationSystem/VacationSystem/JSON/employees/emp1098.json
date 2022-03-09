@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1098",
-	"FirstName": "Юлия",
-	"MiddleName": "Павловна",
-	"LastName": "Калинникова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "195",
-			"HeadOfDepartment": false,
-			"Position": "10"
-		}
-	]
+  "Id": "1098",
+  "FirstName": "Юлия",
+  "MiddleName": "Павловна",
+  "LastName": "Калинникова",
+  "Time": 0.5,
+  "StartDate": "1978-07-15T00:00:00",
+  "BirthDate": "1954-02-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "10",
+      "Department": "195"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3263",
-	"FirstName": "Константин",
-	"MiddleName": "Владимирович",
-	"LastName": "Шовиков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "50",
-			"HeadOfDepartment": false,
-			"Position": "88"
-		}
-	]
+  "Id": "3263",
+  "FirstName": "Константин",
+  "MiddleName": "Владимирович",
+  "LastName": "Шовиков",
+  "Time": 0.5,
+  "StartDate": "2020-02-22T00:00:00",
+  "BirthDate": "1980-09-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "88",
+      "Department": "50"
+    }
+  ]
 }

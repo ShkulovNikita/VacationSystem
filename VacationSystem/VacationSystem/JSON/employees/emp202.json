@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "202",
-	"FirstName": "Егор",
-	"MiddleName": "Алексеевич",
-	"LastName": "Ефременков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "93",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		},
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "202",
+  "FirstName": "Егор",
+  "MiddleName": "Алексеевич",
+  "LastName": "Ефременков",
+  "Time": 2,
+  "StartDate": "1995-11-08T00:00:00",
+  "BirthDate": "1967-08-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "93"
+    },
+    {
+      "Position": "1",
+      "Department": "15"
+    }
+  ]
 }

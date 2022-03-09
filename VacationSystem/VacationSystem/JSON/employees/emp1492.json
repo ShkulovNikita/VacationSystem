@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1492",
-	"FirstName": "Александр",
-	"MiddleName": "Николаевич",
-	"LastName": "Субботин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "39",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "1492",
+  "FirstName": "Александр",
+  "MiddleName": "Николаевич",
+  "LastName": "Субботин",
+  "Time": 0.5,
+  "StartDate": "2013-06-09T00:00:00",
+  "BirthDate": "1985-07-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "39"
+    }
+  ]
 }

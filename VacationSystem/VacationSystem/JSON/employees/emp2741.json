@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2741",
-	"FirstName": "Егор",
-	"MiddleName": "Владимирович",
-	"LastName": "Пахомов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "47",
-			"HeadOfDepartment": false,
-			"Position": "30"
-		}
-	]
+  "Id": "2741",
+  "FirstName": "Егор",
+  "MiddleName": "Владимирович",
+  "LastName": "Пахомов",
+  "Time": 1,
+  "StartDate": "2021-03-05T00:00:00",
+  "BirthDate": "1989-04-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "30",
+      "Department": "47"
+    }
+  ]
 }

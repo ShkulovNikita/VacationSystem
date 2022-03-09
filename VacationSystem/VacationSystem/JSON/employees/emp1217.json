@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1217",
-	"FirstName": "Артем",
-	"MiddleName": "Владимирович",
-	"LastName": "Ковалев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "46",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1217",
+  "FirstName": "Артем",
+  "MiddleName": "Владимирович",
+  "LastName": "Ковалев",
+  "Time": 1,
+  "StartDate": "1995-02-09T00:00:00",
+  "BirthDate": "1966-02-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "46"
+    }
+  ]
 }

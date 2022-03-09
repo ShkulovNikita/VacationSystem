@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "90",
-	"FirstName": "Людмила",
-	"MiddleName": "Михайловна",
-	"LastName": "Иценко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "47",
-			"HeadOfDepartment": false,
-			"Position": "30"
-		}
-	]
+  "Id": "90",
+  "FirstName": "Людмила",
+  "MiddleName": "Михайловна",
+  "LastName": "Иценко",
+  "Time": 1,
+  "StartDate": "1993-06-09T00:00:00",
+  "BirthDate": "1961-04-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "30",
+      "Department": "47"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "518",
-	"FirstName": "Николай",
-	"MiddleName": "Яковлевич",
-	"LastName": "Филишов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "79",
-			"HeadOfDepartment": false,
-			"Position": "11"
-		}
-	]
+  "Id": "518",
+  "FirstName": "Николай",
+  "MiddleName": "Яковлевич",
+  "LastName": "Филишов",
+  "Time": 0.5,
+  "StartDate": "1994-11-04T00:00:00",
+  "BirthDate": "1970-06-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "11",
+      "Department": "79"
+    }
+  ]
 }

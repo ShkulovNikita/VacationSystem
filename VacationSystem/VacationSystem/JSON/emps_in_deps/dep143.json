@@ -1,0 +1,94 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "492",
+      "FirstName": "Софья",
+      "MiddleName": "Александровна",
+      "LastName": "Ануфриева",
+      "Time": 1,
+      "StartDate": "2008-03-19T00:00:00",
+      "BirthDate": "1953-08-23T00:00:00",
+      "Positions": [
+        {
+          "Position": "15",
+          "Department": "143"
+        }
+      ]
+    },
+    {
+      "Id": "658",
+      "FirstName": "Надежда",
+      "MiddleName": "Ивановна",
+      "LastName": "Панкова",
+      "Time": 1,
+      "StartDate": "1991-05-24T00:00:00",
+      "BirthDate": "1956-04-03T00:00:00",
+      "Positions": [
+        {
+          "Position": "15",
+          "Department": "143"
+        }
+      ]
+    },
+    {
+      "Id": "2158",
+      "FirstName": "Татьяна",
+      "MiddleName": "Александровна",
+      "LastName": "Куликова",
+      "Time": 0.5,
+      "StartDate": "2020-11-18T00:00:00",
+      "BirthDate": "1966-04-17T00:00:00",
+      "Positions": [
+        {
+          "Position": "15",
+          "Department": "143"
+        }
+      ]
+    },
+    {
+      "Id": "2264",
+      "FirstName": "Татьяна",
+      "MiddleName": "Леонидовна",
+      "LastName": "Конюхова",
+      "Time": 1,
+      "StartDate": "2020-01-23T00:00:00",
+      "BirthDate": "1974-11-24T00:00:00",
+      "Positions": [
+        {
+          "Position": "15",
+          "Department": "143"
+        }
+      ]
+    },
+    {
+      "Id": "3198",
+      "FirstName": "Надежда",
+      "MiddleName": "Петровна",
+      "LastName": "Митрофанова",
+      "Time": 1,
+      "StartDate": "2019-05-07T00:00:00",
+      "BirthDate": "1971-01-07T00:00:00",
+      "Positions": [
+        {
+          "Position": "15",
+          "Department": "143"
+        }
+      ]
+    },
+    {
+      "Id": "3215",
+      "FirstName": "Алла",
+      "MiddleName": "Петровна",
+      "LastName": "Филюкова",
+      "Time": 1,
+      "StartDate": "2017-06-17T00:00:00",
+      "BirthDate": "1993-03-12T00:00:00",
+      "Positions": [
+        {
+          "Position": "15",
+          "Department": "143"
+        }
+      ]
+    }
+  ]
+}

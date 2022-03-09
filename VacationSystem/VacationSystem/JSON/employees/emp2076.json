@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2076",
-	"FirstName": "Ольга",
-	"MiddleName": "Александровна",
-	"LastName": "Коленчук",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "46",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "2076",
+  "FirstName": "Ольга",
+  "MiddleName": "Александровна",
+  "LastName": "Коленчук",
+  "Time": 1,
+  "StartDate": "2009-04-17T00:00:00",
+  "BirthDate": "1964-01-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "46"
+    }
+  ]
 }

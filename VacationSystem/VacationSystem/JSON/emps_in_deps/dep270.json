@@ -1,0 +1,19 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "3636",
+      "FirstName": "Виктория",
+      "MiddleName": "Вячеславовна",
+      "LastName": "Статюха",
+      "Time": 1,
+      "StartDate": "2006-03-03T00:00:00",
+      "BirthDate": "1978-10-01T00:00:00",
+      "Positions": [
+        {
+          "Position": "157",
+          "Department": "270"
+        }
+      ]
+    }
+  ]
+}

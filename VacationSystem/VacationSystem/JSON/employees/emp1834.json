@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "1834",
-	"FirstName": "Екатерина",
-	"MiddleName": "Владимировна",
-	"LastName": "Подрезова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "192",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		},
-		{
-			"Id": "192",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		}
-	]
+  "Id": "1834",
+  "FirstName": "Екатерина",
+  "MiddleName": "Владимировна",
+  "LastName": "Подрезова",
+  "Time": 1.5,
+  "StartDate": "2016-01-18T00:00:00",
+  "BirthDate": "1989-09-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "192"
+    },
+    {
+      "Position": "5",
+      "Department": "192"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2908",
-	"FirstName": "Василий",
-	"MiddleName": "Владимирович",
-	"LastName": "Чириков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "50",
-			"HeadOfDepartment": false,
-			"Position": "88"
-		}
-	]
+  "Id": "2908",
+  "FirstName": "Василий",
+  "MiddleName": "Владимирович",
+  "LastName": "Чириков",
+  "Time": 1,
+  "StartDate": "2014-06-09T00:00:00",
+  "BirthDate": "1954-03-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "88",
+      "Department": "50"
+    }
+  ]
 }

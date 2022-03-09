@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "3038",
-	"FirstName": "Евгения",
-	"MiddleName": "Владимировна",
-	"LastName": "Бокова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "53"
-		},
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "2"
-		}
-	]
+  "Id": "3038",
+  "FirstName": "Евгения",
+  "MiddleName": "Владимировна",
+  "LastName": "Бокова",
+  "Time": 1,
+  "StartDate": "2000-08-12T00:00:00",
+  "BirthDate": "1963-09-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "53",
+      "Department": "2"
+    },
+    {
+      "Position": "2",
+      "Department": "2"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2736",
-	"FirstName": "Дмитрий",
-	"MiddleName": "",
-	"LastName": "Храпов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "188",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		}
-	]
+  "Id": "2736",
+  "FirstName": "Дмитрий",
+  "MiddleName": "",
+  "LastName": "Храпов",
+  "Time": 0.5,
+  "StartDate": "1994-05-19T00:00:00",
+  "BirthDate": "1974-07-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "188"
+    }
+  ]
 }

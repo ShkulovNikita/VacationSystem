@@ -1,19 +1,15 @@
 ﻿{
-	"Id": "896",
-	"FirstName": "Марина",
-	"MiddleName": "Сергеевна",
-	"LastName": "Полонская",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "71",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		},
-		{
-			"Id": "71",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "896",
+  "FirstName": "Марина",
+  "MiddleName": "Сергеевна",
+  "LastName": "Полонская",
+  "Time": 1,
+  "StartDate": "2010-07-12T00:00:00",
+  "BirthDate": "1962-05-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "71"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2818",
-	"FirstName": "Рината",
-	"MiddleName": "Наильевна",
-	"LastName": "Крушницкая",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "212",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "2818",
+  "FirstName": "Рината",
+  "MiddleName": "Наильевна",
+  "LastName": "Крушницкая",
+  "Time": 0.5,
+  "StartDate": "2016-03-16T00:00:00",
+  "BirthDate": "1955-01-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "212"
+    }
+  ]
 }

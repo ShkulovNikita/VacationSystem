@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2248",
-	"FirstName": "Борис",
-	"MiddleName": "Владимирович",
-	"LastName": "Лукутин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "19",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "2248",
+  "FirstName": "Борис",
+  "MiddleName": "Владимирович",
+  "LastName": "Лукутин",
+  "Time": 1,
+  "StartDate": "2015-07-22T00:00:00",
+  "BirthDate": "1992-03-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "19"
+    }
+  ]
 }

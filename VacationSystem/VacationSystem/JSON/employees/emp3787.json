@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3787",
-	"FirstName": "Дмитрий",
-	"MiddleName": "",
-	"LastName": "Федан",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "8",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		}
-	]
+  "Id": "3787",
+  "FirstName": "Дмитрий",
+  "MiddleName": "",
+  "LastName": "Федан",
+  "Time": 0.5,
+  "StartDate": "2017-04-17T00:00:00",
+  "BirthDate": "1977-11-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "8"
+    }
+  ]
 }

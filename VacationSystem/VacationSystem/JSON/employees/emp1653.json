@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1653",
-	"FirstName": "Алёна",
-	"MiddleName": "Олеговна",
-	"LastName": "Жданова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "32",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "1653",
+  "FirstName": "Алёна",
+  "MiddleName": "Олеговна",
+  "LastName": "Жданова",
+  "Time": 1,
+  "StartDate": "2015-12-23T00:00:00",
+  "BirthDate": "1984-10-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "32"
+    }
+  ]
 }

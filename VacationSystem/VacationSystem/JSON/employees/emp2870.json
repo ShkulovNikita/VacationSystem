@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2870",
-	"FirstName": "Елена",
-	"MiddleName": "Валерьевна",
-	"LastName": "Хамидулина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "9",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "2870",
+  "FirstName": "Елена",
+  "MiddleName": "Валерьевна",
+  "LastName": "Хамидулина",
+  "Time": 0.5,
+  "StartDate": "1992-07-22T00:00:00",
+  "BirthDate": "1960-10-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "9"
+    }
+  ]
 }

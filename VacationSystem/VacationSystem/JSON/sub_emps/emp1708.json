@@ -1,0 +1,19 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "1708",
+      "FirstName": "Анастасия",
+      "MiddleName": "Николаевна",
+      "LastName": "Кузнецова",
+      "Time": 0.5,
+      "StartDate": "2019-09-18T00:00:00",
+      "BirthDate": "1972-09-07T00:00:00",
+      "Positions": [
+        {
+          "Position": "80",
+          "Department": "224"
+        }
+      ]
+    }
+  ]
+}

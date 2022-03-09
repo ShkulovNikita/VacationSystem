@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1784",
-	"FirstName": "Андрей",
-	"MiddleName": "Владимирович",
-	"LastName": "Погребной",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "26",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		}
-	]
+  "Id": "1784",
+  "FirstName": "Андрей",
+  "MiddleName": "Владимирович",
+  "LastName": "Погребной",
+  "Time": 0.5,
+  "StartDate": "2013-07-10T00:00:00",
+  "BirthDate": "1988-07-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "26"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "860",
-	"FirstName": "Людмила",
-	"MiddleName": "Ивановна",
-	"LastName": "Терехина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "52",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "860",
+  "FirstName": "Людмила",
+  "MiddleName": "Ивановна",
+  "LastName": "Терехина",
+  "Time": 1,
+  "StartDate": "2016-03-15T00:00:00",
+  "BirthDate": "1989-04-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "52"
+    }
+  ]
 }

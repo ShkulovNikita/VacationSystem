@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "766",
-	"FirstName": "Анна",
-	"MiddleName": "Александровна",
-	"LastName": "Дерюгина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "0",
-			"HeadOfDepartment": false,
-			"Position": "0"
-		}
-	]
+  "Id": "766",
+  "FirstName": "Анна",
+  "MiddleName": "Александровна",
+  "LastName": "Дерюгина",
+  "Time": 0.5,
+  "StartDate": "2017-04-20T00:00:00",
+  "BirthDate": "1992-01-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "0",
+      "Department": "0"
+    }
+  ]
 }

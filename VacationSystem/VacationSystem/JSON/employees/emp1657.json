@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1657",
-	"FirstName": "Майрам",
-	"MiddleName": "Саидахмадовна",
-	"LastName": "Алиева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "157",
-			"HeadOfDepartment": false,
-			"Position": "112"
-		}
-	]
+  "Id": "1657",
+  "FirstName": "Майрам",
+  "MiddleName": "Саидахмадовна",
+  "LastName": "Алиева",
+  "Time": 1,
+  "StartDate": "2013-06-05T00:00:00",
+  "BirthDate": "1992-05-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "112",
+      "Department": "157"
+    }
+  ]
 }

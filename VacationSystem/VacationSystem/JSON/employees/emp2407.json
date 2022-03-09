@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2407",
-	"FirstName": "Владимир",
-	"MiddleName": "Михайлович",
-	"LastName": "Куренков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "50",
-			"HeadOfDepartment": false,
-			"Position": "88"
-		}
-	]
+  "Id": "2407",
+  "FirstName": "Владимир",
+  "MiddleName": "Михайлович",
+  "LastName": "Куренков",
+  "Time": 0.5,
+  "StartDate": "2010-01-12T00:00:00",
+  "BirthDate": "1987-07-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "88",
+      "Department": "50"
+    }
+  ]
 }

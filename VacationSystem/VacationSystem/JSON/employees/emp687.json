@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "687",
-	"FirstName": "Александр",
-	"MiddleName": "Борисович",
-	"LastName": "Степанов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "118",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "687",
+  "FirstName": "Александр",
+  "MiddleName": "Борисович",
+  "LastName": "Степанов",
+  "Time": 0.5,
+  "StartDate": "2011-01-03T00:00:00",
+  "BirthDate": "1989-10-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "118"
+    }
+  ]
 }

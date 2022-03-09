@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3799",
-	"FirstName": "Ольга",
-	"MiddleName": "Васильевна",
-	"LastName": "Кудрявцева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "77",
-			"HeadOfDepartment": false,
-			"Position": "108"
-		}
-	]
+  "Id": "3799",
+  "FirstName": "Ольга",
+  "MiddleName": "Васильевна",
+  "LastName": "Кудрявцева",
+  "Time": 1,
+  "StartDate": "2016-09-03T00:00:00",
+  "BirthDate": "1990-05-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "108",
+      "Department": "77"
+    }
+  ]
 }

@@ -1,0 +1,181 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "144",
+      "FirstName": "Александр",
+      "MiddleName": "Павлович",
+      "LastName": "Шестак",
+      "Time": 1,
+      "StartDate": "2019-05-21T00:00:00",
+      "BirthDate": "1990-04-19T00:00:00",
+      "Positions": [
+        {
+          "Position": "24",
+          "Department": "78"
+        }
+      ]
+    },
+    {
+      "Id": "209",
+      "FirstName": "Евгений",
+      "MiddleName": "Львович",
+      "LastName": "Маликов",
+      "Time": 1,
+      "StartDate": "1999-07-16T00:00:00",
+      "BirthDate": "1973-10-20T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "78"
+        }
+      ]
+    },
+    {
+      "Id": "915",
+      "FirstName": "Валерий",
+      "MiddleName": "Викторович",
+      "LastName": "Каплин",
+      "Time": 1,
+      "StartDate": "1979-07-13T00:00:00",
+      "BirthDate": "1955-01-02T00:00:00",
+      "Positions": [
+        {
+          "Position": "56",
+          "Department": "78"
+        }
+      ]
+    },
+    {
+      "Id": "1070",
+      "FirstName": "Артем",
+      "MiddleName": "Сергеевич",
+      "LastName": "Луценко",
+      "Time": 0.5,
+      "StartDate": "2004-11-23T00:00:00",
+      "BirthDate": "1973-12-20T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "78"
+        }
+      ]
+    },
+    {
+      "Id": "1269",
+      "FirstName": "Владимир",
+      "MiddleName": "Лазаревич",
+      "LastName": "Николаев",
+      "Time": 0.5,
+      "StartDate": "1999-05-14T00:00:00",
+      "BirthDate": "1965-07-22T00:00:00",
+      "Positions": [
+        {
+          "Position": "11",
+          "Department": "78"
+        }
+      ]
+    },
+    {
+      "Id": "1427",
+      "FirstName": "Владимир",
+      "MiddleName": "Борисович",
+      "LastName": "Сорокин",
+      "Time": 1,
+      "StartDate": "2014-05-17T00:00:00",
+      "BirthDate": "1985-11-06T00:00:00",
+      "Positions": [
+        {
+          "Position": "11",
+          "Department": "78"
+        }
+      ]
+    },
+    {
+      "Id": "1899",
+      "FirstName": "Антон",
+      "MiddleName": "Александрович",
+      "LastName": "Алексеев",
+      "Time": 1,
+      "StartDate": "2013-02-22T00:00:00",
+      "BirthDate": "1959-06-03T00:00:00",
+      "Positions": [
+        {
+          "Position": "217",
+          "Department": "59"
+        },
+        {
+          "Position": "3",
+          "Department": "78"
+        }
+      ]
+    },
+    {
+      "Id": "2215",
+      "FirstName": "Максим",
+      "MiddleName": "Михайлович",
+      "LastName": "Рычков",
+      "Time": 1,
+      "StartDate": "1973-01-02T00:00:00",
+      "BirthDate": "1952-11-13T00:00:00",
+      "Positions": [
+        {
+          "Position": "2",
+          "Department": "78"
+        }
+      ]
+    },
+    {
+      "Id": "2566",
+      "FirstName": "Владимир",
+      "MiddleName": "Александрович",
+      "LastName": "Смолянский",
+      "Time": 1.5,
+      "StartDate": "2019-11-20T00:00:00",
+      "BirthDate": "1991-02-23T00:00:00",
+      "Positions": [
+        {
+          "Position": "4",
+          "Department": "57"
+        },
+        {
+          "Position": "24",
+          "Department": "78"
+        }
+      ]
+    },
+    {
+      "Id": "3282",
+      "FirstName": "Валентин",
+      "MiddleName": "",
+      "LastName": "Генцельман",
+      "Time": 2,
+      "StartDate": "2011-01-13T00:00:00",
+      "BirthDate": "1984-01-16T00:00:00",
+      "Positions": [
+        {
+          "Position": "5",
+          "Department": "78"
+        },
+        {
+          "Position": "3",
+          "Department": "78"
+        }
+      ]
+    },
+    {
+      "Id": "3491",
+      "FirstName": "Юлия",
+      "MiddleName": "Геннадьевна",
+      "LastName": "Янц",
+      "Time": 1,
+      "StartDate": "1988-09-16T00:00:00",
+      "BirthDate": "1952-10-18T00:00:00",
+      "Positions": [
+        {
+          "Position": "26",
+          "Department": "78"
+        }
+      ]
+    }
+  ]
+}

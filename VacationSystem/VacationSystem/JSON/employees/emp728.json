@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "728",
-	"FirstName": "Инна",
-	"MiddleName": "Николаевна",
-	"LastName": "Кучерова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "70"
-		}
-	]
+  "Id": "728",
+  "FirstName": "Инна",
+  "MiddleName": "Николаевна",
+  "LastName": "Кучерова",
+  "Time": 1,
+  "StartDate": "2020-08-16T00:00:00",
+  "BirthDate": "1961-09-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "70",
+      "Department": "15"
+    }
+  ]
 }

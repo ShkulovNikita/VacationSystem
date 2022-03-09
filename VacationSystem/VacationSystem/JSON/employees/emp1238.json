@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1238",
-	"FirstName": "Николай",
-	"MiddleName": "Петрович",
-	"LastName": "Васильев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "59",
-			"HeadOfDepartment": false,
-			"Position": "37"
-		}
-	]
+  "Id": "1238",
+  "FirstName": "Николай",
+  "MiddleName": "Петрович",
+  "LastName": "Васильев",
+  "Time": 1,
+  "StartDate": "2015-07-07T00:00:00",
+  "BirthDate": "1981-08-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "37",
+      "Department": "59"
+    }
+  ]
 }

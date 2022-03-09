@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "73",
-	"FirstName": "Александр",
-	"MiddleName": "Иванович",
-	"LastName": "Черкасов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "73",
+  "FirstName": "Александр",
+  "MiddleName": "Иванович",
+  "LastName": "Черкасов",
+  "Time": 1,
+  "StartDate": "2010-08-23T00:00:00",
+  "BirthDate": "1982-07-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "15"
+    }
+  ]
 }

@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "769",
-	"FirstName": "Елена",
-	"MiddleName": "Ивановна",
-	"LastName": "Короткова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "36",
-			"HeadOfDepartment": false,
-			"Position": "43"
-		},
-		{
-			"Id": "36",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "769",
+  "FirstName": "Елена",
+  "MiddleName": "Ивановна",
+  "LastName": "Короткова",
+  "Time": 2,
+  "StartDate": "2020-12-04T00:00:00",
+  "BirthDate": "1990-08-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "43",
+      "Department": "36"
+    },
+    {
+      "Position": "13",
+      "Department": "36"
+    }
+  ]
 }

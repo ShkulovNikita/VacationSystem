@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2677",
-	"FirstName": "Татьяна",
-	"MiddleName": "Валентиновна",
-	"LastName": "Буланова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "55",
-			"HeadOfDepartment": false,
-			"Position": "18"
-		}
-	]
+  "Id": "2677",
+  "FirstName": "Татьяна",
+  "MiddleName": "Валентиновна",
+  "LastName": "Буланова",
+  "Time": 0.5,
+  "StartDate": "1992-03-16T00:00:00",
+  "BirthDate": "1968-10-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "18",
+      "Department": "55"
+    }
+  ]
 }

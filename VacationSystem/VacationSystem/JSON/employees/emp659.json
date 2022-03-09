@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "659",
-	"FirstName": "Эльвира",
-	"MiddleName": "Юрьевна",
-	"LastName": "Панькова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "33",
-			"HeadOfDepartment": false,
-			"Position": "121"
-		}
-	]
+  "Id": "659",
+  "FirstName": "Эльвира",
+  "MiddleName": "Юрьевна",
+  "LastName": "Панькова",
+  "Time": 1,
+  "StartDate": "1999-06-24T00:00:00",
+  "BirthDate": "1970-02-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "121",
+      "Department": "33"
+    }
+  ]
 }

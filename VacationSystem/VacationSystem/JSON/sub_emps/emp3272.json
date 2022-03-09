@@ -1,0 +1,158 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "304",
+      "FirstName": "Владимир",
+      "MiddleName": "Павлович",
+      "LastName": "Петухов",
+      "Time": 0.5,
+      "StartDate": "2004-03-21T00:00:00",
+      "BirthDate": "1954-03-23T00:00:00",
+      "Positions": [
+        {
+          "Position": "80",
+          "Department": "116"
+        }
+      ]
+    },
+    {
+      "Id": "389",
+      "FirstName": "Надежда",
+      "MiddleName": "Петровна",
+      "LastName": "Ермолаева",
+      "Time": 0.5,
+      "StartDate": "2020-02-01T00:00:00",
+      "BirthDate": "1981-12-03T00:00:00",
+      "Positions": [
+        {
+          "Position": "6",
+          "Department": "116"
+        }
+      ]
+    },
+    {
+      "Id": "1008",
+      "FirstName": "Ирина",
+      "MiddleName": "Владимировна",
+      "LastName": "Рычкова",
+      "Time": 1.5,
+      "StartDate": "2018-03-01T00:00:00",
+      "BirthDate": "1982-08-22T00:00:00",
+      "Positions": [
+        {
+          "Position": "6",
+          "Department": "116"
+        },
+        {
+          "Position": "1",
+          "Department": "1"
+        }
+      ]
+    },
+    {
+      "Id": "2562",
+      "FirstName": "Лидия",
+      "MiddleName": "Анатольевна",
+      "LastName": "Лозовая",
+      "Time": 1,
+      "StartDate": "1997-06-01T00:00:00",
+      "BirthDate": "1956-01-07T00:00:00",
+      "Positions": [
+        {
+          "Position": "45",
+          "Department": "116"
+        }
+      ]
+    },
+    {
+      "Id": "2602",
+      "FirstName": "Елена",
+      "MiddleName": "Анатольевна",
+      "LastName": "Ефимова",
+      "Time": 0.5,
+      "StartDate": "1990-12-10T00:00:00",
+      "BirthDate": "1961-05-19T00:00:00",
+      "Positions": [
+        {
+          "Position": "243",
+          "Department": "116"
+        }
+      ]
+    },
+    {
+      "Id": "2669",
+      "FirstName": "Мария",
+      "MiddleName": "Антоновна",
+      "LastName": "Никольская",
+      "Time": 0.5,
+      "StartDate": "1994-09-12T00:00:00",
+      "BirthDate": "1971-11-18T00:00:00",
+      "Positions": [
+        {
+          "Position": "246",
+          "Department": "116"
+        }
+      ]
+    },
+    {
+      "Id": "3218",
+      "FirstName": "Наталья",
+      "MiddleName": "Александровна",
+      "LastName": "Ахмерова",
+      "Time": 0.5,
+      "StartDate": "2000-06-09T00:00:00",
+      "BirthDate": "1980-10-15T00:00:00",
+      "Positions": [
+        {
+          "Position": "243",
+          "Department": "116"
+        }
+      ]
+    },
+    {
+      "Id": "3272",
+      "FirstName": "Светлана",
+      "MiddleName": "Евгеньевна",
+      "LastName": "Григорьева",
+      "Time": 0.5,
+      "StartDate": "2014-09-06T00:00:00",
+      "BirthDate": "1965-03-06T00:00:00",
+      "Positions": [
+        {
+          "Position": "266",
+          "Department": "116"
+        }
+      ]
+    },
+    {
+      "Id": "3552",
+      "FirstName": "Дмитрий",
+      "MiddleName": "Евгеньевич",
+      "LastName": "Гончаров",
+      "Time": 0.5,
+      "StartDate": "2004-08-17T00:00:00",
+      "BirthDate": "1978-06-07T00:00:00",
+      "Positions": [
+        {
+          "Position": "266",
+          "Department": "116"
+        }
+      ]
+    },
+    {
+      "Id": "3660",
+      "FirstName": "Вадим",
+      "MiddleName": "Александрович",
+      "LastName": "Лобанов",
+      "Time": 0.5,
+      "StartDate": "1981-02-20T00:00:00",
+      "BirthDate": "1961-07-09T00:00:00",
+      "Positions": [
+        {
+          "Position": "266",
+          "Department": "116"
+        }
+      ]
+    }
+  ]
+}

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2393",
-	"FirstName": "Ольга",
-	"MiddleName": "Геннадьевна",
-	"LastName": "Брагина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "99",
-			"HeadOfDepartment": false,
-			"Position": "18"
-		}
-	]
+  "Id": "2393",
+  "FirstName": "Ольга",
+  "MiddleName": "Геннадьевна",
+  "LastName": "Брагина",
+  "Time": 0.5,
+  "StartDate": "2004-05-10T00:00:00",
+  "BirthDate": "1975-05-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "18",
+      "Department": "99"
+    }
+  ]
 }

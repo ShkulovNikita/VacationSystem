@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "58",
-	"FirstName": "Наталья",
-	"MiddleName": "Сергеевна",
-	"LastName": "Кузнецова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "58",
+  "FirstName": "Наталья",
+  "MiddleName": "Сергеевна",
+  "LastName": "Кузнецова",
+  "Time": 0.5,
+  "StartDate": "1995-01-24T00:00:00",
+  "BirthDate": "1965-04-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "15"
+    }
+  ]
 }

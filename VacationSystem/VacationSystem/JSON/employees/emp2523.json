@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2523",
-	"FirstName": "Елена",
-	"MiddleName": "Викторовна",
-	"LastName": "Ячная",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "34",
-			"HeadOfDepartment": false,
-			"Position": "22"
-		}
-	]
+  "Id": "2523",
+  "FirstName": "Елена",
+  "MiddleName": "Викторовна",
+  "LastName": "Ячная",
+  "Time": 0.5,
+  "StartDate": "2004-05-04T00:00:00",
+  "BirthDate": "1970-12-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "22",
+      "Department": "34"
+    }
+  ]
 }

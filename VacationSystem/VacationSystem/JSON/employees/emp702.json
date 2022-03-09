@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "702",
-	"FirstName": "Татьяна",
-	"MiddleName": "Васильевна",
-	"LastName": "Степанова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "702",
+  "FirstName": "Татьяна",
+  "MiddleName": "Васильевна",
+  "LastName": "Степанова",
+  "Time": 1,
+  "StartDate": "1995-03-11T00:00:00",
+  "BirthDate": "1957-02-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "15"
+    }
+  ]
 }

@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "3021",
-	"FirstName": "Владимир",
-	"MiddleName": "Александрович",
-	"LastName": "Клименко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "165",
-			"HeadOfDepartment": false,
-			"Position": "64"
-		},
-		{
-			"Id": "50",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "3021",
+  "FirstName": "Владимир",
+  "MiddleName": "Александрович",
+  "LastName": "Клименко",
+  "Time": 2,
+  "StartDate": "2017-12-08T00:00:00",
+  "BirthDate": "1961-07-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "64",
+      "Department": "165"
+    },
+    {
+      "Position": "3",
+      "Department": "50"
+    }
+  ]
 }

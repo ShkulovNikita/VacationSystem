@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "531",
-	"FirstName": "Евгений",
-	"MiddleName": "Александрович",
-	"LastName": "Сударев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "4",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "531",
+  "FirstName": "Евгений",
+  "MiddleName": "Александрович",
+  "LastName": "Сударев",
+  "Time": 0.5,
+  "StartDate": "1988-03-11T00:00:00",
+  "BirthDate": "1965-12-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "4"
+    }
+  ]
 }

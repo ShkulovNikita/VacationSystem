@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "864",
-	"FirstName": "Алина",
-	"MiddleName": "Юрьевна",
-	"LastName": "Остроумова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "118",
-			"HeadOfDepartment": false,
-			"Position": "10"
-		}
-	]
+  "Id": "864",
+  "FirstName": "Алина",
+  "MiddleName": "Юрьевна",
+  "LastName": "Остроумова",
+  "Time": 1,
+  "StartDate": "2011-10-22T00:00:00",
+  "BirthDate": "1989-04-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "10",
+      "Department": "118"
+    }
+  ]
 }

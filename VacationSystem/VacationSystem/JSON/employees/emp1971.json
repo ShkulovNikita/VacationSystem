@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "1971",
-	"FirstName": "Александр",
-	"MiddleName": "Владимирович",
-	"LastName": "Глазачев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "19",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		},
-		{
-			"Id": "94",
-			"HeadOfDepartment": false,
-			"Position": "18"
-		}
-	]
+  "Id": "1971",
+  "FirstName": "Александр",
+  "MiddleName": "Владимирович",
+  "LastName": "Глазачев",
+  "Time": 1,
+  "StartDate": "1989-05-04T00:00:00",
+  "BirthDate": "1967-02-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "19"
+    },
+    {
+      "Position": "18",
+      "Department": "94"
+    }
+  ]
 }

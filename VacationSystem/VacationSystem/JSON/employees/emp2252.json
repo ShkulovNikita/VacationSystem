@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2252",
-	"FirstName": "Мария",
-	"MiddleName": "Алексеевна",
-	"LastName": "Душкина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "241",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "2252",
+  "FirstName": "Мария",
+  "MiddleName": "Алексеевна",
+  "LastName": "Душкина",
+  "Time": 0.5,
+  "StartDate": "2002-08-19T00:00:00",
+  "BirthDate": "1972-05-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "241"
+    }
+  ]
 }

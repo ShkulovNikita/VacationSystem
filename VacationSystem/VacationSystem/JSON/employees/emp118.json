@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "118",
-	"FirstName": "Екатерина",
-	"MiddleName": "Юрьевна",
-	"LastName": "Дмитриева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "16",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "118",
+  "FirstName": "Екатерина",
+  "MiddleName": "Юрьевна",
+  "LastName": "Дмитриева",
+  "Time": 1,
+  "StartDate": "2007-10-24T00:00:00",
+  "BirthDate": "1959-07-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "16"
+    }
+  ]
 }

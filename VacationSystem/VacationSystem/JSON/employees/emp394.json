@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "394",
-	"FirstName": "Александр",
-	"MiddleName": "Васильевич",
-	"LastName": "Градобоев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "53",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "394",
+  "FirstName": "Александр",
+  "MiddleName": "Васильевич",
+  "LastName": "Градобоев",
+  "Time": 0.5,
+  "StartDate": "1976-10-23T00:00:00",
+  "BirthDate": "1955-09-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "53"
+    }
+  ]
 }

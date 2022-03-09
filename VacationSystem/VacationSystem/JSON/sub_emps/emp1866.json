@@ -1,0 +1,19 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "1866",
+      "FirstName": "Сусанна",
+      "MiddleName": "Александровна",
+      "LastName": "Керимбекова",
+      "Time": 1,
+      "StartDate": "2017-11-22T00:00:00",
+      "BirthDate": "1970-08-23T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "233"
+        }
+      ]
+    }
+  ]
+}

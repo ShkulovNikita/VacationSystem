@@ -1,0 +1,184 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "159",
+      "FirstName": "Ольга",
+      "MiddleName": "Александровна",
+      "LastName": "Гальченко",
+      "Time": 1,
+      "StartDate": "2020-11-23T00:00:00",
+      "BirthDate": "1992-04-06T00:00:00",
+      "Positions": [
+        {
+          "Position": "54",
+          "Department": "84"
+        }
+      ]
+    },
+    {
+      "Id": "269",
+      "FirstName": "Наталия",
+      "MiddleName": "Николаевна",
+      "LastName": "Горюнова",
+      "Time": 2,
+      "StartDate": "1987-10-05T00:00:00",
+      "BirthDate": "1961-09-02T00:00:00",
+      "Positions": [
+        {
+          "Position": "18",
+          "Department": "84"
+        }
+      ]
+    },
+    {
+      "Id": "663",
+      "FirstName": "Марина",
+      "MiddleName": "Николаевна",
+      "LastName": "Романовская",
+      "Time": 0.5,
+      "StartDate": "2021-02-08T00:00:00",
+      "BirthDate": "1993-10-04T00:00:00",
+      "Positions": [
+        {
+          "Position": "6",
+          "Department": "84"
+        }
+      ]
+    },
+    {
+      "Id": "774",
+      "FirstName": "Николай",
+      "MiddleName": "Вадимович",
+      "LastName": "Кояин",
+      "Time": 1,
+      "StartDate": "2019-02-10T00:00:00",
+      "BirthDate": "1961-10-01T00:00:00",
+      "Positions": [
+        {
+          "Position": "38",
+          "Department": "84"
+        }
+      ]
+    },
+    {
+      "Id": "1011",
+      "FirstName": "Елена",
+      "MiddleName": "Васильевна",
+      "LastName": "Савельева",
+      "Time": 1,
+      "StartDate": "2009-05-17T00:00:00",
+      "BirthDate": "1974-04-01T00:00:00",
+      "Positions": [
+        {
+          "Position": "16",
+          "Department": "84"
+        }
+      ]
+    },
+    {
+      "Id": "1219",
+      "FirstName": "Евгений",
+      "MiddleName": "Александрович",
+      "LastName": "Куприянов",
+      "Time": 1,
+      "StartDate": "1994-09-23T00:00:00",
+      "BirthDate": "1961-10-04T00:00:00",
+      "Positions": [
+        {
+          "Position": "6",
+          "Department": "84"
+        }
+      ]
+    },
+    {
+      "Id": "1539",
+      "FirstName": "Анна",
+      "MiddleName": "Александровна",
+      "LastName": "Семёнова",
+      "Time": 0.5,
+      "StartDate": "1977-02-10T00:00:00",
+      "BirthDate": "1957-07-16T00:00:00",
+      "Positions": [
+        {
+          "Position": "6",
+          "Department": "84"
+        }
+      ]
+    },
+    {
+      "Id": "2022",
+      "FirstName": "Юлия",
+      "MiddleName": "Юрьевна",
+      "LastName": "Грунина",
+      "Time": 0.5,
+      "StartDate": "2000-01-11T00:00:00",
+      "BirthDate": "1977-09-01T00:00:00",
+      "Positions": [
+        {
+          "Position": "6",
+          "Department": "84"
+        }
+      ]
+    },
+    {
+      "Id": "2093",
+      "FirstName": "Елена",
+      "MiddleName": "Владимировна",
+      "LastName": "Лисичко",
+      "Time": 1,
+      "StartDate": "2006-02-02T00:00:00",
+      "BirthDate": "1980-05-22T00:00:00",
+      "Positions": [
+        {
+          "Position": "144",
+          "Department": "84"
+        }
+      ]
+    },
+    {
+      "Id": "2235",
+      "FirstName": "Ольга",
+      "MiddleName": "Владимировна",
+      "LastName": "Шабаловская",
+      "Time": 1,
+      "StartDate": "2003-09-22T00:00:00",
+      "BirthDate": "1955-08-08T00:00:00",
+      "Positions": [
+        {
+          "Position": "18",
+          "Department": "84"
+        }
+      ]
+    },
+    {
+      "Id": "2805",
+      "FirstName": "Татьяна",
+      "MiddleName": "Владимировна",
+      "LastName": "Пегушина",
+      "Time": 0.5,
+      "StartDate": "2019-09-24T00:00:00",
+      "BirthDate": "1977-01-02T00:00:00",
+      "Positions": [
+        {
+          "Position": "18",
+          "Department": "84"
+        }
+      ]
+    },
+    {
+      "Id": "3358",
+      "FirstName": "Сергей",
+      "MiddleName": "",
+      "LastName": "Рубаненко",
+      "Time": 0.5,
+      "StartDate": "2010-08-05T00:00:00",
+      "BirthDate": "1986-08-07T00:00:00",
+      "Positions": [
+        {
+          "Position": "6",
+          "Department": "84"
+        }
+      ]
+    }
+  ]
+}

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1888",
-	"FirstName": "Оксана",
-	"MiddleName": "Валерьевна",
-	"LastName": "Ситникова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "156",
-			"HeadOfDepartment": false,
-			"Position": "16"
-		}
-	]
+  "Id": "1888",
+  "FirstName": "Оксана",
+  "MiddleName": "Валерьевна",
+  "LastName": "Ситникова",
+  "Time": 1,
+  "StartDate": "1989-06-07T00:00:00",
+  "BirthDate": "1966-11-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "16",
+      "Department": "156"
+    }
+  ]
 }

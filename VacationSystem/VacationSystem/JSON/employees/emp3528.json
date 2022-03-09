@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3528",
-	"FirstName": "Иван",
-	"MiddleName": "Сергеевич",
-	"LastName": "Александров",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "98",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "3528",
+  "FirstName": "Иван",
+  "MiddleName": "Сергеевич",
+  "LastName": "Александров",
+  "Time": 0.5,
+  "StartDate": "1983-07-14T00:00:00",
+  "BirthDate": "1962-04-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "98"
+    }
+  ]
 }

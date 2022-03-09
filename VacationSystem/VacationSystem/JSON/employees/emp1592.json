@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1592",
-	"FirstName": "Иван",
-	"MiddleName": "Евгеньевич",
-	"LastName": "Курулюк",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "29",
-			"HeadOfDepartment": false,
-			"Position": "7"
-		}
-	]
+  "Id": "1592",
+  "FirstName": "Иван",
+  "MiddleName": "Евгеньевич",
+  "LastName": "Курулюк",
+  "Time": 1,
+  "StartDate": "1998-03-15T00:00:00",
+  "BirthDate": "1960-03-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "7",
+      "Department": "29"
+    }
+  ]
 }

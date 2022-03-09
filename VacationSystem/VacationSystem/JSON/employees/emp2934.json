@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2934",
-	"FirstName": "Артем",
-	"MiddleName": "Дмитриевич",
-	"LastName": "Избышев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "166",
-			"HeadOfDepartment": false,
-			"Position": "252"
-		}
-	]
+  "Id": "2934",
+  "FirstName": "Артем",
+  "MiddleName": "Дмитриевич",
+  "LastName": "Избышев",
+  "Time": 1,
+  "StartDate": "1996-01-16T00:00:00",
+  "BirthDate": "1975-02-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "252",
+      "Department": "166"
+    }
+  ]
 }

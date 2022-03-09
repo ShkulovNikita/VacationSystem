@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1539",
-	"FirstName": "Анна",
-	"MiddleName": "Александровна",
-	"LastName": "Семёнова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "84",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "1539",
+  "FirstName": "Анна",
+  "MiddleName": "Александровна",
+  "LastName": "Семёнова",
+  "Time": 0.5,
+  "StartDate": "1977-02-10T00:00:00",
+  "BirthDate": "1957-07-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "84"
+    }
+  ]
 }

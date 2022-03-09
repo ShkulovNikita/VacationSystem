@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "312",
-	"FirstName": "Виктор",
-	"MiddleName": "Владимирович",
-	"LastName": "Малышев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "92",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		},
-		{
-			"Id": "92",
-			"HeadOfDepartment": false,
-			"Position": "11"
-		}
-	]
+  "Id": "312",
+  "FirstName": "Виктор",
+  "MiddleName": "Владимирович",
+  "LastName": "Малышев",
+  "Time": 1.5,
+  "StartDate": "2019-05-14T00:00:00",
+  "BirthDate": "1971-04-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "92"
+    },
+    {
+      "Position": "11",
+      "Department": "92"
+    }
+  ]
 }

@@ -1,0 +1,94 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "148",
+      "FirstName": "Юлия",
+      "MiddleName": "Андреевна",
+      "LastName": "Житникова",
+      "Time": 1,
+      "StartDate": "1980-06-06T00:00:00",
+      "BirthDate": "1960-05-23T00:00:00",
+      "Positions": [
+        {
+          "Position": "52",
+          "Department": "80"
+        }
+      ]
+    },
+    {
+      "Id": "1667",
+      "FirstName": "Руслан",
+      "MiddleName": "Маратович",
+      "LastName": "Ильясов",
+      "Time": 1,
+      "StartDate": "2021-11-18T00:00:00",
+      "BirthDate": "1979-09-17T00:00:00",
+      "Positions": [
+        {
+          "Position": "10",
+          "Department": "80"
+        }
+      ]
+    },
+    {
+      "Id": "3127",
+      "FirstName": "Вадим",
+      "MiddleName": "Григорьевич",
+      "LastName": "Цой",
+      "Time": 0.5,
+      "StartDate": "2018-07-13T00:00:00",
+      "BirthDate": "1974-01-14T00:00:00",
+      "Positions": [
+        {
+          "Position": "173",
+          "Department": "80"
+        }
+      ]
+    },
+    {
+      "Id": "3643",
+      "FirstName": "Сергей",
+      "MiddleName": "Николаевич",
+      "LastName": "Буравский",
+      "Time": 0.5,
+      "StartDate": "1975-12-05T00:00:00",
+      "BirthDate": "1953-11-09T00:00:00",
+      "Positions": [
+        {
+          "Position": "11",
+          "Department": "80"
+        }
+      ]
+    },
+    {
+      "Id": "3665",
+      "FirstName": "Антон",
+      "MiddleName": "Андреевич",
+      "LastName": "Трофимов",
+      "Time": 1,
+      "StartDate": "1999-02-03T00:00:00",
+      "BirthDate": "1974-08-24T00:00:00",
+      "Positions": [
+        {
+          "Position": "52",
+          "Department": "80"
+        }
+      ]
+    },
+    {
+      "Id": "3810",
+      "FirstName": "Андрей",
+      "MiddleName": "Владимирович",
+      "LastName": "Коновалов",
+      "Time": 1,
+      "StartDate": "2012-08-10T00:00:00",
+      "BirthDate": "1985-06-05T00:00:00",
+      "Positions": [
+        {
+          "Position": "52",
+          "Department": "80"
+        }
+      ]
+    }
+  ]
+}

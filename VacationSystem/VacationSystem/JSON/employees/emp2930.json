@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2930",
-	"FirstName": "Наталья",
-	"MiddleName": "Викторовна",
-	"LastName": "Свищева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "107",
-			"HeadOfDepartment": false,
-			"Position": "73"
-		}
-	]
+  "Id": "2930",
+  "FirstName": "Наталья",
+  "MiddleName": "Викторовна",
+  "LastName": "Свищева",
+  "Time": 0.5,
+  "StartDate": "1995-08-17T00:00:00",
+  "BirthDate": "1960-01-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "73",
+      "Department": "107"
+    }
+  ]
 }

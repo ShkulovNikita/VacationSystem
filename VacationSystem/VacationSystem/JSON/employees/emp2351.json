@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2351",
-	"FirstName": "Александр",
-	"MiddleName": "Сергеевич",
-	"LastName": "Парнюгин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "27",
-			"HeadOfDepartment": false,
-			"Position": "234"
-		}
-	]
+  "Id": "2351",
+  "FirstName": "Александр",
+  "MiddleName": "Сергеевич",
+  "LastName": "Парнюгин",
+  "Time": 0.5,
+  "StartDate": "2014-01-14T00:00:00",
+  "BirthDate": "1985-12-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "234",
+      "Department": "27"
+    }
+  ]
 }

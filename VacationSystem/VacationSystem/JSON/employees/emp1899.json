@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "1899",
-	"FirstName": "Антон",
-	"MiddleName": "Александрович",
-	"LastName": "Алексеев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "59",
-			"HeadOfDepartment": false,
-			"Position": "217"
-		},
-		{
-			"Id": "78",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "1899",
+  "FirstName": "Антон",
+  "MiddleName": "Александрович",
+  "LastName": "Алексеев",
+  "Time": 1,
+  "StartDate": "2013-02-22T00:00:00",
+  "BirthDate": "1959-06-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "217",
+      "Department": "59"
+    },
+    {
+      "Position": "3",
+      "Department": "78"
+    }
+  ]
 }

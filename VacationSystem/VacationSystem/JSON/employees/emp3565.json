@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3565",
-	"FirstName": "Сергей",
-	"MiddleName": "Венедиктович",
-	"LastName": "Русинов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "168",
-			"HeadOfDepartment": false,
-			"Position": "156"
-		}
-	]
+  "Id": "3565",
+  "FirstName": "Сергей",
+  "MiddleName": "Венедиктович",
+  "LastName": "Русинов",
+  "Time": 1,
+  "StartDate": "2019-03-15T00:00:00",
+  "BirthDate": "1979-09-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "156",
+      "Department": "168"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2673",
-	"FirstName": "Елена",
-	"MiddleName": "Владимировна",
-	"LastName": "Зиппа",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "1",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "2673",
+  "FirstName": "Елена",
+  "MiddleName": "Владимировна",
+  "LastName": "Зиппа",
+  "Time": 1,
+  "StartDate": "2013-09-13T00:00:00",
+  "BirthDate": "1988-09-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "1"
+    }
+  ]
 }

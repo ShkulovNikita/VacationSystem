@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2671",
-	"FirstName": "Николай",
-	"MiddleName": "Александрович",
-	"LastName": "Цветков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "51",
-			"HeadOfDepartment": false,
-			"Position": "56"
-		}
-	]
+  "Id": "2671",
+  "FirstName": "Николай",
+  "MiddleName": "Александрович",
+  "LastName": "Цветков",
+  "Time": 0.5,
+  "StartDate": "2006-09-02T00:00:00",
+  "BirthDate": "1972-11-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "56",
+      "Department": "51"
+    }
+  ]
 }

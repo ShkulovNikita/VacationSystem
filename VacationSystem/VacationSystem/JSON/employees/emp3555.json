@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3555",
-	"FirstName": "Алена",
-	"MiddleName": "Валерьевна",
-	"LastName": "Астахова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "214",
-			"HeadOfDepartment": false,
-			"Position": "197"
-		}
-	]
+  "Id": "3555",
+  "FirstName": "Алена",
+  "MiddleName": "Валерьевна",
+  "LastName": "Астахова",
+  "Time": 1,
+  "StartDate": "2015-09-15T00:00:00",
+  "BirthDate": "1967-08-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "197",
+      "Department": "214"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "576",
-	"FirstName": "Виктор",
-	"MiddleName": "Борисович",
-	"LastName": "Немировский",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "52",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "576",
+  "FirstName": "Виктор",
+  "MiddleName": "Борисович",
+  "LastName": "Немировский",
+  "Time": 0.5,
+  "StartDate": "1998-04-15T00:00:00",
+  "BirthDate": "1958-02-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "52"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "858",
-	"FirstName": "Татьяна",
-	"MiddleName": "Васильевна",
-	"LastName": "Кузнецова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "150",
-			"HeadOfDepartment": false,
-			"Position": "138"
-		}
-	]
+  "Id": "858",
+  "FirstName": "Татьяна",
+  "MiddleName": "Васильевна",
+  "LastName": "Кузнецова",
+  "Time": 1,
+  "StartDate": "1985-12-20T00:00:00",
+  "BirthDate": "1958-08-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "138",
+      "Department": "150"
+    }
+  ]
 }

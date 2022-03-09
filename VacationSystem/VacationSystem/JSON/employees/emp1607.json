@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1607",
-	"FirstName": "Илья",
-	"MiddleName": "Владимирович",
-	"LastName": "Гуменников",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "11",
-			"HeadOfDepartment": false,
-			"Position": "7"
-		}
-	]
+  "Id": "1607",
+  "FirstName": "Илья",
+  "MiddleName": "Владимирович",
+  "LastName": "Гуменников",
+  "Time": 1,
+  "StartDate": "2017-12-02T00:00:00",
+  "BirthDate": "1974-09-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "7",
+      "Department": "11"
+    }
+  ]
 }

@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "2657",
-	"FirstName": "София",
-	"MiddleName": "Александровна",
-	"LastName": "Яблокова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "240",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		},
-		{
-			"Id": "62",
-			"HeadOfDepartment": false,
-			"Position": "161"
-		}
-	]
+  "Id": "2657",
+  "FirstName": "София",
+  "MiddleName": "Александровна",
+  "LastName": "Яблокова",
+  "Time": 1.5,
+  "StartDate": "2019-10-21T00:00:00",
+  "BirthDate": "1956-01-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "240"
+    },
+    {
+      "Position": "161",
+      "Department": "62"
+    }
+  ]
 }

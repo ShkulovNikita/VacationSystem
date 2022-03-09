@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1980",
-	"FirstName": "Татьяна",
-	"MiddleName": "Семеновна",
-	"LastName": "Бирюкова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "34",
-			"HeadOfDepartment": false,
-			"Position": "97"
-		}
-	]
+  "Id": "1980",
+  "FirstName": "Татьяна",
+  "MiddleName": "Семеновна",
+  "LastName": "Бирюкова",
+  "Time": 0.5,
+  "StartDate": "1990-04-16T00:00:00",
+  "BirthDate": "1969-12-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "97",
+      "Department": "34"
+    }
+  ]
 }

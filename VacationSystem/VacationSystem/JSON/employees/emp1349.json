@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1349",
-	"FirstName": "Ксения",
-	"MiddleName": "Алексеевна",
-	"LastName": "Никифорова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "51",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		}
-	]
+  "Id": "1349",
+  "FirstName": "Ксения",
+  "MiddleName": "Алексеевна",
+  "LastName": "Никифорова",
+  "Time": 1,
+  "StartDate": "1990-04-04T00:00:00",
+  "BirthDate": "1956-08-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "51"
+    }
+  ]
 }

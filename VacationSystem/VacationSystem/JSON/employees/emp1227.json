@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1227",
-	"FirstName": "Елена",
-	"MiddleName": "Павловна",
-	"LastName": "Виноградова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "92",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "1227",
+  "FirstName": "Елена",
+  "MiddleName": "Павловна",
+  "LastName": "Виноградова",
+  "Time": 0.5,
+  "StartDate": "2007-07-13T00:00:00",
+  "BirthDate": "1963-08-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "92"
+    }
+  ]
 }

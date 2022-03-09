@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1658",
-	"FirstName": "Любовь",
-	"MiddleName": "Петровна",
-	"LastName": "Прохоренко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "121",
-			"HeadOfDepartment": false,
-			"Position": "160"
-		}
-	]
+  "Id": "1658",
+  "FirstName": "Любовь",
+  "MiddleName": "Петровна",
+  "LastName": "Прохоренко",
+  "Time": 0.5,
+  "StartDate": "2008-05-21T00:00:00",
+  "BirthDate": "1983-09-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "160",
+      "Department": "121"
+    }
+  ]
 }

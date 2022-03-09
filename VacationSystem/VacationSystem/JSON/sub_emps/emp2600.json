@@ -1,0 +1,203 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "1567",
+      "FirstName": "Данила",
+      "MiddleName": "Геннадьевич",
+      "LastName": "Петлин",
+      "Time": 0.5,
+      "StartDate": "2011-10-16T00:00:00",
+      "BirthDate": "1977-10-15T00:00:00",
+      "Positions": [
+        {
+          "Position": "26",
+          "Department": "221"
+        }
+      ]
+    },
+    {
+      "Id": "1587",
+      "FirstName": "Тамара",
+      "MiddleName": "Сергеевна",
+      "LastName": "Твердохлебова",
+      "Time": 2,
+      "StartDate": "2013-05-22T00:00:00",
+      "BirthDate": "1987-12-24T00:00:00",
+      "Positions": [
+        {
+          "Position": "5",
+          "Department": "221"
+        },
+        {
+          "Position": "3",
+          "Department": "56"
+        }
+      ]
+    },
+    {
+      "Id": "2554",
+      "FirstName": "Евгений",
+      "MiddleName": "Николаевич",
+      "LastName": "Больбасов",
+      "Time": 1,
+      "StartDate": "2012-08-22T00:00:00",
+      "BirthDate": "1954-02-17T00:00:00",
+      "Positions": [
+        {
+          "Position": "24",
+          "Department": "221"
+        }
+      ]
+    },
+    {
+      "Id": "2600",
+      "FirstName": "Ксения",
+      "MiddleName": "Сергеевна",
+      "LastName": "Станкевич",
+      "Time": 0.5,
+      "StartDate": "2018-11-07T00:00:00",
+      "BirthDate": "1989-05-06T00:00:00",
+      "Positions": [
+        {
+          "Position": "5",
+          "Department": "221"
+        }
+      ]
+    },
+    {
+      "Id": "2645",
+      "FirstName": "Надежда",
+      "MiddleName": "Викторовна",
+      "LastName": "Даниленко",
+      "Time": 1,
+      "StartDate": "1990-06-07T00:00:00",
+      "BirthDate": "1966-01-19T00:00:00",
+      "Positions": [
+        {
+          "Position": "5",
+          "Department": "221"
+        }
+      ]
+    },
+    {
+      "Id": "2649",
+      "FirstName": "Глеб",
+      "MiddleName": "",
+      "LastName": "Дубиненко",
+      "Time": 0.5,
+      "StartDate": "1980-03-21T00:00:00",
+      "BirthDate": "1953-02-04T00:00:00",
+      "Positions": [
+        {
+          "Position": "5",
+          "Department": "221"
+        }
+      ]
+    },
+    {
+      "Id": "2708",
+      "FirstName": "Валерия",
+      "MiddleName": "Львовна",
+      "LastName": "Кудрявцева",
+      "Time": 1,
+      "StartDate": "2019-04-01T00:00:00",
+      "BirthDate": "1986-09-01T00:00:00",
+      "Positions": [
+        {
+          "Position": "5",
+          "Department": "221"
+        }
+      ]
+    },
+    {
+      "Id": "2715",
+      "FirstName": "Павел",
+      "MiddleName": "Владимирович",
+      "LastName": "Марьин",
+      "Time": 0.5,
+      "StartDate": "2001-10-14T00:00:00",
+      "BirthDate": "1956-10-21T00:00:00",
+      "Positions": [
+        {
+          "Position": "5",
+          "Department": "221"
+        }
+      ]
+    },
+    {
+      "Id": "3043",
+      "FirstName": "Чжилэй",
+      "MiddleName": "",
+      "LastName": "Сунь",
+      "Time": 0.5,
+      "StartDate": "1999-11-11T00:00:00",
+      "BirthDate": "1976-09-15T00:00:00",
+      "Positions": [
+        {
+          "Position": "5",
+          "Department": "221"
+        }
+      ]
+    },
+    {
+      "Id": "3346",
+      "FirstName": "Игорь",
+      "MiddleName": "",
+      "LastName": "Акимченко",
+      "Time": 1,
+      "StartDate": "2019-05-11T00:00:00",
+      "BirthDate": "1975-09-07T00:00:00",
+      "Positions": [
+        {
+          "Position": "5",
+          "Department": "221"
+        }
+      ]
+    },
+    {
+      "Id": "3596",
+      "FirstName": "Йоханнес Кристоф",
+      "MiddleName": "",
+      "LastName": "Фруэ",
+      "Time": 0.5,
+      "StartDate": "2008-05-19T00:00:00",
+      "BirthDate": "1986-05-01T00:00:00",
+      "Positions": [
+        {
+          "Position": "24",
+          "Department": "221"
+        }
+      ]
+    },
+    {
+      "Id": "3641",
+      "FirstName": "Мею",
+      "MiddleName": "",
+      "LastName": "Гай",
+      "Time": 0.5,
+      "StartDate": "2009-04-24T00:00:00",
+      "BirthDate": "1967-04-17T00:00:00",
+      "Positions": [
+        {
+          "Position": "24",
+          "Department": "221"
+        }
+      ]
+    },
+    {
+      "Id": "3814",
+      "FirstName": "Свен",
+      "MiddleName": "",
+      "LastName": "Рутковский",
+      "Time": 0.5,
+      "StartDate": "1986-07-17T00:00:00",
+      "BirthDate": "1964-06-01T00:00:00",
+      "Positions": [
+        {
+          "Position": "24",
+          "Department": "221"
+        }
+      ]
+    }
+  ]
+}

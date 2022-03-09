@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2308",
-	"FirstName": "Нина",
-	"MiddleName": "Васильевна",
-	"LastName": "Трубчик",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "1",
-			"HeadOfDepartment": false,
-			"Position": "53"
-		}
-	]
+  "Id": "2308",
+  "FirstName": "Нина",
+  "MiddleName": "Васильевна",
+  "LastName": "Трубчик",
+  "Time": 1,
+  "StartDate": "1996-10-15T00:00:00",
+  "BirthDate": "1953-03-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "53",
+      "Department": "1"
+    }
+  ]
 }

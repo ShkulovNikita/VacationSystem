@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "987",
-	"FirstName": "Юлия",
-	"MiddleName": "Сергеевна",
-	"LastName": "Хренюк",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "34",
-			"HeadOfDepartment": false,
-			"Position": "143"
-		}
-	]
+  "Id": "987",
+  "FirstName": "Юлия",
+  "MiddleName": "Сергеевна",
+  "LastName": "Хренюк",
+  "Time": 0.5,
+  "StartDate": "1981-04-18T00:00:00",
+  "BirthDate": "1961-05-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "143",
+      "Department": "34"
+    }
+  ]
 }

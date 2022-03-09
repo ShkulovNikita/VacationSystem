@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "306",
-	"FirstName": "Дмитрий",
-	"MiddleName": "Владимирович",
-	"LastName": "Мартемьянов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "16",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "306",
+  "FirstName": "Дмитрий",
+  "MiddleName": "Владимирович",
+  "LastName": "Мартемьянов",
+  "Time": 1,
+  "StartDate": "2011-07-02T00:00:00",
+  "BirthDate": "1978-05-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "16"
+    }
+  ]
 }

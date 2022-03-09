@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3217",
-	"FirstName": "Алина",
-	"MiddleName": "Игоревна",
-	"LastName": "Чудина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "264",
-			"HeadOfDepartment": false,
-			"Position": "45"
-		}
-	]
+  "Id": "3217",
+  "FirstName": "Алина",
+  "MiddleName": "Игоревна",
+  "LastName": "Чудина",
+  "Time": 0.5,
+  "StartDate": "1976-12-11T00:00:00",
+  "BirthDate": "1954-02-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "45",
+      "Department": "264"
+    }
+  ]
 }

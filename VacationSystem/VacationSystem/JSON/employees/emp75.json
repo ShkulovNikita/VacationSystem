@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "75",
-	"FirstName": "Татьяна",
-	"MiddleName": "Святославовна",
-	"LastName": "Глызина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "46",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "75",
+  "FirstName": "Татьяна",
+  "MiddleName": "Святославовна",
+  "LastName": "Глызина",
+  "Time": 1,
+  "StartDate": "2002-01-20T00:00:00",
+  "BirthDate": "1977-05-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "46"
+    }
+  ]
 }

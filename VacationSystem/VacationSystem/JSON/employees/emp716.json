@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "716",
-	"FirstName": "Виталий",
-	"MiddleName": "Владимирович",
-	"LastName": "Свиридов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "8",
-			"HeadOfDepartment": false,
-			"Position": "2"
-		}
-	]
+  "Id": "716",
+  "FirstName": "Виталий",
+  "MiddleName": "Владимирович",
+  "LastName": "Свиридов",
+  "Time": 0.5,
+  "StartDate": "2015-04-14T00:00:00",
+  "BirthDate": "1989-05-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "2",
+      "Department": "8"
+    }
+  ]
 }

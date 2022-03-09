@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "526",
-	"FirstName": "Александр",
-	"MiddleName": "Васильевич",
-	"LastName": "Воронин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "6",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "526",
+  "FirstName": "Александр",
+  "MiddleName": "Васильевич",
+  "LastName": "Воронин",
+  "Time": 0.5,
+  "StartDate": "2003-02-24T00:00:00",
+  "BirthDate": "1976-08-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "6"
+    }
+  ]
 }

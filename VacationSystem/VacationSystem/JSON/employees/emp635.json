@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "635",
-	"FirstName": "Ольга",
-	"MiddleName": "Владимировна",
-	"LastName": "Михайлова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "0",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "635",
+  "FirstName": "Ольга",
+  "MiddleName": "Владимировна",
+  "LastName": "Михайлова",
+  "Time": 1,
+  "StartDate": "2012-11-23T00:00:00",
+  "BirthDate": "1988-07-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "0"
+    }
+  ]
 }

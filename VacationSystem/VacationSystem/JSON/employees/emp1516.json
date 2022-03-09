@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1516",
-	"FirstName": "Марина",
-	"MiddleName": "Сергеевна",
-	"LastName": "Чурилова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "85",
-			"HeadOfDepartment": false,
-			"Position": "147"
-		}
-	]
+  "Id": "1516",
+  "FirstName": "Марина",
+  "MiddleName": "Сергеевна",
+  "LastName": "Чурилова",
+  "Time": 1,
+  "StartDate": "1998-03-02T00:00:00",
+  "BirthDate": "1968-04-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "147",
+      "Department": "85"
+    }
+  ]
 }

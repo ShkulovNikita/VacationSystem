@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2032",
-	"FirstName": "Любовь",
-	"MiddleName": "Владимировна",
-	"LastName": "Гребенщикова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "123",
-			"HeadOfDepartment": false,
-			"Position": "21"
-		}
-	]
+  "Id": "2032",
+  "FirstName": "Любовь",
+  "MiddleName": "Владимировна",
+  "LastName": "Гребенщикова",
+  "Time": 1,
+  "StartDate": "2020-02-10T00:00:00",
+  "BirthDate": "1993-06-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "21",
+      "Department": "123"
+    }
+  ]
 }

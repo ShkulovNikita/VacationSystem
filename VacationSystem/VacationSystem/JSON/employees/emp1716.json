@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1716",
-	"FirstName": "Наталия",
-	"MiddleName": "Юрьевна",
-	"LastName": "Коношонкина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "74",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "1716",
+  "FirstName": "Наталия",
+  "MiddleName": "Юрьевна",
+  "LastName": "Коношонкина",
+  "Time": 1,
+  "StartDate": "2009-06-01T00:00:00",
+  "BirthDate": "1964-09-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "74"
+    }
+  ]
 }

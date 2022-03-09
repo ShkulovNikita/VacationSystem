@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3639",
-	"FirstName": "Сергей",
-	"MiddleName": "Александрович",
-	"LastName": "Анохин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "14",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "3639",
+  "FirstName": "Сергей",
+  "MiddleName": "Александрович",
+  "LastName": "Анохин",
+  "Time": 1,
+  "StartDate": "2010-05-01T00:00:00",
+  "BirthDate": "1958-01-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "14"
+    }
+  ]
 }

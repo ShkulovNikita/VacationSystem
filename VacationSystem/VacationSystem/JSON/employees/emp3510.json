@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3510",
-	"FirstName": "Татьяна",
-	"MiddleName": "Валерьевна",
-	"LastName": "Беликова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "163",
-			"HeadOfDepartment": false,
-			"Position": "69"
-		}
-	]
+  "Id": "3510",
+  "FirstName": "Татьяна",
+  "MiddleName": "Валерьевна",
+  "LastName": "Беликова",
+  "Time": 0.5,
+  "StartDate": "2013-06-21T00:00:00",
+  "BirthDate": "1977-10-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "69",
+      "Department": "163"
+    }
+  ]
 }

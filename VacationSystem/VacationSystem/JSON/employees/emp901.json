@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "901",
-	"FirstName": "Татьяна",
-	"MiddleName": "Николаевна",
-	"LastName": "Лебедева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "6",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "901",
+  "FirstName": "Татьяна",
+  "MiddleName": "Николаевна",
+  "LastName": "Лебедева",
+  "Time": 1,
+  "StartDate": "2011-03-03T00:00:00",
+  "BirthDate": "1987-11-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "6"
+    }
+  ]
 }

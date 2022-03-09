@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1211",
-	"FirstName": "Ольга",
-	"MiddleName": "Сергеевна",
-	"LastName": "Симонова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "18"
-		}
-	]
+  "Id": "1211",
+  "FirstName": "Ольга",
+  "MiddleName": "Сергеевна",
+  "LastName": "Симонова",
+  "Time": 0.5,
+  "StartDate": "1986-10-17T00:00:00",
+  "BirthDate": "1966-08-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "18",
+      "Department": "2"
+    }
+  ]
 }

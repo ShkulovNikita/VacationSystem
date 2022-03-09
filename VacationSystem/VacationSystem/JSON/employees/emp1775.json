@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1775",
-	"FirstName": "Вера",
-	"MiddleName": "Владимировна",
-	"LastName": "Чапля",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "65",
-			"HeadOfDepartment": false,
-			"Position": "0"
-		}
-	]
+  "Id": "1775",
+  "FirstName": "Вера",
+  "MiddleName": "Владимировна",
+  "LastName": "Чапля",
+  "Time": 1,
+  "StartDate": "1989-09-10T00:00:00",
+  "BirthDate": "1955-11-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "0",
+      "Department": "65"
+    }
+  ]
 }

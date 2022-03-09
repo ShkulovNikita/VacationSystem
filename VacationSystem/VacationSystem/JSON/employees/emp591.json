@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "591",
-	"FirstName": "Инесса",
-	"MiddleName": "Эдвиновна",
-	"LastName": "Васильева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		},
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "2"
-		}
-	]
+  "Id": "591",
+  "FirstName": "Инесса",
+  "MiddleName": "Эдвиновна",
+  "LastName": "Васильева",
+  "Time": 1,
+  "StartDate": "2016-06-03T00:00:00",
+  "BirthDate": "1965-07-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "15"
+    },
+    {
+      "Position": "2",
+      "Department": "15"
+    }
+  ]
 }

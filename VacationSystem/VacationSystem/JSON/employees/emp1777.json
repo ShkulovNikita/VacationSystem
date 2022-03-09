@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1777",
-	"FirstName": "Петр",
-	"MiddleName": "Иванович",
-	"LastName": "Коновалов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "59",
-			"HeadOfDepartment": false,
-			"Position": "211"
-		}
-	]
+  "Id": "1777",
+  "FirstName": "Петр",
+  "MiddleName": "Иванович",
+  "LastName": "Коновалов",
+  "Time": 1,
+  "StartDate": "2009-10-11T00:00:00",
+  "BirthDate": "1986-10-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "211",
+      "Department": "59"
+    }
+  ]
 }

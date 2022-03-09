@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2473",
-	"FirstName": "Евгений",
-	"MiddleName": "Павлович",
-	"LastName": "Пинжин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "2473",
+  "FirstName": "Евгений",
+  "MiddleName": "Павлович",
+  "LastName": "Пинжин",
+  "Time": 0.5,
+  "StartDate": "2006-01-18T00:00:00",
+  "BirthDate": "1953-02-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "2"
+    }
+  ]
 }

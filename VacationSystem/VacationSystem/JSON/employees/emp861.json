@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "861",
-	"FirstName": "Светлана",
-	"MiddleName": "Станиславовна",
-	"LastName": "Подгол",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "178",
-			"HeadOfDepartment": false,
-			"Position": "106"
-		}
-	]
+  "Id": "861",
+  "FirstName": "Светлана",
+  "MiddleName": "Станиславовна",
+  "LastName": "Подгол",
+  "Time": 1,
+  "StartDate": "2004-12-22T00:00:00",
+  "BirthDate": "1984-09-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "106",
+      "Department": "178"
+    }
+  ]
 }

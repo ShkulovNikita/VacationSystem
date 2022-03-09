@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2928",
-	"FirstName": "Зинаида",
-	"MiddleName": "Васильевна",
-	"LastName": "Евсютина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "218",
-			"HeadOfDepartment": false,
-			"Position": "11"
-		}
-	]
+  "Id": "2928",
+  "FirstName": "Зинаида",
+  "MiddleName": "Васильевна",
+  "LastName": "Евсютина",
+  "Time": 1,
+  "StartDate": "2012-06-22T00:00:00",
+  "BirthDate": "1982-10-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "11",
+      "Department": "218"
+    }
+  ]
 }

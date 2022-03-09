@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1759",
-	"FirstName": "Грачик",
-	"MiddleName": "Араикович",
-	"LastName": "Еремян",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "227",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		}
-	]
+  "Id": "1759",
+  "FirstName": "Грачик",
+  "MiddleName": "Араикович",
+  "LastName": "Еремян",
+  "Time": 1,
+  "StartDate": "2011-05-03T00:00:00",
+  "BirthDate": "1979-04-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "227"
+    }
+  ]
 }

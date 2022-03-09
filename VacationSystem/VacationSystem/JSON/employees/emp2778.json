@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2778",
-	"FirstName": "Ольга",
-	"MiddleName": "Владимировна",
-	"LastName": "Жукова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "92",
-			"HeadOfDepartment": false,
-			"Position": "80"
-		}
-	]
+  "Id": "2778",
+  "FirstName": "Ольга",
+  "MiddleName": "Владимировна",
+  "LastName": "Жукова",
+  "Time": 0.5,
+  "StartDate": "2017-01-06T00:00:00",
+  "BirthDate": "1962-08-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "80",
+      "Department": "92"
+    }
+  ]
 }

@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "447",
-	"FirstName": "Антон",
-	"MiddleName": "Владимирович",
-	"LastName": "Галажинский",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "32",
-			"HeadOfDepartment": false,
-			"Position": "100"
-		},
-		{
-			"Id": "32",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "447",
+  "FirstName": "Антон",
+  "MiddleName": "Владимирович",
+  "LastName": "Галажинский",
+  "Time": 1.5,
+  "StartDate": "2006-05-02T00:00:00",
+  "BirthDate": "1957-06-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "100",
+      "Department": "32"
+    },
+    {
+      "Position": "13",
+      "Department": "32"
+    }
+  ]
 }

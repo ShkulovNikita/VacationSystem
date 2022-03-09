@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2116",
-	"FirstName": "Владимир",
-	"MiddleName": "Евгеньевич",
-	"LastName": "Катюхин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "103"
-		}
-	]
+  "Id": "2116",
+  "FirstName": "Владимир",
+  "MiddleName": "Евгеньевич",
+  "LastName": "Катюхин",
+  "Time": 0.5,
+  "StartDate": "2014-05-21T00:00:00",
+  "BirthDate": "1976-09-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "103",
+      "Department": "2"
+    }
+  ]
 }

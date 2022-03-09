@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "431",
-	"FirstName": "Сергей",
-	"MiddleName": "Иванович",
-	"LastName": "Арбузов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "1",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "431",
+  "FirstName": "Сергей",
+  "MiddleName": "Иванович",
+  "LastName": "Арбузов",
+  "Time": 0.5,
+  "StartDate": "1990-12-13T00:00:00",
+  "BirthDate": "1959-03-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "1"
+    }
+  ]
 }

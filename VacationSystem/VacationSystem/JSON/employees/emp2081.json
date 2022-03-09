@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2081",
-	"FirstName": "Елена",
-	"MiddleName": "Николаевна",
-	"LastName": "Мищенко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "9",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "2081",
+  "FirstName": "Елена",
+  "MiddleName": "Николаевна",
+  "LastName": "Мищенко",
+  "Time": 0.5,
+  "StartDate": "2018-10-18T00:00:00",
+  "BirthDate": "1993-02-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "9"
+    }
+  ]
 }

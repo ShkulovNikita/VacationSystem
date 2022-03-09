@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "440",
-	"FirstName": "Ирина",
-	"MiddleName": "Вадимовна",
-	"LastName": "Кащук",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "3",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "440",
+  "FirstName": "Ирина",
+  "MiddleName": "Вадимовна",
+  "LastName": "Кащук",
+  "Time": 1,
+  "StartDate": "2005-01-17T00:00:00",
+  "BirthDate": "1982-09-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "3"
+    }
+  ]
 }

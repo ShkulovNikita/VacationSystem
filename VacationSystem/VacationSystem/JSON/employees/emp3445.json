@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3445",
-	"FirstName": "Евгения",
-	"MiddleName": "Юрьевна",
-	"LastName": "Швецова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "244",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "3445",
+  "FirstName": "Евгения",
+  "MiddleName": "Юрьевна",
+  "LastName": "Швецова",
+  "Time": 1,
+  "StartDate": "1991-02-08T00:00:00",
+  "BirthDate": "1958-10-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "244"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "511",
-	"FirstName": "Борис",
-	"MiddleName": "Владимирович",
-	"LastName": "Борисов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "39",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "511",
+  "FirstName": "Борис",
+  "MiddleName": "Владимирович",
+  "LastName": "Борисов",
+  "Time": 0.5,
+  "StartDate": "1995-10-02T00:00:00",
+  "BirthDate": "1961-09-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "39"
+    }
+  ]
 }

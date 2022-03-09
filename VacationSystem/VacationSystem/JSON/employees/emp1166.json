@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1166",
-	"FirstName": "Ольга",
-	"MiddleName": "Александровна",
-	"LastName": "Бельснер",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "53",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "1166",
+  "FirstName": "Ольга",
+  "MiddleName": "Александровна",
+  "LastName": "Бельснер",
+  "Time": 1,
+  "StartDate": "2015-09-16T00:00:00",
+  "BirthDate": "1959-08-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "53"
+    }
+  ]
 }

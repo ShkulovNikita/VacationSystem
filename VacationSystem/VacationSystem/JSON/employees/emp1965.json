@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1965",
-	"FirstName": "Сергей",
-	"MiddleName": "Юрьевич",
-	"LastName": "Дацкевич",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "64",
-			"HeadOfDepartment": false,
-			"Position": "24"
-		}
-	]
+  "Id": "1965",
+  "FirstName": "Сергей",
+  "MiddleName": "Юрьевич",
+  "LastName": "Дацкевич",
+  "Time": 0.5,
+  "StartDate": "2016-10-18T00:00:00",
+  "BirthDate": "1992-01-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "24",
+      "Department": "64"
+    }
+  ]
 }

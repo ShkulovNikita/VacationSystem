@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "1713",
-	"FirstName": "Иван",
-	"MiddleName": "Игоревич",
-	"LastName": "Лебедев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "17",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		},
-		{
-			"Id": "206",
-			"HeadOfDepartment": false,
-			"Position": "129"
-		}
-	]
+  "Id": "1713",
+  "FirstName": "Иван",
+  "MiddleName": "Игоревич",
+  "LastName": "Лебедев",
+  "Time": 1.5,
+  "StartDate": "2017-11-06T00:00:00",
+  "BirthDate": "1992-06-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "17"
+    },
+    {
+      "Position": "129",
+      "Department": "206"
+    }
+  ]
 }

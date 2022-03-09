@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3694",
-	"FirstName": "Жанна",
-	"MiddleName": "Юрьевна",
-	"LastName": "Вороная",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "131",
-			"HeadOfDepartment": false,
-			"Position": "35"
-		}
-	]
+  "Id": "3694",
+  "FirstName": "Жанна",
+  "MiddleName": "Юрьевна",
+  "LastName": "Вороная",
+  "Time": 0.5,
+  "StartDate": "2007-07-13T00:00:00",
+  "BirthDate": "1984-04-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "35",
+      "Department": "131"
+    }
+  ]
 }

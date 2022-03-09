@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2988",
-	"FirstName": "Леонид",
-	"MiddleName": "Семенович",
-	"LastName": "Ландарин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "85",
-			"HeadOfDepartment": false,
-			"Position": "47"
-		}
-	]
+  "Id": "2988",
+  "FirstName": "Леонид",
+  "MiddleName": "Семенович",
+  "LastName": "Ландарин",
+  "Time": 0.5,
+  "StartDate": "1986-02-09T00:00:00",
+  "BirthDate": "1964-11-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "47",
+      "Department": "85"
+    }
+  ]
 }

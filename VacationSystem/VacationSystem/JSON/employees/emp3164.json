@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3164",
-	"FirstName": "Ирина",
-	"MiddleName": "Андреевна",
-	"LastName": "Оберемок",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "127",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "3164",
+  "FirstName": "Ирина",
+  "MiddleName": "Андреевна",
+  "LastName": "Оберемок",
+  "Time": 0.5,
+  "StartDate": "2007-01-06T00:00:00",
+  "BirthDate": "1967-02-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "127"
+    }
+  ]
 }

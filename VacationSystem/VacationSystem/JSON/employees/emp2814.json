@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2814",
-	"FirstName": "Павел",
-	"MiddleName": "Витальевич",
-	"LastName": "Рабунец",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "14",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "2814",
+  "FirstName": "Павел",
+  "MiddleName": "Витальевич",
+  "LastName": "Рабунец",
+  "Time": 1,
+  "StartDate": "2002-12-12T00:00:00",
+  "BirthDate": "1976-11-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "14"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "575",
-	"FirstName": "Елена",
-	"MiddleName": "Аркадьевна",
-	"LastName": "Недоспасова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "156",
-			"HeadOfDepartment": false,
-			"Position": "80"
-		}
-	]
+  "Id": "575",
+  "FirstName": "Елена",
+  "MiddleName": "Аркадьевна",
+  "LastName": "Недоспасова",
+  "Time": 0.5,
+  "StartDate": "2007-05-21T00:00:00",
+  "BirthDate": "1971-12-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "80",
+      "Department": "156"
+    }
+  ]
 }

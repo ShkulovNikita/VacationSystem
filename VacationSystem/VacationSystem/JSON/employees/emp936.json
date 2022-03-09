@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "936",
-	"FirstName": "Елена",
-	"MiddleName": "Владимировна",
-	"LastName": "Федорова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "119",
-			"HeadOfDepartment": false,
-			"Position": "2"
-		}
-	]
+  "Id": "936",
+  "FirstName": "Елена",
+  "MiddleName": "Владимировна",
+  "LastName": "Федорова",
+  "Time": 0.5,
+  "StartDate": "2014-05-08T00:00:00",
+  "BirthDate": "1989-08-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "2",
+      "Department": "119"
+    }
+  ]
 }

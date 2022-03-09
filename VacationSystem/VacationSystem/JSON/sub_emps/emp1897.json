@@ -1,0 +1,113 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "120",
+      "FirstName": "Оксана",
+      "MiddleName": "Михайловна",
+      "LastName": "Зеленская",
+      "Time": 0.5,
+      "StartDate": "2020-02-10T00:00:00",
+      "BirthDate": "1964-09-20T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "69"
+        }
+      ]
+    },
+    {
+      "Id": "186",
+      "FirstName": "Анастасия",
+      "MiddleName": "Александровна",
+      "LastName": "Голдовская",
+      "Time": 1,
+      "StartDate": "1999-02-04T00:00:00",
+      "BirthDate": "1969-10-08T00:00:00",
+      "Positions": [
+        {
+          "Position": "6",
+          "Department": "69"
+        }
+      ]
+    },
+    {
+      "Id": "213",
+      "FirstName": "Виталий",
+      "MiddleName": "Владимирович",
+      "LastName": "Гребенников",
+      "Time": 1,
+      "StartDate": "2020-12-14T00:00:00",
+      "BirthDate": "1990-06-19T00:00:00",
+      "Positions": [
+        {
+          "Position": "10",
+          "Department": "69"
+        },
+        {
+          "Position": "1",
+          "Department": "8"
+        }
+      ]
+    },
+    {
+      "Id": "329",
+      "FirstName": "Елена",
+      "MiddleName": "Якубовна",
+      "LastName": "Бельская",
+      "Time": 0.5,
+      "StartDate": "1988-11-02T00:00:00",
+      "BirthDate": "1953-02-16T00:00:00",
+      "Positions": [
+        {
+          "Position": "18",
+          "Department": "69"
+        }
+      ]
+    },
+    {
+      "Id": "493",
+      "FirstName": "Иванна",
+      "MiddleName": "Джоновна",
+      "LastName": "Анфиногенова",
+      "Time": 1,
+      "StartDate": "1995-08-15T00:00:00",
+      "BirthDate": "1953-11-23T00:00:00",
+      "Positions": [
+        {
+          "Position": "18",
+          "Department": "69"
+        }
+      ]
+    },
+    {
+      "Id": "1897",
+      "FirstName": "Вера",
+      "MiddleName": "Сергеевна",
+      "LastName": "Цукублина",
+      "Time": 0.5,
+      "StartDate": "2018-03-07T00:00:00",
+      "BirthDate": "1993-03-11T00:00:00",
+      "Positions": [
+        {
+          "Position": "6",
+          "Department": "69"
+        }
+      ]
+    },
+    {
+      "Id": "2005",
+      "FirstName": "Галина",
+      "MiddleName": "Владимировна",
+      "LastName": "Бредихина",
+      "Time": 1,
+      "StartDate": "2013-05-15T00:00:00",
+      "BirthDate": "1960-01-04T00:00:00",
+      "Positions": [
+        {
+          "Position": "18",
+          "Department": "69"
+        }
+      ]
+    }
+  ]
+}

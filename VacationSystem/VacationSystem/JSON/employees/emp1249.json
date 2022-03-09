@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1249",
-	"FirstName": "Павел",
-	"MiddleName": "Николаевич",
-	"LastName": "Ковылин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "38",
-			"HeadOfDepartment": false,
-			"Position": "158"
-		}
-	]
+  "Id": "1249",
+  "FirstName": "Павел",
+  "MiddleName": "Николаевич",
+  "LastName": "Ковылин",
+  "Time": 0.5,
+  "StartDate": "2016-06-13T00:00:00",
+  "BirthDate": "1980-06-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "158",
+      "Department": "38"
+    }
+  ]
 }

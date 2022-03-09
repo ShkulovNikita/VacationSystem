@@ -1,0 +1,19 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "1578",
+      "FirstName": "Сергей",
+      "MiddleName": "Николаевич",
+      "LastName": "Капитанов",
+      "Time": 0.5,
+      "StartDate": "1991-09-12T00:00:00",
+      "BirthDate": "1954-03-21T00:00:00",
+      "Positions": [
+        {
+          "Position": "153",
+          "Department": "222"
+        }
+      ]
+    }
+  ]
+}

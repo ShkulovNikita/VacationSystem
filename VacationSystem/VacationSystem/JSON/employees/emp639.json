@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "639",
-	"FirstName": "Юлия",
-	"MiddleName": "Григорьевна",
-	"LastName": "Копылова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "135",
-			"HeadOfDepartment": false,
-			"Position": "119"
-		}
-	]
+  "Id": "639",
+  "FirstName": "Юлия",
+  "MiddleName": "Григорьевна",
+  "LastName": "Копылова",
+  "Time": 1,
+  "StartDate": "2006-09-11T00:00:00",
+  "BirthDate": "1959-08-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "119",
+      "Department": "135"
+    }
+  ]
 }

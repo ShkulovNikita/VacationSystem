@@ -1,0 +1,94 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "103",
+      "FirstName": "Татьяна",
+      "MiddleName": "Николаевна",
+      "LastName": "Козлова",
+      "Time": 1,
+      "StartDate": "2006-05-08T00:00:00",
+      "BirthDate": "1973-06-17T00:00:00",
+      "Positions": [
+        {
+          "Position": "40",
+          "Department": "63"
+        }
+      ]
+    },
+    {
+      "Id": "1081",
+      "FirstName": "Наталия",
+      "MiddleName": "Владимировна",
+      "LastName": "Куркан",
+      "Time": 0.5,
+      "StartDate": "2018-08-22T00:00:00",
+      "BirthDate": "1985-05-07T00:00:00",
+      "Positions": [
+        {
+          "Position": "6",
+          "Department": "63"
+        }
+      ]
+    },
+    {
+      "Id": "1792",
+      "FirstName": "Яна",
+      "MiddleName": "Александровна",
+      "LastName": "Рогиня",
+      "Time": 1,
+      "StartDate": "2011-10-06T00:00:00",
+      "BirthDate": "1982-04-21T00:00:00",
+      "Positions": [
+        {
+          "Position": "6",
+          "Department": "63"
+        }
+      ]
+    },
+    {
+      "Id": "2059",
+      "FirstName": "Ольга",
+      "MiddleName": "Владимировна",
+      "LastName": "Деева",
+      "Time": 0.5,
+      "StartDate": "2009-05-01T00:00:00",
+      "BirthDate": "1971-05-23T00:00:00",
+      "Positions": [
+        {
+          "Position": "38",
+          "Department": "63"
+        }
+      ]
+    },
+    {
+      "Id": "2655",
+      "FirstName": "Константин",
+      "MiddleName": "Павлович",
+      "LastName": "Андреев",
+      "Time": 0.5,
+      "StartDate": "2021-11-17T00:00:00",
+      "BirthDate": "1957-03-23T00:00:00",
+      "Positions": [
+        {
+          "Position": "6",
+          "Department": "63"
+        }
+      ]
+    },
+    {
+      "Id": "2867",
+      "FirstName": "Станислав",
+      "MiddleName": "Сергеевич",
+      "LastName": "Шелудько",
+      "Time": 0.5,
+      "StartDate": "2001-03-07T00:00:00",
+      "BirthDate": "1964-03-04T00:00:00",
+      "Positions": [
+        {
+          "Position": "6",
+          "Department": "63"
+        }
+      ]
+    }
+  ]
+}

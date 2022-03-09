@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "2535",
-	"FirstName": "Алексей",
-	"MiddleName": "Алексеевич",
-	"LastName": "Иванов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "102",
-			"HeadOfDepartment": false,
-			"Position": "26"
-		},
-		{
-			"Id": "241",
-			"HeadOfDepartment": false,
-			"Position": "238"
-		}
-	]
+  "Id": "2535",
+  "FirstName": "Алексей",
+  "MiddleName": "Алексеевич",
+  "LastName": "Иванов",
+  "Time": 2,
+  "StartDate": "1983-07-15T00:00:00",
+  "BirthDate": "1958-09-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "26",
+      "Department": "102"
+    },
+    {
+      "Position": "238",
+      "Department": "241"
+    }
+  ]
 }

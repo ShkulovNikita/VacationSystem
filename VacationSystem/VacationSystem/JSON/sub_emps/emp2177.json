@@ -1,0 +1,139 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "172",
+      "FirstName": "Татьяна",
+      "MiddleName": "Николаевна",
+      "LastName": "Кудрина",
+      "Time": 1,
+      "StartDate": "1988-10-06T00:00:00",
+      "BirthDate": "1958-06-11T00:00:00",
+      "Positions": [
+        {
+          "Position": "57",
+          "Department": "86"
+        }
+      ]
+    },
+    {
+      "Id": "264",
+      "FirstName": "Ольга",
+      "MiddleName": "Владимировна",
+      "LastName": "Дружкова",
+      "Time": 0.5,
+      "StartDate": "1999-12-03T00:00:00",
+      "BirthDate": "1975-07-01T00:00:00",
+      "Positions": [
+        {
+          "Position": "69",
+          "Department": "86"
+        }
+      ]
+    },
+    {
+      "Id": "499",
+      "FirstName": "Татьяна",
+      "MiddleName": "Александровна",
+      "LastName": "Алёхина",
+      "Time": 1,
+      "StartDate": "1982-09-07T00:00:00",
+      "BirthDate": "1959-10-21T00:00:00",
+      "Positions": [
+        {
+          "Position": "69",
+          "Department": "86"
+        }
+      ]
+    },
+    {
+      "Id": "1443",
+      "FirstName": "Наталия",
+      "MiddleName": "Владимировна",
+      "LastName": "Липницкая",
+      "Time": 0.5,
+      "StartDate": "1984-01-03T00:00:00",
+      "BirthDate": "1959-08-03T00:00:00",
+      "Positions": [
+        {
+          "Position": "69",
+          "Department": "86"
+        }
+      ]
+    },
+    {
+      "Id": "2177",
+      "FirstName": "Ирина",
+      "MiddleName": "Леонидовна",
+      "LastName": "Машнич",
+      "Time": 1,
+      "StartDate": "1991-07-01T00:00:00",
+      "BirthDate": "1955-06-05T00:00:00",
+      "Positions": [
+        {
+          "Position": "69",
+          "Department": "86"
+        }
+      ]
+    },
+    {
+      "Id": "2298",
+      "FirstName": "Надежда",
+      "MiddleName": "Герасимовна",
+      "LastName": "Суркова",
+      "Time": 0.5,
+      "StartDate": "1977-07-21T00:00:00",
+      "BirthDate": "1955-11-04T00:00:00",
+      "Positions": [
+        {
+          "Position": "69",
+          "Department": "86"
+        }
+      ]
+    },
+    {
+      "Id": "2378",
+      "FirstName": "Владимир",
+      "MiddleName": "Юрьевич",
+      "LastName": "Обносов",
+      "Time": 0.5,
+      "StartDate": "1997-09-14T00:00:00",
+      "BirthDate": "1971-09-13T00:00:00",
+      "Positions": [
+        {
+          "Position": "16",
+          "Department": "86"
+        }
+      ]
+    },
+    {
+      "Id": "3037",
+      "FirstName": "Татьяна",
+      "MiddleName": "Александровна",
+      "LastName": "Донских",
+      "Time": 0.5,
+      "StartDate": "2012-02-09T00:00:00",
+      "BirthDate": "1971-08-21T00:00:00",
+      "Positions": [
+        {
+          "Position": "35",
+          "Department": "86"
+        }
+      ]
+    },
+    {
+      "Id": "3449",
+      "FirstName": "Марина",
+      "MiddleName": "Сергеевна",
+      "LastName": "Карпанина",
+      "Time": 0.5,
+      "StartDate": "2020-10-21T00:00:00",
+      "BirthDate": "1964-05-19T00:00:00",
+      "Positions": [
+        {
+          "Position": "69",
+          "Department": "86"
+        }
+      ]
+    }
+  ]
+}

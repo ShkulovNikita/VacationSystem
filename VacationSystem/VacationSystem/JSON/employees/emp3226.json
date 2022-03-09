@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3226",
-	"FirstName": "Ольга",
-	"MiddleName": "Николаевна",
-	"LastName": "Семенова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "91",
-			"HeadOfDepartment": false,
-			"Position": "15"
-		}
-	]
+  "Id": "3226",
+  "FirstName": "Ольга",
+  "MiddleName": "Николаевна",
+  "LastName": "Семенова",
+  "Time": 0.5,
+  "StartDate": "1984-04-01T00:00:00",
+  "BirthDate": "1954-11-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "15",
+      "Department": "91"
+    }
+  ]
 }

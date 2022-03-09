@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1989",
-	"FirstName": "Галина",
-	"MiddleName": "Александровна",
-	"LastName": "Демина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "17",
-			"HeadOfDepartment": false,
-			"Position": "70"
-		}
-	]
+  "Id": "1989",
+  "FirstName": "Галина",
+  "MiddleName": "Александровна",
+  "LastName": "Демина",
+  "Time": 1,
+  "StartDate": "2006-05-16T00:00:00",
+  "BirthDate": "1962-01-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "70",
+      "Department": "17"
+    }
+  ]
 }

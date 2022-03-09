@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3810",
-	"FirstName": "Андрей",
-	"MiddleName": "Владимирович",
-	"LastName": "Коновалов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "80",
-			"HeadOfDepartment": false,
-			"Position": "52"
-		}
-	]
+  "Id": "3810",
+  "FirstName": "Андрей",
+  "MiddleName": "Владимирович",
+  "LastName": "Коновалов",
+  "Time": 1,
+  "StartDate": "2012-08-10T00:00:00",
+  "BirthDate": "1985-06-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "52",
+      "Department": "80"
+    }
+  ]
 }

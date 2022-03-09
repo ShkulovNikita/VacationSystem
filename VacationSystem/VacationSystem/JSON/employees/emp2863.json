@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2863",
-	"FirstName": "Лариса",
-	"MiddleName": "Алексеевна",
-	"LastName": "Нечупиенко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "46",
-			"HeadOfDepartment": false,
-			"Position": "0"
-		}
-	]
+  "Id": "2863",
+  "FirstName": "Лариса",
+  "MiddleName": "Алексеевна",
+  "LastName": "Нечупиенко",
+  "Time": 1,
+  "StartDate": "2005-12-15T00:00:00",
+  "BirthDate": "1962-11-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "0",
+      "Department": "46"
+    }
+  ]
 }

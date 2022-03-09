@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3341",
-	"FirstName": "Раис",
-	"MiddleName": "Мухамедзянович",
-	"LastName": "Ахмедзянов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "158",
-			"HeadOfDepartment": false,
-			"Position": "156"
-		}
-	]
+  "Id": "3341",
+  "FirstName": "Раис",
+  "MiddleName": "Мухамедзянович",
+  "LastName": "Ахмедзянов",
+  "Time": 0.5,
+  "StartDate": "1985-02-16T00:00:00",
+  "BirthDate": "1957-12-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "156",
+      "Department": "158"
+    }
+  ]
 }

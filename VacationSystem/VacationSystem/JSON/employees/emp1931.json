@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "1931",
-	"FirstName": "Владимир",
-	"MiddleName": "Леонидович",
-	"LastName": "Садкин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "41",
-			"HeadOfDepartment": false,
-			"Position": "25"
-		},
-		{
-			"Id": "42",
-			"HeadOfDepartment": false,
-			"Position": "24"
-		}
-	]
+  "Id": "1931",
+  "FirstName": "Владимир",
+  "MiddleName": "Леонидович",
+  "LastName": "Садкин",
+  "Time": 1.5,
+  "StartDate": "2002-03-13T00:00:00",
+  "BirthDate": "1956-05-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "25",
+      "Department": "41"
+    },
+    {
+      "Position": "24",
+      "Department": "42"
+    }
+  ]
 }

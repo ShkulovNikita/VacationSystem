@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1240",
-	"FirstName": "Александр",
-	"MiddleName": "Александрович",
-	"LastName": "Ласуков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "12",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1240",
+  "FirstName": "Александр",
+  "MiddleName": "Александрович",
+  "LastName": "Ласуков",
+  "Time": 1,
+  "StartDate": "1997-05-24T00:00:00",
+  "BirthDate": "1953-04-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "12"
+    }
+  ]
 }

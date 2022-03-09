@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "307",
-	"FirstName": "Дмитрий",
-	"MiddleName": "Николаевич",
-	"LastName": "Нестерук",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "12",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "307",
+  "FirstName": "Дмитрий",
+  "MiddleName": "Николаевич",
+  "LastName": "Нестерук",
+  "Time": 1,
+  "StartDate": "2009-06-01T00:00:00",
+  "BirthDate": "1955-06-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "12"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3183",
-	"FirstName": "Антон",
-	"MiddleName": "Викторович",
-	"LastName": "Убайчин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "57",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "3183",
+  "FirstName": "Антон",
+  "MiddleName": "Викторович",
+  "LastName": "Убайчин",
+  "Time": 1,
+  "StartDate": "2012-02-09T00:00:00",
+  "BirthDate": "1969-01-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "57"
+    }
+  ]
 }

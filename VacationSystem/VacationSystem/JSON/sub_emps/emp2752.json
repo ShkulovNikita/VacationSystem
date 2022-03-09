@@ -1,0 +1,49 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "971",
+      "FirstName": "Федор",
+      "MiddleName": "Михайлович",
+      "LastName": "Машин",
+      "Time": 1,
+      "StartDate": "2008-01-02T00:00:00",
+      "BirthDate": "1980-04-20T00:00:00",
+      "Positions": [
+        {
+          "Position": "64",
+          "Department": "185"
+        }
+      ]
+    },
+    {
+      "Id": "1007",
+      "FirstName": "Галина",
+      "MiddleName": "Алексеевна",
+      "LastName": "Михайлова",
+      "Time": 1,
+      "StartDate": "2003-09-18T00:00:00",
+      "BirthDate": "1975-09-13T00:00:00",
+      "Positions": [
+        {
+          "Position": "106",
+          "Department": "185"
+        }
+      ]
+    },
+    {
+      "Id": "2752",
+      "FirstName": "Елена",
+      "MiddleName": "Николаевна",
+      "LastName": "Макаревич",
+      "Time": 0.5,
+      "StartDate": "2002-06-03T00:00:00",
+      "BirthDate": "1975-11-13T00:00:00",
+      "Positions": [
+        {
+          "Position": "14",
+          "Department": "185"
+        }
+      ]
+    }
+  ]
+}

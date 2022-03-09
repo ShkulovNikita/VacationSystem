@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3067",
-	"FirstName": "Ольга",
-	"MiddleName": "Анатольевна",
-	"LastName": "Малышева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "214",
-			"HeadOfDepartment": false,
-			"Position": "197"
-		}
-	]
+  "Id": "3067",
+  "FirstName": "Ольга",
+  "MiddleName": "Анатольевна",
+  "LastName": "Малышева",
+  "Time": 0.5,
+  "StartDate": "2017-12-23T00:00:00",
+  "BirthDate": "1984-03-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "197",
+      "Department": "214"
+    }
+  ]
 }

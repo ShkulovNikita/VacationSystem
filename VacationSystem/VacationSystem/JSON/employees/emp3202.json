@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3202",
-	"FirstName": "Александр",
-	"MiddleName": "Сергеевич",
-	"LastName": "Тимин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "51",
-			"HeadOfDepartment": false,
-			"Position": "41"
-		}
-	]
+  "Id": "3202",
+  "FirstName": "Александр",
+  "MiddleName": "Сергеевич",
+  "LastName": "Тимин",
+  "Time": 0.5,
+  "StartDate": "2006-02-16T00:00:00",
+  "BirthDate": "1983-11-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "41",
+      "Department": "51"
+    }
+  ]
 }

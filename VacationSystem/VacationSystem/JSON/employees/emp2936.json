@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2936",
-	"FirstName": "Анатолий",
-	"MiddleName": "Иванович",
-	"LastName": "Воробьев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "168",
-			"HeadOfDepartment": false,
-			"Position": "156"
-		}
-	]
+  "Id": "2936",
+  "FirstName": "Анатолий",
+  "MiddleName": "Иванович",
+  "LastName": "Воробьев",
+  "Time": 1,
+  "StartDate": "2015-03-23T00:00:00",
+  "BirthDate": "1978-04-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "156",
+      "Department": "168"
+    }
+  ]
 }

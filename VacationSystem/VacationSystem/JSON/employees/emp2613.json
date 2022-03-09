@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2613",
-	"FirstName": "Татьяна",
-	"MiddleName": "Александровна",
-	"LastName": "Рыбальченко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "199",
-			"HeadOfDepartment": false,
-			"Position": "154"
-		}
-	]
+  "Id": "2613",
+  "FirstName": "Татьяна",
+  "MiddleName": "Александровна",
+  "LastName": "Рыбальченко",
+  "Time": 0.5,
+  "StartDate": "1980-04-03T00:00:00",
+  "BirthDate": "1958-12-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "154",
+      "Department": "199"
+    }
+  ]
 }

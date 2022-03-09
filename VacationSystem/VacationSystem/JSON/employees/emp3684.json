@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3684",
-	"FirstName": "Елена",
-	"MiddleName": "Радиковна",
-	"LastName": "Надолинская",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "16",
-			"HeadOfDepartment": false,
-			"Position": "36"
-		}
-	]
+  "Id": "3684",
+  "FirstName": "Елена",
+  "MiddleName": "Радиковна",
+  "LastName": "Надолинская",
+  "Time": 1,
+  "StartDate": "2009-04-04T00:00:00",
+  "BirthDate": "1988-07-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "36",
+      "Department": "16"
+    }
+  ]
 }

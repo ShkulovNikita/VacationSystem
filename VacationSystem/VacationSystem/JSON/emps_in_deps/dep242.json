@@ -1,0 +1,19 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "2320",
+      "FirstName": "Ирина",
+      "MiddleName": "Владимировна",
+      "LastName": "Котова",
+      "Time": 0.5,
+      "StartDate": "2019-09-04T00:00:00",
+      "BirthDate": "1993-10-17T00:00:00",
+      "Positions": [
+        {
+          "Position": "34",
+          "Department": "242"
+        }
+      ]
+    }
+  ]
+}

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "934",
-	"FirstName": "Дмитрий",
-	"MiddleName": "Иванович",
-	"LastName": "Реймхен",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "183",
-			"HeadOfDepartment": false,
-			"Position": "79"
-		}
-	]
+  "Id": "934",
+  "FirstName": "Дмитрий",
+  "MiddleName": "Иванович",
+  "LastName": "Реймхен",
+  "Time": 1,
+  "StartDate": "1988-05-15T00:00:00",
+  "BirthDate": "1959-01-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "79",
+      "Department": "183"
+    }
+  ]
 }

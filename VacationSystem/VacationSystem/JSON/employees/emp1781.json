@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1781",
-	"FirstName": "Тамара",
-	"MiddleName": "Андреевна",
-	"LastName": "Петрова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "17",
-			"HeadOfDepartment": false,
-			"Position": "53"
-		}
-	]
+  "Id": "1781",
+  "FirstName": "Тамара",
+  "MiddleName": "Андреевна",
+  "LastName": "Петрова",
+  "Time": 0.5,
+  "StartDate": "2005-04-01T00:00:00",
+  "BirthDate": "1952-08-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "53",
+      "Department": "17"
+    }
+  ]
 }

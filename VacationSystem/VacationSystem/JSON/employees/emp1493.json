@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1493",
-	"FirstName": "Дарья",
-	"MiddleName": "Борисовна",
-	"LastName": "Никифорова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "9",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "1493",
+  "FirstName": "Дарья",
+  "MiddleName": "Борисовна",
+  "LastName": "Никифорова",
+  "Time": 1,
+  "StartDate": "1981-10-10T00:00:00",
+  "BirthDate": "1954-12-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "9"
+    }
+  ]
 }

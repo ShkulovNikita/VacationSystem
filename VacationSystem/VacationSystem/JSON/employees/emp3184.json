@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3184",
-	"FirstName": "Алексей",
-	"MiddleName": "Леонидович",
-	"LastName": "Зиновьев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "51",
-			"HeadOfDepartment": false,
-			"Position": "26"
-		}
-	]
+  "Id": "3184",
+  "FirstName": "Алексей",
+  "MiddleName": "Леонидович",
+  "LastName": "Зиновьев",
+  "Time": 1,
+  "StartDate": "2019-11-09T00:00:00",
+  "BirthDate": "1976-08-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "26",
+      "Department": "51"
+    }
+  ]
 }

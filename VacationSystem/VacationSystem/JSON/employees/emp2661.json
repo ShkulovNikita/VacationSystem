@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2661",
-	"FirstName": "Виктор",
-	"MiddleName": "Георгиевич",
-	"LastName": "Штейн",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "68",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "2661",
+  "FirstName": "Виктор",
+  "MiddleName": "Георгиевич",
+  "LastName": "Штейн",
+  "Time": 0.5,
+  "StartDate": "2006-02-18T00:00:00",
+  "BirthDate": "1957-09-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "68"
+    }
+  ]
 }

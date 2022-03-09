@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2339",
-	"FirstName": "Марианна",
-	"MiddleName": "Валериановна",
-	"LastName": "Чубик",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "4",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "2339",
+  "FirstName": "Марианна",
+  "MiddleName": "Валериановна",
+  "LastName": "Чубик",
+  "Time": 1,
+  "StartDate": "1983-10-21T00:00:00",
+  "BirthDate": "1963-08-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "4"
+    }
+  ]
 }

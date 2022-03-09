@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2756",
-	"FirstName": "Бахтияр",
-	"MiddleName": "Мухтарджанович",
-	"LastName": "Нарбаев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "190",
-			"HeadOfDepartment": false,
-			"Position": "64"
-		}
-	]
+  "Id": "2756",
+  "FirstName": "Бахтияр",
+  "MiddleName": "Мухтарджанович",
+  "LastName": "Нарбаев",
+  "Time": 0.5,
+  "StartDate": "2020-01-07T00:00:00",
+  "BirthDate": "1969-04-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "64",
+      "Department": "190"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3287",
-	"FirstName": "Александр",
-	"MiddleName": "Петрович",
-	"LastName": "Михайлов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "85",
-			"HeadOfDepartment": false,
-			"Position": "47"
-		}
-	]
+  "Id": "3287",
+  "FirstName": "Александр",
+  "MiddleName": "Петрович",
+  "LastName": "Михайлов",
+  "Time": 0.5,
+  "StartDate": "2004-12-22T00:00:00",
+  "BirthDate": "1977-05-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "47",
+      "Department": "85"
+    }
+  ]
 }

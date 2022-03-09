@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1871",
-	"FirstName": "Константин",
-	"MiddleName": "Григорьевич",
-	"LastName": "Шибинский",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "1871",
+  "FirstName": "Константин",
+  "MiddleName": "Григорьевич",
+  "LastName": "Шибинский",
+  "Time": 1,
+  "StartDate": "2002-11-03T00:00:00",
+  "BirthDate": "1981-09-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "15"
+    }
+  ]
 }

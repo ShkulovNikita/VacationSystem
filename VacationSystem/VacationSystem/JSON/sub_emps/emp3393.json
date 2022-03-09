@@ -1,0 +1,128 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "154",
+      "FirstName": "Антон",
+      "MiddleName": "Васильевич",
+      "LastName": "Черний",
+      "Time": 0.5,
+      "StartDate": "2010-12-17T00:00:00",
+      "BirthDate": "1989-04-09T00:00:00",
+      "Positions": [
+        {
+          "Position": "6",
+          "Department": "83"
+        }
+      ]
+    },
+    {
+      "Id": "508",
+      "FirstName": "Валентина",
+      "MiddleName": "Васильевна",
+      "LastName": "Власова",
+      "Time": 0.5,
+      "StartDate": "2000-09-18T00:00:00",
+      "BirthDate": "1977-03-24T00:00:00",
+      "Positions": [
+        {
+          "Position": "18",
+          "Department": "83"
+        }
+      ]
+    },
+    {
+      "Id": "1089",
+      "FirstName": "Валентина",
+      "MiddleName": "Егоровна",
+      "LastName": "Петрова",
+      "Time": 1,
+      "StartDate": "2005-11-13T00:00:00",
+      "BirthDate": "1985-07-24T00:00:00",
+      "Positions": [
+        {
+          "Position": "75",
+          "Department": "83"
+        }
+      ]
+    },
+    {
+      "Id": "1380",
+      "FirstName": "Павел",
+      "MiddleName": "Викторович",
+      "LastName": "Носов",
+      "Time": 1,
+      "StartDate": "2013-09-10T00:00:00",
+      "BirthDate": "1952-09-13T00:00:00",
+      "Positions": [
+        {
+          "Position": "6",
+          "Department": "14"
+        },
+        {
+          "Position": "172",
+          "Department": "83"
+        }
+      ]
+    },
+    {
+      "Id": "1398",
+      "FirstName": "Валентина",
+      "MiddleName": "Дмитриевна",
+      "LastName": "Вторушина",
+      "Time": 0.5,
+      "StartDate": "2008-03-23T00:00:00",
+      "BirthDate": "1981-10-11T00:00:00",
+      "Positions": [
+        {
+          "Position": "172",
+          "Department": "83"
+        }
+      ]
+    },
+    {
+      "Id": "3233",
+      "FirstName": "Наталья",
+      "MiddleName": "Анатольевна",
+      "LastName": "Рахманова",
+      "Time": 0.5,
+      "StartDate": "2008-11-08T00:00:00",
+      "BirthDate": "1977-02-07T00:00:00",
+      "Positions": [
+        {
+          "Position": "18",
+          "Department": "83"
+        }
+      ]
+    },
+    {
+      "Id": "3271",
+      "FirstName": "Евгений",
+      "MiddleName": "Владимирович",
+      "LastName": "Орлов",
+      "Time": 0.5,
+      "StartDate": "1994-05-15T00:00:00",
+      "BirthDate": "1962-12-12T00:00:00",
+      "Positions": [
+        {
+          "Position": "35",
+          "Department": "83"
+        }
+      ]
+    },
+    {
+      "Id": "3393",
+      "FirstName": "Александр",
+      "MiddleName": "Николаевич",
+      "LastName": "Константинов",
+      "Time": 1,
+      "StartDate": "2018-10-14T00:00:00",
+      "BirthDate": "1989-07-22T00:00:00",
+      "Positions": [
+        {
+          "Position": "18",
+          "Department": "83"
+        }
+      ]
+    }
+  ]
+}

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3291",
-	"FirstName": "Алёна",
-	"MiddleName": "Александровна",
-	"LastName": "Сторожева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "47",
-			"HeadOfDepartment": false,
-			"Position": "30"
-		}
-	]
+  "Id": "3291",
+  "FirstName": "Алёна",
+  "MiddleName": "Александровна",
+  "LastName": "Сторожева",
+  "Time": 0.5,
+  "StartDate": "2006-05-01T00:00:00",
+  "BirthDate": "1975-11-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "30",
+      "Department": "47"
+    }
+  ]
 }

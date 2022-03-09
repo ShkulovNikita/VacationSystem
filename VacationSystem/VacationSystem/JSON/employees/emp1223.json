@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1223",
-	"FirstName": "Максим",
-	"MiddleName": "Викторович",
-	"LastName": "Тригуб",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1223",
+  "FirstName": "Максим",
+  "MiddleName": "Викторович",
+  "LastName": "Тригуб",
+  "Time": 0.5,
+  "StartDate": "2018-02-11T00:00:00",
+  "BirthDate": "1982-10-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "15"
+    }
+  ]
 }

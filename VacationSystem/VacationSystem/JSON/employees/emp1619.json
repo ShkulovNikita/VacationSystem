@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1619",
-	"FirstName": "Георгий",
-	"MiddleName": "Владимирович",
-	"LastName": "Липов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "64",
-			"HeadOfDepartment": false,
-			"Position": "11"
-		}
-	]
+  "Id": "1619",
+  "FirstName": "Георгий",
+  "MiddleName": "Владимирович",
+  "LastName": "Липов",
+  "Time": 1,
+  "StartDate": "2012-07-24T00:00:00",
+  "BirthDate": "1991-05-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "11",
+      "Department": "64"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1257",
-	"FirstName": "Елена",
-	"MiddleName": "Ивановна",
-	"LastName": "Якушкина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "66",
-			"HeadOfDepartment": false,
-			"Position": "18"
-		}
-	]
+  "Id": "1257",
+  "FirstName": "Елена",
+  "MiddleName": "Ивановна",
+  "LastName": "Якушкина",
+  "Time": 1,
+  "StartDate": "2000-01-07T00:00:00",
+  "BirthDate": "1976-11-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "18",
+      "Department": "66"
+    }
+  ]
 }

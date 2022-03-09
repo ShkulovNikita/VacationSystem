@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "1957",
-	"FirstName": "Альбина",
-	"MiddleName": "Анасовна",
-	"LastName": "Новикова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "66",
-			"HeadOfDepartment": false,
-			"Position": "18"
-		},
-		{
-			"Id": "49",
-			"HeadOfDepartment": false,
-			"Position": "53"
-		}
-	]
+  "Id": "1957",
+  "FirstName": "Альбина",
+  "MiddleName": "Анасовна",
+  "LastName": "Новикова",
+  "Time": 2,
+  "StartDate": "1999-10-11T00:00:00",
+  "BirthDate": "1971-02-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "18",
+      "Department": "66"
+    },
+    {
+      "Position": "53",
+      "Department": "49"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2435",
-	"FirstName": "Анатолий",
-	"MiddleName": "Климентьевич",
-	"LastName": "Лисаченко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "16",
-			"HeadOfDepartment": false,
-			"Position": "103"
-		}
-	]
+  "Id": "2435",
+  "FirstName": "Анатолий",
+  "MiddleName": "Климентьевич",
+  "LastName": "Лисаченко",
+  "Time": 1,
+  "StartDate": "2016-01-14T00:00:00",
+  "BirthDate": "1993-02-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "103",
+      "Department": "16"
+    }
+  ]
 }

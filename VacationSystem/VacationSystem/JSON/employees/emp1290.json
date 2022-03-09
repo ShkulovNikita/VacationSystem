@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1290",
-	"FirstName": "Владимир",
-	"MiddleName": "Петрович",
-	"LastName": "Бурков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "46",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "1290",
+  "FirstName": "Владимир",
+  "MiddleName": "Петрович",
+  "LastName": "Бурков",
+  "Time": 0.5,
+  "StartDate": "2011-10-19T00:00:00",
+  "BirthDate": "1972-04-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "46"
+    }
+  ]
 }

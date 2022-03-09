@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3609",
-	"FirstName": "Матвей",
-	"MiddleName": "Константинович",
-	"LastName": "Шуриков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "51",
-			"HeadOfDepartment": false,
-			"Position": "53"
-		}
-	]
+  "Id": "3609",
+  "FirstName": "Матвей",
+  "MiddleName": "Константинович",
+  "LastName": "Шуриков",
+  "Time": 1,
+  "StartDate": "2009-10-02T00:00:00",
+  "BirthDate": "1971-11-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "53",
+      "Department": "51"
+    }
+  ]
 }

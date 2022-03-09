@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3812",
-	"FirstName": "Анна",
-	"MiddleName": "Марковна",
-	"LastName": "Орлова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "192",
-			"HeadOfDepartment": false,
-			"Position": "56"
-		}
-	]
+  "Id": "3812",
+  "FirstName": "Анна",
+  "MiddleName": "Марковна",
+  "LastName": "Орлова",
+  "Time": 0.5,
+  "StartDate": "2011-05-16T00:00:00",
+  "BirthDate": "1970-06-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "56",
+      "Department": "192"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1354",
-	"FirstName": "Алексей",
-	"MiddleName": "Богович",
-	"LastName": "Ким",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "1354",
+  "FirstName": "Алексей",
+  "MiddleName": "Богович",
+  "LastName": "Ким",
+  "Time": 1,
+  "StartDate": "2002-02-10T00:00:00",
+  "BirthDate": "1978-11-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "15"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1431",
-	"FirstName": "Елена",
-	"MiddleName": "Георгиевна",
-	"LastName": "Хритина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "1431",
+  "FirstName": "Елена",
+  "MiddleName": "Георгиевна",
+  "LastName": "Хритина",
+  "Time": 1,
+  "StartDate": "2005-05-16T00:00:00",
+  "BirthDate": "1983-11-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "2"
+    }
+  ]
 }

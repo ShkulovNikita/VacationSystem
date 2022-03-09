@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2057",
-	"FirstName": "Элла",
-	"MiddleName": "Владимировна",
-	"LastName": "Золоторева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "34",
-			"HeadOfDepartment": false,
-			"Position": "87"
-		}
-	]
+  "Id": "2057",
+  "FirstName": "Элла",
+  "MiddleName": "Владимировна",
+  "LastName": "Золоторева",
+  "Time": 1,
+  "StartDate": "1998-12-15T00:00:00",
+  "BirthDate": "1977-05-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "87",
+      "Department": "34"
+    }
+  ]
 }

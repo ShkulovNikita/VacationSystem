@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3032",
-	"FirstName": "Вера",
-	"MiddleName": "Владимировна",
-	"LastName": "Выдрина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "65",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "3032",
+  "FirstName": "Вера",
+  "MiddleName": "Владимировна",
+  "LastName": "Выдрина",
+  "Time": 1,
+  "StartDate": "2015-12-12T00:00:00",
+  "BirthDate": "1961-01-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "65"
+    }
+  ]
 }

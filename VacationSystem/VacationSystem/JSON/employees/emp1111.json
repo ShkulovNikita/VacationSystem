@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1111",
-	"FirstName": "Ирина",
-	"MiddleName": "Александровна",
-	"LastName": "Тучина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "107",
-			"HeadOfDepartment": false,
-			"Position": "33"
-		}
-	]
+  "Id": "1111",
+  "FirstName": "Ирина",
+  "MiddleName": "Александровна",
+  "LastName": "Тучина",
+  "Time": 1,
+  "StartDate": "2009-02-09T00:00:00",
+  "BirthDate": "1978-05-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "33",
+      "Department": "107"
+    }
+  ]
 }

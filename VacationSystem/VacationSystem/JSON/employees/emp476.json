@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "476",
-	"FirstName": "Дмитрий",
-	"MiddleName": "Юрьевич",
-	"LastName": "Кузнецов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "26",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		},
-		{
-			"Id": "45",
-			"HeadOfDepartment": false,
-			"Position": "16"
-		}
-	]
+  "Id": "476",
+  "FirstName": "Дмитрий",
+  "MiddleName": "Юрьевич",
+  "LastName": "Кузнецов",
+  "Time": 1,
+  "StartDate": "2019-10-20T00:00:00",
+  "BirthDate": "1993-04-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "26"
+    },
+    {
+      "Position": "16",
+      "Department": "45"
+    }
+  ]
 }

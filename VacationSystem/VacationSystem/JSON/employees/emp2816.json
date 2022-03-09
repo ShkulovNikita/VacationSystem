@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2816",
-	"FirstName": "Елена",
-	"MiddleName": "Владимировна",
-	"LastName": "Шестакова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "199",
-			"HeadOfDepartment": false,
-			"Position": "159"
-		}
-	]
+  "Id": "2816",
+  "FirstName": "Елена",
+  "MiddleName": "Владимировна",
+  "LastName": "Шестакова",
+  "Time": 0.5,
+  "StartDate": "2004-12-20T00:00:00",
+  "BirthDate": "1964-12-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "159",
+      "Department": "199"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1457",
-	"FirstName": "Александр",
-	"MiddleName": "Васильевич",
-	"LastName": "Березовский",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "169",
-			"HeadOfDepartment": false,
-			"Position": "169"
-		}
-	]
+  "Id": "1457",
+  "FirstName": "Александр",
+  "MiddleName": "Васильевич",
+  "LastName": "Березовский",
+  "Time": 0.5,
+  "StartDate": "2015-02-05T00:00:00",
+  "BirthDate": "1982-03-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "169",
+      "Department": "169"
+    }
+  ]
 }

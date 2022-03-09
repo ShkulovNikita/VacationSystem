@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "514",
-	"FirstName": "Светлана",
-	"MiddleName": "Владимировна",
-	"LastName": "Рожкова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "52",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "514",
+  "FirstName": "Светлана",
+  "MiddleName": "Владимировна",
+  "LastName": "Рожкова",
+  "Time": 1,
+  "StartDate": "2004-01-14T00:00:00",
+  "BirthDate": "1972-06-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "52"
+    }
+  ]
 }

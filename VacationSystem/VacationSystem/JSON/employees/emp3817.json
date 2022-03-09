@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3817",
-	"FirstName": "Екатерина",
-	"MiddleName": "Николаевна",
-	"LastName": "Лебеденко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "192",
-			"HeadOfDepartment": false,
-			"Position": "24"
-		}
-	]
+  "Id": "3817",
+  "FirstName": "Екатерина",
+  "MiddleName": "Николаевна",
+  "LastName": "Лебеденко",
+  "Time": 1,
+  "StartDate": "2019-07-13T00:00:00",
+  "BirthDate": "1973-10-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "24",
+      "Department": "192"
+    }
+  ]
 }

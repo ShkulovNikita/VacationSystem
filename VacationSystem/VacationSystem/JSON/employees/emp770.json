@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "770",
-	"FirstName": "Ирина",
-	"MiddleName": "Александровна",
-	"LastName": "Короткова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "79",
-			"HeadOfDepartment": false,
-			"Position": "11"
-		}
-	]
+  "Id": "770",
+  "FirstName": "Ирина",
+  "MiddleName": "Александровна",
+  "LastName": "Короткова",
+  "Time": 1,
+  "StartDate": "1999-12-06T00:00:00",
+  "BirthDate": "1970-06-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "11",
+      "Department": "79"
+    }
+  ]
 }

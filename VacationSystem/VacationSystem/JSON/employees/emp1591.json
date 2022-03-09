@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1591",
-	"FirstName": "Любовь",
-	"MiddleName": "Юрьевна",
-	"LastName": "Немирович-Данченко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "53",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "1591",
+  "FirstName": "Любовь",
+  "MiddleName": "Юрьевна",
+  "LastName": "Немирович-Данченко",
+  "Time": 0.5,
+  "StartDate": "1994-01-21T00:00:00",
+  "BirthDate": "1962-12-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "53"
+    }
+  ]
 }

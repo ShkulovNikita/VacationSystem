@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "448",
-	"FirstName": "Светлана",
-	"MiddleName": "Константиновна",
-	"LastName": "Ефременкова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		},
-		{
-			"Id": "94",
-			"HeadOfDepartment": false,
-			"Position": "54"
-		}
-	]
+  "Id": "448",
+  "FirstName": "Светлана",
+  "MiddleName": "Константиновна",
+  "LastName": "Ефременкова",
+  "Time": 1.5,
+  "StartDate": "2021-08-15T00:00:00",
+  "BirthDate": "1968-09-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "15"
+    },
+    {
+      "Position": "54",
+      "Department": "94"
+    }
+  ]
 }

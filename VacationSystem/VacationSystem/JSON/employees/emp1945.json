@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1945",
-	"FirstName": "Анна",
-	"MiddleName": "Александровна",
-	"LastName": "Першина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "8",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1945",
+  "FirstName": "Анна",
+  "MiddleName": "Александровна",
+  "LastName": "Першина",
+  "Time": 0.5,
+  "StartDate": "1990-12-10T00:00:00",
+  "BirthDate": "1960-05-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "8"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3319",
-	"FirstName": "Ольга",
-	"MiddleName": "Леонидовна",
-	"LastName": "Татаринова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "77",
-			"HeadOfDepartment": false,
-			"Position": "206"
-		}
-	]
+  "Id": "3319",
+  "FirstName": "Ольга",
+  "MiddleName": "Леонидовна",
+  "LastName": "Татаринова",
+  "Time": 0.5,
+  "StartDate": "2015-11-24T00:00:00",
+  "BirthDate": "1982-02-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "206",
+      "Department": "77"
+    }
+  ]
 }

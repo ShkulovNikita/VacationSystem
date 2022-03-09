@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2709",
-	"FirstName": "Станислав",
-	"MiddleName": "Алексеевич",
-	"LastName": "Трофимчук",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "79",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "2709",
+  "FirstName": "Станислав",
+  "MiddleName": "Алексеевич",
+  "LastName": "Трофимчук",
+  "Time": 1,
+  "StartDate": "1996-11-04T00:00:00",
+  "BirthDate": "1976-06-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "79"
+    }
+  ]
 }

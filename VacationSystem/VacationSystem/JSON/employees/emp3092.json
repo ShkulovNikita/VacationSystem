@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3092",
-	"FirstName": "Ирина",
-	"MiddleName": "Владимировна",
-	"LastName": "Вавилова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "114",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "3092",
+  "FirstName": "Ирина",
+  "MiddleName": "Владимировна",
+  "LastName": "Вавилова",
+  "Time": 0.5,
+  "StartDate": "1987-07-11T00:00:00",
+  "BirthDate": "1952-05-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "114"
+    }
+  ]
 }

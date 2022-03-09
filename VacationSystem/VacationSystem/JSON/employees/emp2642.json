@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2642",
-	"FirstName": "Максат",
-	"MiddleName": "Канатбекович",
-	"LastName": "Смагулов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "47",
-			"HeadOfDepartment": false,
-			"Position": "30"
-		}
-	]
+  "Id": "2642",
+  "FirstName": "Максат",
+  "MiddleName": "Канатбекович",
+  "LastName": "Смагулов",
+  "Time": 1,
+  "StartDate": "2007-02-13T00:00:00",
+  "BirthDate": "1984-08-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "30",
+      "Department": "47"
+    }
+  ]
 }

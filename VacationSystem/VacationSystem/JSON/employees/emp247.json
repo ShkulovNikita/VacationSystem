@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "247",
-	"FirstName": "Артем",
-	"MiddleName": "Владимирович",
-	"LastName": "Вуколов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "17",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		},
-		{
-			"Id": "32",
-			"HeadOfDepartment": false,
-			"Position": "56"
-		}
-	]
+  "Id": "247",
+  "FirstName": "Артем",
+  "MiddleName": "Владимирович",
+  "LastName": "Вуколов",
+  "Time": 1,
+  "StartDate": "1999-02-22T00:00:00",
+  "BirthDate": "1956-08-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "17"
+    },
+    {
+      "Position": "56",
+      "Department": "32"
+    }
+  ]
 }

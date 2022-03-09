@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3782",
-	"FirstName": "Сергей",
-	"MiddleName": "Николаевич",
-	"LastName": "Солостей",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "50",
-			"HeadOfDepartment": false,
-			"Position": "88"
-		}
-	]
+  "Id": "3782",
+  "FirstName": "Сергей",
+  "MiddleName": "Николаевич",
+  "LastName": "Солостей",
+  "Time": 0.5,
+  "StartDate": "2020-06-14T00:00:00",
+  "BirthDate": "1968-12-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "88",
+      "Department": "50"
+    }
+  ]
 }

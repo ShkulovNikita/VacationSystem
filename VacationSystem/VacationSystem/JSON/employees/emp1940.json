@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1940",
-	"FirstName": "Любовь",
-	"MiddleName": "Демьяновна",
-	"LastName": "Власкина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "135",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "1940",
+  "FirstName": "Любовь",
+  "MiddleName": "Демьяновна",
+  "LastName": "Власкина",
+  "Time": 0.5,
+  "StartDate": "2007-10-11T00:00:00",
+  "BirthDate": "1955-09-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "135"
+    }
+  ]
 }

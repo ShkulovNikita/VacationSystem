@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "33",
-	"FirstName": "Мария",
-	"MiddleName": "Викторовна",
-	"LastName": "Подольская",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "24",
-			"HeadOfDepartment": false,
-			"Position": "14"
-		}
-	]
+  "Id": "33",
+  "FirstName": "Мария",
+  "MiddleName": "Викторовна",
+  "LastName": "Подольская",
+  "Time": 0.5,
+  "StartDate": "2015-09-18T00:00:00",
+  "BirthDate": "1990-08-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "14",
+      "Department": "24"
+    }
+  ]
 }

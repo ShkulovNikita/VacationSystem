@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3629",
-	"FirstName": "Юлия",
-	"MiddleName": "Викторовна",
-	"LastName": "Хромова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "154",
-			"HeadOfDepartment": false,
-			"Position": "287"
-		}
-	]
+  "Id": "3629",
+  "FirstName": "Юлия",
+  "MiddleName": "Викторовна",
+  "LastName": "Хромова",
+  "Time": 0.5,
+  "StartDate": "2013-11-19T00:00:00",
+  "BirthDate": "1988-11-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "287",
+      "Department": "154"
+    }
+  ]
 }

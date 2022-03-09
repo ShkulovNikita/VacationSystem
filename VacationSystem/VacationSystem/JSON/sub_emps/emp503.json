@@ -1,0 +1,49 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "503",
+      "FirstName": "Ирина",
+      "MiddleName": "Ивановна",
+      "LastName": "Емелина",
+      "Time": 0.5,
+      "StartDate": "2012-06-08T00:00:00",
+      "BirthDate": "1969-12-10T00:00:00",
+      "Positions": [
+        {
+          "Position": "80",
+          "Department": "146"
+        }
+      ]
+    },
+    {
+      "Id": "784",
+      "FirstName": "Лидия",
+      "MiddleName": "Касперовна",
+      "LastName": "Шубина",
+      "Time": 0.5,
+      "StartDate": "2020-06-15T00:00:00",
+      "BirthDate": "1984-12-02T00:00:00",
+      "Positions": [
+        {
+          "Position": "61",
+          "Department": "146"
+        }
+      ]
+    },
+    {
+      "Id": "1090",
+      "FirstName": "Елена",
+      "MiddleName": "Петровна",
+      "LastName": "Пигарева",
+      "Time": 1,
+      "StartDate": "1999-02-08T00:00:00",
+      "BirthDate": "1959-01-24T00:00:00",
+      "Positions": [
+        {
+          "Position": "45",
+          "Department": "146"
+        }
+      ]
+    }
+  ]
+}

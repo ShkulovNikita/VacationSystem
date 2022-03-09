@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1690",
-	"FirstName": "Инга",
-	"MiddleName": "Валерьевна",
-	"LastName": "Козырева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "77",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "1690",
+  "FirstName": "Инга",
+  "MiddleName": "Валерьевна",
+  "LastName": "Козырева",
+  "Time": 1,
+  "StartDate": "2015-06-21T00:00:00",
+  "BirthDate": "1968-12-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "77"
+    }
+  ]
 }

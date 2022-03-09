@@ -1,0 +1,19 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "3663",
+      "FirstName": "Евгений",
+      "MiddleName": "Александрович",
+      "LastName": "Кривчиков",
+      "Time": 1,
+      "StartDate": "2015-08-06T00:00:00",
+      "BirthDate": "1992-08-08T00:00:00",
+      "Positions": [
+        {
+          "Position": "269",
+          "Department": "271"
+        }
+      ]
+    }
+  ]
+}

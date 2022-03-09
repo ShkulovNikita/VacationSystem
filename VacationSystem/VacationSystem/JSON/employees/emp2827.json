@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2827",
-	"FirstName": "Татьяна",
-	"MiddleName": "Сергеевна",
-	"LastName": "Иванова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "126",
-			"HeadOfDepartment": false,
-			"Position": "71"
-		}
-	]
+  "Id": "2827",
+  "FirstName": "Татьяна",
+  "MiddleName": "Сергеевна",
+  "LastName": "Иванова",
+  "Time": 0.5,
+  "StartDate": "1993-08-18T00:00:00",
+  "BirthDate": "1969-08-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "71",
+      "Department": "126"
+    }
+  ]
 }

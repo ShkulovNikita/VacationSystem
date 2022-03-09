@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3714",
-	"FirstName": "Наталья",
-	"MiddleName": "Владимировна",
-	"LastName": "Гиевская",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "131",
-			"HeadOfDepartment": false,
-			"Position": "291"
-		}
-	]
+  "Id": "3714",
+  "FirstName": "Наталья",
+  "MiddleName": "Владимировна",
+  "LastName": "Гиевская",
+  "Time": 1,
+  "StartDate": "2004-11-10T00:00:00",
+  "BirthDate": "1977-04-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "291",
+      "Department": "131"
+    }
+  ]
 }

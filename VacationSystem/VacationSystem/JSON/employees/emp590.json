@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "590",
-	"FirstName": "Анатолий",
-	"MiddleName": "Григорьевич",
-	"LastName": "Васильев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "112",
-			"HeadOfDepartment": false,
-			"Position": "11"
-		}
-	]
+  "Id": "590",
+  "FirstName": "Анатолий",
+  "MiddleName": "Григорьевич",
+  "LastName": "Васильев",
+  "Time": 0.5,
+  "StartDate": "2013-08-14T00:00:00",
+  "BirthDate": "1988-03-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "11",
+      "Department": "112"
+    }
+  ]
 }

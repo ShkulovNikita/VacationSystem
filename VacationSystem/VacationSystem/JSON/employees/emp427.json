@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "427",
-	"FirstName": "Татьяна",
-	"MiddleName": "Анатольевна",
-	"LastName": "Деева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "5",
-			"HeadOfDepartment": false,
-			"Position": "2"
-		}
-	]
+  "Id": "427",
+  "FirstName": "Татьяна",
+  "MiddleName": "Анатольевна",
+  "LastName": "Деева",
+  "Time": 1,
+  "StartDate": "2020-11-14T00:00:00",
+  "BirthDate": "1990-07-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "2",
+      "Department": "5"
+    }
+  ]
 }

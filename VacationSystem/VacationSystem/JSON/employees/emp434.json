@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "434",
-	"FirstName": "Константин",
-	"MiddleName": "Петрович",
-	"LastName": "Арефьев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "52",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "434",
+  "FirstName": "Константин",
+  "MiddleName": "Петрович",
+  "LastName": "Арефьев",
+  "Time": 0.5,
+  "StartDate": "2000-07-06T00:00:00",
+  "BirthDate": "1961-07-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "52"
+    }
+  ]
 }

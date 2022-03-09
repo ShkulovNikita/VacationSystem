@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1122",
-	"FirstName": "Сергей",
-	"MiddleName": "Владимирович",
-	"LastName": "Сузанский",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "187",
-			"HeadOfDepartment": false,
-			"Position": "35"
-		}
-	]
+  "Id": "1122",
+  "FirstName": "Сергей",
+  "MiddleName": "Владимирович",
+  "LastName": "Сузанский",
+  "Time": 0.5,
+  "StartDate": "2016-07-14T00:00:00",
+  "BirthDate": "1965-04-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "35",
+      "Department": "187"
+    }
+  ]
 }

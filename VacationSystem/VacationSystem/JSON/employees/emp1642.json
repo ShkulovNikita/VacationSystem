@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1642",
-	"FirstName": "Антонина",
-	"MiddleName": "Геннадьевна",
-	"LastName": "Долгих",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "216",
-			"HeadOfDepartment": false,
-			"Position": "26"
-		}
-	]
+  "Id": "1642",
+  "FirstName": "Антонина",
+  "MiddleName": "Геннадьевна",
+  "LastName": "Долгих",
+  "Time": 0.5,
+  "StartDate": "2011-03-22T00:00:00",
+  "BirthDate": "1983-01-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "26",
+      "Department": "216"
+    }
+  ]
 }

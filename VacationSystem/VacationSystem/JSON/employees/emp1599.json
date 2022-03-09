@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "1599",
-	"FirstName": "Михаил",
-	"MiddleName": "Николаевич",
-	"LastName": "Аникин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "17",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		},
-		{
-			"Id": "223",
-			"HeadOfDepartment": false,
-			"Position": "35"
-		}
-	]
+  "Id": "1599",
+  "FirstName": "Михаил",
+  "MiddleName": "Николаевич",
+  "LastName": "Аникин",
+  "Time": 1,
+  "StartDate": "2010-05-15T00:00:00",
+  "BirthDate": "1973-12-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "17"
+    },
+    {
+      "Position": "35",
+      "Department": "223"
+    }
+  ]
 }

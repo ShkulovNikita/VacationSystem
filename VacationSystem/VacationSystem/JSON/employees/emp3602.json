@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3602",
-	"FirstName": "Ксения",
-	"MiddleName": "Петровна",
-	"LastName": "Богатырёва",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "77",
-			"HeadOfDepartment": false,
-			"Position": "108"
-		}
-	]
+  "Id": "3602",
+  "FirstName": "Ксения",
+  "MiddleName": "Петровна",
+  "LastName": "Богатырёва",
+  "Time": 0.5,
+  "StartDate": "2012-03-03T00:00:00",
+  "BirthDate": "1990-11-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "108",
+      "Department": "77"
+    }
+  ]
 }

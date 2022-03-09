@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3760",
-	"FirstName": "Сергей",
-	"MiddleName": "Николаевич",
-	"LastName": "Расторгуев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "53",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "3760",
+  "FirstName": "Сергей",
+  "MiddleName": "Николаевич",
+  "LastName": "Расторгуев",
+  "Time": 1,
+  "StartDate": "2019-01-21T00:00:00",
+  "BirthDate": "1993-06-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "53"
+    }
+  ]
 }

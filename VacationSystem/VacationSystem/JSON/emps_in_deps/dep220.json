@@ -1,0 +1,19 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "1548",
+      "FirstName": "Татьяна",
+      "MiddleName": "Витальевна",
+      "LastName": "Суворова",
+      "Time": 2.5,
+      "StartDate": "2012-01-21T00:00:00",
+      "BirthDate": "1961-10-10T00:00:00",
+      "Positions": [
+        {
+          "Position": "190",
+          "Department": "220"
+        }
+      ]
+    }
+  ]
+}

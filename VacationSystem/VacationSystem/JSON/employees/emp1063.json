@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1063",
-	"FirstName": "Лариса",
-	"MiddleName": "Геннадьевна",
-	"LastName": "Шабанова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "56",
-			"HeadOfDepartment": false,
-			"Position": "2"
-		}
-	]
+  "Id": "1063",
+  "FirstName": "Лариса",
+  "MiddleName": "Геннадьевна",
+  "LastName": "Шабанова",
+  "Time": 1,
+  "StartDate": "2010-03-05T00:00:00",
+  "BirthDate": "1985-09-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "2",
+      "Department": "56"
+    }
+  ]
 }

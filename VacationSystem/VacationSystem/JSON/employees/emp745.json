@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "745",
-	"FirstName": "Ольга",
-	"MiddleName": "Владимировна",
-	"LastName": "Солодовникова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "0",
-			"HeadOfDepartment": false,
-			"Position": "43"
-		}
-	]
+  "Id": "745",
+  "FirstName": "Ольга",
+  "MiddleName": "Владимировна",
+  "LastName": "Солодовникова",
+  "Time": 1,
+  "StartDate": "2009-12-09T00:00:00",
+  "BirthDate": "1986-03-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "43",
+      "Department": "0"
+    }
+  ]
 }

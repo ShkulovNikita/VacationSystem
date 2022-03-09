@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2745",
-	"FirstName": "Анастасия",
-	"MiddleName": "Евгеньевна",
-	"LastName": "Харисова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "32",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "2745",
+  "FirstName": "Анастасия",
+  "MiddleName": "Евгеньевна",
+  "LastName": "Харисова",
+  "Time": 0.5,
+  "StartDate": "2017-04-19T00:00:00",
+  "BirthDate": "1993-06-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "32"
+    }
+  ]
 }

@@ -1,0 +1,79 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "579",
+      "FirstName": "Татьяна",
+      "MiddleName": "Александровна",
+      "LastName": "Нефёдова",
+      "Time": 0.5,
+      "StartDate": "1999-11-22T00:00:00",
+      "BirthDate": "1963-03-08T00:00:00",
+      "Positions": [
+        {
+          "Position": "112",
+          "Department": "157"
+        }
+      ]
+    },
+    {
+      "Id": "1657",
+      "FirstName": "Майрам",
+      "MiddleName": "Саидахмадовна",
+      "LastName": "Алиева",
+      "Time": 1,
+      "StartDate": "2013-06-05T00:00:00",
+      "BirthDate": "1992-05-11T00:00:00",
+      "Positions": [
+        {
+          "Position": "112",
+          "Department": "157"
+        }
+      ]
+    },
+    {
+      "Id": "1994",
+      "FirstName": "Анна",
+      "MiddleName": "Аксёновна",
+      "LastName": "Борисова",
+      "Time": 1,
+      "StartDate": "2018-01-21T00:00:00",
+      "BirthDate": "1979-02-14T00:00:00",
+      "Positions": [
+        {
+          "Position": "112",
+          "Department": "157"
+        }
+      ]
+    },
+    {
+      "Id": "2014",
+      "FirstName": "Ирина",
+      "MiddleName": "Александровна",
+      "LastName": "Брындина",
+      "Time": 1,
+      "StartDate": "1987-08-15T00:00:00",
+      "BirthDate": "1967-09-20T00:00:00",
+      "Positions": [
+        {
+          "Position": "112",
+          "Department": "157"
+        }
+      ]
+    },
+    {
+      "Id": "2675",
+      "FirstName": "Татьяна",
+      "MiddleName": "Петровна",
+      "LastName": "Косач",
+      "Time": 1,
+      "StartDate": "2011-01-17T00:00:00",
+      "BirthDate": "1972-02-14T00:00:00",
+      "Positions": [
+        {
+          "Position": "222",
+          "Department": "157"
+        }
+      ]
+    }
+  ]
+}

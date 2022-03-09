@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1798",
-	"FirstName": "Алексей",
-	"MiddleName": "Александрович",
-	"LastName": "Суворов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "19",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "1798",
+  "FirstName": "Алексей",
+  "MiddleName": "Александрович",
+  "LastName": "Суворов",
+  "Time": 0.5,
+  "StartDate": "2015-10-05T00:00:00",
+  "BirthDate": "1991-08-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "19"
+    }
+  ]
 }

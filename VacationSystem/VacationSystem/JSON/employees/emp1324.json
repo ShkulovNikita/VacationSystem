@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1324",
-	"FirstName": "Любовь",
-	"MiddleName": "Анатольевна",
-	"LastName": "Паюк",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "19",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "1324",
+  "FirstName": "Любовь",
+  "MiddleName": "Анатольевна",
+  "LastName": "Паюк",
+  "Time": 0.5,
+  "StartDate": "1992-03-18T00:00:00",
+  "BirthDate": "1964-02-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "19"
+    }
+  ]
 }

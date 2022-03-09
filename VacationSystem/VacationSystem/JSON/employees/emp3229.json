@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3229",
-	"FirstName": "Дмитрий",
-	"MiddleName": "Алексеевич",
-	"LastName": "Лапин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "27",
-			"HeadOfDepartment": false,
-			"Position": "7"
-		}
-	]
+  "Id": "3229",
+  "FirstName": "Дмитрий",
+  "MiddleName": "Алексеевич",
+  "LastName": "Лапин",
+  "Time": 1,
+  "StartDate": "2017-06-17T00:00:00",
+  "BirthDate": "1992-11-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "7",
+      "Department": "27"
+    }
+  ]
 }

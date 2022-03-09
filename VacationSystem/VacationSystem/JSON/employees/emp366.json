@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "366",
-	"FirstName": "Наталья",
-	"MiddleName": "Ленмировна",
-	"LastName": "Бацева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "19",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "366",
+  "FirstName": "Наталья",
+  "MiddleName": "Ленмировна",
+  "LastName": "Бацева",
+  "Time": 0.5,
+  "StartDate": "1995-03-18T00:00:00",
+  "BirthDate": "1969-11-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "19"
+    }
+  ]
 }

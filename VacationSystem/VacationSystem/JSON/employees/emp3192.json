@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3192",
-	"FirstName": "Александр",
-	"MiddleName": "Леонидович",
-	"LastName": "Скоренцев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "53",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "3192",
+  "FirstName": "Александр",
+  "MiddleName": "Леонидович",
+  "LastName": "Скоренцев",
+  "Time": 1,
+  "StartDate": "2011-04-20T00:00:00",
+  "BirthDate": "1986-12-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "53"
+    }
+  ]
 }

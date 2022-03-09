@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3157",
-	"FirstName": "Александра",
-	"MiddleName": "",
-	"LastName": "Видман",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "26",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		}
-	]
+  "Id": "3157",
+  "FirstName": "Александра",
+  "MiddleName": "",
+  "LastName": "Видман",
+  "Time": 1,
+  "StartDate": "2013-09-16T00:00:00",
+  "BirthDate": "1988-05-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "26"
+    }
+  ]
 }

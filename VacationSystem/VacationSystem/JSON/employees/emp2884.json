@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2884",
-	"FirstName": "Татьяна",
-	"MiddleName": "Владимировна",
-	"LastName": "Ведерникова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "38"
-		}
-	]
+  "Id": "2884",
+  "FirstName": "Татьяна",
+  "MiddleName": "Владимировна",
+  "LastName": "Ведерникова",
+  "Time": 0.5,
+  "StartDate": "2017-03-18T00:00:00",
+  "BirthDate": "1988-03-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "38",
+      "Department": "2"
+    }
+  ]
 }

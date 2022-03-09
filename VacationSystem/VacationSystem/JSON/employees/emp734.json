@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "734",
-	"FirstName": "Елена",
-	"MiddleName": "Владимировна",
-	"LastName": "Перегудина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "1",
-			"HeadOfDepartment": false,
-			"Position": "2"
-		}
-	]
+  "Id": "734",
+  "FirstName": "Елена",
+  "MiddleName": "Владимировна",
+  "LastName": "Перегудина",
+  "Time": 1,
+  "StartDate": "1998-09-16T00:00:00",
+  "BirthDate": "1964-09-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "2",
+      "Department": "1"
+    }
+  ]
 }

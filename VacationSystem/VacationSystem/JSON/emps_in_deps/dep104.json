@@ -1,0 +1,49 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "251",
+      "FirstName": "Елена",
+      "MiddleName": "Викторовна",
+      "LastName": "Панковец",
+      "Time": 2,
+      "StartDate": "1997-10-23T00:00:00",
+      "BirthDate": "1962-09-19T00:00:00",
+      "Positions": [
+        {
+          "Position": "9",
+          "Department": "104"
+        }
+      ]
+    },
+    {
+      "Id": "1288",
+      "FirstName": "Ольга",
+      "MiddleName": "Леонидовна",
+      "LastName": "Урусова",
+      "Time": 0.5,
+      "StartDate": "2021-07-04T00:00:00",
+      "BirthDate": "1969-07-22T00:00:00",
+      "Positions": [
+        {
+          "Position": "80",
+          "Department": "104"
+        }
+      ]
+    },
+    {
+      "Id": "2660",
+      "FirstName": "Наталья",
+      "MiddleName": "Валерьевна",
+      "LastName": "Ушакова",
+      "Time": 1,
+      "StartDate": "2017-12-14T00:00:00",
+      "BirthDate": "1973-05-14T00:00:00",
+      "Positions": [
+        {
+          "Position": "45",
+          "Department": "104"
+        }
+      ]
+    }
+  ]
+}

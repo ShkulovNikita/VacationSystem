@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3470",
-	"FirstName": "Любовь",
-	"MiddleName": "Сергеевна",
-	"LastName": "Кузнецова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "3",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "3470",
+  "FirstName": "Любовь",
+  "MiddleName": "Сергеевна",
+  "LastName": "Кузнецова",
+  "Time": 0.5,
+  "StartDate": "2016-12-09T00:00:00",
+  "BirthDate": "1983-05-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "3"
+    }
+  ]
 }

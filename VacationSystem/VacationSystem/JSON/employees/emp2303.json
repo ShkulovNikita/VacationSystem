@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "2303",
-	"FirstName": "Ольга",
-	"MiddleName": "Борисовна",
-	"LastName": "Шамина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "20",
-			"HeadOfDepartment": false,
-			"Position": "34"
-		},
-		{
-			"Id": "14",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "2303",
+  "FirstName": "Ольга",
+  "MiddleName": "Борисовна",
+  "LastName": "Шамина",
+  "Time": 2,
+  "StartDate": "2007-02-04T00:00:00",
+  "BirthDate": "1977-06-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "34",
+      "Department": "20"
+    },
+    {
+      "Position": "1",
+      "Department": "14"
+    }
+  ]
 }

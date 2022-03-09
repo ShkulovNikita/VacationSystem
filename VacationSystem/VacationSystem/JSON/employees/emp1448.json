@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1448",
-	"FirstName": "Владимир",
-	"MiddleName": "Николаевич",
-	"LastName": "Слинко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "186",
-			"HeadOfDepartment": false,
-			"Position": "11"
-		}
-	]
+  "Id": "1448",
+  "FirstName": "Владимир",
+  "MiddleName": "Николаевич",
+  "LastName": "Слинко",
+  "Time": 0.5,
+  "StartDate": "2010-07-07T00:00:00",
+  "BirthDate": "1974-07-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "11",
+      "Department": "186"
+    }
+  ]
 }

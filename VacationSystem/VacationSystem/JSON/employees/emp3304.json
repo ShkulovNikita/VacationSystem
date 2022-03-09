@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3304",
-	"FirstName": "Александра",
-	"MiddleName": "Александровна",
-	"LastName": "Баранова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "64",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "3304",
+  "FirstName": "Александра",
+  "MiddleName": "Александровна",
+  "LastName": "Баранова",
+  "Time": 0.5,
+  "StartDate": "2021-07-15T00:00:00",
+  "BirthDate": "1987-06-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "64"
+    }
+  ]
 }

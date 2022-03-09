@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3230",
-	"FirstName": "Марина",
-	"MiddleName": "Владимировна",
-	"LastName": "Пичугова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "203",
-			"HeadOfDepartment": false,
-			"Position": "79"
-		}
-	]
+  "Id": "3230",
+  "FirstName": "Марина",
+  "MiddleName": "Владимировна",
+  "LastName": "Пичугова",
+  "Time": 0.5,
+  "StartDate": "2011-07-18T00:00:00",
+  "BirthDate": "1991-08-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "79",
+      "Department": "203"
+    }
+  ]
 }

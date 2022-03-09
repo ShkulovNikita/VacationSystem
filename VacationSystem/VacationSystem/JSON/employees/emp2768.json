@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2768",
-	"FirstName": "Анна",
-	"MiddleName": "Алексеевна",
-	"LastName": "Поспелова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "61",
-			"HeadOfDepartment": false,
-			"Position": "96"
-		}
-	]
+  "Id": "2768",
+  "FirstName": "Анна",
+  "MiddleName": "Алексеевна",
+  "LastName": "Поспелова",
+  "Time": 1,
+  "StartDate": "2017-04-05T00:00:00",
+  "BirthDate": "1983-01-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "96",
+      "Department": "61"
+    }
+  ]
 }

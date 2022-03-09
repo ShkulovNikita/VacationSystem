@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3741",
-	"FirstName": "Александр",
-	"MiddleName": "Александрович",
-	"LastName": "Каверин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "231",
-			"HeadOfDepartment": false,
-			"Position": "214"
-		}
-	]
+  "Id": "3741",
+  "FirstName": "Александр",
+  "MiddleName": "Александрович",
+  "LastName": "Каверин",
+  "Time": 0.5,
+  "StartDate": "2016-07-19T00:00:00",
+  "BirthDate": "1986-02-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "214",
+      "Department": "231"
+    }
+  ]
 }

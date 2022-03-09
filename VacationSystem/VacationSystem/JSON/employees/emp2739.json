@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2739",
-	"FirstName": "Наталия",
-	"MiddleName": "Александровна",
-	"LastName": "Матвиенко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "140",
-			"HeadOfDepartment": false,
-			"Position": "9"
-		}
-	]
+  "Id": "2739",
+  "FirstName": "Наталия",
+  "MiddleName": "Александровна",
+  "LastName": "Матвиенко",
+  "Time": 1,
+  "StartDate": "1995-07-17T00:00:00",
+  "BirthDate": "1974-09-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "9",
+      "Department": "140"
+    }
+  ]
 }

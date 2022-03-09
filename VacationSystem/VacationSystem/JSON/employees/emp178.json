@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "178",
-	"FirstName": "Александр",
-	"MiddleName": "Леонидович",
-	"LastName": "Тростницкий",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "59",
-			"HeadOfDepartment": false,
-			"Position": "37"
-		}
-	]
+  "Id": "178",
+  "FirstName": "Александр",
+  "MiddleName": "Леонидович",
+  "LastName": "Тростницкий",
+  "Time": 1,
+  "StartDate": "2007-08-16T00:00:00",
+  "BirthDate": "1977-09-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "37",
+      "Department": "59"
+    }
+  ]
 }

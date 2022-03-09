@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "3290",
-	"FirstName": "Аура Самид",
-	"MiddleName": "",
-	"LastName": "Гарсия Бальса",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "229",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		},
-		{
-			"Id": "32",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		}
-	]
+  "Id": "3290",
+  "FirstName": "Аура Самид",
+  "MiddleName": "",
+  "LastName": "Гарсия Бальса",
+  "Time": 2,
+  "StartDate": "2011-07-12T00:00:00",
+  "BirthDate": "1967-11-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "229"
+    },
+    {
+      "Position": "5",
+      "Department": "32"
+    }
+  ]
 }

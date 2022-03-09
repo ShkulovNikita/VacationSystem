@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2418",
-	"FirstName": "Анна",
-	"MiddleName": "Николаевна",
-	"LastName": "Штраух",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "91",
-			"HeadOfDepartment": false,
-			"Position": "167"
-		}
-	]
+  "Id": "2418",
+  "FirstName": "Анна",
+  "MiddleName": "Николаевна",
+  "LastName": "Штраух",
+  "Time": 0.5,
+  "StartDate": "2019-05-13T00:00:00",
+  "BirthDate": "1993-04-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "167",
+      "Department": "91"
+    }
+  ]
 }

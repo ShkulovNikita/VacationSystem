@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3726",
-	"FirstName": "Максим",
-	"MiddleName": "Владимирович",
-	"LastName": "Биктибаев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "38",
-			"HeadOfDepartment": false,
-			"Position": "141"
-		}
-	]
+  "Id": "3726",
+  "FirstName": "Максим",
+  "MiddleName": "Владимирович",
+  "LastName": "Биктибаев",
+  "Time": 0.5,
+  "StartDate": "2011-10-20T00:00:00",
+  "BirthDate": "1973-07-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "141",
+      "Department": "38"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2140",
-	"FirstName": "Юлия",
-	"MiddleName": "Федоровна",
-	"LastName": "Бенсон",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "96",
-			"HeadOfDepartment": false,
-			"Position": "138"
-		}
-	]
+  "Id": "2140",
+  "FirstName": "Юлия",
+  "MiddleName": "Федоровна",
+  "LastName": "Бенсон",
+  "Time": 1,
+  "StartDate": "1993-09-10T00:00:00",
+  "BirthDate": "1967-12-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "138",
+      "Department": "96"
+    }
+  ]
 }

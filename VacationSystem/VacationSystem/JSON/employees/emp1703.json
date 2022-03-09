@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1703",
-	"FirstName": "Александр",
-	"MiddleName": "Александрович",
-	"LastName": "Молостов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "29",
-			"HeadOfDepartment": false,
-			"Position": "7"
-		}
-	]
+  "Id": "1703",
+  "FirstName": "Александр",
+  "MiddleName": "Александрович",
+  "LastName": "Молостов",
+  "Time": 0.5,
+  "StartDate": "1999-07-15T00:00:00",
+  "BirthDate": "1966-03-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "7",
+      "Department": "29"
+    }
+  ]
 }

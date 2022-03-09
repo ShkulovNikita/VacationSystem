@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "314",
-	"FirstName": "Геннадий",
-	"MiddleName": "Сергеевич",
-	"LastName": "Евтушенко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "8",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "314",
+  "FirstName": "Геннадий",
+  "MiddleName": "Сергеевич",
+  "LastName": "Евтушенко",
+  "Time": 1,
+  "StartDate": "2014-01-17T00:00:00",
+  "BirthDate": "1981-07-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "8"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "827",
-	"FirstName": "Татьяна",
-	"MiddleName": "Юрьевна",
-	"LastName": "Вдовина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "827",
+  "FirstName": "Татьяна",
+  "MiddleName": "Юрьевна",
+  "LastName": "Вдовина",
+  "Time": 1,
+  "StartDate": "1995-09-18T00:00:00",
+  "BirthDate": "1953-07-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "2"
+    }
+  ]
 }

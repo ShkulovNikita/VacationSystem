@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1487",
-	"FirstName": "Татьяна",
-	"MiddleName": "Васильевна",
-	"LastName": "Новосельцева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "2"
-		}
-	]
+  "Id": "1487",
+  "FirstName": "Татьяна",
+  "MiddleName": "Васильевна",
+  "LastName": "Новосельцева",
+  "Time": 1,
+  "StartDate": "1989-07-16T00:00:00",
+  "BirthDate": "1953-08-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "2",
+      "Department": "2"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2180",
-	"FirstName": "Александр",
-	"MiddleName": "Викторович",
-	"LastName": "Шарнин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "17",
-			"HeadOfDepartment": false,
-			"Position": "36"
-		}
-	]
+  "Id": "2180",
+  "FirstName": "Александр",
+  "MiddleName": "Викторович",
+  "LastName": "Шарнин",
+  "Time": 1,
+  "StartDate": "2011-09-17T00:00:00",
+  "BirthDate": "1973-02-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "36",
+      "Department": "17"
+    }
+  ]
 }

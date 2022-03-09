@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1134",
-	"FirstName": "Николай",
-	"MiddleName": "Григорьевич",
-	"LastName": "Марков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "26",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "1134",
+  "FirstName": "Николай",
+  "MiddleName": "Григорьевич",
+  "LastName": "Марков",
+  "Time": 1,
+  "StartDate": "1995-02-13T00:00:00",
+  "BirthDate": "1975-11-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "26"
+    }
+  ]
 }

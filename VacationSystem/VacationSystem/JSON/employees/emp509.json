@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "509",
-	"FirstName": "Софья",
-	"MiddleName": "Леонидовна",
-	"LastName": "Еремина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "14",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "509",
+  "FirstName": "Софья",
+  "MiddleName": "Леонидовна",
+  "LastName": "Еремина",
+  "Time": 1,
+  "StartDate": "2015-05-18T00:00:00",
+  "BirthDate": "1987-03-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "14"
+    }
+  ]
 }

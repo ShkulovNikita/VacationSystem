@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2766",
-	"FirstName": "Мария",
-	"MiddleName": "Терентьевна",
-	"LastName": "Антощенко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "199",
-			"HeadOfDepartment": false,
-			"Position": "154"
-		}
-	]
+  "Id": "2766",
+  "FirstName": "Мария",
+  "MiddleName": "Терентьевна",
+  "LastName": "Антощенко",
+  "Time": 1,
+  "StartDate": "1998-02-13T00:00:00",
+  "BirthDate": "1957-09-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "154",
+      "Department": "199"
+    }
+  ]
 }

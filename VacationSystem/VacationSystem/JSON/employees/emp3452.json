@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3452",
-	"FirstName": "Валентина",
-	"MiddleName": "Васильевна",
-	"LastName": "Кретова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "30",
-			"HeadOfDepartment": false,
-			"Position": "19"
-		}
-	]
+  "Id": "3452",
+  "FirstName": "Валентина",
+  "MiddleName": "Васильевна",
+  "LastName": "Кретова",
+  "Time": 1,
+  "StartDate": "2015-06-23T00:00:00",
+  "BirthDate": "1990-06-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "19",
+      "Department": "30"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "782",
-	"FirstName": "Борис",
-	"MiddleName": "Григорьевич",
-	"LastName": "Шубин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "64",
-			"HeadOfDepartment": false,
-			"Position": "129"
-		}
-	]
+  "Id": "782",
+  "FirstName": "Борис",
+  "MiddleName": "Григорьевич",
+  "LastName": "Шубин",
+  "Time": 0.5,
+  "StartDate": "2021-04-22T00:00:00",
+  "BirthDate": "1970-02-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "129",
+      "Department": "64"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2926",
-	"FirstName": "Лилия",
-	"MiddleName": "Юрьевна",
-	"LastName": "Гутмахер",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "91",
-			"HeadOfDepartment": false,
-			"Position": "241"
-		}
-	]
+  "Id": "2926",
+  "FirstName": "Лилия",
+  "MiddleName": "Юрьевна",
+  "LastName": "Гутмахер",
+  "Time": 1,
+  "StartDate": "2014-03-15T00:00:00",
+  "BirthDate": "1965-01-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "241",
+      "Department": "91"
+    }
+  ]
 }

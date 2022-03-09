@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1303",
-	"FirstName": "Сергей",
-	"MiddleName": "Иванович",
-	"LastName": "Сафончик",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "135",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "1303",
+  "FirstName": "Сергей",
+  "MiddleName": "Иванович",
+  "LastName": "Сафончик",
+  "Time": 0.5,
+  "StartDate": "2003-10-21T00:00:00",
+  "BirthDate": "1968-04-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "135"
+    }
+  ]
 }

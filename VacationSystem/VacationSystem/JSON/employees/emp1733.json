@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1733",
-	"FirstName": "Александр",
-	"MiddleName": "Михайлович",
-	"LastName": "Хаванский",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "16",
-			"HeadOfDepartment": false,
-			"Position": "177"
-		}
-	]
+  "Id": "1733",
+  "FirstName": "Александр",
+  "MiddleName": "Михайлович",
+  "LastName": "Хаванский",
+  "Time": 0.5,
+  "StartDate": "2020-09-07T00:00:00",
+  "BirthDate": "1976-04-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "177",
+      "Department": "16"
+    }
+  ]
 }

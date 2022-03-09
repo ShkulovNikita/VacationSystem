@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1761",
-	"FirstName": "Дарья",
-	"MiddleName": "Валерьевна",
-	"LastName": "Пургина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "1",
-			"HeadOfDepartment": false,
-			"Position": "24"
-		}
-	]
+  "Id": "1761",
+  "FirstName": "Дарья",
+  "MiddleName": "Валерьевна",
+  "LastName": "Пургина",
+  "Time": 1,
+  "StartDate": "2014-03-23T00:00:00",
+  "BirthDate": "1991-02-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "24",
+      "Department": "1"
+    }
+  ]
 }

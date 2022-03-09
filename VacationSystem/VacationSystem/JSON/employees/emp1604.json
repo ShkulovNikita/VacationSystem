@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "1604",
-	"FirstName": "Максим",
-	"MiddleName": "Сергеевич",
-	"LastName": "Сыртанов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "53",
-			"HeadOfDepartment": false,
-			"Position": "24"
-		},
-		{
-			"Id": "53",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1604",
+  "FirstName": "Максим",
+  "MiddleName": "Сергеевич",
+  "LastName": "Сыртанов",
+  "Time": 2,
+  "StartDate": "2016-02-05T00:00:00",
+  "BirthDate": "1980-05-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "24",
+      "Department": "53"
+    },
+    {
+      "Position": "1",
+      "Department": "53"
+    }
+  ]
 }

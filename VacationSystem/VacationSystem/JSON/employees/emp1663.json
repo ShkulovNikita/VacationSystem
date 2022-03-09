@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1663",
-	"FirstName": "Ирина",
-	"MiddleName": "Владимировна",
-	"LastName": "Корюкина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "109",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "1663",
+  "FirstName": "Ирина",
+  "MiddleName": "Владимировна",
+  "LastName": "Корюкина",
+  "Time": 1,
+  "StartDate": "2017-06-13T00:00:00",
+  "BirthDate": "1972-08-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "109"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2367",
-	"FirstName": "Валерий",
-	"MiddleName": "Иванович",
-	"LastName": "Гончаров",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "6",
-			"HeadOfDepartment": false,
-			"Position": "91"
-		}
-	]
+  "Id": "2367",
+  "FirstName": "Валерий",
+  "MiddleName": "Иванович",
+  "LastName": "Гончаров",
+  "Time": 0.5,
+  "StartDate": "1991-02-02T00:00:00",
+  "BirthDate": "1967-07-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "91",
+      "Department": "6"
+    }
+  ]
 }

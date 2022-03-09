@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "1485",
-	"FirstName": "Евгений",
-	"MiddleName": "Николаевич",
-	"LastName": "Петровский",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		},
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "2"
-		}
-	]
+  "Id": "1485",
+  "FirstName": "Евгений",
+  "MiddleName": "Николаевич",
+  "LastName": "Петровский",
+  "Time": 1,
+  "StartDate": "1977-12-15T00:00:00",
+  "BirthDate": "1954-03-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "15"
+    },
+    {
+      "Position": "2",
+      "Department": "15"
+    }
+  ]
 }

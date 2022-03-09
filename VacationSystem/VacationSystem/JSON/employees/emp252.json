@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "252",
-	"FirstName": "Любовь",
-	"MiddleName": "Павловна",
-	"LastName": "Ульянова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "34",
-			"HeadOfDepartment": false,
-			"Position": "66"
-		}
-	]
+  "Id": "252",
+  "FirstName": "Любовь",
+  "MiddleName": "Павловна",
+  "LastName": "Ульянова",
+  "Time": 1,
+  "StartDate": "2002-06-18T00:00:00",
+  "BirthDate": "1953-05-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "66",
+      "Department": "34"
+    }
+  ]
 }

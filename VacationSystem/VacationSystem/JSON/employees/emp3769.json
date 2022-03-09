@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3769",
-	"FirstName": "Олеся",
-	"MiddleName": "Владимировна",
-	"LastName": "Пахомова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "126",
-			"HeadOfDepartment": false,
-			"Position": "71"
-		}
-	]
+  "Id": "3769",
+  "FirstName": "Олеся",
+  "MiddleName": "Владимировна",
+  "LastName": "Пахомова",
+  "Time": 0.5,
+  "StartDate": "1993-09-21T00:00:00",
+  "BirthDate": "1968-10-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "71",
+      "Department": "126"
+    }
+  ]
 }

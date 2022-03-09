@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3491",
-	"FirstName": "Юлия",
-	"MiddleName": "Геннадьевна",
-	"LastName": "Янц",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "78",
-			"HeadOfDepartment": false,
-			"Position": "26"
-		}
-	]
+  "Id": "3491",
+  "FirstName": "Юлия",
+  "MiddleName": "Геннадьевна",
+  "LastName": "Янц",
+  "Time": 1,
+  "StartDate": "1988-09-16T00:00:00",
+  "BirthDate": "1952-10-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "26",
+      "Department": "78"
+    }
+  ]
 }

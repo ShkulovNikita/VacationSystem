@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "57",
-	"FirstName": "Татьяна",
-	"MiddleName": "Ивановна",
-	"LastName": "Дмитриева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "4",
-			"HeadOfDepartment": false,
-			"Position": "2"
-		}
-	]
+  "Id": "57",
+  "FirstName": "Татьяна",
+  "MiddleName": "Ивановна",
+  "LastName": "Дмитриева",
+  "Time": 0.5,
+  "StartDate": "1998-03-05T00:00:00",
+  "BirthDate": "1972-06-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "2",
+      "Department": "4"
+    }
+  ]
 }

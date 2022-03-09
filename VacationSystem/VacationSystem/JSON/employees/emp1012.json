@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1012",
-	"FirstName": "Марина",
-	"MiddleName": "Анатольевна",
-	"LastName": "Самборская",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "36",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1012",
+  "FirstName": "Марина",
+  "MiddleName": "Анатольевна",
+  "LastName": "Самборская",
+  "Time": 0.5,
+  "StartDate": "2013-12-14T00:00:00",
+  "BirthDate": "1979-04-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "36"
+    }
+  ]
 }

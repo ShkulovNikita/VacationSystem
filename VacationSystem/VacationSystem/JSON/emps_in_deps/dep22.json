@@ -1,0 +1,19 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "26",
+      "FirstName": "Николай",
+      "MiddleName": "Николаевич",
+      "LastName": "Сотников",
+      "Time": 0.5,
+      "StartDate": "2010-01-11T00:00:00",
+      "BirthDate": "1988-06-13T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "22"
+        }
+      ]
+    }
+  ]
+}

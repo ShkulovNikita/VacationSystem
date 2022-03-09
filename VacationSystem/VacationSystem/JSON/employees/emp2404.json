@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2404",
-	"FirstName": "Алексей",
-	"MiddleName": "Владимирович",
-	"LastName": "Леонтьев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "12",
-			"HeadOfDepartment": false,
-			"Position": "34"
-		}
-	]
+  "Id": "2404",
+  "FirstName": "Алексей",
+  "MiddleName": "Владимирович",
+  "LastName": "Леонтьев",
+  "Time": 1,
+  "StartDate": "1994-07-22T00:00:00",
+  "BirthDate": "1957-04-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "34",
+      "Department": "12"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3249",
-	"FirstName": "Валентина",
-	"MiddleName": "Петровна",
-	"LastName": "Черткова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "161",
-			"HeadOfDepartment": false,
-			"Position": "69"
-		}
-	]
+  "Id": "3249",
+  "FirstName": "Валентина",
+  "MiddleName": "Петровна",
+  "LastName": "Черткова",
+  "Time": 0.5,
+  "StartDate": "2003-04-14T00:00:00",
+  "BirthDate": "1965-07-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "69",
+      "Department": "161"
+    }
+  ]
 }

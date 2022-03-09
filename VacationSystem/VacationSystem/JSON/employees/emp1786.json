@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1786",
-	"FirstName": "Юлия",
-	"MiddleName": "Леонидовна",
-	"LastName": "Гирякова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "53",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "1786",
+  "FirstName": "Юлия",
+  "MiddleName": "Леонидовна",
+  "LastName": "Гирякова",
+  "Time": 0.5,
+  "StartDate": "1987-03-05T00:00:00",
+  "BirthDate": "1956-05-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "53"
+    }
+  ]
 }

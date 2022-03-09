@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1974",
-	"FirstName": "Ирина",
-	"MiddleName": "Николаевна",
-	"LastName": "Нефедова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "94",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "1974",
+  "FirstName": "Ирина",
+  "MiddleName": "Николаевна",
+  "LastName": "Нефедова",
+  "Time": 1,
+  "StartDate": "2006-01-03T00:00:00",
+  "BirthDate": "1974-10-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "94"
+    }
+  ]
 }

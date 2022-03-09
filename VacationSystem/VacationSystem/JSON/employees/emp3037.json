@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3037",
-	"FirstName": "Татьяна",
-	"MiddleName": "Александровна",
-	"LastName": "Донских",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "86",
-			"HeadOfDepartment": false,
-			"Position": "35"
-		}
-	]
+  "Id": "3037",
+  "FirstName": "Татьяна",
+  "MiddleName": "Александровна",
+  "LastName": "Донских",
+  "Time": 0.5,
+  "StartDate": "2012-02-09T00:00:00",
+  "BirthDate": "1971-08-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "35",
+      "Department": "86"
+    }
+  ]
 }

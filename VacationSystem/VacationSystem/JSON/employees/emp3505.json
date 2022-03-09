@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3505",
-	"FirstName": "Евгения",
-	"MiddleName": "Витальевна",
-	"LastName": "Мальчикова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "111",
-			"HeadOfDepartment": false,
-			"Position": "57"
-		}
-	]
+  "Id": "3505",
+  "FirstName": "Евгения",
+  "MiddleName": "Витальевна",
+  "LastName": "Мальчикова",
+  "Time": 1,
+  "StartDate": "1997-04-23T00:00:00",
+  "BirthDate": "1975-03-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "57",
+      "Department": "111"
+    }
+  ]
 }

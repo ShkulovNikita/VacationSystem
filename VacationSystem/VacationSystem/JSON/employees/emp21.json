@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "21",
-	"FirstName": "Олег",
-	"MiddleName": "Сергеевич",
-	"LastName": "Качин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "19",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "21",
+  "FirstName": "Олег",
+  "MiddleName": "Сергеевич",
+  "LastName": "Качин",
+  "Time": 0.5,
+  "StartDate": "2005-06-12T00:00:00",
+  "BirthDate": "1955-11-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "19"
+    }
+  ]
 }

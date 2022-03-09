@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3568",
-	"FirstName": "Татьяна",
-	"MiddleName": "Сергеевна",
-	"LastName": "Дербенева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "18"
-		}
-	]
+  "Id": "3568",
+  "FirstName": "Татьяна",
+  "MiddleName": "Сергеевна",
+  "LastName": "Дербенева",
+  "Time": 1,
+  "StartDate": "1983-09-14T00:00:00",
+  "BirthDate": "1962-09-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "18",
+      "Department": "2"
+    }
+  ]
 }

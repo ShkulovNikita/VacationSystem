@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2203",
-	"FirstName": "Наталья",
-	"MiddleName": "Юрьевна",
-	"LastName": "Вьюжанина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "13",
-			"HeadOfDepartment": false,
-			"Position": "38"
-		}
-	]
+  "Id": "2203",
+  "FirstName": "Наталья",
+  "MiddleName": "Юрьевна",
+  "LastName": "Вьюжанина",
+  "Time": 0.5,
+  "StartDate": "2010-12-09T00:00:00",
+  "BirthDate": "1974-06-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "38",
+      "Department": "13"
+    }
+  ]
 }

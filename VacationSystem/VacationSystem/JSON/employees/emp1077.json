@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1077",
-	"FirstName": "Надежда",
-	"MiddleName": "Ивановна",
-	"LastName": "Максимова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "56",
-			"HeadOfDepartment": false,
-			"Position": "25"
-		}
-	]
+  "Id": "1077",
+  "FirstName": "Надежда",
+  "MiddleName": "Ивановна",
+  "LastName": "Максимова",
+  "Time": 0.5,
+  "StartDate": "2004-11-21T00:00:00",
+  "BirthDate": "1972-06-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "25",
+      "Department": "56"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1736",
-	"FirstName": "Антон",
-	"MiddleName": "Николаевич",
-	"LastName": "Пахотин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "92",
-			"HeadOfDepartment": false,
-			"Position": "205"
-		}
-	]
+  "Id": "1736",
+  "FirstName": "Антон",
+  "MiddleName": "Николаевич",
+  "LastName": "Пахотин",
+  "Time": 1,
+  "StartDate": "1997-01-10T00:00:00",
+  "BirthDate": "1957-06-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "205",
+      "Department": "92"
+    }
+  ]
 }

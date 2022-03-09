@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "344",
-	"FirstName": "Наталия",
-	"MiddleName": "Владимировна",
-	"LastName": "Демьяненко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "0",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "344",
+  "FirstName": "Наталия",
+  "MiddleName": "Владимировна",
+  "LastName": "Демьяненко",
+  "Time": 0.5,
+  "StartDate": "2020-11-11T00:00:00",
+  "BirthDate": "1993-04-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "0"
+    }
+  ]
 }

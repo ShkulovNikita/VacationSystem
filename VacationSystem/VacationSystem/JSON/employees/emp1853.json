@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1853",
-	"FirstName": "Юлия",
-	"MiddleName": "Александровна",
-	"LastName": "Моисеева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "1",
-			"HeadOfDepartment": false,
-			"Position": "24"
-		}
-	]
+  "Id": "1853",
+  "FirstName": "Юлия",
+  "MiddleName": "Александровна",
+  "LastName": "Моисеева",
+  "Time": 1,
+  "StartDate": "2021-01-09T00:00:00",
+  "BirthDate": "1989-05-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "24",
+      "Department": "1"
+    }
+  ]
 }

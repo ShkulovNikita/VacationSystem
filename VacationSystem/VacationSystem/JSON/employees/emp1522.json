@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1522",
-	"FirstName": "Иван",
-	"MiddleName": "Александрович",
-	"LastName": "Башкиров",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "46",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		}
-	]
+  "Id": "1522",
+  "FirstName": "Иван",
+  "MiddleName": "Александрович",
+  "LastName": "Башкиров",
+  "Time": 0.5,
+  "StartDate": "2009-10-18T00:00:00",
+  "BirthDate": "1988-04-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "46"
+    }
+  ]
 }

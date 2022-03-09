@@ -1,0 +1,49 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "2964",
+      "FirstName": "Сергей",
+      "MiddleName": "Александрович",
+      "LastName": "Ласточкин",
+      "Time": 0.5,
+      "StartDate": "2018-07-07T00:00:00",
+      "BirthDate": "1989-08-05T00:00:00",
+      "Positions": [
+        {
+          "Position": "64",
+          "Department": "257"
+        }
+      ]
+    },
+    {
+      "Id": "3447",
+      "FirstName": "Артём",
+      "MiddleName": "Александрович",
+      "LastName": "Пересадин",
+      "Time": 1,
+      "StartDate": "2010-03-01T00:00:00",
+      "BirthDate": "1952-08-11T00:00:00",
+      "Positions": [
+        {
+          "Position": "64",
+          "Department": "257"
+        }
+      ]
+    },
+    {
+      "Id": "3655",
+      "FirstName": "Ольга",
+      "MiddleName": "Александровна",
+      "LastName": "Аникина",
+      "Time": 1,
+      "StartDate": "2015-12-21T00:00:00",
+      "BirthDate": "1972-02-10T00:00:00",
+      "Positions": [
+        {
+          "Position": "20",
+          "Department": "257"
+        }
+      ]
+    }
+  ]
+}

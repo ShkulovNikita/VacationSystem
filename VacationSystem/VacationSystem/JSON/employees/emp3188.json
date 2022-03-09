@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3188",
-	"FirstName": "Сергей",
-	"MiddleName": "Геннадьевич",
-	"LastName": "Оловянишников",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "75",
-			"HeadOfDepartment": false,
-			"Position": "232"
-		}
-	]
+  "Id": "3188",
+  "FirstName": "Сергей",
+  "MiddleName": "Геннадьевич",
+  "LastName": "Оловянишников",
+  "Time": 0.5,
+  "StartDate": "1978-01-12T00:00:00",
+  "BirthDate": "1956-02-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "232",
+      "Department": "75"
+    }
+  ]
 }

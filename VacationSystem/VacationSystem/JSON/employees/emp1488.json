@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1488",
-	"FirstName": "Татьяна",
-	"MiddleName": "Ивановна",
-	"LastName": "Кулешова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "54",
-			"HeadOfDepartment": false,
-			"Position": "33"
-		}
-	]
+  "Id": "1488",
+  "FirstName": "Татьяна",
+  "MiddleName": "Ивановна",
+  "LastName": "Кулешова",
+  "Time": 0.5,
+  "StartDate": "2011-02-04T00:00:00",
+  "BirthDate": "1986-05-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "33",
+      "Department": "54"
+    }
+  ]
 }

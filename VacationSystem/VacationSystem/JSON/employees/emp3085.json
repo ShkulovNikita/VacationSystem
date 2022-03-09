@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3085",
-	"FirstName": "Антон",
-	"MiddleName": "Алексеевич",
-	"LastName": "Полосин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "101",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		}
-	]
+  "Id": "3085",
+  "FirstName": "Антон",
+  "MiddleName": "Алексеевич",
+  "LastName": "Полосин",
+  "Time": 1,
+  "StartDate": "2014-06-04T00:00:00",
+  "BirthDate": "1968-06-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "101"
+    }
+  ]
 }

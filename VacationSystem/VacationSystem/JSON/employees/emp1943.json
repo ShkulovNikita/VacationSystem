@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1943",
-	"FirstName": "Алексей",
-	"MiddleName": "Игоревич",
-	"LastName": "Муравлев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "19",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "1943",
+  "FirstName": "Алексей",
+  "MiddleName": "Игоревич",
+  "LastName": "Муравлев",
+  "Time": 0.5,
+  "StartDate": "2003-10-24T00:00:00",
+  "BirthDate": "1975-09-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "19"
+    }
+  ]
 }

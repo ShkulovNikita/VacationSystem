@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3218",
-	"FirstName": "Наталья",
-	"MiddleName": "Александровна",
-	"LastName": "Ахмерова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "116",
-			"HeadOfDepartment": false,
-			"Position": "243"
-		}
-	]
+  "Id": "3218",
+  "FirstName": "Наталья",
+  "MiddleName": "Александровна",
+  "LastName": "Ахмерова",
+  "Time": 0.5,
+  "StartDate": "2000-06-09T00:00:00",
+  "BirthDate": "1980-10-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "243",
+      "Department": "116"
+    }
+  ]
 }

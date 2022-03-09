@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1694",
-	"FirstName": "Елена",
-	"MiddleName": "Александровна",
-	"LastName": "Синюкова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "26",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		}
-	]
+  "Id": "1694",
+  "FirstName": "Елена",
+  "MiddleName": "Александровна",
+  "LastName": "Синюкова",
+  "Time": 1,
+  "StartDate": "2012-08-15T00:00:00",
+  "BirthDate": "1989-08-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "26"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "754",
-	"FirstName": "Нина",
-	"MiddleName": "Михайловна",
-	"LastName": "Власова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "139",
-			"HeadOfDepartment": false,
-			"Position": "98"
-		}
-	]
+  "Id": "754",
+  "FirstName": "Нина",
+  "MiddleName": "Михайловна",
+  "LastName": "Власова",
+  "Time": 1,
+  "StartDate": "2018-06-08T00:00:00",
+  "BirthDate": "1984-10-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "98",
+      "Department": "139"
+    }
+  ]
 }

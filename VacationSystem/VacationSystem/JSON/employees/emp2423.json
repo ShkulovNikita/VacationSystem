@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2423",
-	"FirstName": "Николай",
-	"MiddleName": "Георгиевич",
-	"LastName": "Новиков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "72",
-			"HeadOfDepartment": false,
-			"Position": "184"
-		}
-	]
+  "Id": "2423",
+  "FirstName": "Николай",
+  "MiddleName": "Георгиевич",
+  "LastName": "Новиков",
+  "Time": 0.5,
+  "StartDate": "2014-11-22T00:00:00",
+  "BirthDate": "1990-07-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "184",
+      "Department": "72"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1635",
-	"FirstName": "Елена",
-	"MiddleName": "Александровна",
-	"LastName": "Покровская",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "10"
-		}
-	]
+  "Id": "1635",
+  "FirstName": "Елена",
+  "MiddleName": "Александровна",
+  "LastName": "Покровская",
+  "Time": 1,
+  "StartDate": "2015-10-07T00:00:00",
+  "BirthDate": "1983-03-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "10",
+      "Department": "2"
+    }
+  ]
 }

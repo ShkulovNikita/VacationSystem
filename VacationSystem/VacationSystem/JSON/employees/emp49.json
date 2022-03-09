@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "49",
-	"FirstName": "Алена",
-	"MiddleName": "Анатольевна",
-	"LastName": "Перепелица",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "9",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "49",
+  "FirstName": "Алена",
+  "MiddleName": "Анатольевна",
+  "LastName": "Перепелица",
+  "Time": 1,
+  "StartDate": "2014-03-12T00:00:00",
+  "BirthDate": "1993-09-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "9"
+    }
+  ]
 }

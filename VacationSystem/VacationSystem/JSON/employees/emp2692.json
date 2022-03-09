@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2692",
-	"FirstName": "Александр",
-	"MiddleName": "Сергеевич",
-	"LastName": "Беляев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "6",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		}
-	]
+  "Id": "2692",
+  "FirstName": "Александр",
+  "MiddleName": "Сергеевич",
+  "LastName": "Беляев",
+  "Time": 1,
+  "StartDate": "1990-03-09T00:00:00",
+  "BirthDate": "1961-11-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "6"
+    }
+  ]
 }

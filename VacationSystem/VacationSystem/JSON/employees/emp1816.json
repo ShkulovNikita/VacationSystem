@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1816",
-	"FirstName": "Анастасия",
-	"MiddleName": "Сергеевна",
-	"LastName": "Рябикина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "172",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "1816",
+  "FirstName": "Анастасия",
+  "MiddleName": "Сергеевна",
+  "LastName": "Рябикина",
+  "Time": 0.5,
+  "StartDate": "1992-08-02T00:00:00",
+  "BirthDate": "1954-05-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "172"
+    }
+  ]
 }

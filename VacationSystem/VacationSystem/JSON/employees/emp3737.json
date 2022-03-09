@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3737",
-	"FirstName": "Ахмед Мохамед",
-	"MiddleName": "",
-	"LastName": "Мохамед Эльсаед",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "26",
-			"HeadOfDepartment": false,
-			"Position": "24"
-		}
-	]
+  "Id": "3737",
+  "FirstName": "Ахмед Мохамед",
+  "MiddleName": "",
+  "LastName": "Мохамед Эльсаед",
+  "Time": 1,
+  "StartDate": "2006-03-14T00:00:00",
+  "BirthDate": "1984-06-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "24",
+      "Department": "26"
+    }
+  ]
 }

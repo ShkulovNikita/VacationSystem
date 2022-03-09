@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "489",
-	"FirstName": "Зинаида",
-	"MiddleName": "Александровна",
-	"LastName": "Шенбергер",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "34",
-			"HeadOfDepartment": false,
-			"Position": "87"
-		}
-	]
+  "Id": "489",
+  "FirstName": "Зинаида",
+  "MiddleName": "Александровна",
+  "LastName": "Шенбергер",
+  "Time": 0.5,
+  "StartDate": "2016-03-03T00:00:00",
+  "BirthDate": "1981-10-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "87",
+      "Department": "34"
+    }
+  ]
 }

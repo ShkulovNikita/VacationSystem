@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3423",
-	"FirstName": "Димитрий",
-	"MiddleName": "Олегович",
-	"LastName": "Вахрушев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "202",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "3423",
+  "FirstName": "Димитрий",
+  "MiddleName": "Олегович",
+  "LastName": "Вахрушев",
+  "Time": 1,
+  "StartDate": "2019-11-07T00:00:00",
+  "BirthDate": "1976-11-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "202"
+    }
+  ]
 }

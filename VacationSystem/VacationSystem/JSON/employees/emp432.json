@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "432",
-	"FirstName": "Игорь",
-	"MiddleName": "Борисович",
-	"LastName": "Ардашкин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "3",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "432",
+  "FirstName": "Игорь",
+  "MiddleName": "Борисович",
+  "LastName": "Ардашкин",
+  "Time": 1,
+  "StartDate": "2008-11-18T00:00:00",
+  "BirthDate": "1972-04-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "3"
+    }
+  ]
 }

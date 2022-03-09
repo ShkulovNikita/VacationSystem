@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1925",
-	"FirstName": "Петр",
-	"MiddleName": "Иванович",
-	"LastName": "Костомаров",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "0",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1925",
+  "FirstName": "Петр",
+  "MiddleName": "Иванович",
+  "LastName": "Костомаров",
+  "Time": 0.5,
+  "StartDate": "2006-07-16T00:00:00",
+  "BirthDate": "1962-12-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "0"
+    }
+  ]
 }

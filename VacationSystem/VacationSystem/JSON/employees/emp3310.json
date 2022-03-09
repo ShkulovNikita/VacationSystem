@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3310",
-	"FirstName": "Ахмед Ибрагим Мохамед",
-	"MiddleName": "",
-	"LastName": "Ибрагим",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "19",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		}
-	]
+  "Id": "3310",
+  "FirstName": "Ахмед Ибрагим Мохамед",
+  "MiddleName": "",
+  "LastName": "Ибрагим",
+  "Time": 1,
+  "StartDate": "2019-10-09T00:00:00",
+  "BirthDate": "1975-07-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "19"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3342",
-	"FirstName": "Фанцэ",
-	"MiddleName": "",
-	"LastName": "Чжан",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "32",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		}
-	]
+  "Id": "3342",
+  "FirstName": "Фанцэ",
+  "MiddleName": "",
+  "LastName": "Чжан",
+  "Time": 1,
+  "StartDate": "2014-12-17T00:00:00",
+  "BirthDate": "1992-01-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "32"
+    }
+  ]
 }

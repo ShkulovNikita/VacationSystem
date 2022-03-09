@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2810",
-	"FirstName": "Виктория",
-	"MiddleName": "Александровна",
-	"LastName": "Протасова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "119",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "2810",
+  "FirstName": "Виктория",
+  "MiddleName": "Александровна",
+  "LastName": "Протасова",
+  "Time": 0.5,
+  "StartDate": "2010-11-20T00:00:00",
+  "BirthDate": "1973-09-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "119"
+    }
+  ]
 }

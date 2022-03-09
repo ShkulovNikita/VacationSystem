@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1323",
-	"FirstName": "Валентина",
-	"MiddleName": "Николаевна",
-	"LastName": "Дерюшева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1323",
+  "FirstName": "Валентина",
+  "MiddleName": "Николаевна",
+  "LastName": "Дерюшева",
+  "Time": 1,
+  "StartDate": "2018-07-24T00:00:00",
+  "BirthDate": "1978-11-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "15"
+    }
+  ]
 }

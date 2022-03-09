@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3186",
-	"FirstName": "Артём",
-	"MiddleName": "Дмитриевич",
-	"LastName": "Федоренко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "29",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "3186",
+  "FirstName": "Артём",
+  "MiddleName": "Дмитриевич",
+  "LastName": "Федоренко",
+  "Time": 0.5,
+  "StartDate": "2010-12-19T00:00:00",
+  "BirthDate": "1982-03-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "29"
+    }
+  ]
 }

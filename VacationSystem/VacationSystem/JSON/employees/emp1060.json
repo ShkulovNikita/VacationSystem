@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1060",
-	"FirstName": "Василий",
-	"MiddleName": "Яковлевич",
-	"LastName": "Ушаков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "19",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "1060",
+  "FirstName": "Василий",
+  "MiddleName": "Яковлевич",
+  "LastName": "Ушаков",
+  "Time": 0.5,
+  "StartDate": "1998-11-18T00:00:00",
+  "BirthDate": "1962-07-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "19"
+    }
+  ]
 }

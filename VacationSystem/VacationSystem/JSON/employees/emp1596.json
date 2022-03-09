@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1596",
-	"FirstName": "Ольга",
-	"MiddleName": "Владимировна",
-	"LastName": "Охота",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "16",
-			"HeadOfDepartment": false,
-			"Position": "129"
-		}
-	]
+  "Id": "1596",
+  "FirstName": "Ольга",
+  "MiddleName": "Владимировна",
+  "LastName": "Охота",
+  "Time": 0.5,
+  "StartDate": "2011-02-11T00:00:00",
+  "BirthDate": "1988-03-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "129",
+      "Department": "16"
+    }
+  ]
 }

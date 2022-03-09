@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2284",
-	"FirstName": "Ирина",
-	"MiddleName": "Петровна",
-	"LastName": "Озерова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "39",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "2284",
+  "FirstName": "Ирина",
+  "MiddleName": "Петровна",
+  "LastName": "Озерова",
+  "Time": 0.5,
+  "StartDate": "1998-11-17T00:00:00",
+  "BirthDate": "1964-05-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "39"
+    }
+  ]
 }

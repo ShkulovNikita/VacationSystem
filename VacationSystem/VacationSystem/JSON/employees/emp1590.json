@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1590",
-	"FirstName": "Вера",
-	"MiddleName": "Александровна",
-	"LastName": "Красман",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "65",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1590",
+  "FirstName": "Вера",
+  "MiddleName": "Александровна",
+  "LastName": "Красман",
+  "Time": 1,
+  "StartDate": "2013-07-17T00:00:00",
+  "BirthDate": "1979-04-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "65"
+    }
+  ]
 }

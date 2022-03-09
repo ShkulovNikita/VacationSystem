@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1495",
-	"FirstName": "Александр",
-	"MiddleName": "Николаевич",
-	"LastName": "Герасименко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "72",
-			"HeadOfDepartment": false,
-			"Position": "178"
-		}
-	]
+  "Id": "1495",
+  "FirstName": "Александр",
+  "MiddleName": "Николаевич",
+  "LastName": "Герасименко",
+  "Time": 1,
+  "StartDate": "1996-02-15T00:00:00",
+  "BirthDate": "1955-09-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "178",
+      "Department": "72"
+    }
+  ]
 }

@@ -1,0 +1,79 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "1741",
+      "FirstName": "Татьяна",
+      "MiddleName": "Анатольевна",
+      "LastName": "Шидловская",
+      "Time": 0.5,
+      "StartDate": "2000-06-09T00:00:00",
+      "BirthDate": "1979-08-08T00:00:00",
+      "Positions": [
+        {
+          "Position": "6",
+          "Department": "225"
+        }
+      ]
+    },
+    {
+      "Id": "2592",
+      "FirstName": "Татьяна",
+      "MiddleName": "Николаевна",
+      "LastName": "Громова",
+      "Time": 1,
+      "StartDate": "2009-06-16T00:00:00",
+      "BirthDate": "1975-07-06T00:00:00",
+      "Positions": [
+        {
+          "Position": "45",
+          "Department": "225"
+        }
+      ]
+    },
+    {
+      "Id": "2627",
+      "FirstName": "Ирина",
+      "MiddleName": "Игоревна",
+      "LastName": "Фефелова",
+      "Time": 1,
+      "StartDate": "2018-02-10T00:00:00",
+      "BirthDate": "1956-03-15T00:00:00",
+      "Positions": [
+        {
+          "Position": "223",
+          "Department": "225"
+        }
+      ]
+    },
+    {
+      "Id": "3438",
+      "FirstName": "Александра",
+      "MiddleName": "Михайловна",
+      "LastName": "Стороженко",
+      "Time": 1,
+      "StartDate": "2004-09-08T00:00:00",
+      "BirthDate": "1970-05-11T00:00:00",
+      "Positions": [
+        {
+          "Position": "6",
+          "Department": "225"
+        }
+      ]
+    },
+    {
+      "Id": "3579",
+      "FirstName": "Ирина",
+      "MiddleName": "Михайловна",
+      "LastName": "Алтухова",
+      "Time": 0.5,
+      "StartDate": "2008-05-10T00:00:00",
+      "BirthDate": "1957-11-10T00:00:00",
+      "Positions": [
+        {
+          "Position": "6",
+          "Department": "225"
+        }
+      ]
+    }
+  ]
+}

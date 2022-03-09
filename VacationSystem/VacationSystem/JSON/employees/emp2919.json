@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2919",
-	"FirstName": "Василий",
-	"MiddleName": "Германович",
-	"LastName": "Ли",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "205",
-			"HeadOfDepartment": false,
-			"Position": "251"
-		}
-	]
+  "Id": "2919",
+  "FirstName": "Василий",
+  "MiddleName": "Германович",
+  "LastName": "Ли",
+  "Time": 0.5,
+  "StartDate": "1983-09-24T00:00:00",
+  "BirthDate": "1963-07-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "251",
+      "Department": "205"
+    }
+  ]
 }

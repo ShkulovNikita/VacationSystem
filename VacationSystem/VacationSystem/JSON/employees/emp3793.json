@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3793",
-	"FirstName": "Людмила",
-	"MiddleName": "Викторовна",
-	"LastName": "Шагалова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "77",
-			"HeadOfDepartment": false,
-			"Position": "108"
-		}
-	]
+  "Id": "3793",
+  "FirstName": "Людмила",
+  "MiddleName": "Викторовна",
+  "LastName": "Шагалова",
+  "Time": 1,
+  "StartDate": "2009-11-01T00:00:00",
+  "BirthDate": "1988-12-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "108",
+      "Department": "77"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "508",
-	"FirstName": "Валентина",
-	"MiddleName": "Васильевна",
-	"LastName": "Власова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "83",
-			"HeadOfDepartment": false,
-			"Position": "18"
-		}
-	]
+  "Id": "508",
+  "FirstName": "Валентина",
+  "MiddleName": "Васильевна",
+  "LastName": "Власова",
+  "Time": 0.5,
+  "StartDate": "2000-09-18T00:00:00",
+  "BirthDate": "1977-03-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "18",
+      "Department": "83"
+    }
+  ]
 }

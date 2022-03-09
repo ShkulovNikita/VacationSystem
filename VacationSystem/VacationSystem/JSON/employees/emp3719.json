@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3719",
-	"FirstName": "Мария",
-	"MiddleName": "",
-	"LastName": "Чатциниколаиду",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "188",
-			"HeadOfDepartment": false,
-			"Position": "56"
-		}
-	]
+  "Id": "3719",
+  "FirstName": "Мария",
+  "MiddleName": "",
+  "LastName": "Чатциниколаиду",
+  "Time": 1,
+  "StartDate": "2013-09-09T00:00:00",
+  "BirthDate": "1968-02-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "56",
+      "Department": "188"
+    }
+  ]
 }

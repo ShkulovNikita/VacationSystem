@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "374",
-	"FirstName": "Анна",
-	"MiddleName": "Валерьевна",
-	"LastName": "Барская",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "129",
-			"HeadOfDepartment": false,
-			"Position": "92"
-		}
-	]
+  "Id": "374",
+  "FirstName": "Анна",
+  "MiddleName": "Валерьевна",
+  "LastName": "Барская",
+  "Time": 0.5,
+  "StartDate": "2008-12-01T00:00:00",
+  "BirthDate": "1985-08-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "92",
+      "Department": "129"
+    }
+  ]
 }

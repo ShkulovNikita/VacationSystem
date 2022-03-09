@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3578",
-	"FirstName": "Елена",
-	"MiddleName": "Дмитриевна",
-	"LastName": "Скокова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "214",
-			"HeadOfDepartment": false,
-			"Position": "197"
-		}
-	]
+  "Id": "3578",
+  "FirstName": "Елена",
+  "MiddleName": "Дмитриевна",
+  "LastName": "Скокова",
+  "Time": 1,
+  "StartDate": "2010-04-09T00:00:00",
+  "BirthDate": "1965-03-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "197",
+      "Department": "214"
+    }
+  ]
 }

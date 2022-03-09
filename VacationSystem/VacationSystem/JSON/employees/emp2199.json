@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2199",
-	"FirstName": "Елена",
-	"MiddleName": "Михайловна",
-	"LastName": "Квитко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "17",
-			"HeadOfDepartment": false,
-			"Position": "70"
-		}
-	]
+  "Id": "2199",
+  "FirstName": "Елена",
+  "MiddleName": "Михайловна",
+  "LastName": "Квитко",
+  "Time": 1,
+  "StartDate": "2001-02-11T00:00:00",
+  "BirthDate": "1959-04-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "70",
+      "Department": "17"
+    }
+  ]
 }

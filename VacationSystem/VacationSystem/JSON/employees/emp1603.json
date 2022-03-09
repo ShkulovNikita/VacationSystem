@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1603",
-	"FirstName": "Константин",
-	"MiddleName": "Витальевич",
-	"LastName": "Слюсарский",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "39",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1603",
+  "FirstName": "Константин",
+  "MiddleName": "Витальевич",
+  "LastName": "Слюсарский",
+  "Time": 1,
+  "StartDate": "1988-06-11T00:00:00",
+  "BirthDate": "1956-10-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "39"
+    }
+  ]
 }

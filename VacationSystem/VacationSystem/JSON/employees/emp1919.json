@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1919",
-	"FirstName": "Анастасия",
-	"MiddleName": "Владимировна",
-	"LastName": "Казаева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "66",
-			"HeadOfDepartment": false,
-			"Position": "80"
-		}
-	]
+  "Id": "1919",
+  "FirstName": "Анастасия",
+  "MiddleName": "Владимировна",
+  "LastName": "Казаева",
+  "Time": 1,
+  "StartDate": "2018-10-23T00:00:00",
+  "BirthDate": "1987-07-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "80",
+      "Department": "66"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3221",
-	"FirstName": "Эндрю Ричард",
-	"MiddleName": "",
-	"LastName": "Гардинер",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "46",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "3221",
+  "FirstName": "Эндрю Ричард",
+  "MiddleName": "",
+  "LastName": "Гардинер",
+  "Time": 1,
+  "StartDate": "2020-05-01T00:00:00",
+  "BirthDate": "1983-12-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "46"
+    }
+  ]
 }

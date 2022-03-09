@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3495",
-	"FirstName": "Мария",
-	"MiddleName": "Борисовна",
-	"LastName": "Куранова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "179",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "3495",
+  "FirstName": "Мария",
+  "MiddleName": "Борисовна",
+  "LastName": "Куранова",
+  "Time": 0.5,
+  "StartDate": "2005-06-05T00:00:00",
+  "BirthDate": "1972-02-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "179"
+    }
+  ]
 }

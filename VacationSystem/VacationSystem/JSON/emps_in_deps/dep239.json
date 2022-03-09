@@ -1,0 +1,49 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "2069",
+      "FirstName": "Инга",
+      "MiddleName": "Александровна",
+      "LastName": "Крупская",
+      "Time": 0.5,
+      "StartDate": "2018-03-13T00:00:00",
+      "BirthDate": "1992-01-01T00:00:00",
+      "Positions": [
+        {
+          "Position": "223",
+          "Department": "239"
+        }
+      ]
+    },
+    {
+      "Id": "3689",
+      "FirstName": "Надежда",
+      "MiddleName": "Владимировна",
+      "LastName": "Лебедева",
+      "Time": 0.5,
+      "StartDate": "1996-12-03T00:00:00",
+      "BirthDate": "1970-06-18T00:00:00",
+      "Positions": [
+        {
+          "Position": "10",
+          "Department": "239"
+        }
+      ]
+    },
+    {
+      "Id": "3727",
+      "FirstName": "Ольга",
+      "MiddleName": "Ивановна",
+      "LastName": "Орешкина",
+      "Time": 0.5,
+      "StartDate": "1992-09-12T00:00:00",
+      "BirthDate": "1969-03-05T00:00:00",
+      "Positions": [
+        {
+          "Position": "223",
+          "Department": "239"
+        }
+      ]
+    }
+  ]
+}

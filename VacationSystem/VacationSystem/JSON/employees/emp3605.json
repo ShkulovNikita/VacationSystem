@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3605",
-	"FirstName": "Анна",
-	"MiddleName": "Юрьевна",
-	"LastName": "Андреева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "91",
-			"HeadOfDepartment": false,
-			"Position": "106"
-		}
-	]
+  "Id": "3605",
+  "FirstName": "Анна",
+  "MiddleName": "Юрьевна",
+  "LastName": "Андреева",
+  "Time": 0.5,
+  "StartDate": "2017-03-03T00:00:00",
+  "BirthDate": "1981-06-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "106",
+      "Department": "91"
+    }
+  ]
 }

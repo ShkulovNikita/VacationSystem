@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2992",
-	"FirstName": "Александр",
-	"MiddleName": "Владимирович",
-	"LastName": "Гудков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "199",
-			"HeadOfDepartment": false,
-			"Position": "37"
-		}
-	]
+  "Id": "2992",
+  "FirstName": "Александр",
+  "MiddleName": "Владимирович",
+  "LastName": "Гудков",
+  "Time": 1,
+  "StartDate": "1999-09-22T00:00:00",
+  "BirthDate": "1975-06-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "37",
+      "Department": "199"
+    }
+  ]
 }

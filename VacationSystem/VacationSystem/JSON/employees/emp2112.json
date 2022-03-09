@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "2112",
-	"FirstName": "Евгения",
-	"MiddleName": "Владимировна",
-	"LastName": "Исаева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "71",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		},
-		{
-			"Id": "156",
-			"HeadOfDepartment": false,
-			"Position": "10"
-		}
-	]
+  "Id": "2112",
+  "FirstName": "Евгения",
+  "MiddleName": "Владимировна",
+  "LastName": "Исаева",
+  "Time": 1.5,
+  "StartDate": "2006-06-03T00:00:00",
+  "BirthDate": "1985-10-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "71"
+    },
+    {
+      "Position": "10",
+      "Department": "156"
+    }
+  ]
 }

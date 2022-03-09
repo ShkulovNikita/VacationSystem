@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "1116",
-	"FirstName": "Евгений",
-	"MiddleName": "Иванович",
-	"LastName": "Уразбеков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "57",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		},
-		{
-			"Id": "57",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "1116",
+  "FirstName": "Евгений",
+  "MiddleName": "Иванович",
+  "LastName": "Уразбеков",
+  "Time": 1.5,
+  "StartDate": "1991-07-08T00:00:00",
+  "BirthDate": "1956-07-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "57"
+    },
+    {
+      "Position": "4",
+      "Department": "57"
+    }
+  ]
 }

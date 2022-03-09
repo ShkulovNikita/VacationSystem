@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3128",
-	"FirstName": "Валерий",
-	"MiddleName": "Алексеевич",
-	"LastName": "Пшонко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "85",
-			"HeadOfDepartment": false,
-			"Position": "35"
-		}
-	]
+  "Id": "3128",
+  "FirstName": "Валерий",
+  "MiddleName": "Алексеевич",
+  "LastName": "Пшонко",
+  "Time": 1,
+  "StartDate": "1996-04-14T00:00:00",
+  "BirthDate": "1974-10-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "35",
+      "Department": "85"
+    }
+  ]
 }

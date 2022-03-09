@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "288",
-	"FirstName": "Татьяна",
-	"MiddleName": "Ивановна",
-	"LastName": "Бычкова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "103",
-			"HeadOfDepartment": false,
-			"Position": "76"
-		}
-	]
+  "Id": "288",
+  "FirstName": "Татьяна",
+  "MiddleName": "Ивановна",
+  "LastName": "Бычкова",
+  "Time": 1,
+  "StartDate": "2017-09-21T00:00:00",
+  "BirthDate": "1993-11-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "76",
+      "Department": "103"
+    }
+  ]
 }

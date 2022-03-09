@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1702",
-	"FirstName": "Оксана",
-	"MiddleName": "Александровна",
-	"LastName": "Тюленина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "91",
-			"HeadOfDepartment": false,
-			"Position": "200"
-		}
-	]
+  "Id": "1702",
+  "FirstName": "Оксана",
+  "MiddleName": "Александровна",
+  "LastName": "Тюленина",
+  "Time": 0.5,
+  "StartDate": "1997-11-21T00:00:00",
+  "BirthDate": "1960-11-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "200",
+      "Department": "91"
+    }
+  ]
 }

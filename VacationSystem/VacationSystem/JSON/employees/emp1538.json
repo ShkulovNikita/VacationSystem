@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1538",
-	"FirstName": "Светлана",
-	"MiddleName": "Вячеславовна",
-	"LastName": "Алферова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "199",
-			"HeadOfDepartment": false,
-			"Position": "154"
-		}
-	]
+  "Id": "1538",
+  "FirstName": "Светлана",
+  "MiddleName": "Вячеславовна",
+  "LastName": "Алферова",
+  "Time": 0.5,
+  "StartDate": "2021-10-09T00:00:00",
+  "BirthDate": "1970-07-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "154",
+      "Department": "199"
+    }
+  ]
 }

@@ -1,0 +1,79 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "121",
+      "FirstName": "Ирина",
+      "MiddleName": "Николаевна",
+      "LastName": "Упадышева",
+      "Time": 1,
+      "StartDate": "2008-05-02T00:00:00",
+      "BirthDate": "1978-11-02T00:00:00",
+      "Positions": [
+        {
+          "Position": "45",
+          "Department": "70"
+        }
+      ]
+    },
+    {
+      "Id": "530",
+      "FirstName": "Елена",
+      "MiddleName": "Владимировна",
+      "LastName": "Гетало",
+      "Time": 1,
+      "StartDate": "2007-02-22T00:00:00",
+      "BirthDate": "1972-07-23T00:00:00",
+      "Positions": [
+        {
+          "Position": "38",
+          "Department": "70"
+        }
+      ]
+    },
+    {
+      "Id": "1456",
+      "FirstName": "Лариса",
+      "MiddleName": "Павловна",
+      "LastName": "Девяшина",
+      "Time": 1,
+      "StartDate": "2021-07-12T00:00:00",
+      "BirthDate": "1986-01-15T00:00:00",
+      "Positions": [
+        {
+          "Position": "18",
+          "Department": "70"
+        }
+      ]
+    },
+    {
+      "Id": "2703",
+      "FirstName": "Максим",
+      "MiddleName": "Михайлович",
+      "LastName": "Филиппов",
+      "Time": 0.5,
+      "StartDate": "2021-06-14T00:00:00",
+      "BirthDate": "1983-03-17T00:00:00",
+      "Positions": [
+        {
+          "Position": "38",
+          "Department": "70"
+        }
+      ]
+    },
+    {
+      "Id": "3093",
+      "FirstName": "Алексей",
+      "MiddleName": "Андреевич",
+      "LastName": "Фирсанков",
+      "Time": 1,
+      "StartDate": "2008-09-20T00:00:00",
+      "BirthDate": "1953-03-23T00:00:00",
+      "Positions": [
+        {
+          "Position": "157",
+          "Department": "70"
+        }
+      ]
+    }
+  ]
+}

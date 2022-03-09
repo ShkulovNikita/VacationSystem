@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3027",
-	"FirstName": "Юлия",
-	"MiddleName": "Олеговна",
-	"LastName": "Охорзина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "65",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "3027",
+  "FirstName": "Юлия",
+  "MiddleName": "Олеговна",
+  "LastName": "Охорзина",
+  "Time": 1,
+  "StartDate": "2005-08-21T00:00:00",
+  "BirthDate": "1962-02-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "65"
+    }
+  ]
 }

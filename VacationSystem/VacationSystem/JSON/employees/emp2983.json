@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2983",
-	"FirstName": "Алевтина",
-	"MiddleName": "Леонидовна",
-	"LastName": "Нагайцева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "101",
-			"HeadOfDepartment": false,
-			"Position": "36"
-		}
-	]
+  "Id": "2983",
+  "FirstName": "Алевтина",
+  "MiddleName": "Леонидовна",
+  "LastName": "Нагайцева",
+  "Time": 1,
+  "StartDate": "1999-09-23T00:00:00",
+  "BirthDate": "1975-09-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "36",
+      "Department": "101"
+    }
+  ]
 }

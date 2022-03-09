@@ -1,0 +1,49 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "2691",
+      "FirstName": "Антон",
+      "MiddleName": "Владимирович",
+      "LastName": "Киевец",
+      "Time": 0.5,
+      "StartDate": "1991-12-10T00:00:00",
+      "BirthDate": "1959-08-05T00:00:00",
+      "Positions": [
+        {
+          "Position": "5",
+          "Department": "249"
+        }
+      ]
+    },
+    {
+      "Id": "2845",
+      "FirstName": "Алишер",
+      "MiddleName": "Бахрамжонович",
+      "LastName": "Аскаров",
+      "Time": 0.5,
+      "StartDate": "2019-09-02T00:00:00",
+      "BirthDate": "1954-02-05T00:00:00",
+      "Positions": [
+        {
+          "Position": "5",
+          "Department": "249"
+        }
+      ]
+    },
+    {
+      "Id": "3124",
+      "FirstName": "Владимир",
+      "MiddleName": "Евгеньевич",
+      "LastName": "Рудник",
+      "Time": 1,
+      "StartDate": "2005-03-14T00:00:00",
+      "BirthDate": "1978-05-02T00:00:00",
+      "Positions": [
+        {
+          "Position": "5",
+          "Department": "249"
+        }
+      ]
+    }
+  ]
+}

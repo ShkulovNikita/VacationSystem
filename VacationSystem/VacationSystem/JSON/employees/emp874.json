@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "874",
-	"FirstName": "Эмилия",
-	"MiddleName": "Власовна",
-	"LastName": "Третьякова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "94",
-			"HeadOfDepartment": false,
-			"Position": "38"
-		}
-	]
+  "Id": "874",
+  "FirstName": "Эмилия",
+  "MiddleName": "Власовна",
+  "LastName": "Третьякова",
+  "Time": 0.5,
+  "StartDate": "2013-09-10T00:00:00",
+  "BirthDate": "1963-03-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "38",
+      "Department": "94"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1160",
-	"FirstName": "Мария",
-	"MiddleName": "Александровна",
-	"LastName": "Южакова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "0",
-			"HeadOfDepartment": false,
-			"Position": "0"
-		}
-	]
+  "Id": "1160",
+  "FirstName": "Мария",
+  "MiddleName": "Александровна",
+  "LastName": "Южакова",
+  "Time": 0.5,
+  "StartDate": "2001-11-06T00:00:00",
+  "BirthDate": "1969-05-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "0",
+      "Department": "0"
+    }
+  ]
 }

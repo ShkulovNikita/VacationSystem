@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "379",
-	"FirstName": "Сергей",
-	"MiddleName": "Алексеевич",
-	"LastName": "Горисев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "6",
-			"HeadOfDepartment": false,
-			"Position": "2"
-		}
-	]
+  "Id": "379",
+  "FirstName": "Сергей",
+  "MiddleName": "Алексеевич",
+  "LastName": "Горисев",
+  "Time": 0.5,
+  "StartDate": "2000-01-05T00:00:00",
+  "BirthDate": "1976-03-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "2",
+      "Department": "6"
+    }
+  ]
 }

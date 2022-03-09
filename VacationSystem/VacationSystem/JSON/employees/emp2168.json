@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2168",
-	"FirstName": "Виктор",
-	"MiddleName": "Александрович",
-	"LastName": "Бутенко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "77",
-			"HeadOfDepartment": false,
-			"Position": "226"
-		}
-	]
+  "Id": "2168",
+  "FirstName": "Виктор",
+  "MiddleName": "Александрович",
+  "LastName": "Бутенко",
+  "Time": 0.5,
+  "StartDate": "2009-06-13T00:00:00",
+  "BirthDate": "1982-12-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "226",
+      "Department": "77"
+    }
+  ]
 }

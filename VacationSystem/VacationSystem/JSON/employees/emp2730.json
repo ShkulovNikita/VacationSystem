@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2730",
-	"FirstName": "Анастасия",
-	"MiddleName": "Михайловна",
-	"LastName": "Сульгина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "113",
-			"HeadOfDepartment": false,
-			"Position": "80"
-		}
-	]
+  "Id": "2730",
+  "FirstName": "Анастасия",
+  "MiddleName": "Михайловна",
+  "LastName": "Сульгина",
+  "Time": 0.5,
+  "StartDate": "1999-08-02T00:00:00",
+  "BirthDate": "1957-07-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "80",
+      "Department": "113"
+    }
+  ]
 }

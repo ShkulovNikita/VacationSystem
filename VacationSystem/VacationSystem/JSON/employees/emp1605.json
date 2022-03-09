@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1605",
-	"FirstName": "Станислав",
-	"MiddleName": "Андреевич",
-	"LastName": "Горев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "186",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "1605",
+  "FirstName": "Станислав",
+  "MiddleName": "Андреевич",
+  "LastName": "Горев",
+  "Time": 0.5,
+  "StartDate": "2018-05-21T00:00:00",
+  "BirthDate": "1983-04-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "186"
+    }
+  ]
 }

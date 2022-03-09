@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3406",
-	"FirstName": "Светлана",
-	"MiddleName": "",
-	"LastName": "Стаценко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "6",
-			"HeadOfDepartment": false,
-			"Position": "7"
-		}
-	]
+  "Id": "3406",
+  "FirstName": "Светлана",
+  "MiddleName": "",
+  "LastName": "Стаценко",
+  "Time": 0.5,
+  "StartDate": "2021-11-17T00:00:00",
+  "BirthDate": "1981-12-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "7",
+      "Department": "6"
+    }
+  ]
 }

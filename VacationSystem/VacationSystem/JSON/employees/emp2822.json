@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2822",
-	"FirstName": "Ольга",
-	"MiddleName": "Юрьевна",
-	"LastName": "Комарова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "97",
-			"HeadOfDepartment": false,
-			"Position": "71"
-		}
-	]
+  "Id": "2822",
+  "FirstName": "Ольга",
+  "MiddleName": "Юрьевна",
+  "LastName": "Комарова",
+  "Time": 1,
+  "StartDate": "2014-01-04T00:00:00",
+  "BirthDate": "1962-06-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "71",
+      "Department": "97"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "183",
-	"FirstName": "Александр",
-	"MiddleName": "Александрович",
-	"LastName": "Осадченко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "14",
-			"HeadOfDepartment": false,
-			"Position": "45"
-		}
-	]
+  "Id": "183",
+  "FirstName": "Александр",
+  "MiddleName": "Александрович",
+  "LastName": "Осадченко",
+  "Time": 1,
+  "StartDate": "2015-03-01T00:00:00",
+  "BirthDate": "1993-01-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "45",
+      "Department": "14"
+    }
+  ]
 }

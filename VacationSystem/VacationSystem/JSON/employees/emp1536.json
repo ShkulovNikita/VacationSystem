@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "1536",
-	"FirstName": "Дмитрий",
-	"MiddleName": "Геннадьевич",
-	"LastName": "Прокопьев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "149",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		},
-		{
-			"Id": "14",
-			"HeadOfDepartment": false,
-			"Position": "48"
-		}
-	]
+  "Id": "1536",
+  "FirstName": "Дмитрий",
+  "MiddleName": "Геннадьевич",
+  "LastName": "Прокопьев",
+  "Time": 1.5,
+  "StartDate": "2017-04-14T00:00:00",
+  "BirthDate": "1992-07-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "149"
+    },
+    {
+      "Position": "48",
+      "Department": "14"
+    }
+  ]
 }

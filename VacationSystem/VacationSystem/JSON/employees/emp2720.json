@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "2720",
-	"FirstName": "Алдар",
-	"MiddleName": "Николаевич",
-	"LastName": "Санжиев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "4",
-			"HeadOfDepartment": false,
-			"Position": "26"
-		},
-		{
-			"Id": "4",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "2720",
+  "FirstName": "Алдар",
+  "MiddleName": "Николаевич",
+  "LastName": "Санжиев",
+  "Time": 1,
+  "StartDate": "2019-10-08T00:00:00",
+  "BirthDate": "1991-12-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "26",
+      "Department": "4"
+    },
+    {
+      "Position": "3",
+      "Department": "4"
+    }
+  ]
 }

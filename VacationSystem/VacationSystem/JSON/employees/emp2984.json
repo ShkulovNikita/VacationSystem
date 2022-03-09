@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2984",
-	"FirstName": "Сергей",
-	"MiddleName": "Николаевич",
-	"LastName": "Ткачёв",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "50",
-			"HeadOfDepartment": false,
-			"Position": "32"
-		}
-	]
+  "Id": "2984",
+  "FirstName": "Сергей",
+  "MiddleName": "Николаевич",
+  "LastName": "Ткачёв",
+  "Time": 1,
+  "StartDate": "2021-02-18T00:00:00",
+  "BirthDate": "1990-10-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "32",
+      "Department": "50"
+    }
+  ]
 }

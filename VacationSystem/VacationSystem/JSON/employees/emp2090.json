@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2090",
-	"FirstName": "Александр",
-	"MiddleName": "Олегович",
-	"LastName": "Соколов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "38",
-			"HeadOfDepartment": false,
-			"Position": "141"
-		}
-	]
+  "Id": "2090",
+  "FirstName": "Александр",
+  "MiddleName": "Олегович",
+  "LastName": "Соколов",
+  "Time": 1,
+  "StartDate": "1998-08-13T00:00:00",
+  "BirthDate": "1963-11-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "141",
+      "Department": "38"
+    }
+  ]
 }

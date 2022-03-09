@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1236",
-	"FirstName": "Артём",
-	"MiddleName": "Сергеевич",
-	"LastName": "Шабунин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "56",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "1236",
+  "FirstName": "Артём",
+  "MiddleName": "Сергеевич",
+  "LastName": "Шабунин",
+  "Time": 1,
+  "StartDate": "2014-07-17T00:00:00",
+  "BirthDate": "1986-01-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "56"
+    }
+  ]
 }

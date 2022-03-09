@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1157",
-	"FirstName": "Игорь",
-	"MiddleName": "Васильевич",
-	"LastName": "Кучеренко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "1",
-			"HeadOfDepartment": false,
-			"Position": "91"
-		}
-	]
+  "Id": "1157",
+  "FirstName": "Игорь",
+  "MiddleName": "Васильевич",
+  "LastName": "Кучеренко",
+  "Time": 1,
+  "StartDate": "1999-12-05T00:00:00",
+  "BirthDate": "1953-08-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "91",
+      "Department": "1"
+    }
+  ]
 }

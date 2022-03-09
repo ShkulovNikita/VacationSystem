@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3562",
-	"FirstName": "Елена",
-	"MiddleName": "Вадимовна",
-	"LastName": "Милютина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "51",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "3562",
+  "FirstName": "Елена",
+  "MiddleName": "Вадимовна",
+  "LastName": "Милютина",
+  "Time": 0.5,
+  "StartDate": "1986-10-22T00:00:00",
+  "BirthDate": "1959-03-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "51"
+    }
+  ]
 }

@@ -1,0 +1,53 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "542",
+      "FirstName": "Юлия",
+      "MiddleName": "Владимировна",
+      "LastName": "Рейхерт",
+      "Time": 0.5,
+      "StartDate": "2001-12-16T00:00:00",
+      "BirthDate": "1975-10-10T00:00:00",
+      "Positions": [
+        {
+          "Position": "107",
+          "Department": "150"
+        }
+      ]
+    },
+    {
+      "Id": "858",
+      "FirstName": "Татьяна",
+      "MiddleName": "Васильевна",
+      "LastName": "Кузнецова",
+      "Time": 1,
+      "StartDate": "1985-12-20T00:00:00",
+      "BirthDate": "1958-08-08T00:00:00",
+      "Positions": [
+        {
+          "Position": "138",
+          "Department": "150"
+        }
+      ]
+    },
+    {
+      "Id": "917",
+      "FirstName": "Марина",
+      "MiddleName": "Леонидовна",
+      "LastName": "Караван",
+      "Time": 1,
+      "StartDate": "2021-07-03T00:00:00",
+      "BirthDate": "1991-12-09T00:00:00",
+      "Positions": [
+        {
+          "Position": "14",
+          "Department": "150"
+        },
+        {
+          "Position": "131",
+          "Department": "150"
+        }
+      ]
+    }
+  ]
+}

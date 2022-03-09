@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1719",
-	"FirstName": "Сергей",
-	"MiddleName": "Дмитриевич",
-	"LastName": "Коршунов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "47",
-			"HeadOfDepartment": false,
-			"Position": "30"
-		}
-	]
+  "Id": "1719",
+  "FirstName": "Сергей",
+  "MiddleName": "Дмитриевич",
+  "LastName": "Коршунов",
+  "Time": 0.5,
+  "StartDate": "2004-05-21T00:00:00",
+  "BirthDate": "1983-02-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "30",
+      "Department": "47"
+    }
+  ]
 }

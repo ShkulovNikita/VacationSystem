@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "953",
-	"FirstName": "Ольга",
-	"MiddleName": "Валерьевна",
-	"LastName": "Чихман",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "34",
-			"HeadOfDepartment": false,
-			"Position": "87"
-		}
-	]
+  "Id": "953",
+  "FirstName": "Ольга",
+  "MiddleName": "Валерьевна",
+  "LastName": "Чихман",
+  "Time": 1,
+  "StartDate": "2005-12-13T00:00:00",
+  "BirthDate": "1980-12-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "87",
+      "Department": "34"
+    }
+  ]
 }

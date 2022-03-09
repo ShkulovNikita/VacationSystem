@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2775",
-	"FirstName": "Юлия",
-	"MiddleName": "Александровна",
-	"LastName": "Власенко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "51",
-			"HeadOfDepartment": false,
-			"Position": "26"
-		}
-	]
+  "Id": "2775",
+  "FirstName": "Юлия",
+  "MiddleName": "Александровна",
+  "LastName": "Власенко",
+  "Time": 1,
+  "StartDate": "2002-09-04T00:00:00",
+  "BirthDate": "1966-05-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "26",
+      "Department": "51"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2273",
-	"FirstName": "Наталия",
-	"MiddleName": "Александровна",
-	"LastName": "Лукьянова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "3",
-			"HeadOfDepartment": false,
-			"Position": "43"
-		}
-	]
+  "Id": "2273",
+  "FirstName": "Наталия",
+  "MiddleName": "Александровна",
+  "LastName": "Лукьянова",
+  "Time": 0.5,
+  "StartDate": "2012-02-09T00:00:00",
+  "BirthDate": "1969-10-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "43",
+      "Department": "3"
+    }
+  ]
 }

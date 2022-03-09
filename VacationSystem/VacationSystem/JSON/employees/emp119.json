@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "119",
-	"FirstName": "Виталия",
-	"MiddleName": "Евгеньевна",
-	"LastName": "Баранова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "6",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "119",
+  "FirstName": "Виталия",
+  "MiddleName": "Евгеньевна",
+  "LastName": "Баранова",
+  "Time": 0.5,
+  "StartDate": "2013-02-01T00:00:00",
+  "BirthDate": "1978-01-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "6"
+    }
+  ]
 }

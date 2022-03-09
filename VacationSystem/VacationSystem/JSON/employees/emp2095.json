@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2095",
-	"FirstName": "Светлана",
-	"MiddleName": "Георгиевна",
-	"LastName": "Литвиненко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "70"
-		}
-	]
+  "Id": "2095",
+  "FirstName": "Светлана",
+  "MiddleName": "Георгиевна",
+  "LastName": "Литвиненко",
+  "Time": 1,
+  "StartDate": "2007-12-16T00:00:00",
+  "BirthDate": "1953-10-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "70",
+      "Department": "2"
+    }
+  ]
 }

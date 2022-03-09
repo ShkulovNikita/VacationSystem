@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "885",
-	"FirstName": "Андрей",
-	"MiddleName": "Владимирович",
-	"LastName": "Малышев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "57",
-			"HeadOfDepartment": false,
-			"Position": "56"
-		}
-	]
+  "Id": "885",
+  "FirstName": "Андрей",
+  "MiddleName": "Владимирович",
+  "LastName": "Малышев",
+  "Time": 1,
+  "StartDate": "2020-08-03T00:00:00",
+  "BirthDate": "1974-02-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "56",
+      "Department": "57"
+    }
+  ]
 }

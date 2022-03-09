@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "962",
-	"FirstName": "Павел",
-	"MiddleName": "Иванович",
-	"LastName": "Федотов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "88",
-			"HeadOfDepartment": false,
-			"Position": "24"
-		}
-	]
+  "Id": "962",
+  "FirstName": "Павел",
+  "MiddleName": "Иванович",
+  "LastName": "Федотов",
+  "Time": 1,
+  "StartDate": "2019-09-16T00:00:00",
+  "BirthDate": "1979-04-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "24",
+      "Department": "88"
+    }
+  ]
 }

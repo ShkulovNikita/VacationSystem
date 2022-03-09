@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "1476",
-	"FirstName": "Дарья",
-	"MiddleName": "Николаевна",
-	"LastName": "Карнаева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "47",
-			"HeadOfDepartment": false,
-			"Position": "30"
-		},
-		{
-			"Id": "147",
-			"HeadOfDepartment": false,
-			"Position": "116"
-		}
-	]
+  "Id": "1476",
+  "FirstName": "Дарья",
+  "MiddleName": "Николаевна",
+  "LastName": "Карнаева",
+  "Time": 2,
+  "StartDate": "2014-02-03T00:00:00",
+  "BirthDate": "1992-07-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "30",
+      "Department": "47"
+    },
+    {
+      "Position": "116",
+      "Department": "147"
+    }
+  ]
 }

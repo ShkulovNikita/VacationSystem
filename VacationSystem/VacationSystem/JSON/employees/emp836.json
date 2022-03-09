@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "836",
-	"FirstName": "Ирина",
-	"MiddleName": "Викторовна",
-	"LastName": "Логинова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "34",
-			"HeadOfDepartment": false,
-			"Position": "87"
-		}
-	]
+  "Id": "836",
+  "FirstName": "Ирина",
+  "MiddleName": "Викторовна",
+  "LastName": "Логинова",
+  "Time": 0.5,
+  "StartDate": "2020-07-05T00:00:00",
+  "BirthDate": "1979-11-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "87",
+      "Department": "34"
+    }
+  ]
 }

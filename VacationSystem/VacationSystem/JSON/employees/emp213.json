@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "213",
-	"FirstName": "Виталий",
-	"MiddleName": "Владимирович",
-	"LastName": "Гребенников",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "69",
-			"HeadOfDepartment": false,
-			"Position": "10"
-		},
-		{
-			"Id": "8",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "213",
+  "FirstName": "Виталий",
+  "MiddleName": "Владимирович",
+  "LastName": "Гребенников",
+  "Time": 1,
+  "StartDate": "2020-12-14T00:00:00",
+  "BirthDate": "1990-06-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "10",
+      "Department": "69"
+    },
+    {
+      "Position": "1",
+      "Department": "8"
+    }
+  ]
 }

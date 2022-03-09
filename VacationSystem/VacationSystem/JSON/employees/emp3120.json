@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3120",
-	"FirstName": "Дмитрий",
-	"MiddleName": "Сергеевич",
-	"LastName": "Цыбин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "50",
-			"HeadOfDepartment": false,
-			"Position": "88"
-		}
-	]
+  "Id": "3120",
+  "FirstName": "Дмитрий",
+  "MiddleName": "Сергеевич",
+  "LastName": "Цыбин",
+  "Time": 1,
+  "StartDate": "1992-05-09T00:00:00",
+  "BirthDate": "1960-02-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "88",
+      "Department": "50"
+    }
+  ]
 }

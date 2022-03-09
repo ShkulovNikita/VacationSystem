@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "110",
-	"FirstName": "Олеся",
-	"MiddleName": "Евгеньевна",
-	"LastName": "Лепокурова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "1",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "110",
+  "FirstName": "Олеся",
+  "MiddleName": "Евгеньевна",
+  "LastName": "Лепокурова",
+  "Time": 0.5,
+  "StartDate": "2021-03-16T00:00:00",
+  "BirthDate": "1979-01-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "1"
+    }
+  ]
 }

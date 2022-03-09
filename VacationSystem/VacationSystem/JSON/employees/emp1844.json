@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1844",
-	"FirstName": "Кирилл",
-	"MiddleName": "Владимирович",
-	"LastName": "Перфильев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "79",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "1844",
+  "FirstName": "Кирилл",
+  "MiddleName": "Владимирович",
+  "LastName": "Перфильев",
+  "Time": 0.5,
+  "StartDate": "2017-04-21T00:00:00",
+  "BirthDate": "1993-06-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "79"
+    }
+  ]
 }

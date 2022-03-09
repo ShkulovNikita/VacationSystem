@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1320",
-	"FirstName": "Елена",
-	"MiddleName": "Геннадьевна",
-	"LastName": "Марченко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "41",
-			"HeadOfDepartment": false,
-			"Position": "25"
-		}
-	]
+  "Id": "1320",
+  "FirstName": "Елена",
+  "MiddleName": "Геннадьевна",
+  "LastName": "Марченко",
+  "Time": 1,
+  "StartDate": "2006-11-05T00:00:00",
+  "BirthDate": "1986-04-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "25",
+      "Department": "41"
+    }
+  ]
 }

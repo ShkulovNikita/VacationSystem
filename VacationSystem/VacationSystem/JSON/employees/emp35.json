@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "35",
-	"FirstName": "Александр",
-	"MiddleName": "Сергеевич",
-	"LastName": "Фадеев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "25",
-			"HeadOfDepartment": false,
-			"Position": "17"
-		},
-		{
-			"Id": "26",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "35",
+  "FirstName": "Александр",
+  "MiddleName": "Сергеевич",
+  "LastName": "Фадеев",
+  "Time": 1,
+  "StartDate": "2005-01-11T00:00:00",
+  "BirthDate": "1975-12-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "17",
+      "Department": "25"
+    },
+    {
+      "Position": "1",
+      "Department": "26"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3254",
-	"FirstName": "Евгения",
-	"MiddleName": "Владимировна",
-	"LastName": "Родина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "55",
-			"HeadOfDepartment": false,
-			"Position": "108"
-		}
-	]
+  "Id": "3254",
+  "FirstName": "Евгения",
+  "MiddleName": "Владимировна",
+  "LastName": "Родина",
+  "Time": 1,
+  "StartDate": "2009-08-05T00:00:00",
+  "BirthDate": "1978-07-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "108",
+      "Department": "55"
+    }
+  ]
 }

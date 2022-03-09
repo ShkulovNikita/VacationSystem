@@ -1,0 +1,94 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "1013",
+      "FirstName": "Татьяна",
+      "MiddleName": "Владимировна",
+      "LastName": "Цавнина",
+      "Time": 0.5,
+      "StartDate": "2015-06-18T00:00:00",
+      "BirthDate": "1990-06-16T00:00:00",
+      "Positions": [
+        {
+          "Position": "6",
+          "Department": "189"
+        }
+      ]
+    },
+    {
+      "Id": "1104",
+      "FirstName": "Елена",
+      "MiddleName": "Борисовна",
+      "LastName": "Калугина",
+      "Time": 1,
+      "StartDate": "2005-01-18T00:00:00",
+      "BirthDate": "1977-10-04T00:00:00",
+      "Positions": [
+        {
+          "Position": "6",
+          "Department": "189"
+        }
+      ]
+    },
+    {
+      "Id": "1115",
+      "FirstName": "Ольга",
+      "MiddleName": "Владимировна",
+      "LastName": "Уманская",
+      "Time": 0.5,
+      "StartDate": "1997-03-05T00:00:00",
+      "BirthDate": "1969-01-21T00:00:00",
+      "Positions": [
+        {
+          "Position": "18",
+          "Department": "189"
+        }
+      ]
+    },
+    {
+      "Id": "2066",
+      "FirstName": "Наталья",
+      "MiddleName": "Вадимовна",
+      "LastName": "Кудрявцева",
+      "Time": 0.5,
+      "StartDate": "2020-02-24T00:00:00",
+      "BirthDate": "1967-10-05T00:00:00",
+      "Positions": [
+        {
+          "Position": "6",
+          "Department": "189"
+        }
+      ]
+    },
+    {
+      "Id": "2238",
+      "FirstName": "Людмила",
+      "MiddleName": "Ивановна",
+      "LastName": "Ямпольская",
+      "Time": 0.5,
+      "StartDate": "1999-04-21T00:00:00",
+      "BirthDate": "1975-10-16T00:00:00",
+      "Positions": [
+        {
+          "Position": "35",
+          "Department": "189"
+        }
+      ]
+    },
+    {
+      "Id": "2372",
+      "FirstName": "Ольга",
+      "MiddleName": "Александровна",
+      "LastName": "Севостьянова",
+      "Time": 1,
+      "StartDate": "2015-03-20T00:00:00",
+      "BirthDate": "1978-12-22T00:00:00",
+      "Positions": [
+        {
+          "Position": "6",
+          "Department": "189"
+        }
+      ]
+    }
+  ]
+}

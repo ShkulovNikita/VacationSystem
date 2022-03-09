@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3489",
-	"FirstName": "Сергей",
-	"MiddleName": "Владимирович",
-	"LastName": "Мартынов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "59",
-			"HeadOfDepartment": false,
-			"Position": "72"
-		}
-	]
+  "Id": "3489",
+  "FirstName": "Сергей",
+  "MiddleName": "Владимирович",
+  "LastName": "Мартынов",
+  "Time": 1,
+  "StartDate": "1981-03-21T00:00:00",
+  "BirthDate": "1957-09-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "72",
+      "Department": "59"
+    }
+  ]
 }

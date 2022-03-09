@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2655",
-	"FirstName": "Константин",
-	"MiddleName": "Павлович",
-	"LastName": "Андреев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "63",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "2655",
+  "FirstName": "Константин",
+  "MiddleName": "Павлович",
+  "LastName": "Андреев",
+  "Time": 0.5,
+  "StartDate": "2021-11-17T00:00:00",
+  "BirthDate": "1957-03-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "63"
+    }
+  ]
 }

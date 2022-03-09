@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1524",
-	"FirstName": "Марина",
-	"MiddleName": "Сергеевна",
-	"LastName": "Седюкова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "16",
-			"HeadOfDepartment": false,
-			"Position": "155"
-		}
-	]
+  "Id": "1524",
+  "FirstName": "Марина",
+  "MiddleName": "Сергеевна",
+  "LastName": "Седюкова",
+  "Time": 0.5,
+  "StartDate": "2002-11-04T00:00:00",
+  "BirthDate": "1979-06-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "155",
+      "Department": "16"
+    }
+  ]
 }

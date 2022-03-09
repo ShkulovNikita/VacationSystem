@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1907",
-	"FirstName": "Михаил",
-	"MiddleName": "Анатольевич",
-	"LastName": "Смирнов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "75",
-			"HeadOfDepartment": false,
-			"Position": "218"
-		}
-	]
+  "Id": "1907",
+  "FirstName": "Михаил",
+  "MiddleName": "Анатольевич",
+  "LastName": "Смирнов",
+  "Time": 1,
+  "StartDate": "1994-05-01T00:00:00",
+  "BirthDate": "1962-03-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "218",
+      "Department": "75"
+    }
+  ]
 }

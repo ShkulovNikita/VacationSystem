@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2468",
-	"FirstName": "Жанна",
-	"MiddleName": "Владимировна",
-	"LastName": "Елькина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "227",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "2468",
+  "FirstName": "Жанна",
+  "MiddleName": "Владимировна",
+  "LastName": "Елькина",
+  "Time": 0.5,
+  "StartDate": "2021-07-21T00:00:00",
+  "BirthDate": "1964-03-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "227"
+    }
+  ]
 }

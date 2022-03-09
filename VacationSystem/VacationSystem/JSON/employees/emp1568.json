@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "1568",
-	"FirstName": "Елена",
-	"MiddleName": "Сергеевна",
-	"LastName": "Воронцова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "39",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		},
-		{
-			"Id": "81",
-			"HeadOfDepartment": false,
-			"Position": "35"
-		}
-	]
+  "Id": "1568",
+  "FirstName": "Елена",
+  "MiddleName": "Сергеевна",
+  "LastName": "Воронцова",
+  "Time": 2,
+  "StartDate": "1996-02-22T00:00:00",
+  "BirthDate": "1967-07-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "39"
+    },
+    {
+      "Position": "35",
+      "Department": "81"
+    }
+  ]
 }

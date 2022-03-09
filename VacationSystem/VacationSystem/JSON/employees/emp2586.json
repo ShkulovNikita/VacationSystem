@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2586",
-	"FirstName": "Татьяна",
-	"MiddleName": "Алексеевна",
-	"LastName": "Матвеева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "245",
-			"HeadOfDepartment": false,
-			"Position": "64"
-		}
-	]
+  "Id": "2586",
+  "FirstName": "Татьяна",
+  "MiddleName": "Алексеевна",
+  "LastName": "Матвеева",
+  "Time": 0.5,
+  "StartDate": "2009-08-18T00:00:00",
+  "BirthDate": "1957-10-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "64",
+      "Department": "245"
+    }
+  ]
 }

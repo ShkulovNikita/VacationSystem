@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1456",
-	"FirstName": "Лариса",
-	"MiddleName": "Павловна",
-	"LastName": "Девяшина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "70",
-			"HeadOfDepartment": false,
-			"Position": "18"
-		}
-	]
+  "Id": "1456",
+  "FirstName": "Лариса",
+  "MiddleName": "Павловна",
+  "LastName": "Девяшина",
+  "Time": 1,
+  "StartDate": "2021-07-12T00:00:00",
+  "BirthDate": "1986-01-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "18",
+      "Department": "70"
+    }
+  ]
 }

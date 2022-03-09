@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "755",
-	"FirstName": "Михаил",
-	"MiddleName": "Владимирович",
-	"LastName": "Пермяков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "138",
-			"HeadOfDepartment": false,
-			"Position": "53"
-		}
-	]
+  "Id": "755",
+  "FirstName": "Михаил",
+  "MiddleName": "Владимирович",
+  "LastName": "Пермяков",
+  "Time": 0.5,
+  "StartDate": "2014-03-13T00:00:00",
+  "BirthDate": "1976-04-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "53",
+      "Department": "138"
+    }
+  ]
 }

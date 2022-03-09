@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1782",
-	"FirstName": "Михаил",
-	"MiddleName": "Михайлович",
-	"LastName": "Попов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "19",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		}
-	]
+  "Id": "1782",
+  "FirstName": "Михаил",
+  "MiddleName": "Михайлович",
+  "LastName": "Попов",
+  "Time": 0.5,
+  "StartDate": "2017-03-15T00:00:00",
+  "BirthDate": "1989-01-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "19"
+    }
+  ]
 }

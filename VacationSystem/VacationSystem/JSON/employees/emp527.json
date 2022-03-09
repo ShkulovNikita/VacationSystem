@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "527",
-	"FirstName": "Наталия",
-	"MiddleName": "Михайловна",
-	"LastName": "Воронина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "52",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		},
-		{
-			"Id": "26",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "527",
+  "FirstName": "Наталия",
+  "MiddleName": "Михайловна",
+  "LastName": "Воронина",
+  "Time": 1.5,
+  "StartDate": "2001-04-20T00:00:00",
+  "BirthDate": "1956-04-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "52"
+    },
+    {
+      "Position": "3",
+      "Department": "26"
+    }
+  ]
 }

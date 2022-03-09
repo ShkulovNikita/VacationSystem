@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1225",
-	"FirstName": "Денис",
-	"MiddleName": "Дмитриевич",
-	"LastName": "Данн",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "88",
-			"HeadOfDepartment": false,
-			"Position": "24"
-		}
-	]
+  "Id": "1225",
+  "FirstName": "Денис",
+  "MiddleName": "Дмитриевич",
+  "LastName": "Данн",
+  "Time": 0.5,
+  "StartDate": "2012-07-16T00:00:00",
+  "BirthDate": "1980-03-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "24",
+      "Department": "88"
+    }
+  ]
 }

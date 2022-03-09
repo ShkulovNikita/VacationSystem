@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1740",
-	"FirstName": "Евгений",
-	"MiddleName": "Владимирович",
-	"LastName": "Кравченко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "39",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1740",
+  "FirstName": "Евгений",
+  "MiddleName": "Владимирович",
+  "LastName": "Кравченко",
+  "Time": 1,
+  "StartDate": "2017-06-11T00:00:00",
+  "BirthDate": "1993-09-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "39"
+    }
+  ]
 }

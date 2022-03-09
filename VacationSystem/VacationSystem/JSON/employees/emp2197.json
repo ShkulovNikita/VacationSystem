@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2197",
-	"FirstName": "Вера",
-	"MiddleName": "Анатольевна",
-	"LastName": "Савчук",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "33",
-			"HeadOfDepartment": false,
-			"Position": "21"
-		}
-	]
+  "Id": "2197",
+  "FirstName": "Вера",
+  "MiddleName": "Анатольевна",
+  "LastName": "Савчук",
+  "Time": 1,
+  "StartDate": "2011-10-24T00:00:00",
+  "BirthDate": "1957-07-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "21",
+      "Department": "33"
+    }
+  ]
 }

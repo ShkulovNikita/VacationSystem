@@ -1,0 +1,34 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "46",
+      "FirstName": "Ирина",
+      "MiddleName": "Олеговна",
+      "LastName": "Толкачева",
+      "Time": 0.5,
+      "StartDate": "2007-01-17T00:00:00",
+      "BirthDate": "1968-08-05T00:00:00",
+      "Positions": [
+        {
+          "Position": "20",
+          "Department": "31"
+        }
+      ]
+    },
+    {
+      "Id": "1159",
+      "FirstName": "Нина",
+      "MiddleName": "Александровна",
+      "LastName": "Похолкова",
+      "Time": 1,
+      "StartDate": "2020-04-09T00:00:00",
+      "BirthDate": "1980-09-15T00:00:00",
+      "Positions": [
+        {
+          "Position": "61",
+          "Department": "31"
+        }
+      ]
+    }
+  ]
+}

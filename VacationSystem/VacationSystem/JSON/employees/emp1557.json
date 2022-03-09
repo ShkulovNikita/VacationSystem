@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1557",
-	"FirstName": "Алексей",
-	"MiddleName": "Викторович",
-	"LastName": "Суханов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "6",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1557",
+  "FirstName": "Алексей",
+  "MiddleName": "Викторович",
+  "LastName": "Суханов",
+  "Time": 0.5,
+  "StartDate": "2020-07-06T00:00:00",
+  "BirthDate": "1982-05-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "6"
+    }
+  ]
 }

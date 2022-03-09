@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2015",
-	"FirstName": "Артем",
-	"MiddleName": "Андреевич",
-	"LastName": "Лысько",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "29",
-			"HeadOfDepartment": false,
-			"Position": "129"
-		}
-	]
+  "Id": "2015",
+  "FirstName": "Артем",
+  "MiddleName": "Андреевич",
+  "LastName": "Лысько",
+  "Time": 0.5,
+  "StartDate": "2010-07-23T00:00:00",
+  "BirthDate": "1970-04-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "129",
+      "Department": "29"
+    }
+  ]
 }

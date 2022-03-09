@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1365",
-	"FirstName": "Андрей",
-	"MiddleName": "Владимирович",
-	"LastName": "Панин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "75",
-			"HeadOfDepartment": false,
-			"Position": "169"
-		}
-	]
+  "Id": "1365",
+  "FirstName": "Андрей",
+  "MiddleName": "Владимирович",
+  "LastName": "Панин",
+  "Time": 1,
+  "StartDate": "2003-10-22T00:00:00",
+  "BirthDate": "1973-01-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "169",
+      "Department": "75"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3060",
-	"FirstName": "Максим",
-	"MiddleName": "Вячеславович",
-	"LastName": "Петров",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "88",
-			"HeadOfDepartment": false,
-			"Position": "26"
-		}
-	]
+  "Id": "3060",
+  "FirstName": "Максим",
+  "MiddleName": "Вячеславович",
+  "LastName": "Петров",
+  "Time": 0.5,
+  "StartDate": "2015-04-15T00:00:00",
+  "BirthDate": "1986-01-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "26",
+      "Department": "88"
+    }
+  ]
 }

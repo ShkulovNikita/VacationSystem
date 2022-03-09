@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "1671",
-	"FirstName": "Дмитрий",
-	"MiddleName": "Владимирович",
-	"LastName": "Коношонкин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "74",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		},
-		{
-			"Id": "74",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "1671",
+  "FirstName": "Дмитрий",
+  "MiddleName": "Владимирович",
+  "LastName": "Коношонкин",
+  "Time": 1.5,
+  "StartDate": "2015-01-12T00:00:00",
+  "BirthDate": "1989-03-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "74"
+    },
+    {
+      "Position": "3",
+      "Department": "74"
+    }
+  ]
 }

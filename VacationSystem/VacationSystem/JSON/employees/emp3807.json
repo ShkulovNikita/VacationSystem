@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3807",
-	"FirstName": "Алексей",
-	"MiddleName": "Анатольевич",
-	"LastName": "Шульга",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "192",
-			"HeadOfDepartment": false,
-			"Position": "24"
-		}
-	]
+  "Id": "3807",
+  "FirstName": "Алексей",
+  "MiddleName": "Анатольевич",
+  "LastName": "Шульга",
+  "Time": 1,
+  "StartDate": "2009-10-16T00:00:00",
+  "BirthDate": "1959-04-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "24",
+      "Department": "192"
+    }
+  ]
 }

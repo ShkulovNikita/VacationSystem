@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "3196",
-	"FirstName": "Мария",
-	"MiddleName": "Андреевна",
-	"LastName": "Меркулова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "53",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		},
-		{
-			"Id": "32",
-			"HeadOfDepartment": false,
-			"Position": "25"
-		}
-	]
+  "Id": "3196",
+  "FirstName": "Мария",
+  "MiddleName": "Андреевна",
+  "LastName": "Меркулова",
+  "Time": 2,
+  "StartDate": "2013-01-20T00:00:00",
+  "BirthDate": "1993-07-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "53"
+    },
+    {
+      "Position": "25",
+      "Department": "32"
+    }
+  ]
 }

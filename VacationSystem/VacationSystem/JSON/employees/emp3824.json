@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3824",
-	"FirstName": "Ирина",
-	"MiddleName": "Алексеевна",
-	"LastName": "Гостева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "46",
-			"HeadOfDepartment": false,
-			"Position": "2"
-		}
-	]
+  "Id": "3824",
+  "FirstName": "Ирина",
+  "MiddleName": "Алексеевна",
+  "LastName": "Гостева",
+  "Time": 1,
+  "StartDate": "2002-03-11T00:00:00",
+  "BirthDate": "1968-05-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "2",
+      "Department": "46"
+    }
+  ]
 }

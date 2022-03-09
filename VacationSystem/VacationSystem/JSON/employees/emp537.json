@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "537",
-	"FirstName": "Ольга",
-	"MiddleName": "Павловна",
-	"LastName": "Лаптева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "64",
-			"HeadOfDepartment": false,
-			"Position": "105"
-		}
-	]
+  "Id": "537",
+  "FirstName": "Ольга",
+  "MiddleName": "Павловна",
+  "LastName": "Лаптева",
+  "Time": 1,
+  "StartDate": "2013-05-17T00:00:00",
+  "BirthDate": "1990-09-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "105",
+      "Department": "64"
+    }
+  ]
 }

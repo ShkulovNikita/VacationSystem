@@ -1,0 +1,34 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "2003",
+      "FirstName": "Александр",
+      "MiddleName": "Иванович",
+      "LastName": "Ботт",
+      "Time": 0.5,
+      "StartDate": "2016-05-12T00:00:00",
+      "BirthDate": "1989-06-21T00:00:00",
+      "Positions": [
+        {
+          "Position": "79",
+          "Department": "238"
+        }
+      ]
+    },
+    {
+      "Id": "2096",
+      "FirstName": "Александр",
+      "MiddleName": "Георгиевич",
+      "LastName": "Додэко",
+      "Time": 1,
+      "StartDate": "2008-08-05T00:00:00",
+      "BirthDate": "1967-12-10T00:00:00",
+      "Positions": [
+        {
+          "Position": "114",
+          "Department": "238"
+        }
+      ]
+    }
+  ]
+}

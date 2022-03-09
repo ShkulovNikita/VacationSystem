@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2744",
-	"FirstName": "Елизавета",
-	"MiddleName": "Павловна",
-	"LastName": "Седанова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "53",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "2744",
+  "FirstName": "Елизавета",
+  "MiddleName": "Павловна",
+  "LastName": "Седанова",
+  "Time": 1,
+  "StartDate": "2001-01-13T00:00:00",
+  "BirthDate": "1956-09-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "53"
+    }
+  ]
 }

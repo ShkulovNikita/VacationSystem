@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "3239",
-	"FirstName": "Геннадий",
-	"MiddleName": "",
-	"LastName": "Мурастов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "32",
-			"HeadOfDepartment": false,
-			"Position": "26"
-		},
-		{
-			"Id": "229",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "3239",
+  "FirstName": "Геннадий",
+  "MiddleName": "",
+  "LastName": "Мурастов",
+  "Time": 1,
+  "StartDate": "2020-10-07T00:00:00",
+  "BirthDate": "1969-07-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "26",
+      "Department": "32"
+    },
+    {
+      "Position": "6",
+      "Department": "229"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "772",
-	"FirstName": "Александр",
-	"MiddleName": "Иванович",
-	"LastName": "Кочегуров",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "26",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "772",
+  "FirstName": "Александр",
+  "MiddleName": "Иванович",
+  "LastName": "Кочегуров",
+  "Time": 1,
+  "StartDate": "2005-12-14T00:00:00",
+  "BirthDate": "1978-03-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "26"
+    }
+  ]
 }

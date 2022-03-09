@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1002",
-	"FirstName": "Виктор",
-	"MiddleName": "Иванович",
-	"LastName": "Митителу",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "169",
-			"HeadOfDepartment": false,
-			"Position": "68"
-		}
-	]
+  "Id": "1002",
+  "FirstName": "Виктор",
+  "MiddleName": "Иванович",
+  "LastName": "Митителу",
+  "Time": 1,
+  "StartDate": "2016-03-24T00:00:00",
+  "BirthDate": "1985-05-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "68",
+      "Department": "169"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1826",
-	"FirstName": "София",
-	"MiddleName": "Насибуллаевна",
-	"LastName": "Джалилова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "46",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		}
-	]
+  "Id": "1826",
+  "FirstName": "София",
+  "MiddleName": "Насибуллаевна",
+  "LastName": "Джалилова",
+  "Time": 0.5,
+  "StartDate": "2020-03-03T00:00:00",
+  "BirthDate": "1973-07-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "46"
+    }
+  ]
 }

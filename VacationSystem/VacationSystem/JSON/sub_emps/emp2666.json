@@ -1,0 +1,102 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "575",
+      "FirstName": "Елена",
+      "MiddleName": "Аркадьевна",
+      "LastName": "Недоспасова",
+      "Time": 0.5,
+      "StartDate": "2007-05-21T00:00:00",
+      "BirthDate": "1971-12-21T00:00:00",
+      "Positions": [
+        {
+          "Position": "80",
+          "Department": "156"
+        }
+      ]
+    },
+    {
+      "Id": "834",
+      "FirstName": "Ольга",
+      "MiddleName": "Борисовна",
+      "LastName": "Лобаненко",
+      "Time": 2,
+      "StartDate": "2010-08-03T00:00:00",
+      "BirthDate": "1973-07-11T00:00:00",
+      "Positions": [
+        {
+          "Position": "4",
+          "Department": "71"
+        },
+        {
+          "Position": "16",
+          "Department": "156"
+        }
+      ]
+    },
+    {
+      "Id": "1888",
+      "FirstName": "Оксана",
+      "MiddleName": "Валерьевна",
+      "LastName": "Ситникова",
+      "Time": 1,
+      "StartDate": "1989-06-07T00:00:00",
+      "BirthDate": "1966-11-14T00:00:00",
+      "Positions": [
+        {
+          "Position": "16",
+          "Department": "156"
+        }
+      ]
+    },
+    {
+      "Id": "2112",
+      "FirstName": "Евгения",
+      "MiddleName": "Владимировна",
+      "LastName": "Исаева",
+      "Time": 1.5,
+      "StartDate": "2006-06-03T00:00:00",
+      "BirthDate": "1985-10-13T00:00:00",
+      "Positions": [
+        {
+          "Position": "1",
+          "Department": "71"
+        },
+        {
+          "Position": "10",
+          "Department": "156"
+        }
+      ]
+    },
+    {
+      "Id": "2537",
+      "FirstName": "Ирина",
+      "MiddleName": "Иосифовна",
+      "LastName": "Янущик",
+      "Time": 1,
+      "StartDate": "1989-02-01T00:00:00",
+      "BirthDate": "1953-03-08T00:00:00",
+      "Positions": [
+        {
+          "Position": "6",
+          "Department": "156"
+        }
+      ]
+    },
+    {
+      "Id": "2666",
+      "FirstName": "Лилия",
+      "MiddleName": "Павловна",
+      "LastName": "Тимофеева",
+      "Time": 0.5,
+      "StartDate": "2016-10-03T00:00:00",
+      "BirthDate": "1960-03-04T00:00:00",
+      "Positions": [
+        {
+          "Position": "6",
+          "Department": "156"
+        }
+      ]
+    }
+  ]
+}

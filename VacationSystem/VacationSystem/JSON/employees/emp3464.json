@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3464",
-	"FirstName": "Елена",
-	"MiddleName": "Владимировна",
-	"LastName": "Фелл",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "3",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "3464",
+  "FirstName": "Елена",
+  "MiddleName": "Владимировна",
+  "LastName": "Фелл",
+  "Time": 1,
+  "StartDate": "2009-01-08T00:00:00",
+  "BirthDate": "1989-09-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "3"
+    }
+  ]
 }

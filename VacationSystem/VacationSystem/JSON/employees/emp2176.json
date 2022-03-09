@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2176",
-	"FirstName": "Людмила",
-	"MiddleName": "Александровна",
-	"LastName": "Дубнова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "68",
-			"HeadOfDepartment": false,
-			"Position": "11"
-		}
-	]
+  "Id": "2176",
+  "FirstName": "Людмила",
+  "MiddleName": "Александровна",
+  "LastName": "Дубнова",
+  "Time": 0.5,
+  "StartDate": "2011-08-13T00:00:00",
+  "BirthDate": "1986-05-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "11",
+      "Department": "68"
+    }
+  ]
 }

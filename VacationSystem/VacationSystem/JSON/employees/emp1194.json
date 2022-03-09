@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1194",
-	"FirstName": "Татьяна",
-	"MiddleName": "Юрьевна",
-	"LastName": "Катаева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "1194",
+  "FirstName": "Татьяна",
+  "MiddleName": "Юрьевна",
+  "LastName": "Катаева",
+  "Time": 1,
+  "StartDate": "2013-07-15T00:00:00",
+  "BirthDate": "1985-09-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "2"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3515",
-	"FirstName": "Нелли",
-	"MiddleName": "Дмитриевна",
-	"LastName": "Кириллова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "139",
-			"HeadOfDepartment": false,
-			"Position": "281"
-		}
-	]
+  "Id": "3515",
+  "FirstName": "Нелли",
+  "MiddleName": "Дмитриевна",
+  "LastName": "Кириллова",
+  "Time": 1,
+  "StartDate": "2003-06-05T00:00:00",
+  "BirthDate": "1978-05-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "281",
+      "Department": "139"
+    }
+  ]
 }

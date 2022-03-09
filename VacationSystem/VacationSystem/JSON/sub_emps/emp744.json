@@ -1,0 +1,83 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "744",
+      "FirstName": "Светлана",
+      "MiddleName": "Валентиновна",
+      "LastName": "Соловьева",
+      "Time": 0.5,
+      "StartDate": "2001-05-22T00:00:00",
+      "BirthDate": "1957-12-08T00:00:00",
+      "Positions": [
+        {
+          "Position": "38",
+          "Department": "172"
+        }
+      ]
+    },
+    {
+      "Id": "944",
+      "FirstName": "Лидия",
+      "MiddleName": "Ивановна",
+      "LastName": "Москвитина",
+      "Time": 1,
+      "StartDate": "2005-06-21T00:00:00",
+      "BirthDate": "1981-11-11T00:00:00",
+      "Positions": [
+        {
+          "Position": "11",
+          "Department": "172"
+        }
+      ]
+    },
+    {
+      "Id": "1459",
+      "FirstName": "Ирина",
+      "MiddleName": "Анатольевна",
+      "LastName": "Лариошина",
+      "Time": 2,
+      "StartDate": "1995-07-09T00:00:00",
+      "BirthDate": "1969-03-08T00:00:00",
+      "Positions": [
+        {
+          "Position": "10",
+          "Department": "172"
+        },
+        {
+          "Position": "1",
+          "Department": "32"
+        }
+      ]
+    },
+    {
+      "Id": "1816",
+      "FirstName": "Анастасия",
+      "MiddleName": "Сергеевна",
+      "LastName": "Рябикина",
+      "Time": 0.5,
+      "StartDate": "1992-08-02T00:00:00",
+      "BirthDate": "1954-05-10T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "172"
+        }
+      ]
+    },
+    {
+      "Id": "2363",
+      "FirstName": "Ольга",
+      "MiddleName": "Владимировна",
+      "LastName": "Коваленко",
+      "Time": 1,
+      "StartDate": "2017-05-10T00:00:00",
+      "BirthDate": "1991-07-04T00:00:00",
+      "Positions": [
+        {
+          "Position": "75",
+          "Department": "172"
+        }
+      ]
+    }
+  ]
+}

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3458",
-	"FirstName": "Татьяна",
-	"MiddleName": "Витальевна",
-	"LastName": "Евстигнеева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "91",
-			"HeadOfDepartment": false,
-			"Position": "278"
-		}
-	]
+  "Id": "3458",
+  "FirstName": "Татьяна",
+  "MiddleName": "Витальевна",
+  "LastName": "Евстигнеева",
+  "Time": 1,
+  "StartDate": "2018-10-23T00:00:00",
+  "BirthDate": "1984-11-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "278",
+      "Department": "91"
+    }
+  ]
 }

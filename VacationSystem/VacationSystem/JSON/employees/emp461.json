@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "461",
-	"FirstName": "Анатолий",
-	"MiddleName": "Алексеевич",
-	"LastName": "Беспалько",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "88",
-			"HeadOfDepartment": false,
-			"Position": "41"
-		}
-	]
+  "Id": "461",
+  "FirstName": "Анатолий",
+  "MiddleName": "Алексеевич",
+  "LastName": "Беспалько",
+  "Time": 0.5,
+  "StartDate": "2016-05-01T00:00:00",
+  "BirthDate": "1988-01-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "41",
+      "Department": "88"
+    }
+  ]
 }

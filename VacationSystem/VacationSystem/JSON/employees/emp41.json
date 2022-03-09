@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "41",
-	"FirstName": "Алина",
-	"MiddleName": "Юрьевна",
-	"LastName": "Повинич",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "18"
-		}
-	]
+  "Id": "41",
+  "FirstName": "Алина",
+  "MiddleName": "Юрьевна",
+  "LastName": "Повинич",
+  "Time": 1,
+  "StartDate": "2012-05-01T00:00:00",
+  "BirthDate": "1980-04-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "18",
+      "Department": "2"
+    }
+  ]
 }

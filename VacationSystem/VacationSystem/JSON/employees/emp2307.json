@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2307",
-	"FirstName": "Анна",
-	"MiddleName": "Алексеевна",
-	"LastName": "Троян",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "36",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "2307",
+  "FirstName": "Анна",
+  "MiddleName": "Алексеевна",
+  "LastName": "Троян",
+  "Time": 1,
+  "StartDate": "2013-05-12T00:00:00",
+  "BirthDate": "1987-07-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "36"
+    }
+  ]
 }

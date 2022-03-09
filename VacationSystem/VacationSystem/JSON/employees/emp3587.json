@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3587",
-	"FirstName": "Александр",
-	"MiddleName": "Васильевич",
-	"LastName": "Суханов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "136",
-			"HeadOfDepartment": false,
-			"Position": "64"
-		}
-	]
+  "Id": "3587",
+  "FirstName": "Александр",
+  "MiddleName": "Васильевич",
+  "LastName": "Суханов",
+  "Time": 1,
+  "StartDate": "2021-08-02T00:00:00",
+  "BirthDate": "1958-08-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "64",
+      "Department": "136"
+    }
+  ]
 }

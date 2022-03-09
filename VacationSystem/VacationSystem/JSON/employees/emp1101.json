@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1101",
-	"FirstName": "Наталья",
-	"MiddleName": "Геннадьевна",
-	"LastName": "Повинич",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "142",
-			"HeadOfDepartment": false,
-			"Position": "10"
-		}
-	]
+  "Id": "1101",
+  "FirstName": "Наталья",
+  "MiddleName": "Геннадьевна",
+  "LastName": "Повинич",
+  "Time": 1,
+  "StartDate": "2004-03-16T00:00:00",
+  "BirthDate": "1974-09-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "10",
+      "Department": "142"
+    }
+  ]
 }

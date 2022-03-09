@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1418",
-	"FirstName": "Дмитрий",
-	"MiddleName": "Александрович",
-	"LastName": "Нейман",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "35",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "1418",
+  "FirstName": "Дмитрий",
+  "MiddleName": "Александрович",
+  "LastName": "Нейман",
+  "Time": 0.5,
+  "StartDate": "2019-04-20T00:00:00",
+  "BirthDate": "1987-01-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "35"
+    }
+  ]
 }

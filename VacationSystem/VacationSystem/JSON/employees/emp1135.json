@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1135",
-	"FirstName": "Наталия",
-	"MiddleName": "Александровна",
-	"LastName": "Маркова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "0",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "1135",
+  "FirstName": "Наталия",
+  "MiddleName": "Александровна",
+  "LastName": "Маркова",
+  "Time": 1,
+  "StartDate": "2010-09-09T00:00:00",
+  "BirthDate": "1957-12-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "0"
+    }
+  ]
 }

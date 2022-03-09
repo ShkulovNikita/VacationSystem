@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "236",
-	"FirstName": "Иван",
-	"MiddleName": "Леонидович",
-	"LastName": "Климентенко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "72",
-			"HeadOfDepartment": false,
-			"Position": "47"
-		}
-	]
+  "Id": "236",
+  "FirstName": "Иван",
+  "MiddleName": "Леонидович",
+  "LastName": "Климентенко",
+  "Time": 1,
+  "StartDate": "2017-10-19T00:00:00",
+  "BirthDate": "1985-06-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "47",
+      "Department": "72"
+    }
+  ]
 }

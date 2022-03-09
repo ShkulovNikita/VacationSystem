@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "668",
-	"FirstName": "Елена",
-	"MiddleName": "Александровна",
-	"LastName": "Бурматова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "34",
-			"HeadOfDepartment": false,
-			"Position": "87"
-		}
-	]
+  "Id": "668",
+  "FirstName": "Елена",
+  "MiddleName": "Александровна",
+  "LastName": "Бурматова",
+  "Time": 1,
+  "StartDate": "2002-04-17T00:00:00",
+  "BirthDate": "1976-10-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "87",
+      "Department": "34"
+    }
+  ]
 }

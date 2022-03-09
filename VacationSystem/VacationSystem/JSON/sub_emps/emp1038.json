@@ -1,0 +1,83 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "1033",
+      "FirstName": "Евгения",
+      "MiddleName": "Сергеевна",
+      "LastName": "Моисеева",
+      "Time": 0.5,
+      "StartDate": "1994-05-17T00:00:00",
+      "BirthDate": "1954-05-13T00:00:00",
+      "Positions": [
+        {
+          "Position": "145",
+          "Department": "191"
+        }
+      ]
+    },
+    {
+      "Id": "1038",
+      "FirstName": "Алина",
+      "MiddleName": "Витальевна",
+      "LastName": "Коробова",
+      "Time": 1,
+      "StartDate": "2015-12-20T00:00:00",
+      "BirthDate": "1965-04-21T00:00:00",
+      "Positions": [
+        {
+          "Position": "45",
+          "Department": "191"
+        }
+      ]
+    },
+    {
+      "Id": "1794",
+      "FirstName": "София",
+      "MiddleName": "Юрьевна",
+      "LastName": "Майлина",
+      "Time": 0.5,
+      "StartDate": "2014-03-15T00:00:00",
+      "BirthDate": "1965-06-10T00:00:00",
+      "Positions": [
+        {
+          "Position": "145",
+          "Department": "191"
+        }
+      ]
+    },
+    {
+      "Id": "2333",
+      "FirstName": "Татьяна",
+      "MiddleName": "Иосифовна",
+      "LastName": "Щукина",
+      "Time": 2,
+      "StartDate": "2013-11-01T00:00:00",
+      "BirthDate": "1985-05-20T00:00:00",
+      "Positions": [
+        {
+          "Position": "196",
+          "Department": "191"
+        },
+        {
+          "Position": "3",
+          "Department": "51"
+        }
+      ]
+    },
+    {
+      "Id": "3454",
+      "FirstName": "Ксения",
+      "MiddleName": "Александровна",
+      "LastName": "Рыжинская",
+      "Time": 0.5,
+      "StartDate": "1986-01-20T00:00:00",
+      "BirthDate": "1957-09-21T00:00:00",
+      "Positions": [
+        {
+          "Position": "196",
+          "Department": "191"
+        }
+      ]
+    }
+  ]
+}

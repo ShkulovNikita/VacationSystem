@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1405",
-	"FirstName": "Людмила",
-	"MiddleName": "Филипповна",
-	"LastName": "Демьянова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "199",
-			"HeadOfDepartment": false,
-			"Position": "154"
-		}
-	]
+  "Id": "1405",
+  "FirstName": "Людмила",
+  "MiddleName": "Филипповна",
+  "LastName": "Демьянова",
+  "Time": 0.5,
+  "StartDate": "2021-07-24T00:00:00",
+  "BirthDate": "1985-04-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "154",
+      "Department": "199"
+    }
+  ]
 }

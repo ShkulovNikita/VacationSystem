@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3742",
-	"FirstName": "Прасковья",
-	"MiddleName": "Павловна",
-	"LastName": "Милова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "149",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		}
-	]
+  "Id": "3742",
+  "FirstName": "Прасковья",
+  "MiddleName": "Павловна",
+  "LastName": "Милова",
+  "Time": 1,
+  "StartDate": "2007-09-14T00:00:00",
+  "BirthDate": "1971-12-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "149"
+    }
+  ]
 }

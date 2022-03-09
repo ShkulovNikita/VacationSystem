@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2018",
-	"FirstName": "Наталья",
-	"MiddleName": "Борисовна",
-	"LastName": "Кирда",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "161",
-			"HeadOfDepartment": false,
-			"Position": "69"
-		}
-	]
+  "Id": "2018",
+  "FirstName": "Наталья",
+  "MiddleName": "Борисовна",
+  "LastName": "Кирда",
+  "Time": 0.5,
+  "StartDate": "2017-08-12T00:00:00",
+  "BirthDate": "1978-12-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "69",
+      "Department": "161"
+    }
+  ]
 }

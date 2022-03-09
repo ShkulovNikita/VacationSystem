@@ -1,0 +1,64 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "70",
+      "FirstName": "Анастасия",
+      "MiddleName": "Анатольевна",
+      "LastName": "Батурина",
+      "Time": 1,
+      "StartDate": "1985-09-09T00:00:00",
+      "BirthDate": "1956-06-21T00:00:00",
+      "Positions": [
+        {
+          "Position": "27",
+          "Department": "44"
+        }
+      ]
+    },
+    {
+      "Id": "365",
+      "FirstName": "Оксана",
+      "MiddleName": "Николаевна",
+      "LastName": "Батурина",
+      "Time": 0.5,
+      "StartDate": "1993-12-17T00:00:00",
+      "BirthDate": "1958-09-11T00:00:00",
+      "Positions": [
+        {
+          "Position": "90",
+          "Department": "44"
+        }
+      ]
+    },
+    {
+      "Id": "2574",
+      "FirstName": "Татьяна",
+      "MiddleName": "Александровна",
+      "LastName": "Игуменова",
+      "Time": 0.5,
+      "StartDate": "2013-04-18T00:00:00",
+      "BirthDate": "1986-02-01T00:00:00",
+      "Positions": [
+        {
+          "Position": "240",
+          "Department": "44"
+        }
+      ]
+    },
+    {
+      "Id": "3594",
+      "FirstName": "Елена",
+      "MiddleName": "Викторовна",
+      "LastName": "Агафонникова",
+      "Time": 0.5,
+      "StartDate": "1994-09-09T00:00:00",
+      "BirthDate": "1958-05-07T00:00:00",
+      "Positions": [
+        {
+          "Position": "10",
+          "Department": "44"
+        }
+      ]
+    }
+  ]
+}

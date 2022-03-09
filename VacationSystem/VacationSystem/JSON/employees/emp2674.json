@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2674",
-	"FirstName": "Галима",
-	"MiddleName": "Ахметшарифовна",
-	"LastName": "Сарычева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "171",
-			"HeadOfDepartment": false,
-			"Position": "222"
-		}
-	]
+  "Id": "2674",
+  "FirstName": "Галима",
+  "MiddleName": "Ахметшарифовна",
+  "LastName": "Сарычева",
+  "Time": 0.5,
+  "StartDate": "1978-01-05T00:00:00",
+  "BirthDate": "1956-11-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "222",
+      "Department": "171"
+    }
+  ]
 }

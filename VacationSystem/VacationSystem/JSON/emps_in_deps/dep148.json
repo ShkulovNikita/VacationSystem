@@ -1,0 +1,49 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "539",
+      "FirstName": "Валентина",
+      "MiddleName": "Николаевна",
+      "LastName": "Золотарева",
+      "Time": 0.5,
+      "StartDate": "2013-01-20T00:00:00",
+      "BirthDate": "1993-08-04T00:00:00",
+      "Positions": [
+        {
+          "Position": "106",
+          "Department": "148"
+        }
+      ]
+    },
+    {
+      "Id": "2213",
+      "FirstName": "Валентина",
+      "MiddleName": "Петровна",
+      "LastName": "Рыжикова",
+      "Time": 1,
+      "StartDate": "2017-09-03T00:00:00",
+      "BirthDate": "1979-09-22T00:00:00",
+      "Positions": [
+        {
+          "Position": "64",
+          "Department": "148"
+        }
+      ]
+    },
+    {
+      "Id": "3199",
+      "FirstName": "Лариса",
+      "MiddleName": "Николаевна",
+      "LastName": "Налейкина",
+      "Time": 1,
+      "StartDate": "2021-05-19T00:00:00",
+      "BirthDate": "1989-05-03T00:00:00",
+      "Positions": [
+        {
+          "Position": "14",
+          "Department": "148"
+        }
+      ]
+    }
+  ]
+}

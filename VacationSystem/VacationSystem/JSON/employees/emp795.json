@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "795",
-	"FirstName": "Валентина",
-	"MiddleName": "Владимировна",
-	"LastName": "Решетникова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "66",
-			"HeadOfDepartment": false,
-			"Position": "16"
-		}
-	]
+  "Id": "795",
+  "FirstName": "Валентина",
+  "MiddleName": "Владимировна",
+  "LastName": "Решетникова",
+  "Time": 0.5,
+  "StartDate": "2016-12-05T00:00:00",
+  "BirthDate": "1982-11-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "16",
+      "Department": "66"
+    }
+  ]
 }

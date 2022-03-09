@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2550",
-	"FirstName": "Дарья",
-	"MiddleName": "Сергеевна",
-	"LastName": "Бай",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "55",
-			"HeadOfDepartment": false,
-			"Position": "10"
-		}
-	]
+  "Id": "2550",
+  "FirstName": "Дарья",
+  "MiddleName": "Сергеевна",
+  "LastName": "Бай",
+  "Time": 1,
+  "StartDate": "2001-06-22T00:00:00",
+  "BirthDate": "1966-10-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "10",
+      "Department": "55"
+    }
+  ]
 }

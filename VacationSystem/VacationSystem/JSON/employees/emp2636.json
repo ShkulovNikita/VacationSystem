@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "2636",
-	"FirstName": "Артем",
-	"MiddleName": "Владимирович",
-	"LastName": "Малин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "102",
-			"HeadOfDepartment": false,
-			"Position": "26"
-		},
-		{
-			"Id": "17",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		}
-	]
+  "Id": "2636",
+  "FirstName": "Артем",
+  "MiddleName": "Владимирович",
+  "LastName": "Малин",
+  "Time": 1.5,
+  "StartDate": "2016-06-20T00:00:00",
+  "BirthDate": "1962-11-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "26",
+      "Department": "102"
+    },
+    {
+      "Position": "28",
+      "Department": "17"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1546",
-	"FirstName": "Оксана",
-	"MiddleName": "Викторовна",
-	"LastName": "Овтина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "126",
-			"HeadOfDepartment": false,
-			"Position": "65"
-		}
-	]
+  "Id": "1546",
+  "FirstName": "Оксана",
+  "MiddleName": "Викторовна",
+  "LastName": "Овтина",
+  "Time": 0.5,
+  "StartDate": "1999-10-01T00:00:00",
+  "BirthDate": "1976-09-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "65",
+      "Department": "126"
+    }
+  ]
 }

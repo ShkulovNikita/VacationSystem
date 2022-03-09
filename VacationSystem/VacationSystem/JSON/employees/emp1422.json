@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1422",
-	"FirstName": "Елена",
-	"MiddleName": "Николаевна",
-	"LastName": "Килина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "203",
-			"HeadOfDepartment": false,
-			"Position": "14"
-		}
-	]
+  "Id": "1422",
+  "FirstName": "Елена",
+  "MiddleName": "Николаевна",
+  "LastName": "Килина",
+  "Time": 0.5,
+  "StartDate": "2000-02-20T00:00:00",
+  "BirthDate": "1970-08-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "14",
+      "Department": "203"
+    }
+  ]
 }

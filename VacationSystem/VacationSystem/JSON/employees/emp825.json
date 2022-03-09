@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "825",
-	"FirstName": "Виталий",
-	"MiddleName": "Анатольевич",
-	"LastName": "Власов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "88",
-			"HeadOfDepartment": false,
-			"Position": "56"
-		}
-	]
+  "Id": "825",
+  "FirstName": "Виталий",
+  "MiddleName": "Анатольевич",
+  "LastName": "Власов",
+  "Time": 0.5,
+  "StartDate": "2013-03-01T00:00:00",
+  "BirthDate": "1977-12-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "56",
+      "Department": "88"
+    }
+  ]
 }

@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "1533",
-	"FirstName": "Алексей",
-	"MiddleName": "Эдуардович",
-	"LastName": "Шевелев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "32",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		},
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "1533",
+  "FirstName": "Алексей",
+  "MiddleName": "Эдуардович",
+  "LastName": "Шевелев",
+  "Time": 1.5,
+  "StartDate": "1983-12-13T00:00:00",
+  "BirthDate": "1958-06-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "32"
+    },
+    {
+      "Position": "6",
+      "Department": "2"
+    }
+  ]
 }

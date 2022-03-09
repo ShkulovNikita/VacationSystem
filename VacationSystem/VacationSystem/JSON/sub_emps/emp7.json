@@ -1,0 +1,19 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "7",
+      "FirstName": "Дмитрий",
+      "MiddleName": "Геннадьевич",
+      "LastName": "Бурмантов",
+      "Time": 0.5,
+      "StartDate": "2016-10-24T00:00:00",
+      "BirthDate": "1979-10-11T00:00:00",
+      "Positions": [
+        {
+          "Position": "5",
+          "Department": "7"
+        }
+      ]
+    }
+  ]
+}

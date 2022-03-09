@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2886",
-	"FirstName": "Юлия",
-	"MiddleName": "Борисовна",
-	"LastName": "Андреева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "91",
-			"HeadOfDepartment": false,
-			"Position": "166"
-		}
-	]
+  "Id": "2886",
+  "FirstName": "Юлия",
+  "MiddleName": "Борисовна",
+  "LastName": "Андреева",
+  "Time": 0.5,
+  "StartDate": "1987-04-03T00:00:00",
+  "BirthDate": "1957-02-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "166",
+      "Department": "91"
+    }
+  ]
 }

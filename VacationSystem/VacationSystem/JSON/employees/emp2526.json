@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2526",
-	"FirstName": "Марина",
-	"MiddleName": "Сергеевна",
-	"LastName": "Каштакова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "103",
-			"HeadOfDepartment": false,
-			"Position": "143"
-		}
-	]
+  "Id": "2526",
+  "FirstName": "Марина",
+  "MiddleName": "Сергеевна",
+  "LastName": "Каштакова",
+  "Time": 0.5,
+  "StartDate": "2020-03-09T00:00:00",
+  "BirthDate": "1979-01-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "143",
+      "Department": "103"
+    }
+  ]
 }

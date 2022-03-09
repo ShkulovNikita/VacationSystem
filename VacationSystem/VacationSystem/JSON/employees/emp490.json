@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "490",
-	"FirstName": "Камилжан",
-	"MiddleName": "Бегматович",
-	"LastName": "Шерматов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "57",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		},
-		{
-			"Id": "57",
-			"HeadOfDepartment": false,
-			"Position": "2"
-		}
-	]
+  "Id": "490",
+  "FirstName": "Камилжан",
+  "MiddleName": "Бегматович",
+  "LastName": "Шерматов",
+  "Time": 2,
+  "StartDate": "1987-11-22T00:00:00",
+  "BirthDate": "1962-07-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "57"
+    },
+    {
+      "Position": "2",
+      "Department": "57"
+    }
+  ]
 }

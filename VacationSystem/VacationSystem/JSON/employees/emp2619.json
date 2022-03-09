@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2619",
-	"FirstName": "Александр",
-	"MiddleName": "Анатольевич",
-	"LastName": "Леушкин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "214",
-			"HeadOfDepartment": false,
-			"Position": "197"
-		}
-	]
+  "Id": "2619",
+  "FirstName": "Александр",
+  "MiddleName": "Анатольевич",
+  "LastName": "Леушкин",
+  "Time": 0.5,
+  "StartDate": "2021-01-20T00:00:00",
+  "BirthDate": "1991-08-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "197",
+      "Department": "214"
+    }
+  ]
 }

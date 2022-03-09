@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2749",
-	"FirstName": "Иван",
-	"MiddleName": "Викторович",
-	"LastName": "Миргородский",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "196",
-			"HeadOfDepartment": false,
-			"Position": "64"
-		}
-	]
+  "Id": "2749",
+  "FirstName": "Иван",
+  "MiddleName": "Викторович",
+  "LastName": "Миргородский",
+  "Time": 1,
+  "StartDate": "2012-07-19T00:00:00",
+  "BirthDate": "1981-01-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "64",
+      "Department": "196"
+    }
+  ]
 }

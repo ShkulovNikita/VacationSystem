@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3044",
-	"FirstName": "Дарья",
-	"MiddleName": "Евгеньевна",
-	"LastName": "Воткина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "51",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		}
-	]
+  "Id": "3044",
+  "FirstName": "Дарья",
+  "MiddleName": "Евгеньевна",
+  "LastName": "Воткина",
+  "Time": 0.5,
+  "StartDate": "2016-09-11T00:00:00",
+  "BirthDate": "1970-02-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "51"
+    }
+  ]
 }

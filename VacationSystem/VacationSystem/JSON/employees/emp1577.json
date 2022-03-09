@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1577",
-	"FirstName": "Светлана",
-	"MiddleName": "Викторовна",
-	"LastName": "Шкабарова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "111",
-			"HeadOfDepartment": false,
-			"Position": "193"
-		}
-	]
+  "Id": "1577",
+  "FirstName": "Светлана",
+  "MiddleName": "Викторовна",
+  "LastName": "Шкабарова",
+  "Time": 1,
+  "StartDate": "2015-12-01T00:00:00",
+  "BirthDate": "1989-05-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "193",
+      "Department": "111"
+    }
+  ]
 }

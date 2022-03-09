@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "2565",
-	"FirstName": "Галина",
-	"MiddleName": "Сергеевна",
-	"LastName": "Федосеева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "246",
-			"HeadOfDepartment": false,
-			"Position": "53"
-		},
-		{
-			"Id": "17",
-			"HeadOfDepartment": false,
-			"Position": "53"
-		}
-	]
+  "Id": "2565",
+  "FirstName": "Галина",
+  "MiddleName": "Сергеевна",
+  "LastName": "Федосеева",
+  "Time": 1,
+  "StartDate": "1991-11-05T00:00:00",
+  "BirthDate": "1956-06-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "53",
+      "Department": "246"
+    },
+    {
+      "Position": "53",
+      "Department": "17"
+    }
+  ]
 }

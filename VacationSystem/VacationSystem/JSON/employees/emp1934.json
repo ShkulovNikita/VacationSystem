@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1934",
-	"FirstName": "Алексей",
-	"MiddleName": "Иванович",
-	"LastName": "Малинкин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "105",
-			"HeadOfDepartment": false,
-			"Position": "37"
-		}
-	]
+  "Id": "1934",
+  "FirstName": "Алексей",
+  "MiddleName": "Иванович",
+  "LastName": "Малинкин",
+  "Time": 1,
+  "StartDate": "1995-05-07T00:00:00",
+  "BirthDate": "1957-02-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "37",
+      "Department": "105"
+    }
+  ]
 }

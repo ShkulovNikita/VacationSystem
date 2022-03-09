@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3699",
-	"FirstName": "Марина",
-	"MiddleName": "Владимировна",
-	"LastName": "Субботина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "96",
-			"HeadOfDepartment": false,
-			"Position": "86"
-		}
-	]
+  "Id": "3699",
+  "FirstName": "Марина",
+  "MiddleName": "Владимировна",
+  "LastName": "Субботина",
+  "Time": 0.5,
+  "StartDate": "2021-11-13T00:00:00",
+  "BirthDate": "1970-09-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "86",
+      "Department": "96"
+    }
+  ]
 }

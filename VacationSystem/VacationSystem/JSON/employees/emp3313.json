@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3313",
-	"FirstName": "Евгения",
-	"MiddleName": "Николаевна",
-	"LastName": "Танькова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "28",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "3313",
+  "FirstName": "Евгения",
+  "MiddleName": "Николаевна",
+  "LastName": "Танькова",
+  "Time": 1,
+  "StartDate": "2014-09-03T00:00:00",
+  "BirthDate": "1990-11-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "28"
+    }
+  ]
 }

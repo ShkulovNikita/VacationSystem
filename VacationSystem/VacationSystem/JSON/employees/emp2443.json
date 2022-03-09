@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2443",
-	"FirstName": "Людмила",
-	"MiddleName": "Павловна",
-	"LastName": "Чалина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "25"
-		}
-	]
+  "Id": "2443",
+  "FirstName": "Людмила",
+  "MiddleName": "Павловна",
+  "LastName": "Чалина",
+  "Time": 0.5,
+  "StartDate": "1987-07-05T00:00:00",
+  "BirthDate": "1966-10-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "25",
+      "Department": "2"
+    }
+  ]
 }

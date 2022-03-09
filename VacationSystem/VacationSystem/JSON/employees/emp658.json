@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "658",
-	"FirstName": "Надежда",
-	"MiddleName": "Ивановна",
-	"LastName": "Панкова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "143",
-			"HeadOfDepartment": false,
-			"Position": "15"
-		}
-	]
+  "Id": "658",
+  "FirstName": "Надежда",
+  "MiddleName": "Ивановна",
+  "LastName": "Панкова",
+  "Time": 1,
+  "StartDate": "1991-05-24T00:00:00",
+  "BirthDate": "1956-04-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "15",
+      "Department": "143"
+    }
+  ]
 }

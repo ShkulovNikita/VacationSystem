@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "462",
-	"FirstName": "Ольга",
-	"MiddleName": "Анатольевна",
-	"LastName": "Сысоева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "9",
-			"HeadOfDepartment": false,
-			"Position": "18"
-		}
-	]
+  "Id": "462",
+  "FirstName": "Ольга",
+  "MiddleName": "Анатольевна",
+  "LastName": "Сысоева",
+  "Time": 0.5,
+  "StartDate": "2008-03-09T00:00:00",
+  "BirthDate": "1968-11-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "18",
+      "Department": "9"
+    }
+  ]
 }

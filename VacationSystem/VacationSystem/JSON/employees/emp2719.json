@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2719",
-	"FirstName": "Александр",
-	"MiddleName": "Юрьевич",
-	"LastName": "Федоткин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "56",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "2719",
+  "FirstName": "Александр",
+  "MiddleName": "Юрьевич",
+  "LastName": "Федоткин",
+  "Time": 1,
+  "StartDate": "1996-02-02T00:00:00",
+  "BirthDate": "1965-07-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "56"
+    }
+  ]
 }

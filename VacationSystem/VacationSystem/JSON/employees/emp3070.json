@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "3070",
-	"FirstName": "Максим",
-	"MiddleName": "Михайлович",
-	"LastName": "Балачков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "17",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		},
-		{
-			"Id": "17",
-			"HeadOfDepartment": false,
-			"Position": "25"
-		}
-	]
+  "Id": "3070",
+  "FirstName": "Максим",
+  "MiddleName": "Михайлович",
+  "LastName": "Балачков",
+  "Time": 1,
+  "StartDate": "2004-05-07T00:00:00",
+  "BirthDate": "1979-08-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "17"
+    },
+    {
+      "Position": "25",
+      "Department": "17"
+    }
+  ]
 }

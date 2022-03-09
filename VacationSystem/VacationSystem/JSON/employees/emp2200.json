@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2200",
-	"FirstName": "Наталья",
-	"MiddleName": "Сергеевна",
-	"LastName": "Кемерова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "0",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "2200",
+  "FirstName": "Наталья",
+  "MiddleName": "Сергеевна",
+  "LastName": "Кемерова",
+  "Time": 1,
+  "StartDate": "1982-11-24T00:00:00",
+  "BirthDate": "1961-09-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "0"
+    }
+  ]
 }

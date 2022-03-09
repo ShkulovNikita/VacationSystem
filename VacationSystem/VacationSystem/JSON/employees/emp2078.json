@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2078",
-	"FirstName": "Лилия",
-	"MiddleName": "Равильевна",
-	"LastName": "Тухватулина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "14",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "2078",
+  "FirstName": "Лилия",
+  "MiddleName": "Равильевна",
+  "LastName": "Тухватулина",
+  "Time": 1,
+  "StartDate": "2002-02-11T00:00:00",
+  "BirthDate": "1978-11-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "14"
+    }
+  ]
 }

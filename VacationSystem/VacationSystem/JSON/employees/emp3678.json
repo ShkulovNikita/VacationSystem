@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3678",
-	"FirstName": "Олег",
-	"MiddleName": "Владиленович",
-	"LastName": "Минин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "8",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "3678",
+  "FirstName": "Олег",
+  "MiddleName": "Владиленович",
+  "LastName": "Минин",
+  "Time": 0.5,
+  "StartDate": "2011-05-09T00:00:00",
+  "BirthDate": "1976-11-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "8"
+    }
+  ]
 }

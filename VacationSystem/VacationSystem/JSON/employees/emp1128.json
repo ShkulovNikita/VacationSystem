@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1128",
-	"FirstName": "Наталья",
-	"MiddleName": "Вячеславовна",
-	"LastName": "Чухарева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "46",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1128",
+  "FirstName": "Наталья",
+  "MiddleName": "Вячеславовна",
+  "LastName": "Чухарева",
+  "Time": 1,
+  "StartDate": "2007-02-17T00:00:00",
+  "BirthDate": "1978-03-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "46"
+    }
+  ]
 }

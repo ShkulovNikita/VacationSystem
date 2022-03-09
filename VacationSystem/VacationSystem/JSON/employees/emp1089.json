@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1089",
-	"FirstName": "Валентина",
-	"MiddleName": "Егоровна",
-	"LastName": "Петрова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "83",
-			"HeadOfDepartment": false,
-			"Position": "75"
-		}
-	]
+  "Id": "1089",
+  "FirstName": "Валентина",
+  "MiddleName": "Егоровна",
+  "LastName": "Петрова",
+  "Time": 1,
+  "StartDate": "2005-11-13T00:00:00",
+  "BirthDate": "1985-07-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "75",
+      "Department": "83"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3592",
-	"FirstName": "Константин",
-	"MiddleName": "Дмитриевич",
-	"LastName": "Ухтин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "214",
-			"HeadOfDepartment": false,
-			"Position": "197"
-		}
-	]
+  "Id": "3592",
+  "FirstName": "Константин",
+  "MiddleName": "Дмитриевич",
+  "LastName": "Ухтин",
+  "Time": 0.5,
+  "StartDate": "1989-06-23T00:00:00",
+  "BirthDate": "1959-02-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "197",
+      "Department": "214"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1260",
-	"FirstName": "Мария",
-	"MiddleName": "Сергеевна",
-	"LastName": "Моисеенко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "204",
-			"HeadOfDepartment": false,
-			"Position": "153"
-		}
-	]
+  "Id": "1260",
+  "FirstName": "Мария",
+  "MiddleName": "Сергеевна",
+  "LastName": "Моисеенко",
+  "Time": 1,
+  "StartDate": "2013-02-20T00:00:00",
+  "BirthDate": "1992-04-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "153",
+      "Department": "204"
+    }
+  ]
 }

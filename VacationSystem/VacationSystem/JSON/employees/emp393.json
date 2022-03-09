@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "393",
-	"FirstName": "Валерий",
-	"MiddleName": "Николаевич",
-	"LastName": "Гофман",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "37",
-			"HeadOfDepartment": false,
-			"Position": "95"
-		}
-	]
+  "Id": "393",
+  "FirstName": "Валерий",
+  "MiddleName": "Николаевич",
+  "LastName": "Гофман",
+  "Time": 0.5,
+  "StartDate": "1992-09-06T00:00:00",
+  "BirthDate": "1972-09-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "95",
+      "Department": "37"
+    }
+  ]
 }

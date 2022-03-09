@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2135",
-	"FirstName": "Елена",
-	"MiddleName": "Александровна",
-	"LastName": "Сыса",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "19",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		}
-	]
+  "Id": "2135",
+  "FirstName": "Елена",
+  "MiddleName": "Александровна",
+  "LastName": "Сыса",
+  "Time": 1,
+  "StartDate": "1993-04-13T00:00:00",
+  "BirthDate": "1973-04-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "19"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1474",
-	"FirstName": "Светлана",
-	"MiddleName": "Николаевна",
-	"LastName": "Клименко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "97",
-			"HeadOfDepartment": false,
-			"Position": "65"
-		}
-	]
+  "Id": "1474",
+  "FirstName": "Светлана",
+  "MiddleName": "Николаевна",
+  "LastName": "Клименко",
+  "Time": 0.5,
+  "StartDate": "2004-03-04T00:00:00",
+  "BirthDate": "1970-06-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "65",
+      "Department": "97"
+    }
+  ]
 }

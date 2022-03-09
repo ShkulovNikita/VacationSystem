@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1308",
-	"FirstName": "Сергей",
-	"MiddleName": "Никитович",
-	"LastName": "Похлестов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "75",
-			"HeadOfDepartment": false,
-			"Position": "49"
-		}
-	]
+  "Id": "1308",
+  "FirstName": "Сергей",
+  "MiddleName": "Никитович",
+  "LastName": "Похлестов",
+  "Time": 1,
+  "StartDate": "1998-04-18T00:00:00",
+  "BirthDate": "1954-02-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "49",
+      "Department": "75"
+    }
+  ]
 }

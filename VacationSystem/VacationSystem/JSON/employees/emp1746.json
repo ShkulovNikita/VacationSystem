@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1746",
-	"FirstName": "Евгений",
-	"MiddleName": "Александрович",
-	"LastName": "Монастырный",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "130",
-			"HeadOfDepartment": false,
-			"Position": "41"
-		}
-	]
+  "Id": "1746",
+  "FirstName": "Евгений",
+  "MiddleName": "Александрович",
+  "LastName": "Монастырный",
+  "Time": 0.5,
+  "StartDate": "1996-07-18T00:00:00",
+  "BirthDate": "1976-04-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "41",
+      "Department": "130"
+    }
+  ]
 }

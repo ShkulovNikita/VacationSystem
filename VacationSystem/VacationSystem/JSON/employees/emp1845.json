@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1845",
-	"FirstName": "Андрей",
-	"MiddleName": "Владимирович",
-	"LastName": "Ачин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "89",
-			"HeadOfDepartment": false,
-			"Position": "11"
-		}
-	]
+  "Id": "1845",
+  "FirstName": "Андрей",
+  "MiddleName": "Владимирович",
+  "LastName": "Ачин",
+  "Time": 1,
+  "StartDate": "2010-07-18T00:00:00",
+  "BirthDate": "1988-07-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "11",
+      "Department": "89"
+    }
+  ]
 }

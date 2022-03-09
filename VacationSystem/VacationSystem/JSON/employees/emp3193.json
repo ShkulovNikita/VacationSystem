@@ -1,19 +1,15 @@
 ﻿{
-	"Id": "3193",
-	"FirstName": "Александра",
-	"MiddleName": "",
-	"LastName": "Беляновская",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "1",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		},
-		{
-			"Id": "1",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		}
-	]
+  "Id": "3193",
+  "FirstName": "Александра",
+  "MiddleName": "",
+  "LastName": "Беляновская",
+  "Time": 0.5,
+  "StartDate": "2012-10-20T00:00:00",
+  "BirthDate": "1992-07-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "1"
+    }
+  ]
 }

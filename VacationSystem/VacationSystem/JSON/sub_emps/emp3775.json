@@ -1,0 +1,64 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "1756",
+      "FirstName": "Галина",
+      "MiddleName": "Владимировна",
+      "LastName": "Пустозерова",
+      "Time": 1,
+      "StartDate": "1994-05-16T00:00:00",
+      "BirthDate": "1963-10-24T00:00:00",
+      "Positions": [
+        {
+          "Position": "20",
+          "Department": "226"
+        }
+      ]
+    },
+    {
+      "Id": "1778",
+      "FirstName": "Павел",
+      "MiddleName": "Алексеевич",
+      "LastName": "Украинец",
+      "Time": 0.5,
+      "StartDate": "2004-06-07T00:00:00",
+      "BirthDate": "1962-08-13T00:00:00",
+      "Positions": [
+        {
+          "Position": "212",
+          "Department": "226"
+        }
+      ]
+    },
+    {
+      "Id": "2965",
+      "FirstName": "Валерий",
+      "MiddleName": "Виленович",
+      "LastName": "Кайзер",
+      "Time": 0.5,
+      "StartDate": "2020-11-06T00:00:00",
+      "BirthDate": "1976-04-14T00:00:00",
+      "Positions": [
+        {
+          "Position": "64",
+          "Department": "226"
+        }
+      ]
+    },
+    {
+      "Id": "3775",
+      "FirstName": "Сергей",
+      "MiddleName": "Николаевич",
+      "LastName": "Чепкасов",
+      "Time": 1,
+      "StartDate": "1993-08-23T00:00:00",
+      "BirthDate": "1955-05-07T00:00:00",
+      "Positions": [
+        {
+          "Position": "64",
+          "Department": "226"
+        }
+      ]
+    }
+  ]
+}

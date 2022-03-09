@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "685",
-	"FirstName": "Вячеслав",
-	"MiddleName": "Алексеевич",
-	"LastName": "Стародубцев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "71",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "685",
+  "FirstName": "Вячеслав",
+  "MiddleName": "Алексеевич",
+  "LastName": "Стародубцев",
+  "Time": 0.5,
+  "StartDate": "2015-06-16T00:00:00",
+  "BirthDate": "1989-12-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "71"
+    }
+  ]
 }

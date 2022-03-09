@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1822",
-	"FirstName": "Юлий",
-	"MiddleName": "Дмитриевич",
-	"LastName": "Бай",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "19",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		}
-	]
+  "Id": "1822",
+  "FirstName": "Юлий",
+  "MiddleName": "Дмитриевич",
+  "LastName": "Бай",
+  "Time": 1,
+  "StartDate": "2007-12-18T00:00:00",
+  "BirthDate": "1986-11-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "19"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1514",
-	"FirstName": "Николай",
-	"MiddleName": "Владимирович",
-	"LastName": "Аникин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "215",
-			"HeadOfDepartment": false,
-			"Position": "25"
-		}
-	]
+  "Id": "1514",
+  "FirstName": "Николай",
+  "MiddleName": "Владимирович",
+  "LastName": "Аникин",
+  "Time": 1,
+  "StartDate": "2010-11-21T00:00:00",
+  "BirthDate": "1986-11-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "25",
+      "Department": "215"
+    }
+  ]
 }

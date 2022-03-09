@@ -3,11 +3,13 @@ using Microsoft.AspNetCore.Mvc;
 using VacationSystem.Models;
 using Microsoft.AspNetCore.Http;
 using VacationSystem.Classes.Database;
+using VacationSystem.Classes;
 
 namespace VacationSystem.Controllers
 {
     public class LoginController : Controller
     {
+        [HttpGet]
         public IActionResult Index()
         {
             return View();
@@ -17,7 +19,7 @@ namespace VacationSystem.Controllers
         public IActionResult Index(string login)
         {
             // получить пользователя по его логину
-            Object user = DataHandler.GetUserByLogin(login);
+            Object user = LoginHandler.GetUser(login);
 
             // нет пользователя с таким логином
             if (user == null)
@@ -51,7 +53,7 @@ namespace VacationSystem.Controllers
                 else if (user.GetType() == typeof(Employee))
                 {
                     // получение авторизованного сотрудника
-                    Employee employee = DataHandler.GetEmployeeById(login);
+                    Employee employee = Connector.GetEmployee(login);
 
                     if (employee == null)
                     {

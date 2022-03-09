@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2506",
-	"FirstName": "Анна",
-	"MiddleName": "Александровна",
-	"LastName": "Шаронова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "188",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		}
-	]
+  "Id": "2506",
+  "FirstName": "Анна",
+  "MiddleName": "Александровна",
+  "LastName": "Шаронова",
+  "Time": 1,
+  "StartDate": "1982-01-11T00:00:00",
+  "BirthDate": "1960-02-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "188"
+    }
+  ]
 }

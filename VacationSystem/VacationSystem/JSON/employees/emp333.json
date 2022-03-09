@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "333",
-	"FirstName": "Станислав",
-	"MiddleName": "Валериевич",
-	"LastName": "Касьянов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "122",
-			"HeadOfDepartment": false,
-			"Position": "56"
-		}
-	]
+  "Id": "333",
+  "FirstName": "Станислав",
+  "MiddleName": "Валериевич",
+  "LastName": "Касьянов",
+  "Time": 0.5,
+  "StartDate": "2012-06-19T00:00:00",
+  "BirthDate": "1990-02-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "56",
+      "Department": "122"
+    }
+  ]
 }

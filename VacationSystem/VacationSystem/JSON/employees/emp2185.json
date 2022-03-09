@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "2185",
-	"FirstName": "Екатерина",
-	"MiddleName": "Валериевна",
-	"LastName": "Сулема",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "103",
-			"HeadOfDepartment": false,
-			"Position": "227"
-		},
-		{
-			"Id": "47",
-			"HeadOfDepartment": false,
-			"Position": "30"
-		}
-	]
+  "Id": "2185",
+  "FirstName": "Екатерина",
+  "MiddleName": "Валериевна",
+  "LastName": "Сулема",
+  "Time": 1.5,
+  "StartDate": "1978-10-12T00:00:00",
+  "BirthDate": "1954-06-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "227",
+      "Department": "103"
+    },
+    {
+      "Position": "30",
+      "Department": "47"
+    }
+  ]
 }

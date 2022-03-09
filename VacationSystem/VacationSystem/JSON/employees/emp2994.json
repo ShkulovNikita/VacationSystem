@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2994",
-	"FirstName": "Лариса",
-	"MiddleName": "Геннадиевна",
-	"LastName": "Климова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "103",
-			"HeadOfDepartment": false,
-			"Position": "150"
-		}
-	]
+  "Id": "2994",
+  "FirstName": "Лариса",
+  "MiddleName": "Геннадиевна",
+  "LastName": "Климова",
+  "Time": 1,
+  "StartDate": "2021-03-24T00:00:00",
+  "BirthDate": "1985-06-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "150",
+      "Department": "103"
+    }
+  ]
 }

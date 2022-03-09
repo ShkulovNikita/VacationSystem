@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "89",
-	"FirstName": "Ксения",
-	"MiddleName": "Викторовна",
-	"LastName": "Мертинс",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "9",
-			"HeadOfDepartment": false,
-			"Position": "34"
-		}
-	]
+  "Id": "89",
+  "FirstName": "Ксения",
+  "MiddleName": "Викторовна",
+  "LastName": "Мертинс",
+  "Time": 0.5,
+  "StartDate": "2020-06-07T00:00:00",
+  "BirthDate": "1953-11-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "34",
+      "Department": "9"
+    }
+  ]
 }

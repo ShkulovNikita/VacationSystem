@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "621",
-	"FirstName": "Татьяна",
-	"MiddleName": "Степановна",
-	"LastName": "Мыльникова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "99",
-			"HeadOfDepartment": false,
-			"Position": "118"
-		}
-	]
+  "Id": "621",
+  "FirstName": "Татьяна",
+  "MiddleName": "Степановна",
+  "LastName": "Мыльникова",
+  "Time": 0.5,
+  "StartDate": "2019-07-14T00:00:00",
+  "BirthDate": "1992-10-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "118",
+      "Department": "99"
+    }
+  ]
 }

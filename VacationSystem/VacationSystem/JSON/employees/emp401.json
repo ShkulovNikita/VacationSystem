@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "401",
-	"FirstName": "Иван",
-	"MiddleName": "Игнатьевич",
-	"LastName": "Жерин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "17",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "401",
+  "FirstName": "Иван",
+  "MiddleName": "Игнатьевич",
+  "LastName": "Жерин",
+  "Time": 0.5,
+  "StartDate": "2008-12-12T00:00:00",
+  "BirthDate": "1979-12-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "17"
+    }
+  ]
 }

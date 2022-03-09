@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3093",
-	"FirstName": "Алексей",
-	"MiddleName": "Андреевич",
-	"LastName": "Фирсанков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "70",
-			"HeadOfDepartment": false,
-			"Position": "157"
-		}
-	]
+  "Id": "3093",
+  "FirstName": "Алексей",
+  "MiddleName": "Андреевич",
+  "LastName": "Фирсанков",
+  "Time": 1,
+  "StartDate": "2008-09-20T00:00:00",
+  "BirthDate": "1953-03-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "157",
+      "Department": "70"
+    }
+  ]
 }

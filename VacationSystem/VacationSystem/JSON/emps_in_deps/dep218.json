@@ -1,0 +1,64 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "1535",
+      "FirstName": "Светлана",
+      "MiddleName": "Геннадьевна",
+      "LastName": "Медведева",
+      "Time": 0.5,
+      "StartDate": "1997-06-13T00:00:00",
+      "BirthDate": "1975-04-13T00:00:00",
+      "Positions": [
+        {
+          "Position": "11",
+          "Department": "218"
+        }
+      ]
+    },
+    {
+      "Id": "2928",
+      "FirstName": "Зинаида",
+      "MiddleName": "Васильевна",
+      "LastName": "Евсютина",
+      "Time": 1,
+      "StartDate": "2012-06-22T00:00:00",
+      "BirthDate": "1982-10-08T00:00:00",
+      "Positions": [
+        {
+          "Position": "11",
+          "Department": "218"
+        }
+      ]
+    },
+    {
+      "Id": "3360",
+      "FirstName": "Татьяна",
+      "MiddleName": "Владимировна",
+      "LastName": "Исаева",
+      "Time": 1,
+      "StartDate": "2009-06-05T00:00:00",
+      "BirthDate": "1984-02-14T00:00:00",
+      "Positions": [
+        {
+          "Position": "10",
+          "Department": "218"
+        }
+      ]
+    },
+    {
+      "Id": "3669",
+      "FirstName": "Ольга",
+      "MiddleName": "Александровна",
+      "LastName": "Кораблева",
+      "Time": 0.5,
+      "StartDate": "1981-10-19T00:00:00",
+      "BirthDate": "1956-11-23T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "218"
+        }
+      ]
+    }
+  ]
+}

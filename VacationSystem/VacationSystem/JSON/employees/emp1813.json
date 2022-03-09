@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1813",
-	"FirstName": "Евгений",
-	"MiddleName": "Васильевич",
-	"LastName": "Куренков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "59",
-			"HeadOfDepartment": false,
-			"Position": "37"
-		}
-	]
+  "Id": "1813",
+  "FirstName": "Евгений",
+  "MiddleName": "Васильевич",
+  "LastName": "Куренков",
+  "Time": 0.5,
+  "StartDate": "2019-10-23T00:00:00",
+  "BirthDate": "1962-01-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "37",
+      "Department": "59"
+    }
+  ]
 }

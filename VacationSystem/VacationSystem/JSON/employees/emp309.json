@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "309",
-	"FirstName": "Василий",
-	"MiddleName": "Викторович",
-	"LastName": "Федоров",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "117",
-			"HeadOfDepartment": false,
-			"Position": "2"
-		}
-	]
+  "Id": "309",
+  "FirstName": "Василий",
+  "MiddleName": "Викторович",
+  "LastName": "Федоров",
+  "Time": 1,
+  "StartDate": "1993-03-18T00:00:00",
+  "BirthDate": "1954-07-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "2",
+      "Department": "117"
+    }
+  ]
 }

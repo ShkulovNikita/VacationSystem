@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1420",
-	"FirstName": "Валентина",
-	"MiddleName": "Викторовна",
-	"LastName": "Машина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "139",
-			"HeadOfDepartment": false,
-			"Position": "9"
-		}
-	]
+  "Id": "1420",
+  "FirstName": "Валентина",
+  "MiddleName": "Викторовна",
+  "LastName": "Машина",
+  "Time": 0.5,
+  "StartDate": "2001-03-17T00:00:00",
+  "BirthDate": "1963-05-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "9",
+      "Department": "139"
+    }
+  ]
 }

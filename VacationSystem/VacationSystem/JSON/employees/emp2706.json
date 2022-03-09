@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2706",
-	"FirstName": "Надежда",
-	"MiddleName": "Викторовна",
-	"LastName": "Аникина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "18"
-		}
-	]
+  "Id": "2706",
+  "FirstName": "Надежда",
+  "MiddleName": "Викторовна",
+  "LastName": "Аникина",
+  "Time": 1,
+  "StartDate": "2008-05-23T00:00:00",
+  "BirthDate": "1984-09-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "18",
+      "Department": "2"
+    }
+  ]
 }

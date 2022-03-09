@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "115",
-	"FirstName": "Артем",
-	"MiddleName": "Георгиевич",
-	"LastName": "Наймушин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "17",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		},
-		{
-			"Id": "67",
-			"HeadOfDepartment": false,
-			"Position": "44"
-		}
-	]
+  "Id": "115",
+  "FirstName": "Артем",
+  "MiddleName": "Георгиевич",
+  "LastName": "Наймушин",
+  "Time": 1,
+  "StartDate": "2009-05-12T00:00:00",
+  "BirthDate": "1985-04-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "17"
+    },
+    {
+      "Position": "44",
+      "Department": "67"
+    }
+  ]
 }

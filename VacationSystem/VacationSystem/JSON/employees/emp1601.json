@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1601",
-	"FirstName": "Наталья",
-	"MiddleName": "Леонидовна",
-	"LastName": "Баранова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "1601",
+  "FirstName": "Наталья",
+  "MiddleName": "Леонидовна",
+  "LastName": "Баранова",
+  "Time": 0.5,
+  "StartDate": "2013-07-24T00:00:00",
+  "BirthDate": "1964-07-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "2"
+    }
+  ]
 }

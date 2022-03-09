@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1908",
-	"FirstName": "Тамара",
-	"MiddleName": "Викторовна",
-	"LastName": "Комарова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "49",
-			"HeadOfDepartment": false,
-			"Position": "25"
-		}
-	]
+  "Id": "1908",
+  "FirstName": "Тамара",
+  "MiddleName": "Викторовна",
+  "LastName": "Комарова",
+  "Time": 0.5,
+  "StartDate": "2008-05-11T00:00:00",
+  "BirthDate": "1975-02-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "25",
+      "Department": "49"
+    }
+  ]
 }

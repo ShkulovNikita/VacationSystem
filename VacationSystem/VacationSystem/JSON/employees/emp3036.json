@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3036",
-	"FirstName": "Екатерина",
-	"MiddleName": "Евгеньевна",
-	"LastName": "Васильева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "163",
-			"HeadOfDepartment": false,
-			"Position": "57"
-		}
-	]
+  "Id": "3036",
+  "FirstName": "Екатерина",
+  "MiddleName": "Евгеньевна",
+  "LastName": "Васильева",
+  "Time": 0.5,
+  "StartDate": "2008-08-19T00:00:00",
+  "BirthDate": "1968-08-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "57",
+      "Department": "163"
+    }
+  ]
 }

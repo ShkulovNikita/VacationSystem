@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3361",
-	"FirstName": "Надежда",
-	"MiddleName": "Германовна",
-	"LastName": "Колобова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "71",
-			"HeadOfDepartment": false,
-			"Position": "0"
-		}
-	]
+  "Id": "3361",
+  "FirstName": "Надежда",
+  "MiddleName": "Германовна",
+  "LastName": "Колобова",
+  "Time": 0.5,
+  "StartDate": "1999-01-11T00:00:00",
+  "BirthDate": "1975-09-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "0",
+      "Department": "71"
+    }
+  ]
 }

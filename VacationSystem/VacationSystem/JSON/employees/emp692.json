@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "692",
-	"FirstName": "Дмитрий",
-	"MiddleName": "Петрович",
-	"LastName": "Крауиньш",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "692",
+  "FirstName": "Дмитрий",
+  "MiddleName": "Петрович",
+  "LastName": "Крауиньш",
+  "Time": 0.5,
+  "StartDate": "1992-01-20T00:00:00",
+  "BirthDate": "1953-08-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "15"
+    }
+  ]
 }

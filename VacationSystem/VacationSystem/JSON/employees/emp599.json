@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "599",
-	"FirstName": "Олег",
-	"MiddleName": "Николаевич",
-	"LastName": "Вылегжанин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "52",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "599",
+  "FirstName": "Олег",
+  "MiddleName": "Николаевич",
+  "LastName": "Вылегжанин",
+  "Time": 1,
+  "StartDate": "2003-09-07T00:00:00",
+  "BirthDate": "1982-02-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "52"
+    }
+  ]
 }

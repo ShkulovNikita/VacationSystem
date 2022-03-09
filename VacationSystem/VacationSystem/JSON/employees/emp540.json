@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "540",
-	"FirstName": "Светлана",
-	"MiddleName": "Сергеевна",
-	"LastName": "Золотарёва",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "33",
-			"HeadOfDepartment": false,
-			"Position": "21"
-		}
-	]
+  "Id": "540",
+  "FirstName": "Светлана",
+  "MiddleName": "Сергеевна",
+  "LastName": "Золотарёва",
+  "Time": 0.5,
+  "StartDate": "1994-10-15T00:00:00",
+  "BirthDate": "1955-09-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "21",
+      "Department": "33"
+    }
+  ]
 }

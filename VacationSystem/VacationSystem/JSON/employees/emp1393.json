@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1393",
-	"FirstName": "Юлия",
-	"MiddleName": "Сергеевна",
-	"LastName": "Ризен",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "6",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "1393",
+  "FirstName": "Юлия",
+  "MiddleName": "Сергеевна",
+  "LastName": "Ризен",
+  "Time": 0.5,
+  "StartDate": "2021-02-18T00:00:00",
+  "BirthDate": "1973-03-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "6"
+    }
+  ]
 }

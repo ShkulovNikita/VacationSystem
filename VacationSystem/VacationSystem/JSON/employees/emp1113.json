@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1113",
-	"FirstName": "Николай",
-	"MiddleName": "Викторович",
-	"LastName": "Уваров",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "169",
-			"HeadOfDepartment": false,
-			"Position": "35"
-		}
-	]
+  "Id": "1113",
+  "FirstName": "Николай",
+  "MiddleName": "Викторович",
+  "LastName": "Уваров",
+  "Time": 0.5,
+  "StartDate": "2013-03-04T00:00:00",
+  "BirthDate": "1978-06-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "35",
+      "Department": "169"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3519",
-	"FirstName": "Сергей",
-	"MiddleName": "Викторович",
-	"LastName": "Кузьмин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "16",
-			"HeadOfDepartment": false,
-			"Position": "282"
-		}
-	]
+  "Id": "3519",
+  "FirstName": "Сергей",
+  "MiddleName": "Викторович",
+  "LastName": "Кузьмин",
+  "Time": 0.5,
+  "StartDate": "2021-11-22T00:00:00",
+  "BirthDate": "1966-08-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "282",
+      "Department": "16"
+    }
+  ]
 }

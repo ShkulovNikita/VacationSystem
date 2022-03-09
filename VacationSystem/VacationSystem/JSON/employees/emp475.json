@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "475",
-	"FirstName": "Гений",
-	"MiddleName": "Владимирович",
-	"LastName": "Кузнецов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "39",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "475",
+  "FirstName": "Гений",
+  "MiddleName": "Владимирович",
+  "LastName": "Кузнецов",
+  "Time": 1,
+  "StartDate": "1997-06-02T00:00:00",
+  "BirthDate": "1963-04-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "39"
+    }
+  ]
 }

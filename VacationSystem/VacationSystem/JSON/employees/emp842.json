@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "842",
-	"FirstName": "Ольга",
-	"MiddleName": "Михайловна",
-	"LastName": "Герасим",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "17",
-			"HeadOfDepartment": false,
-			"Position": "2"
-		}
-	]
+  "Id": "842",
+  "FirstName": "Ольга",
+  "MiddleName": "Михайловна",
+  "LastName": "Герасим",
+  "Time": 0.5,
+  "StartDate": "1983-09-11T00:00:00",
+  "BirthDate": "1952-05-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "2",
+      "Department": "17"
+    }
+  ]
 }

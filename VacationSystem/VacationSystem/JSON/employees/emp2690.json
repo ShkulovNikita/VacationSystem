@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2690",
-	"FirstName": "Николай",
-	"MiddleName": "Иванович",
-	"LastName": "Кузьмин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "231",
-			"HeadOfDepartment": false,
-			"Position": "214"
-		}
-	]
+  "Id": "2690",
+  "FirstName": "Николай",
+  "MiddleName": "Иванович",
+  "LastName": "Кузьмин",
+  "Time": 0.5,
+  "StartDate": "2012-02-22T00:00:00",
+  "BirthDate": "1983-12-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "214",
+      "Department": "231"
+    }
+  ]
 }

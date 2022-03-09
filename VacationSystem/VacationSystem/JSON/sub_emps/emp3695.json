@@ -1,0 +1,34 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "803",
+      "FirstName": "Ольга",
+      "MiddleName": "Анатольевна",
+      "LastName": "Мазурина",
+      "Time": 0.5,
+      "StartDate": "2006-07-09T00:00:00",
+      "BirthDate": "1956-12-01T00:00:00",
+      "Positions": [
+        {
+          "Position": "132",
+          "Department": "177"
+        }
+      ]
+    },
+    {
+      "Id": "3695",
+      "FirstName": "Максим",
+      "MiddleName": "Николаевич",
+      "LastName": "Волков",
+      "Time": 1,
+      "StartDate": "1989-09-11T00:00:00",
+      "BirthDate": "1969-04-01T00:00:00",
+      "Positions": [
+        {
+          "Position": "153",
+          "Department": "177"
+        }
+      ]
+    }
+  ]
+}

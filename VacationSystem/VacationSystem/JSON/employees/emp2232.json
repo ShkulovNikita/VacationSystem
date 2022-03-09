@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "2232",
-	"FirstName": "Оксана",
-	"MiddleName": "Сергеевна",
-	"LastName": "Чернова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "46",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		},
-		{
-			"Id": "5",
-			"HeadOfDepartment": false,
-			"Position": "18"
-		}
-	]
+  "Id": "2232",
+  "FirstName": "Оксана",
+  "MiddleName": "Сергеевна",
+  "LastName": "Чернова",
+  "Time": 1.5,
+  "StartDate": "1994-03-10T00:00:00",
+  "BirthDate": "1967-04-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "46"
+    },
+    {
+      "Position": "18",
+      "Department": "5"
+    }
+  ]
 }

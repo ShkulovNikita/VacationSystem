@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2110",
-	"FirstName": "Андрей",
-	"MiddleName": "Олегович",
-	"LastName": "Миронов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "72",
-			"HeadOfDepartment": false,
-			"Position": "46"
-		}
-	]
+  "Id": "2110",
+  "FirstName": "Андрей",
+  "MiddleName": "Олегович",
+  "LastName": "Миронов",
+  "Time": 0.5,
+  "StartDate": "2002-12-03T00:00:00",
+  "BirthDate": "1974-06-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "46",
+      "Department": "72"
+    }
+  ]
 }

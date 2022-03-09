@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3006",
-	"FirstName": "Екатерина",
-	"MiddleName": "Андреевна",
-	"LastName": "Фофанова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "227",
-			"HeadOfDepartment": false,
-			"Position": "2"
-		}
-	]
+  "Id": "3006",
+  "FirstName": "Екатерина",
+  "MiddleName": "Андреевна",
+  "LastName": "Фофанова",
+  "Time": 1,
+  "StartDate": "2003-06-21T00:00:00",
+  "BirthDate": "1981-01-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "2",
+      "Department": "227"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1319",
-	"FirstName": "Елена",
-	"MiddleName": "Анатольевна",
-	"LastName": "Лукьянова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "1",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "1319",
+  "FirstName": "Елена",
+  "MiddleName": "Анатольевна",
+  "LastName": "Лукьянова",
+  "Time": 1,
+  "StartDate": "2020-06-21T00:00:00",
+  "BirthDate": "1969-08-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "1"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3266",
-	"FirstName": "Кэ",
-	"MiddleName": "",
-	"LastName": "Ли",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "53",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "3266",
+  "FirstName": "Кэ",
+  "MiddleName": "",
+  "LastName": "Ли",
+  "Time": 0.5,
+  "StartDate": "2011-06-20T00:00:00",
+  "BirthDate": "1983-12-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "53"
+    }
+  ]
 }

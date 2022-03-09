@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1110",
-	"FirstName": "Тимур",
-	"MiddleName": "Ахатович",
-	"LastName": "Тухфатуллин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "119",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1110",
+  "FirstName": "Тимур",
+  "MiddleName": "Ахатович",
+  "LastName": "Тухфатуллин",
+  "Time": 1,
+  "StartDate": "2004-08-15T00:00:00",
+  "BirthDate": "1982-03-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "119"
+    }
+  ]
 }

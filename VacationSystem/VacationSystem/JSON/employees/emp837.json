@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "837",
-	"FirstName": "Олег",
-	"MiddleName": "Борисович",
-	"LastName": "Фофанов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "26",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "837",
+  "FirstName": "Олег",
+  "MiddleName": "Борисович",
+  "LastName": "Фофанов",
+  "Time": 0.5,
+  "StartDate": "2009-07-12T00:00:00",
+  "BirthDate": "1984-03-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "26"
+    }
+  ]
 }

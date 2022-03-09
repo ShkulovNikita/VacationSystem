@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1891",
-	"FirstName": "Константин",
-	"MiddleName": "Валентинович",
-	"LastName": "Образцов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "19",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "1891",
+  "FirstName": "Константин",
+  "MiddleName": "Валентинович",
+  "LastName": "Образцов",
+  "Time": 1,
+  "StartDate": "2014-06-24T00:00:00",
+  "BirthDate": "1993-04-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "19"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "690",
-	"FirstName": "Александра",
-	"MiddleName": "Владимировна",
-	"LastName": "Кудряшова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "0",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "690",
+  "FirstName": "Александра",
+  "MiddleName": "Владимировна",
+  "LastName": "Кудряшова",
+  "Time": 0.5,
+  "StartDate": "2008-02-16T00:00:00",
+  "BirthDate": "1986-09-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "0"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3103",
-	"FirstName": "Елена",
-	"MiddleName": "",
-	"LastName": "Ворожейкина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "1",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "3103",
+  "FirstName": "Елена",
+  "MiddleName": "",
+  "LastName": "Ворожейкина",
+  "Time": 1,
+  "StartDate": "2005-11-20T00:00:00",
+  "BirthDate": "1970-03-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "1"
+    }
+  ]
 }

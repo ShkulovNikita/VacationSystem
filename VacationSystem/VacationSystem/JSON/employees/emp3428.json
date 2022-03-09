@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3428",
-	"FirstName": "Сергей",
-	"MiddleName": "Леонидович",
-	"LastName": "Яцкевич",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "38",
-			"HeadOfDepartment": false,
-			"Position": "137"
-		}
-	]
+  "Id": "3428",
+  "FirstName": "Сергей",
+  "MiddleName": "Леонидович",
+  "LastName": "Яцкевич",
+  "Time": 1,
+  "StartDate": "2001-05-06T00:00:00",
+  "BirthDate": "1968-10-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "137",
+      "Department": "38"
+    }
+  ]
 }

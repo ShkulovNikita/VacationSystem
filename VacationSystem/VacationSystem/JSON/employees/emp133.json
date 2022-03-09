@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "133",
-	"FirstName": "Юрий",
-	"MiddleName": "Александрович",
-	"LastName": "Ленерт",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "51",
-			"HeadOfDepartment": false,
-			"Position": "48"
-		}
-	]
+  "Id": "133",
+  "FirstName": "Юрий",
+  "MiddleName": "Александрович",
+  "LastName": "Ленерт",
+  "Time": 0.5,
+  "StartDate": "2017-01-22T00:00:00",
+  "BirthDate": "1952-10-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "48",
+      "Department": "51"
+    }
+  ]
 }

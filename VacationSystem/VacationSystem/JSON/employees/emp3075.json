@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "3075",
-	"FirstName": "Нина",
-	"MiddleName": "Михаиловна",
-	"LastName": "Иванова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "56",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		},
-		{
-			"Id": "32",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		}
-	]
+  "Id": "3075",
+  "FirstName": "Нина",
+  "MiddleName": "Михаиловна",
+  "LastName": "Иванова",
+  "Time": 1.5,
+  "StartDate": "2010-01-05T00:00:00",
+  "BirthDate": "1985-11-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "56"
+    },
+    {
+      "Position": "28",
+      "Department": "32"
+    }
+  ]
 }

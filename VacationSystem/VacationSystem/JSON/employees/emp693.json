@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "693",
-	"FirstName": "Петр",
-	"MiddleName": "Янович",
-	"LastName": "Крауиньш",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "693",
+  "FirstName": "Петр",
+  "MiddleName": "Янович",
+  "LastName": "Крауиньш",
+  "Time": 0.5,
+  "StartDate": "1987-11-17T00:00:00",
+  "BirthDate": "1955-08-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "15"
+    }
+  ]
 }

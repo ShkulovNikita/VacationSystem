@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "615",
-	"FirstName": "Александр",
-	"MiddleName": "Антанасович",
-	"LastName": "Клемайтис",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "49",
-			"HeadOfDepartment": false,
-			"Position": "88"
-		}
-	]
+  "Id": "615",
+  "FirstName": "Александр",
+  "MiddleName": "Антанасович",
+  "LastName": "Клемайтис",
+  "Time": 1,
+  "StartDate": "2011-07-14T00:00:00",
+  "BirthDate": "1979-09-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "88",
+      "Department": "49"
+    }
+  ]
 }

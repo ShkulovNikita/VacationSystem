@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3336",
-	"FirstName": "Геннадий",
-	"MiddleName": "Яковлевич",
-	"LastName": "Мамонтов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "6",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "3336",
+  "FirstName": "Геннадий",
+  "MiddleName": "Яковлевич",
+  "LastName": "Мамонтов",
+  "Time": 1,
+  "StartDate": "1975-08-05T00:00:00",
+  "BirthDate": "1953-09-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "6"
+    }
+  ]
 }

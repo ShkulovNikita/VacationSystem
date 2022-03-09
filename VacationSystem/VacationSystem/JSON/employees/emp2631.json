@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2631",
-	"FirstName": "Светлана",
-	"MiddleName": "Викторовна",
-	"LastName": "Горбенко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "23",
-			"HeadOfDepartment": false,
-			"Position": "116"
-		}
-	]
+  "Id": "2631",
+  "FirstName": "Светлана",
+  "MiddleName": "Викторовна",
+  "LastName": "Горбенко",
+  "Time": 0.5,
+  "StartDate": "1996-03-23T00:00:00",
+  "BirthDate": "1973-04-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "116",
+      "Department": "23"
+    }
+  ]
 }

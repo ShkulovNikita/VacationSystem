@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2129",
-	"FirstName": "Елена",
-	"MiddleName": "Александровна",
-	"LastName": "Шевелева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "57",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "2129",
+  "FirstName": "Елена",
+  "MiddleName": "Александровна",
+  "LastName": "Шевелева",
+  "Time": 0.5,
+  "StartDate": "2009-09-08T00:00:00",
+  "BirthDate": "1982-03-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "57"
+    }
+  ]
 }

@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "451",
-	"FirstName": "Павел",
-	"MiddleName": "Николаевич",
-	"LastName": "Жилкин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "30",
-			"HeadOfDepartment": false,
-			"Position": "7"
-		},
-		{
-			"Id": "29",
-			"HeadOfDepartment": false,
-			"Position": "25"
-		}
-	]
+  "Id": "451",
+  "FirstName": "Павел",
+  "MiddleName": "Николаевич",
+  "LastName": "Жилкин",
+  "Time": 1,
+  "StartDate": "2017-04-14T00:00:00",
+  "BirthDate": "1989-02-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "7",
+      "Department": "30"
+    },
+    {
+      "Position": "25",
+      "Department": "29"
+    }
+  ]
 }

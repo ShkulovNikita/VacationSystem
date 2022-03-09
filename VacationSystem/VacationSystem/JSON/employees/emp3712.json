@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3712",
-	"FirstName": "Богдан",
-	"MiddleName": "Вячеславович",
-	"LastName": "Дорошенко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "230",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "3712",
+  "FirstName": "Богдан",
+  "MiddleName": "Вячеславович",
+  "LastName": "Дорошенко",
+  "Time": 0.5,
+  "StartDate": "1999-11-02T00:00:00",
+  "BirthDate": "1970-02-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "230"
+    }
+  ]
 }

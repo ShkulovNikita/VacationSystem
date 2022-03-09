@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "718",
-	"FirstName": "Юлия",
-	"MiddleName": "Владимировна",
-	"LastName": "Сапунова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "0"
-		}
-	]
+  "Id": "718",
+  "FirstName": "Юлия",
+  "MiddleName": "Владимировна",
+  "LastName": "Сапунова",
+  "Time": 1,
+  "StartDate": "2015-02-06T00:00:00",
+  "BirthDate": "1990-06-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "0",
+      "Department": "2"
+    }
+  ]
 }

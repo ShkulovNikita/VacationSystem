@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1862",
-	"FirstName": "Александр",
-	"MiddleName": "Михайлович",
-	"LastName": "Соловьев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "40",
-			"HeadOfDepartment": false,
-			"Position": "215"
-		}
-	]
+  "Id": "1862",
+  "FirstName": "Александр",
+  "MiddleName": "Михайлович",
+  "LastName": "Соловьев",
+  "Time": 1,
+  "StartDate": "2012-10-13T00:00:00",
+  "BirthDate": "1989-04-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "215",
+      "Department": "40"
+    }
+  ]
 }

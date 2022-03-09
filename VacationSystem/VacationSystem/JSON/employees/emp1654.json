@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1654",
-	"FirstName": "Светлана",
-	"MiddleName": "Владимировна",
-	"LastName": "Кузютина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "107",
-			"HeadOfDepartment": false,
-			"Position": "73"
-		}
-	]
+  "Id": "1654",
+  "FirstName": "Светлана",
+  "MiddleName": "Владимировна",
+  "LastName": "Кузютина",
+  "Time": 1,
+  "StartDate": "2008-03-24T00:00:00",
+  "BirthDate": "1984-11-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "73",
+      "Department": "107"
+    }
+  ]
 }

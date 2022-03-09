@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "3415",
-	"FirstName": "Александр",
-	"MiddleName": "Григорьевич",
-	"LastName": "Чумаков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "52",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		},
-		{
-			"Id": "32",
-			"HeadOfDepartment": false,
-			"Position": "198"
-		}
-	]
+  "Id": "3415",
+  "FirstName": "Александр",
+  "MiddleName": "Григорьевич",
+  "LastName": "Чумаков",
+  "Time": 2,
+  "StartDate": "2019-12-22T00:00:00",
+  "BirthDate": "1973-08-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "52"
+    },
+    {
+      "Position": "198",
+      "Department": "32"
+    }
+  ]
 }

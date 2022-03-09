@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1182",
-	"FirstName": "Евгений",
-	"MiddleName": "Александрович",
-	"LastName": "Саломатов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "125",
-			"HeadOfDepartment": false,
-			"Position": "7"
-		}
-	]
+  "Id": "1182",
+  "FirstName": "Евгений",
+  "MiddleName": "Александрович",
+  "LastName": "Саломатов",
+  "Time": 0.5,
+  "StartDate": "1999-06-23T00:00:00",
+  "BirthDate": "1979-03-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "7",
+      "Department": "125"
+    }
+  ]
 }

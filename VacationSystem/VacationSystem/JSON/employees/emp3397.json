@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3397",
-	"FirstName": "Анастасия",
-	"MiddleName": "Алексеевна",
-	"LastName": "Путинцева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "102",
-			"HeadOfDepartment": false,
-			"Position": "198"
-		}
-	]
+  "Id": "3397",
+  "FirstName": "Анастасия",
+  "MiddleName": "Алексеевна",
+  "LastName": "Путинцева",
+  "Time": 1,
+  "StartDate": "2015-03-20T00:00:00",
+  "BirthDate": "1990-11-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "198",
+      "Department": "102"
+    }
+  ]
 }

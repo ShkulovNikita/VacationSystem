@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2075",
-	"FirstName": "Екатерина",
-	"MiddleName": "Геннадьевна",
-	"LastName": "Кокотюха",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "9",
-			"HeadOfDepartment": false,
-			"Position": "18"
-		}
-	]
+  "Id": "2075",
+  "FirstName": "Екатерина",
+  "MiddleName": "Геннадьевна",
+  "LastName": "Кокотюха",
+  "Time": 0.5,
+  "StartDate": "2010-09-05T00:00:00",
+  "BirthDate": "1967-09-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "18",
+      "Department": "9"
+    }
+  ]
 }

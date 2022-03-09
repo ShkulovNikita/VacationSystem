@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "2085",
-	"FirstName": "Артем",
-	"MiddleName": "Владимирович",
-	"LastName": "Малахов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "11"
-		},
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "53"
-		}
-	]
+  "Id": "2085",
+  "FirstName": "Артем",
+  "MiddleName": "Владимирович",
+  "LastName": "Малахов",
+  "Time": 2,
+  "StartDate": "2019-09-14T00:00:00",
+  "BirthDate": "1992-03-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "11",
+      "Department": "2"
+    },
+    {
+      "Position": "53",
+      "Department": "2"
+    }
+  ]
 }

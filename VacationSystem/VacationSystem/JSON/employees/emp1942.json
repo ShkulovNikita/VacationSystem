@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1942",
-	"FirstName": "Андрей",
-	"MiddleName": "Олегович",
-	"LastName": "Семенов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "17",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "1942",
+  "FirstName": "Андрей",
+  "MiddleName": "Олегович",
+  "LastName": "Семенов",
+  "Time": 1,
+  "StartDate": "1982-02-09T00:00:00",
+  "BirthDate": "1953-10-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "17"
+    }
+  ]
 }

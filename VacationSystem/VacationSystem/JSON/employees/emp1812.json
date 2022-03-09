@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1812",
-	"FirstName": "Максим",
-	"MiddleName": "Германович",
-	"LastName": "Криницын",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "117",
-			"HeadOfDepartment": false,
-			"Position": "26"
-		}
-	]
+  "Id": "1812",
+  "FirstName": "Максим",
+  "MiddleName": "Германович",
+  "LastName": "Криницын",
+  "Time": 0.5,
+  "StartDate": "2021-01-05T00:00:00",
+  "BirthDate": "1967-08-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "26",
+      "Department": "117"
+    }
+  ]
 }

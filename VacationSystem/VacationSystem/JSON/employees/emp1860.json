@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1860",
-	"FirstName": "Дамир",
-	"MiddleName": "Шамильевич",
-	"LastName": "Айбатов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "180",
-			"HeadOfDepartment": false,
-			"Position": "212"
-		}
-	]
+  "Id": "1860",
+  "FirstName": "Дамир",
+  "MiddleName": "Шамильевич",
+  "LastName": "Айбатов",
+  "Time": 0.5,
+  "StartDate": "2007-08-04T00:00:00",
+  "BirthDate": "1967-01-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "212",
+      "Department": "180"
+    }
+  ]
 }

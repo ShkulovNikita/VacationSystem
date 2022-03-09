@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "790",
-	"FirstName": "Игорь",
-	"MiddleName": "Владимирович",
-	"LastName": "Шаманин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "119",
-			"HeadOfDepartment": false,
-			"Position": "43"
-		},
-		{
-			"Id": "37",
-			"HeadOfDepartment": false,
-			"Position": "2"
-		}
-	]
+  "Id": "790",
+  "FirstName": "Игорь",
+  "MiddleName": "Владимирович",
+  "LastName": "Шаманин",
+  "Time": 1,
+  "StartDate": "2016-11-01T00:00:00",
+  "BirthDate": "1988-09-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "43",
+      "Department": "119"
+    },
+    {
+      "Position": "2",
+      "Department": "37"
+    }
+  ]
 }

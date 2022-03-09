@@ -1,0 +1,1835 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "19",
+      "FirstName": "Наталья",
+      "MiddleName": "Евгеньевна",
+      "LastName": "Антони",
+      "Time": 2,
+      "StartDate": "2013-08-14T00:00:00",
+      "BirthDate": "1989-11-19T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "17"
+        },
+        {
+          "Position": "3",
+          "Department": "18"
+        }
+      ]
+    },
+    {
+      "Id": "39",
+      "FirstName": "Антон",
+      "MiddleName": "Алексеевич",
+      "LastName": "Мезенцев",
+      "Time": 1,
+      "StartDate": "2017-02-10T00:00:00",
+      "BirthDate": "1991-09-23T00:00:00",
+      "Positions": [
+        {
+          "Position": "1",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "69",
+      "FirstName": "Алла",
+      "MiddleName": "Георгиевна",
+      "LastName": "Кондратьева",
+      "Time": 0.5,
+      "StartDate": "2008-02-03T00:00:00",
+      "BirthDate": "1964-02-03T00:00:00",
+      "Positions": [
+        {
+          "Position": "7",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "96",
+      "FirstName": "Степан",
+      "MiddleName": "Вадимович",
+      "LastName": "Меркулов",
+      "Time": 1,
+      "StartDate": "2005-07-02T00:00:00",
+      "BirthDate": "1984-08-17T00:00:00",
+      "Positions": [
+        {
+          "Position": "36",
+          "Department": "17"
+        },
+        {
+          "Position": "3",
+          "Department": "58"
+        }
+      ]
+    },
+    {
+      "Id": "114",
+      "FirstName": "Алексей",
+      "MiddleName": "Германович",
+      "LastName": "Горюнов",
+      "Time": 1,
+      "StartDate": "2007-09-10T00:00:00",
+      "BirthDate": "1987-03-08T00:00:00",
+      "Positions": [
+        {
+          "Position": "43",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "115",
+      "FirstName": "Артем",
+      "MiddleName": "Георгиевич",
+      "LastName": "Наймушин",
+      "Time": 1,
+      "StartDate": "2009-05-12T00:00:00",
+      "BirthDate": "1985-04-12T00:00:00",
+      "Positions": [
+        {
+          "Position": "1",
+          "Department": "17"
+        },
+        {
+          "Position": "44",
+          "Department": "67"
+        }
+      ]
+    },
+    {
+      "Id": "168",
+      "FirstName": "Александр",
+      "MiddleName": "Никонорович",
+      "LastName": "Алейник",
+      "Time": 1,
+      "StartDate": "1992-04-01T00:00:00",
+      "BirthDate": "1952-05-09T00:00:00",
+      "Positions": [
+        {
+          "Position": "1",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "182",
+      "FirstName": "Андрей",
+      "MiddleName": "Дмитриевич",
+      "LastName": "Побережников",
+      "Time": 1,
+      "StartDate": "2010-10-09T00:00:00",
+      "BirthDate": "1979-12-24T00:00:00",
+      "Positions": [
+        {
+          "Position": "4",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "214",
+      "FirstName": "Анна",
+      "MiddleName": "Александровна",
+      "LastName": "Гринюк",
+      "Time": 1,
+      "StartDate": "1985-12-17T00:00:00",
+      "BirthDate": "1962-10-23T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "216",
+      "FirstName": "Дан",
+      "MiddleName": "Александрович",
+      "LastName": "Веригин",
+      "Time": 0.5,
+      "StartDate": "2013-08-02T00:00:00",
+      "BirthDate": "1984-06-04T00:00:00",
+      "Positions": [
+        {
+          "Position": "1",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "226",
+      "FirstName": "Иван",
+      "MiddleName": "Викторович",
+      "LastName": "Ломов",
+      "Time": 1.5,
+      "StartDate": "1976-04-14T00:00:00",
+      "BirthDate": "1955-06-13T00:00:00",
+      "Positions": [
+        {
+          "Position": "1",
+          "Department": "17"
+        },
+        {
+          "Position": "48",
+          "Department": "67"
+        }
+      ]
+    },
+    {
+      "Id": "237",
+      "FirstName": "Наталья",
+      "MiddleName": "Сергеевна",
+      "LastName": "Рогова",
+      "Time": 1,
+      "StartDate": "1995-06-14T00:00:00",
+      "BirthDate": "1970-02-14T00:00:00",
+      "Positions": [
+        {
+          "Position": "1",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "244",
+      "FirstName": "Вилена",
+      "MiddleName": "Владимировна",
+      "LastName": "Федотова",
+      "Time": 1,
+      "StartDate": "1983-11-09T00:00:00",
+      "BirthDate": "1959-04-20T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "101"
+        },
+        {
+          "Position": "11",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "247",
+      "FirstName": "Артем",
+      "MiddleName": "Владимирович",
+      "LastName": "Вуколов",
+      "Time": 1,
+      "StartDate": "1999-02-22T00:00:00",
+      "BirthDate": "1956-08-12T00:00:00",
+      "Positions": [
+        {
+          "Position": "1",
+          "Department": "17"
+        },
+        {
+          "Position": "56",
+          "Department": "32"
+        }
+      ]
+    },
+    {
+      "Id": "294",
+      "FirstName": "Олег",
+      "MiddleName": "Юрьевич",
+      "LastName": "Долматов",
+      "Time": 2,
+      "StartDate": "2009-09-10T00:00:00",
+      "BirthDate": "1979-07-22T00:00:00",
+      "Positions": [
+        {
+          "Position": "1",
+          "Department": "17"
+        },
+        {
+          "Position": "45",
+          "Department": "67"
+        }
+      ]
+    },
+    {
+      "Id": "305",
+      "FirstName": "Владимир",
+      "MiddleName": "Николаевич",
+      "LastName": "Нестеров",
+      "Time": 1,
+      "StartDate": "1986-03-03T00:00:00",
+      "BirthDate": "1961-07-03T00:00:00",
+      "Positions": [
+        {
+          "Position": "1",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "315",
+      "FirstName": "Николай",
+      "MiddleName": "Борисович",
+      "LastName": "Егоров",
+      "Time": 1,
+      "StartDate": "2012-12-13T00:00:00",
+      "BirthDate": "1990-03-03T00:00:00",
+      "Positions": [
+        {
+          "Position": "1",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "401",
+      "FirstName": "Иван",
+      "MiddleName": "Игнатьевич",
+      "LastName": "Жерин",
+      "Time": 0.5,
+      "StartDate": "2008-12-12T00:00:00",
+      "BirthDate": "1979-12-16T00:00:00",
+      "Positions": [
+        {
+          "Position": "13",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "444",
+      "FirstName": "Петр",
+      "MiddleName": "Михайлович",
+      "LastName": "Гаврилов",
+      "Time": 1,
+      "StartDate": "2016-02-01T00:00:00",
+      "BirthDate": "1989-04-04T00:00:00",
+      "Positions": [
+        {
+          "Position": "13",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "459",
+      "FirstName": "Валерий",
+      "MiddleName": "Иванович",
+      "LastName": "Беспалов",
+      "Time": 1,
+      "StartDate": "2018-10-22T00:00:00",
+      "BirthDate": "1988-06-08T00:00:00",
+      "Positions": [
+        {
+          "Position": "1",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "468",
+      "FirstName": "Сергей",
+      "MiddleName": "Иннокентьевич",
+      "LastName": "Арышев",
+      "Time": 0.5,
+      "StartDate": "2020-09-16T00:00:00",
+      "BirthDate": "1976-04-05T00:00:00",
+      "Positions": [
+        {
+          "Position": "2",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "487",
+      "FirstName": "Елена",
+      "MiddleName": "Львовна",
+      "LastName": "Бойцова",
+      "Time": 1,
+      "StartDate": "2013-02-14T00:00:00",
+      "BirthDate": "1993-01-13T00:00:00",
+      "Positions": [
+        {
+          "Position": "4",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "566",
+      "FirstName": "Галина",
+      "MiddleName": "Николаевна",
+      "LastName": "Амелина",
+      "Time": 1,
+      "StartDate": "2018-05-17T00:00:00",
+      "BirthDate": "1978-10-05T00:00:00",
+      "Positions": [
+        {
+          "Position": "1",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "594",
+      "FirstName": "Геннадий",
+      "MiddleName": "Николаевич",
+      "LastName": "Колпаков",
+      "Time": 0.5,
+      "StartDate": "2001-07-21T00:00:00",
+      "BirthDate": "1979-04-15T00:00:00",
+      "Positions": [
+        {
+          "Position": "1",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "623",
+      "FirstName": "Вячеслав",
+      "MiddleName": "Федорович",
+      "LastName": "Мышкин",
+      "Time": 1,
+      "StartDate": "2002-05-02T00:00:00",
+      "BirthDate": "1971-06-06T00:00:00",
+      "Positions": [
+        {
+          "Position": "13",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "644",
+      "FirstName": "Алексей",
+      "MiddleName": "Алексеевич",
+      "LastName": "Орлов",
+      "Time": 1,
+      "StartDate": "2011-02-07T00:00:00",
+      "BirthDate": "1989-05-14T00:00:00",
+      "Positions": [
+        {
+          "Position": "13",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "647",
+      "FirstName": "Роман",
+      "MiddleName": "Вячеславович",
+      "LastName": "Оствальд",
+      "Time": 2.5,
+      "StartDate": "2013-07-16T00:00:00",
+      "BirthDate": "1988-07-08T00:00:00",
+      "Positions": [
+        {
+          "Position": "41",
+          "Department": "102"
+        },
+        {
+          "Position": "120",
+          "Department": "164"
+        },
+        {
+          "Position": "1",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "660",
+      "FirstName": "Лилия",
+      "MiddleName": "Михайловна",
+      "LastName": "Романова",
+      "Time": 0.5,
+      "StartDate": "2019-10-08T00:00:00",
+      "BirthDate": "1964-01-18T00:00:00",
+      "Positions": [
+        {
+          "Position": "70",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "697",
+      "FirstName": "Юлия",
+      "MiddleName": "Юрьевна",
+      "LastName": "Вебер",
+      "Time": 1,
+      "StartDate": "2018-11-09T00:00:00",
+      "BirthDate": "1955-06-22T00:00:00",
+      "Positions": [
+        {
+          "Position": "1",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "737",
+      "FirstName": "Максим",
+      "MiddleName": "Евгеньевич",
+      "LastName": "Силаев",
+      "Time": 1.5,
+      "StartDate": "2017-04-03T00:00:00",
+      "BirthDate": "1983-04-17T00:00:00",
+      "Positions": [
+        {
+          "Position": "1",
+          "Department": "17"
+        },
+        {
+          "Position": "126",
+          "Department": "170"
+        }
+      ]
+    },
+    {
+      "Id": "809",
+      "FirstName": "Анатолий",
+      "MiddleName": "Павлович",
+      "LastName": "Вергун",
+      "Time": 0.5,
+      "StartDate": "1991-04-05T00:00:00",
+      "BirthDate": "1961-03-17T00:00:00",
+      "Positions": [
+        {
+          "Position": "13",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "811",
+      "FirstName": "Вера",
+      "MiddleName": "Викторовна",
+      "LastName": "Верхотурова",
+      "Time": 2,
+      "StartDate": "1994-04-13T00:00:00",
+      "BirthDate": "1965-02-16T00:00:00",
+      "Positions": [
+        {
+          "Position": "1",
+          "Department": "17"
+        },
+        {
+          "Position": "134",
+          "Department": "67"
+        }
+      ]
+    },
+    {
+      "Id": "816",
+      "FirstName": "Дмитрий",
+      "MiddleName": "Геннадьевич",
+      "LastName": "Видяев",
+      "Time": 0.5,
+      "StartDate": "1986-02-03T00:00:00",
+      "BirthDate": "1953-02-17T00:00:00",
+      "Positions": [
+        {
+          "Position": "13",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "842",
+      "FirstName": "Ольга",
+      "MiddleName": "Михайловна",
+      "LastName": "Герасим",
+      "Time": 0.5,
+      "StartDate": "1983-09-11T00:00:00",
+      "BirthDate": "1952-05-22T00:00:00",
+      "Positions": [
+        {
+          "Position": "2",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "854",
+      "FirstName": "Сергей",
+      "MiddleName": "Николаевич",
+      "LastName": "Ливенцов",
+      "Time": 2,
+      "StartDate": "2008-07-05T00:00:00",
+      "BirthDate": "1962-08-03T00:00:00",
+      "Positions": [
+        {
+          "Position": "2",
+          "Department": "101"
+        },
+        {
+          "Position": "13",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "981",
+      "FirstName": "Надежда",
+      "MiddleName": "Кирилловна",
+      "LastName": "Рыжакова",
+      "Time": 1,
+      "StartDate": "2021-10-18T00:00:00",
+      "BirthDate": "1993-04-02T00:00:00",
+      "Positions": [
+        {
+          "Position": "1",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "1071",
+      "FirstName": "Юрий",
+      "MiddleName": "Юрьевич",
+      "LastName": "Луценко",
+      "Time": 1,
+      "StartDate": "1994-02-20T00:00:00",
+      "BirthDate": "1966-08-23T00:00:00",
+      "Positions": [
+        {
+          "Position": "1",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "1088",
+      "FirstName": "Виталий",
+      "MiddleName": "Андреевич",
+      "LastName": "Сердюцкий",
+      "Time": 0.5,
+      "StartDate": "1992-09-23T00:00:00",
+      "BirthDate": "1971-04-10T00:00:00",
+      "Positions": [
+        {
+          "Position": "1",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "1123",
+      "FirstName": "Валентина",
+      "MiddleName": "Васильевна",
+      "LastName": "Сукотнова",
+      "Time": 1,
+      "StartDate": "1993-12-20T00:00:00",
+      "BirthDate": "1969-02-22T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "1131",
+      "FirstName": "Сергей",
+      "MiddleName": "Николаевич",
+      "LastName": "Тимченко",
+      "Time": 1,
+      "StartDate": "2000-02-21T00:00:00",
+      "BirthDate": "1954-03-11T00:00:00",
+      "Positions": [
+        {
+          "Position": "1",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "1152",
+      "FirstName": "Валентина",
+      "MiddleName": "Станиславовна",
+      "LastName": "Яковлева",
+      "Time": 1,
+      "StartDate": "2013-09-03T00:00:00",
+      "BirthDate": "1991-11-24T00:00:00",
+      "Positions": [
+        {
+          "Position": "13",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "1195",
+      "FirstName": "Леонид",
+      "MiddleName": "Анатольевич",
+      "LastName": "Лобес",
+      "Time": 0.5,
+      "StartDate": "1996-12-08T00:00:00",
+      "BirthDate": "1963-10-01T00:00:00",
+      "Positions": [
+        {
+          "Position": "36",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "1213",
+      "FirstName": "Алексей",
+      "MiddleName": "Михайлович",
+      "LastName": "Ли",
+      "Time": 1,
+      "StartDate": "2014-01-02T00:00:00",
+      "BirthDate": "1987-06-15T00:00:00",
+      "Positions": [
+        {
+          "Position": "7",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "1306",
+      "FirstName": "Александр",
+      "MiddleName": "Александрович",
+      "LastName": "Денисевич",
+      "Time": 1,
+      "StartDate": "2021-02-01T00:00:00",
+      "BirthDate": "1990-03-07T00:00:00",
+      "Positions": [
+        {
+          "Position": "28",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "1314",
+      "FirstName": "Евгений",
+      "MiddleName": "Николаевич",
+      "LastName": "Шувалов",
+      "Time": 0.5,
+      "StartDate": "1997-02-16T00:00:00",
+      "BirthDate": "1975-12-18T00:00:00",
+      "Positions": [
+        {
+          "Position": "103",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "1328",
+      "FirstName": "Борис",
+      "MiddleName": "Павлович",
+      "LastName": "Степанов",
+      "Time": 0.5,
+      "StartDate": "2015-04-15T00:00:00",
+      "BirthDate": "1984-12-08T00:00:00",
+      "Positions": [
+        {
+          "Position": "1",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "1334",
+      "FirstName": "Юрий",
+      "MiddleName": "Борисович",
+      "LastName": "Чертков",
+      "Time": 1,
+      "StartDate": "1990-06-17T00:00:00",
+      "BirthDate": "1970-04-20T00:00:00",
+      "Positions": [
+        {
+          "Position": "1",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "1344",
+      "FirstName": "Татьяна",
+      "MiddleName": "Сергеевна",
+      "LastName": "Гоголева",
+      "Time": 0.5,
+      "StartDate": "2012-10-14T00:00:00",
+      "BirthDate": "1986-10-22T00:00:00",
+      "Positions": [
+        {
+          "Position": "28",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "1364",
+      "FirstName": "Дмитрий",
+      "MiddleName": "Андреевич",
+      "LastName": "Седнев",
+      "Time": 2.5,
+      "StartDate": "1995-01-08T00:00:00",
+      "BirthDate": "1961-11-20T00:00:00",
+      "Positions": [
+        {
+          "Position": "45",
+          "Department": "209"
+        },
+        {
+          "Position": "2",
+          "Department": "210"
+        },
+        {
+          "Position": "1",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "1390",
+      "FirstName": "Дмитрий",
+      "MiddleName": "Олегович",
+      "LastName": "Долматов",
+      "Time": 2,
+      "StartDate": "2004-11-16T00:00:00",
+      "BirthDate": "1980-08-15T00:00:00",
+      "Positions": [
+        {
+          "Position": "25",
+          "Department": "17"
+        },
+        {
+          "Position": "3",
+          "Department": "210"
+        }
+      ]
+    },
+    {
+      "Id": "1561",
+      "FirstName": "Иван",
+      "MiddleName": "Юрьевич",
+      "LastName": "Новоселов",
+      "Time": 0.5,
+      "StartDate": "2001-04-10T00:00:00",
+      "BirthDate": "1961-06-15T00:00:00",
+      "Positions": [
+        {
+          "Position": "28",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "1599",
+      "FirstName": "Михаил",
+      "MiddleName": "Николаевич",
+      "LastName": "Аникин",
+      "Time": 1,
+      "StartDate": "2010-05-15T00:00:00",
+      "BirthDate": "1973-12-07T00:00:00",
+      "Positions": [
+        {
+          "Position": "28",
+          "Department": "17"
+        },
+        {
+          "Position": "35",
+          "Department": "223"
+        }
+      ]
+    },
+    {
+      "Id": "1612",
+      "FirstName": "Кирилл",
+      "MiddleName": "Андреевич",
+      "LastName": "Козин",
+      "Time": 1,
+      "StartDate": "2015-09-17T00:00:00",
+      "BirthDate": "1987-08-16T00:00:00",
+      "Positions": [
+        {
+          "Position": "1",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "1687",
+      "FirstName": "Тахир",
+      "MiddleName": "Ханафеевич",
+      "LastName": "Бадретдинов",
+      "Time": 1,
+      "StartDate": "2017-02-09T00:00:00",
+      "BirthDate": "1962-12-07T00:00:00",
+      "Positions": [
+        {
+          "Position": "41",
+          "Department": "101"
+        },
+        {
+          "Position": "1",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "1691",
+      "FirstName": "Евгения",
+      "MiddleName": "Сергеевна",
+      "LastName": "Сухих",
+      "Time": 1,
+      "StartDate": "1989-08-08T00:00:00",
+      "BirthDate": "1954-02-02T00:00:00",
+      "Positions": [
+        {
+          "Position": "1",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "1696",
+      "FirstName": "Лилия",
+      "MiddleName": "Александровна",
+      "LastName": "Леонова",
+      "Time": 1,
+      "StartDate": "2002-10-24T00:00:00",
+      "BirthDate": "1971-06-11T00:00:00",
+      "Positions": [
+        {
+          "Position": "1",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "1713",
+      "FirstName": "Иван",
+      "MiddleName": "Игоревич",
+      "LastName": "Лебедев",
+      "Time": 1.5,
+      "StartDate": "2017-11-06T00:00:00",
+      "BirthDate": "1992-06-05T00:00:00",
+      "Positions": [
+        {
+          "Position": "28",
+          "Department": "17"
+        },
+        {
+          "Position": "129",
+          "Department": "206"
+        }
+      ]
+    },
+    {
+      "Id": "1742",
+      "FirstName": "Людмила",
+      "MiddleName": "Ивановна",
+      "LastName": "Вяткина",
+      "Time": 0.5,
+      "StartDate": "2019-01-11T00:00:00",
+      "BirthDate": "1985-02-05T00:00:00",
+      "Positions": [
+        {
+          "Position": "53",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "1752",
+      "FirstName": "Сергей",
+      "MiddleName": "Юрьевич",
+      "LastName": "Гоголев",
+      "Time": 1,
+      "StartDate": "2011-09-09T00:00:00",
+      "BirthDate": "1981-10-07T00:00:00",
+      "Positions": [
+        {
+          "Position": "28",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "1766",
+      "FirstName": "Игорь",
+      "MiddleName": "Сергеевич",
+      "LastName": "Надеждин",
+      "Time": 2,
+      "StartDate": "2021-01-03T00:00:00",
+      "BirthDate": "1980-09-08T00:00:00",
+      "Positions": [
+        {
+          "Position": "41",
+          "Department": "101"
+        },
+        {
+          "Position": "7",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "1781",
+      "FirstName": "Тамара",
+      "MiddleName": "Андреевна",
+      "LastName": "Петрова",
+      "Time": 0.5,
+      "StartDate": "2005-04-01T00:00:00",
+      "BirthDate": "1952-08-10T00:00:00",
+      "Positions": [
+        {
+          "Position": "53",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "1825",
+      "FirstName": "Федор",
+      "MiddleName": "Анатольевич",
+      "LastName": "Ворошилов",
+      "Time": 1,
+      "StartDate": "2016-12-24T00:00:00",
+      "BirthDate": "1975-06-06T00:00:00",
+      "Positions": [
+        {
+          "Position": "1",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "1873",
+      "FirstName": "Александр",
+      "MiddleName": "Сергеевич",
+      "LastName": "Кантаев",
+      "Time": 1.5,
+      "StartDate": "2016-12-01T00:00:00",
+      "BirthDate": "1966-11-08T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "102"
+        },
+        {
+          "Position": "1",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "1882",
+      "FirstName": "Александр",
+      "MiddleName": "Николаевич",
+      "LastName": "Страшко",
+      "Time": 1,
+      "StartDate": "2001-01-12T00:00:00",
+      "BirthDate": "1959-01-11T00:00:00",
+      "Positions": [
+        {
+          "Position": "1",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "1889",
+      "FirstName": "Михаил",
+      "MiddleName": "Сергеевич",
+      "LastName": "Кузнецов",
+      "Time": 0.5,
+      "StartDate": "2021-03-01T00:00:00",
+      "BirthDate": "1984-03-05T00:00:00",
+      "Positions": [
+        {
+          "Position": "1",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "1926",
+      "FirstName": "Владимир",
+      "MiddleName": "Владимирович",
+      "LastName": "Шагалов",
+      "Time": 1.5,
+      "StartDate": "2021-11-23T00:00:00",
+      "BirthDate": "1975-02-09T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "102"
+        },
+        {
+          "Position": "1",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "1942",
+      "FirstName": "Андрей",
+      "MiddleName": "Олегович",
+      "LastName": "Семенов",
+      "Time": 1,
+      "StartDate": "1982-02-09T00:00:00",
+      "BirthDate": "1953-10-18T00:00:00",
+      "Positions": [
+        {
+          "Position": "4",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "1959",
+      "FirstName": "Ольга",
+      "MiddleName": "Викторовна",
+      "LastName": "Егорова",
+      "Time": 0.5,
+      "StartDate": "2000-04-06T00:00:00",
+      "BirthDate": "1979-02-08T00:00:00",
+      "Positions": [
+        {
+          "Position": "1",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "1989",
+      "FirstName": "Галина",
+      "MiddleName": "Александровна",
+      "LastName": "Демина",
+      "Time": 1,
+      "StartDate": "2006-05-16T00:00:00",
+      "BirthDate": "1962-01-09T00:00:00",
+      "Positions": [
+        {
+          "Position": "70",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "1998",
+      "FirstName": "Алексей",
+      "MiddleName": "Викторович",
+      "LastName": "Богданов",
+      "Time": 1,
+      "StartDate": "2016-10-08T00:00:00",
+      "BirthDate": "1970-08-22T00:00:00",
+      "Positions": [
+        {
+          "Position": "4",
+          "Department": "52"
+        },
+        {
+          "Position": "4",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "2016",
+      "FirstName": "Артем",
+      "MiddleName": "Викторович",
+      "LastName": "Обходский",
+      "Time": 1,
+      "StartDate": "2018-05-06T00:00:00",
+      "BirthDate": "1992-05-19T00:00:00",
+      "Positions": [
+        {
+          "Position": "1",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "2024",
+      "FirstName": "Екатерина",
+      "MiddleName": "Петровна",
+      "LastName": "Зеленецкая",
+      "Time": 1,
+      "StartDate": "2018-12-02T00:00:00",
+      "BirthDate": "1983-08-15T00:00:00",
+      "Positions": [
+        {
+          "Position": "28",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "2036",
+      "FirstName": "Владимир",
+      "MiddleName": "Ильич",
+      "LastName": "Бойко",
+      "Time": 0.5,
+      "StartDate": "2015-02-22T00:00:00",
+      "BirthDate": "1993-01-23T00:00:00",
+      "Positions": [
+        {
+          "Position": "91",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "2062",
+      "FirstName": "Анна",
+      "MiddleName": "Владимировна",
+      "LastName": "Кузьмина",
+      "Time": 0.5,
+      "StartDate": "2017-04-24T00:00:00",
+      "BirthDate": "1964-12-13T00:00:00",
+      "Positions": [
+        {
+          "Position": "1",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "2127",
+      "FirstName": "Петр",
+      "MiddleName": "Николаевич",
+      "LastName": "Бычков",
+      "Time": 0.5,
+      "StartDate": "2003-02-23T00:00:00",
+      "BirthDate": "1978-12-04T00:00:00",
+      "Positions": [
+        {
+          "Position": "1",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "2136",
+      "FirstName": "Евгений",
+      "MiddleName": "Викторович",
+      "LastName": "Ефремов",
+      "Time": 1,
+      "StartDate": "2012-01-19T00:00:00",
+      "BirthDate": "1983-08-17T00:00:00",
+      "Positions": [
+        {
+          "Position": "1",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "2137",
+      "FirstName": "Людмила",
+      "MiddleName": "Ивановна",
+      "LastName": "Дорофеева",
+      "Time": 1,
+      "StartDate": "2014-05-19T00:00:00",
+      "BirthDate": "1983-08-19T00:00:00",
+      "Positions": [
+        {
+          "Position": "1",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "2142",
+      "FirstName": "Валерий",
+      "MiddleName": "Феодосиевич",
+      "LastName": "Дядик",
+      "Time": 0.5,
+      "StartDate": "2008-02-12T00:00:00",
+      "BirthDate": "1970-02-01T00:00:00",
+      "Positions": [
+        {
+          "Position": "1",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "2148",
+      "FirstName": "Нина",
+      "MiddleName": "Александровна",
+      "LastName": "Марчукова",
+      "Time": 1,
+      "StartDate": "2019-09-03T00:00:00",
+      "BirthDate": "1976-05-21T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "2149",
+      "FirstName": "Александр",
+      "MiddleName": "Григорьевич",
+      "LastName": "Каренгин",
+      "Time": 1,
+      "StartDate": "2016-09-23T00:00:00",
+      "BirthDate": "1987-11-14T00:00:00",
+      "Positions": [
+        {
+          "Position": "1",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "2178",
+      "FirstName": "Валерий",
+      "MiddleName": "Александрович",
+      "LastName": "Варлачев",
+      "Time": 1.5,
+      "StartDate": "2016-07-01T00:00:00",
+      "BirthDate": "1990-11-12T00:00:00",
+      "Positions": [
+        {
+          "Position": "13",
+          "Department": "17"
+        },
+        {
+          "Position": "2",
+          "Department": "89"
+        }
+      ]
+    },
+    {
+      "Id": "2180",
+      "FirstName": "Александр",
+      "MiddleName": "Викторович",
+      "LastName": "Шарнин",
+      "Time": 1,
+      "StartDate": "2011-09-17T00:00:00",
+      "BirthDate": "1973-02-12T00:00:00",
+      "Positions": [
+        {
+          "Position": "36",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "2199",
+      "FirstName": "Елена",
+      "MiddleName": "Михайловна",
+      "LastName": "Квитко",
+      "Time": 1,
+      "StartDate": "2001-02-11T00:00:00",
+      "BirthDate": "1959-04-10T00:00:00",
+      "Positions": [
+        {
+          "Position": "70",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "2207",
+      "FirstName": "Нина",
+      "MiddleName": "Владимировна",
+      "LastName": "Ливенцова",
+      "Time": 0.5,
+      "StartDate": "2015-05-15T00:00:00",
+      "BirthDate": "1972-12-18T00:00:00",
+      "Positions": [
+        {
+          "Position": "1",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "2218",
+      "FirstName": "Тамара",
+      "MiddleName": "Алексеевна",
+      "LastName": "Байдали",
+      "Time": 1,
+      "StartDate": "2009-04-21T00:00:00",
+      "BirthDate": "1961-05-13T00:00:00",
+      "Positions": [
+        {
+          "Position": "2",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "2233",
+      "FirstName": "Татьяна",
+      "MiddleName": "Константиновна",
+      "LastName": "Отавина",
+      "Time": 2,
+      "StartDate": "2016-01-05T00:00:00",
+      "BirthDate": "1977-11-10T00:00:00",
+      "Positions": [
+        {
+          "Position": "2",
+          "Department": "17"
+        },
+        {
+          "Position": "6",
+          "Department": "2"
+        }
+      ]
+    },
+    {
+      "Id": "2234",
+      "FirstName": "Вадим",
+      "MiddleName": "Михайлович",
+      "LastName": "Павлов",
+      "Time": 1,
+      "StartDate": "2019-07-06T00:00:00",
+      "BirthDate": "1989-11-24T00:00:00",
+      "Positions": [
+        {
+          "Position": "1",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "2312",
+      "FirstName": "Сергей",
+      "MiddleName": "Владимирович",
+      "LastName": "Беденко",
+      "Time": 0.5,
+      "StartDate": "2008-08-15T00:00:00",
+      "BirthDate": "1973-03-22T00:00:00",
+      "Positions": [
+        {
+          "Position": "1",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "2374",
+      "FirstName": "Ольга",
+      "MiddleName": "Валерьевна",
+      "LastName": "Селиваникова",
+      "Time": 2,
+      "StartDate": "2020-10-07T00:00:00",
+      "BirthDate": "1974-07-09T00:00:00",
+      "Positions": [
+        {
+          "Position": "103",
+          "Department": "17"
+        },
+        {
+          "Position": "4",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "2412",
+      "FirstName": "Илья",
+      "MiddleName": "Владимирович",
+      "LastName": "Петлин",
+      "Time": 2,
+      "StartDate": "2015-03-12T00:00:00",
+      "BirthDate": "1966-10-23T00:00:00",
+      "Positions": [
+        {
+          "Position": "1",
+          "Department": "17"
+        },
+        {
+          "Position": "35",
+          "Department": "2"
+        }
+      ]
+    },
+    {
+      "Id": "2493",
+      "FirstName": "Юрий",
+      "MiddleName": "Михайлович",
+      "LastName": "Черепенников",
+      "Time": 0.5,
+      "StartDate": "2014-08-18T00:00:00",
+      "BirthDate": "1973-02-04T00:00:00",
+      "Positions": [
+        {
+          "Position": "1",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "2543",
+      "FirstName": "Сергей",
+      "MiddleName": "Петрович",
+      "LastName": "Журавков",
+      "Time": 1,
+      "StartDate": "2018-11-05T00:00:00",
+      "BirthDate": "1953-04-05T00:00:00",
+      "Positions": [
+        {
+          "Position": "41",
+          "Department": "102"
+        },
+        {
+          "Position": "1",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "2565",
+      "FirstName": "Галина",
+      "MiddleName": "Сергеевна",
+      "LastName": "Федосеева",
+      "Time": 1,
+      "StartDate": "1991-11-05T00:00:00",
+      "BirthDate": "1956-06-06T00:00:00",
+      "Positions": [
+        {
+          "Position": "53",
+          "Department": "246"
+        },
+        {
+          "Position": "53",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "2587",
+      "FirstName": "Катрина",
+      "MiddleName": "Владимировна",
+      "LastName": "Карпачева",
+      "Time": 0.5,
+      "StartDate": "2003-08-10T00:00:00",
+      "BirthDate": "1964-11-02T00:00:00",
+      "Positions": [
+        {
+          "Position": "0",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "2636",
+      "FirstName": "Артем",
+      "MiddleName": "Владимирович",
+      "LastName": "Малин",
+      "Time": 1.5,
+      "StartDate": "2016-06-20T00:00:00",
+      "BirthDate": "1962-11-10T00:00:00",
+      "Positions": [
+        {
+          "Position": "26",
+          "Department": "102"
+        },
+        {
+          "Position": "28",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "2637",
+      "FirstName": "Андрей",
+      "MiddleName": "Аркадьевич",
+      "LastName": "Смороков",
+      "Time": 1.5,
+      "StartDate": "2012-05-02T00:00:00",
+      "BirthDate": "1990-09-14T00:00:00",
+      "Positions": [
+        {
+          "Position": "26",
+          "Department": "102"
+        },
+        {
+          "Position": "28",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "2672",
+      "FirstName": "Алексей",
+      "MiddleName": "Алексеевич",
+      "LastName": "Дериглазов",
+      "Time": 0.5,
+      "StartDate": "1990-08-10T00:00:00",
+      "BirthDate": "1970-04-03T00:00:00",
+      "Positions": [
+        {
+          "Position": "36",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "2681",
+      "FirstName": "Ирина",
+      "MiddleName": "Олеговна",
+      "LastName": "Усольцева",
+      "Time": 2,
+      "StartDate": "2005-10-06T00:00:00",
+      "BirthDate": "1974-10-05T00:00:00",
+      "Positions": [
+        {
+          "Position": "26",
+          "Department": "102"
+        },
+        {
+          "Position": "28",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "2685",
+      "FirstName": "Ирина",
+      "MiddleName": "Алексеевна",
+      "LastName": "Милойчикова",
+      "Time": 0.5,
+      "StartDate": "2011-01-13T00:00:00",
+      "BirthDate": "1964-11-01T00:00:00",
+      "Positions": [
+        {
+          "Position": "1",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "2737",
+      "FirstName": "Владимир",
+      "MiddleName": "Александрович",
+      "LastName": "Карелин",
+      "Time": 1,
+      "StartDate": "2013-12-17T00:00:00",
+      "BirthDate": "1975-03-21T00:00:00",
+      "Positions": [
+        {
+          "Position": "13",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "2767",
+      "FirstName": "Сергей",
+      "MiddleName": "Владимирович",
+      "LastName": "Федин",
+      "Time": 1,
+      "StartDate": "2006-04-05T00:00:00",
+      "BirthDate": "1977-09-15T00:00:00",
+      "Positions": [
+        {
+          "Position": "36",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "2794",
+      "FirstName": "Ксения",
+      "MiddleName": "Олеговна",
+      "LastName": "Ставицкая",
+      "Time": 1,
+      "StartDate": "1986-07-13T00:00:00",
+      "BirthDate": "1965-08-04T00:00:00",
+      "Positions": [
+        {
+          "Position": "5",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "2802",
+      "FirstName": "Анна",
+      "MiddleName": "Сергеевна",
+      "LastName": "Сачкова",
+      "Time": 0.5,
+      "StartDate": "2019-10-21T00:00:00",
+      "BirthDate": "1964-08-10T00:00:00",
+      "Positions": [
+        {
+          "Position": "1",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "2875",
+      "FirstName": "Валерий",
+      "MiddleName": "Алексеевич",
+      "LastName": "Хан",
+      "Time": 0.5,
+      "StartDate": "2010-09-14T00:00:00",
+      "BirthDate": "1987-10-08T00:00:00",
+      "Positions": [
+        {
+          "Position": "1",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "3034",
+      "FirstName": "Марина",
+      "MiddleName": "Анатольевна",
+      "LastName": "Байдали",
+      "Time": 1,
+      "StartDate": "1995-03-20T00:00:00",
+      "BirthDate": "1970-09-13T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "101"
+        },
+        {
+          "Position": "11",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "3070",
+      "FirstName": "Максим",
+      "MiddleName": "Михайлович",
+      "LastName": "Балачков",
+      "Time": 1,
+      "StartDate": "2004-05-07T00:00:00",
+      "BirthDate": "1979-08-20T00:00:00",
+      "Positions": [
+        {
+          "Position": "28",
+          "Department": "17"
+        },
+        {
+          "Position": "25",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "3080",
+      "FirstName": "Антон",
+      "MiddleName": "Андреевич",
+      "LastName": "Пермикин",
+      "Time": 1.5,
+      "StartDate": "1982-09-12T00:00:00",
+      "BirthDate": "1962-12-16T00:00:00",
+      "Positions": [
+        {
+          "Position": "28",
+          "Department": "17"
+        },
+        {
+          "Position": "3",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "3152",
+      "FirstName": "Евгений",
+      "MiddleName": "Лхамацыренович",
+      "LastName": "Чойнзонов",
+      "Time": 0.5,
+      "StartDate": "1991-06-21T00:00:00",
+      "BirthDate": "1962-01-14T00:00:00",
+      "Positions": [
+        {
+          "Position": "38",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "3245",
+      "FirstName": "Татьяна",
+      "MiddleName": "Владимировна",
+      "LastName": "Немыкина",
+      "Time": 1,
+      "StartDate": "2021-09-12T00:00:00",
+      "BirthDate": "1992-10-10T00:00:00",
+      "Positions": [
+        {
+          "Position": "53",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "3256",
+      "FirstName": "Елена",
+      "MiddleName": "Юрьевна",
+      "LastName": "Сандаковская",
+      "Time": 1,
+      "StartDate": "2018-12-10T00:00:00",
+      "BirthDate": "1990-07-14T00:00:00",
+      "Positions": [
+        {
+          "Position": "2",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "3308",
+      "FirstName": "Юрий",
+      "MiddleName": "Владимирович",
+      "LastName": "Передерин",
+      "Time": 0.5,
+      "StartDate": "2012-09-01T00:00:00",
+      "BirthDate": "1963-05-14T00:00:00",
+      "Positions": [
+        {
+          "Position": "1",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "3564",
+      "FirstName": "Евгения",
+      "MiddleName": "Олеговна",
+      "LastName": "Каирова",
+      "Time": 0.5,
+      "StartDate": "2008-12-18T00:00:00",
+      "BirthDate": "1970-03-21T00:00:00",
+      "Positions": [
+        {
+          "Position": "2",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "3795",
+      "FirstName": "Пол Атта",
+      "MiddleName": "",
+      "LastName": "Амоах",
+      "Time": 1,
+      "StartDate": "2016-05-03T00:00:00",
+      "BirthDate": "1978-10-09T00:00:00",
+      "Positions": [
+        {
+          "Position": "5",
+          "Department": "17"
+        }
+      ]
+    }
+  ]
+}

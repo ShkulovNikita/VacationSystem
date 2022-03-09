@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "587",
-	"FirstName": "Марина",
-	"MiddleName": "Ивановна",
-	"LastName": "Швайбович",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "587",
+  "FirstName": "Марина",
+  "MiddleName": "Ивановна",
+  "LastName": "Швайбович",
+  "Time": 1,
+  "StartDate": "2018-03-03T00:00:00",
+  "BirthDate": "1993-09-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "2"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3317",
-	"FirstName": "Сергей",
-	"MiddleName": "Михайлович",
-	"LastName": "Деев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "192",
-			"HeadOfDepartment": false,
-			"Position": "41"
-		}
-	]
+  "Id": "3317",
+  "FirstName": "Сергей",
+  "MiddleName": "Михайлович",
+  "LastName": "Деев",
+  "Time": 0.5,
+  "StartDate": "2000-04-20T00:00:00",
+  "BirthDate": "1967-07-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "41",
+      "Department": "192"
+    }
+  ]
 }

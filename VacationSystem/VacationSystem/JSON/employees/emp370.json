@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "370",
-	"FirstName": "Татьяна",
-	"MiddleName": "Владимировна",
-	"LastName": "Баженова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "126",
-			"HeadOfDepartment": false,
-			"Position": "71"
-		}
-	]
+  "Id": "370",
+  "FirstName": "Татьяна",
+  "MiddleName": "Владимировна",
+  "LastName": "Баженова",
+  "Time": 0.5,
+  "StartDate": "2019-11-05T00:00:00",
+  "BirthDate": "1979-05-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "71",
+      "Department": "126"
+    }
+  ]
 }

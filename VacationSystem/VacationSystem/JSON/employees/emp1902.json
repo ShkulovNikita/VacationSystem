@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1902",
-	"FirstName": "Григорий",
-	"MiddleName": "Петрович",
-	"LastName": "Мишунин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "215",
-			"HeadOfDepartment": false,
-			"Position": "64"
-		}
-	]
+  "Id": "1902",
+  "FirstName": "Григорий",
+  "MiddleName": "Петрович",
+  "LastName": "Мишунин",
+  "Time": 0.5,
+  "StartDate": "1989-03-16T00:00:00",
+  "BirthDate": "1967-02-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "64",
+      "Department": "215"
+    }
+  ]
 }

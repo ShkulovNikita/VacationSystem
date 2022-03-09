@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3119",
-	"FirstName": "Елена",
-	"MiddleName": "Викторовна",
-	"LastName": "Румянцева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "45",
-			"HeadOfDepartment": false,
-			"Position": "7"
-		}
-	]
+  "Id": "3119",
+  "FirstName": "Елена",
+  "MiddleName": "Викторовна",
+  "LastName": "Румянцева",
+  "Time": 1,
+  "StartDate": "2020-12-16T00:00:00",
+  "BirthDate": "1987-05-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "7",
+      "Department": "45"
+    }
+  ]
 }

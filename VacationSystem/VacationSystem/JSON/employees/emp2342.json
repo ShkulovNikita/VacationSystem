@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2342",
-	"FirstName": "Людмила",
-	"MiddleName": "Васильевна",
-	"LastName": "Портнова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "70"
-		}
-	]
+  "Id": "2342",
+  "FirstName": "Людмила",
+  "MiddleName": "Васильевна",
+  "LastName": "Портнова",
+  "Time": 1,
+  "StartDate": "2020-08-19T00:00:00",
+  "BirthDate": "1954-10-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "70",
+      "Department": "2"
+    }
+  ]
 }

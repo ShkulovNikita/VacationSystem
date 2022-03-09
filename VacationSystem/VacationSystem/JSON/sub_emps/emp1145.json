@@ -1,0 +1,132 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "19",
+      "FirstName": "Наталья",
+      "MiddleName": "Евгеньевна",
+      "LastName": "Антони",
+      "Time": 2,
+      "StartDate": "2013-08-14T00:00:00",
+      "BirthDate": "1989-11-19T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "17"
+        },
+        {
+          "Position": "3",
+          "Department": "18"
+        }
+      ]
+    },
+    {
+      "Id": "1145",
+      "FirstName": "Петр",
+      "MiddleName": "Яковлевич",
+      "LastName": "Исаков",
+      "Time": 1,
+      "StartDate": "2021-11-11T00:00:00",
+      "BirthDate": "1988-12-18T00:00:00",
+      "Positions": [
+        {
+          "Position": "152",
+          "Department": "18"
+        }
+      ]
+    },
+    {
+      "Id": "1299",
+      "FirstName": "Максим",
+      "MiddleName": "Святославович",
+      "LastName": "Черепнев",
+      "Time": 1,
+      "StartDate": "2015-01-04T00:00:00",
+      "BirthDate": "1981-06-12T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "18"
+        }
+      ]
+    },
+    {
+      "Id": "1355",
+      "FirstName": "Людмила",
+      "MiddleName": "Ивановна",
+      "LastName": "Рудик",
+      "Time": 0.5,
+      "StartDate": "2009-04-07T00:00:00",
+      "BirthDate": "1957-11-24T00:00:00",
+      "Positions": [
+        {
+          "Position": "25",
+          "Department": "18"
+        }
+      ]
+    },
+    {
+      "Id": "1910",
+      "FirstName": "Анастасия",
+      "MiddleName": "Александровна",
+      "LastName": "Лущаева",
+      "Time": 1,
+      "StartDate": "1999-08-07T00:00:00",
+      "BirthDate": "1971-08-01T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "18"
+        }
+      ]
+    },
+    {
+      "Id": "1927",
+      "FirstName": "Елена",
+      "MiddleName": "Геннадьевна",
+      "LastName": "Волчек",
+      "Time": 1,
+      "StartDate": "1994-10-01T00:00:00",
+      "BirthDate": "1967-01-24T00:00:00",
+      "Positions": [
+        {
+          "Position": "10",
+          "Department": "18"
+        }
+      ]
+    },
+    {
+      "Id": "2386",
+      "FirstName": "Елена",
+      "MiddleName": "Геннадьевна",
+      "LastName": "Ковалева",
+      "Time": 1.5,
+      "StartDate": "2019-04-09T00:00:00",
+      "BirthDate": "1962-08-19T00:00:00",
+      "Positions": [
+        {
+          "Position": "11",
+          "Department": "2"
+        },
+        {
+          "Position": "3",
+          "Department": "18"
+        }
+      ]
+    },
+    {
+      "Id": "2622",
+      "FirstName": "Анастасия",
+      "MiddleName": "Александровна",
+      "LastName": "Кузнецова",
+      "Time": 0.5,
+      "StartDate": "1984-07-18T00:00:00",
+      "BirthDate": "1959-09-17T00:00:00",
+      "Positions": [
+        {
+          "Position": "25",
+          "Department": "18"
+        }
+      ]
+    }
+  ]
+}

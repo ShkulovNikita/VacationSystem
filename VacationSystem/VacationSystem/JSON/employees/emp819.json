@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "819",
-	"FirstName": "Ольга",
-	"MiddleName": "Николаевна",
-	"LastName": "Русина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "110",
-			"HeadOfDepartment": false,
-			"Position": "136"
-		}
-	]
+  "Id": "819",
+  "FirstName": "Ольга",
+  "MiddleName": "Николаевна",
+  "LastName": "Русина",
+  "Time": 0.5,
+  "StartDate": "2005-04-01T00:00:00",
+  "BirthDate": "1984-11-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "136",
+      "Department": "110"
+    }
+  ]
 }

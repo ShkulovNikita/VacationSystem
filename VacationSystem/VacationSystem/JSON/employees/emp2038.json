@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "2038",
-	"FirstName": "Дмитрий",
-	"MiddleName": "Владимирович",
-	"LastName": "Болтовский",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "52",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		},
-		{
-			"Id": "52",
-			"HeadOfDepartment": false,
-			"Position": "25"
-		}
-	]
+  "Id": "2038",
+  "FirstName": "Дмитрий",
+  "MiddleName": "Владимирович",
+  "LastName": "Болтовский",
+  "Time": 1,
+  "StartDate": "1996-07-01T00:00:00",
+  "BirthDate": "1959-02-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "52"
+    },
+    {
+      "Position": "25",
+      "Department": "52"
+    }
+  ]
 }

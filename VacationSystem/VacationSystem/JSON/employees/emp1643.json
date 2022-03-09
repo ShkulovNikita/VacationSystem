@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1643",
-	"FirstName": "Егор",
-	"MiddleName": "Викторович",
-	"LastName": "Форат",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "1643",
+  "FirstName": "Егор",
+  "MiddleName": "Викторович",
+  "LastName": "Форат",
+  "Time": 0.5,
+  "StartDate": "1990-03-02T00:00:00",
+  "BirthDate": "1967-08-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "15"
+    }
+  ]
 }

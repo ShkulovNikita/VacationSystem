@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1823",
-	"FirstName": "Галина",
-	"MiddleName": "Васильевна",
-	"LastName": "Апостолаки",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "94",
-			"HeadOfDepartment": false,
-			"Position": "33"
-		}
-	]
+  "Id": "1823",
+  "FirstName": "Галина",
+  "MiddleName": "Васильевна",
+  "LastName": "Апостолаки",
+  "Time": 0.5,
+  "StartDate": "1984-09-04T00:00:00",
+  "BirthDate": "1953-07-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "33",
+      "Department": "94"
+    }
+  ]
 }

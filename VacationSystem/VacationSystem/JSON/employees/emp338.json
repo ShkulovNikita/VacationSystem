@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "338",
-	"FirstName": "Евгения",
-	"MiddleName": "Александровна",
-	"LastName": "Беляускене",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "52",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "338",
+  "FirstName": "Евгения",
+  "MiddleName": "Александровна",
+  "LastName": "Беляускене",
+  "Time": 0.5,
+  "StartDate": "2015-05-18T00:00:00",
+  "BirthDate": "1990-10-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "52"
+    }
+  ]
 }

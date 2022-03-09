@@ -1,0 +1,94 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "785",
+      "FirstName": "Галина",
+      "MiddleName": "Степановна",
+      "LastName": "Логунович",
+      "Time": 0.5,
+      "StartDate": "2021-06-18T00:00:00",
+      "BirthDate": "1964-04-08T00:00:00",
+      "Positions": [
+        {
+          "Position": "15",
+          "Department": "174"
+        }
+      ]
+    },
+    {
+      "Id": "2020",
+      "FirstName": "Татьяна",
+      "MiddleName": "Петровна",
+      "LastName": "Чернышова",
+      "Time": 0.5,
+      "StartDate": "2001-10-04T00:00:00",
+      "BirthDate": "1977-03-08T00:00:00",
+      "Positions": [
+        {
+          "Position": "20",
+          "Department": "174"
+        }
+      ]
+    },
+    {
+      "Id": "2564",
+      "FirstName": "Николай",
+      "MiddleName": "Петрович",
+      "LastName": "Кривков",
+      "Time": 1,
+      "StartDate": "1987-04-03T00:00:00",
+      "BirthDate": "1952-11-06T00:00:00",
+      "Positions": [
+        {
+          "Position": "64",
+          "Department": "174"
+        }
+      ]
+    },
+    {
+      "Id": "3076",
+      "FirstName": "Денис",
+      "MiddleName": "Алексеевич",
+      "LastName": "Стеничкин",
+      "Time": 0.5,
+      "StartDate": "2012-01-03T00:00:00",
+      "BirthDate": "1973-07-20T00:00:00",
+      "Positions": [
+        {
+          "Position": "79",
+          "Department": "174"
+        }
+      ]
+    },
+    {
+      "Id": "3738",
+      "FirstName": "Любовь",
+      "MiddleName": "Семёновна",
+      "LastName": "Мотовилова",
+      "Time": 1,
+      "StartDate": "2011-05-03T00:00:00",
+      "BirthDate": "1954-05-19T00:00:00",
+      "Positions": [
+        {
+          "Position": "15",
+          "Department": "174"
+        }
+      ]
+    },
+    {
+      "Id": "3757",
+      "FirstName": "Людмила",
+      "MiddleName": "Александровна",
+      "LastName": "Шадрина",
+      "Time": 0.5,
+      "StartDate": "2008-09-20T00:00:00",
+      "BirthDate": "1984-04-08T00:00:00",
+      "Positions": [
+        {
+          "Position": "15",
+          "Department": "174"
+        }
+      ]
+    }
+  ]
+}

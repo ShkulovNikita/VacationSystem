@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3814",
-	"FirstName": "Свен",
-	"MiddleName": "",
-	"LastName": "Рутковский",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "221",
-			"HeadOfDepartment": false,
-			"Position": "24"
-		}
-	]
+  "Id": "3814",
+  "FirstName": "Свен",
+  "MiddleName": "",
+  "LastName": "Рутковский",
+  "Time": 0.5,
+  "StartDate": "1986-07-17T00:00:00",
+  "BirthDate": "1964-06-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "24",
+      "Department": "221"
+    }
+  ]
 }

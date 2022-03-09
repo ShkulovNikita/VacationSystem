@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3544",
-	"FirstName": "Николай",
-	"MiddleName": "Иванович",
-	"LastName": "Лещенко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "72",
-			"HeadOfDepartment": false,
-			"Position": "284"
-		}
-	]
+  "Id": "3544",
+  "FirstName": "Николай",
+  "MiddleName": "Иванович",
+  "LastName": "Лещенко",
+  "Time": 1,
+  "StartDate": "2017-07-02T00:00:00",
+  "BirthDate": "1977-03-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "284",
+      "Department": "72"
+    }
+  ]
 }

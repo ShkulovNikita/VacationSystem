@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1167",
-	"FirstName": "Михаил",
-	"MiddleName": "Борисович",
-	"LastName": "Лапекин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "38",
-			"HeadOfDepartment": false,
-			"Position": "141"
-		}
-	]
+  "Id": "1167",
+  "FirstName": "Михаил",
+  "MiddleName": "Борисович",
+  "LastName": "Лапекин",
+  "Time": 1,
+  "StartDate": "1990-05-13T00:00:00",
+  "BirthDate": "1966-06-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "141",
+      "Department": "38"
+    }
+  ]
 }

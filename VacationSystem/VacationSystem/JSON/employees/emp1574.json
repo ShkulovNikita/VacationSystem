@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1574",
-	"FirstName": "Дмитрий",
-	"MiddleName": "Альбертович",
-	"LastName": "Черцов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "50",
-			"HeadOfDepartment": false,
-			"Position": "88"
-		}
-	]
+  "Id": "1574",
+  "FirstName": "Дмитрий",
+  "MiddleName": "Альбертович",
+  "LastName": "Черцов",
+  "Time": 1,
+  "StartDate": "2011-11-01T00:00:00",
+  "BirthDate": "1977-11-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "88",
+      "Department": "50"
+    }
+  ]
 }

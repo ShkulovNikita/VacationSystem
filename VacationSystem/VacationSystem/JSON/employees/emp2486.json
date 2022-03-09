@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2486",
-	"FirstName": "Марина",
-	"MiddleName": "Викторовна",
-	"LastName": "Небера",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "109",
-			"HeadOfDepartment": false,
-			"Position": "35"
-		}
-	]
+  "Id": "2486",
+  "FirstName": "Марина",
+  "MiddleName": "Викторовна",
+  "LastName": "Небера",
+  "Time": 0.5,
+  "StartDate": "2014-12-07T00:00:00",
+  "BirthDate": "1973-04-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "35",
+      "Department": "109"
+    }
+  ]
 }

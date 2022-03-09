@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3599",
-	"FirstName": "Шадфар",
-	"MiddleName": "",
-	"LastName": "Давуди",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "92",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		}
-	]
+  "Id": "3599",
+  "FirstName": "Шадфар",
+  "MiddleName": "",
+  "LastName": "Давуди",
+  "Time": 1,
+  "StartDate": "2008-08-06T00:00:00",
+  "BirthDate": "1979-06-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "92"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1725",
-	"FirstName": "Елена",
-	"MiddleName": "Викторовна",
-	"LastName": "Хоменок",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "110",
-			"HeadOfDepartment": false,
-			"Position": "202"
-		}
-	]
+  "Id": "1725",
+  "FirstName": "Елена",
+  "MiddleName": "Викторовна",
+  "LastName": "Хоменок",
+  "Time": 1,
+  "StartDate": "2011-06-16T00:00:00",
+  "BirthDate": "1979-03-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "202",
+      "Department": "110"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2864",
-	"FirstName": "Ульяна",
-	"MiddleName": "Анатольевна",
-	"LastName": "Егорова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "103",
-			"HeadOfDepartment": false,
-			"Position": "75"
-		}
-	]
+  "Id": "2864",
+  "FirstName": "Ульяна",
+  "MiddleName": "Анатольевна",
+  "LastName": "Егорова",
+  "Time": 1,
+  "StartDate": "1995-02-05T00:00:00",
+  "BirthDate": "1973-09-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "75",
+      "Department": "103"
+    }
+  ]
 }

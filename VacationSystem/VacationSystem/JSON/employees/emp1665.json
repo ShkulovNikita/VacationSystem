@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1665",
-	"FirstName": "Сергей",
-	"MiddleName": "Сергеевич",
-	"LastName": "Махонченко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "29",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "1665",
+  "FirstName": "Сергей",
+  "MiddleName": "Сергеевич",
+  "LastName": "Махонченко",
+  "Time": 1,
+  "StartDate": "1995-12-02T00:00:00",
+  "BirthDate": "1966-11-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "29"
+    }
+  ]
 }

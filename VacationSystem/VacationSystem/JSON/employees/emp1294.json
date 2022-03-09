@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1294",
-	"FirstName": "Иван",
-	"MiddleName": "Викторович",
-	"LastName": "Мастеров",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "32",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1294",
+  "FirstName": "Иван",
+  "MiddleName": "Викторович",
+  "LastName": "Мастеров",
+  "Time": 1,
+  "StartDate": "2017-05-03T00:00:00",
+  "BirthDate": "1976-08-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "32"
+    }
+  ]
 }

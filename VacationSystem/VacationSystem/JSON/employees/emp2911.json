@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2911",
-	"FirstName": "Наталья",
-	"MiddleName": "Николаевна",
-	"LastName": "Гутова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "199",
-			"HeadOfDepartment": false,
-			"Position": "154"
-		}
-	]
+  "Id": "2911",
+  "FirstName": "Наталья",
+  "MiddleName": "Николаевна",
+  "LastName": "Гутова",
+  "Time": 1,
+  "StartDate": "2001-10-14T00:00:00",
+  "BirthDate": "1965-05-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "154",
+      "Department": "199"
+    }
+  ]
 }

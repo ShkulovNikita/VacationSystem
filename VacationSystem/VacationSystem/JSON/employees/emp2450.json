@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2450",
-	"FirstName": "Александр",
-	"MiddleName": "Павлович",
-	"LastName": "Тарасов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "64",
-			"HeadOfDepartment": false,
-			"Position": "103"
-		}
-	]
+  "Id": "2450",
+  "FirstName": "Александр",
+  "MiddleName": "Павлович",
+  "LastName": "Тарасов",
+  "Time": 1,
+  "StartDate": "2015-07-05T00:00:00",
+  "BirthDate": "1985-12-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "103",
+      "Department": "64"
+    }
+  ]
 }

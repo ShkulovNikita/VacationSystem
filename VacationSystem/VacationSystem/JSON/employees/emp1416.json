@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1416",
-	"FirstName": "Иван",
-	"MiddleName": "Владимирович",
-	"LastName": "Корепанов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "1416",
+  "FirstName": "Иван",
+  "MiddleName": "Владимирович",
+  "LastName": "Корепанов",
+  "Time": 0.5,
+  "StartDate": "1992-04-17T00:00:00",
+  "BirthDate": "1972-12-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "15"
+    }
+  ]
 }

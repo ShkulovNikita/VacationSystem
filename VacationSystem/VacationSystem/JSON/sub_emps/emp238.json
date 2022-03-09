@@ -1,0 +1,38 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "238",
+      "FirstName": "Денис",
+      "MiddleName": "Витольдович",
+      "LastName": "Чайковский",
+      "Time": 0.5,
+      "StartDate": "2016-06-20T00:00:00",
+      "BirthDate": "1988-04-14T00:00:00",
+      "Positions": [
+        {
+          "Position": "45",
+          "Department": "100"
+        }
+      ]
+    },
+    {
+      "Id": "510",
+      "FirstName": "Владимир",
+      "MiddleName": "Васильевич",
+      "LastName": "Гузырь",
+      "Time": 1,
+      "StartDate": "2020-11-02T00:00:00",
+      "BirthDate": "1975-07-15T00:00:00",
+      "Positions": [
+        {
+          "Position": "48",
+          "Department": "100"
+        },
+        {
+          "Position": "1",
+          "Department": "3"
+        }
+      ]
+    }
+  ]
+}

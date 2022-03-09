@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "207",
-	"FirstName": "Владимир",
-	"MiddleName": "Алексеевич",
-	"LastName": "Черепанов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "50",
-			"HeadOfDepartment": false,
-			"Position": "25"
-		}
-	]
+  "Id": "207",
+  "FirstName": "Владимир",
+  "MiddleName": "Алексеевич",
+  "LastName": "Черепанов",
+  "Time": 1,
+  "StartDate": "2006-12-02T00:00:00",
+  "BirthDate": "1952-12-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "25",
+      "Department": "50"
+    }
+  ]
 }

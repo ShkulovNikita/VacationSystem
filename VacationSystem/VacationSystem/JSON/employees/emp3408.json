@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3408",
-	"FirstName": "Татьяна",
-	"MiddleName": "Сергеевна",
-	"LastName": "Попова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "0"
-		}
-	]
+  "Id": "3408",
+  "FirstName": "Татьяна",
+  "MiddleName": "Сергеевна",
+  "LastName": "Попова",
+  "Time": 0.5,
+  "StartDate": "2014-05-02T00:00:00",
+  "BirthDate": "1961-08-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "0",
+      "Department": "2"
+    }
+  ]
 }

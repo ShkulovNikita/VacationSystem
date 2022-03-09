@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2288",
-	"FirstName": "Александр",
-	"MiddleName": "Владимирович",
-	"LastName": "Кисенков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "24",
-			"HeadOfDepartment": false,
-			"Position": "156"
-		}
-	]
+  "Id": "2288",
+  "FirstName": "Александр",
+  "MiddleName": "Владимирович",
+  "LastName": "Кисенков",
+  "Time": 0.5,
+  "StartDate": "2019-11-17T00:00:00",
+  "BirthDate": "1971-03-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "156",
+      "Department": "24"
+    }
+  ]
 }

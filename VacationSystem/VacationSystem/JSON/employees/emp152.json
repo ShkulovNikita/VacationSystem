@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "152",
-	"FirstName": "Ирина",
-	"MiddleName": "Константиновна",
-	"LastName": "Забродина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "0",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "152",
+  "FirstName": "Ирина",
+  "MiddleName": "Константиновна",
+  "LastName": "Забродина",
+  "Time": 0.5,
+  "StartDate": "2012-01-19T00:00:00",
+  "BirthDate": "1981-05-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "0"
+    }
+  ]
 }

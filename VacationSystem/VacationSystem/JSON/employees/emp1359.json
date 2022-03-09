@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1359",
-	"FirstName": "Елена",
-	"MiddleName": "Геннадьевна",
-	"LastName": "Рубанова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "18"
-		}
-	]
+  "Id": "1359",
+  "FirstName": "Елена",
+  "MiddleName": "Геннадьевна",
+  "LastName": "Рубанова",
+  "Time": 0.5,
+  "StartDate": "2007-04-22T00:00:00",
+  "BirthDate": "1982-12-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "18",
+      "Department": "2"
+    }
+  ]
 }

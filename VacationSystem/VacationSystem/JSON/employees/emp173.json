@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "173",
-	"FirstName": "Алексей",
-	"MiddleName": "Владимирович",
-	"LastName": "Бабышев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "25"
-		}
-	]
+  "Id": "173",
+  "FirstName": "Алексей",
+  "MiddleName": "Владимирович",
+  "LastName": "Бабышев",
+  "Time": 0.5,
+  "StartDate": "2016-11-22T00:00:00",
+  "BirthDate": "1978-05-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "25",
+      "Department": "2"
+    }
+  ]
 }

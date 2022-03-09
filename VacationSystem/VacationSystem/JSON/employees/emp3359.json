@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "3359",
-	"FirstName": "Иван",
-	"MiddleName": "",
-	"LastName": "Саквин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "53",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		},
-		{
-			"Id": "53",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "3359",
+  "FirstName": "Иван",
+  "MiddleName": "",
+  "LastName": "Саквин",
+  "Time": 1.5,
+  "StartDate": "2016-11-22T00:00:00",
+  "BirthDate": "1983-09-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "53"
+    },
+    {
+      "Position": "3",
+      "Department": "53"
+    }
+  ]
 }

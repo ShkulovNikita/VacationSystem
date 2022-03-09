@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "696",
-	"FirstName": "Юрий",
-	"MiddleName": "Викторович",
-	"LastName": "Кобенко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "0",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "696",
+  "FirstName": "Юрий",
+  "MiddleName": "Викторович",
+  "LastName": "Кобенко",
+  "Time": 0.5,
+  "StartDate": "2021-03-09T00:00:00",
+  "BirthDate": "1982-10-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "0"
+    }
+  ]
 }

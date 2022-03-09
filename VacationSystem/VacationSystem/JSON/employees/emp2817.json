@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2817",
-	"FirstName": "Владимир",
-	"MiddleName": "Евгеньевич",
-	"LastName": "Малофеев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "85",
-			"HeadOfDepartment": false,
-			"Position": "191"
-		}
-	]
+  "Id": "2817",
+  "FirstName": "Владимир",
+  "MiddleName": "Евгеньевич",
+  "LastName": "Малофеев",
+  "Time": 1,
+  "StartDate": "1999-02-03T00:00:00",
+  "BirthDate": "1974-02-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "191",
+      "Department": "85"
+    }
+  ]
 }

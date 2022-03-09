@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2400",
-	"FirstName": "Ольга",
-	"MiddleName": "Евгеньевна",
-	"LastName": "Митянина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "36",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "2400",
+  "FirstName": "Ольга",
+  "MiddleName": "Евгеньевна",
+  "LastName": "Митянина",
+  "Time": 0.5,
+  "StartDate": "2012-02-02T00:00:00",
+  "BirthDate": "1982-03-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "36"
+    }
+  ]
 }

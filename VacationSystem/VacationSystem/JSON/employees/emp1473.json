@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1473",
-	"FirstName": "Ольга",
-	"MiddleName": "Александровна",
-	"LastName": "Воненберг",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "28",
-			"HeadOfDepartment": false,
-			"Position": "144"
-		}
-	]
+  "Id": "1473",
+  "FirstName": "Ольга",
+  "MiddleName": "Александровна",
+  "LastName": "Воненберг",
+  "Time": 1,
+  "StartDate": "2017-07-10T00:00:00",
+  "BirthDate": "1986-04-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "144",
+      "Department": "28"
+    }
+  ]
 }

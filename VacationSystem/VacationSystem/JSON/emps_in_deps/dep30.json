@@ -1,0 +1,124 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "44",
+      "FirstName": "Денис",
+      "MiddleName": "Алексеевич",
+      "LastName": "Лимарев",
+      "Time": 1,
+      "StartDate": "2007-06-08T00:00:00",
+      "BirthDate": "1973-01-01T00:00:00",
+      "Positions": [
+        {
+          "Position": "16",
+          "Department": "30"
+        }
+      ]
+    },
+    {
+      "Id": "206",
+      "FirstName": "Владимир",
+      "MiddleName": "Леонидович",
+      "LastName": "Пашков",
+      "Time": 0.5,
+      "StartDate": "2017-05-07T00:00:00",
+      "BirthDate": "1975-11-23T00:00:00",
+      "Positions": [
+        {
+          "Position": "16",
+          "Department": "30"
+        }
+      ]
+    },
+    {
+      "Id": "451",
+      "FirstName": "Павел",
+      "MiddleName": "Николаевич",
+      "LastName": "Жилкин",
+      "Time": 1,
+      "StartDate": "2017-04-14T00:00:00",
+      "BirthDate": "1989-02-05T00:00:00",
+      "Positions": [
+        {
+          "Position": "7",
+          "Department": "30"
+        }
+      ]
+    },
+    {
+      "Id": "889",
+      "FirstName": "Игорь",
+      "MiddleName": "Алексеевич",
+      "LastName": "Сычев",
+      "Time": 1,
+      "StartDate": "2014-06-06T00:00:00",
+      "BirthDate": "1980-09-08T00:00:00",
+      "Positions": [
+        {
+          "Position": "102",
+          "Department": "30"
+        }
+      ]
+    },
+    {
+      "Id": "1200",
+      "FirstName": "Игорь",
+      "MiddleName": "Владимирович",
+      "LastName": "Ряшенцев",
+      "Time": 1,
+      "StartDate": "1988-02-20T00:00:00",
+      "BirthDate": "1962-10-24T00:00:00",
+      "Positions": [
+        {
+          "Position": "16",
+          "Department": "30"
+        }
+      ]
+    },
+    {
+      "Id": "2955",
+      "FirstName": "Владимир",
+      "MiddleName": "Григорьевич",
+      "LastName": "Любарец",
+      "Time": 0.5,
+      "StartDate": "2014-02-07T00:00:00",
+      "BirthDate": "1969-12-07T00:00:00",
+      "Positions": [
+        {
+          "Position": "254",
+          "Department": "30"
+        }
+      ]
+    },
+    {
+      "Id": "3452",
+      "FirstName": "Валентина",
+      "MiddleName": "Васильевна",
+      "LastName": "Кретова",
+      "Time": 1,
+      "StartDate": "2015-06-23T00:00:00",
+      "BirthDate": "1990-06-04T00:00:00",
+      "Positions": [
+        {
+          "Position": "19",
+          "Department": "30"
+        }
+      ]
+    },
+    {
+      "Id": "3713",
+      "FirstName": "Иван",
+      "MiddleName": "Васильевич",
+      "LastName": "Скляров",
+      "Time": 1,
+      "StartDate": "2009-02-17T00:00:00",
+      "BirthDate": "1987-01-19T00:00:00",
+      "Positions": [
+        {
+          "Position": "7",
+          "Department": "30"
+        }
+      ]
+    }
+  ]
+}

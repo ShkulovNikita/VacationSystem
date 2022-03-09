@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "50",
-	"FirstName": "Наталья",
-	"MiddleName": "Петровна",
-	"LastName": "Кондратова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "33",
-			"HeadOfDepartment": false,
-			"Position": "21"
-		}
-	]
+  "Id": "50",
+  "FirstName": "Наталья",
+  "MiddleName": "Петровна",
+  "LastName": "Кондратова",
+  "Time": 0.5,
+  "StartDate": "2012-01-21T00:00:00",
+  "BirthDate": "1957-03-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "21",
+      "Department": "33"
+    }
+  ]
 }

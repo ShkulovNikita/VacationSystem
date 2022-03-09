@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2949",
-	"FirstName": "Анна",
-	"MiddleName": "Анатольевна",
-	"LastName": "Липовка",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "51",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		}
-	]
+  "Id": "2949",
+  "FirstName": "Анна",
+  "MiddleName": "Анатольевна",
+  "LastName": "Липовка",
+  "Time": 0.5,
+  "StartDate": "2020-09-02T00:00:00",
+  "BirthDate": "1993-06-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "51"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2528",
-	"FirstName": "Татьяна",
-	"MiddleName": "Михайловна",
-	"LastName": "Солдатенко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "19",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "2528",
+  "FirstName": "Татьяна",
+  "MiddleName": "Михайловна",
+  "LastName": "Солдатенко",
+  "Time": 0.5,
+  "StartDate": "2010-07-21T00:00:00",
+  "BirthDate": "1981-02-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "19"
+    }
+  ]
 }

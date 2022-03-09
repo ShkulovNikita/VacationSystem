@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "808",
-	"FirstName": "Юрий",
-	"MiddleName": "Петрович",
-	"LastName": "Похолков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "71",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		},
-		{
-			"Id": "71",
-			"HeadOfDepartment": false,
-			"Position": "133"
-		}
-	]
+  "Id": "808",
+  "FirstName": "Юрий",
+  "MiddleName": "Петрович",
+  "LastName": "Похолков",
+  "Time": 1,
+  "StartDate": "2016-04-07T00:00:00",
+  "BirthDate": "1989-12-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "71"
+    },
+    {
+      "Position": "133",
+      "Department": "71"
+    }
+  ]
 }

@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "223",
-	"FirstName": "Дмитрий",
-	"MiddleName": "Михайлович",
-	"LastName": "Карачаков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "96",
-			"HeadOfDepartment": false,
-			"Position": "64"
-		},
-		{
-			"Id": "51",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "223",
+  "FirstName": "Дмитрий",
+  "MiddleName": "Михайлович",
+  "LastName": "Карачаков",
+  "Time": 1,
+  "StartDate": "2004-03-04T00:00:00",
+  "BirthDate": "1960-05-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "64",
+      "Department": "96"
+    },
+    {
+      "Position": "3",
+      "Department": "51"
+    }
+  ]
 }

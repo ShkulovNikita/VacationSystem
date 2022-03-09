@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1772",
-	"FirstName": "Филипп",
-	"MiddleName": "Евгеньевич",
-	"LastName": "Сапрыкин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "16",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "1772",
+  "FirstName": "Филипп",
+  "MiddleName": "Евгеньевич",
+  "LastName": "Сапрыкин",
+  "Time": 1,
+  "StartDate": "2011-06-24T00:00:00",
+  "BirthDate": "1989-01-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "16"
+    }
+  ]
 }

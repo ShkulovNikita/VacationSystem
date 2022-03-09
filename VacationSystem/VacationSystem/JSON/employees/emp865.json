@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "865",
-	"FirstName": "Юлия",
-	"MiddleName": "Юрьевна",
-	"LastName": "Мирошниченко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "119",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "865",
+  "FirstName": "Юлия",
+  "MiddleName": "Юрьевна",
+  "LastName": "Мирошниченко",
+  "Time": 0.5,
+  "StartDate": "2013-01-16T00:00:00",
+  "BirthDate": "1964-03-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "119"
+    }
+  ]
 }

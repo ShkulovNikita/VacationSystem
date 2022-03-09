@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2795",
-	"FirstName": "Владимир",
-	"MiddleName": "Владимирович",
-	"LastName": "Кнышев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "119",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		}
-	]
+  "Id": "2795",
+  "FirstName": "Владимир",
+  "MiddleName": "Владимирович",
+  "LastName": "Кнышев",
+  "Time": 1,
+  "StartDate": "1992-11-05T00:00:00",
+  "BirthDate": "1965-03-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "119"
+    }
+  ]
 }

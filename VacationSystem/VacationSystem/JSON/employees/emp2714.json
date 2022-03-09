@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2714",
-	"FirstName": "Артем",
-	"MiddleName": "Вадимович",
-	"LastName": "Степико",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "74",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "2714",
+  "FirstName": "Артем",
+  "MiddleName": "Вадимович",
+  "LastName": "Степико",
+  "Time": 1,
+  "StartDate": "2007-09-23T00:00:00",
+  "BirthDate": "1962-05-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "74"
+    }
+  ]
 }

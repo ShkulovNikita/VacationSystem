@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2500",
-	"FirstName": "Ирина",
-	"MiddleName": "Владиславовна",
-	"LastName": "Счастливцева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "12",
-			"HeadOfDepartment": false,
-			"Position": "30"
-		}
-	]
+  "Id": "2500",
+  "FirstName": "Ирина",
+  "MiddleName": "Владиславовна",
+  "LastName": "Счастливцева",
+  "Time": 0.5,
+  "StartDate": "2007-04-20T00:00:00",
+  "BirthDate": "1984-12-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "30",
+      "Department": "12"
+    }
+  ]
 }

@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "916",
-	"FirstName": "Борис",
-	"MiddleName": "Иванович",
-	"LastName": "Капранов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "57",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		},
-		{
-			"Id": "57",
-			"HeadOfDepartment": false,
-			"Position": "18"
-		}
-	]
+  "Id": "916",
+  "FirstName": "Борис",
+  "MiddleName": "Иванович",
+  "LastName": "Капранов",
+  "Time": 2,
+  "StartDate": "1990-07-08T00:00:00",
+  "BirthDate": "1954-03-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "57"
+    },
+    {
+      "Position": "18",
+      "Department": "57"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3823",
-	"FirstName": "Артем",
-	"MiddleName": "",
-	"LastName": "Козловский",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "51",
-			"HeadOfDepartment": false,
-			"Position": "24"
-		}
-	]
+  "Id": "3823",
+  "FirstName": "Артем",
+  "MiddleName": "",
+  "LastName": "Козловский",
+  "Time": 1,
+  "StartDate": "2007-12-18T00:00:00",
+  "BirthDate": "1972-05-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "24",
+      "Department": "51"
+    }
+  ]
 }

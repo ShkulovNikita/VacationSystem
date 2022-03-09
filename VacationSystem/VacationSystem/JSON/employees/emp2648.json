@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2648",
-	"FirstName": "Александра",
-	"MiddleName": "Игоревна",
-	"LastName": "Лисовая",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "131",
-			"HeadOfDepartment": false,
-			"Position": "245"
-		}
-	]
+  "Id": "2648",
+  "FirstName": "Александра",
+  "MiddleName": "Игоревна",
+  "LastName": "Лисовая",
+  "Time": 1,
+  "StartDate": "1997-08-06T00:00:00",
+  "BirthDate": "1958-04-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "245",
+      "Department": "131"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "249",
-	"FirstName": "Виталий",
-	"MiddleName": "Валерьевич",
-	"LastName": "Ростовцев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "1",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "249",
+  "FirstName": "Виталий",
+  "MiddleName": "Валерьевич",
+  "LastName": "Ростовцев",
+  "Time": 0.5,
+  "StartDate": "2014-08-01T00:00:00",
+  "BirthDate": "1988-05-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "1"
+    }
+  ]
 }

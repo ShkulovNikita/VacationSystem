@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "70",
-	"FirstName": "Анастасия",
-	"MiddleName": "Анатольевна",
-	"LastName": "Батурина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "44",
-			"HeadOfDepartment": false,
-			"Position": "27"
-		}
-	]
+  "Id": "70",
+  "FirstName": "Анастасия",
+  "MiddleName": "Анатольевна",
+  "LastName": "Батурина",
+  "Time": 1,
+  "StartDate": "1985-09-09T00:00:00",
+  "BirthDate": "1956-06-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "27",
+      "Department": "44"
+    }
+  ]
 }

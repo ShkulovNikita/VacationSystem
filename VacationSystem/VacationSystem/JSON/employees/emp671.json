@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "671",
-	"FirstName": "Павел",
-	"MiddleName": "Владимирович",
-	"LastName": "Сорокин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "8",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "671",
+  "FirstName": "Павел",
+  "MiddleName": "Владимирович",
+  "LastName": "Сорокин",
+  "Time": 0.5,
+  "StartDate": "1997-03-15T00:00:00",
+  "BirthDate": "1962-02-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "8"
+    }
+  ]
 }

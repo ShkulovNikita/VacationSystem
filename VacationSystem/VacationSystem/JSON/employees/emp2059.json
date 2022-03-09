@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2059",
-	"FirstName": "Ольга",
-	"MiddleName": "Владимировна",
-	"LastName": "Деева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "63",
-			"HeadOfDepartment": false,
-			"Position": "38"
-		}
-	]
+  "Id": "2059",
+  "FirstName": "Ольга",
+  "MiddleName": "Владимировна",
+  "LastName": "Деева",
+  "Time": 0.5,
+  "StartDate": "2009-05-01T00:00:00",
+  "BirthDate": "1971-05-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "38",
+      "Department": "63"
+    }
+  ]
 }

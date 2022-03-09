@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3298",
-	"FirstName": "Евгения",
-	"MiddleName": "Андреевна",
-	"LastName": "Левочко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "92",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		}
-	]
+  "Id": "3298",
+  "FirstName": "Евгения",
+  "MiddleName": "Андреевна",
+  "LastName": "Левочко",
+  "Time": 1,
+  "StartDate": "2003-03-14T00:00:00",
+  "BirthDate": "1975-02-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "92"
+    }
+  ]
 }

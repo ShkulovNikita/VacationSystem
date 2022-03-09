@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3711",
-	"FirstName": "Каталин",
-	"MiddleName": "",
-	"LastName": "Сивошне Кроо",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "65",
-			"HeadOfDepartment": false,
-			"Position": "56"
-		}
-	]
+  "Id": "3711",
+  "FirstName": "Каталин",
+  "MiddleName": "",
+  "LastName": "Сивошне Кроо",
+  "Time": 0.5,
+  "StartDate": "2014-08-01T00:00:00",
+  "BirthDate": "1993-12-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "56",
+      "Department": "65"
+    }
+  ]
 }

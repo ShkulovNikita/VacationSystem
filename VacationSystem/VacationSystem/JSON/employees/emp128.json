@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "128",
-	"FirstName": "Никита",
-	"MiddleName": "Николаевич",
-	"LastName": "Белоус",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "72",
-			"HeadOfDepartment": false,
-			"Position": "47"
-		}
-	]
+  "Id": "128",
+  "FirstName": "Никита",
+  "MiddleName": "Николаевич",
+  "LastName": "Белоус",
+  "Time": 0.5,
+  "StartDate": "2018-07-12T00:00:00",
+  "BirthDate": "1971-10-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "47",
+      "Department": "72"
+    }
+  ]
 }

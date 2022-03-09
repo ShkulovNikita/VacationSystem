@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3800",
-	"FirstName": "Наталья",
-	"MiddleName": "Васильевна",
-	"LastName": "Шолохова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "91",
-			"HeadOfDepartment": false,
-			"Position": "288"
-		}
-	]
+  "Id": "3800",
+  "FirstName": "Наталья",
+  "MiddleName": "Васильевна",
+  "LastName": "Шолохова",
+  "Time": 1,
+  "StartDate": "2010-11-12T00:00:00",
+  "BirthDate": "1957-08-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "288",
+      "Department": "91"
+    }
+  ]
 }

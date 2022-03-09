@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "60",
-	"FirstName": "Татьяна",
-	"MiddleName": "Николаевна",
-	"LastName": "Кряжева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "37",
-			"HeadOfDepartment": false,
-			"Position": "23"
-		}
-	]
+  "Id": "60",
+  "FirstName": "Татьяна",
+  "MiddleName": "Николаевна",
+  "LastName": "Кряжева",
+  "Time": 1,
+  "StartDate": "2017-02-08T00:00:00",
+  "BirthDate": "1989-06-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "23",
+      "Department": "37"
+    }
+  ]
 }

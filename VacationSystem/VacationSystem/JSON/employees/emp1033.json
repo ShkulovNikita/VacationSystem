@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1033",
-	"FirstName": "Евгения",
-	"MiddleName": "Сергеевна",
-	"LastName": "Моисеева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "191",
-			"HeadOfDepartment": false,
-			"Position": "145"
-		}
-	]
+  "Id": "1033",
+  "FirstName": "Евгения",
+  "MiddleName": "Сергеевна",
+  "LastName": "Моисеева",
+  "Time": 0.5,
+  "StartDate": "1994-05-17T00:00:00",
+  "BirthDate": "1954-05-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "145",
+      "Department": "191"
+    }
+  ]
 }

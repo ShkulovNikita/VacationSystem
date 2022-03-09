@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1833",
-	"FirstName": "Ольга",
-	"MiddleName": "Григорьевна",
-	"LastName": "Щитова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "65",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "1833",
+  "FirstName": "Ольга",
+  "MiddleName": "Григорьевна",
+  "LastName": "Щитова",
+  "Time": 0.5,
+  "StartDate": "2017-03-07T00:00:00",
+  "BirthDate": "1977-03-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "65"
+    }
+  ]
 }

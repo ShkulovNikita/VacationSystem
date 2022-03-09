@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3710",
-	"FirstName": "Александр",
-	"MiddleName": "Николаевич",
-	"LastName": "Евтушок",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "91",
-			"HeadOfDepartment": false,
-			"Position": "290"
-		}
-	]
+  "Id": "3710",
+  "FirstName": "Александр",
+  "MiddleName": "Николаевич",
+  "LastName": "Евтушок",
+  "Time": 1,
+  "StartDate": "1994-09-05T00:00:00",
+  "BirthDate": "1964-05-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "290",
+      "Department": "91"
+    }
+  ]
 }

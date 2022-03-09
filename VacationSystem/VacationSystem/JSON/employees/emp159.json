@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "159",
-	"FirstName": "Ольга",
-	"MiddleName": "Александровна",
-	"LastName": "Гальченко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "84",
-			"HeadOfDepartment": false,
-			"Position": "54"
-		}
-	]
+  "Id": "159",
+  "FirstName": "Ольга",
+  "MiddleName": "Александровна",
+  "LastName": "Гальченко",
+  "Time": 1,
+  "StartDate": "2020-11-23T00:00:00",
+  "BirthDate": "1992-04-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "54",
+      "Department": "84"
+    }
+  ]
 }

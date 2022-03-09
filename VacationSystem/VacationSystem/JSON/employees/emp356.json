@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "356",
-	"FirstName": "Мария",
-	"MiddleName": "Валериевна",
-	"LastName": "Мищенко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "46",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "356",
+  "FirstName": "Мария",
+  "MiddleName": "Валериевна",
+  "LastName": "Мищенко",
+  "Time": 1,
+  "StartDate": "2009-07-06T00:00:00",
+  "BirthDate": "1989-01-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "46"
+    }
+  ]
 }

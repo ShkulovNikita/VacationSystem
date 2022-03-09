@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1106",
-	"FirstName": "Владимир",
-	"MiddleName": "Юрьевич",
-	"LastName": "Сидоров",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "47",
-			"HeadOfDepartment": false,
-			"Position": "30"
-		}
-	]
+  "Id": "1106",
+  "FirstName": "Владимир",
+  "MiddleName": "Юрьевич",
+  "LastName": "Сидоров",
+  "Time": 1,
+  "StartDate": "2019-05-21T00:00:00",
+  "BirthDate": "1981-10-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "30",
+      "Department": "47"
+    }
+  ]
 }

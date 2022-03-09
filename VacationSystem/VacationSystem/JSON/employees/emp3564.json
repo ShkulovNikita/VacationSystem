@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3564",
-	"FirstName": "Евгения",
-	"MiddleName": "Олеговна",
-	"LastName": "Каирова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "17",
-			"HeadOfDepartment": false,
-			"Position": "2"
-		}
-	]
+  "Id": "3564",
+  "FirstName": "Евгения",
+  "MiddleName": "Олеговна",
+  "LastName": "Каирова",
+  "Time": 0.5,
+  "StartDate": "2008-12-18T00:00:00",
+  "BirthDate": "1970-03-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "2",
+      "Department": "17"
+    }
+  ]
 }

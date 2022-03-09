@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1685",
-	"FirstName": "Олег",
-	"MiddleName": "Валерьевич",
-	"LastName": "Василенко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "199",
-			"HeadOfDepartment": false,
-			"Position": "141"
-		}
-	]
+  "Id": "1685",
+  "FirstName": "Олег",
+  "MiddleName": "Валерьевич",
+  "LastName": "Василенко",
+  "Time": 1,
+  "StartDate": "2016-03-02T00:00:00",
+  "BirthDate": "1989-07-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "141",
+      "Department": "199"
+    }
+  ]
 }

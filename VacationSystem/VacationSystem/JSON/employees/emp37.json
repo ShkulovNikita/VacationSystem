@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "37",
-	"FirstName": "Дмитрий",
-	"MiddleName": "Алексеевич",
-	"LastName": "Хаймин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "28",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "37",
+  "FirstName": "Дмитрий",
+  "MiddleName": "Алексеевич",
+  "LastName": "Хаймин",
+  "Time": 1,
+  "StartDate": "2013-12-22T00:00:00",
+  "BirthDate": "1966-09-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "28"
+    }
+  ]
 }

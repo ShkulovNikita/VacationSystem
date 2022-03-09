@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1278",
-	"FirstName": "Ольга",
-	"MiddleName": "Евгеньевна",
-	"LastName": "Дульзон",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "76",
-			"HeadOfDepartment": false,
-			"Position": "50"
-		}
-	]
+  "Id": "1278",
+  "FirstName": "Ольга",
+  "MiddleName": "Евгеньевна",
+  "LastName": "Дульзон",
+  "Time": 1,
+  "StartDate": "2008-11-22T00:00:00",
+  "BirthDate": "1955-04-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "50",
+      "Department": "76"
+    }
+  ]
 }

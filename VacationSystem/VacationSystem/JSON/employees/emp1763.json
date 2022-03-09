@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1763",
-	"FirstName": "Полина",
-	"MiddleName": "Игоревна",
-	"LastName": "Проценко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "149",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "1763",
+  "FirstName": "Полина",
+  "MiddleName": "Игоревна",
+  "LastName": "Проценко",
+  "Time": 1,
+  "StartDate": "1973-03-04T00:00:00",
+  "BirthDate": "1953-02-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "149"
+    }
+  ]
 }

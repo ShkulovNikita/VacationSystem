@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "16",
-	"FirstName": "Наталья",
-	"MiddleName": "Владимировна",
-	"LastName": "Шаповалова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "14",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		},
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "10"
-		}
-	]
+  "Id": "16",
+  "FirstName": "Наталья",
+  "MiddleName": "Владимировна",
+  "LastName": "Шаповалова",
+  "Time": 2,
+  "StartDate": "2016-02-04T00:00:00",
+  "BirthDate": "1989-10-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "14"
+    },
+    {
+      "Position": "10",
+      "Department": "2"
+    }
+  ]
 }

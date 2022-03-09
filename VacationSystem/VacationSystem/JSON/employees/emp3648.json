@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3648",
-	"FirstName": "Бахромжон",
-	"MiddleName": "Бахтиёржон угли",
-	"LastName": "Мухторов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "24",
-			"HeadOfDepartment": false,
-			"Position": "64"
-		}
-	]
+  "Id": "3648",
+  "FirstName": "Бахромжон",
+  "MiddleName": "Бахтиёржон угли",
+  "LastName": "Мухторов",
+  "Time": 0.5,
+  "StartDate": "1999-09-11T00:00:00",
+  "BirthDate": "1977-09-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "64",
+      "Department": "24"
+    }
+  ]
 }

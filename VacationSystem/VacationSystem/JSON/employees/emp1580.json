@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1580",
-	"FirstName": "Анна",
-	"MiddleName": "Леонидовна",
-	"LastName": "Рогалева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "65",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		}
-	]
+  "Id": "1580",
+  "FirstName": "Анна",
+  "MiddleName": "Леонидовна",
+  "LastName": "Рогалева",
+  "Time": 0.5,
+  "StartDate": "2009-02-06T00:00:00",
+  "BirthDate": "1953-04-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "65"
+    }
+  ]
 }

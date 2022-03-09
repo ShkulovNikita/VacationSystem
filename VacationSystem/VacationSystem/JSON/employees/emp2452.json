@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2452",
-	"FirstName": "Александр",
-	"MiddleName": "Георгиевич",
-	"LastName": "Вахрушев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "16",
-			"HeadOfDepartment": false,
-			"Position": "25"
-		}
-	]
+  "Id": "2452",
+  "FirstName": "Александр",
+  "MiddleName": "Георгиевич",
+  "LastName": "Вахрушев",
+  "Time": 0.5,
+  "StartDate": "2009-08-14T00:00:00",
+  "BirthDate": "1982-02-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "25",
+      "Department": "16"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "281",
-	"FirstName": "Наталья",
-	"MiddleName": "Владимировна",
-	"LastName": "Черепанова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "14",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "281",
+  "FirstName": "Наталья",
+  "MiddleName": "Владимировна",
+  "LastName": "Черепанова",
+  "Time": 0.5,
+  "StartDate": "2019-07-01T00:00:00",
+  "BirthDate": "1991-04-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "14"
+    }
+  ]
 }

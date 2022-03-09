@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2569",
-	"FirstName": "Герман",
-	"MiddleName": "Алексеевич",
-	"LastName": "Филиппов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "210",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "2569",
+  "FirstName": "Герман",
+  "MiddleName": "Алексеевич",
+  "LastName": "Филиппов",
+  "Time": 1,
+  "StartDate": "2019-02-24T00:00:00",
+  "BirthDate": "1952-02-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "210"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "560",
-	"FirstName": "Николай",
-	"MiddleName": "Ефимович",
-	"LastName": "Голёнко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "112",
-			"HeadOfDepartment": false,
-			"Position": "99"
-		}
-	]
+  "Id": "560",
+  "FirstName": "Николай",
+  "MiddleName": "Ефимович",
+  "LastName": "Голёнко",
+  "Time": 0.5,
+  "StartDate": "2019-10-02T00:00:00",
+  "BirthDate": "1982-01-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "99",
+      "Department": "112"
+    }
+  ]
 }

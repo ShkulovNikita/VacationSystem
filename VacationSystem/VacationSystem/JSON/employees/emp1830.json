@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1830",
-	"FirstName": "Сергей",
-	"MiddleName": "Николаевич",
-	"LastName": "Артеменко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "186",
-			"HeadOfDepartment": false,
-			"Position": "41"
-		}
-	]
+  "Id": "1830",
+  "FirstName": "Сергей",
+  "MiddleName": "Николаевич",
+  "LastName": "Артеменко",
+  "Time": 1,
+  "StartDate": "2005-12-12T00:00:00",
+  "BirthDate": "1971-10-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "41",
+      "Department": "186"
+    }
+  ]
 }

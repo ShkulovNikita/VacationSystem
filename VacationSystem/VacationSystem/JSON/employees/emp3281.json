@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3281",
-	"FirstName": "Мария",
-	"MiddleName": "Андреевна",
-	"LastName": "Гайдабрус",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "3281",
+  "FirstName": "Мария",
+  "MiddleName": "Андреевна",
+  "LastName": "Гайдабрус",
+  "Time": 1,
+  "StartDate": "2012-11-03T00:00:00",
+  "BirthDate": "1978-04-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "2"
+    }
+  ]
 }

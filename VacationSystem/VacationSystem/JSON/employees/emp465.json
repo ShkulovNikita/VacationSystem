@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "465",
-	"FirstName": "Виталий",
-	"MiddleName": "Евгеньевич",
-	"LastName": "Галкин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "29",
-			"HeadOfDepartment": false,
-			"Position": "11"
-		}
-	]
+  "Id": "465",
+  "FirstName": "Виталий",
+  "MiddleName": "Евгеньевич",
+  "LastName": "Галкин",
+  "Time": 0.5,
+  "StartDate": "1998-03-01T00:00:00",
+  "BirthDate": "1975-01-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "11",
+      "Department": "29"
+    }
+  ]
 }

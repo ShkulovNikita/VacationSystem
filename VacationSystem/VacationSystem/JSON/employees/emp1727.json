@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1727",
-	"FirstName": "Оксана",
-	"MiddleName": "Витальевна",
-	"LastName": "Козловская",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "14",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "1727",
+  "FirstName": "Оксана",
+  "MiddleName": "Витальевна",
+  "LastName": "Козловская",
+  "Time": 1,
+  "StartDate": "2002-06-17T00:00:00",
+  "BirthDate": "1964-10-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "14"
+    }
+  ]
 }

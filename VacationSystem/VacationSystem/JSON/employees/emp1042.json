@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1042",
-	"FirstName": "Юлия",
-	"MiddleName": "Анатольевна",
-	"LastName": "Никитина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "14",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "1042",
+  "FirstName": "Юлия",
+  "MiddleName": "Анатольевна",
+  "LastName": "Никитина",
+  "Time": 0.5,
+  "StartDate": "2004-02-05T00:00:00",
+  "BirthDate": "1970-01-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "14"
+    }
+  ]
 }

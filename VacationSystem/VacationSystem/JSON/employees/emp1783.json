@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1783",
-	"FirstName": "Вадим",
-	"MiddleName": "Юрьевич",
-	"LastName": "Жвырбля",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "210",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "1783",
+  "FirstName": "Вадим",
+  "MiddleName": "Юрьевич",
+  "LastName": "Жвырбля",
+  "Time": 0.5,
+  "StartDate": "2017-10-12T00:00:00",
+  "BirthDate": "1975-01-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "210"
+    }
+  ]
 }

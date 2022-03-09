@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "250",
-	"FirstName": "Игорь",
-	"MiddleName": "Борисович",
-	"LastName": "Бондарчук",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "46",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "250",
+  "FirstName": "Игорь",
+  "MiddleName": "Борисович",
+  "LastName": "Бондарчук",
+  "Time": 0.5,
+  "StartDate": "1995-12-14T00:00:00",
+  "BirthDate": "1973-06-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "46"
+    }
+  ]
 }

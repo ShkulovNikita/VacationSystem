@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3779",
-	"FirstName": "Марина",
-	"MiddleName": "Александровна",
-	"LastName": "Олейникова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "126",
-			"HeadOfDepartment": false,
-			"Position": "71"
-		}
-	]
+  "Id": "3779",
+  "FirstName": "Марина",
+  "MiddleName": "Александровна",
+  "LastName": "Олейникова",
+  "Time": 0.5,
+  "StartDate": "2003-04-07T00:00:00",
+  "BirthDate": "1980-08-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "71",
+      "Department": "126"
+    }
+  ]
 }

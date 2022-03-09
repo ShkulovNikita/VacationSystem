@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2332",
-	"FirstName": "Татьяна",
-	"MiddleName": "Николаевна",
-	"LastName": "Комарова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "34",
-			"HeadOfDepartment": false,
-			"Position": "220"
-		}
-	]
+  "Id": "2332",
+  "FirstName": "Татьяна",
+  "MiddleName": "Николаевна",
+  "LastName": "Комарова",
+  "Time": 1,
+  "StartDate": "2004-02-01T00:00:00",
+  "BirthDate": "1957-03-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "220",
+      "Department": "34"
+    }
+  ]
 }

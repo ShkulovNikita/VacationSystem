@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3567",
-	"FirstName": "Иван",
-	"MiddleName": "Юрьевич",
-	"LastName": "Кузьменко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "117",
-			"HeadOfDepartment": false,
-			"Position": "24"
-		}
-	]
+  "Id": "3567",
+  "FirstName": "Иван",
+  "MiddleName": "Юрьевич",
+  "LastName": "Кузьменко",
+  "Time": 1,
+  "StartDate": "2020-01-14T00:00:00",
+  "BirthDate": "1958-08-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "24",
+      "Department": "117"
+    }
+  ]
 }

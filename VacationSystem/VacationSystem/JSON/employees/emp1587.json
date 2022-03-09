@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "1587",
-	"FirstName": "Тамара",
-	"MiddleName": "Сергеевна",
-	"LastName": "Твердохлебова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "221",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		},
-		{
-			"Id": "56",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "1587",
+  "FirstName": "Тамара",
+  "MiddleName": "Сергеевна",
+  "LastName": "Твердохлебова",
+  "Time": 2,
+  "StartDate": "2013-05-22T00:00:00",
+  "BirthDate": "1987-12-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "221"
+    },
+    {
+      "Position": "3",
+      "Department": "56"
+    }
+  ]
 }

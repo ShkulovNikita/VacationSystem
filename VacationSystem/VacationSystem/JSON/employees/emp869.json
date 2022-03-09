@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "869",
-	"FirstName": "Маргарита",
-	"MiddleName": "Павловна",
-	"LastName": "Попова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "53",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "869",
+  "FirstName": "Маргарита",
+  "MiddleName": "Павловна",
+  "LastName": "Попова",
+  "Time": 0.5,
+  "StartDate": "1998-09-23T00:00:00",
+  "BirthDate": "1953-08-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "53"
+    }
+  ]
 }

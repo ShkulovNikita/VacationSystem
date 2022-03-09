@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "541",
-	"FirstName": "Людмила",
-	"MiddleName": "Михайловна",
-	"LastName": "Зольникова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "149",
-			"HeadOfDepartment": false,
-			"Position": "18"
-		}
-	]
+  "Id": "541",
+  "FirstName": "Людмила",
+  "MiddleName": "Михайловна",
+  "LastName": "Зольникова",
+  "Time": 1,
+  "StartDate": "2017-08-02T00:00:00",
+  "BirthDate": "1981-01-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "18",
+      "Department": "149"
+    }
+  ]
 }

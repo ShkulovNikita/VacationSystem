@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "629",
-	"FirstName": "Наталья",
-	"MiddleName": "Сергеевна",
-	"LastName": "Полякова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "65",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		}
-	]
+  "Id": "629",
+  "FirstName": "Наталья",
+  "MiddleName": "Сергеевна",
+  "LastName": "Полякова",
+  "Time": 1,
+  "StartDate": "2007-05-02T00:00:00",
+  "BirthDate": "1974-08-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "65"
+    }
+  ]
 }

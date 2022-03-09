@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "545",
-	"FirstName": "Алексей",
-	"MiddleName": "Владимирович",
-	"LastName": "Беляков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "105",
-			"HeadOfDepartment": false,
-			"Position": "88"
-		}
-	]
+  "Id": "545",
+  "FirstName": "Алексей",
+  "MiddleName": "Владимирович",
+  "LastName": "Беляков",
+  "Time": 0.5,
+  "StartDate": "2003-05-14T00:00:00",
+  "BirthDate": "1973-12-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "88",
+      "Department": "105"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2832",
-	"FirstName": "Татьяна",
-	"MiddleName": "Михайловна",
-	"LastName": "Плахова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "66",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "2832",
+  "FirstName": "Татьяна",
+  "MiddleName": "Михайловна",
+  "LastName": "Плахова",
+  "Time": 1,
+  "StartDate": "2001-07-12T00:00:00",
+  "BirthDate": "1980-04-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "66"
+    }
+  ]
 }

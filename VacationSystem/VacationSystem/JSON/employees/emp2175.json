@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2175",
-	"FirstName": "Марина",
-	"MiddleName": "Анатольевна",
-	"LastName": "Миронович",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "9",
-			"HeadOfDepartment": false,
-			"Position": "18"
-		}
-	]
+  "Id": "2175",
+  "FirstName": "Марина",
+  "MiddleName": "Анатольевна",
+  "LastName": "Миронович",
+  "Time": 0.5,
+  "StartDate": "2014-02-03T00:00:00",
+  "BirthDate": "1973-02-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "18",
+      "Department": "9"
+    }
+  ]
 }

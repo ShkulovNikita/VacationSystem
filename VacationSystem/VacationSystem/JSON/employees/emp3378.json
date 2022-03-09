@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3378",
-	"FirstName": "Олег",
-	"MiddleName": "Викторович",
-	"LastName": "Дударев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "1",
-			"HeadOfDepartment": false,
-			"Position": "24"
-		}
-	]
+  "Id": "3378",
+  "FirstName": "Олег",
+  "MiddleName": "Викторович",
+  "LastName": "Дударев",
+  "Time": 0.5,
+  "StartDate": "2021-10-06T00:00:00",
+  "BirthDate": "1980-12-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "24",
+      "Department": "1"
+    }
+  ]
 }

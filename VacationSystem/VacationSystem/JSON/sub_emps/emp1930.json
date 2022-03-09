@@ -1,0 +1,23 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "1930",
+      "FirstName": "Юрий",
+      "MiddleName": "Александрович",
+      "LastName": "Чурсин",
+      "Time": 2,
+      "StartDate": "2010-12-22T00:00:00",
+      "BirthDate": "1968-09-13T00:00:00",
+      "Positions": [
+        {
+          "Position": "2",
+          "Department": "236"
+        },
+        {
+          "Position": "3",
+          "Department": "2"
+        }
+      ]
+    }
+  ]
+}

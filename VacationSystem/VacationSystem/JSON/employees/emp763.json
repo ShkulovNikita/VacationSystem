@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "763",
-	"FirstName": "Олег",
-	"MiddleName": "Михайлович",
-	"LastName": "Коровин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "112",
-			"HeadOfDepartment": false,
-			"Position": "128"
-		}
-	]
+  "Id": "763",
+  "FirstName": "Олег",
+  "MiddleName": "Михайлович",
+  "LastName": "Коровин",
+  "Time": 1,
+  "StartDate": "2015-08-17T00:00:00",
+  "BirthDate": "1983-05-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "128",
+      "Department": "112"
+    }
+  ]
 }

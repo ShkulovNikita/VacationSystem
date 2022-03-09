@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3790",
-	"FirstName": "Николай",
-	"MiddleName": "Викторович",
-	"LastName": "Сусоев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "46",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "3790",
+  "FirstName": "Николай",
+  "MiddleName": "Викторович",
+  "LastName": "Сусоев",
+  "Time": 0.5,
+  "StartDate": "2006-09-07T00:00:00",
+  "BirthDate": "1969-07-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "46"
+    }
+  ]
 }

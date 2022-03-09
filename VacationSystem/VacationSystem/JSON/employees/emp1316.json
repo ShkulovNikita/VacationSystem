@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1316",
-	"FirstName": "Татьяна",
-	"MiddleName": "Сергеевна",
-	"LastName": "Цыганкова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "99",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "1316",
+  "FirstName": "Татьяна",
+  "MiddleName": "Сергеевна",
+  "LastName": "Цыганкова",
+  "Time": 1,
+  "StartDate": "1995-02-19T00:00:00",
+  "BirthDate": "1955-02-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "99"
+    }
+  ]
 }

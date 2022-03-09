@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "473",
-	"FirstName": "Геннадий",
-	"MiddleName": "Петрович",
-	"LastName": "Кудинов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "112",
-			"HeadOfDepartment": false,
-			"Position": "101"
-		}
-	]
+  "Id": "473",
+  "FirstName": "Геннадий",
+  "MiddleName": "Петрович",
+  "LastName": "Кудинов",
+  "Time": 1,
+  "StartDate": "2008-01-21T00:00:00",
+  "BirthDate": "1971-05-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "101",
+      "Department": "112"
+    }
+  ]
 }

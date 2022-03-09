@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2831",
-	"FirstName": "Наталья",
-	"MiddleName": "Игоревна",
-	"LastName": "Мурзина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "46",
-			"HeadOfDepartment": false,
-			"Position": "0"
-		}
-	]
+  "Id": "2831",
+  "FirstName": "Наталья",
+  "MiddleName": "Игоревна",
+  "LastName": "Мурзина",
+  "Time": 0.5,
+  "StartDate": "2019-06-24T00:00:00",
+  "BirthDate": "1980-02-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "0",
+      "Department": "46"
+    }
+  ]
 }

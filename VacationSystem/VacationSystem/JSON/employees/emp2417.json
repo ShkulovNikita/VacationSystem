@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2417",
-	"FirstName": "Виктор",
-	"MiddleName": "Васильевич",
-	"LastName": "Борзяк",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "64",
-			"HeadOfDepartment": false,
-			"Position": "103"
-		}
-	]
+  "Id": "2417",
+  "FirstName": "Виктор",
+  "MiddleName": "Васильевич",
+  "LastName": "Борзяк",
+  "Time": 0.5,
+  "StartDate": "2006-02-19T00:00:00",
+  "BirthDate": "1969-08-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "103",
+      "Department": "64"
+    }
+  ]
 }

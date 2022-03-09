@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3227",
-	"FirstName": "Алексей",
-	"MiddleName": "Анатольевич",
-	"LastName": "Ведягин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "51",
-			"HeadOfDepartment": false,
-			"Position": "56"
-		}
-	]
+  "Id": "3227",
+  "FirstName": "Алексей",
+  "MiddleName": "Анатольевич",
+  "LastName": "Ведягин",
+  "Time": 1,
+  "StartDate": "2006-09-07T00:00:00",
+  "BirthDate": "1962-10-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "56",
+      "Department": "51"
+    }
+  ]
 }

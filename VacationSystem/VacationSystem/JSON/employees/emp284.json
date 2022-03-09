@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "284",
-	"FirstName": "Вера",
-	"MiddleName": "Федоровна",
-	"LastName": "Минина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "111",
-			"HeadOfDepartment": false,
-			"Position": "69"
-		}
-	]
+  "Id": "284",
+  "FirstName": "Вера",
+  "MiddleName": "Федоровна",
+  "LastName": "Минина",
+  "Time": 0.5,
+  "StartDate": "2011-11-15T00:00:00",
+  "BirthDate": "1985-05-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "69",
+      "Department": "111"
+    }
+  ]
 }

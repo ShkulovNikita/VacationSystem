@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "596",
-	"FirstName": "Николай",
-	"MiddleName": "Петрович",
-	"LastName": "Кириллов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "14",
-			"HeadOfDepartment": false,
-			"Position": "91"
-		}
-	]
+  "Id": "596",
+  "FirstName": "Николай",
+  "MiddleName": "Петрович",
+  "LastName": "Кириллов",
+  "Time": 1,
+  "StartDate": "2015-03-17T00:00:00",
+  "BirthDate": "1960-08-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "91",
+      "Department": "14"
+    }
+  ]
 }

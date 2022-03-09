@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "67",
-	"FirstName": "Александр",
-	"MiddleName": "Сергеевич",
-	"LastName": "Рогов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "41",
-			"HeadOfDepartment": false,
-			"Position": "25"
-		},
-		{
-			"Id": "42",
-			"HeadOfDepartment": false,
-			"Position": "26"
-		}
-	]
+  "Id": "67",
+  "FirstName": "Александр",
+  "MiddleName": "Сергеевич",
+  "LastName": "Рогов",
+  "Time": 1,
+  "StartDate": "1984-01-19T00:00:00",
+  "BirthDate": "1963-05-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "25",
+      "Department": "41"
+    },
+    {
+      "Position": "26",
+      "Department": "42"
+    }
+  ]
 }

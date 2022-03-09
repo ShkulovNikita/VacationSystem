@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3767",
-	"FirstName": "Чжэн",
-	"MiddleName": "",
-	"LastName": "Цзян",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "36",
-			"HeadOfDepartment": false,
-			"Position": "24"
-		}
-	]
+  "Id": "3767",
+  "FirstName": "Чжэн",
+  "MiddleName": "",
+  "LastName": "Цзян",
+  "Time": 0.5,
+  "StartDate": "2002-12-22T00:00:00",
+  "BirthDate": "1981-06-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "24",
+      "Department": "36"
+    }
+  ]
 }

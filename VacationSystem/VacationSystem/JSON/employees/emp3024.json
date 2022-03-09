@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3024",
-	"FirstName": "Юлия",
-	"MiddleName": "Валериевна",
-	"LastName": "Майорова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "77",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "3024",
+  "FirstName": "Юлия",
+  "MiddleName": "Валериевна",
+  "LastName": "Майорова",
+  "Time": 0.5,
+  "StartDate": "2013-10-22T00:00:00",
+  "BirthDate": "1962-02-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "77"
+    }
+  ]
 }

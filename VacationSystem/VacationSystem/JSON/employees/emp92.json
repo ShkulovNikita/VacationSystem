@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "92",
-	"FirstName": "Анна",
-	"MiddleName": "Ивановна",
-	"LastName": "Козельская",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "56",
-			"HeadOfDepartment": false,
-			"Position": "24"
-		}
-	]
+  "Id": "92",
+  "FirstName": "Анна",
+  "MiddleName": "Ивановна",
+  "LastName": "Козельская",
+  "Time": 1,
+  "StartDate": "2011-07-15T00:00:00",
+  "BirthDate": "1966-04-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "24",
+      "Department": "56"
+    }
+  ]
 }

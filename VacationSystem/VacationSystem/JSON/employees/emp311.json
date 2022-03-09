@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "311",
-	"FirstName": "Анна",
-	"MiddleName": "Валерьевна",
-	"LastName": "Таловская",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "1",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "311",
+  "FirstName": "Анна",
+  "MiddleName": "Валерьевна",
+  "LastName": "Таловская",
+  "Time": 0.5,
+  "StartDate": "2000-02-13T00:00:00",
+  "BirthDate": "1973-04-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "1"
+    }
+  ]
 }

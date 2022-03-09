@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3018",
-	"FirstName": "Ханс Михаэль Вильхельм Адольф",
-	"MiddleName": "",
-	"LastName": "Крёнинг",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "210",
-			"HeadOfDepartment": false,
-			"Position": "41"
-		}
-	]
+  "Id": "3018",
+  "FirstName": "Ханс Михаэль Вильхельм Адольф",
+  "MiddleName": "",
+  "LastName": "Крёнинг",
+  "Time": 1,
+  "StartDate": "2014-05-07T00:00:00",
+  "BirthDate": "1993-08-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "41",
+      "Department": "210"
+    }
+  ]
 }

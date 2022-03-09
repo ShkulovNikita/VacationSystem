@@ -1,0 +1,64 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "2475",
+      "FirstName": "Вячеслав",
+      "MiddleName": "Владимирович",
+      "LastName": "Данилов",
+      "Time": 1,
+      "StartDate": "1990-03-23T00:00:00",
+      "BirthDate": "1959-09-24T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "244"
+        }
+      ]
+    },
+    {
+      "Id": "2633",
+      "FirstName": "Дмитрий",
+      "MiddleName": "Юрьевич",
+      "LastName": "Колпащиков",
+      "Time": 0.5,
+      "StartDate": "1993-03-04T00:00:00",
+      "BirthDate": "1971-10-01T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "244"
+        }
+      ]
+    },
+    {
+      "Id": "2725",
+      "FirstName": "Никита",
+      "MiddleName": "Витальевич",
+      "LastName": "Лаптев",
+      "Time": 1,
+      "StartDate": "2020-08-23T00:00:00",
+      "BirthDate": "1982-09-09T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "244"
+        }
+      ]
+    },
+    {
+      "Id": "3445",
+      "FirstName": "Евгения",
+      "MiddleName": "Юрьевна",
+      "LastName": "Швецова",
+      "Time": 1,
+      "StartDate": "1991-02-08T00:00:00",
+      "BirthDate": "1958-10-04T00:00:00",
+      "Positions": [
+        {
+          "Position": "6",
+          "Department": "244"
+        }
+      ]
+    }
+  ]
+}

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2096",
-	"FirstName": "Александр",
-	"MiddleName": "Георгиевич",
-	"LastName": "Додэко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "238",
-			"HeadOfDepartment": false,
-			"Position": "114"
-		}
-	]
+  "Id": "2096",
+  "FirstName": "Александр",
+  "MiddleName": "Георгиевич",
+  "LastName": "Додэко",
+  "Time": 1,
+  "StartDate": "2008-08-05T00:00:00",
+  "BirthDate": "1967-12-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "114",
+      "Department": "238"
+    }
+  ]
 }

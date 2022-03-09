@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2041",
-	"FirstName": "Татьяна",
-	"MiddleName": "Никифоровна",
-	"LastName": "Задачина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "46",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "2041",
+  "FirstName": "Татьяна",
+  "MiddleName": "Никифоровна",
+  "LastName": "Задачина",
+  "Time": 1,
+  "StartDate": "2003-11-02T00:00:00",
+  "BirthDate": "1966-09-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "46"
+    }
+  ]
 }

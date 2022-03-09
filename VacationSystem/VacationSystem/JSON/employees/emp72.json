@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "72",
-	"FirstName": "Александр",
-	"MiddleName": "Даниилович",
-	"LastName": "Вильнин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "26",
-			"HeadOfDepartment": false,
-			"Position": "7"
-		}
-	]
+  "Id": "72",
+  "FirstName": "Александр",
+  "MiddleName": "Даниилович",
+  "LastName": "Вильнин",
+  "Time": 0.5,
+  "StartDate": "2004-06-01T00:00:00",
+  "BirthDate": "1983-10-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "7",
+      "Department": "26"
+    }
+  ]
 }

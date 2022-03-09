@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3261",
-	"FirstName": "Ирина",
-	"MiddleName": "Анатольевна",
-	"LastName": "Павлова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "14",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "3261",
+  "FirstName": "Ирина",
+  "MiddleName": "Анатольевна",
+  "LastName": "Павлова",
+  "Time": 1,
+  "StartDate": "2002-08-21T00:00:00",
+  "BirthDate": "1969-02-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "14"
+    }
+  ]
 }

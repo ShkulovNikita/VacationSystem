@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2485",
-	"FirstName": "Никита",
-	"MiddleName": "Владимирович",
-	"LastName": "Турушев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "58",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "2485",
+  "FirstName": "Никита",
+  "MiddleName": "Владимирович",
+  "LastName": "Турушев",
+  "Time": 0.5,
+  "StartDate": "2008-09-22T00:00:00",
+  "BirthDate": "1977-05-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "58"
+    }
+  ]
 }

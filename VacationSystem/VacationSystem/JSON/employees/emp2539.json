@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2539",
-	"FirstName": "Ирина",
-	"MiddleName": "Олеговна",
-	"LastName": "Леонова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "9",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "2539",
+  "FirstName": "Ирина",
+  "MiddleName": "Олеговна",
+  "LastName": "Леонова",
+  "Time": 1,
+  "StartDate": "2013-05-10T00:00:00",
+  "BirthDate": "1986-12-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "9"
+    }
+  ]
 }

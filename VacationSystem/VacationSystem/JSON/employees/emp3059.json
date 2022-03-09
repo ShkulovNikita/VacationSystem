@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3059",
-	"FirstName": "Варвара",
-	"MiddleName": "Александровна",
-	"LastName": "Юркина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "117",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "3059",
+  "FirstName": "Варвара",
+  "MiddleName": "Александровна",
+  "LastName": "Юркина",
+  "Time": 1,
+  "StartDate": "1997-04-13T00:00:00",
+  "BirthDate": "1967-09-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "117"
+    }
+  ]
 }

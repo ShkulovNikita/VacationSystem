@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1973",
-	"FirstName": "Максим",
-	"MiddleName": "Валериевич",
-	"LastName": "Копнов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "26",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1973",
+  "FirstName": "Максим",
+  "MiddleName": "Валериевич",
+  "LastName": "Копнов",
+  "Time": 1,
+  "StartDate": "2015-08-18T00:00:00",
+  "BirthDate": "1990-04-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "26"
+    }
+  ]
 }

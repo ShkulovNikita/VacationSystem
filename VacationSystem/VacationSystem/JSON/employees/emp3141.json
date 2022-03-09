@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3141",
-	"FirstName": "Галина",
-	"MiddleName": "Владимировна",
-	"LastName": "Скорик",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "10"
-		}
-	]
+  "Id": "3141",
+  "FirstName": "Галина",
+  "MiddleName": "Владимировна",
+  "LastName": "Скорик",
+  "Time": 1,
+  "StartDate": "2012-01-11T00:00:00",
+  "BirthDate": "1985-02-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "10",
+      "Department": "2"
+    }
+  ]
 }

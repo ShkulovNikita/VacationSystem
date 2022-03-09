@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "94",
-	"FirstName": "Константин",
-	"MiddleName": "Константинович",
-	"LastName": "Кузеванов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "1",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		}
-	]
+  "Id": "94",
+  "FirstName": "Константин",
+  "MiddleName": "Константинович",
+  "LastName": "Кузеванов",
+  "Time": 1,
+  "StartDate": "2015-08-24T00:00:00",
+  "BirthDate": "1985-02-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "1"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3023",
-	"FirstName": "Светлана",
-	"MiddleName": "Феодосьевна",
-	"LastName": "Ерошова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "85",
-			"HeadOfDepartment": false,
-			"Position": "55"
-		}
-	]
+  "Id": "3023",
+  "FirstName": "Светлана",
+  "MiddleName": "Феодосьевна",
+  "LastName": "Ерошова",
+  "Time": 1,
+  "StartDate": "2011-08-14T00:00:00",
+  "BirthDate": "1988-05-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "55",
+      "Department": "85"
+    }
+  ]
 }

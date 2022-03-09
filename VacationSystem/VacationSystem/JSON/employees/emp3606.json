@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3606",
-	"FirstName": "Ирина",
-	"MiddleName": "Александровна",
-	"LastName": "Моисеева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "96",
-			"HeadOfDepartment": false,
-			"Position": "86"
-		}
-	]
+  "Id": "3606",
+  "FirstName": "Ирина",
+  "MiddleName": "Александровна",
+  "LastName": "Моисеева",
+  "Time": 1,
+  "StartDate": "2016-02-06T00:00:00",
+  "BirthDate": "1978-10-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "86",
+      "Department": "96"
+    }
+  ]
 }

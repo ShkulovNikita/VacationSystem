@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2461",
-	"FirstName": "Наталья",
-	"MiddleName": "Викторовна",
-	"LastName": "Пилипец",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "16",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "2461",
+  "FirstName": "Наталья",
+  "MiddleName": "Викторовна",
+  "LastName": "Пилипец",
+  "Time": 1,
+  "StartDate": "1998-10-21T00:00:00",
+  "BirthDate": "1977-08-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "16"
+    }
+  ]
 }

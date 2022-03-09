@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1489",
-	"FirstName": "Юрий",
-	"MiddleName": "Владимирович",
-	"LastName": "Коц",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "187",
-			"HeadOfDepartment": false,
-			"Position": "114"
-		}
-	]
+  "Id": "1489",
+  "FirstName": "Юрий",
+  "MiddleName": "Владимирович",
+  "LastName": "Коц",
+  "Time": 1,
+  "StartDate": "2021-12-02T00:00:00",
+  "BirthDate": "1984-10-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "114",
+      "Department": "187"
+    }
+  ]
 }

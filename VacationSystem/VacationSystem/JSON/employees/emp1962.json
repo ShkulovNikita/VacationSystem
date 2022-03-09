@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1962",
-	"FirstName": "Олеся",
-	"MiddleName": "Юрьевна",
-	"LastName": "Абрамова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "47",
-			"HeadOfDepartment": false,
-			"Position": "9"
-		}
-	]
+  "Id": "1962",
+  "FirstName": "Олеся",
+  "MiddleName": "Юрьевна",
+  "LastName": "Абрамова",
+  "Time": 1,
+  "StartDate": "2002-01-04T00:00:00",
+  "BirthDate": "1976-12-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "9",
+      "Department": "47"
+    }
+  ]
 }

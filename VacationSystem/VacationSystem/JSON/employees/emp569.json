@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "569",
-	"FirstName": "Людмила",
-	"MiddleName": "Геннадьевна",
-	"LastName": "Ананьева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "1",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "569",
+  "FirstName": "Людмила",
+  "MiddleName": "Геннадьевна",
+  "LastName": "Ананьева",
+  "Time": 1,
+  "StartDate": "2006-12-16T00:00:00",
+  "BirthDate": "1958-01-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "1"
+    }
+  ]
 }

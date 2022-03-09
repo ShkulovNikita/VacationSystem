@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1520",
-	"FirstName": "Александр",
-	"MiddleName": "Борисович",
-	"LastName": "Панасенко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "72",
-			"HeadOfDepartment": false,
-			"Position": "184"
-		}
-	]
+  "Id": "1520",
+  "FirstName": "Александр",
+  "MiddleName": "Борисович",
+  "LastName": "Панасенко",
+  "Time": 0.5,
+  "StartDate": "2010-06-11T00:00:00",
+  "BirthDate": "1979-08-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "184",
+      "Department": "72"
+    }
+  ]
 }

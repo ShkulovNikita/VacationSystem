@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "654",
-	"FirstName": "Надежда",
-	"MiddleName": "Сергеевна",
-	"LastName": "Лещикова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "165",
-			"HeadOfDepartment": false,
-			"Position": "106"
-		}
-	]
+  "Id": "654",
+  "FirstName": "Надежда",
+  "MiddleName": "Сергеевна",
+  "LastName": "Лещикова",
+  "Time": 0.5,
+  "StartDate": "2005-07-15T00:00:00",
+  "BirthDate": "1980-09-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "106",
+      "Department": "165"
+    }
+  ]
 }

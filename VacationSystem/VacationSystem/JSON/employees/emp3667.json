@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3667",
-	"FirstName": "Виктор",
-	"MiddleName": "Анатольевич",
-	"LastName": "Слесарев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "16",
-			"HeadOfDepartment": false,
-			"Position": "53"
-		}
-	]
+  "Id": "3667",
+  "FirstName": "Виктор",
+  "MiddleName": "Анатольевич",
+  "LastName": "Слесарев",
+  "Time": 1,
+  "StartDate": "2019-06-19T00:00:00",
+  "BirthDate": "1988-03-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "53",
+      "Department": "16"
+    }
+  ]
 }

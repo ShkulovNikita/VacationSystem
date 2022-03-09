@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2024",
-	"FirstName": "Екатерина",
-	"MiddleName": "Петровна",
-	"LastName": "Зеленецкая",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "17",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		}
-	]
+  "Id": "2024",
+  "FirstName": "Екатерина",
+  "MiddleName": "Петровна",
+  "LastName": "Зеленецкая",
+  "Time": 1,
+  "StartDate": "2018-12-02T00:00:00",
+  "BirthDate": "1983-08-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "17"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "308",
-	"FirstName": "Евгений",
-	"MiddleName": "Фидельевич",
-	"LastName": "Токач",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "68",
-			"HeadOfDepartment": false,
-			"Position": "81"
-		}
-	]
+  "Id": "308",
+  "FirstName": "Евгений",
+  "MiddleName": "Фидельевич",
+  "LastName": "Токач",
+  "Time": 1,
+  "StartDate": "2009-07-11T00:00:00",
+  "BirthDate": "1956-06-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "81",
+      "Department": "68"
+    }
+  ]
 }

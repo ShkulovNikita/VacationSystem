@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2618",
-	"FirstName": "Олег",
-	"MiddleName": "Юрьевич",
-	"LastName": "Кулагин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "72",
-			"HeadOfDepartment": false,
-			"Position": "46"
-		}
-	]
+  "Id": "2618",
+  "FirstName": "Олег",
+  "MiddleName": "Юрьевич",
+  "LastName": "Кулагин",
+  "Time": 1,
+  "StartDate": "2011-02-13T00:00:00",
+  "BirthDate": "1987-07-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "46",
+      "Department": "72"
+    }
+  ]
 }

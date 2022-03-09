@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2065",
-	"FirstName": "Лидия",
-	"MiddleName": "Борисовна",
-	"LastName": "Власова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "3",
-			"HeadOfDepartment": false,
-			"Position": "7"
-		}
-	]
+  "Id": "2065",
+  "FirstName": "Лидия",
+  "MiddleName": "Борисовна",
+  "LastName": "Власова",
+  "Time": 0.5,
+  "StartDate": "2011-03-10T00:00:00",
+  "BirthDate": "1966-07-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "7",
+      "Department": "3"
+    }
+  ]
 }

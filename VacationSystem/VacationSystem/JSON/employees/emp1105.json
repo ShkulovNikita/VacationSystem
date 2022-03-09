@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "1105",
-	"FirstName": "Людмила",
-	"MiddleName": "Тимофеевна",
-	"LastName": "Сидоркина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "91",
-			"HeadOfDepartment": false,
-			"Position": "150"
-		},
-		{
-			"Id": "91",
-			"HeadOfDepartment": false,
-			"Position": "20"
-		}
-	]
+  "Id": "1105",
+  "FirstName": "Людмила",
+  "MiddleName": "Тимофеевна",
+  "LastName": "Сидоркина",
+  "Time": 1,
+  "StartDate": "2003-09-01T00:00:00",
+  "BirthDate": "1982-08-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "150",
+      "Department": "91"
+    },
+    {
+      "Position": "20",
+      "Department": "91"
+    }
+  ]
 }

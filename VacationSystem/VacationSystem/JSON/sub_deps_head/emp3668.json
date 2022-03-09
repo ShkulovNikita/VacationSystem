@@ -1,0 +1,10 @@
+﻿{
+  "Departments": [
+    {
+      "Id": "230",
+      "Name": "Ректорат",
+      "Head": "3668",
+      "HeadDepartment": null
+    }
+  ]
+}

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "618",
-	"FirstName": "Николай",
-	"MiddleName": "Викторович",
-	"LastName": "Муха",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "50",
-			"HeadOfDepartment": false,
-			"Position": "117"
-		}
-	]
+  "Id": "618",
+  "FirstName": "Николай",
+  "MiddleName": "Викторович",
+  "LastName": "Муха",
+  "Time": 1,
+  "StartDate": "1994-09-09T00:00:00",
+  "BirthDate": "1956-02-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "117",
+      "Department": "50"
+    }
+  ]
 }

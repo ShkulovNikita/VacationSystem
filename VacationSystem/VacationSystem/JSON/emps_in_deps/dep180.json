@@ -1,0 +1,64 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "887",
+      "FirstName": "Елена",
+      "MiddleName": "Анатольевна",
+      "LastName": "Марченко",
+      "Time": 1,
+      "StartDate": "2016-07-21T00:00:00",
+      "BirthDate": "1954-04-12T00:00:00",
+      "Positions": [
+        {
+          "Position": "20",
+          "Department": "180"
+        }
+      ]
+    },
+    {
+      "Id": "1860",
+      "FirstName": "Дамир",
+      "MiddleName": "Шамильевич",
+      "LastName": "Айбатов",
+      "Time": 0.5,
+      "StartDate": "2007-08-04T00:00:00",
+      "BirthDate": "1967-01-21T00:00:00",
+      "Positions": [
+        {
+          "Position": "212",
+          "Department": "180"
+        }
+      ]
+    },
+    {
+      "Id": "2989",
+      "FirstName": "Аркадий",
+      "MiddleName": "Николаевич",
+      "LastName": "Петров",
+      "Time": 1,
+      "StartDate": "2019-01-10T00:00:00",
+      "BirthDate": "1987-10-14T00:00:00",
+      "Positions": [
+        {
+          "Position": "64",
+          "Department": "180"
+        }
+      ]
+    },
+    {
+      "Id": "3019",
+      "FirstName": "Дмитрий",
+      "MiddleName": "Рудольфович",
+      "LastName": "Еговцев",
+      "Time": 0.5,
+      "StartDate": "2013-08-13T00:00:00",
+      "BirthDate": "1991-08-06T00:00:00",
+      "Positions": [
+        {
+          "Position": "79",
+          "Department": "180"
+        }
+      ]
+    }
+  ]
+}

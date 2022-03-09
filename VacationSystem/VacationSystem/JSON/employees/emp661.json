@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "661",
-	"FirstName": "Наталия",
-	"MiddleName": "Николаевна",
-	"LastName": "Симоненко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "1",
-			"HeadOfDepartment": false,
-			"Position": "53"
-		}
-	]
+  "Id": "661",
+  "FirstName": "Наталия",
+  "MiddleName": "Николаевна",
+  "LastName": "Симоненко",
+  "Time": 0.5,
+  "StartDate": "2016-10-11T00:00:00",
+  "BirthDate": "1990-01-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "53",
+      "Department": "1"
+    }
+  ]
 }

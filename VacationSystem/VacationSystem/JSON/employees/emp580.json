@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "580",
-	"FirstName": "Николай",
-	"MiddleName": "Григорьевич",
-	"LastName": "Бутенко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "50",
-			"HeadOfDepartment": false,
-			"Position": "88"
-		}
-	]
+  "Id": "580",
+  "FirstName": "Николай",
+  "MiddleName": "Григорьевич",
+  "LastName": "Бутенко",
+  "Time": 0.5,
+  "StartDate": "2018-06-17T00:00:00",
+  "BirthDate": "1983-11-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "88",
+      "Department": "50"
+    }
+  ]
 }

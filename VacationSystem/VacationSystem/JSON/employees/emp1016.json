@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1016",
-	"FirstName": "Анна",
-	"MiddleName": "Сергеевна",
-	"LastName": "Демихова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "99",
-			"HeadOfDepartment": false,
-			"Position": "38"
-		}
-	]
+  "Id": "1016",
+  "FirstName": "Анна",
+  "MiddleName": "Сергеевна",
+  "LastName": "Демихова",
+  "Time": 0.5,
+  "StartDate": "2003-10-10T00:00:00",
+  "BirthDate": "1952-01-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "38",
+      "Department": "99"
+    }
+  ]
 }

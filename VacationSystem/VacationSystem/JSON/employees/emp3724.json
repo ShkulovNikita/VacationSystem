@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3724",
-	"FirstName": "Ирина",
-	"MiddleName": "Ивановна",
-	"LastName": "Низамова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "107",
-			"HeadOfDepartment": false,
-			"Position": "262"
-		}
-	]
+  "Id": "3724",
+  "FirstName": "Ирина",
+  "MiddleName": "Ивановна",
+  "LastName": "Низамова",
+  "Time": 0.5,
+  "StartDate": "2012-05-17T00:00:00",
+  "BirthDate": "1980-06-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "262",
+      "Department": "107"
+    }
+  ]
 }

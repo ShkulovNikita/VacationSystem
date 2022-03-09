@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "124",
-	"FirstName": "Станислав",
-	"MiddleName": "Александрович",
-	"LastName": "Янковский",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "39",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "124",
+  "FirstName": "Станислав",
+  "MiddleName": "Александрович",
+  "LastName": "Янковский",
+  "Time": 1,
+  "StartDate": "2008-08-10T00:00:00",
+  "BirthDate": "1975-02-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "39"
+    }
+  ]
 }

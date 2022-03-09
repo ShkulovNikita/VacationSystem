@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2484",
-	"FirstName": "Борис",
-	"MiddleName": "Сергеевич",
-	"LastName": "Панасенко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "72",
-			"HeadOfDepartment": false,
-			"Position": "184"
-		}
-	]
+  "Id": "2484",
+  "FirstName": "Борис",
+  "MiddleName": "Сергеевич",
+  "LastName": "Панасенко",
+  "Time": 1,
+  "StartDate": "2015-05-23T00:00:00",
+  "BirthDate": "1989-07-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "184",
+      "Department": "72"
+    }
+  ]
 }

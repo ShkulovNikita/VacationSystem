@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "172",
-	"FirstName": "Татьяна",
-	"MiddleName": "Николаевна",
-	"LastName": "Кудрина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "86",
-			"HeadOfDepartment": false,
-			"Position": "57"
-		}
-	]
+  "Id": "172",
+  "FirstName": "Татьяна",
+  "MiddleName": "Николаевна",
+  "LastName": "Кудрина",
+  "Time": 1,
+  "StartDate": "1988-10-06T00:00:00",
+  "BirthDate": "1958-06-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "57",
+      "Department": "86"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1544",
-	"FirstName": "Иван",
-	"MiddleName": "Андреевич",
-	"LastName": "Тутов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "6",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "1544",
+  "FirstName": "Иван",
+  "MiddleName": "Андреевич",
+  "LastName": "Тутов",
+  "Time": 1,
+  "StartDate": "2009-12-21T00:00:00",
+  "BirthDate": "1987-07-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "6"
+    }
+  ]
 }

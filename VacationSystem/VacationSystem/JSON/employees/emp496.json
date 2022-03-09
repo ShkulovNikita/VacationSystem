@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "496",
-	"FirstName": "Игорь",
-	"MiddleName": "Геннадьевич",
-	"LastName": "Видяев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "14",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "496",
+  "FirstName": "Игорь",
+  "MiddleName": "Геннадьевич",
+  "LastName": "Видяев",
+  "Time": 0.5,
+  "StartDate": "2009-02-01T00:00:00",
+  "BirthDate": "1967-11-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "14"
+    }
+  ]
 }

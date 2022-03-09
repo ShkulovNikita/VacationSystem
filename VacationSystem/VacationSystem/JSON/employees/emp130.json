@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "130",
-	"FirstName": "Юлия",
-	"MiddleName": "Александровна",
-	"LastName": "Шинкарева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "9",
-			"HeadOfDepartment": false,
-			"Position": "18"
-		}
-	]
+  "Id": "130",
+  "FirstName": "Юлия",
+  "MiddleName": "Александровна",
+  "LastName": "Шинкарева",
+  "Time": 1,
+  "StartDate": "2017-05-09T00:00:00",
+  "BirthDate": "1988-02-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "18",
+      "Department": "9"
+    }
+  ]
 }

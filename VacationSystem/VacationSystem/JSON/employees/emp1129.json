@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1129",
-	"FirstName": "Иван",
-	"MiddleName": "Петрович",
-	"LastName": "Чучалин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "8",
-			"HeadOfDepartment": false,
-			"Position": "91"
-		}
-	]
+  "Id": "1129",
+  "FirstName": "Иван",
+  "MiddleName": "Петрович",
+  "LastName": "Чучалин",
+  "Time": 0.5,
+  "StartDate": "2010-09-21T00:00:00",
+  "BirthDate": "1953-05-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "91",
+      "Department": "8"
+    }
+  ]
 }

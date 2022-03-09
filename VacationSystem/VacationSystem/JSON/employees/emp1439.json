@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1439",
-	"FirstName": "Семен",
-	"MiddleName": "Петрович",
-	"LastName": "Карпов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "53",
-			"HeadOfDepartment": false,
-			"Position": "2"
-		}
-	]
+  "Id": "1439",
+  "FirstName": "Семен",
+  "MiddleName": "Петрович",
+  "LastName": "Карпов",
+  "Time": 0.5,
+  "StartDate": "2015-11-03T00:00:00",
+  "BirthDate": "1978-10-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "2",
+      "Department": "53"
+    }
+  ]
 }

@@ -1,0 +1,34 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "2987",
+      "FirstName": "Дмитрий",
+      "MiddleName": "Юрьевич",
+      "LastName": "Дмитриев",
+      "Time": 0.5,
+      "StartDate": "2008-05-18T00:00:00",
+      "BirthDate": "1972-10-11T00:00:00",
+      "Positions": [
+        {
+          "Position": "257",
+          "Department": "260"
+        }
+      ]
+    },
+    {
+      "Id": "3197",
+      "FirstName": "Игорь",
+      "MiddleName": "Леонидович",
+      "LastName": "Боровков",
+      "Time": 1,
+      "StartDate": "2016-03-02T00:00:00",
+      "BirthDate": "1992-02-24T00:00:00",
+      "Positions": [
+        {
+          "Position": "263",
+          "Department": "260"
+        }
+      ]
+    }
+  ]
+}

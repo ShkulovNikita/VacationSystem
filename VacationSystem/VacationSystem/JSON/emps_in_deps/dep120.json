@@ -1,0 +1,19 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "324",
+      "FirstName": "Кайрат",
+      "MiddleName": "Камитович",
+      "LastName": "Манабаев",
+      "Time": 1.5,
+      "StartDate": "1999-03-08T00:00:00",
+      "BirthDate": "1973-04-20T00:00:00",
+      "Positions": [
+        {
+          "Position": "45",
+          "Department": "120"
+        }
+      ]
+    }
+  ]
+}

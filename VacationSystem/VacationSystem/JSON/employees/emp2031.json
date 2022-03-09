@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2031",
-	"FirstName": "Лидия",
-	"MiddleName": "Константиновна",
-	"LastName": "Госсен",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "171",
-			"HeadOfDepartment": false,
-			"Position": "222"
-		}
-	]
+  "Id": "2031",
+  "FirstName": "Лидия",
+  "MiddleName": "Константиновна",
+  "LastName": "Госсен",
+  "Time": 1,
+  "StartDate": "2015-03-12T00:00:00",
+  "BirthDate": "1960-04-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "222",
+      "Department": "171"
+    }
+  ]
 }

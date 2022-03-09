@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "330",
-	"FirstName": "Наталья",
-	"MiddleName": "Владимировна",
-	"LastName": "Авдеева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "121",
-			"HeadOfDepartment": false,
-			"Position": "25"
-		}
-	]
+  "Id": "330",
+  "FirstName": "Наталья",
+  "MiddleName": "Владимировна",
+  "LastName": "Авдеева",
+  "Time": 1,
+  "StartDate": "1975-06-20T00:00:00",
+  "BirthDate": "1955-03-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "25",
+      "Department": "121"
+    }
+  ]
 }

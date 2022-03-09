@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "633",
-	"FirstName": "Нина",
-	"MiddleName": "Николаевна",
-	"LastName": "Миненкова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "1",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "633",
+  "FirstName": "Нина",
+  "MiddleName": "Николаевна",
+  "LastName": "Миненкова",
+  "Time": 1,
+  "StartDate": "2011-12-16T00:00:00",
+  "BirthDate": "1970-01-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "1"
+    }
+  ]
 }

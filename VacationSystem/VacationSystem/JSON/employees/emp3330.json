@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3330",
-	"FirstName": "Наталья",
-	"MiddleName": "Петровна",
-	"LastName": "Федотова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "91",
-			"HeadOfDepartment": false,
-			"Position": "138"
-		}
-	]
+  "Id": "3330",
+  "FirstName": "Наталья",
+  "MiddleName": "Петровна",
+  "LastName": "Федотова",
+  "Time": 1,
+  "StartDate": "2011-11-02T00:00:00",
+  "BirthDate": "1981-02-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "138",
+      "Department": "91"
+    }
+  ]
 }

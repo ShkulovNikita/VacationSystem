@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "423",
-	"FirstName": "Григорий",
-	"MiddleName": "Юрьевич",
-	"LastName": "Боярко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "46",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "423",
+  "FirstName": "Григорий",
+  "MiddleName": "Юрьевич",
+  "LastName": "Боярко",
+  "Time": 1,
+  "StartDate": "2017-04-10T00:00:00",
+  "BirthDate": "1973-08-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "46"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2033",
-	"FirstName": "Евгений",
-	"MiddleName": "Иванович",
-	"LastName": "Громаков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "6",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "2033",
+  "FirstName": "Евгений",
+  "MiddleName": "Иванович",
+  "LastName": "Громаков",
+  "Time": 0.5,
+  "StartDate": "2005-05-09T00:00:00",
+  "BirthDate": "1955-05-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "6"
+    }
+  ]
 }

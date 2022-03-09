@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2892",
-	"FirstName": "Валентина",
-	"MiddleName": "Валерьевна",
-	"LastName": "Жирова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "171",
-			"HeadOfDepartment": false,
-			"Position": "112"
-		}
-	]
+  "Id": "2892",
+  "FirstName": "Валентина",
+  "MiddleName": "Валерьевна",
+  "LastName": "Жирова",
+  "Time": 0.5,
+  "StartDate": "2009-02-13T00:00:00",
+  "BirthDate": "1981-09-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "112",
+      "Department": "171"
+    }
+  ]
 }

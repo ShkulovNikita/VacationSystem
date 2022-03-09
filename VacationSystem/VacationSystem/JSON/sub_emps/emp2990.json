@@ -1,0 +1,113 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "96",
+      "FirstName": "Степан",
+      "MiddleName": "Вадимович",
+      "LastName": "Меркулов",
+      "Time": 1,
+      "StartDate": "2005-07-02T00:00:00",
+      "BirthDate": "1984-08-17T00:00:00",
+      "Positions": [
+        {
+          "Position": "36",
+          "Department": "17"
+        },
+        {
+          "Position": "3",
+          "Department": "58"
+        }
+      ]
+    },
+    {
+      "Id": "101",
+      "FirstName": "Михаил",
+      "MiddleName": "Михайлович",
+      "LastName": "Южаков",
+      "Time": 0.5,
+      "StartDate": "2020-12-22T00:00:00",
+      "BirthDate": "1988-11-04T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "58"
+        }
+      ]
+    },
+    {
+      "Id": "512",
+      "FirstName": "Диана",
+      "MiddleName": "Константиновна",
+      "LastName": "Авдеева",
+      "Time": 1,
+      "StartDate": "2002-10-06T00:00:00",
+      "BirthDate": "1968-10-08T00:00:00",
+      "Positions": [
+        {
+          "Position": "2",
+          "Department": "58"
+        }
+      ]
+    },
+    {
+      "Id": "1419",
+      "FirstName": "Юрий",
+      "MiddleName": "Георгиевич",
+      "LastName": "Садовников",
+      "Time": 1,
+      "StartDate": "2015-08-08T00:00:00",
+      "BirthDate": "1988-09-18T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "58"
+        }
+      ]
+    },
+    {
+      "Id": "2426",
+      "FirstName": "Владимир",
+      "MiddleName": "Александрович",
+      "LastName": "Баранов",
+      "Time": 1,
+      "StartDate": "2013-08-10T00:00:00",
+      "BirthDate": "1956-01-18T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "58"
+        }
+      ]
+    },
+    {
+      "Id": "2485",
+      "FirstName": "Никита",
+      "MiddleName": "Владимирович",
+      "LastName": "Турушев",
+      "Time": 0.5,
+      "StartDate": "2008-09-22T00:00:00",
+      "BirthDate": "1977-05-17T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "58"
+        }
+      ]
+    },
+    {
+      "Id": "2990",
+      "FirstName": "Степан",
+      "MiddleName": "Игоревич",
+      "LastName": "Еньшин",
+      "Time": 1,
+      "StartDate": "2015-02-21T00:00:00",
+      "BirthDate": "1976-03-06T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "58"
+        }
+      ]
+    }
+  ]
+}

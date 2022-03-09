@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3385",
-	"FirstName": "Елена",
-	"MiddleName": "Сергеевна",
-	"LastName": "Негоденко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "47",
-			"HeadOfDepartment": false,
-			"Position": "30"
-		}
-	]
+  "Id": "3385",
+  "FirstName": "Елена",
+  "MiddleName": "Сергеевна",
+  "LastName": "Негоденко",
+  "Time": 0.5,
+  "StartDate": "1987-07-19T00:00:00",
+  "BirthDate": "1960-05-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "30",
+      "Department": "47"
+    }
+  ]
 }

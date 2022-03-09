@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3026",
-	"FirstName": "Наталья",
-	"MiddleName": "Андреевна",
-	"LastName": "Безденежных",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "124",
-			"HeadOfDepartment": false,
-			"Position": "21"
-		}
-	]
+  "Id": "3026",
+  "FirstName": "Наталья",
+  "MiddleName": "Андреевна",
+  "LastName": "Безденежных",
+  "Time": 0.5,
+  "StartDate": "2015-06-03T00:00:00",
+  "BirthDate": "1952-06-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "21",
+      "Department": "124"
+    }
+  ]
 }

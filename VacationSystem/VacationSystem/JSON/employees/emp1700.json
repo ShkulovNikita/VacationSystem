@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1700",
-	"FirstName": "Светлана",
-	"MiddleName": "Сергеевна",
-	"LastName": "Голубовская",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "34",
-			"HeadOfDepartment": false,
-			"Position": "67"
-		}
-	]
+  "Id": "1700",
+  "FirstName": "Светлана",
+  "MiddleName": "Сергеевна",
+  "LastName": "Голубовская",
+  "Time": 1,
+  "StartDate": "2015-09-14T00:00:00",
+  "BirthDate": "1990-10-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "67",
+      "Department": "34"
+    }
+  ]
 }

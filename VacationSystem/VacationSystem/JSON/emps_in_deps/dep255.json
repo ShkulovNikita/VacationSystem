@@ -1,0 +1,19 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "2901",
+      "FirstName": "Анна",
+      "MiddleName": "Ивановна",
+      "LastName": "Скрипченко",
+      "Time": 0.5,
+      "StartDate": "2005-02-01T00:00:00",
+      "BirthDate": "1953-02-11T00:00:00",
+      "Positions": [
+        {
+          "Position": "20",
+          "Department": "255"
+        }
+      ]
+    }
+  ]
+}

@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "1232",
-	"FirstName": "Николай",
-	"MiddleName": "Гаврилович",
-	"LastName": "Климов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "79",
-			"HeadOfDepartment": false,
-			"Position": "34"
-		},
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "119"
-		}
-	]
+  "Id": "1232",
+  "FirstName": "Николай",
+  "MiddleName": "Гаврилович",
+  "LastName": "Климов",
+  "Time": 1.5,
+  "StartDate": "1982-07-12T00:00:00",
+  "BirthDate": "1958-09-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "34",
+      "Department": "79"
+    },
+    {
+      "Position": "119",
+      "Department": "2"
+    }
+  ]
 }

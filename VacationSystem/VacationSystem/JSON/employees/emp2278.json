@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2278",
-	"FirstName": "Леонид",
-	"MiddleName": "Владимирович",
-	"LastName": "Капилевич",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "47",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "2278",
+  "FirstName": "Леонид",
+  "MiddleName": "Владимирович",
+  "LastName": "Капилевич",
+  "Time": 0.5,
+  "StartDate": "1976-11-09T00:00:00",
+  "BirthDate": "1953-06-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "47"
+    }
+  ]
 }

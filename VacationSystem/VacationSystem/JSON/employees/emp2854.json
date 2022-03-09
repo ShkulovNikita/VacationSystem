@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2854",
-	"FirstName": "Жакып",
-	"MiddleName": "",
-	"LastName": "Карипбаев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		}
-	]
+  "Id": "2854",
+  "FirstName": "Жакып",
+  "MiddleName": "",
+  "LastName": "Карипбаев",
+  "Time": 0.5,
+  "StartDate": "2017-08-21T00:00:00",
+  "BirthDate": "1958-11-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "15"
+    }
+  ]
 }

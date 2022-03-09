@@ -1,0 +1,124 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "71",
+      "FirstName": "Алексей",
+      "MiddleName": "Александрович",
+      "LastName": "Кулюкин",
+      "Time": 0.5,
+      "StartDate": "2015-02-03T00:00:00",
+      "BirthDate": "1991-11-09T00:00:00",
+      "Positions": [
+        {
+          "Position": "16",
+          "Department": "45"
+        }
+      ]
+    },
+    {
+      "Id": "105",
+      "FirstName": "Кирилл",
+      "MiddleName": "Анатольевич",
+      "LastName": "Рядовой",
+      "Time": 0.5,
+      "StartDate": "2008-01-12T00:00:00",
+      "BirthDate": "1980-04-03T00:00:00",
+      "Positions": [
+        {
+          "Position": "16",
+          "Department": "45"
+        }
+      ]
+    },
+    {
+      "Id": "113",
+      "FirstName": "Ольга",
+      "MiddleName": "Александровна",
+      "LastName": "Никиткина",
+      "Time": 1,
+      "StartDate": "2018-09-06T00:00:00",
+      "BirthDate": "1991-03-18T00:00:00",
+      "Positions": [
+        {
+          "Position": "16",
+          "Department": "45"
+        }
+      ]
+    },
+    {
+      "Id": "150",
+      "FirstName": "Дмитрий",
+      "MiddleName": "Евгеньевич",
+      "LastName": "Семенов",
+      "Time": 2,
+      "StartDate": "2016-04-13T00:00:00",
+      "BirthDate": "1977-11-22T00:00:00",
+      "Positions": [
+        {
+          "Position": "10",
+          "Department": "45"
+        }
+      ]
+    },
+    {
+      "Id": "476",
+      "FirstName": "Дмитрий",
+      "MiddleName": "Юрьевич",
+      "LastName": "Кузнецов",
+      "Time": 1,
+      "StartDate": "2019-10-20T00:00:00",
+      "BirthDate": "1993-04-11T00:00:00",
+      "Positions": [
+        {
+          "Position": "16",
+          "Department": "45"
+        }
+      ]
+    },
+    {
+      "Id": "3109",
+      "FirstName": "Олег",
+      "MiddleName": "",
+      "LastName": "Шумилин",
+      "Time": 1,
+      "StartDate": "2012-02-16T00:00:00",
+      "BirthDate": "1990-06-03T00:00:00",
+      "Positions": [
+        {
+          "Position": "7",
+          "Department": "45"
+        }
+      ]
+    },
+    {
+      "Id": "3119",
+      "FirstName": "Елена",
+      "MiddleName": "Викторовна",
+      "LastName": "Румянцева",
+      "Time": 1,
+      "StartDate": "2020-12-16T00:00:00",
+      "BirthDate": "1987-05-10T00:00:00",
+      "Positions": [
+        {
+          "Position": "7",
+          "Department": "45"
+        }
+      ]
+    },
+    {
+      "Id": "3506",
+      "FirstName": "Владислав",
+      "MiddleName": "Владимирович",
+      "LastName": "Томков",
+      "Time": 1,
+      "StartDate": "2010-12-06T00:00:00",
+      "BirthDate": "1990-03-03T00:00:00",
+      "Positions": [
+        {
+          "Position": "7",
+          "Department": "45"
+        }
+      ]
+    }
+  ]
+}

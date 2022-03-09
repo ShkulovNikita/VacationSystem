@@ -1,0 +1,49 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "1120",
+      "FirstName": "Бурулкан",
+      "MiddleName": "Шермаматовна",
+      "LastName": "Миргородская",
+      "Time": 0.5,
+      "StartDate": "2003-01-02T00:00:00",
+      "BirthDate": "1972-03-14T00:00:00",
+      "Positions": [
+        {
+          "Position": "106",
+          "Department": "196"
+        }
+      ]
+    },
+    {
+      "Id": "2749",
+      "FirstName": "Иван",
+      "MiddleName": "Викторович",
+      "LastName": "Миргородский",
+      "Time": 1,
+      "StartDate": "2012-07-19T00:00:00",
+      "BirthDate": "1981-01-17T00:00:00",
+      "Positions": [
+        {
+          "Position": "64",
+          "Department": "196"
+        }
+      ]
+    },
+    {
+      "Id": "3776",
+      "FirstName": "Наталья",
+      "MiddleName": "Михайловна",
+      "LastName": "Агалакова",
+      "Time": 0.5,
+      "StartDate": "2015-10-06T00:00:00",
+      "BirthDate": "1987-12-18T00:00:00",
+      "Positions": [
+        {
+          "Position": "14",
+          "Department": "196"
+        }
+      ]
+    }
+  ]
+}

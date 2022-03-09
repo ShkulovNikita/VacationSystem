@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1928",
-	"FirstName": "Сергей",
-	"MiddleName": "Анатольевич",
-	"LastName": "Шевелев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "39",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "1928",
+  "FirstName": "Сергей",
+  "MiddleName": "Анатольевич",
+  "LastName": "Шевелев",
+  "Time": 0.5,
+  "StartDate": "1977-02-19T00:00:00",
+  "BirthDate": "1953-02-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "39"
+    }
+  ]
 }

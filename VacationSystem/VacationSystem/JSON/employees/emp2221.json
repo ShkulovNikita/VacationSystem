@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2221",
-	"FirstName": "Тамара",
-	"MiddleName": "Васильевна",
-	"LastName": "Погребенкова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "4",
-			"HeadOfDepartment": false,
-			"Position": "2"
-		}
-	]
+  "Id": "2221",
+  "FirstName": "Тамара",
+  "MiddleName": "Васильевна",
+  "LastName": "Погребенкова",
+  "Time": 0.5,
+  "StartDate": "2015-01-23T00:00:00",
+  "BirthDate": "1992-02-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "2",
+      "Department": "4"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1929",
-	"FirstName": "Екатерина",
-	"MiddleName": "Юрьевна",
-	"LastName": "Емельянова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "6",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "1929",
+  "FirstName": "Екатерина",
+  "MiddleName": "Юрьевна",
+  "LastName": "Емельянова",
+  "Time": 1,
+  "StartDate": "2014-01-13T00:00:00",
+  "BirthDate": "1960-04-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "6"
+    }
+  ]
 }

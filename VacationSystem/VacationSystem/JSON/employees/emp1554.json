@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1554",
-	"FirstName": "Светлана",
-	"MiddleName": "Юрьевна",
-	"LastName": "Назаренко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "32",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "1554",
+  "FirstName": "Светлана",
+  "MiddleName": "Юрьевна",
+  "LastName": "Назаренко",
+  "Time": 1,
+  "StartDate": "2009-10-21T00:00:00",
+  "BirthDate": "1971-02-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "32"
+    }
+  ]
 }

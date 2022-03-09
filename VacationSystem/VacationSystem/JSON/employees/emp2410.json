@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2410",
-	"FirstName": "Андрей",
-	"MiddleName": "Сергеевич",
-	"LastName": "Фомичёв",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "99",
-			"HeadOfDepartment": false,
-			"Position": "80"
-		}
-	]
+  "Id": "2410",
+  "FirstName": "Андрей",
+  "MiddleName": "Сергеевич",
+  "LastName": "Фомичёв",
+  "Time": 1,
+  "StartDate": "2017-08-16T00:00:00",
+  "BirthDate": "1957-07-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "80",
+      "Department": "99"
+    }
+  ]
 }

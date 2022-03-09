@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "2801",
-	"FirstName": "Любовь",
-	"MiddleName": "Николаевна",
-	"LastName": "Горянова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "133",
-			"HeadOfDepartment": false,
-			"Position": "10"
-		},
-		{
-			"Id": "71",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "2801",
+  "FirstName": "Любовь",
+  "MiddleName": "Николаевна",
+  "LastName": "Горянова",
+  "Time": 2,
+  "StartDate": "2008-11-21T00:00:00",
+  "BirthDate": "1973-08-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "10",
+      "Department": "133"
+    },
+    {
+      "Position": "1",
+      "Department": "71"
+    }
+  ]
 }

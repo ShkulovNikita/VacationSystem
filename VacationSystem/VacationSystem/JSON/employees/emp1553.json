@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1553",
-	"FirstName": "Алексей",
-	"MiddleName": "Витальевич",
-	"LastName": "Пустовалов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "16",
-			"HeadOfDepartment": false,
-			"Position": "26"
-		}
-	]
+  "Id": "1553",
+  "FirstName": "Алексей",
+  "MiddleName": "Витальевич",
+  "LastName": "Пустовалов",
+  "Time": 0.5,
+  "StartDate": "1995-12-05T00:00:00",
+  "BirthDate": "1963-05-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "26",
+      "Department": "16"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3430",
-	"FirstName": "Юлия",
-	"MiddleName": "Александровна",
-	"LastName": "Зеремская",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "0",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "3430",
+  "FirstName": "Юлия",
+  "MiddleName": "Александровна",
+  "LastName": "Зеремская",
+  "Time": 0.5,
+  "StartDate": "2003-04-18T00:00:00",
+  "BirthDate": "1968-02-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "0"
+    }
+  ]
 }

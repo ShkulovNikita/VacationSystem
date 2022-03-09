@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1216",
-	"FirstName": "Эльмира",
-	"MiddleName": "Рамисовна",
-	"LastName": "Кашапова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "130",
-			"HeadOfDepartment": false,
-			"Position": "26"
-		}
-	]
+  "Id": "1216",
+  "FirstName": "Эльмира",
+  "MiddleName": "Рамисовна",
+  "LastName": "Кашапова",
+  "Time": 1,
+  "StartDate": "2002-12-24T00:00:00",
+  "BirthDate": "1974-06-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "26",
+      "Department": "130"
+    }
+  ]
 }

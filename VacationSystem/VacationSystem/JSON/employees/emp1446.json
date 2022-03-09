@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1446",
-	"FirstName": "Лилия",
-	"MiddleName": "Михайловна",
-	"LastName": "Дьяченко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "186",
-			"HeadOfDepartment": false,
-			"Position": "25"
-		}
-	]
+  "Id": "1446",
+  "FirstName": "Лилия",
+  "MiddleName": "Михайловна",
+  "LastName": "Дьяченко",
+  "Time": 1,
+  "StartDate": "2015-08-10T00:00:00",
+  "BirthDate": "1966-05-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "25",
+      "Department": "186"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "289",
-	"FirstName": "Владимир",
-	"MiddleName": "Платонович",
-	"LastName": "Вавилов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "114",
-			"HeadOfDepartment": false,
-			"Position": "2"
-		}
-	]
+  "Id": "289",
+  "FirstName": "Владимир",
+  "MiddleName": "Платонович",
+  "LastName": "Вавилов",
+  "Time": 1,
+  "StartDate": "2013-03-04T00:00:00",
+  "BirthDate": "1952-12-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "2",
+      "Department": "114"
+    }
+  ]
 }

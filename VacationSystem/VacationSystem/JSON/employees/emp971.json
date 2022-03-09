@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "971",
-	"FirstName": "Федор",
-	"MiddleName": "Михайлович",
-	"LastName": "Машин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "185",
-			"HeadOfDepartment": false,
-			"Position": "64"
-		}
-	]
+  "Id": "971",
+  "FirstName": "Федор",
+  "MiddleName": "Михайлович",
+  "LastName": "Машин",
+  "Time": 1,
+  "StartDate": "2008-01-02T00:00:00",
+  "BirthDate": "1980-04-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "64",
+      "Department": "185"
+    }
+  ]
 }

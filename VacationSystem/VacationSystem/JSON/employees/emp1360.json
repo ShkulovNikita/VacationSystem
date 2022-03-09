@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1360",
-	"FirstName": "Наталия",
-	"MiddleName": "Николаевна",
-	"LastName": "Ланина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "126",
-			"HeadOfDepartment": false,
-			"Position": "65"
-		}
-	]
+  "Id": "1360",
+  "FirstName": "Наталия",
+  "MiddleName": "Николаевна",
+  "LastName": "Ланина",
+  "Time": 0.5,
+  "StartDate": "2012-05-24T00:00:00",
+  "BirthDate": "1985-01-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "65",
+      "Department": "126"
+    }
+  ]
 }

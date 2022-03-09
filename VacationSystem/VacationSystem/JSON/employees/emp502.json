@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "502",
-	"FirstName": "Алексей",
-	"MiddleName": "Васильевич",
-	"LastName": "Ездаков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "110",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "502",
+  "FirstName": "Алексей",
+  "MiddleName": "Васильевич",
+  "LastName": "Ездаков",
+  "Time": 0.5,
+  "StartDate": "2020-10-18T00:00:00",
+  "BirthDate": "1977-05-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "110"
+    }
+  ]
 }

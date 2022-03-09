@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "989",
-	"FirstName": "Надежда",
-	"MiddleName": "Владимировна",
-	"LastName": "Худинова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "179",
-			"HeadOfDepartment": false,
-			"Position": "10"
-		}
-	]
+  "Id": "989",
+  "FirstName": "Надежда",
+  "MiddleName": "Владимировна",
+  "LastName": "Худинова",
+  "Time": 1,
+  "StartDate": "2019-06-21T00:00:00",
+  "BirthDate": "1957-01-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "10",
+      "Department": "179"
+    }
+  ]
 }

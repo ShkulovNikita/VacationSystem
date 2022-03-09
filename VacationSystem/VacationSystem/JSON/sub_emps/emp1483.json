@@ -1,0 +1,79 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "1161",
+      "FirstName": "Сергей",
+      "MiddleName": "Михайлович",
+      "LastName": "Лебедев",
+      "Time": 1,
+      "StartDate": "2013-02-11T00:00:00",
+      "BirthDate": "1988-04-20T00:00:00",
+      "Positions": [
+        {
+          "Position": "41",
+          "Department": "197"
+        }
+      ]
+    },
+    {
+      "Id": "1483",
+      "FirstName": "Тамара",
+      "MiddleName": "Николаевна",
+      "LastName": "Гречанина",
+      "Time": 1,
+      "StartDate": "2009-12-12T00:00:00",
+      "BirthDate": "1977-06-02T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "197"
+        }
+      ]
+    },
+    {
+      "Id": "1484",
+      "FirstName": "Лариса",
+      "MiddleName": "Акимовна",
+      "LastName": "Аксенова",
+      "Time": 1,
+      "StartDate": "2007-10-17T00:00:00",
+      "BirthDate": "1962-08-19T00:00:00",
+      "Positions": [
+        {
+          "Position": "177",
+          "Department": "197"
+        }
+      ]
+    },
+    {
+      "Id": "1901",
+      "FirstName": "Любовь",
+      "MiddleName": "Ивановна",
+      "LastName": "Шмакова",
+      "Time": 1,
+      "StartDate": "2015-09-12T00:00:00",
+      "BirthDate": "1954-05-01T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "197"
+        }
+      ]
+    },
+    {
+      "Id": "3600",
+      "FirstName": "Дмитрий",
+      "MiddleName": "Михайлович",
+      "LastName": "Чистохин",
+      "Time": 1,
+      "StartDate": "2021-02-15T00:00:00",
+      "BirthDate": "1992-04-03T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "197"
+        }
+      ]
+    }
+  ]
+}

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3584",
-	"FirstName": "Валерия",
-	"MiddleName": "Александровна",
-	"LastName": "Костенко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "88",
-			"HeadOfDepartment": false,
-			"Position": "26"
-		}
-	]
+  "Id": "3584",
+  "FirstName": "Валерия",
+  "MiddleName": "Александровна",
+  "LastName": "Костенко",
+  "Time": 0.5,
+  "StartDate": "2013-03-09T00:00:00",
+  "BirthDate": "1992-08-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "26",
+      "Department": "88"
+    }
+  ]
 }

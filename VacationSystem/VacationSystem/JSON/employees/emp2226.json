@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2226",
-	"FirstName": "Сергей",
-	"MiddleName": "Александрович",
-	"LastName": "Мякишев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "38",
-			"HeadOfDepartment": false,
-			"Position": "137"
-		}
-	]
+  "Id": "2226",
+  "FirstName": "Сергей",
+  "MiddleName": "Александрович",
+  "LastName": "Мякишев",
+  "Time": 1,
+  "StartDate": "2021-03-10T00:00:00",
+  "BirthDate": "1974-01-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "137",
+      "Department": "38"
+    }
+  ]
 }

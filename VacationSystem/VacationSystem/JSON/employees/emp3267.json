@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3267",
-	"FirstName": "Ирина",
-	"MiddleName": "",
-	"LastName": "Готман",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "53",
-			"HeadOfDepartment": false,
-			"Position": "24"
-		}
-	]
+  "Id": "3267",
+  "FirstName": "Ирина",
+  "MiddleName": "",
+  "LastName": "Готман",
+  "Time": 1,
+  "StartDate": "1994-12-09T00:00:00",
+  "BirthDate": "1962-12-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "24",
+      "Department": "53"
+    }
+  ]
 }

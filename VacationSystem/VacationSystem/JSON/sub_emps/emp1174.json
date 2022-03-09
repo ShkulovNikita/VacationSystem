@@ -1,0 +1,19 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "1174",
+      "FirstName": "Павел",
+      "MiddleName": "Николаевич",
+      "LastName": "Рвалов",
+      "Time": 1,
+      "StartDate": "2018-11-03T00:00:00",
+      "BirthDate": "1987-06-09T00:00:00",
+      "Positions": [
+        {
+          "Position": "153",
+          "Department": "198"
+        }
+      ]
+    }
+  ]
+}

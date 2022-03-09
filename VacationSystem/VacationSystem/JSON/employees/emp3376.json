@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3376",
-	"FirstName": "Марина",
-	"MiddleName": "Сергеевна",
-	"LastName": "Тукеева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "35"
-		}
-	]
+  "Id": "3376",
+  "FirstName": "Марина",
+  "MiddleName": "Сергеевна",
+  "LastName": "Тукеева",
+  "Time": 0.5,
+  "StartDate": "2019-01-16T00:00:00",
+  "BirthDate": "1976-10-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "35",
+      "Department": "2"
+    }
+  ]
 }

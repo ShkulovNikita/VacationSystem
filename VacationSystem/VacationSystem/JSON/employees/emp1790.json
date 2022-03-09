@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1790",
-	"FirstName": "Александр",
-	"MiddleName": "Петрович",
-	"LastName": "Кечаев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "50",
-			"HeadOfDepartment": false,
-			"Position": "88"
-		}
-	]
+  "Id": "1790",
+  "FirstName": "Александр",
+  "MiddleName": "Петрович",
+  "LastName": "Кечаев",
+  "Time": 1,
+  "StartDate": "2021-07-11T00:00:00",
+  "BirthDate": "1993-08-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "88",
+      "Department": "50"
+    }
+  ]
 }

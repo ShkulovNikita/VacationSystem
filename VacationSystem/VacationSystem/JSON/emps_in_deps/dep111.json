@@ -1,0 +1,184 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "284",
+      "FirstName": "Вера",
+      "MiddleName": "Федоровна",
+      "LastName": "Минина",
+      "Time": 0.5,
+      "StartDate": "2011-11-15T00:00:00",
+      "BirthDate": "1985-05-24T00:00:00",
+      "Positions": [
+        {
+          "Position": "69",
+          "Department": "111"
+        }
+      ]
+    },
+    {
+      "Id": "505",
+      "FirstName": "Ирина",
+      "MiddleName": "Валерьевна",
+      "LastName": "Астратова",
+      "Time": 0.5,
+      "StartDate": "2019-10-09T00:00:00",
+      "BirthDate": "1977-04-04T00:00:00",
+      "Positions": [
+        {
+          "Position": "69",
+          "Department": "111"
+        }
+      ]
+    },
+    {
+      "Id": "814",
+      "FirstName": "Светлана",
+      "MiddleName": "Геннадьевна",
+      "LastName": "Веснина",
+      "Time": 1,
+      "StartDate": "1992-07-04T00:00:00",
+      "BirthDate": "1965-01-14T00:00:00",
+      "Positions": [
+        {
+          "Position": "35",
+          "Department": "111"
+        }
+      ]
+    },
+    {
+      "Id": "1577",
+      "FirstName": "Светлана",
+      "MiddleName": "Викторовна",
+      "LastName": "Шкабарова",
+      "Time": 1,
+      "StartDate": "2015-12-01T00:00:00",
+      "BirthDate": "1989-05-02T00:00:00",
+      "Positions": [
+        {
+          "Position": "193",
+          "Department": "111"
+        }
+      ]
+    },
+    {
+      "Id": "1770",
+      "FirstName": "Ольга",
+      "MiddleName": "Викторовна",
+      "LastName": "Вершинина",
+      "Time": 0.5,
+      "StartDate": "1989-03-12T00:00:00",
+      "BirthDate": "1964-08-05T00:00:00",
+      "Positions": [
+        {
+          "Position": "69",
+          "Department": "111"
+        }
+      ]
+    },
+    {
+      "Id": "2511",
+      "FirstName": "Елена",
+      "MiddleName": "Вячеславовна",
+      "LastName": "Кандыкова",
+      "Time": 0.5,
+      "StartDate": "2013-05-09T00:00:00",
+      "BirthDate": "1987-06-14T00:00:00",
+      "Positions": [
+        {
+          "Position": "69",
+          "Department": "111"
+        }
+      ]
+    },
+    {
+      "Id": "3133",
+      "FirstName": "Наталья",
+      "MiddleName": "Алексеевна",
+      "LastName": "Аникина",
+      "Time": 0.5,
+      "StartDate": "2014-10-10T00:00:00",
+      "BirthDate": "1986-09-20T00:00:00",
+      "Positions": [
+        {
+          "Position": "57",
+          "Department": "111"
+        }
+      ]
+    },
+    {
+      "Id": "3392",
+      "FirstName": "Людмила",
+      "MiddleName": "Владимировна",
+      "LastName": "Молдованова",
+      "Time": 1,
+      "StartDate": "2020-03-13T00:00:00",
+      "BirthDate": "1982-07-23T00:00:00",
+      "Positions": [
+        {
+          "Position": "69",
+          "Department": "111"
+        }
+      ]
+    },
+    {
+      "Id": "3505",
+      "FirstName": "Евгения",
+      "MiddleName": "Витальевна",
+      "LastName": "Мальчикова",
+      "Time": 1,
+      "StartDate": "1997-04-23T00:00:00",
+      "BirthDate": "1975-03-24T00:00:00",
+      "Positions": [
+        {
+          "Position": "57",
+          "Department": "111"
+        }
+      ]
+    },
+    {
+      "Id": "3621",
+      "FirstName": "Юлия",
+      "MiddleName": "Николаевна",
+      "LastName": "Логоша",
+      "Time": 0.5,
+      "StartDate": "2021-07-24T00:00:00",
+      "BirthDate": "1969-12-19T00:00:00",
+      "Positions": [
+        {
+          "Position": "57",
+          "Department": "111"
+        }
+      ]
+    },
+    {
+      "Id": "3634",
+      "FirstName": "Юлия",
+      "MiddleName": "Сергеевна",
+      "LastName": "Голещихина",
+      "Time": 0.5,
+      "StartDate": "1986-03-24T00:00:00",
+      "BirthDate": "1958-07-24T00:00:00",
+      "Positions": [
+        {
+          "Position": "57",
+          "Department": "111"
+        }
+      ]
+    },
+    {
+      "Id": "3705",
+      "FirstName": "Наталья",
+      "MiddleName": "Владимировна",
+      "LastName": "Карманова",
+      "Time": 1,
+      "StartDate": "2004-12-06T00:00:00",
+      "BirthDate": "1960-07-23T00:00:00",
+      "Positions": [
+        {
+          "Position": "69",
+          "Department": "111"
+        }
+      ]
+    }
+  ]
+}

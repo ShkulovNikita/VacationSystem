@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2615",
-	"FirstName": "Владимир",
-	"MiddleName": "Николаевич",
-	"LastName": "Руденко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "38",
-			"HeadOfDepartment": false,
-			"Position": "141"
-		}
-	]
+  "Id": "2615",
+  "FirstName": "Владимир",
+  "MiddleName": "Николаевич",
+  "LastName": "Руденко",
+  "Time": 0.5,
+  "StartDate": "2018-11-18T00:00:00",
+  "BirthDate": "1971-08-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "141",
+      "Department": "38"
+    }
+  ]
 }

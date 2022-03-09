@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3394",
-	"FirstName": "Вячеслав",
-	"MiddleName": "Юрьевич",
-	"LastName": "Вишняков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "125",
-			"HeadOfDepartment": false,
-			"Position": "7"
-		}
-	]
+  "Id": "3394",
+  "FirstName": "Вячеслав",
+  "MiddleName": "Юрьевич",
+  "LastName": "Вишняков",
+  "Time": 0.5,
+  "StartDate": "2015-12-17T00:00:00",
+  "BirthDate": "1989-03-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "7",
+      "Department": "125"
+    }
+  ]
 }

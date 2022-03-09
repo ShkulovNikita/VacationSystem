@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2227",
-	"FirstName": "Галима",
-	"MiddleName": "Гавизовна",
-	"LastName": "Набиева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "107",
-			"HeadOfDepartment": false,
-			"Position": "73"
-		}
-	]
+  "Id": "2227",
+  "FirstName": "Галима",
+  "MiddleName": "Гавизовна",
+  "LastName": "Набиева",
+  "Time": 0.5,
+  "StartDate": "2002-12-20T00:00:00",
+  "BirthDate": "1956-11-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "73",
+      "Department": "107"
+    }
+  ]
 }

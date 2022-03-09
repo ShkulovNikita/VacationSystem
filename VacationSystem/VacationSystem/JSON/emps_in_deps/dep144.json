@@ -1,0 +1,34 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "495",
+      "FirstName": "Антон",
+      "MiddleName": "Юрьевич",
+      "LastName": "Демин",
+      "Time": 1.5,
+      "StartDate": "2014-03-12T00:00:00",
+      "BirthDate": "1968-09-12T00:00:00",
+      "Positions": [
+        {
+          "Position": "48",
+          "Department": "144"
+        }
+      ]
+    },
+    {
+      "Id": "1933",
+      "FirstName": "Дмитрий",
+      "MiddleName": "Михайлович",
+      "LastName": "Сонькин",
+      "Time": 0.5,
+      "StartDate": "2009-10-12T00:00:00",
+      "BirthDate": "1986-11-16T00:00:00",
+      "Positions": [
+        {
+          "Position": "45",
+          "Department": "144"
+        }
+      ]
+    }
+  ]
+}

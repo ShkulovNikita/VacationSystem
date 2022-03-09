@@ -1,19 +1,15 @@
 ﻿{
-	"Id": "1701",
-	"FirstName": "Дмитрий",
-	"MiddleName": "Владимирович",
-	"LastName": "Сиделёв",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "56",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		},
-		{
-			"Id": "56",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1701",
+  "FirstName": "Дмитрий",
+  "MiddleName": "Владимирович",
+  "LastName": "Сиделёв",
+  "Time": 0.5,
+  "StartDate": "1999-05-02T00:00:00",
+  "BirthDate": "1974-04-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "56"
+    }
+  ]
 }

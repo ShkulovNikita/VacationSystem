@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2701",
-	"FirstName": "Екатерина",
-	"MiddleName": "Германовна",
-	"LastName": "Пакриева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "51",
-			"HeadOfDepartment": false,
-			"Position": "26"
-		}
-	]
+  "Id": "2701",
+  "FirstName": "Екатерина",
+  "MiddleName": "Германовна",
+  "LastName": "Пакриева",
+  "Time": 0.5,
+  "StartDate": "2014-05-07T00:00:00",
+  "BirthDate": "1979-04-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "26",
+      "Department": "51"
+    }
+  ]
 }

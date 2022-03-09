@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1827",
-	"FirstName": "Александр",
-	"MiddleName": "Сергеевич",
-	"LastName": "Зайцев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "39",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		}
-	]
+  "Id": "1827",
+  "FirstName": "Александр",
+  "MiddleName": "Сергеевич",
+  "LastName": "Зайцев",
+  "Time": 1,
+  "StartDate": "2004-09-16T00:00:00",
+  "BirthDate": "1983-06-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "39"
+    }
+  ]
 }

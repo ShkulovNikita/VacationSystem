@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3142",
-	"FirstName": "Павел",
-	"MiddleName": "Андреевич",
-	"LastName": "Дисюк",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "59",
-			"HeadOfDepartment": false,
-			"Position": "78"
-		}
-	]
+  "Id": "3142",
+  "FirstName": "Павел",
+  "MiddleName": "Андреевич",
+  "LastName": "Дисюк",
+  "Time": 1,
+  "StartDate": "1990-11-04T00:00:00",
+  "BirthDate": "1969-04-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "78",
+      "Department": "59"
+    }
+  ]
 }

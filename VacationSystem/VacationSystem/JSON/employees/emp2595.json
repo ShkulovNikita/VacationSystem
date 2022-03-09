@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2595",
-	"FirstName": "Николай",
-	"MiddleName": "Ануфриевич",
-	"LastName": "Шульга",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "38",
-			"HeadOfDepartment": false,
-			"Position": "141"
-		}
-	]
+  "Id": "2595",
+  "FirstName": "Николай",
+  "MiddleName": "Ануфриевич",
+  "LastName": "Шульга",
+  "Time": 1,
+  "StartDate": "2012-05-14T00:00:00",
+  "BirthDate": "1992-06-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "141",
+      "Department": "38"
+    }
+  ]
 }

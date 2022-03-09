@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "304",
-	"FirstName": "Владимир",
-	"MiddleName": "Павлович",
-	"LastName": "Петухов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "116",
-			"HeadOfDepartment": false,
-			"Position": "80"
-		}
-	]
+  "Id": "304",
+  "FirstName": "Владимир",
+  "MiddleName": "Павлович",
+  "LastName": "Петухов",
+  "Time": 0.5,
+  "StartDate": "2004-03-21T00:00:00",
+  "BirthDate": "1954-03-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "80",
+      "Department": "116"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "891",
-	"FirstName": "Тамара",
-	"MiddleName": "Евгеньевна",
-	"LastName": "Остроухова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "126",
-			"HeadOfDepartment": false,
-			"Position": "65"
-		}
-	]
+  "Id": "891",
+  "FirstName": "Тамара",
+  "MiddleName": "Евгеньевна",
+  "LastName": "Остроухова",
+  "Time": 1,
+  "StartDate": "2020-09-22T00:00:00",
+  "BirthDate": "1966-01-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "65",
+      "Department": "126"
+    }
+  ]
 }

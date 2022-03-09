@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "372",
-	"FirstName": "Андрей",
-	"MiddleName": "Владимирович",
-	"LastName": "Баранов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "128",
-			"HeadOfDepartment": false,
-			"Position": "10"
-		}
-	]
+  "Id": "372",
+  "FirstName": "Андрей",
+  "MiddleName": "Владимирович",
+  "LastName": "Баранов",
+  "Time": 1,
+  "StartDate": "1997-09-14T00:00:00",
+  "BirthDate": "1968-08-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "10",
+      "Department": "128"
+    }
+  ]
 }

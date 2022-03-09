@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2644",
-	"FirstName": "Елизавета",
-	"MiddleName": "Павловна",
-	"LastName": "Каркавина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "103",
-			"HeadOfDepartment": false,
-			"Position": "244"
-		}
-	]
+  "Id": "2644",
+  "FirstName": "Елизавета",
+  "MiddleName": "Павловна",
+  "LastName": "Каркавина",
+  "Time": 0.5,
+  "StartDate": "2017-11-21T00:00:00",
+  "BirthDate": "1978-01-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "244",
+      "Department": "103"
+    }
+  ]
 }

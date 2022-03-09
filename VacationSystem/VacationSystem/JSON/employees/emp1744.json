@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1744",
-	"FirstName": "Сергей",
-	"MiddleName": "Юрьевич",
-	"LastName": "Супоницкий",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "112",
-			"HeadOfDepartment": false,
-			"Position": "2"
-		}
-	]
+  "Id": "1744",
+  "FirstName": "Сергей",
+  "MiddleName": "Юрьевич",
+  "LastName": "Супоницкий",
+  "Time": 1,
+  "StartDate": "2013-02-21T00:00:00",
+  "BirthDate": "1993-04-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "2",
+      "Department": "112"
+    }
+  ]
 }

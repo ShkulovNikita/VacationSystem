@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1867",
-	"FirstName": "Петр",
-	"MiddleName": "Андреевич",
-	"LastName": "Гнездилов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "1867",
+  "FirstName": "Петр",
+  "MiddleName": "Андреевич",
+  "LastName": "Гнездилов",
+  "Time": 1,
+  "StartDate": "1996-07-20T00:00:00",
+  "BirthDate": "1974-05-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "2"
+    }
+  ]
 }

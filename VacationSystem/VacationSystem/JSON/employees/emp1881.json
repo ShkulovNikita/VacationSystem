@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1881",
-	"FirstName": "Сергей",
-	"MiddleName": "Викторович",
-	"LastName": "Корнилкин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "234",
-			"HeadOfDepartment": false,
-			"Position": "129"
-		}
-	]
+  "Id": "1881",
+  "FirstName": "Сергей",
+  "MiddleName": "Викторович",
+  "LastName": "Корнилкин",
+  "Time": 0.5,
+  "StartDate": "1984-05-03T00:00:00",
+  "BirthDate": "1957-05-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "129",
+      "Department": "234"
+    }
+  ]
 }

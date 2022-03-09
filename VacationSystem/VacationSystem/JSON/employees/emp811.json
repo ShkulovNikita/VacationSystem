@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "811",
-	"FirstName": "Вера",
-	"MiddleName": "Викторовна",
-	"LastName": "Верхотурова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "17",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		},
-		{
-			"Id": "67",
-			"HeadOfDepartment": false,
-			"Position": "134"
-		}
-	]
+  "Id": "811",
+  "FirstName": "Вера",
+  "MiddleName": "Викторовна",
+  "LastName": "Верхотурова",
+  "Time": 2,
+  "StartDate": "1994-04-13T00:00:00",
+  "BirthDate": "1965-02-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "17"
+    },
+    {
+      "Position": "134",
+      "Department": "67"
+    }
+  ]
 }

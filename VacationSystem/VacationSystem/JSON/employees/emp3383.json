@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3383",
-	"FirstName": "Павел",
-	"MiddleName": "Вадимович",
-	"LastName": "Родионов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "12",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "3383",
+  "FirstName": "Павел",
+  "MiddleName": "Вадимович",
+  "LastName": "Родионов",
+  "Time": 0.5,
+  "StartDate": "2014-10-05T00:00:00",
+  "BirthDate": "1987-06-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "12"
+    }
+  ]
 }

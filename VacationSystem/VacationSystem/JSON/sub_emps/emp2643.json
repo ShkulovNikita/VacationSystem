@@ -1,0 +1,38 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "2643",
+      "FirstName": "Всеволод",
+      "MiddleName": "Викторович",
+      "LastName": "Павличев",
+      "Time": 1,
+      "StartDate": "2003-01-07T00:00:00",
+      "BirthDate": "1977-11-06T00:00:00",
+      "Positions": [
+        {
+          "Position": "7",
+          "Department": "248"
+        }
+      ]
+    },
+    {
+      "Id": "2959",
+      "FirstName": "Иван",
+      "MiddleName": "Валерьевич",
+      "LastName": "Хожаев",
+      "Time": 1.5,
+      "StartDate": "1986-04-04T00:00:00",
+      "BirthDate": "1960-11-17T00:00:00",
+      "Positions": [
+        {
+          "Position": "28",
+          "Department": "6"
+        },
+        {
+          "Position": "26",
+          "Department": "248"
+        }
+      ]
+    }
+  ]
+}

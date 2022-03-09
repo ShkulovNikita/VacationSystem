@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2092",
-	"FirstName": "Виталий",
-	"MiddleName": "Викторович",
-	"LastName": "Гнеушев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "19",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "2092",
+  "FirstName": "Виталий",
+  "MiddleName": "Викторович",
+  "LastName": "Гнеушев",
+  "Time": 1,
+  "StartDate": "1998-12-05T00:00:00",
+  "BirthDate": "1970-04-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "19"
+    }
+  ]
 }

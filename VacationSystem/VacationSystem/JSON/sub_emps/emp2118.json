@@ -1,0 +1,38 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "35",
+      "FirstName": "Александр",
+      "MiddleName": "Сергеевич",
+      "LastName": "Фадеев",
+      "Time": 1,
+      "StartDate": "2005-01-11T00:00:00",
+      "BirthDate": "1975-12-16T00:00:00",
+      "Positions": [
+        {
+          "Position": "17",
+          "Department": "25"
+        },
+        {
+          "Position": "1",
+          "Department": "26"
+        }
+      ]
+    },
+    {
+      "Id": "2118",
+      "FirstName": "Константин",
+      "MiddleName": "Григорьевич",
+      "LastName": "Квасников",
+      "Time": 1,
+      "StartDate": "1991-05-13T00:00:00",
+      "BirthDate": "1955-08-24T00:00:00",
+      "Positions": [
+        {
+          "Position": "224",
+          "Department": "25"
+        }
+      ]
+    }
+  ]
+}

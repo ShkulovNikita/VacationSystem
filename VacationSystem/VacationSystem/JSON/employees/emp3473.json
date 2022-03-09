@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3473",
-	"FirstName": "Сергей",
-	"MiddleName": "Владимирович",
-	"LastName": "Терещенко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "168",
-			"HeadOfDepartment": false,
-			"Position": "156"
-		}
-	]
+  "Id": "3473",
+  "FirstName": "Сергей",
+  "MiddleName": "Владимирович",
+  "LastName": "Терещенко",
+  "Time": 1,
+  "StartDate": "2011-08-15T00:00:00",
+  "BirthDate": "1976-09-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "156",
+      "Department": "168"
+    }
+  ]
 }

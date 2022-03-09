@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "803",
-	"FirstName": "Ольга",
-	"MiddleName": "Анатольевна",
-	"LastName": "Мазурина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "177",
-			"HeadOfDepartment": false,
-			"Position": "132"
-		}
-	]
+  "Id": "803",
+  "FirstName": "Ольга",
+  "MiddleName": "Анатольевна",
+  "LastName": "Мазурина",
+  "Time": 0.5,
+  "StartDate": "2006-07-09T00:00:00",
+  "BirthDate": "1956-12-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "132",
+      "Department": "177"
+    }
+  ]
 }

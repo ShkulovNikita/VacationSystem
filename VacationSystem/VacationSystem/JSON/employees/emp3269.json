@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3269",
-	"FirstName": "Анатолий",
-	"MiddleName": "",
-	"LastName": "Купчишин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "57",
-			"HeadOfDepartment": false,
-			"Position": "56"
-		}
-	]
+  "Id": "3269",
+  "FirstName": "Анатолий",
+  "MiddleName": "",
+  "LastName": "Купчишин",
+  "Time": 0.5,
+  "StartDate": "2010-12-24T00:00:00",
+  "BirthDate": "1954-01-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "56",
+      "Department": "57"
+    }
+  ]
 }

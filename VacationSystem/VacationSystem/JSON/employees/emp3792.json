@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3792",
-	"FirstName": "Алексей",
-	"MiddleName": "Владимирович",
-	"LastName": "Козик",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "32",
-			"HeadOfDepartment": false,
-			"Position": "25"
-		}
-	]
+  "Id": "3792",
+  "FirstName": "Алексей",
+  "MiddleName": "Владимирович",
+  "LastName": "Козик",
+  "Time": 0.5,
+  "StartDate": "2007-11-06T00:00:00",
+  "BirthDate": "1987-11-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "25",
+      "Department": "32"
+    }
+  ]
 }

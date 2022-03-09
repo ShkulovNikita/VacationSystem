@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3306",
-	"FirstName": "Андрей",
-	"MiddleName": "Алексеевич",
-	"LastName": "Гринько",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "1",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "3306",
+  "FirstName": "Андрей",
+  "MiddleName": "Алексеевич",
+  "LastName": "Гринько",
+  "Time": 1,
+  "StartDate": "2020-11-13T00:00:00",
+  "BirthDate": "1993-07-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "1"
+    }
+  ]
 }

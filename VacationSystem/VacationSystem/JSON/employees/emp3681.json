@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3681",
-	"FirstName": "Елена",
-	"MiddleName": "Евгеньевна",
-	"LastName": "Медведева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "131",
-			"HeadOfDepartment": false,
-			"Position": "285"
-		}
-	]
+  "Id": "3681",
+  "FirstName": "Елена",
+  "MiddleName": "Евгеньевна",
+  "LastName": "Медведева",
+  "Time": 1,
+  "StartDate": "2008-07-19T00:00:00",
+  "BirthDate": "1959-10-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "285",
+      "Department": "131"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "381",
-	"FirstName": "Юрий",
-	"MiddleName": "Сергеевич",
-	"LastName": "Горчаков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "131",
-			"HeadOfDepartment": false,
-			"Position": "93"
-		}
-	]
+  "Id": "381",
+  "FirstName": "Юрий",
+  "MiddleName": "Сергеевич",
+  "LastName": "Горчаков",
+  "Time": 0.5,
+  "StartDate": "2006-10-05T00:00:00",
+  "BirthDate": "1978-02-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "93",
+      "Department": "131"
+    }
+  ]
 }

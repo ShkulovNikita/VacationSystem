@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "677",
-	"FirstName": "Ирина",
-	"MiddleName": "Викторовна",
-	"LastName": "Павленко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "11",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "677",
+  "FirstName": "Ирина",
+  "MiddleName": "Викторовна",
+  "LastName": "Павленко",
+  "Time": 1,
+  "StartDate": "2015-07-10T00:00:00",
+  "BirthDate": "1977-03-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "11"
+    }
+  ]
 }

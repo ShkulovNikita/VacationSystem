@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3089",
-	"FirstName": "Мария",
-	"MiddleName": "Якобовна",
-	"LastName": "Болокан",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "94",
-			"HeadOfDepartment": false,
-			"Position": "18"
-		}
-	]
+  "Id": "3089",
+  "FirstName": "Мария",
+  "MiddleName": "Якобовна",
+  "LastName": "Болокан",
+  "Time": 1,
+  "StartDate": "2002-07-07T00:00:00",
+  "BirthDate": "1978-04-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "18",
+      "Department": "94"
+    }
+  ]
 }

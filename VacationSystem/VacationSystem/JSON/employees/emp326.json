@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "326",
-	"FirstName": "Елена",
-	"MiddleName": "Витальевна",
-	"LastName": "Тришапко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "107",
-			"HeadOfDepartment": false,
-			"Position": "33"
-		}
-	]
+  "Id": "326",
+  "FirstName": "Елена",
+  "MiddleName": "Витальевна",
+  "LastName": "Тришапко",
+  "Time": 1,
+  "StartDate": "2015-04-01T00:00:00",
+  "BirthDate": "1991-07-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "33",
+      "Department": "107"
+    }
+  ]
 }

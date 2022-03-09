@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2113",
-	"FirstName": "Надежда",
-	"MiddleName": "Рафиковна",
-	"LastName": "Пономарчук",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "19",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "2113",
+  "FirstName": "Надежда",
+  "MiddleName": "Рафиковна",
+  "LastName": "Пономарчук",
+  "Time": 0.5,
+  "StartDate": "1986-11-01T00:00:00",
+  "BirthDate": "1957-12-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "19"
+    }
+  ]
 }

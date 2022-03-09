@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3122",
-	"FirstName": "Давид",
-	"MiddleName": "Давидович",
-	"LastName": "Исунц",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "66",
-			"HeadOfDepartment": false,
-			"Position": "7"
-		}
-	]
+  "Id": "3122",
+  "FirstName": "Давид",
+  "MiddleName": "Давидович",
+  "LastName": "Исунц",
+  "Time": 0.5,
+  "StartDate": "1995-01-07T00:00:00",
+  "BirthDate": "1975-06-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "7",
+      "Department": "66"
+    }
+  ]
 }

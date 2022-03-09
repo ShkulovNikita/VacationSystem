@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "246",
-	"FirstName": "Артём",
-	"MiddleName": "Андреевич",
-	"LastName": "Андреев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "102",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "246",
+  "FirstName": "Артём",
+  "MiddleName": "Андреевич",
+  "LastName": "Андреев",
+  "Time": 0.5,
+  "StartDate": "1997-08-11T00:00:00",
+  "BirthDate": "1969-08-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "102"
+    }
+  ]
 }

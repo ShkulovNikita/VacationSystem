@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3559",
-	"FirstName": "Татьяна",
-	"MiddleName": "Петровна",
-	"LastName": "Левченко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "23",
-			"HeadOfDepartment": false,
-			"Position": "125"
-		}
-	]
+  "Id": "3559",
+  "FirstName": "Татьяна",
+  "MiddleName": "Петровна",
+  "LastName": "Левченко",
+  "Time": 0.5,
+  "StartDate": "2016-02-16T00:00:00",
+  "BirthDate": "1989-12-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "125",
+      "Department": "23"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1411",
-	"FirstName": "Ирина",
-	"MiddleName": "Васильевна",
-	"LastName": "Кунгурова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "199",
-			"HeadOfDepartment": false,
-			"Position": "154"
-		}
-	]
+  "Id": "1411",
+  "FirstName": "Ирина",
+  "MiddleName": "Васильевна",
+  "LastName": "Кунгурова",
+  "Time": 1,
+  "StartDate": "1986-04-24T00:00:00",
+  "BirthDate": "1966-05-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "154",
+      "Department": "199"
+    }
+  ]
 }

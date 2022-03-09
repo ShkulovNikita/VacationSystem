@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1806",
-	"FirstName": "Андрей",
-	"MiddleName": "Александрович",
-	"LastName": "Колмаков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "122",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "1806",
+  "FirstName": "Андрей",
+  "MiddleName": "Александрович",
+  "LastName": "Колмаков",
+  "Time": 1,
+  "StartDate": "2006-05-14T00:00:00",
+  "BirthDate": "1984-01-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "122"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1757",
-	"FirstName": "Наталия",
-	"MiddleName": "Сергеевна",
-	"LastName": "Николаева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "66",
-			"HeadOfDepartment": false,
-			"Position": "7"
-		}
-	]
+  "Id": "1757",
+  "FirstName": "Наталия",
+  "MiddleName": "Сергеевна",
+  "LastName": "Николаева",
+  "Time": 0.5,
+  "StartDate": "2021-03-22T00:00:00",
+  "BirthDate": "1991-07-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "7",
+      "Department": "66"
+    }
+  ]
 }

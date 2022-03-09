@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1069",
-	"FirstName": "Александр",
-	"MiddleName": "Алексеевич",
-	"LastName": "Лупу",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "154",
-			"HeadOfDepartment": false,
-			"Position": "149"
-		}
-	]
+  "Id": "1069",
+  "FirstName": "Александр",
+  "MiddleName": "Алексеевич",
+  "LastName": "Лупу",
+  "Time": 0.5,
+  "StartDate": "2016-06-12T00:00:00",
+  "BirthDate": "1978-11-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "149",
+      "Department": "154"
+    }
+  ]
 }

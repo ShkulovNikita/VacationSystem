@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "88",
-	"FirstName": "Надежда",
-	"MiddleName": "Викторовна",
-	"LastName": "Числова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "55",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "88",
+  "FirstName": "Надежда",
+  "MiddleName": "Викторовна",
+  "LastName": "Числова",
+  "Time": 0.5,
+  "StartDate": "2013-02-04T00:00:00",
+  "BirthDate": "1958-02-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "55"
+    }
+  ]
 }

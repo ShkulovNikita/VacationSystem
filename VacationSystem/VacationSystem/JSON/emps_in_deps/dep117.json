@@ -1,0 +1,109 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "309",
+      "FirstName": "Василий",
+      "MiddleName": "Викторович",
+      "LastName": "Федоров",
+      "Time": 1,
+      "StartDate": "1993-03-18T00:00:00",
+      "BirthDate": "1954-07-05T00:00:00",
+      "Positions": [
+        {
+          "Position": "2",
+          "Department": "117"
+        }
+      ]
+    },
+    {
+      "Id": "1812",
+      "FirstName": "Максим",
+      "MiddleName": "Германович",
+      "LastName": "Криницын",
+      "Time": 0.5,
+      "StartDate": "2021-01-05T00:00:00",
+      "BirthDate": "1967-08-16T00:00:00",
+      "Positions": [
+        {
+          "Position": "26",
+          "Department": "117"
+        }
+      ]
+    },
+    {
+      "Id": "2799",
+      "FirstName": "Юрий",
+      "MiddleName": "Владимирович",
+      "LastName": "Донцов",
+      "Time": 1,
+      "StartDate": "2013-08-24T00:00:00",
+      "BirthDate": "1963-01-14T00:00:00",
+      "Positions": [
+        {
+          "Position": "26",
+          "Department": "117"
+        }
+      ]
+    },
+    {
+      "Id": "3059",
+      "FirstName": "Варвара",
+      "MiddleName": "Александровна",
+      "LastName": "Юркина",
+      "Time": 1,
+      "StartDate": "1997-04-13T00:00:00",
+      "BirthDate": "1967-09-06T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "117"
+        }
+      ]
+    },
+    {
+      "Id": "3567",
+      "FirstName": "Иван",
+      "MiddleName": "Юрьевич",
+      "LastName": "Кузьменко",
+      "Time": 1,
+      "StartDate": "2020-01-14T00:00:00",
+      "BirthDate": "1958-08-14T00:00:00",
+      "Positions": [
+        {
+          "Position": "24",
+          "Department": "117"
+        }
+      ]
+    },
+    {
+      "Id": "3573",
+      "FirstName": "Роман",
+      "MiddleName": "Олегович",
+      "LastName": "Черепанов",
+      "Time": 1,
+      "StartDate": "2002-05-05T00:00:00",
+      "BirthDate": "1975-06-04T00:00:00",
+      "Positions": [
+        {
+          "Position": "24",
+          "Department": "117"
+        }
+      ]
+    },
+    {
+      "Id": "3598",
+      "FirstName": "Максим",
+      "MiddleName": "",
+      "LastName": "Густомясов",
+      "Time": 0.5,
+      "StartDate": "2015-04-16T00:00:00",
+      "BirthDate": "1992-03-04T00:00:00",
+      "Positions": [
+        {
+          "Position": "5",
+          "Department": "117"
+        }
+      ]
+    }
+  ]
+}

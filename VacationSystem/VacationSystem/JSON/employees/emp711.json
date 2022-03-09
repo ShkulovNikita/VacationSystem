@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "711",
-	"FirstName": "Наталия",
-	"MiddleName": "Геннадьевна",
-	"LastName": "Новикова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "37",
-			"HeadOfDepartment": false,
-			"Position": "105"
-		}
-	]
+  "Id": "711",
+  "FirstName": "Наталия",
+  "MiddleName": "Геннадьевна",
+  "LastName": "Новикова",
+  "Time": 1,
+  "StartDate": "1989-07-11T00:00:00",
+  "BirthDate": "1960-08-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "105",
+      "Department": "37"
+    }
+  ]
 }

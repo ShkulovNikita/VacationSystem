@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3427",
-	"FirstName": "Ирина",
-	"MiddleName": "Петровна",
-	"LastName": "Калинина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "77",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "3427",
+  "FirstName": "Ирина",
+  "MiddleName": "Петровна",
+  "LastName": "Калинина",
+  "Time": 1,
+  "StartDate": "2016-06-13T00:00:00",
+  "BirthDate": "1966-12-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "77"
+    }
+  ]
 }

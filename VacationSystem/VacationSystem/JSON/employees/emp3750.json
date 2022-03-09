@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3750",
-	"FirstName": "Татьяна",
-	"MiddleName": "Викторовна",
-	"LastName": "Кулапина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "245",
-			"HeadOfDepartment": false,
-			"Position": "20"
-		}
-	]
+  "Id": "3750",
+  "FirstName": "Татьяна",
+  "MiddleName": "Викторовна",
+  "LastName": "Кулапина",
+  "Time": 0.5,
+  "StartDate": "2017-12-24T00:00:00",
+  "BirthDate": "1963-01-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "20",
+      "Department": "245"
+    }
+  ]
 }

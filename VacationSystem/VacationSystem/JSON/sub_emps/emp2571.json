@@ -1,0 +1,207 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "36",
+      "FirstName": "Ирина",
+      "MiddleName": "Николаевна",
+      "LastName": "Винниченко",
+      "Time": 0.5,
+      "StartDate": "2002-05-07T00:00:00",
+      "BirthDate": "1957-01-19T00:00:00",
+      "Positions": [
+        {
+          "Position": "6",
+          "Department": "27"
+        }
+      ]
+    },
+    {
+      "Id": "150",
+      "FirstName": "Дмитрий",
+      "MiddleName": "Евгеньевич",
+      "LastName": "Семенов",
+      "Time": 2,
+      "StartDate": "2016-04-13T00:00:00",
+      "BirthDate": "1977-11-22T00:00:00",
+      "Positions": [
+        {
+          "Position": "7",
+          "Department": "27"
+        },
+        {
+          "Position": "10",
+          "Department": "45"
+        }
+      ]
+    },
+    {
+      "Id": "205",
+      "FirstName": "Иван",
+      "MiddleName": "Иванович",
+      "LastName": "Медведев",
+      "Time": 1,
+      "StartDate": "2013-07-05T00:00:00",
+      "BirthDate": "1987-10-12T00:00:00",
+      "Positions": [
+        {
+          "Position": "62",
+          "Department": "27"
+        }
+      ]
+    },
+    {
+      "Id": "994",
+      "FirstName": "Ольга",
+      "MiddleName": "Викторовна",
+      "LastName": "Клименко",
+      "Time": 0.5,
+      "StartDate": "2005-01-04T00:00:00",
+      "BirthDate": "1982-01-09T00:00:00",
+      "Positions": [
+        {
+          "Position": "7",
+          "Department": "27"
+        }
+      ]
+    },
+    {
+      "Id": "1084",
+      "FirstName": "Тамара",
+      "MiddleName": "Георгиевна",
+      "LastName": "Петрашова",
+      "Time": 1.5,
+      "StartDate": "2017-05-20T00:00:00",
+      "BirthDate": "1985-09-22T00:00:00",
+      "Positions": [
+        {
+          "Position": "1",
+          "Department": "56"
+        },
+        {
+          "Position": "18",
+          "Department": "27"
+        }
+      ]
+    },
+    {
+      "Id": "1086",
+      "FirstName": "Любовь",
+      "MiddleName": "Вадимовна",
+      "LastName": "Терентьева",
+      "Time": 1,
+      "StartDate": "2011-08-11T00:00:00",
+      "BirthDate": "1980-10-07T00:00:00",
+      "Positions": [
+        {
+          "Position": "18",
+          "Department": "27"
+        }
+      ]
+    },
+    {
+      "Id": "1463",
+      "FirstName": "Екатерина",
+      "MiddleName": "Викторовна",
+      "LastName": "Кулагина",
+      "Time": 0.5,
+      "StartDate": "2014-01-07T00:00:00",
+      "BirthDate": "1974-06-09T00:00:00",
+      "Positions": [
+        {
+          "Position": "62",
+          "Department": "27"
+        }
+      ]
+    },
+    {
+      "Id": "1481",
+      "FirstName": "Оксана",
+      "MiddleName": "Игоревна",
+      "LastName": "Медведева",
+      "Time": 1,
+      "StartDate": "2016-04-14T00:00:00",
+      "BirthDate": "1973-10-12T00:00:00",
+      "Positions": [
+        {
+          "Position": "18",
+          "Department": "27"
+        }
+      ]
+    },
+    {
+      "Id": "1686",
+      "FirstName": "Раиса",
+      "MiddleName": "Анатольевна",
+      "LastName": "Малкова",
+      "Time": 1,
+      "StartDate": "2017-11-17T00:00:00",
+      "BirthDate": "1977-02-16T00:00:00",
+      "Positions": [
+        {
+          "Position": "199",
+          "Department": "27"
+        }
+      ]
+    },
+    {
+      "Id": "1837",
+      "FirstName": "Елена",
+      "MiddleName": "Павловна",
+      "LastName": "Рябчикова",
+      "Time": 1,
+      "StartDate": "2018-12-12T00:00:00",
+      "BirthDate": "1983-06-12T00:00:00",
+      "Positions": [
+        {
+          "Position": "45",
+          "Department": "27"
+        }
+      ]
+    },
+    {
+      "Id": "2351",
+      "FirstName": "Александр",
+      "MiddleName": "Сергеевич",
+      "LastName": "Парнюгин",
+      "Time": 0.5,
+      "StartDate": "2014-01-14T00:00:00",
+      "BirthDate": "1985-12-03T00:00:00",
+      "Positions": [
+        {
+          "Position": "234",
+          "Department": "27"
+        }
+      ]
+    },
+    {
+      "Id": "2571",
+      "FirstName": "Мария",
+      "MiddleName": "Игоревна",
+      "LastName": "Яговкина",
+      "Time": 0.5,
+      "StartDate": "1977-07-09T00:00:00",
+      "BirthDate": "1953-10-06T00:00:00",
+      "Positions": [
+        {
+          "Position": "62",
+          "Department": "27"
+        }
+      ]
+    },
+    {
+      "Id": "3229",
+      "FirstName": "Дмитрий",
+      "MiddleName": "Алексеевич",
+      "LastName": "Лапин",
+      "Time": 1,
+      "StartDate": "2017-06-17T00:00:00",
+      "BirthDate": "1992-11-09T00:00:00",
+      "Positions": [
+        {
+          "Position": "7",
+          "Department": "27"
+        }
+      ]
+    }
+  ]
+}

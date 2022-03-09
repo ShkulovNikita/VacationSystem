@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2188",
-	"FirstName": "Инна",
-	"MiddleName": "Михайловна",
-	"LastName": "Ларионова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "29",
-			"HeadOfDepartment": false,
-			"Position": "58"
-		}
-	]
+  "Id": "2188",
+  "FirstName": "Инна",
+  "MiddleName": "Михайловна",
+  "LastName": "Ларионова",
+  "Time": 1,
+  "StartDate": "1995-11-05T00:00:00",
+  "BirthDate": "1974-05-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "58",
+      "Department": "29"
+    }
+  ]
 }

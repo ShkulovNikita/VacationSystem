@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3130",
-	"FirstName": "Евгения",
-	"MiddleName": "Витальевна",
-	"LastName": "Дегтярева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "3130",
+  "FirstName": "Евгения",
+  "MiddleName": "Витальевна",
+  "LastName": "Дегтярева",
+  "Time": 0.5,
+  "StartDate": "1995-11-01T00:00:00",
+  "BirthDate": "1963-11-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "15"
+    }
+  ]
 }

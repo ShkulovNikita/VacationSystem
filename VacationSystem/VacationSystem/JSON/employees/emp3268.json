@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3268",
-	"FirstName": "Анастасия",
-	"MiddleName": "Геннадьевна",
-	"LastName": "Томилова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "112",
-			"HeadOfDepartment": false,
-			"Position": "9"
-		}
-	]
+  "Id": "3268",
+  "FirstName": "Анастасия",
+  "MiddleName": "Геннадьевна",
+  "LastName": "Томилова",
+  "Time": 1,
+  "StartDate": "2019-01-05T00:00:00",
+  "BirthDate": "1958-12-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "9",
+      "Department": "112"
+    }
+  ]
 }

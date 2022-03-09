@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "533",
-	"FirstName": "Ксения",
-	"MiddleName": "Игоревна",
-	"LastName": "Мачехина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "119",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		},
-		{
-			"Id": "16",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "533",
+  "FirstName": "Ксения",
+  "MiddleName": "Игоревна",
+  "LastName": "Мачехина",
+  "Time": 2,
+  "StartDate": "2016-05-21T00:00:00",
+  "BirthDate": "1962-08-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "119"
+    },
+    {
+      "Position": "3",
+      "Department": "16"
+    }
+  ]
 }

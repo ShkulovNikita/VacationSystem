@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "644",
-	"FirstName": "Алексей",
-	"MiddleName": "Алексеевич",
-	"LastName": "Орлов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "17",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "644",
+  "FirstName": "Алексей",
+  "MiddleName": "Алексеевич",
+  "LastName": "Орлов",
+  "Time": 1,
+  "StartDate": "2011-02-07T00:00:00",
+  "BirthDate": "1989-05-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "17"
+    }
+  ]
 }

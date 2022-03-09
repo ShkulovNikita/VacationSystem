@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3297",
-	"FirstName": "Геннадий",
-	"MiddleName": "Исламович",
-	"LastName": "Станченко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "108",
-			"HeadOfDepartment": false,
-			"Position": "64"
-		}
-	]
+  "Id": "3297",
+  "FirstName": "Геннадий",
+  "MiddleName": "Исламович",
+  "LastName": "Станченко",
+  "Time": 1,
+  "StartDate": "2001-10-14T00:00:00",
+  "BirthDate": "1966-02-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "64",
+      "Department": "108"
+    }
+  ]
 }

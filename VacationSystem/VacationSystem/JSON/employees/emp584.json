@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "584",
-	"FirstName": "Надежда",
-	"MiddleName": "Петровна",
-	"LastName": "Шарепо",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "34",
-			"HeadOfDepartment": false,
-			"Position": "87"
-		}
-	]
+  "Id": "584",
+  "FirstName": "Надежда",
+  "MiddleName": "Петровна",
+  "LastName": "Шарепо",
+  "Time": 0.5,
+  "StartDate": "2011-03-03T00:00:00",
+  "BirthDate": "1985-06-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "87",
+      "Department": "34"
+    }
+  ]
 }

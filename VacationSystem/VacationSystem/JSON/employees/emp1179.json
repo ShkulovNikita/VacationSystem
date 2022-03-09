@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1179",
-	"FirstName": "Юлия",
-	"MiddleName": "Алексеевна",
-	"LastName": "Мартынова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "26",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "1179",
+  "FirstName": "Юлия",
+  "MiddleName": "Алексеевна",
+  "LastName": "Мартынова",
+  "Time": 1,
+  "StartDate": "1991-08-22T00:00:00",
+  "BirthDate": "1970-06-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "26"
+    }
+  ]
 }

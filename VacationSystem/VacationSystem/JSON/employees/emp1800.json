@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1800",
-	"FirstName": "Иван",
-	"MiddleName": "Сергеевич",
-	"LastName": "Хомяков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "46",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1800",
+  "FirstName": "Иван",
+  "MiddleName": "Сергеевич",
+  "LastName": "Хомяков",
+  "Time": 1,
+  "StartDate": "1993-10-10T00:00:00",
+  "BirthDate": "1953-08-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "46"
+    }
+  ]
 }

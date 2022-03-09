@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3661",
-	"FirstName": "Наиль",
-	"MiddleName": "Магруфович",
-	"LastName": "Хузякайев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "38",
-			"HeadOfDepartment": false,
-			"Position": "141"
-		}
-	]
+  "Id": "3661",
+  "FirstName": "Наиль",
+  "MiddleName": "Магруфович",
+  "LastName": "Хузякайев",
+  "Time": 0.5,
+  "StartDate": "1994-08-09T00:00:00",
+  "BirthDate": "1969-01-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "141",
+      "Department": "38"
+    }
+  ]
 }

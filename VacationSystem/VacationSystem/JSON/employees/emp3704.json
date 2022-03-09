@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3704",
-	"FirstName": "Маргарита",
-	"MiddleName": "Витальевна",
-	"LastName": "Ерхова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "85",
-			"HeadOfDepartment": false,
-			"Position": "147"
-		}
-	]
+  "Id": "3704",
+  "FirstName": "Маргарита",
+  "MiddleName": "Витальевна",
+  "LastName": "Ерхова",
+  "Time": 0.5,
+  "StartDate": "2011-07-24T00:00:00",
+  "BirthDate": "1985-04-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "147",
+      "Department": "85"
+    }
+  ]
 }

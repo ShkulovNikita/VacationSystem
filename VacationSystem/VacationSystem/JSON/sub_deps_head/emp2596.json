@@ -1,0 +1,10 @@
+﻿{
+  "Departments": [
+    {
+      "Id": "247",
+      "Name": "Научный парк",
+      "Head": "2596",
+      "HeadDepartment": "38"
+    }
+  ]
+}

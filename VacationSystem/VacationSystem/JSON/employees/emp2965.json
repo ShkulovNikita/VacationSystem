@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2965",
-	"FirstName": "Валерий",
-	"MiddleName": "Виленович",
-	"LastName": "Кайзер",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "226",
-			"HeadOfDepartment": false,
-			"Position": "64"
-		}
-	]
+  "Id": "2965",
+  "FirstName": "Валерий",
+  "MiddleName": "Виленович",
+  "LastName": "Кайзер",
+  "Time": 0.5,
+  "StartDate": "2020-11-06T00:00:00",
+  "BirthDate": "1976-04-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "64",
+      "Department": "226"
+    }
+  ]
 }

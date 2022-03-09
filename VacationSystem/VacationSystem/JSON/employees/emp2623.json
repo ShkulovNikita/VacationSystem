@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2623",
-	"FirstName": "Наталья",
-	"MiddleName": "Юрьевна",
-	"LastName": "Луговцова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "12",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		}
-	]
+  "Id": "2623",
+  "FirstName": "Наталья",
+  "MiddleName": "Юрьевна",
+  "LastName": "Луговцова",
+  "Time": 1,
+  "StartDate": "2004-05-02T00:00:00",
+  "BirthDate": "1956-07-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "12"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2311",
-	"FirstName": "Эмилия",
-	"MiddleName": "Дмитриевна",
-	"LastName": "Иванчина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "36",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "2311",
+  "FirstName": "Эмилия",
+  "MiddleName": "Дмитриевна",
+  "LastName": "Иванчина",
+  "Time": 0.5,
+  "StartDate": "2005-06-08T00:00:00",
+  "BirthDate": "1972-04-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "36"
+    }
+  ]
 }

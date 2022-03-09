@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2070",
-	"FirstName": "Наталья",
-	"MiddleName": "Владимировна",
-	"LastName": "Барановская",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "1",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "2070",
+  "FirstName": "Наталья",
+  "MiddleName": "Владимировна",
+  "LastName": "Барановская",
+  "Time": 1,
+  "StartDate": "2018-09-21T00:00:00",
+  "BirthDate": "1962-12-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "1"
+    }
+  ]
 }

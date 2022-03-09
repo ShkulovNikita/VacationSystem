@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2212",
-	"FirstName": "Елена",
-	"MiddleName": "Максимовна",
-	"LastName": "Митрофанова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "1",
-			"HeadOfDepartment": false,
-			"Position": "53"
-		}
-	]
+  "Id": "2212",
+  "FirstName": "Елена",
+  "MiddleName": "Максимовна",
+  "LastName": "Митрофанова",
+  "Time": 0.5,
+  "StartDate": "2014-02-01T00:00:00",
+  "BirthDate": "1957-12-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "53",
+      "Department": "1"
+    }
+  ]
 }

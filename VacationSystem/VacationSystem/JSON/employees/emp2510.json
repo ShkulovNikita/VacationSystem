@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2510",
-	"FirstName": "Вероника",
-	"MiddleName": "Андреевна",
-	"LastName": "Гавриленко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "2510",
+  "FirstName": "Вероника",
+  "MiddleName": "Андреевна",
+  "LastName": "Гавриленко",
+  "Time": 0.5,
+  "StartDate": "2012-03-05T00:00:00",
+  "BirthDate": "1992-02-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "2"
+    }
+  ]
 }

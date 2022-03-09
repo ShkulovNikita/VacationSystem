@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2494",
-	"FirstName": "Василий",
-	"MiddleName": "Васильевич",
-	"LastName": "Птухин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "1",
-			"HeadOfDepartment": false,
-			"Position": "70"
-		}
-	]
+  "Id": "2494",
+  "FirstName": "Василий",
+  "MiddleName": "Васильевич",
+  "LastName": "Птухин",
+  "Time": 1,
+  "StartDate": "2003-06-10T00:00:00",
+  "BirthDate": "1968-04-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "70",
+      "Department": "1"
+    }
+  ]
 }

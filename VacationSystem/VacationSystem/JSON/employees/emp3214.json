@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3214",
-	"FirstName": "Петр",
-	"MiddleName": "Алексеевич",
-	"LastName": "Глушков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "32",
-			"HeadOfDepartment": false,
-			"Position": "25"
-		}
-	]
+  "Id": "3214",
+  "FirstName": "Петр",
+  "MiddleName": "Алексеевич",
+  "LastName": "Глушков",
+  "Time": 1,
+  "StartDate": "2019-10-07T00:00:00",
+  "BirthDate": "1963-07-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "25",
+      "Department": "32"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1778",
-	"FirstName": "Павел",
-	"MiddleName": "Алексеевич",
-	"LastName": "Украинец",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "226",
-			"HeadOfDepartment": false,
-			"Position": "212"
-		}
-	]
+  "Id": "1778",
+  "FirstName": "Павел",
+  "MiddleName": "Алексеевич",
+  "LastName": "Украинец",
+  "Time": 0.5,
+  "StartDate": "2004-06-07T00:00:00",
+  "BirthDate": "1962-08-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "212",
+      "Department": "226"
+    }
+  ]
 }

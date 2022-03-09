@@ -1,0 +1,274 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "147",
+      "FirstName": "Артем",
+      "MiddleName": "Анатольевич",
+      "LastName": "Жуйков",
+      "Time": 1,
+      "StartDate": "2003-01-12T00:00:00",
+      "BirthDate": "1970-11-11T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "79"
+        }
+      ]
+    },
+    {
+      "Id": "296",
+      "FirstName": "Максим",
+      "MiddleName": "Павлович",
+      "LastName": "Шешиков",
+      "Time": 0.5,
+      "StartDate": "2013-05-05T00:00:00",
+      "BirthDate": "1991-01-05T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "79"
+        }
+      ]
+    },
+    {
+      "Id": "518",
+      "FirstName": "Николай",
+      "MiddleName": "Яковлевич",
+      "LastName": "Филишов",
+      "Time": 0.5,
+      "StartDate": "1994-11-04T00:00:00",
+      "BirthDate": "1970-06-10T00:00:00",
+      "Positions": [
+        {
+          "Position": "11",
+          "Department": "79"
+        }
+      ]
+    },
+    {
+      "Id": "770",
+      "FirstName": "Ирина",
+      "MiddleName": "Александровна",
+      "LastName": "Короткова",
+      "Time": 1,
+      "StartDate": "1999-12-06T00:00:00",
+      "BirthDate": "1970-06-21T00:00:00",
+      "Positions": [
+        {
+          "Position": "11",
+          "Department": "79"
+        }
+      ]
+    },
+    {
+      "Id": "979",
+      "FirstName": "Элеонора",
+      "MiddleName": "Сергеевна",
+      "LastName": "Романенко",
+      "Time": 1,
+      "StartDate": "2021-05-20T00:00:00",
+      "BirthDate": "1974-05-13T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "79"
+        }
+      ]
+    },
+    {
+      "Id": "1028",
+      "FirstName": "Владимир",
+      "MiddleName": "Яковлевич",
+      "LastName": "Грошев",
+      "Time": 1,
+      "StartDate": "2003-02-02T00:00:00",
+      "BirthDate": "1957-10-13T00:00:00",
+      "Positions": [
+        {
+          "Position": "129",
+          "Department": "79"
+        }
+      ]
+    },
+    {
+      "Id": "1232",
+      "FirstName": "Николай",
+      "MiddleName": "Гаврилович",
+      "LastName": "Климов",
+      "Time": 1.5,
+      "StartDate": "1982-07-12T00:00:00",
+      "BirthDate": "1958-09-07T00:00:00",
+      "Positions": [
+        {
+          "Position": "34",
+          "Department": "79"
+        }
+      ]
+    },
+    {
+      "Id": "1271",
+      "FirstName": "Нина",
+      "MiddleName": "Владимировна",
+      "LastName": "Барбина",
+      "Time": 1,
+      "StartDate": "2000-07-13T00:00:00",
+      "BirthDate": "1968-12-13T00:00:00",
+      "Positions": [
+        {
+          "Position": "161",
+          "Department": "79"
+        }
+      ]
+    },
+    {
+      "Id": "1644",
+      "FirstName": "Лилия",
+      "MiddleName": "Владимировна",
+      "LastName": "Гончарова",
+      "Time": 1,
+      "StartDate": "2008-01-16T00:00:00",
+      "BirthDate": "1963-02-10T00:00:00",
+      "Positions": [
+        {
+          "Position": "18",
+          "Department": "79"
+        }
+      ]
+    },
+    {
+      "Id": "1844",
+      "FirstName": "Кирилл",
+      "MiddleName": "Владимирович",
+      "LastName": "Перфильев",
+      "Time": 0.5,
+      "StartDate": "2017-04-21T00:00:00",
+      "BirthDate": "1993-06-07T00:00:00",
+      "Positions": [
+        {
+          "Position": "6",
+          "Department": "79"
+        }
+      ]
+    },
+    {
+      "Id": "1903",
+      "FirstName": "Денис",
+      "MiddleName": "Сергеевич",
+      "LastName": "Белкин",
+      "Time": 1,
+      "StartDate": "2006-10-08T00:00:00",
+      "BirthDate": "1968-08-10T00:00:00",
+      "Positions": [
+        {
+          "Position": "45",
+          "Department": "79"
+        }
+      ]
+    },
+    {
+      "Id": "2466",
+      "FirstName": "Ирина",
+      "MiddleName": "Валериевна",
+      "LastName": "Плеханова",
+      "Time": 1,
+      "StartDate": "2009-03-03T00:00:00",
+      "BirthDate": "1987-07-17T00:00:00",
+      "Positions": [
+        {
+          "Position": "161",
+          "Department": "79"
+        }
+      ]
+    },
+    {
+      "Id": "2478",
+      "FirstName": "Светлана",
+      "MiddleName": "Сергеевна",
+      "LastName": "Шиленкова",
+      "Time": 1,
+      "StartDate": "2007-02-11T00:00:00",
+      "BirthDate": "1956-10-22T00:00:00",
+      "Positions": [
+        {
+          "Position": "11",
+          "Department": "79"
+        }
+      ]
+    },
+    {
+      "Id": "2664",
+      "FirstName": "Екатерина",
+      "MiddleName": "Алексеевна",
+      "LastName": "Семенова",
+      "Time": 1,
+      "StartDate": "2021-10-08T00:00:00",
+      "BirthDate": "1958-06-19T00:00:00",
+      "Positions": [
+        {
+          "Position": "161",
+          "Department": "79"
+        }
+      ]
+    },
+    {
+      "Id": "2709",
+      "FirstName": "Станислав",
+      "MiddleName": "Алексеевич",
+      "LastName": "Трофимчук",
+      "Time": 1,
+      "StartDate": "1996-11-04T00:00:00",
+      "BirthDate": "1976-06-03T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "79"
+        }
+      ]
+    },
+    {
+      "Id": "3083",
+      "FirstName": "Евгений",
+      "MiddleName": "Евгеньевич",
+      "LastName": "Журавский",
+      "Time": 0.5,
+      "StartDate": "2020-07-12T00:00:00",
+      "BirthDate": "1965-09-10T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "79"
+        }
+      ]
+    },
+    {
+      "Id": "3322",
+      "FirstName": "Евгений",
+      "MiddleName": "Валерьевич",
+      "LastName": "Зырянский",
+      "Time": 0.5,
+      "StartDate": "2021-01-05T00:00:00",
+      "BirthDate": "1955-08-12T00:00:00",
+      "Positions": [
+        {
+          "Position": "25",
+          "Department": "79"
+        }
+      ]
+    },
+    {
+      "Id": "3434",
+      "FirstName": "Елена",
+      "MiddleName": "Владимировна",
+      "LastName": "Жуйкова",
+      "Time": 0.5,
+      "StartDate": "2021-01-01T00:00:00",
+      "BirthDate": "1981-11-23T00:00:00",
+      "Positions": [
+        {
+          "Position": "6",
+          "Department": "79"
+        }
+      ]
+    }
+  ]
+}

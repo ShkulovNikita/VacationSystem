@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "258",
-	"FirstName": "Екатерина",
-	"MiddleName": "Валентиновна",
-	"LastName": "Меньшикова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "3",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "258",
+  "FirstName": "Екатерина",
+  "MiddleName": "Валентиновна",
+  "LastName": "Меньшикова",
+  "Time": 1,
+  "StartDate": "2004-12-23T00:00:00",
+  "BirthDate": "1981-04-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "3"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3069",
-	"FirstName": "Тимофей",
-	"MiddleName": "Русланович",
-	"LastName": "Алишин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "0"
-		}
-	]
+  "Id": "3069",
+  "FirstName": "Тимофей",
+  "MiddleName": "Русланович",
+  "LastName": "Алишин",
+  "Time": 0.5,
+  "StartDate": "2001-05-17T00:00:00",
+  "BirthDate": "1970-04-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "0",
+      "Department": "15"
+    }
+  ]
 }

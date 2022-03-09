@@ -1,0 +1,49 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "98",
+      "FirstName": "Евгения",
+      "MiddleName": "Сергеевна",
+      "LastName": "Кулюкина",
+      "Time": 0.5,
+      "StartDate": "1995-07-13T00:00:00",
+      "BirthDate": "1962-04-08T00:00:00",
+      "Positions": [
+        {
+          "Position": "38",
+          "Department": "60"
+        }
+      ]
+    },
+    {
+      "Id": "1208",
+      "FirstName": "Юлия",
+      "MiddleName": "Игоревна",
+      "LastName": "Тюрина",
+      "Time": 0.5,
+      "StartDate": "1981-01-03T00:00:00",
+      "BirthDate": "1957-02-23T00:00:00",
+      "Positions": [
+        {
+          "Position": "6",
+          "Department": "60"
+        }
+      ]
+    },
+    {
+      "Id": "2269",
+      "FirstName": "Екатерина",
+      "MiddleName": "Борисовна",
+      "LastName": "Трифонова",
+      "Time": 1,
+      "StartDate": "2006-03-04T00:00:00",
+      "BirthDate": "1981-11-18T00:00:00",
+      "Positions": [
+        {
+          "Position": "38",
+          "Department": "60"
+        }
+      ]
+    }
+  ]
+}

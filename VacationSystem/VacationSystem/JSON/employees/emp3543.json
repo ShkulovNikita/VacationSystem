@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3543",
-	"FirstName": "Али",
-	"MiddleName": "",
-	"LastName": "Мехтиев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "32",
-			"HeadOfDepartment": false,
-			"Position": "56"
-		}
-	]
+  "Id": "3543",
+  "FirstName": "Али",
+  "MiddleName": "",
+  "LastName": "Мехтиев",
+  "Time": 0.5,
+  "StartDate": "2002-02-22T00:00:00",
+  "BirthDate": "1971-10-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "56",
+      "Department": "32"
+    }
+  ]
 }

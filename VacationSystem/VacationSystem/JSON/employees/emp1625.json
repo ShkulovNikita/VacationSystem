@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1625",
-	"FirstName": "Елена",
-	"MiddleName": "Михайловна",
-	"LastName": "Максимова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "99",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "1625",
+  "FirstName": "Елена",
+  "MiddleName": "Михайловна",
+  "LastName": "Максимова",
+  "Time": 1,
+  "StartDate": "2015-09-15T00:00:00",
+  "BirthDate": "1975-05-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "99"
+    }
+  ]
 }

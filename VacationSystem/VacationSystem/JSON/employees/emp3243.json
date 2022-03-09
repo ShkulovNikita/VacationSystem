@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3243",
-	"FirstName": "Анастасия",
-	"MiddleName": "Рамеловна",
-	"LastName": "Рахимова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "65",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "3243",
+  "FirstName": "Анастасия",
+  "MiddleName": "Рамеловна",
+  "LastName": "Рахимова",
+  "Time": 0.5,
+  "StartDate": "1995-03-16T00:00:00",
+  "BirthDate": "1957-11-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "65"
+    }
+  ]
 }

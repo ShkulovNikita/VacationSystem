@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3484",
-	"FirstName": "Людмила",
-	"MiddleName": "Анатольевна",
-	"LastName": "Тотышева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "23",
-			"HeadOfDepartment": false,
-			"Position": "125"
-		}
-	]
+  "Id": "3484",
+  "FirstName": "Людмила",
+  "MiddleName": "Анатольевна",
+  "LastName": "Тотышева",
+  "Time": 0.5,
+  "StartDate": "2019-10-22T00:00:00",
+  "BirthDate": "1984-08-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "125",
+      "Department": "23"
+    }
+  ]
 }

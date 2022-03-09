@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2007",
-	"FirstName": "Юлия",
-	"MiddleName": "Леонидовна",
-	"LastName": "Заблоцкая",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "9",
-			"HeadOfDepartment": false,
-			"Position": "18"
-		}
-	]
+  "Id": "2007",
+  "FirstName": "Юлия",
+  "MiddleName": "Леонидовна",
+  "LastName": "Заблоцкая",
+  "Time": 0.5,
+  "StartDate": "2012-02-15T00:00:00",
+  "BirthDate": "1982-01-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "18",
+      "Department": "9"
+    }
+  ]
 }

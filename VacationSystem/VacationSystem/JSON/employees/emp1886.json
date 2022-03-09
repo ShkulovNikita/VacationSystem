@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1886",
-	"FirstName": "Евгения",
-	"MiddleName": "Сергеевна",
-	"LastName": "Самохвалова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "0",
-			"HeadOfDepartment": false,
-			"Position": "0"
-		}
-	]
+  "Id": "1886",
+  "FirstName": "Евгения",
+  "MiddleName": "Сергеевна",
+  "LastName": "Самохвалова",
+  "Time": 0.5,
+  "StartDate": "2009-04-22T00:00:00",
+  "BirthDate": "1954-02-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "0",
+      "Department": "0"
+    }
+  ]
 }

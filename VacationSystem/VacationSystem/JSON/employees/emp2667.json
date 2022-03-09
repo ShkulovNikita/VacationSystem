@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2667",
-	"FirstName": "Станислав",
-	"MiddleName": "Борисович",
-	"LastName": "Чепин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "29",
-			"HeadOfDepartment": false,
-			"Position": "25"
-		}
-	]
+  "Id": "2667",
+  "FirstName": "Станислав",
+  "MiddleName": "Борисович",
+  "LastName": "Чепин",
+  "Time": 1,
+  "StartDate": "2016-04-10T00:00:00",
+  "BirthDate": "1992-03-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "25",
+      "Department": "29"
+    }
+  ]
 }

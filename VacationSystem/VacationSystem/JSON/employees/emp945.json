@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "945",
-	"FirstName": "Надежда",
-	"MiddleName": "Владимировна",
-	"LastName": "Маскалюк",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "34",
-			"HeadOfDepartment": false,
-			"Position": "87"
-		}
-	]
+  "Id": "945",
+  "FirstName": "Надежда",
+  "MiddleName": "Владимировна",
+  "LastName": "Маскалюк",
+  "Time": 1,
+  "StartDate": "2016-11-11T00:00:00",
+  "BirthDate": "1953-06-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "87",
+      "Department": "34"
+    }
+  ]
 }

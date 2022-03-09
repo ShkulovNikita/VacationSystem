@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1327",
-	"FirstName": "Владислава",
-	"MiddleName": "Викторовна",
-	"LastName": "Хомякова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "91",
-			"HeadOfDepartment": false,
-			"Position": "166"
-		}
-	]
+  "Id": "1327",
+  "FirstName": "Владислава",
+  "MiddleName": "Викторовна",
+  "LastName": "Хомякова",
+  "Time": 0.5,
+  "StartDate": "2007-06-04T00:00:00",
+  "BirthDate": "1984-02-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "166",
+      "Department": "91"
+    }
+  ]
 }

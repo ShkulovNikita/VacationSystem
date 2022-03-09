@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1005",
-	"FirstName": "Алексей",
-	"MiddleName": "Алексеевич",
-	"LastName": "Митякин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "46",
-			"HeadOfDepartment": false,
-			"Position": "70"
-		}
-	]
+  "Id": "1005",
+  "FirstName": "Алексей",
+  "MiddleName": "Алексеевич",
+  "LastName": "Митякин",
+  "Time": 1,
+  "StartDate": "2006-05-22T00:00:00",
+  "BirthDate": "1971-03-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "70",
+      "Department": "46"
+    }
+  ]
 }

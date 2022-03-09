@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3693",
-	"FirstName": "Дмитрий",
-	"MiddleName": "Викторович",
-	"LastName": "Бобков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "50",
-			"HeadOfDepartment": false,
-			"Position": "247"
-		}
-	]
+  "Id": "3693",
+  "FirstName": "Дмитрий",
+  "MiddleName": "Викторович",
+  "LastName": "Бобков",
+  "Time": 1,
+  "StartDate": "2009-10-12T00:00:00",
+  "BirthDate": "1984-04-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "247",
+      "Department": "50"
+    }
+  ]
 }

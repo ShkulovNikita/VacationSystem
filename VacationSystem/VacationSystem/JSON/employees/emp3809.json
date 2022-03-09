@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3809",
-	"FirstName": "Дамир",
-	"MiddleName": "Равильевич",
-	"LastName": "Абдулвалиев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "215",
-			"HeadOfDepartment": false,
-			"Position": "212"
-		}
-	]
+  "Id": "3809",
+  "FirstName": "Дамир",
+  "MiddleName": "Равильевич",
+  "LastName": "Абдулвалиев",
+  "Time": 0.5,
+  "StartDate": "2010-10-02T00:00:00",
+  "BirthDate": "1972-08-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "212",
+      "Department": "215"
+    }
+  ]
 }

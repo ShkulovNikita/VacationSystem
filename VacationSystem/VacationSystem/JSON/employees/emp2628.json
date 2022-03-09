@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2628",
-	"FirstName": "Светлана",
-	"MiddleName": "Ивановна",
-	"LastName": "Ларионова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "24",
-			"HeadOfDepartment": false,
-			"Position": "138"
-		}
-	]
+  "Id": "2628",
+  "FirstName": "Светлана",
+  "MiddleName": "Ивановна",
+  "LastName": "Ларионова",
+  "Time": 0.5,
+  "StartDate": "2010-11-12T00:00:00",
+  "BirthDate": "1987-10-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "138",
+      "Department": "24"
+    }
+  ]
 }

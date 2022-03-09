@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "386",
-	"FirstName": "Валерий",
-	"MiddleName": "Николаевич",
-	"LastName": "Бориков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "8",
-			"HeadOfDepartment": false,
-			"Position": "91"
-		}
-	]
+  "Id": "386",
+  "FirstName": "Валерий",
+  "MiddleName": "Николаевич",
+  "LastName": "Бориков",
+  "Time": 0.5,
+  "StartDate": "2009-06-01T00:00:00",
+  "BirthDate": "1969-09-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "91",
+      "Department": "8"
+    }
+  ]
 }

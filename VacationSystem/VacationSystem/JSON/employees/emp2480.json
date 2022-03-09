@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2480",
-	"FirstName": "Александр",
-	"MiddleName": "Андреевич",
-	"LastName": "Бер",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "46",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "2480",
+  "FirstName": "Александр",
+  "MiddleName": "Андреевич",
+  "LastName": "Бер",
+  "Time": 1,
+  "StartDate": "2005-02-10T00:00:00",
+  "BirthDate": "1953-08-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "46"
+    }
+  ]
 }

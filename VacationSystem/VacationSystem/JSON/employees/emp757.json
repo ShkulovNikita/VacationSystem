@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "757",
-	"FirstName": "Тамара",
-	"MiddleName": "Александровна",
-	"LastName": "Христенко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "9",
-			"HeadOfDepartment": false,
-			"Position": "18"
-		}
-	]
+  "Id": "757",
+  "FirstName": "Тамара",
+  "MiddleName": "Александровна",
+  "LastName": "Христенко",
+  "Time": 1,
+  "StartDate": "1995-08-09T00:00:00",
+  "BirthDate": "1956-02-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "18",
+      "Department": "9"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1985",
-	"FirstName": "Максим",
-	"MiddleName": "Владимирович",
-	"LastName": "Скороспешкин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "6",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1985",
+  "FirstName": "Максим",
+  "MiddleName": "Владимирович",
+  "LastName": "Скороспешкин",
+  "Time": 0.5,
+  "StartDate": "2006-12-17T00:00:00",
+  "BirthDate": "1979-12-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "6"
+    }
+  ]
 }

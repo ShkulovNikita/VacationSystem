@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2653",
-	"FirstName": "Борис",
-	"MiddleName": "Александрович",
-	"LastName": "Алексеев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "32",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "2653",
+  "FirstName": "Борис",
+  "MiddleName": "Александрович",
+  "LastName": "Алексеев",
+  "Time": 1,
+  "StartDate": "2009-08-15T00:00:00",
+  "BirthDate": "1980-03-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "32"
+    }
+  ]
 }

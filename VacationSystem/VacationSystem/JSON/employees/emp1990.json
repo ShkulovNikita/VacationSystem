@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1990",
-	"FirstName": "Андрей",
-	"MiddleName": "Владимирович",
-	"LastName": "Гиль",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "39",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1990",
+  "FirstName": "Андрей",
+  "MiddleName": "Владимирович",
+  "LastName": "Гиль",
+  "Time": 1,
+  "StartDate": "1992-03-23T00:00:00",
+  "BirthDate": "1959-10-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "39"
+    }
+  ]
 }

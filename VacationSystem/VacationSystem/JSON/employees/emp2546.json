@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2546",
-	"FirstName": "Ксения",
-	"MiddleName": "Юрьевна",
-	"LastName": "Вершинина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "32",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "2546",
+  "FirstName": "Ксения",
+  "MiddleName": "Юрьевна",
+  "LastName": "Вершинина",
+  "Time": 0.5,
+  "StartDate": "1996-12-22T00:00:00",
+  "BirthDate": "1972-05-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "32"
+    }
+  ]
 }

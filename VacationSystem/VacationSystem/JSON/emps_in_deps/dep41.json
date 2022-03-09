@@ -1,0 +1,124 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "67",
+      "FirstName": "Александр",
+      "MiddleName": "Сергеевич",
+      "LastName": "Рогов",
+      "Time": 1,
+      "StartDate": "1984-01-19T00:00:00",
+      "BirthDate": "1963-05-11T00:00:00",
+      "Positions": [
+        {
+          "Position": "25",
+          "Department": "41"
+        }
+      ]
+    },
+    {
+      "Id": "245",
+      "FirstName": "Евгений",
+      "MiddleName": "Александрович",
+      "LastName": "Нестеров",
+      "Time": 1,
+      "StartDate": "2013-10-14T00:00:00",
+      "BirthDate": "1965-03-20T00:00:00",
+      "Positions": [
+        {
+          "Position": "10",
+          "Department": "41"
+        }
+      ]
+    },
+    {
+      "Id": "1136",
+      "FirstName": "Наталья",
+      "MiddleName": "Михайловна",
+      "LastName": "Маркова",
+      "Time": 0.5,
+      "StartDate": "2010-06-18T00:00:00",
+      "BirthDate": "1988-06-20T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "41"
+        }
+      ]
+    },
+    {
+      "Id": "1264",
+      "FirstName": "Галина",
+      "MiddleName": "Анатольевна",
+      "LastName": "Лютц",
+      "Time": 1.5,
+      "StartDate": "2008-09-02T00:00:00",
+      "BirthDate": "1985-07-03T00:00:00",
+      "Positions": [
+        {
+          "Position": "25",
+          "Department": "41"
+        }
+      ]
+    },
+    {
+      "Id": "1320",
+      "FirstName": "Елена",
+      "MiddleName": "Геннадьевна",
+      "LastName": "Марченко",
+      "Time": 1,
+      "StartDate": "2006-11-05T00:00:00",
+      "BirthDate": "1986-04-17T00:00:00",
+      "Positions": [
+        {
+          "Position": "25",
+          "Department": "41"
+        }
+      ]
+    },
+    {
+      "Id": "1931",
+      "FirstName": "Владимир",
+      "MiddleName": "Леонидович",
+      "LastName": "Садкин",
+      "Time": 1.5,
+      "StartDate": "2002-03-13T00:00:00",
+      "BirthDate": "1956-05-24T00:00:00",
+      "Positions": [
+        {
+          "Position": "25",
+          "Department": "41"
+        }
+      ]
+    },
+    {
+      "Id": "2548",
+      "FirstName": "Алексей",
+      "MiddleName": "Сергеевич",
+      "LastName": "Семенов",
+      "Time": 2,
+      "StartDate": "2014-06-02T00:00:00",
+      "BirthDate": "1987-11-13T00:00:00",
+      "Positions": [
+        {
+          "Position": "25",
+          "Department": "41"
+        }
+      ]
+    },
+    {
+      "Id": "2580",
+      "FirstName": "Ирина",
+      "MiddleName": "Владимировна",
+      "LastName": "Чикова",
+      "Time": 0.5,
+      "StartDate": "2014-11-13T00:00:00",
+      "BirthDate": "1987-07-11T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "41"
+        }
+      ]
+    }
+  ]
+}

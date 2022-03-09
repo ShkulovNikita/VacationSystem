@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3586",
-	"FirstName": "Вадим",
-	"MiddleName": "Александрович",
-	"LastName": "Сафронов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "51",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "3586",
+  "FirstName": "Вадим",
+  "MiddleName": "Александрович",
+  "LastName": "Сафронов",
+  "Time": 1,
+  "StartDate": "1988-08-17T00:00:00",
+  "BirthDate": "1954-12-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "51"
+    }
+  ]
 }

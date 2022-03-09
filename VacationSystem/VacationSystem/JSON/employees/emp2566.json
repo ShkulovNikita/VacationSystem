@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "2566",
-	"FirstName": "Владимир",
-	"MiddleName": "Александрович",
-	"LastName": "Смолянский",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "57",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		},
-		{
-			"Id": "78",
-			"HeadOfDepartment": false,
-			"Position": "24"
-		}
-	]
+  "Id": "2566",
+  "FirstName": "Владимир",
+  "MiddleName": "Александрович",
+  "LastName": "Смолянский",
+  "Time": 1.5,
+  "StartDate": "2019-11-20T00:00:00",
+  "BirthDate": "1991-02-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "57"
+    },
+    {
+      "Position": "24",
+      "Department": "78"
+    }
+  ]
 }

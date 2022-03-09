@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2790",
-	"FirstName": "Олег",
-	"MiddleName": "Владимирович",
-	"LastName": "Семёнов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "51",
-			"HeadOfDepartment": false,
-			"Position": "26"
-		}
-	]
+  "Id": "2790",
+  "FirstName": "Олег",
+  "MiddleName": "Владимирович",
+  "LastName": "Семёнов",
+  "Time": 1,
+  "StartDate": "2019-08-12T00:00:00",
+  "BirthDate": "1967-05-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "26",
+      "Department": "51"
+    }
+  ]
 }

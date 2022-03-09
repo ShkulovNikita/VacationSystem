@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3174",
-	"FirstName": "Дмитрий",
-	"MiddleName": "Алексеевич",
-	"LastName": "Крайнов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "39",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "3174",
+  "FirstName": "Дмитрий",
+  "MiddleName": "Алексеевич",
+  "LastName": "Крайнов",
+  "Time": 0.5,
+  "StartDate": "2010-10-24T00:00:00",
+  "BirthDate": "1985-07-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "39"
+    }
+  ]
 }

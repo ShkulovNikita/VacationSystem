@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2889",
-	"FirstName": "Александр",
-	"MiddleName": "Геннадьевич",
-	"LastName": "Леханов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "6",
-			"HeadOfDepartment": false,
-			"Position": "2"
-		}
-	]
+  "Id": "2889",
+  "FirstName": "Александр",
+  "MiddleName": "Геннадьевич",
+  "LastName": "Леханов",
+  "Time": 1,
+  "StartDate": "2009-07-01T00:00:00",
+  "BirthDate": "1967-10-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "2",
+      "Department": "6"
+    }
+  ]
 }

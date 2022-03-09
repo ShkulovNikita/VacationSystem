@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2634",
-	"FirstName": "Елена",
-	"MiddleName": "Юрьевна",
-	"LastName": "Климюк",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "107",
-			"HeadOfDepartment": false,
-			"Position": "73"
-		}
-	]
+  "Id": "2634",
+  "FirstName": "Елена",
+  "MiddleName": "Юрьевна",
+  "LastName": "Климюк",
+  "Time": 1,
+  "StartDate": "1992-11-17T00:00:00",
+  "BirthDate": "1956-08-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "73",
+      "Department": "107"
+    }
+  ]
 }

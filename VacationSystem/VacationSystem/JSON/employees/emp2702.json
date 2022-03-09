@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2702",
-	"FirstName": "Игорь",
-	"MiddleName": "Алексеевич",
-	"LastName": "Бойко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "46",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "2702",
+  "FirstName": "Игорь",
+  "MiddleName": "Алексеевич",
+  "LastName": "Бойко",
+  "Time": 0.5,
+  "StartDate": "2019-12-15T00:00:00",
+  "BirthDate": "1986-02-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "46"
+    }
+  ]
 }

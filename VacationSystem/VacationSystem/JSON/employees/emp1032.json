@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1032",
-	"FirstName": "Мансура",
-	"MiddleName": "Рахимзяновна",
-	"LastName": "Тиндина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "92",
-			"HeadOfDepartment": false,
-			"Position": "142"
-		}
-	]
+  "Id": "1032",
+  "FirstName": "Мансура",
+  "MiddleName": "Рахимзяновна",
+  "LastName": "Тиндина",
+  "Time": 1,
+  "StartDate": "2001-09-22T00:00:00",
+  "BirthDate": "1971-02-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "142",
+      "Department": "92"
+    }
+  ]
 }

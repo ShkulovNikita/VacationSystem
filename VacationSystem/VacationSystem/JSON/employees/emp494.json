@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "494",
-	"FirstName": "Нина",
-	"MiddleName": "Викторовна",
-	"LastName": "Демешко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "20",
-			"HeadOfDepartment": false,
-			"Position": "103"
-		}
-	]
+  "Id": "494",
+  "FirstName": "Нина",
+  "MiddleName": "Викторовна",
+  "LastName": "Демешко",
+  "Time": 1,
+  "StartDate": "1992-04-02T00:00:00",
+  "BirthDate": "1969-08-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "103",
+      "Department": "20"
+    }
+  ]
 }

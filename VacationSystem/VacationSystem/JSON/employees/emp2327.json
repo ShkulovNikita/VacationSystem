@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2327",
-	"FirstName": "Тамара",
-	"MiddleName": "Георгиевна",
-	"LastName": "Нестеренко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "8",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "2327",
+  "FirstName": "Тамара",
+  "MiddleName": "Георгиевна",
+  "LastName": "Нестеренко",
+  "Time": 0.5,
+  "StartDate": "1986-11-14T00:00:00",
+  "BirthDate": "1953-11-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "8"
+    }
+  ]
 }

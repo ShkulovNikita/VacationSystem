@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3825",
-	"FirstName": "Андрей",
-	"MiddleName": "Александрович",
-	"LastName": "Яковлев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "230",
-			"HeadOfDepartment": false,
-			"Position": "299"
-		}
-	]
+  "Id": "3825",
+  "FirstName": "Андрей",
+  "MiddleName": "Александрович",
+  "LastName": "Яковлев",
+  "Time": 0.5,
+  "StartDate": "2009-12-01T00:00:00",
+  "BirthDate": "1976-03-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "299",
+      "Department": "230"
+    }
+  ]
 }

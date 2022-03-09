@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "179",
-	"FirstName": "Екатерина",
-	"MiddleName": "Валерьевна",
-	"LastName": "Силифонова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "14",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "179",
+  "FirstName": "Екатерина",
+  "MiddleName": "Валерьевна",
+  "LastName": "Силифонова",
+  "Time": 1,
+  "StartDate": "2014-08-20T00:00:00",
+  "BirthDate": "1990-10-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "14"
+    }
+  ]
 }

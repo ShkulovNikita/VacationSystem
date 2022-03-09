@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1978",
-	"FirstName": "Алексей",
-	"MiddleName": "Юрьевич",
-	"LastName": "Смоляков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "72",
-			"HeadOfDepartment": false,
-			"Position": "179"
-		}
-	]
+  "Id": "1978",
+  "FirstName": "Алексей",
+  "MiddleName": "Юрьевич",
+  "LastName": "Смоляков",
+  "Time": 0.5,
+  "StartDate": "2009-03-24T00:00:00",
+  "BirthDate": "1988-07-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "179",
+      "Department": "72"
+    }
+  ]
 }

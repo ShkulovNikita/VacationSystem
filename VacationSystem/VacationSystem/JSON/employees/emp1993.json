@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1993",
-	"FirstName": "Валентин",
-	"MiddleName": "Александрович",
-	"LastName": "Борисов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "112",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1993",
+  "FirstName": "Валентин",
+  "MiddleName": "Александрович",
+  "LastName": "Борисов",
+  "Time": 0.5,
+  "StartDate": "2019-05-12T00:00:00",
+  "BirthDate": "1988-01-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "112"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2502",
-	"FirstName": "Эдуард",
-	"MiddleName": "Рудольфович",
-	"LastName": "Франк",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "47",
-			"HeadOfDepartment": false,
-			"Position": "30"
-		}
-	]
+  "Id": "2502",
+  "FirstName": "Эдуард",
+  "MiddleName": "Рудольфович",
+  "LastName": "Франк",
+  "Time": 1,
+  "StartDate": "2012-06-09T00:00:00",
+  "BirthDate": "1979-08-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "30",
+      "Department": "47"
+    }
+  ]
 }

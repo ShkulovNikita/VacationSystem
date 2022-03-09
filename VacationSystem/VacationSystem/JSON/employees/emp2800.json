@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2800",
-	"FirstName": "Наталья",
-	"MiddleName": "Петровна",
-	"LastName": "Смолонская",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "103",
-			"HeadOfDepartment": false,
-			"Position": "15"
-		}
-	]
+  "Id": "2800",
+  "FirstName": "Наталья",
+  "MiddleName": "Петровна",
+  "LastName": "Смолонская",
+  "Time": 1,
+  "StartDate": "2018-10-15T00:00:00",
+  "BirthDate": "1966-09-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "15",
+      "Department": "103"
+    }
+  ]
 }

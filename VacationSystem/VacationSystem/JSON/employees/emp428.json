@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "428",
-	"FirstName": "Галина",
-	"MiddleName": "Алексеевна",
-	"LastName": "Гречнева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "138",
-			"HeadOfDepartment": false,
-			"Position": "25"
-		}
-	]
+  "Id": "428",
+  "FirstName": "Галина",
+  "MiddleName": "Алексеевна",
+  "LastName": "Гречнева",
+  "Time": 1,
+  "StartDate": "2012-07-04T00:00:00",
+  "BirthDate": "1956-10-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "25",
+      "Department": "138"
+    }
+  ]
 }

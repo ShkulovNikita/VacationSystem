@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2684",
-	"FirstName": "Виктор",
-	"MiddleName": "Владимирович",
-	"LastName": "Кан",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "29",
-			"HeadOfDepartment": false,
-			"Position": "7"
-		}
-	]
+  "Id": "2684",
+  "FirstName": "Виктор",
+  "MiddleName": "Владимирович",
+  "LastName": "Кан",
+  "Time": 1,
+  "StartDate": "2018-04-17T00:00:00",
+  "BirthDate": "1992-03-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "7",
+      "Department": "29"
+    }
+  ]
 }

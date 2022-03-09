@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1454",
-	"FirstName": "Вячеслав",
-	"MiddleName": "Владимирович",
-	"LastName": "Стругов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "70"
-		}
-	]
+  "Id": "1454",
+  "FirstName": "Вячеслав",
+  "MiddleName": "Владимирович",
+  "LastName": "Стругов",
+  "Time": 1,
+  "StartDate": "1987-08-02T00:00:00",
+  "BirthDate": "1957-07-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "70",
+      "Department": "2"
+    }
+  ]
 }

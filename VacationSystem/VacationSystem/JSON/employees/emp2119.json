@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2119",
-	"FirstName": "Владимир",
-	"MiddleName": "Петрович",
-	"LastName": "Ситников",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "50",
-			"HeadOfDepartment": false,
-			"Position": "88"
-		}
-	]
+  "Id": "2119",
+  "FirstName": "Владимир",
+  "MiddleName": "Петрович",
+  "LastName": "Ситников",
+  "Time": 1,
+  "StartDate": "2017-01-21T00:00:00",
+  "BirthDate": "1988-04-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "88",
+      "Department": "50"
+    }
+  ]
 }

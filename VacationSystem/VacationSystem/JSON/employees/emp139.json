@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "139",
-	"FirstName": "Дмитрий",
-	"MiddleName": "Владимирович",
-	"LastName": "Елегечев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "75",
-			"HeadOfDepartment": false,
-			"Position": "49"
-		}
-	]
+  "Id": "139",
+  "FirstName": "Дмитрий",
+  "MiddleName": "Владимирович",
+  "LastName": "Елегечев",
+  "Time": 0.5,
+  "StartDate": "2008-06-03T00:00:00",
+  "BirthDate": "1980-12-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "49",
+      "Department": "75"
+    }
+  ]
 }

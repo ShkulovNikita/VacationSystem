@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3112",
-	"FirstName": "Елена",
-	"MiddleName": "Владимировна",
-	"LastName": "Романенко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "51",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		}
-	]
+  "Id": "3112",
+  "FirstName": "Елена",
+  "MiddleName": "Владимировна",
+  "LastName": "Романенко",
+  "Time": 0.5,
+  "StartDate": "2012-11-24T00:00:00",
+  "BirthDate": "1981-10-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "51"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2593",
-	"FirstName": "Ирина",
-	"MiddleName": "Валерьевна",
-	"LastName": "Шарф",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "46",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "2593",
+  "FirstName": "Ирина",
+  "MiddleName": "Валерьевна",
+  "LastName": "Шарф",
+  "Time": 0.5,
+  "StartDate": "2018-06-20T00:00:00",
+  "BirthDate": "1983-09-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "46"
+    }
+  ]
 }

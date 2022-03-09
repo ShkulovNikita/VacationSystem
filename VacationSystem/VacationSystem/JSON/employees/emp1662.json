@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1662",
-	"FirstName": "Александр",
-	"MiddleName": "Лукьянович",
-	"LastName": "Лаук",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "32",
-			"HeadOfDepartment": false,
-			"Position": "11"
-		}
-	]
+  "Id": "1662",
+  "FirstName": "Александр",
+  "MiddleName": "Лукьянович",
+  "LastName": "Лаук",
+  "Time": 0.5,
+  "StartDate": "2011-08-13T00:00:00",
+  "BirthDate": "1971-09-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "11",
+      "Department": "32"
+    }
+  ]
 }

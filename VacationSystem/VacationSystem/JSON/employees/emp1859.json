@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1859",
-	"FirstName": "Оксана",
-	"MiddleName": "Сергеевна",
-	"LastName": "Адаховская",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "97",
-			"HeadOfDepartment": false,
-			"Position": "65"
-		}
-	]
+  "Id": "1859",
+  "FirstName": "Оксана",
+  "MiddleName": "Сергеевна",
+  "LastName": "Адаховская",
+  "Time": 1,
+  "StartDate": "1994-06-01T00:00:00",
+  "BirthDate": "1963-04-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "65",
+      "Department": "97"
+    }
+  ]
 }

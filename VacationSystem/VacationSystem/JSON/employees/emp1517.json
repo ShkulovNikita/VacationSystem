@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1517",
-	"FirstName": "Сергей",
-	"MiddleName": "Николаевич",
-	"LastName": "Ершов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "72",
-			"HeadOfDepartment": false,
-			"Position": "183"
-		}
-	]
+  "Id": "1517",
+  "FirstName": "Сергей",
+  "MiddleName": "Николаевич",
+  "LastName": "Ершов",
+  "Time": 1,
+  "StartDate": "2020-12-01T00:00:00",
+  "BirthDate": "1987-08-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "183",
+      "Department": "72"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3728",
-	"FirstName": "Мансур",
-	"MiddleName": "Маджид",
-	"LastName": "Зиаии",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "1",
-			"HeadOfDepartment": false,
-			"Position": "24"
-		}
-	]
+  "Id": "3728",
+  "FirstName": "Мансур",
+  "MiddleName": "Маджид",
+  "LastName": "Зиаии",
+  "Time": 0.5,
+  "StartDate": "2000-04-12T00:00:00",
+  "BirthDate": "1976-03-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "24",
+      "Department": "1"
+    }
+  ]
 }

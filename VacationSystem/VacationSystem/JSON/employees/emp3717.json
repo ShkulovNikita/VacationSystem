@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3717",
-	"FirstName": "Анатолий",
-	"MiddleName": "Михайлович",
-	"LastName": "Воробьев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "36",
-			"HeadOfDepartment": false,
-			"Position": "24"
-		}
-	]
+  "Id": "3717",
+  "FirstName": "Анатолий",
+  "MiddleName": "Михайлович",
+  "LastName": "Воробьев",
+  "Time": 1,
+  "StartDate": "2015-06-17T00:00:00",
+  "BirthDate": "1991-01-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "24",
+      "Department": "36"
+    }
+  ]
 }

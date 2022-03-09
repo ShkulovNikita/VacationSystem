@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2707",
-	"FirstName": "Елена",
-	"MiddleName": "Владимировна",
-	"LastName": "Агеева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "1",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "2707",
+  "FirstName": "Елена",
+  "MiddleName": "Владимировна",
+  "LastName": "Агеева",
+  "Time": 1,
+  "StartDate": "2014-03-06T00:00:00",
+  "BirthDate": "1987-06-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "1"
+    }
+  ]
 }

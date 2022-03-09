@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3302",
-	"FirstName": "Никита",
-	"MiddleName": "Викторович",
-	"LastName": "Смольников",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "223",
-			"HeadOfDepartment": false,
-			"Position": "272"
-		}
-	]
+  "Id": "3302",
+  "FirstName": "Никита",
+  "MiddleName": "Викторович",
+  "LastName": "Смольников",
+  "Time": 1,
+  "StartDate": "2020-09-24T00:00:00",
+  "BirthDate": "1960-05-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "272",
+      "Department": "223"
+    }
+  ]
 }

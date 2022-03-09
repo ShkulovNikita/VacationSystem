@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1244",
-	"FirstName": "Наталья",
-	"MiddleName": "Викторовна",
-	"LastName": "Кончакова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "1",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1244",
+  "FirstName": "Наталья",
+  "MiddleName": "Викторовна",
+  "LastName": "Кончакова",
+  "Time": 1,
+  "StartDate": "1984-08-06T00:00:00",
+  "BirthDate": "1954-11-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "1"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "729",
-	"FirstName": "Владимир",
-	"MiddleName": "Иванович",
-	"LastName": "Олешко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "729",
+  "FirstName": "Владимир",
+  "MiddleName": "Иванович",
+  "LastName": "Олешко",
+  "Time": 1,
+  "StartDate": "2006-01-11T00:00:00",
+  "BirthDate": "1983-02-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "15"
+    }
+  ]
 }

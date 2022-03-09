@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1510",
-	"FirstName": "Ольга",
-	"MiddleName": "Михайловна",
-	"LastName": "Крюкова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "1510",
+  "FirstName": "Ольга",
+  "MiddleName": "Михайловна",
+  "LastName": "Крюкова",
+  "Time": 1,
+  "StartDate": "2021-11-02T00:00:00",
+  "BirthDate": "1977-03-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "2"
+    }
+  ]
 }

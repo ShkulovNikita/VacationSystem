@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3195",
-	"FirstName": "Владимир",
-	"MiddleName": "Николаевич",
-	"LastName": "Храмцов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "59",
-			"HeadOfDepartment": false,
-			"Position": "37"
-		}
-	]
+  "Id": "3195",
+  "FirstName": "Владимир",
+  "MiddleName": "Николаевич",
+  "LastName": "Храмцов",
+  "Time": 0.5,
+  "StartDate": "1984-12-02T00:00:00",
+  "BirthDate": "1954-05-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "37",
+      "Department": "59"
+    }
+  ]
 }

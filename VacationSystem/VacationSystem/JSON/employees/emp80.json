@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "80",
-	"FirstName": "Сергей",
-	"MiddleName": "Александрович",
-	"LastName": "Сысоев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "49",
-			"HeadOfDepartment": false,
-			"Position": "16"
-		}
-	]
+  "Id": "80",
+  "FirstName": "Сергей",
+  "MiddleName": "Александрович",
+  "LastName": "Сысоев",
+  "Time": 0.5,
+  "StartDate": "2005-10-18T00:00:00",
+  "BirthDate": "1963-09-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "16",
+      "Department": "49"
+    }
+  ]
 }

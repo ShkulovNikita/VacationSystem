@@ -1,0 +1,34 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "2565",
+      "FirstName": "Галина",
+      "MiddleName": "Сергеевна",
+      "LastName": "Федосеева",
+      "Time": 1,
+      "StartDate": "1991-11-05T00:00:00",
+      "BirthDate": "1956-06-06T00:00:00",
+      "Positions": [
+        {
+          "Position": "53",
+          "Department": "246"
+        }
+      ]
+    },
+    {
+      "Id": "3293",
+      "FirstName": "Андрей",
+      "MiddleName": "Валентинович",
+      "LastName": "Добрынин",
+      "Time": 1.5,
+      "StartDate": "1984-02-10T00:00:00",
+      "BirthDate": "1961-12-02T00:00:00",
+      "Positions": [
+        {
+          "Position": "45",
+          "Department": "246"
+        }
+      ]
+    }
+  ]
+}

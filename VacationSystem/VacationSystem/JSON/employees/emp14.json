@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "14",
-	"FirstName": "Ирина",
-	"MiddleName": "Викторовна",
-	"LastName": "Кондратьева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "13",
-			"HeadOfDepartment": false,
-			"Position": "9"
-		}
-	]
+  "Id": "14",
+  "FirstName": "Ирина",
+  "MiddleName": "Викторовна",
+  "LastName": "Кондратьева",
+  "Time": 0.5,
+  "StartDate": "2019-05-11T00:00:00",
+  "BirthDate": "1961-04-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "9",
+      "Department": "13"
+    }
+  ]
 }

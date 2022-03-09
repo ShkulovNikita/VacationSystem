@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "23",
-	"FirstName": "Наталья",
-	"MiddleName": "Юрьевна",
-	"LastName": "Новикова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "21",
-			"HeadOfDepartment": false,
-			"Position": "14"
-		}
-	]
+  "Id": "23",
+  "FirstName": "Наталья",
+  "MiddleName": "Юрьевна",
+  "LastName": "Новикова",
+  "Time": 0.5,
+  "StartDate": "2020-10-10T00:00:00",
+  "BirthDate": "1965-01-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "14",
+      "Department": "21"
+    }
+  ]
 }

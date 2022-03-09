@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3362",
-	"FirstName": "Ольга",
-	"MiddleName": "Васильевна",
-	"LastName": "Лютикова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "126",
-			"HeadOfDepartment": false,
-			"Position": "276"
-		}
-	]
+  "Id": "3362",
+  "FirstName": "Ольга",
+  "MiddleName": "Васильевна",
+  "LastName": "Лютикова",
+  "Time": 1,
+  "StartDate": "2005-04-10T00:00:00",
+  "BirthDate": "1973-07-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "276",
+      "Department": "126"
+    }
+  ]
 }

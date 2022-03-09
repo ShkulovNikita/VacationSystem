@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "358",
-	"FirstName": "Александр",
-	"MiddleName": "Сергеевич",
-	"LastName": "Заворин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "39",
-			"HeadOfDepartment": false,
-			"Position": "89"
-		}
-	]
+  "Id": "358",
+  "FirstName": "Александр",
+  "MiddleName": "Сергеевич",
+  "LastName": "Заворин",
+  "Time": 1,
+  "StartDate": "1997-07-12T00:00:00",
+  "BirthDate": "1976-10-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "89",
+      "Department": "39"
+    }
+  ]
 }

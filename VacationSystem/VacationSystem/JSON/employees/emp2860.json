@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2860",
-	"FirstName": "Мурат",
-	"MiddleName": "Абдукодирович",
-	"LastName": "Вохидов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "38",
-			"HeadOfDepartment": false,
-			"Position": "203"
-		}
-	]
+  "Id": "2860",
+  "FirstName": "Мурат",
+  "MiddleName": "Абдукодирович",
+  "LastName": "Вохидов",
+  "Time": 0.5,
+  "StartDate": "1994-03-18T00:00:00",
+  "BirthDate": "1968-05-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "203",
+      "Department": "38"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "835",
-	"FirstName": "Анна",
-	"MiddleName": "Владимировна",
-	"LastName": "Логинова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "0",
-			"HeadOfDepartment": false,
-			"Position": "0"
-		}
-	]
+  "Id": "835",
+  "FirstName": "Анна",
+  "MiddleName": "Владимировна",
+  "LastName": "Логинова",
+  "Time": 0.5,
+  "StartDate": "2011-06-04T00:00:00",
+  "BirthDate": "1991-01-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "0",
+      "Department": "0"
+    }
+  ]
 }

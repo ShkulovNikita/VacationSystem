@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "215",
-	"FirstName": "Александра",
-	"MiddleName": "Викторовна",
-	"LastName": "Макаровских",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "0",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "215",
+  "FirstName": "Александра",
+  "MiddleName": "Викторовна",
+  "LastName": "Макаровских",
+  "Time": 0.5,
+  "StartDate": "1996-04-21T00:00:00",
+  "BirthDate": "1967-04-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "0"
+    }
+  ]
 }

@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "482",
-	"FirstName": "Юрий",
-	"MiddleName": "Александрович",
-	"LastName": "Ткаченко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "142",
-			"HeadOfDepartment": false,
-			"Position": "7"
-		},
-		{
-			"Id": "125",
-			"HeadOfDepartment": false,
-			"Position": "102"
-		}
-	]
+  "Id": "482",
+  "FirstName": "Юрий",
+  "MiddleName": "Александрович",
+  "LastName": "Ткаченко",
+  "Time": 1,
+  "StartDate": "2012-10-23T00:00:00",
+  "BirthDate": "1955-09-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "7",
+      "Department": "142"
+    },
+    {
+      "Position": "102",
+      "Department": "125"
+    }
+  ]
 }

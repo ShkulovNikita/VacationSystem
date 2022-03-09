@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2380",
-	"FirstName": "Татьяна",
-	"MiddleName": "Владимировна",
-	"LastName": "Смекалина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "119",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "2380",
+  "FirstName": "Татьяна",
+  "MiddleName": "Владимировна",
+  "LastName": "Смекалина",
+  "Time": 0.5,
+  "StartDate": "2011-10-21T00:00:00",
+  "BirthDate": "1978-12-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "119"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3187",
-	"FirstName": "Татьяна",
-	"MiddleName": "Владимировна",
-	"LastName": "Амирзянова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "34",
-			"HeadOfDepartment": false,
-			"Position": "87"
-		}
-	]
+  "Id": "3187",
+  "FirstName": "Татьяна",
+  "MiddleName": "Владимировна",
+  "LastName": "Амирзянова",
+  "Time": 1,
+  "StartDate": "1990-08-22T00:00:00",
+  "BirthDate": "1968-05-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "87",
+      "Department": "34"
+    }
+  ]
 }

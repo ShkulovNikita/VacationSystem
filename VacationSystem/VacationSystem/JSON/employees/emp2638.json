@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2638",
-	"FirstName": "Дмитрий",
-	"MiddleName": "Юрьевич",
-	"LastName": "Малышев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "39",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		}
-	]
+  "Id": "2638",
+  "FirstName": "Дмитрий",
+  "MiddleName": "Юрьевич",
+  "LastName": "Малышев",
+  "Time": 1,
+  "StartDate": "1993-11-13T00:00:00",
+  "BirthDate": "1967-08-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "39"
+    }
+  ]
 }

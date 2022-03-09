@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "301",
-	"FirstName": "Максим",
-	"MiddleName": "Михайлович",
-	"LastName": "Зворыгин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "59",
-			"HeadOfDepartment": false,
-			"Position": "78"
-		}
-	]
+  "Id": "301",
+  "FirstName": "Максим",
+  "MiddleName": "Михайлович",
+  "LastName": "Зворыгин",
+  "Time": 0.5,
+  "StartDate": "1999-06-15T00:00:00",
+  "BirthDate": "1979-07-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "78",
+      "Department": "59"
+    }
+  ]
 }

@@ -1,0 +1,196 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "798",
+      "FirstName": "Владимир",
+      "MiddleName": "Маркович",
+      "LastName": "Замятин",
+      "Time": 1,
+      "StartDate": "1992-10-18T00:00:00",
+      "BirthDate": "1970-06-06T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "175"
+        }
+      ]
+    },
+    {
+      "Id": "1291",
+      "FirstName": "Артур",
+      "MiddleName": "Владимирович",
+      "LastName": "Безмага",
+      "Time": 0.5,
+      "StartDate": "2005-04-16T00:00:00",
+      "BirthDate": "1960-08-23T00:00:00",
+      "Positions": [
+        {
+          "Position": "47",
+          "Department": "175"
+        }
+      ]
+    },
+    {
+      "Id": "1313",
+      "FirstName": "Александр",
+      "MiddleName": "Александрович",
+      "LastName": "Гарапацкий",
+      "Time": 0.5,
+      "StartDate": "2009-08-01T00:00:00",
+      "BirthDate": "1988-11-06T00:00:00",
+      "Positions": [
+        {
+          "Position": "11",
+          "Department": "175"
+        }
+      ]
+    },
+    {
+      "Id": "1382",
+      "FirstName": "Валентина",
+      "MiddleName": "Викторовна",
+      "LastName": "Сохорева",
+      "Time": 1,
+      "StartDate": "2011-09-08T00:00:00",
+      "BirthDate": "1991-11-08T00:00:00",
+      "Positions": [
+        {
+          "Position": "24",
+          "Department": "175"
+        }
+      ]
+    },
+    {
+      "Id": "1441",
+      "FirstName": "Виктор",
+      "MiddleName": "Михайлович",
+      "LastName": "Обухов",
+      "Time": 1,
+      "StartDate": "1987-01-23T00:00:00",
+      "BirthDate": "1967-06-20T00:00:00",
+      "Positions": [
+        {
+          "Position": "103",
+          "Department": "175"
+        }
+      ]
+    },
+    {
+      "Id": "1442",
+      "FirstName": "Сергей",
+      "MiddleName": "Васильевич",
+      "LastName": "Гудков",
+      "Time": 0.5,
+      "StartDate": "1996-10-14T00:00:00",
+      "BirthDate": "1975-01-23T00:00:00",
+      "Positions": [
+        {
+          "Position": "176",
+          "Department": "175"
+        }
+      ]
+    },
+    {
+      "Id": "2436",
+      "FirstName": "Алексей",
+      "MiddleName": "Михайлович",
+      "LastName": "Большаков",
+      "Time": 0.5,
+      "StartDate": "2010-04-19T00:00:00",
+      "BirthDate": "1978-06-04T00:00:00",
+      "Positions": [
+        {
+          "Position": "11",
+          "Department": "175"
+        }
+      ]
+    },
+    {
+      "Id": "2548",
+      "FirstName": "Алексей",
+      "MiddleName": "Сергеевич",
+      "LastName": "Семенов",
+      "Time": 2,
+      "StartDate": "2014-06-02T00:00:00",
+      "BirthDate": "1987-11-13T00:00:00",
+      "Positions": [
+        {
+          "Position": "25",
+          "Department": "41"
+        },
+        {
+          "Position": "170",
+          "Department": "175"
+        }
+      ]
+    },
+    {
+      "Id": "2639",
+      "FirstName": "Степан",
+      "MiddleName": "Сергеевич",
+      "LastName": "Салодкин",
+      "Time": 0.5,
+      "StartDate": "1997-02-06T00:00:00",
+      "BirthDate": "1972-03-23T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "175"
+        }
+      ]
+    },
+    {
+      "Id": "2770",
+      "FirstName": "Нельсон Энрике",
+      "MiddleName": "",
+      "LastName": "Вилья Пинеда",
+      "Time": 1,
+      "StartDate": "2017-11-21T00:00:00",
+      "BirthDate": "1985-12-20T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "175"
+        },
+        {
+          "Position": "5",
+          "Department": "175"
+        }
+      ]
+    },
+    {
+      "Id": "3338",
+      "FirstName": "Юрий",
+      "MiddleName": "Алексеевич",
+      "LastName": "Глушко",
+      "Time": 0.5,
+      "StartDate": "1996-12-17T00:00:00",
+      "BirthDate": "1963-05-23T00:00:00",
+      "Positions": [
+        {
+          "Position": "11",
+          "Department": "175"
+        }
+      ]
+    },
+    {
+      "Id": "3440",
+      "FirstName": "Данышпан",
+      "MiddleName": "",
+      "LastName": "Мухамбеталин",
+      "Time": 2,
+      "StartDate": "2010-06-14T00:00:00",
+      "BirthDate": "1984-04-14T00:00:00",
+      "Positions": [
+        {
+          "Position": "5",
+          "Department": "175"
+        },
+        {
+          "Position": "3",
+          "Department": "175"
+        }
+      ]
+    }
+  ]
+}

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1284",
-	"FirstName": "Григорий",
-	"MiddleName": "Павлович",
-	"LastName": "Казьмин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "140",
-			"HeadOfDepartment": false,
-			"Position": "163"
-		}
-	]
+  "Id": "1284",
+  "FirstName": "Григорий",
+  "MiddleName": "Павлович",
+  "LastName": "Казьмин",
+  "Time": 0.5,
+  "StartDate": "1986-02-12T00:00:00",
+  "BirthDate": "1959-08-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "163",
+      "Department": "140"
+    }
+  ]
 }

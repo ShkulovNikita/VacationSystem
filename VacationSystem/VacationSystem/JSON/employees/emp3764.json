@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3764",
-	"FirstName": "Елена",
-	"MiddleName": "Александровна",
-	"LastName": "Кравченко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "195",
-			"HeadOfDepartment": false,
-			"Position": "21"
-		}
-	]
+  "Id": "3764",
+  "FirstName": "Елена",
+  "MiddleName": "Александровна",
+  "LastName": "Кравченко",
+  "Time": 1,
+  "StartDate": "1979-03-09T00:00:00",
+  "BirthDate": "1953-02-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "21",
+      "Department": "195"
+    }
+  ]
 }

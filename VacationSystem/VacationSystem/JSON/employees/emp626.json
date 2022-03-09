@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "626",
-	"FirstName": "Лариса",
-	"MiddleName": "Владимировна",
-	"LastName": "Шорникова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "9",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "626",
+  "FirstName": "Лариса",
+  "MiddleName": "Владимировна",
+  "LastName": "Шорникова",
+  "Time": 0.5,
+  "StartDate": "1979-07-05T00:00:00",
+  "BirthDate": "1954-12-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "9"
+    }
+  ]
 }

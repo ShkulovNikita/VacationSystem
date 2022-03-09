@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2669",
-	"FirstName": "Мария",
-	"MiddleName": "Антоновна",
-	"LastName": "Никольская",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "116",
-			"HeadOfDepartment": false,
-			"Position": "246"
-		}
-	]
+  "Id": "2669",
+  "FirstName": "Мария",
+  "MiddleName": "Антоновна",
+  "LastName": "Никольская",
+  "Time": 0.5,
+  "StartDate": "1994-09-12T00:00:00",
+  "BirthDate": "1971-11-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "246",
+      "Department": "116"
+    }
+  ]
 }

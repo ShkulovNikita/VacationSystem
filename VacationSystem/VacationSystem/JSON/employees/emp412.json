@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "412",
-	"FirstName": "Ирина",
-	"MiddleName": "Николаевна",
-	"LastName": "Найбауэр",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "1",
-			"HeadOfDepartment": false,
-			"Position": "2"
-		}
-	]
+  "Id": "412",
+  "FirstName": "Ирина",
+  "MiddleName": "Николаевна",
+  "LastName": "Найбауэр",
+  "Time": 0.5,
+  "StartDate": "2021-03-02T00:00:00",
+  "BirthDate": "1983-01-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "2",
+      "Department": "1"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3697",
-	"FirstName": "Андрей",
-	"MiddleName": "Викторович",
-	"LastName": "Калинин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "38",
-			"HeadOfDepartment": false,
-			"Position": "141"
-		}
-	]
+  "Id": "3697",
+  "FirstName": "Андрей",
+  "MiddleName": "Викторович",
+  "LastName": "Калинин",
+  "Time": 1,
+  "StartDate": "2001-07-21T00:00:00",
+  "BirthDate": "1952-06-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "141",
+      "Department": "38"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2840",
-	"FirstName": "Евгений",
-	"MiddleName": "Александрович",
-	"LastName": "Цыденов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "19"
-		}
-	]
+  "Id": "2840",
+  "FirstName": "Евгений",
+  "MiddleName": "Александрович",
+  "LastName": "Цыденов",
+  "Time": 1,
+  "StartDate": "2008-11-17T00:00:00",
+  "BirthDate": "1954-05-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "19",
+      "Department": "2"
+    }
+  ]
 }

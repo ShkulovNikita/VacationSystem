@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3169",
-	"FirstName": "Хитеш Санжай",
-	"MiddleName": "",
-	"LastName": "Наламвар",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "26",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		}
-	]
+  "Id": "3169",
+  "FirstName": "Хитеш Санжай",
+  "MiddleName": "",
+  "LastName": "Наламвар",
+  "Time": 1,
+  "StartDate": "2011-05-05T00:00:00",
+  "BirthDate": "1976-07-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "26"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2451",
-	"FirstName": "Ирина",
-	"MiddleName": "Николаевна",
-	"LastName": "Большанина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "154",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "2451",
+  "FirstName": "Ирина",
+  "MiddleName": "Николаевна",
+  "LastName": "Большанина",
+  "Time": 0.5,
+  "StartDate": "2009-03-20T00:00:00",
+  "BirthDate": "1981-03-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "154"
+    }
+  ]
 }

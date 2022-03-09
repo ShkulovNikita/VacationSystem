@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3087",
-	"FirstName": "Владислав",
-	"MiddleName": "Вадимович",
-	"LastName": "Бабешко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "62",
-			"HeadOfDepartment": false,
-			"Position": "25"
-		}
-	]
+  "Id": "3087",
+  "FirstName": "Владислав",
+  "MiddleName": "Вадимович",
+  "LastName": "Бабешко",
+  "Time": 0.5,
+  "StartDate": "1995-06-13T00:00:00",
+  "BirthDate": "1968-02-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "25",
+      "Department": "62"
+    }
+  ]
 }

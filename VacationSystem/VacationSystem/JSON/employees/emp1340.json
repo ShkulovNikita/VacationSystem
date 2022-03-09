@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1340",
-	"FirstName": "Михаил",
-	"MiddleName": "Юрьевич",
-	"LastName": "Журков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "64",
-			"HeadOfDepartment": false,
-			"Position": "24"
-		}
-	]
+  "Id": "1340",
+  "FirstName": "Михаил",
+  "MiddleName": "Юрьевич",
+  "LastName": "Журков",
+  "Time": 1,
+  "StartDate": "1994-12-02T00:00:00",
+  "BirthDate": "1972-07-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "24",
+      "Department": "64"
+    }
+  ]
 }

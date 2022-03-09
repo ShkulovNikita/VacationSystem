@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "976",
-	"FirstName": "Валентина",
-	"MiddleName": "Ивановна",
-	"LastName": "Мелькова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "23",
-			"HeadOfDepartment": false,
-			"Position": "116"
-		},
-		{
-			"Id": "47",
-			"HeadOfDepartment": false,
-			"Position": "30"
-		}
-	]
+  "Id": "976",
+  "FirstName": "Валентина",
+  "MiddleName": "Ивановна",
+  "LastName": "Мелькова",
+  "Time": 2,
+  "StartDate": "1984-04-01T00:00:00",
+  "BirthDate": "1964-12-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "116",
+      "Department": "23"
+    },
+    {
+      "Position": "30",
+      "Department": "47"
+    }
+  ]
 }

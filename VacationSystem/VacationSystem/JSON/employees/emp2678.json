@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2678",
-	"FirstName": "Ольга",
-	"MiddleName": "Сергеевна",
-	"LastName": "Гайдукова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "32",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		}
-	]
+  "Id": "2678",
+  "FirstName": "Ольга",
+  "MiddleName": "Сергеевна",
+  "LastName": "Гайдукова",
+  "Time": 1,
+  "StartDate": "1988-04-23T00:00:00",
+  "BirthDate": "1954-06-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "32"
+    }
+  ]
 }

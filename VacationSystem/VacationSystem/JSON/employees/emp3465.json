@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3465",
-	"FirstName": "Святослав",
-	"MiddleName": "",
-	"LastName": "Перелевский",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "52",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		}
-	]
+  "Id": "3465",
+  "FirstName": "Святослав",
+  "MiddleName": "",
+  "LastName": "Перелевский",
+  "Time": 1,
+  "StartDate": "2002-12-24T00:00:00",
+  "BirthDate": "1982-11-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "52"
+    }
+  ]
 }

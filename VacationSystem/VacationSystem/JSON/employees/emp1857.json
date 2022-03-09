@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1857",
-	"FirstName": "Ирина",
-	"MiddleName": "Михайловна",
-	"LastName": "Фролова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "8",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "1857",
+  "FirstName": "Ирина",
+  "MiddleName": "Михайловна",
+  "LastName": "Фролова",
+  "Time": 0.5,
+  "StartDate": "1981-03-15T00:00:00",
+  "BirthDate": "1961-07-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "8"
+    }
+  ]
 }

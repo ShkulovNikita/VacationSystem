@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2511",
-	"FirstName": "Елена",
-	"MiddleName": "Вячеславовна",
-	"LastName": "Кандыкова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "111",
-			"HeadOfDepartment": false,
-			"Position": "69"
-		}
-	]
+  "Id": "2511",
+  "FirstName": "Елена",
+  "MiddleName": "Вячеславовна",
+  "LastName": "Кандыкова",
+  "Time": 0.5,
+  "StartDate": "2013-05-09T00:00:00",
+  "BirthDate": "1987-06-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "69",
+      "Department": "111"
+    }
+  ]
 }

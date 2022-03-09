@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "974",
-	"FirstName": "Валерий",
-	"MiddleName": "Викторович",
-	"LastName": "Медведев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "46",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "974",
+  "FirstName": "Валерий",
+  "MiddleName": "Викторович",
+  "LastName": "Медведев",
+  "Time": 0.5,
+  "StartDate": "2005-07-02T00:00:00",
+  "BirthDate": "1974-02-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "46"
+    }
+  ]
 }

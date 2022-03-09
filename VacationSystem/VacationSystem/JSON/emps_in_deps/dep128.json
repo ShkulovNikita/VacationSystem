@@ -1,0 +1,79 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "372",
+      "FirstName": "Андрей",
+      "MiddleName": "Владимирович",
+      "LastName": "Баранов",
+      "Time": 1,
+      "StartDate": "1997-09-14T00:00:00",
+      "BirthDate": "1968-08-05T00:00:00",
+      "Positions": [
+        {
+          "Position": "10",
+          "Department": "128"
+        }
+      ]
+    },
+    {
+      "Id": "794",
+      "FirstName": "Лена",
+      "MiddleName": "Викторовна",
+      "LastName": "Реховская",
+      "Time": 1,
+      "StartDate": "1988-10-20T00:00:00",
+      "BirthDate": "1968-08-04T00:00:00",
+      "Positions": [
+        {
+          "Position": "130",
+          "Department": "128"
+        }
+      ]
+    },
+    {
+      "Id": "1067",
+      "FirstName": "Светлёна",
+      "MiddleName": "Валерьевна",
+      "LastName": "Лукьянец",
+      "Time": 1,
+      "StartDate": "2018-05-11T00:00:00",
+      "BirthDate": "1990-04-16T00:00:00",
+      "Positions": [
+        {
+          "Position": "130",
+          "Department": "128"
+        }
+      ]
+    },
+    {
+      "Id": "2605",
+      "FirstName": "Андрей",
+      "MiddleName": "Николаевич",
+      "LastName": "Южанин",
+      "Time": 0.5,
+      "StartDate": "2015-06-15T00:00:00",
+      "BirthDate": "1993-02-12T00:00:00",
+      "Positions": [
+        {
+          "Position": "144",
+          "Department": "128"
+        }
+      ]
+    },
+    {
+      "Id": "2826",
+      "FirstName": "Марина",
+      "MiddleName": "Александровна",
+      "LastName": "Герасимова",
+      "Time": 1,
+      "StartDate": "1993-11-17T00:00:00",
+      "BirthDate": "1966-01-11T00:00:00",
+      "Positions": [
+        {
+          "Position": "250",
+          "Department": "128"
+        }
+      ]
+    }
+  ]
+}

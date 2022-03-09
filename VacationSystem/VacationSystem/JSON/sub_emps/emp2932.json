@@ -1,0 +1,83 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "2252",
+      "FirstName": "Мария",
+      "MiddleName": "Алексеевна",
+      "LastName": "Душкина",
+      "Time": 0.5,
+      "StartDate": "2002-08-19T00:00:00",
+      "BirthDate": "1972-05-01T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "241"
+        }
+      ]
+    },
+    {
+      "Id": "2268",
+      "FirstName": "Лариса",
+      "MiddleName": "Анатольевна",
+      "LastName": "Костикова",
+      "Time": 1,
+      "StartDate": "2020-11-15T00:00:00",
+      "BirthDate": "1987-09-05T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "241"
+        }
+      ]
+    },
+    {
+      "Id": "2535",
+      "FirstName": "Алексей",
+      "MiddleName": "Алексеевич",
+      "LastName": "Иванов",
+      "Time": 2,
+      "StartDate": "1983-07-15T00:00:00",
+      "BirthDate": "1958-09-04T00:00:00",
+      "Positions": [
+        {
+          "Position": "26",
+          "Department": "102"
+        },
+        {
+          "Position": "238",
+          "Department": "241"
+        }
+      ]
+    },
+    {
+      "Id": "2932",
+      "FirstName": "Наталья",
+      "MiddleName": "Сергеевна",
+      "LastName": "Янковская",
+      "Time": 1,
+      "StartDate": "2020-09-23T00:00:00",
+      "BirthDate": "1988-10-14T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "241"
+        }
+      ]
+    },
+    {
+      "Id": "3388",
+      "FirstName": "Наталья",
+      "MiddleName": "Юрьевна",
+      "LastName": "Золотухина",
+      "Time": 1,
+      "StartDate": "2021-05-10T00:00:00",
+      "BirthDate": "1980-02-07T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "241"
+        }
+      ]
+    }
+  ]
+}

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "747",
-	"FirstName": "Алла",
-	"MiddleName": "Александровна",
-	"LastName": "Корниенко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "3",
-			"HeadOfDepartment": false,
-			"Position": "91"
-		}
-	]
+  "Id": "747",
+  "FirstName": "Алла",
+  "MiddleName": "Александровна",
+  "LastName": "Корниенко",
+  "Time": 0.5,
+  "StartDate": "2021-06-13T00:00:00",
+  "BirthDate": "1991-12-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "91",
+      "Department": "3"
+    }
+  ]
 }

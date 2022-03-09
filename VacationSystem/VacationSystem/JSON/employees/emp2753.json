@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2753",
-	"FirstName": "Маргарита",
-	"MiddleName": "Александровна",
-	"LastName": "Курганкина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "32",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		}
-	]
+  "Id": "2753",
+  "FirstName": "Маргарита",
+  "MiddleName": "Александровна",
+  "LastName": "Курганкина",
+  "Time": 1,
+  "StartDate": "2003-02-21T00:00:00",
+  "BirthDate": "1979-11-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "32"
+    }
+  ]
 }

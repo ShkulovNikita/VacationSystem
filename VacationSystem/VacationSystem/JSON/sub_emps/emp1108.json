@@ -1,0 +1,139 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "33",
+      "FirstName": "Мария",
+      "MiddleName": "Викторовна",
+      "LastName": "Подольская",
+      "Time": 0.5,
+      "StartDate": "2015-09-18T00:00:00",
+      "BirthDate": "1990-08-06T00:00:00",
+      "Positions": [
+        {
+          "Position": "14",
+          "Department": "24"
+        }
+      ]
+    },
+    {
+      "Id": "643",
+      "FirstName": "Анна",
+      "MiddleName": "Владимировна",
+      "LastName": "Гиберт",
+      "Time": 0.5,
+      "StartDate": "2021-04-04T00:00:00",
+      "BirthDate": "1952-05-10T00:00:00",
+      "Positions": [
+        {
+          "Position": "113",
+          "Department": "24"
+        }
+      ]
+    },
+    {
+      "Id": "849",
+      "FirstName": "Тамара",
+      "MiddleName": "Романовна",
+      "LastName": "Ларионова",
+      "Time": 0.5,
+      "StartDate": "2019-11-16T00:00:00",
+      "BirthDate": "1972-05-18T00:00:00",
+      "Positions": [
+        {
+          "Position": "107",
+          "Department": "24"
+        }
+      ]
+    },
+    {
+      "Id": "1108",
+      "FirstName": "Светлана",
+      "MiddleName": "Владимировна",
+      "LastName": "Субботина",
+      "Time": 1,
+      "StartDate": "1978-06-14T00:00:00",
+      "BirthDate": "1956-11-12T00:00:00",
+      "Positions": [
+        {
+          "Position": "138",
+          "Department": "24"
+        }
+      ]
+    },
+    {
+      "Id": "2288",
+      "FirstName": "Александр",
+      "MiddleName": "Владимирович",
+      "LastName": "Кисенков",
+      "Time": 0.5,
+      "StartDate": "2019-11-17T00:00:00",
+      "BirthDate": "1971-03-12T00:00:00",
+      "Positions": [
+        {
+          "Position": "156",
+          "Department": "24"
+        }
+      ]
+    },
+    {
+      "Id": "2614",
+      "FirstName": "Юлия",
+      "MiddleName": "Алексеевна",
+      "LastName": "Савина",
+      "Time": 1,
+      "StartDate": "1992-08-24T00:00:00",
+      "BirthDate": "1964-11-05T00:00:00",
+      "Positions": [
+        {
+          "Position": "138",
+          "Department": "24"
+        }
+      ]
+    },
+    {
+      "Id": "2628",
+      "FirstName": "Светлана",
+      "MiddleName": "Ивановна",
+      "LastName": "Ларионова",
+      "Time": 0.5,
+      "StartDate": "2010-11-12T00:00:00",
+      "BirthDate": "1987-10-04T00:00:00",
+      "Positions": [
+        {
+          "Position": "138",
+          "Department": "24"
+        }
+      ]
+    },
+    {
+      "Id": "3520",
+      "FirstName": "Светлана",
+      "MiddleName": "Витальевна",
+      "LastName": "Водолажченко",
+      "Time": 0.5,
+      "StartDate": "2017-12-15T00:00:00",
+      "BirthDate": "1967-12-12T00:00:00",
+      "Positions": [
+        {
+          "Position": "143",
+          "Department": "24"
+        }
+      ]
+    },
+    {
+      "Id": "3648",
+      "FirstName": "Бахромжон",
+      "MiddleName": "Бахтиёржон угли",
+      "LastName": "Мухторов",
+      "Time": 0.5,
+      "StartDate": "1999-09-11T00:00:00",
+      "BirthDate": "1977-09-14T00:00:00",
+      "Positions": [
+        {
+          "Position": "64",
+          "Department": "24"
+        }
+      ]
+    }
+  ]
+}

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2524",
-	"FirstName": "Александр",
-	"MiddleName": "Александрович",
-	"LastName": "Яничев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "72",
-			"HeadOfDepartment": false,
-			"Position": "180"
-		}
-	]
+  "Id": "2524",
+  "FirstName": "Александр",
+  "MiddleName": "Александрович",
+  "LastName": "Яничев",
+  "Time": 1,
+  "StartDate": "1991-06-15T00:00:00",
+  "BirthDate": "1952-11-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "180",
+      "Department": "72"
+    }
+  ]
 }

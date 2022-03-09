@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "631",
-	"FirstName": "Виталий",
-	"MiddleName": "Павлович",
-	"LastName": "Меркулов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "46",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		},
-		{
-			"Id": "5",
-			"HeadOfDepartment": false,
-			"Position": "18"
-		}
-	]
+  "Id": "631",
+  "FirstName": "Виталий",
+  "MiddleName": "Павлович",
+  "LastName": "Меркулов",
+  "Time": 1.5,
+  "StartDate": "2004-03-04T00:00:00",
+  "BirthDate": "1963-11-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "46"
+    },
+    {
+      "Position": "18",
+      "Department": "5"
+    }
+  ]
 }

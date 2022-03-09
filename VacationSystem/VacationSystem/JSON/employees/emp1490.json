@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1490",
-	"FirstName": "Анастасия",
-	"MiddleName": "Евгеньевна",
-	"LastName": "Параева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "65",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1490",
+  "FirstName": "Анастасия",
+  "MiddleName": "Евгеньевна",
+  "LastName": "Параева",
+  "Time": 1,
+  "StartDate": "2019-10-03T00:00:00",
+  "BirthDate": "1990-11-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "65"
+    }
+  ]
 }

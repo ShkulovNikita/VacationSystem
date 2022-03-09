@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3673",
-	"FirstName": "Маурицио",
-	"MiddleName": "",
-	"LastName": "Феррари",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "56"
-		}
-	]
+  "Id": "3673",
+  "FirstName": "Маурицио",
+  "MiddleName": "",
+  "LastName": "Феррари",
+  "Time": 1,
+  "StartDate": "2011-01-23T00:00:00",
+  "BirthDate": "1982-06-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "56",
+      "Department": "15"
+    }
+  ]
 }

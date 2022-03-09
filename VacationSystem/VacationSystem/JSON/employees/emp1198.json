@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1198",
-	"FirstName": "Татьяна",
-	"MiddleName": "Александровна",
-	"LastName": "Езангина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "6",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "1198",
+  "FirstName": "Татьяна",
+  "MiddleName": "Александровна",
+  "LastName": "Езангина",
+  "Time": 1,
+  "StartDate": "1999-04-20T00:00:00",
+  "BirthDate": "1979-06-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "6"
+    }
+  ]
 }

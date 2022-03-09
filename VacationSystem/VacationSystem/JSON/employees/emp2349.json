@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2349",
-	"FirstName": "Сергей",
-	"MiddleName": "Автономович",
-	"LastName": "Новиков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "19",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "2349",
+  "FirstName": "Сергей",
+  "MiddleName": "Автономович",
+  "LastName": "Новиков",
+  "Time": 1,
+  "StartDate": "2006-05-01T00:00:00",
+  "BirthDate": "1981-11-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "19"
+    }
+  ]
 }

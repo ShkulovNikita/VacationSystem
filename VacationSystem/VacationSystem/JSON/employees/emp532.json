@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "532",
-	"FirstName": "Максим",
-	"MiddleName": "Евгеньевич",
-	"LastName": "Конищев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "32",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		}
-	]
+  "Id": "532",
+  "FirstName": "Максим",
+  "MiddleName": "Евгеньевич",
+  "LastName": "Конищев",
+  "Time": 0.5,
+  "StartDate": "2010-08-18T00:00:00",
+  "BirthDate": "1967-08-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "32"
+    }
+  ]
 }

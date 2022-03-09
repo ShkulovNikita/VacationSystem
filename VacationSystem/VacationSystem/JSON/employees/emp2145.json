@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2145",
-	"FirstName": "Елена",
-	"MiddleName": "Викторовна",
-	"LastName": "Волкова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "96",
-			"HeadOfDepartment": false,
-			"Position": "131"
-		}
-	]
+  "Id": "2145",
+  "FirstName": "Елена",
+  "MiddleName": "Викторовна",
+  "LastName": "Волкова",
+  "Time": 0.5,
+  "StartDate": "1991-02-04T00:00:00",
+  "BirthDate": "1956-01-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "131",
+      "Department": "96"
+    }
+  ]
 }

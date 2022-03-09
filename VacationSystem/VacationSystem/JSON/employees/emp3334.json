@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3334",
-	"FirstName": "Александр",
-	"MiddleName": "Агафонович",
-	"LastName": "Полькин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "168",
-			"HeadOfDepartment": false,
-			"Position": "156"
-		}
-	]
+  "Id": "3334",
+  "FirstName": "Александр",
+  "MiddleName": "Агафонович",
+  "LastName": "Полькин",
+  "Time": 0.5,
+  "StartDate": "2014-12-02T00:00:00",
+  "BirthDate": "1993-10-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "156",
+      "Department": "168"
+    }
+  ]
 }

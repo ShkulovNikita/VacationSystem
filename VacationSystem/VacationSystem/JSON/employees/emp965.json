@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "965",
-	"FirstName": "Нелли",
-	"MiddleName": "Петровна",
-	"LastName": "Лялькова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "107",
-			"HeadOfDepartment": false,
-			"Position": "140"
-		}
-	]
+  "Id": "965",
+  "FirstName": "Нелли",
+  "MiddleName": "Петровна",
+  "LastName": "Лялькова",
+  "Time": 1,
+  "StartDate": "1990-06-07T00:00:00",
+  "BirthDate": "1953-02-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "140",
+      "Department": "107"
+    }
+  ]
 }

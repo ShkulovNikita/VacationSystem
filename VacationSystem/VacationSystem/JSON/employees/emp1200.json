@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "1200",
-	"FirstName": "Игорь",
-	"MiddleName": "Владимирович",
-	"LastName": "Ряшенцев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "71",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		},
-		{
-			"Id": "30",
-			"HeadOfDepartment": false,
-			"Position": "16"
-		}
-	]
+  "Id": "1200",
+  "FirstName": "Игорь",
+  "MiddleName": "Владимирович",
+  "LastName": "Ряшенцев",
+  "Time": 1,
+  "StartDate": "1988-02-20T00:00:00",
+  "BirthDate": "1962-10-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "71"
+    },
+    {
+      "Position": "16",
+      "Department": "30"
+    }
+  ]
 }

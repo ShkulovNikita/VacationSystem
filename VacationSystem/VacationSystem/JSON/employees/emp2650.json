@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2650",
-	"FirstName": "Малик",
-	"MiddleName": "Абдигалиевич",
-	"LastName": "Бакибаев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "29",
-			"HeadOfDepartment": false,
-			"Position": "25"
-		}
-	]
+  "Id": "2650",
+  "FirstName": "Малик",
+  "MiddleName": "Абдигалиевич",
+  "LastName": "Бакибаев",
+  "Time": 1,
+  "StartDate": "2021-06-24T00:00:00",
+  "BirthDate": "1993-11-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "25",
+      "Department": "29"
+    }
+  ]
 }

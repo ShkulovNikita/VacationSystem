@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2390",
-	"FirstName": "Анастасия",
-	"MiddleName": "Григорьевна",
-	"LastName": "Фефелова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "2390",
+  "FirstName": "Анастасия",
+  "MiddleName": "Григорьевна",
+  "LastName": "Фефелова",
+  "Time": 1,
+  "StartDate": "1998-09-10T00:00:00",
+  "BirthDate": "1960-08-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "2"
+    }
+  ]
 }

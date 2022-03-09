@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "980",
-	"FirstName": "Александр",
-	"MiddleName": "Валентинович",
-	"LastName": "Рудаченко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "46",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "980",
+  "FirstName": "Александр",
+  "MiddleName": "Валентинович",
+  "LastName": "Рудаченко",
+  "Time": 1,
+  "StartDate": "2018-08-12T00:00:00",
+  "BirthDate": "1987-04-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "46"
+    }
+  ]
 }

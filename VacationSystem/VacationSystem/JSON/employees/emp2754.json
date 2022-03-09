@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2754",
-	"FirstName": "Кирилл",
-	"MiddleName": "Александрович",
-	"LastName": "Костин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "26",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "2754",
+  "FirstName": "Кирилл",
+  "MiddleName": "Александрович",
+  "LastName": "Костин",
+  "Time": 1,
+  "StartDate": "2018-10-07T00:00:00",
+  "BirthDate": "1983-05-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "26"
+    }
+  ]
 }

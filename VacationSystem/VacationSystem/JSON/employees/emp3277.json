@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3277",
-	"FirstName": "Олег",
-	"MiddleName": "Николаевич",
-	"LastName": "Уленеков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "32",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "3277",
+  "FirstName": "Олег",
+  "MiddleName": "Николаевич",
+  "LastName": "Уленеков",
+  "Time": 0.5,
+  "StartDate": "2019-08-20T00:00:00",
+  "BirthDate": "1987-11-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "32"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3396",
-	"FirstName": "Константин",
-	"MiddleName": "Борисович",
-	"LastName": "Михайлов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "75",
-			"HeadOfDepartment": false,
-			"Position": "232"
-		}
-	]
+  "Id": "3396",
+  "FirstName": "Константин",
+  "MiddleName": "Борисович",
+  "LastName": "Михайлов",
+  "Time": 0.5,
+  "StartDate": "2021-03-11T00:00:00",
+  "BirthDate": "1956-12-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "232",
+      "Department": "75"
+    }
+  ]
 }

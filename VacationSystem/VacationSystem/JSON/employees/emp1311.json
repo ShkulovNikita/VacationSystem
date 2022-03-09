@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1311",
-	"FirstName": "Владимир",
-	"MiddleName": "Николаевич",
-	"LastName": "Манжай",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "46",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "1311",
+  "FirstName": "Владимир",
+  "MiddleName": "Николаевич",
+  "LastName": "Манжай",
+  "Time": 1,
+  "StartDate": "2007-09-19T00:00:00",
+  "BirthDate": "1968-11-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "46"
+    }
+  ]
 }

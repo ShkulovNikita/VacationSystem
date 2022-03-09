@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3232",
-	"FirstName": "Елена",
-	"MiddleName": "Геннадьевна",
-	"LastName": "Абызова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "32",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		}
-	]
+  "Id": "3232",
+  "FirstName": "Елена",
+  "MiddleName": "Геннадьевна",
+  "LastName": "Абызова",
+  "Time": 1,
+  "StartDate": "2012-03-12T00:00:00",
+  "BirthDate": "1983-07-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "32"
+    }
+  ]
 }

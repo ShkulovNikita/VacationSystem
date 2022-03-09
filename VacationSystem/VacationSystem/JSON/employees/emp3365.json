@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3365",
-	"FirstName": "Юлия",
-	"MiddleName": "Александровна",
-	"LastName": "Барабанова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "66",
-			"HeadOfDepartment": false,
-			"Position": "61"
-		}
-	]
+  "Id": "3365",
+  "FirstName": "Юлия",
+  "MiddleName": "Александровна",
+  "LastName": "Барабанова",
+  "Time": 0.5,
+  "StartDate": "2000-02-19T00:00:00",
+  "BirthDate": "1966-04-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "61",
+      "Department": "66"
+    }
+  ]
 }

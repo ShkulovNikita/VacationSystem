@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2698",
-	"FirstName": "Юлия",
-	"MiddleName": "",
-	"LastName": "Мурашкина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "57",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		}
-	]
+  "Id": "2698",
+  "FirstName": "Юлия",
+  "MiddleName": "",
+  "LastName": "Мурашкина",
+  "Time": 0.5,
+  "StartDate": "1978-05-23T00:00:00",
+  "BirthDate": "1955-06-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "57"
+    }
+  ]
 }

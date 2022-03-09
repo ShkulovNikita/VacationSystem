@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1067",
-	"FirstName": "Светлёна",
-	"MiddleName": "Валерьевна",
-	"LastName": "Лукьянец",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "128",
-			"HeadOfDepartment": false,
-			"Position": "130"
-		}
-	]
+  "Id": "1067",
+  "FirstName": "Светлёна",
+  "MiddleName": "Валерьевна",
+  "LastName": "Лукьянец",
+  "Time": 1,
+  "StartDate": "2018-05-11T00:00:00",
+  "BirthDate": "1990-04-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "130",
+      "Department": "128"
+    }
+  ]
 }

@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "2047",
-	"FirstName": "Владимир",
-	"MiddleName": "Евгеньевич",
-	"LastName": "Губин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "182",
-			"HeadOfDepartment": false,
-			"Position": "48"
-		},
-		{
-			"Id": "39",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "2047",
+  "FirstName": "Владимир",
+  "MiddleName": "Евгеньевич",
+  "LastName": "Губин",
+  "Time": 2,
+  "StartDate": "2011-12-20T00:00:00",
+  "BirthDate": "1953-09-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "48",
+      "Department": "182"
+    },
+    {
+      "Position": "1",
+      "Department": "39"
+    }
+  ]
 }

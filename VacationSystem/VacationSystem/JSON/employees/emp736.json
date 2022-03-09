@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "736",
-	"FirstName": "Наталья",
-	"MiddleName": "Борисовна",
-	"LastName": "Силаева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "96",
-			"HeadOfDepartment": false,
-			"Position": "125"
-		}
-	]
+  "Id": "736",
+  "FirstName": "Наталья",
+  "MiddleName": "Борисовна",
+  "LastName": "Силаева",
+  "Time": 0.5,
+  "StartDate": "1973-11-16T00:00:00",
+  "BirthDate": "1953-02-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "125",
+      "Department": "96"
+    }
+  ]
 }

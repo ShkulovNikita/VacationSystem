@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1656",
-	"FirstName": "Арина",
-	"MiddleName": "Аркадиевна",
-	"LastName": "Портнягина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "92",
-			"HeadOfDepartment": false,
-			"Position": "80"
-		}
-	]
+  "Id": "1656",
+  "FirstName": "Арина",
+  "MiddleName": "Аркадиевна",
+  "LastName": "Портнягина",
+  "Time": 0.5,
+  "StartDate": "1997-03-15T00:00:00",
+  "BirthDate": "1975-02-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "80",
+      "Department": "92"
+    }
+  ]
 }

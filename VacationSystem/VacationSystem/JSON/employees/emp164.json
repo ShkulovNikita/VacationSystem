@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "164",
-	"FirstName": "Александр",
-	"MiddleName": "Павлович",
-	"LastName": "Коньков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "2"
-		}
-	]
+  "Id": "164",
+  "FirstName": "Александр",
+  "MiddleName": "Павлович",
+  "LastName": "Коньков",
+  "Time": 1,
+  "StartDate": "2018-03-15T00:00:00",
+  "BirthDate": "1967-06-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "2",
+      "Department": "15"
+    }
+  ]
 }

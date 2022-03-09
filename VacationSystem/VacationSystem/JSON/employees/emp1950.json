@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1950",
-	"FirstName": "Ирина",
-	"MiddleName": "Анатольевна",
-	"LastName": "Быховец",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "173",
-			"HeadOfDepartment": false,
-			"Position": "10"
-		}
-	]
+  "Id": "1950",
+  "FirstName": "Ирина",
+  "MiddleName": "Анатольевна",
+  "LastName": "Быховец",
+  "Time": 1,
+  "StartDate": "2013-11-01T00:00:00",
+  "BirthDate": "1980-08-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "10",
+      "Department": "173"
+    }
+  ]
 }

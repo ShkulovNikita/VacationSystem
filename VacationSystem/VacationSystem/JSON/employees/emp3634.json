@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3634",
-	"FirstName": "Юлия",
-	"MiddleName": "Сергеевна",
-	"LastName": "Голещихина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "111",
-			"HeadOfDepartment": false,
-			"Position": "57"
-		}
-	]
+  "Id": "3634",
+  "FirstName": "Юлия",
+  "MiddleName": "Сергеевна",
+  "LastName": "Голещихина",
+  "Time": 0.5,
+  "StartDate": "1986-03-24T00:00:00",
+  "BirthDate": "1958-07-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "57",
+      "Department": "111"
+    }
+  ]
 }

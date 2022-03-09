@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "515",
-	"FirstName": "Таслима",
-	"MiddleName": "Тахабиевна",
-	"LastName": "Розова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "34",
-			"HeadOfDepartment": false,
-			"Position": "104"
-		}
-	]
+  "Id": "515",
+  "FirstName": "Таслима",
+  "MiddleName": "Тахабиевна",
+  "LastName": "Розова",
+  "Time": 0.5,
+  "StartDate": "2018-01-03T00:00:00",
+  "BirthDate": "1993-08-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "104",
+      "Department": "34"
+    }
+  ]
 }

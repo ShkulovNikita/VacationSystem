@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2301",
-	"FirstName": "Виктор",
-	"MiddleName": "Андреевич",
-	"LastName": "Вайс",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "75",
-			"HeadOfDepartment": false,
-			"Position": "231"
-		}
-	]
+  "Id": "2301",
+  "FirstName": "Виктор",
+  "MiddleName": "Андреевич",
+  "LastName": "Вайс",
+  "Time": 1,
+  "StartDate": "2003-04-18T00:00:00",
+  "BirthDate": "1960-02-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "231",
+      "Department": "75"
+    }
+  ]
 }

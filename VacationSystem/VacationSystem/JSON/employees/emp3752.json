@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3752",
-	"FirstName": "Дмитрий",
-	"MiddleName": "Сергеевич",
-	"LastName": "Феоктистов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "125",
-			"HeadOfDepartment": false,
-			"Position": "25"
-		}
-	]
+  "Id": "3752",
+  "FirstName": "Дмитрий",
+  "MiddleName": "Сергеевич",
+  "LastName": "Феоктистов",
+  "Time": 1,
+  "StartDate": "2015-08-16T00:00:00",
+  "BirthDate": "1985-09-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "25",
+      "Department": "125"
+    }
+  ]
 }

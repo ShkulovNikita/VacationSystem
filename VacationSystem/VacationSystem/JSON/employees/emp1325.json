@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1325",
-	"FirstName": "Ксения",
-	"MiddleName": "Валериевна",
-	"LastName": "Политова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "207",
-			"HeadOfDepartment": false,
-			"Position": "157"
-		}
-	]
+  "Id": "1325",
+  "FirstName": "Ксения",
+  "MiddleName": "Валериевна",
+  "LastName": "Политова",
+  "Time": 1,
+  "StartDate": "2012-08-20T00:00:00",
+  "BirthDate": "1990-02-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "157",
+      "Department": "207"
+    }
+  ]
 }

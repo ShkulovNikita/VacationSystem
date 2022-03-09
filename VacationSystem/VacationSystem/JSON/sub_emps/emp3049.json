@@ -1,0 +1,34 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "292",
+      "FirstName": "Валентина",
+      "MiddleName": "Николаевна",
+      "LastName": "Неверова",
+      "Time": 1,
+      "StartDate": "2016-08-15T00:00:00",
+      "BirthDate": "1992-04-10T00:00:00",
+      "Positions": [
+        {
+          "Position": "77",
+          "Department": "115"
+        }
+      ]
+    },
+    {
+      "Id": "3049",
+      "FirstName": "Лариса",
+      "MiddleName": "Леонидовна",
+      "LastName": "Лапко",
+      "Time": 0.5,
+      "StartDate": "1995-02-07T00:00:00",
+      "BirthDate": "1970-06-22T00:00:00",
+      "Positions": [
+        {
+          "Position": "258",
+          "Department": "115"
+        }
+      ]
+    }
+  ]
+}

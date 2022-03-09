@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2315",
-	"FirstName": "Валентина",
-	"MiddleName": "Васильевна",
-	"LastName": "Киреева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "1",
-			"HeadOfDepartment": false,
-			"Position": "70"
-		}
-	]
+  "Id": "2315",
+  "FirstName": "Валентина",
+  "MiddleName": "Васильевна",
+  "LastName": "Киреева",
+  "Time": 1,
+  "StartDate": "2021-09-24T00:00:00",
+  "BirthDate": "1981-04-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "70",
+      "Department": "1"
+    }
+  ]
 }

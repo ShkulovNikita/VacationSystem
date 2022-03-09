@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2688",
-	"FirstName": "Владимир",
-	"MiddleName": "Петрович",
-	"LastName": "Иванов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "1",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "2688",
+  "FirstName": "Владимир",
+  "MiddleName": "Петрович",
+  "LastName": "Иванов",
+  "Time": 1,
+  "StartDate": "1996-06-11T00:00:00",
+  "BirthDate": "1958-09-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "1"
+    }
+  ]
 }

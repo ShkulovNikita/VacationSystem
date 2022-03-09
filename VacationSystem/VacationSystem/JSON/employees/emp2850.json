@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2850",
-	"FirstName": "Станислав",
-	"MiddleName": "Вячеславович",
-	"LastName": "Колесников",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "19",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		}
-	]
+  "Id": "2850",
+  "FirstName": "Станислав",
+  "MiddleName": "Вячеславович",
+  "LastName": "Колесников",
+  "Time": 1,
+  "StartDate": "2009-12-19T00:00:00",
+  "BirthDate": "1989-07-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "19"
+    }
+  ]
 }

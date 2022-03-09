@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3520",
-	"FirstName": "Светлана",
-	"MiddleName": "Витальевна",
-	"LastName": "Водолажченко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "24",
-			"HeadOfDepartment": false,
-			"Position": "143"
-		}
-	]
+  "Id": "3520",
+  "FirstName": "Светлана",
+  "MiddleName": "Витальевна",
+  "LastName": "Водолажченко",
+  "Time": 0.5,
+  "StartDate": "2017-12-15T00:00:00",
+  "BirthDate": "1967-12-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "143",
+      "Department": "24"
+    }
+  ]
 }

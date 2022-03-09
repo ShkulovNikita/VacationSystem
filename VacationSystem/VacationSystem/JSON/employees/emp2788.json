@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "2788",
-	"FirstName": "Евгений",
-	"MiddleName": "",
-	"LastName": "Петренко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		},
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "2788",
+  "FirstName": "Евгений",
+  "MiddleName": "",
+  "LastName": "Петренко",
+  "Time": 2,
+  "StartDate": "1999-06-07T00:00:00",
+  "BirthDate": "1957-03-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "15"
+    },
+    {
+      "Position": "3",
+      "Department": "15"
+    }
+  ]
 }

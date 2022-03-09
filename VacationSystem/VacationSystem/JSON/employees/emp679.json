@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "679",
-	"FirstName": "Андрей",
-	"MiddleName": "Александрович",
-	"LastName": "Соловьев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "56",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "679",
+  "FirstName": "Андрей",
+  "MiddleName": "Александрович",
+  "LastName": "Соловьев",
+  "Time": 0.5,
+  "StartDate": "2021-08-23T00:00:00",
+  "BirthDate": "1971-01-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "56"
+    }
+  ]
 }

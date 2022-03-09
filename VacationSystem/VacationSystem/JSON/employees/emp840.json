@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "840",
-	"FirstName": "Магеррам",
-	"MiddleName": "Али оглы",
-	"LastName": "Гасанов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "3",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "840",
+  "FirstName": "Магеррам",
+  "MiddleName": "Али оглы",
+  "LastName": "Гасанов",
+  "Time": 1,
+  "StartDate": "2016-01-21T00:00:00",
+  "BirthDate": "1966-04-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "3"
+    }
+  ]
 }

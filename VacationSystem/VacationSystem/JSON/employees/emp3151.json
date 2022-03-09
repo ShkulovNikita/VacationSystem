@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3151",
-	"FirstName": "Вера",
-	"MiddleName": "Александровна",
-	"LastName": "Запригалова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "9",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "3151",
+  "FirstName": "Вера",
+  "MiddleName": "Александровна",
+  "LastName": "Запригалова",
+  "Time": 0.5,
+  "StartDate": "1988-08-12T00:00:00",
+  "BirthDate": "1964-02-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "9"
+    }
+  ]
 }

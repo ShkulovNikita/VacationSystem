@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3182",
-	"FirstName": "Ви Сан",
-	"MiddleName": "",
-	"LastName": "Сун",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "65",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		}
-	]
+  "Id": "3182",
+  "FirstName": "Ви Сан",
+  "MiddleName": "",
+  "LastName": "Сун",
+  "Time": 0.5,
+  "StartDate": "2017-08-23T00:00:00",
+  "BirthDate": "1971-06-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "65"
+    }
+  ]
 }

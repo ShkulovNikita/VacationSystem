@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "299",
-	"FirstName": "Светлана",
-	"MiddleName": "Валерьевна",
-	"LastName": "Азарова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "1",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "299",
+  "FirstName": "Светлана",
+  "MiddleName": "Валерьевна",
+  "LastName": "Азарова",
+  "Time": 1,
+  "StartDate": "1997-12-02T00:00:00",
+  "BirthDate": "1960-01-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "1"
+    }
+  ]
 }

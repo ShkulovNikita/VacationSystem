@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "84",
-	"FirstName": "Александр",
-	"MiddleName": "Леонидович",
-	"LastName": "Лисок",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "52",
-			"HeadOfDepartment": false,
-			"Position": "2"
-		},
-		{
-			"Id": "53",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "84",
+  "FirstName": "Александр",
+  "MiddleName": "Леонидович",
+  "LastName": "Лисок",
+  "Time": 1,
+  "StartDate": "1982-02-10T00:00:00",
+  "BirthDate": "1957-07-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "2",
+      "Department": "52"
+    },
+    {
+      "Position": "1",
+      "Department": "53"
+    }
+  ]
 }

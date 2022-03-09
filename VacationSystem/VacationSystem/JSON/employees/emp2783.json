@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2783",
-	"FirstName": "Камиль",
-	"MiddleName": "Анварович",
-	"LastName": "Яруллин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "38",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "2783",
+  "FirstName": "Камиль",
+  "MiddleName": "Анварович",
+  "LastName": "Яруллин",
+  "Time": 1,
+  "StartDate": "2002-08-07T00:00:00",
+  "BirthDate": "1980-04-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "38"
+    }
+  ]
 }

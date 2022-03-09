@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "1630",
-	"FirstName": "Ростислав",
-	"MiddleName": "",
-	"LastName": "Калинин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "7"
-		},
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		}
-	]
+  "Id": "1630",
+  "FirstName": "Ростислав",
+  "MiddleName": "",
+  "LastName": "Калинин",
+  "Time": 1.5,
+  "StartDate": "2018-06-19T00:00:00",
+  "BirthDate": "1981-01-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "7",
+      "Department": "15"
+    },
+    {
+      "Position": "5",
+      "Department": "15"
+    }
+  ]
 }

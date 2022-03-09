@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1259",
-	"FirstName": "Дарья",
-	"MiddleName": "Александровна",
-	"LastName": "Чернова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "14",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "1259",
+  "FirstName": "Дарья",
+  "MiddleName": "Александровна",
+  "LastName": "Чернова",
+  "Time": 1,
+  "StartDate": "2019-08-02T00:00:00",
+  "BirthDate": "1990-01-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "14"
+    }
+  ]
 }

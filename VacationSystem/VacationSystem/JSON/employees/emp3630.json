@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3630",
-	"FirstName": "Ольга",
-	"MiddleName": "Сергеевна",
-	"LastName": "Пестунова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "135",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "3630",
+  "FirstName": "Ольга",
+  "MiddleName": "Сергеевна",
+  "LastName": "Пестунова",
+  "Time": 1,
+  "StartDate": "2004-07-01T00:00:00",
+  "BirthDate": "1966-01-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "135"
+    }
+  ]
 }

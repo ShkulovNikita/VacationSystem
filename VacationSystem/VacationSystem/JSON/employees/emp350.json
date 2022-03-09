@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "350",
-	"FirstName": "Игорь",
-	"MiddleName": "Александрович",
-	"LastName": "Ванеев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "16",
-			"HeadOfDepartment": false,
-			"Position": "85"
-		}
-	]
+  "Id": "350",
+  "FirstName": "Игорь",
+  "MiddleName": "Александрович",
+  "LastName": "Ванеев",
+  "Time": 0.5,
+  "StartDate": "2007-05-12T00:00:00",
+  "BirthDate": "1982-01-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "85",
+      "Department": "16"
+    }
+  ]
 }

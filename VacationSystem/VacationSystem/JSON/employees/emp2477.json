@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2477",
-	"FirstName": "Валентин",
-	"MiddleName": "Леонидович",
-	"LastName": "Попов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "2477",
+  "FirstName": "Валентин",
+  "MiddleName": "Леонидович",
+  "LastName": "Попов",
+  "Time": 1,
+  "StartDate": "2016-01-21T00:00:00",
+  "BirthDate": "1990-01-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "15"
+    }
+  ]
 }

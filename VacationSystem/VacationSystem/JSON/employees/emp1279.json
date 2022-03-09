@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1279",
-	"FirstName": "Анастасия",
-	"MiddleName": "Викторовна",
-	"LastName": "Иганова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "16",
-			"HeadOfDepartment": false,
-			"Position": "25"
-		}
-	]
+  "Id": "1279",
+  "FirstName": "Анастасия",
+  "MiddleName": "Викторовна",
+  "LastName": "Иганова",
+  "Time": 1,
+  "StartDate": "2015-06-03T00:00:00",
+  "BirthDate": "1953-04-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "25",
+      "Department": "16"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1789",
-	"FirstName": "Марина",
-	"MiddleName": "Юрьевна",
-	"LastName": "Андрианова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "103",
-			"HeadOfDepartment": false,
-			"Position": "213"
-		}
-	]
+  "Id": "1789",
+  "FirstName": "Марина",
+  "MiddleName": "Юрьевна",
+  "LastName": "Андрианова",
+  "Time": 0.5,
+  "StartDate": "2019-07-11T00:00:00",
+  "BirthDate": "1956-06-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "213",
+      "Department": "103"
+    }
+  ]
 }

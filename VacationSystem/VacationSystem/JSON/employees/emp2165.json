@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2165",
-	"FirstName": "Ольга",
-	"MiddleName": "Тимофеевна",
-	"LastName": "Лойко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "3",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "2165",
+  "FirstName": "Ольга",
+  "MiddleName": "Тимофеевна",
+  "LastName": "Лойко",
+  "Time": 1,
+  "StartDate": "1978-08-18T00:00:00",
+  "BirthDate": "1954-12-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "3"
+    }
+  ]
 }

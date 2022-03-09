@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "303",
-	"FirstName": "Дина",
-	"MiddleName": "Викторовна",
-	"LastName": "Сотникова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "20",
-			"HeadOfDepartment": false,
-			"Position": "16"
-		}
-	]
+  "Id": "303",
+  "FirstName": "Дина",
+  "MiddleName": "Викторовна",
+  "LastName": "Сотникова",
+  "Time": 0.5,
+  "StartDate": "2014-01-04T00:00:00",
+  "BirthDate": "1989-06-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "16",
+      "Department": "20"
+    }
+  ]
 }

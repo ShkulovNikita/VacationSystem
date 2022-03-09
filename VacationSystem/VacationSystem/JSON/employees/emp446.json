@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "446",
-	"FirstName": "Елена",
-	"MiddleName": "Александровна",
-	"LastName": "Газетова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "33",
-			"HeadOfDepartment": false,
-			"Position": "21"
-		}
-	]
+  "Id": "446",
+  "FirstName": "Елена",
+  "MiddleName": "Александровна",
+  "LastName": "Газетова",
+  "Time": 0.5,
+  "StartDate": "1978-05-01T00:00:00",
+  "BirthDate": "1953-12-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "21",
+      "Department": "33"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "719",
-	"FirstName": "Ирина",
-	"MiddleName": "Анатольевна",
-	"LastName": "Сараева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "0",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "719",
+  "FirstName": "Ирина",
+  "MiddleName": "Анатольевна",
+  "LastName": "Сараева",
+  "Time": 1,
+  "StartDate": "2010-05-12T00:00:00",
+  "BirthDate": "1957-03-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "0"
+    }
+  ]
 }

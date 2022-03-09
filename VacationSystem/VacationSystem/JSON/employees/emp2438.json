@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2438",
-	"FirstName": "Валентина",
-	"MiddleName": "Ивановна",
-	"LastName": "Запрягаева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "186",
-			"HeadOfDepartment": false,
-			"Position": "25"
-		}
-	]
+  "Id": "2438",
+  "FirstName": "Валентина",
+  "MiddleName": "Ивановна",
+  "LastName": "Запрягаева",
+  "Time": 1,
+  "StartDate": "1986-12-12T00:00:00",
+  "BirthDate": "1966-11-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "25",
+      "Department": "186"
+    }
+  ]
 }

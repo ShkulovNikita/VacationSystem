@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "761",
-	"FirstName": "Виктор",
-	"MiddleName": "Олегович",
-	"LastName": "Корняков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "75",
-			"HeadOfDepartment": false,
-			"Position": "34"
-		}
-	]
+  "Id": "761",
+  "FirstName": "Виктор",
+  "MiddleName": "Олегович",
+  "LastName": "Корняков",
+  "Time": 1,
+  "StartDate": "1983-11-21T00:00:00",
+  "BirthDate": "1957-10-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "34",
+      "Department": "75"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2974",
-	"FirstName": "Иван",
-	"MiddleName": "Юрьевич",
-	"LastName": "Чумляков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "66",
-			"HeadOfDepartment": false,
-			"Position": "256"
-		}
-	]
+  "Id": "2974",
+  "FirstName": "Иван",
+  "MiddleName": "Юрьевич",
+  "LastName": "Чумляков",
+  "Time": 0.5,
+  "StartDate": "1978-12-23T00:00:00",
+  "BirthDate": "1954-07-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "256",
+      "Department": "66"
+    }
+  ]
 }

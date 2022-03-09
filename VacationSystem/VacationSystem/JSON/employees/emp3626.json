@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3626",
-	"FirstName": "Рауль Давид",
-	"MiddleName": "",
-	"LastName": "Родригес Контрерас",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "51",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "3626",
+  "FirstName": "Рауль Давид",
+  "MiddleName": "",
+  "LastName": "Родригес Контрерас",
+  "Time": 0.5,
+  "StartDate": "1999-05-12T00:00:00",
+  "BirthDate": "1970-05-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "51"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "347",
-	"FirstName": "Ольга",
-	"MiddleName": "Викторовна",
-	"LastName": "Дмитриева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "33",
-			"HeadOfDepartment": false,
-			"Position": "39"
-		}
-	]
+  "Id": "347",
+  "FirstName": "Ольга",
+  "MiddleName": "Викторовна",
+  "LastName": "Дмитриева",
+  "Time": 1,
+  "StartDate": "1986-09-17T00:00:00",
+  "BirthDate": "1963-03-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "39",
+      "Department": "33"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1573",
-	"FirstName": "Светлана",
-	"MiddleName": "Викторовна",
-	"LastName": "Бодажкова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "65",
-			"HeadOfDepartment": false,
-			"Position": "0"
-		}
-	]
+  "Id": "1573",
+  "FirstName": "Светлана",
+  "MiddleName": "Викторовна",
+  "LastName": "Бодажкова",
+  "Time": 1,
+  "StartDate": "2019-11-03T00:00:00",
+  "BirthDate": "1964-04-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "0",
+      "Department": "65"
+    }
+  ]
 }

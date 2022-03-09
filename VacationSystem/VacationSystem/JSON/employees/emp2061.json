@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2061",
-	"FirstName": "Александра",
-	"MiddleName": "Сергеевна",
-	"LastName": "Веселова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "34",
-			"HeadOfDepartment": false,
-			"Position": "87"
-		}
-	]
+  "Id": "2061",
+  "FirstName": "Александра",
+  "MiddleName": "Сергеевна",
+  "LastName": "Веселова",
+  "Time": 0.5,
+  "StartDate": "2009-06-21T00:00:00",
+  "BirthDate": "1989-12-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "87",
+      "Department": "34"
+    }
+  ]
 }

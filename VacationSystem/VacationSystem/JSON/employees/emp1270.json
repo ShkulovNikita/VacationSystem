@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1270",
-	"FirstName": "Алексей",
-	"MiddleName": "Александрович",
-	"LastName": "Логинов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "122",
-			"HeadOfDepartment": false,
-			"Position": "114"
-		}
-	]
+  "Id": "1270",
+  "FirstName": "Алексей",
+  "MiddleName": "Александрович",
+  "LastName": "Логинов",
+  "Time": 1,
+  "StartDate": "2010-10-23T00:00:00",
+  "BirthDate": "1982-08-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "114",
+      "Department": "122"
+    }
+  ]
 }

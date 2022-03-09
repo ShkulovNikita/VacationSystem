@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "270",
-	"FirstName": "Маргарита",
-	"MiddleName": "Николаевна",
-	"LastName": "Грибова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "107",
-			"HeadOfDepartment": false,
-			"Position": "54"
-		}
-	]
+  "Id": "270",
+  "FirstName": "Маргарита",
+  "MiddleName": "Николаевна",
+  "LastName": "Грибова",
+  "Time": 1,
+  "StartDate": "2012-02-09T00:00:00",
+  "BirthDate": "1984-09-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "54",
+      "Department": "107"
+    }
+  ]
 }

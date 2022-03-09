@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3743",
-	"FirstName": "Дмитрий",
-	"MiddleName": "Турукович",
-	"LastName": "Боденеев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "16",
-			"HeadOfDepartment": false,
-			"Position": "129"
-		}
-	]
+  "Id": "3743",
+  "FirstName": "Дмитрий",
+  "MiddleName": "Турукович",
+  "LastName": "Боденеев",
+  "Time": 1,
+  "StartDate": "2006-01-18T00:00:00",
+  "BirthDate": "1974-09-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "129",
+      "Department": "16"
+    }
+  ]
 }

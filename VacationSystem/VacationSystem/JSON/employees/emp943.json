@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "943",
-	"FirstName": "Александр",
-	"MiddleName": "Александрович",
-	"LastName": "Филипас",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "6",
-			"HeadOfDepartment": false,
-			"Position": "43"
-		}
-	]
+  "Id": "943",
+  "FirstName": "Александр",
+  "MiddleName": "Александрович",
+  "LastName": "Филипас",
+  "Time": 0.5,
+  "StartDate": "2002-05-06T00:00:00",
+  "BirthDate": "1964-07-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "43",
+      "Department": "6"
+    }
+  ]
 }

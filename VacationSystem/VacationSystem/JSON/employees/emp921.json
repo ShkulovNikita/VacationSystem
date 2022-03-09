@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "921",
-	"FirstName": "Ольга",
-	"MiddleName": "Васильевна",
-	"LastName": "Чемерская",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "124",
-			"HeadOfDepartment": false,
-			"Position": "21"
-		}
-	]
+  "Id": "921",
+  "FirstName": "Ольга",
+  "MiddleName": "Васильевна",
+  "LastName": "Чемерская",
+  "Time": 1,
+  "StartDate": "1991-03-09T00:00:00",
+  "BirthDate": "1955-12-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "21",
+      "Department": "124"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3753",
-	"FirstName": "Алессандро",
-	"MiddleName": "",
-	"LastName": "Чиасера",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "56"
-		}
-	]
+  "Id": "3753",
+  "FirstName": "Алессандро",
+  "MiddleName": "",
+  "LastName": "Чиасера",
+  "Time": 0.5,
+  "StartDate": "2009-03-24T00:00:00",
+  "BirthDate": "1988-09-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "56",
+      "Department": "15"
+    }
+  ]
 }

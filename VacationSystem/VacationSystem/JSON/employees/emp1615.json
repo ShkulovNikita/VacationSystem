@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1615",
-	"FirstName": "Ольга",
-	"MiddleName": "Валерьевна",
-	"LastName": "Высокоморная",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "32",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1615",
+  "FirstName": "Ольга",
+  "MiddleName": "Валерьевна",
+  "LastName": "Высокоморная",
+  "Time": 1,
+  "StartDate": "2014-01-15T00:00:00",
+  "BirthDate": "1991-01-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "32"
+    }
+  ]
 }

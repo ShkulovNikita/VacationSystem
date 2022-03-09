@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3496",
-	"FirstName": "Рудольф",
-	"MiddleName": "Викторович",
-	"LastName": "Литвинов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "6",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "3496",
+  "FirstName": "Рудольф",
+  "MiddleName": "Викторович",
+  "LastName": "Литвинов",
+  "Time": 1,
+  "StartDate": "2018-02-12T00:00:00",
+  "BirthDate": "1984-01-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "6"
+    }
+  ]
 }

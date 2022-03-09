@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3729",
-	"FirstName": "Дунцзе",
-	"MiddleName": "",
-	"LastName": "Тан",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "1",
-			"HeadOfDepartment": false,
-			"Position": "24"
-		}
-	]
+  "Id": "3729",
+  "FirstName": "Дунцзе",
+  "MiddleName": "",
+  "LastName": "Тан",
+  "Time": 0.5,
+  "StartDate": "2010-09-10T00:00:00",
+  "BirthDate": "1971-05-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "24",
+      "Department": "1"
+    }
+  ]
 }

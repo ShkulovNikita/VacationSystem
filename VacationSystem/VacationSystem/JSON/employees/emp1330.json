@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1330",
-	"FirstName": "Олег",
-	"MiddleName": "Владимирович",
-	"LastName": "Смердов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "16",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "1330",
+  "FirstName": "Олег",
+  "MiddleName": "Владимирович",
+  "LastName": "Смердов",
+  "Time": 0.5,
+  "StartDate": "1996-07-07T00:00:00",
+  "BirthDate": "1961-10-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "16"
+    }
+  ]
 }

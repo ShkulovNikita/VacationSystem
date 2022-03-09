@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3179",
-	"FirstName": "Оксана",
-	"MiddleName": "Амировна",
-	"LastName": "Проневич",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "91",
-			"HeadOfDepartment": false,
-			"Position": "109"
-		}
-	]
+  "Id": "3179",
+  "FirstName": "Оксана",
+  "MiddleName": "Амировна",
+  "LastName": "Проневич",
+  "Time": 1,
+  "StartDate": "2016-06-10T00:00:00",
+  "BirthDate": "1991-07-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "109",
+      "Department": "91"
+    }
+  ]
 }

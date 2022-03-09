@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3632",
-	"FirstName": "Сомбун",
-	"MiddleName": "",
-	"LastName": "Чамчуен",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "51",
-			"HeadOfDepartment": false,
-			"Position": "24"
-		}
-	]
+  "Id": "3632",
+  "FirstName": "Сомбун",
+  "MiddleName": "",
+  "LastName": "Чамчуен",
+  "Time": 1,
+  "StartDate": "2020-09-17T00:00:00",
+  "BirthDate": "1985-08-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "24",
+      "Department": "51"
+    }
+  ]
 }

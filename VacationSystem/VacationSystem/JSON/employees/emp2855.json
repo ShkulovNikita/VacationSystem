@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2855",
-	"FirstName": "Роман",
-	"MiddleName": "Сергеевич",
-	"LastName": "Серебренников",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "108",
-			"HeadOfDepartment": false,
-			"Position": "64"
-		}
-	]
+  "Id": "2855",
+  "FirstName": "Роман",
+  "MiddleName": "Сергеевич",
+  "LastName": "Серебренников",
+  "Time": 1,
+  "StartDate": "2021-06-16T00:00:00",
+  "BirthDate": "1986-09-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "64",
+      "Department": "108"
+    }
+  ]
 }

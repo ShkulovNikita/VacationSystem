@@ -1,19 +1,15 @@
 ﻿{
-	"Id": "3253",
-	"FirstName": "Илья",
-	"MiddleName": "Сергеевич",
-	"LastName": "Петров",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "32",
-			"HeadOfDepartment": false,
-			"Position": "26"
-		},
-		{
-			"Id": "32",
-			"HeadOfDepartment": false,
-			"Position": "26"
-		}
-	]
+  "Id": "3253",
+  "FirstName": "Илья",
+  "MiddleName": "Сергеевич",
+  "LastName": "Петров",
+  "Time": 0.5,
+  "StartDate": "2015-10-20T00:00:00",
+  "BirthDate": "1991-01-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "26",
+      "Department": "32"
+    }
+  ]
 }

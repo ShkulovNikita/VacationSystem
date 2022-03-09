@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "813",
-	"FirstName": "Марина",
-	"MiddleName": "Станиславовна",
-	"LastName": "Веселова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "47",
-			"HeadOfDepartment": false,
-			"Position": "30"
-		}
-	]
+  "Id": "813",
+  "FirstName": "Марина",
+  "MiddleName": "Станиславовна",
+  "LastName": "Веселова",
+  "Time": 1,
+  "StartDate": "1996-06-04T00:00:00",
+  "BirthDate": "1968-02-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "30",
+      "Department": "47"
+    }
+  ]
 }

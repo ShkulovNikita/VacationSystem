@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2354",
-	"FirstName": "Наталия",
-	"MiddleName": "Вячеславовна",
-	"LastName": "Скаковская",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "3",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "2354",
+  "FirstName": "Наталия",
+  "MiddleName": "Вячеславовна",
+  "LastName": "Скаковская",
+  "Time": 1,
+  "StartDate": "2015-06-20T00:00:00",
+  "BirthDate": "1990-09-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "3"
+    }
+  ]
 }

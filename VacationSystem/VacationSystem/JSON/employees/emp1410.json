@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1410",
-	"FirstName": "Валентина",
-	"MiddleName": "Сергеевна",
-	"LastName": "Иванова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "203",
-			"HeadOfDepartment": false,
-			"Position": "143"
-		}
-	]
+  "Id": "1410",
+  "FirstName": "Валентина",
+  "MiddleName": "Сергеевна",
+  "LastName": "Иванова",
+  "Time": 1,
+  "StartDate": "2009-01-19T00:00:00",
+  "BirthDate": "1983-06-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "143",
+      "Department": "203"
+    }
+  ]
 }

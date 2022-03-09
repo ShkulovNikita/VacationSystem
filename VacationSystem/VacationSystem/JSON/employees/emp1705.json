@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1705",
-	"FirstName": "Евгений",
-	"MiddleName": "Владимирович",
-	"LastName": "Николаев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "88",
-			"HeadOfDepartment": false,
-			"Position": "24"
-		}
-	]
+  "Id": "1705",
+  "FirstName": "Евгений",
+  "MiddleName": "Владимирович",
+  "LastName": "Николаев",
+  "Time": 1,
+  "StartDate": "2005-06-02T00:00:00",
+  "BirthDate": "1957-06-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "24",
+      "Department": "88"
+    }
+  ]
 }

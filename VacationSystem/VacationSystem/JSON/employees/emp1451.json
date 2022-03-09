@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1451",
-	"FirstName": "Вера",
-	"MiddleName": "Юрьевна",
-	"LastName": "Митюшкина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "186",
-			"HeadOfDepartment": false,
-			"Position": "51"
-		}
-	]
+  "Id": "1451",
+  "FirstName": "Вера",
+  "MiddleName": "Юрьевна",
+  "LastName": "Митюшкина",
+  "Time": 0.5,
+  "StartDate": "2001-09-10T00:00:00",
+  "BirthDate": "1970-12-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "51",
+      "Department": "186"
+    }
+  ]
 }

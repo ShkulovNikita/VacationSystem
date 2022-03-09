@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2344",
-	"FirstName": "Алексей",
-	"MiddleName": "Борисович",
-	"LastName": "Пушкаренко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "14",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "2344",
+  "FirstName": "Алексей",
+  "MiddleName": "Борисович",
+  "LastName": "Пушкаренко",
+  "Time": 1,
+  "StartDate": "1990-07-22T00:00:00",
+  "BirthDate": "1965-04-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "14"
+    }
+  ]
 }

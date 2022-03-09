@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2663",
-	"FirstName": "Владимир",
-	"MiddleName": "Павлович",
-	"LastName": "Бондаренко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "158",
-			"HeadOfDepartment": false,
-			"Position": "35"
-		}
-	]
+  "Id": "2663",
+  "FirstName": "Владимир",
+  "MiddleName": "Павлович",
+  "LastName": "Бондаренко",
+  "Time": 0.5,
+  "StartDate": "2005-08-11T00:00:00",
+  "BirthDate": "1957-11-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "35",
+      "Department": "158"
+    }
+  ]
 }

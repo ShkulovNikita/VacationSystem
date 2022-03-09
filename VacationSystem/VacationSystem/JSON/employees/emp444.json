@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "444",
-	"FirstName": "Петр",
-	"MiddleName": "Михайлович",
-	"LastName": "Гаврилов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "17",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "444",
+  "FirstName": "Петр",
+  "MiddleName": "Михайлович",
+  "LastName": "Гаврилов",
+  "Time": 1,
+  "StartDate": "2016-02-01T00:00:00",
+  "BirthDate": "1989-04-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "17"
+    }
+  ]
 }

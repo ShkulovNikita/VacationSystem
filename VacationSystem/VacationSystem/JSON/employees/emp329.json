@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "329",
-	"FirstName": "Елена",
-	"MiddleName": "Якубовна",
-	"LastName": "Бельская",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "69",
-			"HeadOfDepartment": false,
-			"Position": "18"
-		}
-	]
+  "Id": "329",
+  "FirstName": "Елена",
+  "MiddleName": "Якубовна",
+  "LastName": "Бельская",
+  "Time": 0.5,
+  "StartDate": "1988-11-02T00:00:00",
+  "BirthDate": "1953-02-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "18",
+      "Department": "69"
+    }
+  ]
 }

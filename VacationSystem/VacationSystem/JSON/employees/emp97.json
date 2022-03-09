@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "97",
-	"FirstName": "Василий",
-	"MiddleName": "Константинович",
-	"LastName": "Муцин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "59",
-			"HeadOfDepartment": false,
-			"Position": "37"
-		}
-	]
+  "Id": "97",
+  "FirstName": "Василий",
+  "MiddleName": "Константинович",
+  "LastName": "Муцин",
+  "Time": 1,
+  "StartDate": "2002-06-20T00:00:00",
+  "BirthDate": "1971-02-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "37",
+      "Department": "59"
+    }
+  ]
 }

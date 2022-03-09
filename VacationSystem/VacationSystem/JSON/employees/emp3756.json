@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3756",
-	"FirstName": "Наталья",
-	"MiddleName": "Евгеньевна",
-	"LastName": "Аникеева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "3756",
+  "FirstName": "Наталья",
+  "MiddleName": "Евгеньевна",
+  "LastName": "Аникеева",
+  "Time": 0.5,
+  "StartDate": "2015-05-08T00:00:00",
+  "BirthDate": "1955-11-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "2"
+    }
+  ]
 }

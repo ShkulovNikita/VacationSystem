@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2237",
-	"FirstName": "Светлана",
-	"MiddleName": "Николаевна",
-	"LastName": "Сорокова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "2237",
+  "FirstName": "Светлана",
+  "MiddleName": "Николаевна",
+  "LastName": "Сорокова",
+  "Time": 0.5,
+  "StartDate": "2020-08-24T00:00:00",
+  "BirthDate": "1972-01-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "15"
+    }
+  ]
 }

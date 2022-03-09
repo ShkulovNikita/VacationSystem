@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1322",
-	"FirstName": "Антон",
-	"MiddleName": "Анатольевич",
-	"LastName": "Бабаев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "32",
-			"HeadOfDepartment": false,
-			"Position": "24"
-		}
-	]
+  "Id": "1322",
+  "FirstName": "Антон",
+  "MiddleName": "Анатольевич",
+  "LastName": "Бабаев",
+  "Time": 1,
+  "StartDate": "1996-04-04T00:00:00",
+  "BirthDate": "1953-05-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "24",
+      "Department": "32"
+    }
+  ]
 }

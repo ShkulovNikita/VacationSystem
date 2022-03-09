@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3324",
-	"FirstName": "Елена",
-	"MiddleName": "Геннадьевна",
-	"LastName": "Дегтярёва",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "54",
-			"HeadOfDepartment": false,
-			"Position": "73"
-		}
-	]
+  "Id": "3324",
+  "FirstName": "Елена",
+  "MiddleName": "Геннадьевна",
+  "LastName": "Дегтярёва",
+  "Time": 0.5,
+  "StartDate": "1997-09-03T00:00:00",
+  "BirthDate": "1955-03-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "73",
+      "Department": "54"
+    }
+  ]
 }

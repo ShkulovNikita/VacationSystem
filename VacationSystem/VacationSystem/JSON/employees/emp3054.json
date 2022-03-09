@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3054",
-	"FirstName": "Наталья",
-	"MiddleName": "Леонидовна",
-	"LastName": "Мартемьянова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "3054",
+  "FirstName": "Наталья",
+  "MiddleName": "Леонидовна",
+  "LastName": "Мартемьянова",
+  "Time": 0.5,
+  "StartDate": "2019-10-15T00:00:00",
+  "BirthDate": "1972-09-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "15"
+    }
+  ]
 }

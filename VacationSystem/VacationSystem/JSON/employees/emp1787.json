@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1787",
-	"FirstName": "Иван",
-	"MiddleName": "Сергеевич",
-	"LastName": "Суходоев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "26",
-			"HeadOfDepartment": false,
-			"Position": "53"
-		}
-	]
+  "Id": "1787",
+  "FirstName": "Иван",
+  "MiddleName": "Сергеевич",
+  "LastName": "Суходоев",
+  "Time": 1,
+  "StartDate": "1997-09-11T00:00:00",
+  "BirthDate": "1953-08-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "53",
+      "Department": "26"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "499",
-	"FirstName": "Татьяна",
-	"MiddleName": "Александровна",
-	"LastName": "Алёхина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "86",
-			"HeadOfDepartment": false,
-			"Position": "69"
-		}
-	]
+  "Id": "499",
+  "FirstName": "Татьяна",
+  "MiddleName": "Александровна",
+  "LastName": "Алёхина",
+  "Time": 1,
+  "StartDate": "1982-09-07T00:00:00",
+  "BirthDate": "1959-10-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "69",
+      "Department": "86"
+    }
+  ]
 }

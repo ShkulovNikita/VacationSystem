@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2995",
-	"FirstName": "Галина",
-	"MiddleName": "Сергеевна",
-	"LastName": "Уртамова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "121",
-			"HeadOfDepartment": false,
-			"Position": "160"
-		}
-	]
+  "Id": "2995",
+  "FirstName": "Галина",
+  "MiddleName": "Сергеевна",
+  "LastName": "Уртамова",
+  "Time": 1,
+  "StartDate": "2019-07-01T00:00:00",
+  "BirthDate": "1981-09-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "160",
+      "Department": "121"
+    }
+  ]
 }

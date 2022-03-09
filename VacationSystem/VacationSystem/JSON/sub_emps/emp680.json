@@ -1,0 +1,34 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "680",
+      "FirstName": "Михаил",
+      "MiddleName": "Александрович",
+      "LastName": "Соловьев",
+      "Time": 1,
+      "StartDate": "2014-03-05T00:00:00",
+      "BirthDate": "1985-10-04T00:00:00",
+      "Positions": [
+        {
+          "Position": "122",
+          "Department": "166"
+        }
+      ]
+    },
+    {
+      "Id": "2934",
+      "FirstName": "Артем",
+      "MiddleName": "Дмитриевич",
+      "LastName": "Избышев",
+      "Time": 1,
+      "StartDate": "1996-01-16T00:00:00",
+      "BirthDate": "1975-02-24T00:00:00",
+      "Positions": [
+        {
+          "Position": "252",
+          "Department": "166"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "775",
+      "FirstName": "Людмила",
+      "MiddleName": "Ивановна",
+      "LastName": "Кравцова",
+      "Time": 0.5,
+      "StartDate": "2005-01-21T00:00:00",
+      "BirthDate": "1984-02-02T00:00:00",
+      "Positions": [
+        {
+          "Position": "16",
+          "Department": "173"
+        }
+      ]
+    },
+    {
+      "Id": "1950",
+      "FirstName": "Ирина",
+      "MiddleName": "Анатольевна",
+      "LastName": "Быховец",
+      "Time": 1,
+      "StartDate": "2013-11-01T00:00:00",
+      "BirthDate": "1980-08-10T00:00:00",
+      "Positions": [
+        {
+          "Position": "10",
+          "Department": "173"
+        }
+      ]
+    },
+    {
+      "Id": "3755",
+      "FirstName": "Сергей",
+      "MiddleName": "Валерьевич",
+      "LastName": "Карпенко",
+      "Time": 0.5,
+      "StartDate": "2013-07-07T00:00:00",
+      "BirthDate": "1965-12-24T00:00:00",
+      "Positions": [
+        {
+          "Position": "7",
+          "Department": "173"
+        }
+      ]
+    },
+    {
+      "Id": "3778",
+      "FirstName": "Юлия",
+      "MiddleName": "Сергеевна",
+      "LastName": "Вершинина",
+      "Time": 1,
+      "StartDate": "2008-08-20T00:00:00",
+      "BirthDate": "1956-08-08T00:00:00",
+      "Positions": [
+        {
+          "Position": "157",
+          "Department": "173"
+        }
+      ]
+    }
+  ]
+}

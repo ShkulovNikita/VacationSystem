@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2029",
-	"FirstName": "Владимир",
-	"MiddleName": "Михайлович",
-	"LastName": "Зырянов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "122",
-			"HeadOfDepartment": false,
-			"Position": "11"
-		}
-	]
+  "Id": "2029",
+  "FirstName": "Владимир",
+  "MiddleName": "Михайлович",
+  "LastName": "Зырянов",
+  "Time": 1,
+  "StartDate": "2018-06-04T00:00:00",
+  "BirthDate": "1993-12-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "11",
+      "Department": "122"
+    }
+  ]
 }

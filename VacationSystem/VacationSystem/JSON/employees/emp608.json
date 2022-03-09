@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "608",
-	"FirstName": "Андрей",
-	"MiddleName": "Геннадьевич",
-	"LastName": "Багинский",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "608",
+  "FirstName": "Андрей",
+  "MiddleName": "Геннадьевич",
+  "LastName": "Багинский",
+  "Time": 1,
+  "StartDate": "2007-05-10T00:00:00",
+  "BirthDate": "1982-02-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "15"
+    }
+  ]
 }

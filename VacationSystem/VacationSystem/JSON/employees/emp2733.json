@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2733",
-	"FirstName": "Алексей",
-	"MiddleName": "Сергеевич",
-	"LastName": "Захаров",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "212",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "2733",
+  "FirstName": "Алексей",
+  "MiddleName": "Сергеевич",
+  "LastName": "Захаров",
+  "Time": 1,
+  "StartDate": "2012-07-02T00:00:00",
+  "BirthDate": "1985-12-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "212"
+    }
+  ]
 }

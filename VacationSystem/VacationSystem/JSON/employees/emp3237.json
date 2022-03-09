@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3237",
-	"FirstName": "Наталья",
-	"MiddleName": "Ивановна",
-	"LastName": "Пушкарева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "91",
-			"HeadOfDepartment": false,
-			"Position": "265"
-		}
-	]
+  "Id": "3237",
+  "FirstName": "Наталья",
+  "MiddleName": "Ивановна",
+  "LastName": "Пушкарева",
+  "Time": 1,
+  "StartDate": "1992-04-09T00:00:00",
+  "BirthDate": "1955-07-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "265",
+      "Department": "91"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3146",
-	"FirstName": "Анна",
-	"MiddleName": "Александровна",
-	"LastName": "Сотникова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "93",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		}
-	]
+  "Id": "3146",
+  "FirstName": "Анна",
+  "MiddleName": "Александровна",
+  "LastName": "Сотникова",
+  "Time": 0.5,
+  "StartDate": "2001-06-07T00:00:00",
+  "BirthDate": "1969-05-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "93"
+    }
+  ]
 }

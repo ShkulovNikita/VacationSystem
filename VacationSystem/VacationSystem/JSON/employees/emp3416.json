@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3416",
-	"FirstName": "Надине Сузанне",
-	"MiddleName": "",
-	"LastName": "Самуел Рагланд Франсис",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "26",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		}
-	]
+  "Id": "3416",
+  "FirstName": "Надине Сузанне",
+  "MiddleName": "",
+  "LastName": "Самуел Рагланд Франсис",
+  "Time": 1,
+  "StartDate": "2015-09-22T00:00:00",
+  "BirthDate": "1963-05-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "26"
+    }
+  ]
 }

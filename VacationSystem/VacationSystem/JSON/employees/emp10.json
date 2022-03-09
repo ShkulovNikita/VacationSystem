@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "10",
-	"FirstName": "Наталья",
-	"MiddleName": "Викторовна",
-	"LastName": "Стародубцева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "10",
-			"HeadOfDepartment": false,
-			"Position": "7"
-		}
-	]
+  "Id": "10",
+  "FirstName": "Наталья",
+  "MiddleName": "Викторовна",
+  "LastName": "Стародубцева",
+  "Time": 1,
+  "StartDate": "2014-10-22T00:00:00",
+  "BirthDate": "1957-11-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "7",
+      "Department": "10"
+    }
+  ]
 }

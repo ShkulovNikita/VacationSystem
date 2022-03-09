@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2767",
-	"FirstName": "Сергей",
-	"MiddleName": "Владимирович",
-	"LastName": "Федин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "17",
-			"HeadOfDepartment": false,
-			"Position": "36"
-		}
-	]
+  "Id": "2767",
+  "FirstName": "Сергей",
+  "MiddleName": "Владимирович",
+  "LastName": "Федин",
+  "Time": 1,
+  "StartDate": "2006-04-05T00:00:00",
+  "BirthDate": "1977-09-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "36",
+      "Department": "17"
+    }
+  ]
 }

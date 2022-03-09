@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2865",
-	"FirstName": "Ирина",
-	"MiddleName": "Алексеевна",
-	"LastName": "Парыгина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "99",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "2865",
+  "FirstName": "Ирина",
+  "MiddleName": "Алексеевна",
+  "LastName": "Парыгина",
+  "Time": 1,
+  "StartDate": "1983-02-06T00:00:00",
+  "BirthDate": "1958-01-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "99"
+    }
+  ]
 }

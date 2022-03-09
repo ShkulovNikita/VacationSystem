@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "774",
-	"FirstName": "Николай",
-	"MiddleName": "Вадимович",
-	"LastName": "Кояин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "84",
-			"HeadOfDepartment": false,
-			"Position": "38"
-		}
-	]
+  "Id": "774",
+  "FirstName": "Николай",
+  "MiddleName": "Вадимович",
+  "LastName": "Кояин",
+  "Time": 1,
+  "StartDate": "2019-02-10T00:00:00",
+  "BirthDate": "1961-10-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "38",
+      "Department": "84"
+    }
+  ]
 }

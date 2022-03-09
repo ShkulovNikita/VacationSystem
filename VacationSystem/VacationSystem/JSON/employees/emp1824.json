@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1824",
-	"FirstName": "Сергей",
-	"MiddleName": "Владимирович",
-	"LastName": "Алексеенко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "39",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "1824",
+  "FirstName": "Сергей",
+  "MiddleName": "Владимирович",
+  "LastName": "Алексеенко",
+  "Time": 1,
+  "StartDate": "1989-05-02T00:00:00",
+  "BirthDate": "1963-02-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "39"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "217",
-	"FirstName": "Татьяна",
-	"MiddleName": "Викторовна",
-	"LastName": "Смолина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "95",
-			"HeadOfDepartment": false,
-			"Position": "20"
-		}
-	]
+  "Id": "217",
+  "FirstName": "Татьяна",
+  "MiddleName": "Викторовна",
+  "LastName": "Смолина",
+  "Time": 1,
+  "StartDate": "2020-08-08T00:00:00",
+  "BirthDate": "1990-02-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "20",
+      "Department": "95"
+    }
+  ]
 }

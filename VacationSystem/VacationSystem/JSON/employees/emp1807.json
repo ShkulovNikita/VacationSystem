@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1807",
-	"FirstName": "Виктор",
-	"MiddleName": "Андреевич",
-	"LastName": "Бормотов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "59",
-			"HeadOfDepartment": false,
-			"Position": "37"
-		}
-	]
+  "Id": "1807",
+  "FirstName": "Виктор",
+  "MiddleName": "Андреевич",
+  "LastName": "Бормотов",
+  "Time": 0.5,
+  "StartDate": "2018-03-11T00:00:00",
+  "BirthDate": "1958-09-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "37",
+      "Department": "59"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3421",
-	"FirstName": "Алексей",
-	"MiddleName": "Михайлович",
-	"LastName": "Бельков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "101",
-			"HeadOfDepartment": false,
-			"Position": "25"
-		}
-	]
+  "Id": "3421",
+  "FirstName": "Алексей",
+  "MiddleName": "Михайлович",
+  "LastName": "Бельков",
+  "Time": 0.5,
+  "StartDate": "2015-01-12T00:00:00",
+  "BirthDate": "1985-10-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "25",
+      "Department": "101"
+    }
+  ]
 }

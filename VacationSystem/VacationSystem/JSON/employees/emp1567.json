@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1567",
-	"FirstName": "Данила",
-	"MiddleName": "Геннадьевич",
-	"LastName": "Петлин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "221",
-			"HeadOfDepartment": false,
-			"Position": "26"
-		}
-	]
+  "Id": "1567",
+  "FirstName": "Данила",
+  "MiddleName": "Геннадьевич",
+  "LastName": "Петлин",
+  "Time": 0.5,
+  "StartDate": "2011-10-16T00:00:00",
+  "BirthDate": "1977-10-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "26",
+      "Department": "221"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2909",
-	"FirstName": "Михаил",
-	"MiddleName": "Леонидович",
-	"LastName": "Удалов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "29",
-			"HeadOfDepartment": false,
-			"Position": "25"
-		}
-	]
+  "Id": "2909",
+  "FirstName": "Михаил",
+  "MiddleName": "Леонидович",
+  "LastName": "Удалов",
+  "Time": 0.5,
+  "StartDate": "1995-09-07T00:00:00",
+  "BirthDate": "1961-10-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "25",
+      "Department": "29"
+    }
+  ]
 }

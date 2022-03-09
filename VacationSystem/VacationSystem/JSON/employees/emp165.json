@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "165",
-	"FirstName": "Алексей",
-	"MiddleName": "Николаевич",
-	"LastName": "Калиниченко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "57",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		},
-		{
-			"Id": "57",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "165",
+  "FirstName": "Алексей",
+  "MiddleName": "Николаевич",
+  "LastName": "Калиниченко",
+  "Time": 2,
+  "StartDate": "2010-09-22T00:00:00",
+  "BirthDate": "1967-05-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "57"
+    },
+    {
+      "Position": "3",
+      "Department": "57"
+    }
+  ]
 }

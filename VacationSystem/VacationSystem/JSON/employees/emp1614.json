@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1614",
-	"FirstName": "Тамара",
-	"MiddleName": "Аркадьевна",
-	"LastName": "Соболева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "163",
-			"HeadOfDepartment": false,
-			"Position": "10"
-		}
-	]
+  "Id": "1614",
+  "FirstName": "Тамара",
+  "MiddleName": "Аркадьевна",
+  "LastName": "Соболева",
+  "Time": 1,
+  "StartDate": "1987-09-19T00:00:00",
+  "BirthDate": "1961-01-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "10",
+      "Department": "163"
+    }
+  ]
 }

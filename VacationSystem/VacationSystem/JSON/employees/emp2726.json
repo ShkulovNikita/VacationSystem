@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "2726",
-	"FirstName": "Олег",
-	"MiddleName": "Сергеевич",
-	"LastName": "Толкачёв",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "137",
-			"HeadOfDepartment": false,
-			"Position": "24"
-		},
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "2726",
+  "FirstName": "Олег",
+  "MiddleName": "Сергеевич",
+  "LastName": "Толкачёв",
+  "Time": 1.5,
+  "StartDate": "2010-07-16T00:00:00",
+  "BirthDate": "1985-10-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "24",
+      "Department": "137"
+    },
+    {
+      "Position": "3",
+      "Department": "15"
+    }
+  ]
 }

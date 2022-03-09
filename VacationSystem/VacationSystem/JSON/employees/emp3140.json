@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3140",
-	"FirstName": "Ольга",
-	"MiddleName": "Михайловна",
-	"LastName": "Кальмай",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "54",
-			"HeadOfDepartment": false,
-			"Position": "10"
-		}
-	]
+  "Id": "3140",
+  "FirstName": "Ольга",
+  "MiddleName": "Михайловна",
+  "LastName": "Кальмай",
+  "Time": 0.5,
+  "StartDate": "2000-10-16T00:00:00",
+  "BirthDate": "1972-12-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "10",
+      "Department": "54"
+    }
+  ]
 }

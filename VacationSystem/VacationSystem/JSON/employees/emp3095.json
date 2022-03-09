@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3095",
-	"FirstName": "Оксана",
-	"MiddleName": "Александровна",
-	"LastName": "Куклина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "34",
-			"HeadOfDepartment": false,
-			"Position": "22"
-		}
-	]
+  "Id": "3095",
+  "FirstName": "Оксана",
+  "MiddleName": "Александровна",
+  "LastName": "Куклина",
+  "Time": 1,
+  "StartDate": "2018-09-20T00:00:00",
+  "BirthDate": "1984-04-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "22",
+      "Department": "34"
+    }
+  ]
 }

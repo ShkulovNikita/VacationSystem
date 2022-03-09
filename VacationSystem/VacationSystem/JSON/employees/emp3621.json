@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3621",
-	"FirstName": "Юлия",
-	"MiddleName": "Николаевна",
-	"LastName": "Логоша",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "111",
-			"HeadOfDepartment": false,
-			"Position": "57"
-		}
-	]
+  "Id": "3621",
+  "FirstName": "Юлия",
+  "MiddleName": "Николаевна",
+  "LastName": "Логоша",
+  "Time": 0.5,
+  "StartDate": "2021-07-24T00:00:00",
+  "BirthDate": "1969-12-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "57",
+      "Department": "111"
+    }
+  ]
 }

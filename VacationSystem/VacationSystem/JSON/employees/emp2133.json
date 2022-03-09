@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2133",
-	"FirstName": "Татьяна",
-	"MiddleName": "Викторовна",
-	"LastName": "Вакалова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "4",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "2133",
+  "FirstName": "Татьяна",
+  "MiddleName": "Викторовна",
+  "LastName": "Вакалова",
+  "Time": 0.5,
+  "StartDate": "2019-02-19T00:00:00",
+  "BirthDate": "1978-02-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "4"
+    }
+  ]
 }

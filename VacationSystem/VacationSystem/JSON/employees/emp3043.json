@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3043",
-	"FirstName": "Чжилэй",
-	"MiddleName": "",
-	"LastName": "Сунь",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "221",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		}
-	]
+  "Id": "3043",
+  "FirstName": "Чжилэй",
+  "MiddleName": "",
+  "LastName": "Сунь",
+  "Time": 0.5,
+  "StartDate": "1999-11-11T00:00:00",
+  "BirthDate": "1976-09-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "221"
+    }
+  ]
 }

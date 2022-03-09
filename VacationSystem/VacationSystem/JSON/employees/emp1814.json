@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1814",
-	"FirstName": "Александр",
-	"MiddleName": "Анатольевич",
-	"LastName": "Туболев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "39",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		}
-	]
+  "Id": "1814",
+  "FirstName": "Александр",
+  "MiddleName": "Анатольевич",
+  "LastName": "Туболев",
+  "Time": 0.5,
+  "StartDate": "2015-07-01T00:00:00",
+  "BirthDate": "1979-09-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "39"
+    }
+  ]
 }

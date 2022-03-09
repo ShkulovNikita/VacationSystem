@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "200",
-	"FirstName": "Борис",
-	"MiddleName": "Владимирович",
-	"LastName": "Акимов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "2"
-		}
-	]
+  "Id": "200",
+  "FirstName": "Борис",
+  "MiddleName": "Владимирович",
+  "LastName": "Акимов",
+  "Time": 1,
+  "StartDate": "2017-05-12T00:00:00",
+  "BirthDate": "1988-08-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "2",
+      "Department": "15"
+    }
+  ]
 }

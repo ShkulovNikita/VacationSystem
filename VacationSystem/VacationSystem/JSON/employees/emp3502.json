@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3502",
-	"FirstName": "Дмитрий",
-	"MiddleName": "Николаевич",
-	"LastName": "Аточин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "4",
-			"HeadOfDepartment": false,
-			"Position": "56"
-		}
-	]
+  "Id": "3502",
+  "FirstName": "Дмитрий",
+  "MiddleName": "Николаевич",
+  "LastName": "Аточин",
+  "Time": 0.5,
+  "StartDate": "2015-09-15T00:00:00",
+  "BirthDate": "1954-02-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "56",
+      "Department": "4"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3680",
-	"FirstName": "Марина",
-	"MiddleName": "Валериевна",
-	"LastName": "Дюкарева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "161",
-			"HeadOfDepartment": false,
-			"Position": "69"
-		}
-	]
+  "Id": "3680",
+  "FirstName": "Марина",
+  "MiddleName": "Валериевна",
+  "LastName": "Дюкарева",
+  "Time": 1,
+  "StartDate": "2016-09-13T00:00:00",
+  "BirthDate": "1976-04-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "69",
+      "Department": "161"
+    }
+  ]
 }

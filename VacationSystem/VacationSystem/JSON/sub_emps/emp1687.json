@@ -1,0 +1,249 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "244",
+      "FirstName": "Вилена",
+      "MiddleName": "Владимировна",
+      "LastName": "Федотова",
+      "Time": 1,
+      "StartDate": "1983-11-09T00:00:00",
+      "BirthDate": "1959-04-20T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "101"
+        },
+        {
+          "Position": "11",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "854",
+      "FirstName": "Сергей",
+      "MiddleName": "Николаевич",
+      "LastName": "Ливенцов",
+      "Time": 2,
+      "StartDate": "2008-07-05T00:00:00",
+      "BirthDate": "1962-08-03T00:00:00",
+      "Positions": [
+        {
+          "Position": "2",
+          "Department": "101"
+        },
+        {
+          "Position": "13",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "1687",
+      "FirstName": "Тахир",
+      "MiddleName": "Ханафеевич",
+      "LastName": "Бадретдинов",
+      "Time": 1,
+      "StartDate": "2017-02-09T00:00:00",
+      "BirthDate": "1962-12-07T00:00:00",
+      "Positions": [
+        {
+          "Position": "41",
+          "Department": "101"
+        },
+        {
+          "Position": "1",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "1766",
+      "FirstName": "Игорь",
+      "MiddleName": "Сергеевич",
+      "LastName": "Надеждин",
+      "Time": 2,
+      "StartDate": "2021-01-03T00:00:00",
+      "BirthDate": "1980-09-08T00:00:00",
+      "Positions": [
+        {
+          "Position": "41",
+          "Department": "101"
+        },
+        {
+          "Position": "7",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "2599",
+      "FirstName": "Александр",
+      "MiddleName": "Сергеевич",
+      "LastName": "Попов",
+      "Time": 0.5,
+      "StartDate": "2018-08-04T00:00:00",
+      "BirthDate": "1976-07-14T00:00:00",
+      "Positions": [
+        {
+          "Position": "36",
+          "Department": "101"
+        }
+      ]
+    },
+    {
+      "Id": "2647",
+      "FirstName": "Александр",
+      "MiddleName": "Олегович",
+      "LastName": "Плетнев",
+      "Time": 1,
+      "StartDate": "1998-05-07T00:00:00",
+      "BirthDate": "1962-07-15T00:00:00",
+      "Positions": [
+        {
+          "Position": "26",
+          "Department": "101"
+        }
+      ]
+    },
+    {
+      "Id": "2899",
+      "FirstName": "Григорий",
+      "MiddleName": "Викторович",
+      "LastName": "Сумин",
+      "Time": 1,
+      "StartDate": "2011-05-08T00:00:00",
+      "BirthDate": "1970-07-15T00:00:00",
+      "Positions": [
+        {
+          "Position": "25",
+          "Department": "101"
+        }
+      ]
+    },
+    {
+      "Id": "2983",
+      "FirstName": "Алевтина",
+      "MiddleName": "Леонидовна",
+      "LastName": "Нагайцева",
+      "Time": 1,
+      "StartDate": "1999-09-23T00:00:00",
+      "BirthDate": "1975-09-05T00:00:00",
+      "Positions": [
+        {
+          "Position": "36",
+          "Department": "101"
+        }
+      ]
+    },
+    {
+      "Id": "3034",
+      "FirstName": "Марина",
+      "MiddleName": "Анатольевна",
+      "LastName": "Байдали",
+      "Time": 1,
+      "StartDate": "1995-03-20T00:00:00",
+      "BirthDate": "1970-09-13T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "101"
+        },
+        {
+          "Position": "11",
+          "Department": "17"
+        }
+      ]
+    },
+    {
+      "Id": "3085",
+      "FirstName": "Антон",
+      "MiddleName": "Алексеевич",
+      "LastName": "Полосин",
+      "Time": 1,
+      "StartDate": "2014-06-04T00:00:00",
+      "BirthDate": "1968-06-17T00:00:00",
+      "Positions": [
+        {
+          "Position": "5",
+          "Department": "101"
+        }
+      ]
+    },
+    {
+      "Id": "3410",
+      "FirstName": "Алексей",
+      "MiddleName": "Михайлович",
+      "LastName": "Емельянов",
+      "Time": 1,
+      "StartDate": "2019-10-16T00:00:00",
+      "BirthDate": "1952-12-11T00:00:00",
+      "Positions": [
+        {
+          "Position": "25",
+          "Department": "101"
+        }
+      ]
+    },
+    {
+      "Id": "3421",
+      "FirstName": "Алексей",
+      "MiddleName": "Михайлович",
+      "LastName": "Бельков",
+      "Time": 0.5,
+      "StartDate": "2015-01-12T00:00:00",
+      "BirthDate": "1985-10-14T00:00:00",
+      "Positions": [
+        {
+          "Position": "25",
+          "Department": "101"
+        }
+      ]
+    },
+    {
+      "Id": "3431",
+      "FirstName": "Владимир",
+      "MiddleName": "Геннадьевич",
+      "LastName": "Шевелев",
+      "Time": 1,
+      "StartDate": "2002-07-13T00:00:00",
+      "BirthDate": "1963-08-10T00:00:00",
+      "Positions": [
+        {
+          "Position": "25",
+          "Department": "101"
+        }
+      ]
+    },
+    {
+      "Id": "3457",
+      "FirstName": "Матвей",
+      "MiddleName": "Павлович",
+      "LastName": "Нилов",
+      "Time": 0.5,
+      "StartDate": "2011-07-13T00:00:00",
+      "BirthDate": "1972-03-01T00:00:00",
+      "Positions": [
+        {
+          "Position": "25",
+          "Department": "101"
+        }
+      ]
+    },
+    {
+      "Id": "3469",
+      "FirstName": "Станислав",
+      "MiddleName": "",
+      "LastName": "Сизов",
+      "Time": 0.5,
+      "StartDate": "2016-11-05T00:00:00",
+      "BirthDate": "1982-01-21T00:00:00",
+      "Positions": [
+        {
+          "Position": "25",
+          "Department": "101"
+        }
+      ]
+    }
+  ]
+}

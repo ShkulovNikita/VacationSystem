@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2274",
-	"FirstName": "Ольга",
-	"MiddleName": "Сергеевна",
-	"LastName": "Лутошкина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "71",
-			"HeadOfDepartment": false,
-			"Position": "99"
-		}
-	]
+  "Id": "2274",
+  "FirstName": "Ольга",
+  "MiddleName": "Сергеевна",
+  "LastName": "Лутошкина",
+  "Time": 1,
+  "StartDate": "2004-01-11T00:00:00",
+  "BirthDate": "1983-03-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "99",
+      "Department": "71"
+    }
+  ]
 }

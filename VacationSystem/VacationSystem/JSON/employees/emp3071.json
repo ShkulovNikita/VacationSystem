@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3071",
-	"FirstName": "Никита",
-	"MiddleName": "Владимирович",
-	"LastName": "Буханов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "5",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		}
-	]
+  "Id": "3071",
+  "FirstName": "Никита",
+  "MiddleName": "Владимирович",
+  "LastName": "Буханов",
+  "Time": 0.5,
+  "StartDate": "2010-05-18T00:00:00",
+  "BirthDate": "1979-10-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "5"
+    }
+  ]
 }

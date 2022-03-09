@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3463",
-	"FirstName": "Бахтияр",
-	"MiddleName": "",
-	"LastName": "Кенесбаев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "1",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		}
-	]
+  "Id": "3463",
+  "FirstName": "Бахтияр",
+  "MiddleName": "",
+  "LastName": "Кенесбаев",
+  "Time": 1,
+  "StartDate": "1991-06-05T00:00:00",
+  "BirthDate": "1956-06-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "1"
+    }
+  ]
 }

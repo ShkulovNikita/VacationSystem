@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2592",
-	"FirstName": "Татьяна",
-	"MiddleName": "Николаевна",
-	"LastName": "Громова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "225",
-			"HeadOfDepartment": false,
-			"Position": "45"
-		}
-	]
+  "Id": "2592",
+  "FirstName": "Татьяна",
+  "MiddleName": "Николаевна",
+  "LastName": "Громова",
+  "Time": 1,
+  "StartDate": "2009-06-16T00:00:00",
+  "BirthDate": "1975-07-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "45",
+      "Department": "225"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "212",
-	"FirstName": "Дмитрий",
-	"MiddleName": "Владимирович",
-	"LastName": "Худяков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "92",
-			"HeadOfDepartment": false,
-			"Position": "63"
-		}
-	]
+  "Id": "212",
+  "FirstName": "Дмитрий",
+  "MiddleName": "Владимирович",
+  "LastName": "Худяков",
+  "Time": 1,
+  "StartDate": "2012-01-20T00:00:00",
+  "BirthDate": "1967-07-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "63",
+      "Department": "92"
+    }
+  ]
 }

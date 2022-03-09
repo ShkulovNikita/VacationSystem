@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2737",
-	"FirstName": "Владимир",
-	"MiddleName": "Александрович",
-	"LastName": "Карелин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "17",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "2737",
+  "FirstName": "Владимир",
+  "MiddleName": "Александрович",
+  "LastName": "Карелин",
+  "Time": 1,
+  "StartDate": "2013-12-17T00:00:00",
+  "BirthDate": "1975-03-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "17"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3720",
-	"FirstName": "Джин Джу",
-	"MiddleName": "",
-	"LastName": "Чен",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "32",
-			"HeadOfDepartment": false,
-			"Position": "24"
-		}
-	]
+  "Id": "3720",
+  "FirstName": "Джин Джу",
+  "MiddleName": "",
+  "LastName": "Чен",
+  "Time": 0.5,
+  "StartDate": "2001-11-15T00:00:00",
+  "BirthDate": "1970-09-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "24",
+      "Department": "32"
+    }
+  ]
 }

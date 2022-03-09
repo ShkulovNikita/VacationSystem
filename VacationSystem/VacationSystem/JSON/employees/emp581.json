@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "581",
-	"FirstName": "Сергей",
-	"MiddleName": "Вениаминович",
-	"LastName": "Матренин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "581",
+  "FirstName": "Сергей",
+  "MiddleName": "Вениаминович",
+  "LastName": "Матренин",
+  "Time": 1,
+  "StartDate": "1999-04-16T00:00:00",
+  "BirthDate": "1976-01-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "15"
+    }
+  ]
 }

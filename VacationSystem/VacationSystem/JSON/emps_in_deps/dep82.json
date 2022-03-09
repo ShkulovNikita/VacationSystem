@@ -1,0 +1,64 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "151",
+      "FirstName": "Евгения",
+      "MiddleName": "Владимировна",
+      "LastName": "Францина",
+      "Time": 1,
+      "StartDate": "2000-12-22T00:00:00",
+      "BirthDate": "1965-06-04T00:00:00",
+      "Positions": [
+        {
+          "Position": "45",
+          "Department": "82"
+        }
+      ]
+    },
+    {
+      "Id": "760",
+      "FirstName": "Ольга",
+      "MiddleName": "Владимировна",
+      "LastName": "Сидорова",
+      "Time": 0.5,
+      "StartDate": "1987-11-19T00:00:00",
+      "BirthDate": "1964-12-13T00:00:00",
+      "Positions": [
+        {
+          "Position": "18",
+          "Department": "82"
+        }
+      ]
+    },
+    {
+      "Id": "3167",
+      "FirstName": "Виктория",
+      "MiddleName": "Викторовна",
+      "LastName": "Литовченко",
+      "Time": 1,
+      "StartDate": "2017-11-22T00:00:00",
+      "BirthDate": "1955-01-11T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "82"
+        }
+      ]
+    },
+    {
+      "Id": "3657",
+      "FirstName": "Мария",
+      "MiddleName": "Михайловна",
+      "LastName": "Алексеева",
+      "Time": 1,
+      "StartDate": "2011-03-20T00:00:00",
+      "BirthDate": "1961-01-18T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "82"
+        }
+      ]
+    }
+  ]
+}

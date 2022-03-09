@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1355",
-	"FirstName": "Людмила",
-	"MiddleName": "Ивановна",
-	"LastName": "Рудик",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "18",
-			"HeadOfDepartment": false,
-			"Position": "25"
-		}
-	]
+  "Id": "1355",
+  "FirstName": "Людмила",
+  "MiddleName": "Ивановна",
+  "LastName": "Рудик",
+  "Time": 0.5,
+  "StartDate": "2009-04-07T00:00:00",
+  "BirthDate": "1957-11-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "25",
+      "Department": "18"
+    }
+  ]
 }

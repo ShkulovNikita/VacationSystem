@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1295",
-	"FirstName": "Екатерина",
-	"MiddleName": "Александровна",
-	"LastName": "Джежора",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "18"
-		}
-	]
+  "Id": "1295",
+  "FirstName": "Екатерина",
+  "MiddleName": "Александровна",
+  "LastName": "Джежора",
+  "Time": 0.5,
+  "StartDate": "2012-05-23T00:00:00",
+  "BirthDate": "1956-02-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "18",
+      "Department": "2"
+    }
+  ]
 }

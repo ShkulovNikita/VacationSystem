@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "3150",
-	"FirstName": "Александр",
-	"MiddleName": "",
-	"LastName": "Зарницын",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "8",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		},
-		{
-			"Id": "6",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		}
-	]
+  "Id": "3150",
+  "FirstName": "Александр",
+  "MiddleName": "",
+  "LastName": "Зарницын",
+  "Time": 1,
+  "StartDate": "2012-08-14T00:00:00",
+  "BirthDate": "1990-05-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "8"
+    },
+    {
+      "Position": "28",
+      "Department": "6"
+    }
+  ]
 }

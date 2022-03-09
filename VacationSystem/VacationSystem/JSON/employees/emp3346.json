@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3346",
-	"FirstName": "Игорь",
-	"MiddleName": "",
-	"LastName": "Акимченко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "221",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		}
-	]
+  "Id": "3346",
+  "FirstName": "Игорь",
+  "MiddleName": "",
+  "LastName": "Акимченко",
+  "Time": 1,
+  "StartDate": "2019-05-11T00:00:00",
+  "BirthDate": "1975-09-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "221"
+    }
+  ]
 }

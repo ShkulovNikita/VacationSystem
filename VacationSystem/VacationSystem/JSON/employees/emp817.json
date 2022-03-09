@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "817",
-	"FirstName": "Татьяна",
-	"MiddleName": "Николаевна",
-	"LastName": "Виноградова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "103",
-			"HeadOfDepartment": false,
-			"Position": "135"
-		}
-	]
+  "Id": "817",
+  "FirstName": "Татьяна",
+  "MiddleName": "Николаевна",
+  "LastName": "Виноградова",
+  "Time": 1,
+  "StartDate": "1991-01-13T00:00:00",
+  "BirthDate": "1957-08-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "135",
+      "Department": "103"
+    }
+  ]
 }

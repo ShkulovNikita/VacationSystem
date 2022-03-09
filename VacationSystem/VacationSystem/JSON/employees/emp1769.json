@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1769",
-	"FirstName": "Наталья",
-	"MiddleName": "Александровна",
-	"LastName": "Смирнова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "127",
-			"HeadOfDepartment": false,
-			"Position": "2"
-		}
-	]
+  "Id": "1769",
+  "FirstName": "Наталья",
+  "MiddleName": "Александровна",
+  "LastName": "Смирнова",
+  "Time": 1,
+  "StartDate": "2019-01-24T00:00:00",
+  "BirthDate": "1985-12-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "2",
+      "Department": "127"
+    }
+  ]
 }

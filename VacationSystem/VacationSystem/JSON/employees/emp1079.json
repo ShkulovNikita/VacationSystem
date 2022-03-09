@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1079",
-	"FirstName": "Валерий",
-	"MiddleName": "Анатольевич",
-	"LastName": "Курдюков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "29",
-			"HeadOfDepartment": false,
-			"Position": "129"
-		}
-	]
+  "Id": "1079",
+  "FirstName": "Валерий",
+  "MiddleName": "Анатольевич",
+  "LastName": "Курдюков",
+  "Time": 1,
+  "StartDate": "2005-06-22T00:00:00",
+  "BirthDate": "1971-09-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "129",
+      "Department": "29"
+    }
+  ]
 }

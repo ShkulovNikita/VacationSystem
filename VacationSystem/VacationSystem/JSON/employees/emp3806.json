@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3806",
-	"FirstName": "Анжелика",
-	"MiddleName": "Григорьевна",
-	"LastName": "Воробьева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "192",
-			"HeadOfDepartment": false,
-			"Position": "56"
-		}
-	]
+  "Id": "3806",
+  "FirstName": "Анжелика",
+  "MiddleName": "Григорьевна",
+  "LastName": "Воробьева",
+  "Time": 1,
+  "StartDate": "1999-01-23T00:00:00",
+  "BirthDate": "1979-09-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "56",
+      "Department": "192"
+    }
+  ]
 }

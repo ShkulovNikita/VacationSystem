@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3659",
-	"FirstName": "Елена",
-	"MiddleName": "Владимировна",
-	"LastName": "Переводчикова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "54",
-			"HeadOfDepartment": false,
-			"Position": "140"
-		}
-	]
+  "Id": "3659",
+  "FirstName": "Елена",
+  "MiddleName": "Владимировна",
+  "LastName": "Переводчикова",
+  "Time": 0.5,
+  "StartDate": "1989-06-11T00:00:00",
+  "BirthDate": "1958-02-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "140",
+      "Department": "54"
+    }
+  ]
 }

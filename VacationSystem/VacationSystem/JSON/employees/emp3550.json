@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3550",
-	"FirstName": "Вероника",
-	"MiddleName": "Викторовна",
-	"LastName": "Безгачева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "94",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "3550",
+  "FirstName": "Вероника",
+  "MiddleName": "Викторовна",
+  "LastName": "Безгачева",
+  "Time": 1,
+  "StartDate": "1995-12-04T00:00:00",
+  "BirthDate": "1967-11-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "94"
+    }
+  ]
 }

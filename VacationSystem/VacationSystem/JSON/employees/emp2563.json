@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2563",
-	"FirstName": "Иван",
-	"MiddleName": "Юрьевич",
-	"LastName": "Бузанов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "47",
-			"HeadOfDepartment": false,
-			"Position": "30"
-		}
-	]
+  "Id": "2563",
+  "FirstName": "Иван",
+  "MiddleName": "Юрьевич",
+  "LastName": "Бузанов",
+  "Time": 0.5,
+  "StartDate": "1978-02-18T00:00:00",
+  "BirthDate": "1952-08-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "30",
+      "Department": "47"
+    }
+  ]
 }

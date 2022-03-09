@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "155",
-	"FirstName": "Василий",
-	"MiddleName": "Васильевич",
-	"LastName": "Попов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "53"
-		}
-	]
+  "Id": "155",
+  "FirstName": "Василий",
+  "MiddleName": "Васильевич",
+  "LastName": "Попов",
+  "Time": 0.5,
+  "StartDate": "1992-12-15T00:00:00",
+  "BirthDate": "1965-08-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "53",
+      "Department": "15"
+    }
+  ]
 }

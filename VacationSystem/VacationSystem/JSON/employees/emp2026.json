@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2026",
-	"FirstName": "Тамара",
-	"MiddleName": "Викторовна",
-	"LastName": "Емельянова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "9",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "2026",
+  "FirstName": "Тамара",
+  "MiddleName": "Викторовна",
+  "LastName": "Емельянова",
+  "Time": 1,
+  "StartDate": "2010-05-16T00:00:00",
+  "BirthDate": "1990-08-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "9"
+    }
+  ]
 }

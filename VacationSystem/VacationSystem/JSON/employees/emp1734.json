@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1734",
-	"FirstName": "Станислав",
-	"MiddleName": "Леонидович",
-	"LastName": "Васильев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "112",
-			"HeadOfDepartment": false,
-			"Position": "203"
-		}
-	]
+  "Id": "1734",
+  "FirstName": "Станислав",
+  "MiddleName": "Леонидович",
+  "LastName": "Васильев",
+  "Time": 1,
+  "StartDate": "2007-04-08T00:00:00",
+  "BirthDate": "1955-07-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "203",
+      "Department": "112"
+    }
+  ]
 }

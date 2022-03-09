@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3323",
-	"FirstName": "Евгений",
-	"MiddleName": "Викторович",
-	"LastName": "Коломацкий",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "59",
-			"HeadOfDepartment": false,
-			"Position": "211"
-		}
-	]
+  "Id": "3323",
+  "FirstName": "Евгений",
+  "MiddleName": "Викторович",
+  "LastName": "Коломацкий",
+  "Time": 1,
+  "StartDate": "2012-12-06T00:00:00",
+  "BirthDate": "1979-09-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "211",
+      "Department": "59"
+    }
+  ]
 }

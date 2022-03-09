@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2894",
-	"FirstName": "Татьяна",
-	"MiddleName": "Валерьевна",
-	"LastName": "Сарычева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "23",
-			"HeadOfDepartment": false,
-			"Position": "116"
-		}
-	]
+  "Id": "2894",
+  "FirstName": "Татьяна",
+  "MiddleName": "Валерьевна",
+  "LastName": "Сарычева",
+  "Time": 0.5,
+  "StartDate": "2017-06-12T00:00:00",
+  "BirthDate": "1975-08-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "116",
+      "Department": "23"
+    }
+  ]
 }

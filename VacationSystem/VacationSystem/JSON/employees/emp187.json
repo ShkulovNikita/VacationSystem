@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "187",
-	"FirstName": "Евгений",
-	"MiddleName": "Геннадьевич",
-	"LastName": "Емец",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "89",
-			"HeadOfDepartment": false,
-			"Position": "11"
-		}
-	]
+  "Id": "187",
+  "FirstName": "Евгений",
+  "MiddleName": "Геннадьевич",
+  "LastName": "Емец",
+  "Time": 0.5,
+  "StartDate": "2020-10-17T00:00:00",
+  "BirthDate": "1990-11-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "11",
+      "Department": "89"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2617",
-	"FirstName": "Мария",
-	"MiddleName": "Владимировна",
-	"LastName": "Игнатьева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "85",
-			"HeadOfDepartment": false,
-			"Position": "60"
-		}
-	]
+  "Id": "2617",
+  "FirstName": "Мария",
+  "MiddleName": "Владимировна",
+  "LastName": "Игнатьева",
+  "Time": 1,
+  "StartDate": "2014-12-14T00:00:00",
+  "BirthDate": "1975-07-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "60",
+      "Department": "85"
+    }
+  ]
 }

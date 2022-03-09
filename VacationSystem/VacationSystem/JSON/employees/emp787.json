@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "787",
-	"FirstName": "Надежда",
-	"MiddleName": "Геннадьевна",
-	"LastName": "Шулепова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "118",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "787",
+  "FirstName": "Надежда",
+  "MiddleName": "Геннадьевна",
+  "LastName": "Шулепова",
+  "Time": 0.5,
+  "StartDate": "1983-05-23T00:00:00",
+  "BirthDate": "1961-12-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "118"
+    }
+  ]
 }

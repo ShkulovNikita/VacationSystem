@@ -1,0 +1,19 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "1064",
+      "FirstName": "Татьяна",
+      "MiddleName": "Николаевна",
+      "LastName": "Панова",
+      "Time": 0.5,
+      "StartDate": "2020-02-05T00:00:00",
+      "BirthDate": "1990-06-06T00:00:00",
+      "Positions": [
+        {
+          "Position": "6",
+          "Department": "194"
+        }
+      ]
+    }
+  ]
+}

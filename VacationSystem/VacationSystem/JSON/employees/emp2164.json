@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2164",
-	"FirstName": "Андрей",
-	"MiddleName": "Николаевич",
-	"LastName": "Пильщиков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "105",
-			"HeadOfDepartment": false,
-			"Position": "88"
-		}
-	]
+  "Id": "2164",
+  "FirstName": "Андрей",
+  "MiddleName": "Николаевич",
+  "LastName": "Пильщиков",
+  "Time": 0.5,
+  "StartDate": "2000-08-14T00:00:00",
+  "BirthDate": "1976-08-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "88",
+      "Department": "105"
+    }
+  ]
 }

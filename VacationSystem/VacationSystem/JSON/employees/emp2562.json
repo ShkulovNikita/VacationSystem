@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2562",
-	"FirstName": "Лидия",
-	"MiddleName": "Анатольевна",
-	"LastName": "Лозовая",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "116",
-			"HeadOfDepartment": false,
-			"Position": "45"
-		}
-	]
+  "Id": "2562",
+  "FirstName": "Лидия",
+  "MiddleName": "Анатольевна",
+  "LastName": "Лозовая",
+  "Time": 1,
+  "StartDate": "1997-06-01T00:00:00",
+  "BirthDate": "1956-01-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "45",
+      "Department": "116"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1081",
-	"FirstName": "Наталия",
-	"MiddleName": "Владимировна",
-	"LastName": "Куркан",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "63",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "1081",
+  "FirstName": "Наталия",
+  "MiddleName": "Владимировна",
+  "LastName": "Куркан",
+  "Time": 0.5,
+  "StartDate": "2018-08-22T00:00:00",
+  "BirthDate": "1985-05-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "63"
+    }
+  ]
 }

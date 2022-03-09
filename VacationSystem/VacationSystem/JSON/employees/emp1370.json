@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "1370",
-	"FirstName": "Виталий",
-	"MiddleName": "Игоревич",
-	"LastName": "Шаманин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "37",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		},
-		{
-			"Id": "32",
-			"HeadOfDepartment": false,
-			"Position": "26"
-		}
-	]
+  "Id": "1370",
+  "FirstName": "Виталий",
+  "MiddleName": "Игоревич",
+  "LastName": "Шаманин",
+  "Time": 1.5,
+  "StartDate": "2010-07-11T00:00:00",
+  "BirthDate": "1958-11-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "37"
+    },
+    {
+      "Position": "26",
+      "Department": "32"
+    }
+  ]
 }

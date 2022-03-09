@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1900",
-	"FirstName": "Артём",
-	"MiddleName": "Александрович",
-	"LastName": "Миронов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "47",
-			"HeadOfDepartment": false,
-			"Position": "0"
-		}
-	]
+  "Id": "1900",
+  "FirstName": "Артём",
+  "MiddleName": "Александрович",
+  "LastName": "Миронов",
+  "Time": 0.5,
+  "StartDate": "2006-01-10T00:00:00",
+  "BirthDate": "1966-02-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "0",
+      "Department": "47"
+    }
+  ]
 }

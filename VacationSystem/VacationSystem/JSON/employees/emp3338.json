@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3338",
-	"FirstName": "Юрий",
-	"MiddleName": "Алексеевич",
-	"LastName": "Глушко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "175",
-			"HeadOfDepartment": false,
-			"Position": "11"
-		}
-	]
+  "Id": "3338",
+  "FirstName": "Юрий",
+  "MiddleName": "Алексеевич",
+  "LastName": "Глушко",
+  "Time": 0.5,
+  "StartDate": "1996-12-17T00:00:00",
+  "BirthDate": "1963-05-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "11",
+      "Department": "175"
+    }
+  ]
 }

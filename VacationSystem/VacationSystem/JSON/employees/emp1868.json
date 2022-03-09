@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1868",
-	"FirstName": "Андрей",
-	"MiddleName": "Юрьевич",
-	"LastName": "Черданцев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "40",
-			"HeadOfDepartment": false,
-			"Position": "25"
-		}
-	]
+  "Id": "1868",
+  "FirstName": "Андрей",
+  "MiddleName": "Юрьевич",
+  "LastName": "Черданцев",
+  "Time": 1,
+  "StartDate": "2018-12-04T00:00:00",
+  "BirthDate": "1976-12-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "25",
+      "Department": "40"
+    }
+  ]
 }

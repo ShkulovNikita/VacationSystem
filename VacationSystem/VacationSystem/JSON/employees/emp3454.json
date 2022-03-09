@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3454",
-	"FirstName": "Ксения",
-	"MiddleName": "Александровна",
-	"LastName": "Рыжинская",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "191",
-			"HeadOfDepartment": false,
-			"Position": "196"
-		}
-	]
+  "Id": "3454",
+  "FirstName": "Ксения",
+  "MiddleName": "Александровна",
+  "LastName": "Рыжинская",
+  "Time": 0.5,
+  "StartDate": "1986-01-20T00:00:00",
+  "BirthDate": "1957-09-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "196",
+      "Department": "191"
+    }
+  ]
 }

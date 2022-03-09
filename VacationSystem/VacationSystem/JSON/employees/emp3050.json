@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3050",
-	"FirstName": "Вячеслав",
-	"MiddleName": "Сергеевич",
-	"LastName": "Начевный",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "261",
-			"HeadOfDepartment": false,
-			"Position": "10"
-		}
-	]
+  "Id": "3050",
+  "FirstName": "Вячеслав",
+  "MiddleName": "Сергеевич",
+  "LastName": "Начевный",
+  "Time": 0.5,
+  "StartDate": "2013-03-08T00:00:00",
+  "BirthDate": "1960-08-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "10",
+      "Department": "261"
+    }
+  ]
 }

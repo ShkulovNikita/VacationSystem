@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3748",
-	"FirstName": "Антон",
-	"MiddleName": "Александрович",
-	"LastName": "Пожарницкий",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "217",
-			"HeadOfDepartment": false,
-			"Position": "11"
-		}
-	]
+  "Id": "3748",
+  "FirstName": "Антон",
+  "MiddleName": "Александрович",
+  "LastName": "Пожарницкий",
+  "Time": 1,
+  "StartDate": "2010-07-24T00:00:00",
+  "BirthDate": "1977-02-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "11",
+      "Department": "217"
+    }
+  ]
 }

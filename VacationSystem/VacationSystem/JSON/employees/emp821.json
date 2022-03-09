@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "821",
-	"FirstName": "Маргарита",
-	"MiddleName": "Степановна",
-	"LastName": "Важова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "77",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "821",
+  "FirstName": "Маргарита",
+  "MiddleName": "Степановна",
+  "LastName": "Важова",
+  "Time": 0.5,
+  "StartDate": "2011-09-20T00:00:00",
+  "BirthDate": "1973-05-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "77"
+    }
+  ]
 }

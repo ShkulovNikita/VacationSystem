@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1849",
-	"FirstName": "Юрий",
-	"MiddleName": "Александрович",
-	"LastName": "Мировой",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		}
-	]
+  "Id": "1849",
+  "FirstName": "Юрий",
+  "MiddleName": "Александрович",
+  "LastName": "Мировой",
+  "Time": 1,
+  "StartDate": "2021-03-21T00:00:00",
+  "BirthDate": "1973-01-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "15"
+    }
+  ]
 }

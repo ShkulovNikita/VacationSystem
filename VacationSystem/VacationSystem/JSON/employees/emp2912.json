@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2912",
-	"FirstName": "Валентина",
-	"MiddleName": "Вячеславовна",
-	"LastName": "Гавенкова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "199",
-			"HeadOfDepartment": false,
-			"Position": "159"
-		}
-	]
+  "Id": "2912",
+  "FirstName": "Валентина",
+  "MiddleName": "Вячеславовна",
+  "LastName": "Гавенкова",
+  "Time": 0.5,
+  "StartDate": "2017-12-08T00:00:00",
+  "BirthDate": "1990-08-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "159",
+      "Department": "199"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1204",
-	"FirstName": "Сергей",
-	"MiddleName": "Иванович",
-	"LastName": "Борисенко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "119",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1204",
+  "FirstName": "Сергей",
+  "MiddleName": "Иванович",
+  "LastName": "Борисенко",
+  "Time": 1,
+  "StartDate": "2007-02-24T00:00:00",
+  "BirthDate": "1984-04-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "119"
+    }
+  ]
 }

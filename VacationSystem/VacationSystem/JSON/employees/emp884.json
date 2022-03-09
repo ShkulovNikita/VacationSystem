@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "884",
-	"FirstName": "Ольга",
-	"MiddleName": "Владимировна",
-	"LastName": "Малахова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "4",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "884",
+  "FirstName": "Ольга",
+  "MiddleName": "Владимировна",
+  "LastName": "Малахова",
+  "Time": 0.5,
+  "StartDate": "1993-02-05T00:00:00",
+  "BirthDate": "1954-05-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "4"
+    }
+  ]
 }

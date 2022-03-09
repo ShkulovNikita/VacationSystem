@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "544",
-	"FirstName": "Василий",
-	"MiddleName": "Васильевич",
-	"LastName": "Ретунский",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "59",
-			"HeadOfDepartment": false,
-			"Position": "37"
-		},
-		{
-			"Id": "50",
-			"HeadOfDepartment": false,
-			"Position": "88"
-		}
-	]
+  "Id": "544",
+  "FirstName": "Василий",
+  "MiddleName": "Васильевич",
+  "LastName": "Ретунский",
+  "Time": 1,
+  "StartDate": "2008-05-05T00:00:00",
+  "BirthDate": "1973-03-21T00:00:00",
+  "Positions": [
+    {
+      "Position": "37",
+      "Department": "59"
+    },
+    {
+      "Position": "88",
+      "Department": "50"
+    }
+  ]
 }

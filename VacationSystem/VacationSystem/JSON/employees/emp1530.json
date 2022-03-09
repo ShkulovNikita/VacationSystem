@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1530",
-	"FirstName": "Дарья",
-	"MiddleName": "Александровна",
-	"LastName": "Квашнина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "93",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		}
-	]
+  "Id": "1530",
+  "FirstName": "Дарья",
+  "MiddleName": "Александровна",
+  "LastName": "Квашнина",
+  "Time": 1,
+  "StartDate": "2003-09-02T00:00:00",
+  "BirthDate": "1980-08-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "93"
+    }
+  ]
 }

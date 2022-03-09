@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "689",
-	"FirstName": "Игорь",
-	"MiddleName": "Борисович",
-	"LastName": "Степанов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "167",
-			"HeadOfDepartment": false,
-			"Position": "123"
-		}
-	]
+  "Id": "689",
+  "FirstName": "Игорь",
+  "MiddleName": "Борисович",
+  "LastName": "Степанов",
+  "Time": 1,
+  "StartDate": "1999-10-10T00:00:00",
+  "BirthDate": "1964-11-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "123",
+      "Department": "167"
+    }
+  ]
 }

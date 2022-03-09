@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "516",
-	"FirstName": "Галина",
-	"MiddleName": "Геннадиевна",
-	"LastName": "Розум",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "47",
-			"HeadOfDepartment": false,
-			"Position": "30"
-		}
-	]
+  "Id": "516",
+  "FirstName": "Галина",
+  "MiddleName": "Геннадиевна",
+  "LastName": "Розум",
+  "Time": 0.5,
+  "StartDate": "2007-12-06T00:00:00",
+  "BirthDate": "1967-12-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "30",
+      "Department": "47"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "806",
-	"FirstName": "Павел",
-	"MiddleName": "Викторович",
-	"LastName": "Потылицин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "125",
-			"HeadOfDepartment": false,
-			"Position": "25"
-		}
-	]
+  "Id": "806",
+  "FirstName": "Павел",
+  "MiddleName": "Викторович",
+  "LastName": "Потылицин",
+  "Time": 0.5,
+  "StartDate": "1999-10-07T00:00:00",
+  "BirthDate": "1965-05-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "25",
+      "Department": "125"
+    }
+  ]
 }

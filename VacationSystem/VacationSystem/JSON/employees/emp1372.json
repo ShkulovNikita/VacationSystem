@@ -1,24 +1,23 @@
 ﻿{
-	"Id": "1372",
-	"FirstName": "Елена",
-	"MiddleName": "Сергеевна",
-	"LastName": "Стасюк",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "211",
-			"HeadOfDepartment": false,
-			"Position": "170"
-		},
-		{
-			"Id": "192",
-			"HeadOfDepartment": false,
-			"Position": "24"
-		},
-		{
-			"Id": "42",
-			"HeadOfDepartment": false,
-			"Position": "24"
-		}
-	]
+  "Id": "1372",
+  "FirstName": "Елена",
+  "MiddleName": "Сергеевна",
+  "LastName": "Стасюк",
+  "Time": 2.5,
+  "StartDate": "1997-07-08T00:00:00",
+  "BirthDate": "1972-06-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "170",
+      "Department": "211"
+    },
+    {
+      "Position": "24",
+      "Department": "192"
+    },
+    {
+      "Position": "24",
+      "Department": "42"
+    }
+  ]
 }

@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "2897",
-	"FirstName": "Сергей",
-	"MiddleName": "Владимирович",
-	"LastName": "Щаденко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "32",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		},
-		{
-			"Id": "229",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "2897",
+  "FirstName": "Сергей",
+  "MiddleName": "Владимирович",
+  "LastName": "Щаденко",
+  "Time": 1,
+  "StartDate": "2011-07-19T00:00:00",
+  "BirthDate": "1979-01-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "32"
+    },
+    {
+      "Position": "6",
+      "Department": "229"
+    }
+  ]
 }

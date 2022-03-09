@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3451",
-	"FirstName": "Марина",
-	"MiddleName": "Сергеевна",
-	"LastName": "Девянина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "12",
-			"HeadOfDepartment": false,
-			"Position": "30"
-		}
-	]
+  "Id": "3451",
+  "FirstName": "Марина",
+  "MiddleName": "Сергеевна",
+  "LastName": "Девянина",
+  "Time": 1,
+  "StartDate": "2005-08-10T00:00:00",
+  "BirthDate": "1973-12-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "30",
+      "Department": "12"
+    }
+  ]
 }

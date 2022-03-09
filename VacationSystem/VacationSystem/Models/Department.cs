@@ -8,41 +8,20 @@ namespace VacationSystem.Models
     /// Подразделение ТПУ
     /// </summary>
 
-    [Table("departments")]
+    [NotMapped, Table("departments")]
     public class Department
     {
         [Key, Required, MaxLength(50)]
         public string Id { get; set; }
 
-        /// <summary>
-        /// Наименование подразделения
-        /// </summary>
-        [Required, MaxLength(250)]
+        [NotMapped, MaxLength(150)]
         public string Name { get; set; }
 
-        /// <summary>
-        /// Является ли данная запись на данный момент действительной
-        /// </summary>
-        public bool IsActive { get; set; } = true;
-
-        /// <summary>
-        /// Старшее подразделение
-        /// </summary>
         [MaxLength(50)]
-        public string HeadDepartmentId { get; set; }
-        public Department HeadDepartment { get; set; }
+        public string HeadDepartment { get; set; }
 
-        /// <summary>
-        /// Руководитель подразделения
-        /// </summary>
-        [MaxLength(50)]
-        public string HeadEmployeeId { get; set; }
-        public Employee HeadEmployee { get; set; }
-
-        /// <summary>
-        /// Младшие подразделения
-        /// </summary>
-        public List<Department> ChildDepartments { get; set; } = new List<Department>();
+        [MaxLength (50)]
+        public string Head { get; set; }
 
         /// <summary>
         /// Правила для должностей внутри подразделения
@@ -88,10 +67,5 @@ namespace VacationSystem.Models
         /// Группы сотрудников в подразделении
         /// </summary>
         public List<Group> Groups { get; set; } = new List<Group>();
-
-        /// <summary>
-        /// Сотрудники, занимающие должности в данном подразделении
-        /// </summary>
-        public List<EmployeeInDepartment> EmployeeInDepartments { get; set; } = new List<EmployeeInDepartment>();
     }
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "147",
-	"FirstName": "Артем",
-	"MiddleName": "Анатольевич",
-	"LastName": "Жуйков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "79",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "147",
+  "FirstName": "Артем",
+  "MiddleName": "Анатольевич",
+  "LastName": "Жуйков",
+  "Time": 1,
+  "StartDate": "2003-01-12T00:00:00",
+  "BirthDate": "1970-11-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "79"
+    }
+  ]
 }

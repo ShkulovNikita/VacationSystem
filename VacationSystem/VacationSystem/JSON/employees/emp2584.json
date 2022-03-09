@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2584",
-	"FirstName": "Ольга",
-	"MiddleName": "Игоревна",
-	"LastName": "Рекундаль",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "52",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "2584",
+  "FirstName": "Ольга",
+  "MiddleName": "Игоревна",
+  "LastName": "Рекундаль",
+  "Time": 1,
+  "StartDate": "1993-06-17T00:00:00",
+  "BirthDate": "1961-12-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "52"
+    }
+  ]
 }

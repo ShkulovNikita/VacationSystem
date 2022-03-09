@@ -1,0 +1,19 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "1764",
+      "FirstName": "Людмила",
+      "MiddleName": "Федоровна",
+      "LastName": "Травкина",
+      "Time": 1,
+      "StartDate": "1991-12-05T00:00:00",
+      "BirthDate": "1959-03-15T00:00:00",
+      "Positions": [
+        {
+          "Position": "194",
+          "Department": "228"
+        }
+      ]
+    }
+  ]
+}

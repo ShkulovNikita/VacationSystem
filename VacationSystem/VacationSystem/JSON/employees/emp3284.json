@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3284",
-	"FirstName": "Леонид",
-	"MiddleName": "Викторович",
-	"LastName": "Шеметов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "66",
-			"HeadOfDepartment": false,
-			"Position": "7"
-		}
-	]
+  "Id": "3284",
+  "FirstName": "Леонид",
+  "MiddleName": "Викторович",
+  "LastName": "Шеметов",
+  "Time": 1,
+  "StartDate": "2011-07-13T00:00:00",
+  "BirthDate": "1963-01-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "7",
+      "Department": "66"
+    }
+  ]
 }

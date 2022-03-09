@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1569",
-	"FirstName": "Татьяна",
-	"MiddleName": "Ивановна",
-	"LastName": "Лихалат",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "12",
-			"HeadOfDepartment": false,
-			"Position": "192"
-		}
-	]
+  "Id": "1569",
+  "FirstName": "Татьяна",
+  "MiddleName": "Ивановна",
+  "LastName": "Лихалат",
+  "Time": 0.5,
+  "StartDate": "2021-10-14T00:00:00",
+  "BirthDate": "1979-12-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "192",
+      "Department": "12"
+    }
+  ]
 }

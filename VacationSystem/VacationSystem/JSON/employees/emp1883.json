@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1883",
-	"FirstName": "Ольга",
-	"MiddleName": "Афанасьевна",
-	"LastName": "Ананьева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "230",
-			"HeadOfDepartment": false,
-			"Position": "8"
-		}
-	]
+  "Id": "1883",
+  "FirstName": "Ольга",
+  "MiddleName": "Афанасьевна",
+  "LastName": "Ананьева",
+  "Time": 1,
+  "StartDate": "2018-11-18T00:00:00",
+  "BirthDate": "1989-06-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "8",
+      "Department": "230"
+    }
+  ]
 }

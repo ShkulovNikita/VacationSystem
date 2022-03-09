@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2508",
-	"FirstName": "Ольга",
-	"MiddleName": "Александровна",
-	"LastName": "Колегова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "0"
-		}
-	]
+  "Id": "2508",
+  "FirstName": "Ольга",
+  "MiddleName": "Александровна",
+  "LastName": "Колегова",
+  "Time": 1,
+  "StartDate": "2006-10-20T00:00:00",
+  "BirthDate": "1986-11-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "0",
+      "Department": "2"
+    }
+  ]
 }

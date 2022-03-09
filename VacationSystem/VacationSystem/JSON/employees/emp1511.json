@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1511",
-	"FirstName": "Андрей",
-	"MiddleName": "Сергеевич",
-	"LastName": "Зиневич",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "3",
-			"HeadOfDepartment": false,
-			"Position": "0"
-		}
-	]
+  "Id": "1511",
+  "FirstName": "Андрей",
+  "MiddleName": "Сергеевич",
+  "LastName": "Зиневич",
+  "Time": 1,
+  "StartDate": "2012-02-17T00:00:00",
+  "BirthDate": "1989-08-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "0",
+      "Department": "3"
+    }
+  ]
 }

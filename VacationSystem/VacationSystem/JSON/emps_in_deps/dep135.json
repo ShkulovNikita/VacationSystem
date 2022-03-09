@@ -1,0 +1,124 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "413",
+      "FirstName": "Нина",
+      "MiddleName": "Григорьевна",
+      "LastName": "Наливайко",
+      "Time": 1,
+      "StartDate": "1993-01-21T00:00:00",
+      "BirthDate": "1969-01-05T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "135"
+        }
+      ]
+    },
+    {
+      "Id": "639",
+      "FirstName": "Юлия",
+      "MiddleName": "Григорьевна",
+      "LastName": "Копылова",
+      "Time": 1,
+      "StartDate": "2006-09-11T00:00:00",
+      "BirthDate": "1959-08-16T00:00:00",
+      "Positions": [
+        {
+          "Position": "119",
+          "Department": "135"
+        }
+      ]
+    },
+    {
+      "Id": "730",
+      "FirstName": "Ирина",
+      "MiddleName": "Валерьевна",
+      "LastName": "Сметанина",
+      "Time": 0.5,
+      "StartDate": "2013-11-16T00:00:00",
+      "BirthDate": "1968-04-03T00:00:00",
+      "Positions": [
+        {
+          "Position": "11",
+          "Department": "135"
+        }
+      ]
+    },
+    {
+      "Id": "742",
+      "FirstName": "Альбина",
+      "MiddleName": "Анатольевна",
+      "LastName": "Хващевская",
+      "Time": 1,
+      "StartDate": "1990-04-12T00:00:00",
+      "BirthDate": "1961-05-19T00:00:00",
+      "Positions": [
+        {
+          "Position": "2",
+          "Department": "135"
+        }
+      ]
+    },
+    {
+      "Id": "1303",
+      "FirstName": "Сергей",
+      "MiddleName": "Иванович",
+      "LastName": "Сафончик",
+      "Time": 0.5,
+      "StartDate": "2003-10-21T00:00:00",
+      "BirthDate": "1968-04-13T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "135"
+        }
+      ]
+    },
+    {
+      "Id": "1940",
+      "FirstName": "Любовь",
+      "MiddleName": "Демьяновна",
+      "LastName": "Власкина",
+      "Time": 0.5,
+      "StartDate": "2007-10-11T00:00:00",
+      "BirthDate": "1955-09-24T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "135"
+        }
+      ]
+    },
+    {
+      "Id": "3148",
+      "FirstName": "Дарья",
+      "MiddleName": "Владимировна",
+      "LastName": "Хребтова",
+      "Time": 0.5,
+      "StartDate": "2021-08-02T00:00:00",
+      "BirthDate": "1972-02-21T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "135"
+        }
+      ]
+    },
+    {
+      "Id": "3630",
+      "FirstName": "Ольга",
+      "MiddleName": "Сергеевна",
+      "LastName": "Пестунова",
+      "Time": 1,
+      "StartDate": "2004-07-01T00:00:00",
+      "BirthDate": "1966-01-21T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "135"
+        }
+      ]
+    }
+  ]
+}

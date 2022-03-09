@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1903",
-	"FirstName": "Денис",
-	"MiddleName": "Сергеевич",
-	"LastName": "Белкин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "79",
-			"HeadOfDepartment": false,
-			"Position": "45"
-		}
-	]
+  "Id": "1903",
+  "FirstName": "Денис",
+  "MiddleName": "Сергеевич",
+  "LastName": "Белкин",
+  "Time": 1,
+  "StartDate": "2006-10-08T00:00:00",
+  "BirthDate": "1968-08-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "45",
+      "Department": "79"
+    }
+  ]
 }

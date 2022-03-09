@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1894",
-	"FirstName": "Марина",
-	"MiddleName": "Анатольевна",
-	"LastName": "Агафонова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "1",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "1894",
+  "FirstName": "Марина",
+  "MiddleName": "Анатольевна",
+  "LastName": "Агафонова",
+  "Time": 1,
+  "StartDate": "2015-02-03T00:00:00",
+  "BirthDate": "1961-08-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "1"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2675",
-	"FirstName": "Татьяна",
-	"MiddleName": "Петровна",
-	"LastName": "Косач",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "157",
-			"HeadOfDepartment": false,
-			"Position": "222"
-		}
-	]
+  "Id": "2675",
+  "FirstName": "Татьяна",
+  "MiddleName": "Петровна",
+  "LastName": "Косач",
+  "Time": 1,
+  "StartDate": "2011-01-17T00:00:00",
+  "BirthDate": "1972-02-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "222",
+      "Department": "157"
+    }
+  ]
 }

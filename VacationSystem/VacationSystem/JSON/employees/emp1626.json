@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1626",
-	"FirstName": "Евгений",
-	"MiddleName": "Владимирович",
-	"LastName": "Боловин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "19",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "1626",
+  "FirstName": "Евгений",
+  "MiddleName": "Владимирович",
+  "LastName": "Боловин",
+  "Time": 1,
+  "StartDate": "2013-04-09T00:00:00",
+  "BirthDate": "1986-08-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "19"
+    }
+  ]
 }

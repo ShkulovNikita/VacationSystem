@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2780",
-	"FirstName": "Александр",
-	"MiddleName": "Иванович",
-	"LastName": "Кудров",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "39",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		}
-	]
+  "Id": "2780",
+  "FirstName": "Александр",
+  "MiddleName": "Иванович",
+  "LastName": "Кудров",
+  "Time": 1,
+  "StartDate": "2006-11-18T00:00:00",
+  "BirthDate": "1958-04-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "39"
+    }
+  ]
 }

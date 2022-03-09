@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2218",
-	"FirstName": "Тамара",
-	"MiddleName": "Алексеевна",
-	"LastName": "Байдали",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "17",
-			"HeadOfDepartment": false,
-			"Position": "2"
-		}
-	]
+  "Id": "2218",
+  "FirstName": "Тамара",
+  "MiddleName": "Алексеевна",
+  "LastName": "Байдали",
+  "Time": 1,
+  "StartDate": "2009-04-21T00:00:00",
+  "BirthDate": "1961-05-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "2",
+      "Department": "17"
+    }
+  ]
 }

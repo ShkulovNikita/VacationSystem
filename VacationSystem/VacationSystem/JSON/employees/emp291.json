@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "291",
-	"FirstName": "Екатерина",
-	"MiddleName": "Александровна",
-	"LastName": "Таран",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "3",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "291",
+  "FirstName": "Екатерина",
+  "MiddleName": "Александровна",
+  "LastName": "Таран",
+  "Time": 1,
+  "StartDate": "2002-10-20T00:00:00",
+  "BirthDate": "1981-04-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "3"
+    }
+  ]
 }

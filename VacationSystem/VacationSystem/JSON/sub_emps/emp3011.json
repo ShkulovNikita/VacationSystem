@@ -1,0 +1,79 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "420",
+      "FirstName": "Ирина",
+      "MiddleName": "Ивановна",
+      "LastName": "Ботт",
+      "Time": 0.5,
+      "StartDate": "1985-01-05T00:00:00",
+      "BirthDate": "1955-12-04T00:00:00",
+      "Positions": [
+        {
+          "Position": "20",
+          "Department": "136"
+        }
+      ]
+    },
+    {
+      "Id": "982",
+      "FirstName": "Ольга",
+      "MiddleName": "Юрьевна",
+      "LastName": "Харченко",
+      "Time": 1,
+      "StartDate": "2012-09-01T00:00:00",
+      "BirthDate": "1979-04-24T00:00:00",
+      "Positions": [
+        {
+          "Position": "142",
+          "Department": "136"
+        }
+      ]
+    },
+    {
+      "Id": "2609",
+      "FirstName": "Евгений",
+      "MiddleName": "Дмитриевич",
+      "LastName": "Замятин",
+      "Time": 0.5,
+      "StartDate": "2006-07-08T00:00:00",
+      "BirthDate": "1980-06-04T00:00:00",
+      "Positions": [
+        {
+          "Position": "79",
+          "Department": "136"
+        }
+      ]
+    },
+    {
+      "Id": "3011",
+      "FirstName": "Евгений",
+      "MiddleName": "Анатольевич",
+      "LastName": "Грицевич",
+      "Time": 1,
+      "StartDate": "2006-10-08T00:00:00",
+      "BirthDate": "1956-04-14T00:00:00",
+      "Positions": [
+        {
+          "Position": "103",
+          "Department": "136"
+        }
+      ]
+    },
+    {
+      "Id": "3587",
+      "FirstName": "Александр",
+      "MiddleName": "Васильевич",
+      "LastName": "Суханов",
+      "Time": 1,
+      "StartDate": "2021-08-02T00:00:00",
+      "BirthDate": "1958-08-09T00:00:00",
+      "Positions": [
+        {
+          "Position": "64",
+          "Department": "136"
+        }
+      ]
+    }
+  ]
+}

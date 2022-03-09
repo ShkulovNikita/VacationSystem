@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3745",
-	"FirstName": "Татьяна",
-	"MiddleName": "Владимировна",
-	"LastName": "Тренина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "264",
-			"HeadOfDepartment": false,
-			"Position": "294"
-		}
-	]
+  "Id": "3745",
+  "FirstName": "Татьяна",
+  "MiddleName": "Владимировна",
+  "LastName": "Тренина",
+  "Time": 1,
+  "StartDate": "2009-05-05T00:00:00",
+  "BirthDate": "1980-07-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "294",
+      "Department": "264"
+    }
+  ]
 }

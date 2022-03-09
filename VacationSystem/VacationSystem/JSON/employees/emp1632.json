@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1632",
-	"FirstName": "Виктор",
-	"MiddleName": "Федотович",
-	"LastName": "Тарасенко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "8",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "1632",
+  "FirstName": "Виктор",
+  "MiddleName": "Федотович",
+  "LastName": "Тарасенко",
+  "Time": 0.5,
+  "StartDate": "2016-09-06T00:00:00",
+  "BirthDate": "1963-09-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "8"
+    }
+  ]
 }

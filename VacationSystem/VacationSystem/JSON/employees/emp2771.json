@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2771",
-	"FirstName": "Данияр",
-	"MiddleName": "",
-	"LastName": "Кайралапов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "16",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "2771",
+  "FirstName": "Данияр",
+  "MiddleName": "",
+  "LastName": "Кайралапов",
+  "Time": 1,
+  "StartDate": "1987-01-14T00:00:00",
+  "BirthDate": "1957-01-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "16"
+    }
+  ]
 }

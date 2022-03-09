@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3014",
-	"FirstName": "Алексей",
-	"MiddleName": "Валерьевич",
-	"LastName": "Верхозин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "47",
-			"HeadOfDepartment": false,
-			"Position": "30"
-		}
-	]
+  "Id": "3014",
+  "FirstName": "Алексей",
+  "MiddleName": "Валерьевич",
+  "LastName": "Верхозин",
+  "Time": 1,
+  "StartDate": "2003-03-05T00:00:00",
+  "BirthDate": "1957-07-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "30",
+      "Department": "47"
+    }
+  ]
 }

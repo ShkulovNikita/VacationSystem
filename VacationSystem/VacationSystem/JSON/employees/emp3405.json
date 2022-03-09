@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3405",
-	"FirstName": "Ольга",
-	"MiddleName": "Андреевна",
-	"LastName": "Винтовкина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "237",
-			"HeadOfDepartment": false,
-			"Position": "157"
-		}
-	]
+  "Id": "3405",
+  "FirstName": "Ольга",
+  "MiddleName": "Андреевна",
+  "LastName": "Винтовкина",
+  "Time": 1,
+  "StartDate": "2020-08-09T00:00:00",
+  "BirthDate": "1959-03-13T00:00:00",
+  "Positions": [
+    {
+      "Position": "157",
+      "Department": "237"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3523",
-	"FirstName": "Алексей",
-	"MiddleName": "Иванович",
-	"LastName": "Бунин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "202",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "3523",
+  "FirstName": "Алексей",
+  "MiddleName": "Иванович",
+  "LastName": "Бунин",
+  "Time": 1,
+  "StartDate": "2003-05-11T00:00:00",
+  "BirthDate": "1972-04-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "202"
+    }
+  ]
 }

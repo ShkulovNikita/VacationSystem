@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3007",
-	"FirstName": "Сергей",
-	"MiddleName": "Артурович",
-	"LastName": "Прокопенко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "12",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "3007",
+  "FirstName": "Сергей",
+  "MiddleName": "Артурович",
+  "LastName": "Прокопенко",
+  "Time": 0.5,
+  "StartDate": "2005-05-10T00:00:00",
+  "BirthDate": "1982-04-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "12"
+    }
+  ]
 }

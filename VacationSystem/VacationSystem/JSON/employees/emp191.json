@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "191",
-	"FirstName": "Ольга",
-	"MiddleName": "Карповна",
-	"LastName": "Шестакова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "91",
-			"HeadOfDepartment": false,
-			"Position": "59"
-		}
-	]
+  "Id": "191",
+  "FirstName": "Ольга",
+  "MiddleName": "Карповна",
+  "LastName": "Шестакова",
+  "Time": 0.5,
+  "StartDate": "1991-02-01T00:00:00",
+  "BirthDate": "1955-11-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "59",
+      "Department": "91"
+    }
+  ]
 }

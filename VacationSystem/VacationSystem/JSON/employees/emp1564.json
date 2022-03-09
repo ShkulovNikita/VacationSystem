@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1564",
-	"FirstName": "Галина",
-	"MiddleName": "Юрьевна",
-	"LastName": "Назарова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "36",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		}
-	]
+  "Id": "1564",
+  "FirstName": "Галина",
+  "MiddleName": "Юрьевна",
+  "LastName": "Назарова",
+  "Time": 1,
+  "StartDate": "2011-08-15T00:00:00",
+  "BirthDate": "1988-07-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "36"
+    }
+  ]
 }

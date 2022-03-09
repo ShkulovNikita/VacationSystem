@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "892",
-	"FirstName": "Ольга",
-	"MiddleName": "Викторовна",
-	"LastName": "Казьмина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "4",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "892",
+  "FirstName": "Ольга",
+  "MiddleName": "Викторовна",
+  "LastName": "Казьмина",
+  "Time": 0.5,
+  "StartDate": "2004-06-17T00:00:00",
+  "BirthDate": "1967-01-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "4"
+    }
+  ]
 }

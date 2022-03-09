@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "762",
-	"FirstName": "Александр",
-	"MiddleName": "Феопенович",
-	"LastName": "Коробейников",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "1",
-			"HeadOfDepartment": false,
-			"Position": "91"
-		}
-	]
+  "Id": "762",
+  "FirstName": "Александр",
+  "MiddleName": "Феопенович",
+  "LastName": "Коробейников",
+  "Time": 1,
+  "StartDate": "2002-09-22T00:00:00",
+  "BirthDate": "1982-08-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "91",
+      "Department": "1"
+    }
+  ]
 }

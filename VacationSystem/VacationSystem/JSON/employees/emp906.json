@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "906",
-	"FirstName": "Елена",
-	"MiddleName": "Борисовна",
-	"LastName": "Лукиева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "38"
-		}
-	]
+  "Id": "906",
+  "FirstName": "Елена",
+  "MiddleName": "Борисовна",
+  "LastName": "Лукиева",
+  "Time": 1,
+  "StartDate": "2011-07-18T00:00:00",
+  "BirthDate": "1982-04-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "38",
+      "Department": "2"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1720",
-	"FirstName": "Дмитрий",
-	"MiddleName": "Александрович",
-	"LastName": "Пашков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "4",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "1720",
+  "FirstName": "Дмитрий",
+  "MiddleName": "Александрович",
+  "LastName": "Пашков",
+  "Time": 0.5,
+  "StartDate": "2002-01-09T00:00:00",
+  "BirthDate": "1961-10-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "4"
+    }
+  ]
 }

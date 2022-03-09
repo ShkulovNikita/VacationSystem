@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2890",
-	"FirstName": "Елена",
-	"MiddleName": "Витальевна",
-	"LastName": "Устинова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "16",
-			"HeadOfDepartment": false,
-			"Position": "42"
-		}
-	]
+  "Id": "2890",
+  "FirstName": "Елена",
+  "MiddleName": "Витальевна",
+  "LastName": "Устинова",
+  "Time": 0.5,
+  "StartDate": "2021-12-04T00:00:00",
+  "BirthDate": "1991-06-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "42",
+      "Department": "16"
+    }
+  ]
 }

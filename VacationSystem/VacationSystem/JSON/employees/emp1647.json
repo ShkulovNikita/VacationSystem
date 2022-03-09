@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1647",
-	"FirstName": "Антонина",
-	"MiddleName": "Анатольевна",
-	"LastName": "Боброва",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "16",
-			"HeadOfDepartment": false,
-			"Position": "60"
-		}
-	]
+  "Id": "1647",
+  "FirstName": "Антонина",
+  "MiddleName": "Анатольевна",
+  "LastName": "Боброва",
+  "Time": 0.5,
+  "StartDate": "2004-11-19T00:00:00",
+  "BirthDate": "1967-01-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "60",
+      "Department": "16"
+    }
+  ]
 }

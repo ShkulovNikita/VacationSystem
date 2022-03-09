@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3620",
-	"FirstName": "Елена",
-	"MiddleName": "Анатольевна",
-	"LastName": "Хомченко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "214",
-			"HeadOfDepartment": false,
-			"Position": "197"
-		}
-	]
+  "Id": "3620",
+  "FirstName": "Елена",
+  "MiddleName": "Анатольевна",
+  "LastName": "Хомченко",
+  "Time": 1,
+  "StartDate": "2014-04-14T00:00:00",
+  "BirthDate": "1990-08-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "197",
+      "Department": "214"
+    }
+  ]
 }

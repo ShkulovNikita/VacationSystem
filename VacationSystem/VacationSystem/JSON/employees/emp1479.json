@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1479",
-	"FirstName": "Ольга",
-	"MiddleName": "Александровна",
-	"LastName": "Павленко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "9",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		}
-	]
+  "Id": "1479",
+  "FirstName": "Ольга",
+  "MiddleName": "Александровна",
+  "LastName": "Павленко",
+  "Time": 0.5,
+  "StartDate": "2011-08-21T00:00:00",
+  "BirthDate": "1962-12-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "9"
+    }
+  ]
 }

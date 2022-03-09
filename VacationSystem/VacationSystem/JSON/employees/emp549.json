@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "549",
-	"FirstName": "Ольга",
-	"MiddleName": "Григорьевна",
-	"LastName": "Берестнева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "26",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "549",
+  "FirstName": "Ольга",
+  "MiddleName": "Григорьевна",
+  "LastName": "Берестнева",
+  "Time": 1,
+  "StartDate": "2019-11-13T00:00:00",
+  "BirthDate": "1990-12-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "26"
+    }
+  ]
 }

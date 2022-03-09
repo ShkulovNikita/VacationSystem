@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1829",
-	"FirstName": "Татьяна",
-	"MiddleName": "Викторовна",
-	"LastName": "Артамонова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "57",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "1829",
+  "FirstName": "Татьяна",
+  "MiddleName": "Викторовна",
+  "LastName": "Артамонова",
+  "Time": 0.5,
+  "StartDate": "2011-02-01T00:00:00",
+  "BirthDate": "1984-03-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "57"
+    }
+  ]
 }

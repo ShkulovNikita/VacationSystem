@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3242",
-	"FirstName": "Александр",
-	"MiddleName": "Леонидович",
-	"LastName": "Астафьев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "88",
-			"HeadOfDepartment": false,
-			"Position": "24"
-		}
-	]
+  "Id": "3242",
+  "FirstName": "Александр",
+  "MiddleName": "Леонидович",
+  "LastName": "Астафьев",
+  "Time": 0.5,
+  "StartDate": "2013-05-08T00:00:00",
+  "BirthDate": "1961-11-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "24",
+      "Department": "88"
+    }
+  ]
 }

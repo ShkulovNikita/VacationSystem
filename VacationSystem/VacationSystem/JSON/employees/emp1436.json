@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1436",
-	"FirstName": "Андрей",
-	"MiddleName": "Алексеевич",
-	"LastName": "Зеленковский",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "175"
-		}
-	]
+  "Id": "1436",
+  "FirstName": "Андрей",
+  "MiddleName": "Алексеевич",
+  "LastName": "Зеленковский",
+  "Time": 0.5,
+  "StartDate": "1995-10-13T00:00:00",
+  "BirthDate": "1958-05-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "175",
+      "Department": "2"
+    }
+  ]
 }

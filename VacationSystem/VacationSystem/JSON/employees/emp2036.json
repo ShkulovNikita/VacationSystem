@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2036",
-	"FirstName": "Владимир",
-	"MiddleName": "Ильич",
-	"LastName": "Бойко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "17",
-			"HeadOfDepartment": false,
-			"Position": "91"
-		}
-	]
+  "Id": "2036",
+  "FirstName": "Владимир",
+  "MiddleName": "Ильич",
+  "LastName": "Бойко",
+  "Time": 0.5,
+  "StartDate": "2015-02-22T00:00:00",
+  "BirthDate": "1993-01-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "91",
+      "Department": "17"
+    }
+  ]
 }

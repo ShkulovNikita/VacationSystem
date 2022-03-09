@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1491",
-	"FirstName": "Ольга",
-	"MiddleName": "Павловна",
-	"LastName": "Недоспасова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "14",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "1491",
+  "FirstName": "Ольга",
+  "MiddleName": "Павловна",
+  "LastName": "Недоспасова",
+  "Time": 1,
+  "StartDate": "2010-03-20T00:00:00",
+  "BirthDate": "1977-10-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "14"
+    }
+  ]
 }

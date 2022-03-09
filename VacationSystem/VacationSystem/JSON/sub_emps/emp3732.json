@@ -1,0 +1,64 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "3217",
+      "FirstName": "Алина",
+      "MiddleName": "Игоревна",
+      "LastName": "Чудина",
+      "Time": 0.5,
+      "StartDate": "1976-12-11T00:00:00",
+      "BirthDate": "1954-02-21T00:00:00",
+      "Positions": [
+        {
+          "Position": "45",
+          "Department": "264"
+        }
+      ]
+    },
+    {
+      "Id": "3477",
+      "FirstName": "Полина",
+      "MiddleName": "Михайловна",
+      "LastName": "Шестакова",
+      "Time": 0.5,
+      "StartDate": "2016-08-20T00:00:00",
+      "BirthDate": "1993-10-21T00:00:00",
+      "Positions": [
+        {
+          "Position": "279",
+          "Department": "264"
+        }
+      ]
+    },
+    {
+      "Id": "3732",
+      "FirstName": "Олег",
+      "MiddleName": "Сергеевич",
+      "LastName": "Васильченко",
+      "Time": 1,
+      "StartDate": "2011-08-20T00:00:00",
+      "BirthDate": "1990-10-11T00:00:00",
+      "Positions": [
+        {
+          "Position": "223",
+          "Department": "264"
+        }
+      ]
+    },
+    {
+      "Id": "3745",
+      "FirstName": "Татьяна",
+      "MiddleName": "Владимировна",
+      "LastName": "Тренина",
+      "Time": 1,
+      "StartDate": "2009-05-05T00:00:00",
+      "BirthDate": "1980-07-04T00:00:00",
+      "Positions": [
+        {
+          "Position": "294",
+          "Department": "264"
+        }
+      ]
+    }
+  ]
+}

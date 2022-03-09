@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2981",
-	"FirstName": "Татьяна",
-	"MiddleName": "Сергеевна",
-	"LastName": "Хруль",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "6",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "2981",
+  "FirstName": "Татьяна",
+  "MiddleName": "Сергеевна",
+  "LastName": "Хруль",
+  "Time": 1,
+  "StartDate": "2005-07-12T00:00:00",
+  "BirthDate": "1956-05-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "6"
+    }
+  ]
 }

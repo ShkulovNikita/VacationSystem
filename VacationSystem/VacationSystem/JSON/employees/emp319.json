@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "319",
-	"FirstName": "Василий",
-	"MiddleName": "Анатольевич",
-	"LastName": "Терещенко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "16",
-			"HeadOfDepartment": false,
-			"Position": "11"
-		}
-	]
+  "Id": "319",
+  "FirstName": "Василий",
+  "MiddleName": "Анатольевич",
+  "LastName": "Терещенко",
+  "Time": 0.5,
+  "StartDate": "1996-10-07T00:00:00",
+  "BirthDate": "1952-08-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "11",
+      "Department": "16"
+    }
+  ]
 }

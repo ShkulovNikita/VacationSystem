@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "977",
-	"FirstName": "Тамара",
-	"MiddleName": "Николаевна",
-	"LastName": "Мельникова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "119",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		},
-		{
-			"Id": "53",
-			"HeadOfDepartment": false,
-			"Position": "2"
-		}
-	]
+  "Id": "977",
+  "FirstName": "Тамара",
+  "MiddleName": "Николаевна",
+  "LastName": "Мельникова",
+  "Time": 2,
+  "StartDate": "2009-06-07T00:00:00",
+  "BirthDate": "1975-03-09T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "119"
+    },
+    {
+      "Position": "2",
+      "Department": "53"
+    }
+  ]
 }

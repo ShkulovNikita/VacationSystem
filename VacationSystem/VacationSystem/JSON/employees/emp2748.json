@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2748",
-	"FirstName": "Михаил",
-	"MiddleName": "Васильевич",
-	"LastName": "Срибнак",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "50",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "2748",
+  "FirstName": "Михаил",
+  "MiddleName": "Васильевич",
+  "LastName": "Срибнак",
+  "Time": 1,
+  "StartDate": "2010-11-06T00:00:00",
+  "BirthDate": "1971-03-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "50"
+    }
+  ]
 }

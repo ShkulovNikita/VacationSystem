@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "3171",
-	"FirstName": "Елена",
-	"MiddleName": "Игоревна",
-	"LastName": "Клемашева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "130",
-			"HeadOfDepartment": false,
-			"Position": "24"
-		},
-		{
-			"Id": "3",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "3171",
+  "FirstName": "Елена",
+  "MiddleName": "Игоревна",
+  "LastName": "Клемашева",
+  "Time": 2,
+  "StartDate": "1994-10-16T00:00:00",
+  "BirthDate": "1961-06-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "24",
+      "Department": "130"
+    },
+    {
+      "Position": "1",
+      "Department": "3"
+    }
+  ]
 }

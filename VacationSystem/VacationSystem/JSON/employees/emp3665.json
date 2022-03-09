@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3665",
-	"FirstName": "Антон",
-	"MiddleName": "Андреевич",
-	"LastName": "Трофимов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "80",
-			"HeadOfDepartment": false,
-			"Position": "52"
-		}
-	]
+  "Id": "3665",
+  "FirstName": "Антон",
+  "MiddleName": "Андреевич",
+  "LastName": "Трофимов",
+  "Time": 1,
+  "StartDate": "1999-02-03T00:00:00",
+  "BirthDate": "1974-08-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "52",
+      "Department": "80"
+    }
+  ]
 }

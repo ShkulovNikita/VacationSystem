@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1334",
-	"FirstName": "Юрий",
-	"MiddleName": "Борисович",
-	"LastName": "Чертков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "17",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1334",
+  "FirstName": "Юрий",
+  "MiddleName": "Борисович",
+  "LastName": "Чертков",
+  "Time": 1,
+  "StartDate": "1990-06-17T00:00:00",
+  "BirthDate": "1970-04-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "17"
+    }
+  ]
 }

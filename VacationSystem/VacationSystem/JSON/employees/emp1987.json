@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1987",
-	"FirstName": "Евгения",
-	"MiddleName": "Алексеевна",
-	"LastName": "Шерина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "65",
-			"HeadOfDepartment": false,
-			"Position": "43"
-		}
-	]
+  "Id": "1987",
+  "FirstName": "Евгения",
+  "MiddleName": "Алексеевна",
+  "LastName": "Шерина",
+  "Time": 0.5,
+  "StartDate": "2005-04-16T00:00:00",
+  "BirthDate": "1958-01-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "43",
+      "Department": "65"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3370",
-	"FirstName": "Юлия",
-	"MiddleName": "Владимировна",
-	"LastName": "Конова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "53",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "3370",
+  "FirstName": "Юлия",
+  "MiddleName": "Владимировна",
+  "LastName": "Конова",
+  "Time": 1,
+  "StartDate": "2016-10-18T00:00:00",
+  "BirthDate": "1961-01-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "53"
+    }
+  ]
 }

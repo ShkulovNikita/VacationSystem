@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1589",
-	"FirstName": "Татьяна",
-	"MiddleName": "Федоровна",
-	"LastName": "Волкова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "65",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1589",
+  "FirstName": "Татьяна",
+  "MiddleName": "Федоровна",
+  "LastName": "Волкова",
+  "Time": 1,
+  "StartDate": "2001-08-16T00:00:00",
+  "BirthDate": "1974-01-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "65"
+    }
+  ]
 }

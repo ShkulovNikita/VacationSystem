@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "529",
-	"FirstName": "Ольга",
-	"MiddleName": "Михайловна",
-	"LastName": "Гергет",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "26",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "529",
+  "FirstName": "Ольга",
+  "MiddleName": "Михайловна",
+  "LastName": "Гергет",
+  "Time": 0.5,
+  "StartDate": "2021-11-13T00:00:00",
+  "BirthDate": "1984-08-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "26"
+    }
+  ]
 }

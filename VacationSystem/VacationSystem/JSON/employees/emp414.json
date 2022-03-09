@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "414",
-	"FirstName": "Людмила",
-	"MiddleName": "Анатольевна",
-	"LastName": "Пономарева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "65",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "414",
+  "FirstName": "Людмила",
+  "MiddleName": "Анатольевна",
+  "LastName": "Пономарева",
+  "Time": 1,
+  "StartDate": "2016-02-18T00:00:00",
+  "BirthDate": "1993-03-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "65"
+    }
+  ]
 }

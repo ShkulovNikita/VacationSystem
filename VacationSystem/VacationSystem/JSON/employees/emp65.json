@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "65",
-	"FirstName": "Сергей",
-	"MiddleName": "Владимирович",
-	"LastName": "Юдаков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "40",
-			"HeadOfDepartment": false,
-			"Position": "11"
-		}
-	]
+  "Id": "65",
+  "FirstName": "Сергей",
+  "MiddleName": "Владимирович",
+  "LastName": "Юдаков",
+  "Time": 0.5,
+  "StartDate": "1996-12-17T00:00:00",
+  "BirthDate": "1963-06-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "11",
+      "Department": "40"
+    }
+  ]
 }

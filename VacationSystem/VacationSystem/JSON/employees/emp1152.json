@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1152",
-	"FirstName": "Валентина",
-	"MiddleName": "Станиславовна",
-	"LastName": "Яковлева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "17",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "1152",
+  "FirstName": "Валентина",
+  "MiddleName": "Станиславовна",
+  "LastName": "Яковлева",
+  "Time": 1,
+  "StartDate": "2013-09-03T00:00:00",
+  "BirthDate": "1991-11-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "17"
+    }
+  ]
 }

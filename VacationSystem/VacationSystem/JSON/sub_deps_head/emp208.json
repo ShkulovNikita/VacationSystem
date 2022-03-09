@@ -1,0 +1,10 @@
+﻿{
+  "Departments": [
+    {
+      "Id": "76",
+      "Name": "Отдел охраны труда",
+      "Head": "208",
+      "HeadDepartment": "265"
+    }
+  ]
+}

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "707",
-	"FirstName": "Марина",
-	"MiddleName": "Николаевна",
-	"LastName": "Шило",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "33",
-			"HeadOfDepartment": false,
-			"Position": "39"
-		}
-	]
+  "Id": "707",
+  "FirstName": "Марина",
+  "MiddleName": "Николаевна",
+  "LastName": "Шило",
+  "Time": 1,
+  "StartDate": "2004-03-06T00:00:00",
+  "BirthDate": "1966-04-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "39",
+      "Department": "33"
+    }
+  ]
 }

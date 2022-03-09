@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1175",
-	"FirstName": "Яна",
-	"MiddleName": "Васильевна",
-	"LastName": "Рощик",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "57",
-			"HeadOfDepartment": false,
-			"Position": "70"
-		}
-	]
+  "Id": "1175",
+  "FirstName": "Яна",
+  "MiddleName": "Васильевна",
+  "LastName": "Рощик",
+  "Time": 0.5,
+  "StartDate": "2014-04-06T00:00:00",
+  "BirthDate": "1991-05-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "70",
+      "Department": "57"
+    }
+  ]
 }

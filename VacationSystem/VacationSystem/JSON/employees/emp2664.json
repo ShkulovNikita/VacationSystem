@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2664",
-	"FirstName": "Екатерина",
-	"MiddleName": "Алексеевна",
-	"LastName": "Семенова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "79",
-			"HeadOfDepartment": false,
-			"Position": "161"
-		}
-	]
+  "Id": "2664",
+  "FirstName": "Екатерина",
+  "MiddleName": "Алексеевна",
+  "LastName": "Семенова",
+  "Time": 1,
+  "StartDate": "2021-10-08T00:00:00",
+  "BirthDate": "1958-06-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "161",
+      "Department": "79"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1582",
-	"FirstName": "Анна",
-	"MiddleName": "Николаевна",
-	"LastName": "Панамарёва",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "0",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "1582",
+  "FirstName": "Анна",
+  "MiddleName": "Николаевна",
+  "LastName": "Панамарёва",
+  "Time": 1,
+  "StartDate": "2021-01-12T00:00:00",
+  "BirthDate": "1993-10-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "0"
+    }
+  ]
 }

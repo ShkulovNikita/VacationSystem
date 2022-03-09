@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1711",
-	"FirstName": "Виктор",
-	"MiddleName": "Александрович",
-	"LastName": "Варламов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "110",
-			"HeadOfDepartment": false,
-			"Position": "119"
-		}
-	]
+  "Id": "1711",
+  "FirstName": "Виктор",
+  "MiddleName": "Александрович",
+  "LastName": "Варламов",
+  "Time": 0.5,
+  "StartDate": "2020-12-03T00:00:00",
+  "BirthDate": "1976-07-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "119",
+      "Department": "110"
+    }
+  ]
 }

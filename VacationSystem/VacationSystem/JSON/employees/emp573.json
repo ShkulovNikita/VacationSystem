@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "573",
-	"FirstName": "Татьяна",
-	"MiddleName": "Степановна",
-	"LastName": "Аникина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "155",
-			"HeadOfDepartment": false,
-			"Position": "20"
-		}
-	]
+  "Id": "573",
+  "FirstName": "Татьяна",
+  "MiddleName": "Степановна",
+  "LastName": "Аникина",
+  "Time": 1,
+  "StartDate": "2000-03-04T00:00:00",
+  "BirthDate": "1973-06-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "20",
+      "Department": "155"
+    }
+  ]
 }

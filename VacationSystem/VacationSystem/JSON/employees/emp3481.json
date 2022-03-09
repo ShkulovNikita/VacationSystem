@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3481",
-	"FirstName": "Алексей",
-	"MiddleName": "Викторович",
-	"LastName": "Вергунов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "1",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		}
-	]
+  "Id": "3481",
+  "FirstName": "Алексей",
+  "MiddleName": "Викторович",
+  "LastName": "Вергунов",
+  "Time": 1,
+  "StartDate": "1996-02-02T00:00:00",
+  "BirthDate": "1952-10-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "1"
+    }
+  ]
 }

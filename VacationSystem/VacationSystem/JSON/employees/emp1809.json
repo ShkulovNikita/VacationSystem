@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1809",
-	"FirstName": "Ксения",
-	"MiddleName": "Валерьевна",
-	"LastName": "Антюшина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "230",
-			"HeadOfDepartment": false,
-			"Position": "163"
-		}
-	]
+  "Id": "1809",
+  "FirstName": "Ксения",
+  "MiddleName": "Валерьевна",
+  "LastName": "Антюшина",
+  "Time": 0.5,
+  "StartDate": "2014-06-10T00:00:00",
+  "BirthDate": "1971-10-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "163",
+      "Department": "230"
+    }
+  ]
 }

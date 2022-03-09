@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "709",
-	"FirstName": "Екатерина",
-	"MiddleName": "Андреевна",
-	"LastName": "Горбунова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "97",
-			"HeadOfDepartment": false,
-			"Position": "71"
-		}
-	]
+  "Id": "709",
+  "FirstName": "Екатерина",
+  "MiddleName": "Андреевна",
+  "LastName": "Горбунова",
+  "Time": 1,
+  "StartDate": "1984-07-03T00:00:00",
+  "BirthDate": "1955-01-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "71",
+      "Department": "97"
+    }
+  ]
 }

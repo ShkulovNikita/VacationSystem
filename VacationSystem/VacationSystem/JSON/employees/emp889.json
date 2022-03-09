@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "889",
-	"FirstName": "Игорь",
-	"MiddleName": "Алексеевич",
-	"LastName": "Сычев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "30",
-			"HeadOfDepartment": false,
-			"Position": "102"
-		}
-	]
+  "Id": "889",
+  "FirstName": "Игорь",
+  "MiddleName": "Алексеевич",
+  "LastName": "Сычев",
+  "Time": 1,
+  "StartDate": "2014-06-06T00:00:00",
+  "BirthDate": "1980-09-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "102",
+      "Department": "30"
+    }
+  ]
 }

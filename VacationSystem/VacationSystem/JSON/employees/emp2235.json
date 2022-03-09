@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2235",
-	"FirstName": "Ольга",
-	"MiddleName": "Владимировна",
-	"LastName": "Шабаловская",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "84",
-			"HeadOfDepartment": false,
-			"Position": "18"
-		}
-	]
+  "Id": "2235",
+  "FirstName": "Ольга",
+  "MiddleName": "Владимировна",
+  "LastName": "Шабаловская",
+  "Time": 1,
+  "StartDate": "2003-09-22T00:00:00",
+  "BirthDate": "1955-08-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "18",
+      "Department": "84"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "564",
-	"FirstName": "Иван",
-	"MiddleName": "Васильевич",
-	"LastName": "Гончаров",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "1",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "564",
+  "FirstName": "Иван",
+  "MiddleName": "Васильевич",
+  "LastName": "Гончаров",
+  "Time": 0.5,
+  "StartDate": "2013-08-15T00:00:00",
+  "BirthDate": "1990-02-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "1"
+    }
+  ]
 }

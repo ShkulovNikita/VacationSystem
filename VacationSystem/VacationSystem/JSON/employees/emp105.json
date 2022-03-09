@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "105",
-	"FirstName": "Кирилл",
-	"MiddleName": "Анатольевич",
-	"LastName": "Рядовой",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "45",
-			"HeadOfDepartment": false,
-			"Position": "16"
-		}
-	]
+  "Id": "105",
+  "FirstName": "Кирилл",
+  "MiddleName": "Анатольевич",
+  "LastName": "Рядовой",
+  "Time": 0.5,
+  "StartDate": "2008-01-12T00:00:00",
+  "BirthDate": "1980-04-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "16",
+      "Department": "45"
+    }
+  ]
 }

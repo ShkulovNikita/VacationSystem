@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3357",
-	"FirstName": "Елена",
-	"MiddleName": "Леонидовна",
-	"LastName": "Максимова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "91",
-			"HeadOfDepartment": false,
-			"Position": "241"
-		}
-	]
+  "Id": "3357",
+  "FirstName": "Елена",
+  "MiddleName": "Леонидовна",
+  "LastName": "Максимова",
+  "Time": 1,
+  "StartDate": "2017-03-21T00:00:00",
+  "BirthDate": "1987-03-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "241",
+      "Department": "91"
+    }
+  ]
 }

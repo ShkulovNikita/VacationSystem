@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1469",
-	"FirstName": "Александр",
-	"MiddleName": "Павлович",
-	"LastName": "Родзевич",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "12",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "1469",
+  "FirstName": "Александр",
+  "MiddleName": "Павлович",
+  "LastName": "Родзевич",
+  "Time": 0.5,
+  "StartDate": "1975-04-06T00:00:00",
+  "BirthDate": "1952-01-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "12"
+    }
+  ]
 }

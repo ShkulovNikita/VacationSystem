@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1649",
-	"FirstName": "Анна",
-	"MiddleName": "Леонидовна",
-	"LastName": "Юмашева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "26",
-			"HeadOfDepartment": false,
-			"Position": "7"
-		}
-	]
+  "Id": "1649",
+  "FirstName": "Анна",
+  "MiddleName": "Леонидовна",
+  "LastName": "Юмашева",
+  "Time": 0.5,
+  "StartDate": "1990-08-18T00:00:00",
+  "BirthDate": "1963-04-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "7",
+      "Department": "26"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1551",
-	"FirstName": "Сания",
-	"MiddleName": "Велдановна",
-	"LastName": "Бикова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "1",
-			"HeadOfDepartment": false,
-			"Position": "2"
-		}
-	]
+  "Id": "1551",
+  "FirstName": "Сания",
+  "MiddleName": "Велдановна",
+  "LastName": "Бикова",
+  "Time": 1,
+  "StartDate": "2018-10-12T00:00:00",
+  "BirthDate": "1980-09-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "2",
+      "Department": "1"
+    }
+  ]
 }

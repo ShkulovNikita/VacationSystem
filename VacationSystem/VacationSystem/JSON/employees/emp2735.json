@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2735",
-	"FirstName": "Елена",
-	"MiddleName": "Николаевна",
-	"LastName": "Акерман",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "14",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "2735",
+  "FirstName": "Елена",
+  "MiddleName": "Николаевна",
+  "LastName": "Акерман",
+  "Time": 1,
+  "StartDate": "2007-03-24T00:00:00",
+  "BirthDate": "1971-10-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "14"
+    }
+  ]
 }

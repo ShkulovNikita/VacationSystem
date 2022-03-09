@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3042",
-	"FirstName": "Ирина",
-	"MiddleName": "Ивановна",
-	"LastName": "Костик",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "34",
-			"HeadOfDepartment": false,
-			"Position": "110"
-		}
-	]
+  "Id": "3042",
+  "FirstName": "Ирина",
+  "MiddleName": "Ивановна",
+  "LastName": "Костик",
+  "Time": 0.5,
+  "StartDate": "2011-05-11T00:00:00",
+  "BirthDate": "1959-04-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "110",
+      "Department": "34"
+    }
+  ]
 }

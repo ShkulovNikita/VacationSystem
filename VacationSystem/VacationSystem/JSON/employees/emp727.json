@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "727",
-	"FirstName": "Виктор",
-	"MiddleName": "Андреевич",
-	"LastName": "Нукша",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "59",
-			"HeadOfDepartment": false,
-			"Position": "124"
-		}
-	]
+  "Id": "727",
+  "FirstName": "Виктор",
+  "MiddleName": "Андреевич",
+  "LastName": "Нукша",
+  "Time": 1,
+  "StartDate": "2019-10-13T00:00:00",
+  "BirthDate": "1989-04-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "124",
+      "Department": "59"
+    }
+  ]
 }

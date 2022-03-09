@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1011",
-	"FirstName": "Елена",
-	"MiddleName": "Васильевна",
-	"LastName": "Савельева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "84",
-			"HeadOfDepartment": false,
-			"Position": "16"
-		}
-	]
+  "Id": "1011",
+  "FirstName": "Елена",
+  "MiddleName": "Васильевна",
+  "LastName": "Савельева",
+  "Time": 1,
+  "StartDate": "2009-05-17T00:00:00",
+  "BirthDate": "1974-04-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "16",
+      "Department": "84"
+    }
+  ]
 }

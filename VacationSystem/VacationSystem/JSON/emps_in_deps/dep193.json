@@ -1,0 +1,79 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "1057",
+      "FirstName": "Анатолий",
+      "MiddleName": "Константинович",
+      "LastName": "Темник",
+      "Time": 0.5,
+      "StartDate": "2012-06-12T00:00:00",
+      "BirthDate": "1990-03-19T00:00:00",
+      "Positions": [
+        {
+          "Position": "11",
+          "Department": "193"
+        }
+      ]
+    },
+    {
+      "Id": "1958",
+      "FirstName": "Андрей",
+      "MiddleName": "Викторович",
+      "LastName": "Батранин",
+      "Time": 0.5,
+      "StartDate": "2005-01-06T00:00:00",
+      "BirthDate": "1952-10-23T00:00:00",
+      "Positions": [
+        {
+          "Position": "26",
+          "Department": "193"
+        }
+      ]
+    },
+    {
+      "Id": "2169",
+      "FirstName": "Анатолий",
+      "MiddleName": "Васильевич",
+      "LastName": "Глазков",
+      "Time": 1,
+      "StartDate": "2014-02-17T00:00:00",
+      "BirthDate": "1990-09-06T00:00:00",
+      "Positions": [
+        {
+          "Position": "11",
+          "Department": "193"
+        }
+      ]
+    },
+    {
+      "Id": "2394",
+      "FirstName": "Сергей",
+      "MiddleName": "Владимирович",
+      "LastName": "Чахлов",
+      "Time": 1,
+      "StartDate": "2010-11-11T00:00:00",
+      "BirthDate": "1980-05-16T00:00:00",
+      "Positions": [
+        {
+          "Position": "2",
+          "Department": "193"
+        }
+      ]
+    },
+    {
+      "Id": "2760",
+      "FirstName": "Сергей",
+      "MiddleName": "Павлович",
+      "LastName": "Осипов",
+      "Time": 0.5,
+      "StartDate": "1986-10-05T00:00:00",
+      "BirthDate": "1957-05-04T00:00:00",
+      "Positions": [
+        {
+          "Position": "41",
+          "Department": "193"
+        }
+      ]
+    }
+  ]
+}

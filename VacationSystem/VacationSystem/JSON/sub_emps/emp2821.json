@@ -1,0 +1,128 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "330",
+      "FirstName": "Наталья",
+      "MiddleName": "Владимировна",
+      "LastName": "Авдеева",
+      "Time": 1,
+      "StartDate": "1975-06-20T00:00:00",
+      "BirthDate": "1955-03-01T00:00:00",
+      "Positions": [
+        {
+          "Position": "25",
+          "Department": "121"
+        }
+      ]
+    },
+    {
+      "Id": "1264",
+      "FirstName": "Галина",
+      "MiddleName": "Анатольевна",
+      "LastName": "Лютц",
+      "Time": 1.5,
+      "StartDate": "2008-09-02T00:00:00",
+      "BirthDate": "1985-07-03T00:00:00",
+      "Positions": [
+        {
+          "Position": "25",
+          "Department": "41"
+        },
+        {
+          "Position": "160",
+          "Department": "121"
+        }
+      ]
+    },
+    {
+      "Id": "1658",
+      "FirstName": "Любовь",
+      "MiddleName": "Петровна",
+      "LastName": "Прохоренко",
+      "Time": 0.5,
+      "StartDate": "2008-05-21T00:00:00",
+      "BirthDate": "1983-09-14T00:00:00",
+      "Positions": [
+        {
+          "Position": "160",
+          "Department": "121"
+        }
+      ]
+    },
+    {
+      "Id": "2519",
+      "FirstName": "Нина",
+      "MiddleName": "Федоровна",
+      "LastName": "Шувалова",
+      "Time": 1,
+      "StartDate": "2021-10-14T00:00:00",
+      "BirthDate": "1978-07-03T00:00:00",
+      "Positions": [
+        {
+          "Position": "160",
+          "Department": "121"
+        }
+      ]
+    },
+    {
+      "Id": "2585",
+      "FirstName": "Тамара",
+      "MiddleName": "Михайловна",
+      "LastName": "Будовская",
+      "Time": 0.5,
+      "StartDate": "2003-11-01T00:00:00",
+      "BirthDate": "1981-10-12T00:00:00",
+      "Positions": [
+        {
+          "Position": "160",
+          "Department": "121"
+        }
+      ]
+    },
+    {
+      "Id": "2821",
+      "FirstName": "Ирина",
+      "MiddleName": "Борисовна",
+      "LastName": "Уртамова",
+      "Time": 0.5,
+      "StartDate": "2001-09-15T00:00:00",
+      "BirthDate": "1966-05-17T00:00:00",
+      "Positions": [
+        {
+          "Position": "160",
+          "Department": "121"
+        }
+      ]
+    },
+    {
+      "Id": "2866",
+      "FirstName": "Сергей",
+      "MiddleName": "Иванович",
+      "LastName": "Шелудько",
+      "Time": 1,
+      "StartDate": "2016-05-17T00:00:00",
+      "BirthDate": "1955-12-19T00:00:00",
+      "Positions": [
+        {
+          "Position": "180",
+          "Department": "121"
+        }
+      ]
+    },
+    {
+      "Id": "2995",
+      "FirstName": "Галина",
+      "MiddleName": "Сергеевна",
+      "LastName": "Уртамова",
+      "Time": 1,
+      "StartDate": "2019-07-01T00:00:00",
+      "BirthDate": "1981-09-05T00:00:00",
+      "Positions": [
+        {
+          "Position": "160",
+          "Department": "121"
+        }
+      ]
+    }
+  ]
+}

@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "983",
-	"FirstName": "Олег",
-	"MiddleName": "Леонидович",
-	"LastName": "Хасанов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "137",
-			"HeadOfDepartment": false,
-			"Position": "45"
-		},
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "983",
+  "FirstName": "Олег",
+  "MiddleName": "Леонидович",
+  "LastName": "Хасанов",
+  "Time": 1,
+  "StartDate": "2014-01-20T00:00:00",
+  "BirthDate": "1952-01-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "45",
+      "Department": "137"
+    },
+    {
+      "Position": "13",
+      "Department": "15"
+    }
+  ]
 }

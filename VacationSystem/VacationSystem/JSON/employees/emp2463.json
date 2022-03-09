@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "2463",
-	"FirstName": "Андрей",
-	"MiddleName": "Владимирович",
-	"LastName": "Проскоков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "54"
-		},
-		{
-			"Id": "12",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "2463",
+  "FirstName": "Андрей",
+  "MiddleName": "Владимирович",
+  "LastName": "Проскоков",
+  "Time": 1.5,
+  "StartDate": "2020-12-11T00:00:00",
+  "BirthDate": "1988-12-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "54",
+      "Department": "2"
+    },
+    {
+      "Position": "1",
+      "Department": "12"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3433",
-	"FirstName": "Арсений",
-	"MiddleName": "Александрович",
-	"LastName": "Барышников",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "16",
-			"HeadOfDepartment": false,
-			"Position": "25"
-		}
-	]
+  "Id": "3433",
+  "FirstName": "Арсений",
+  "MiddleName": "Александрович",
+  "LastName": "Барышников",
+  "Time": 1,
+  "StartDate": "2002-04-11T00:00:00",
+  "BirthDate": "1977-04-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "25",
+      "Department": "16"
+    }
+  ]
 }

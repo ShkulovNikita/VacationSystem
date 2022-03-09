@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1904",
-	"FirstName": "Денис",
-	"MiddleName": "Иванович",
-	"LastName": "Шипицын",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "59",
-			"HeadOfDepartment": false,
-			"Position": "37"
-		}
-	]
+  "Id": "1904",
+  "FirstName": "Денис",
+  "MiddleName": "Иванович",
+  "LastName": "Шипицын",
+  "Time": 0.5,
+  "StartDate": "2001-05-18T00:00:00",
+  "BirthDate": "1964-04-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "37",
+      "Department": "59"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1185",
-	"FirstName": "Светлана",
-	"MiddleName": "Николаевна",
-	"LastName": "Дегтярева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "12",
-			"HeadOfDepartment": false,
-			"Position": "96"
-		}
-	]
+  "Id": "1185",
+  "FirstName": "Светлана",
+  "MiddleName": "Николаевна",
+  "LastName": "Дегтярева",
+  "Time": 1,
+  "StartDate": "2014-06-22T00:00:00",
+  "BirthDate": "1993-04-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "96",
+      "Department": "12"
+    }
+  ]
 }

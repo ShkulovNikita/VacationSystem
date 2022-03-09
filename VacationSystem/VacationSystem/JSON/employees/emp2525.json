@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2525",
-	"FirstName": "Александра",
-	"MiddleName": "Андреевна",
-	"LastName": "Ислямова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "1",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "2525",
+  "FirstName": "Александра",
+  "MiddleName": "Андреевна",
+  "LastName": "Ислямова",
+  "Time": 1,
+  "StartDate": "2019-03-17T00:00:00",
+  "BirthDate": "1983-06-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "1"
+    }
+  ]
 }

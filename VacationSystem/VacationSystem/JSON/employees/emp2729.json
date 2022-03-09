@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2729",
-	"FirstName": "Юлия",
-	"MiddleName": "Захаровна",
-	"LastName": "Васильева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "103"
-		}
-	]
+  "Id": "2729",
+  "FirstName": "Юлия",
+  "MiddleName": "Захаровна",
+  "LastName": "Васильева",
+  "Time": 1,
+  "StartDate": "2021-02-17T00:00:00",
+  "BirthDate": "1980-02-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "103",
+      "Department": "2"
+    }
+  ]
 }

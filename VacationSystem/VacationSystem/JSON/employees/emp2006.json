@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2006",
-	"FirstName": "Владимир",
-	"MiddleName": "Георгиевич",
-	"LastName": "Житков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "1",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "2006",
+  "FirstName": "Владимир",
+  "MiddleName": "Георгиевич",
+  "LastName": "Житков",
+  "Time": 1,
+  "StartDate": "2014-12-14T00:00:00",
+  "BirthDate": "1963-02-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "1"
+    }
+  ]
 }

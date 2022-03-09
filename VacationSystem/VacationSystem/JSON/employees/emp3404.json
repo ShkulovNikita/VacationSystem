@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3404",
-	"FirstName": "Владислав",
-	"MiddleName": "Алексеевич",
-	"LastName": "Шевчук",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "3404",
+  "FirstName": "Владислав",
+  "MiddleName": "Алексеевич",
+  "LastName": "Шевчук",
+  "Time": 0.5,
+  "StartDate": "2002-02-14T00:00:00",
+  "BirthDate": "1953-03-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "2"
+    }
+  ]
 }

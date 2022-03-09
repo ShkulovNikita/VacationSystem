@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3658",
-	"FirstName": "Джамалутдин",
-	"MiddleName": "Магомедович",
-	"LastName": "Муртузалиев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "34",
-			"HeadOfDepartment": false,
-			"Position": "64"
-		}
-	]
+  "Id": "3658",
+  "FirstName": "Джамалутдин",
+  "MiddleName": "Магомедович",
+  "LastName": "Муртузалиев",
+  "Time": 1,
+  "StartDate": "1992-11-17T00:00:00",
+  "BirthDate": "1969-02-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "64",
+      "Department": "34"
+    }
+  ]
 }

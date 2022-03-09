@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "2743",
-	"FirstName": "Александр",
-	"MiddleName": "Владимирович",
-	"LastName": "Астафьев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "39",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		},
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "2743",
+  "FirstName": "Александр",
+  "MiddleName": "Владимирович",
+  "LastName": "Астафьев",
+  "Time": 2,
+  "StartDate": "2007-12-09T00:00:00",
+  "BirthDate": "1959-04-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "39"
+    },
+    {
+      "Position": "3",
+      "Department": "2"
+    }
+  ]
 }

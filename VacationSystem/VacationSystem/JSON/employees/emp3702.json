@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3702",
-	"FirstName": "Николай",
-	"MiddleName": "Алексеевич",
-	"LastName": "Языков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "39",
-			"HeadOfDepartment": false,
-			"Position": "24"
-		}
-	]
+  "Id": "3702",
+  "FirstName": "Николай",
+  "MiddleName": "Алексеевич",
+  "LastName": "Языков",
+  "Time": 1,
+  "StartDate": "2009-04-10T00:00:00",
+  "BirthDate": "1974-09-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "24",
+      "Department": "39"
+    }
+  ]
 }

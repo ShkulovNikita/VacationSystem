@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "192",
-	"FirstName": "Елена",
-	"MiddleName": "Борисовна",
-	"LastName": "Ворсина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "85",
-			"HeadOfDepartment": false,
-			"Position": "60"
-		}
-	]
+  "Id": "192",
+  "FirstName": "Елена",
+  "MiddleName": "Борисовна",
+  "LastName": "Ворсина",
+  "Time": 1,
+  "StartDate": "2000-04-08T00:00:00",
+  "BirthDate": "1954-09-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "60",
+      "Department": "85"
+    }
+  ]
 }

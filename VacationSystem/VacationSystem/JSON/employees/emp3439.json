@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3439",
-	"FirstName": "Игорь",
-	"MiddleName": "Павлович",
-	"LastName": "Васильев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "102",
-			"HeadOfDepartment": false,
-			"Position": "25"
-		}
-	]
+  "Id": "3439",
+  "FirstName": "Игорь",
+  "MiddleName": "Павлович",
+  "LastName": "Васильев",
+  "Time": 0.5,
+  "StartDate": "1996-10-09T00:00:00",
+  "BirthDate": "1974-02-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "25",
+      "Department": "102"
+    }
+  ]
 }

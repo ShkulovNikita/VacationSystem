@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1186",
-	"FirstName": "Александр",
-	"MiddleName": "Иванович",
-	"LastName": "Губин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "75",
-			"HeadOfDepartment": false,
-			"Position": "155"
-		}
-	]
+  "Id": "1186",
+  "FirstName": "Александр",
+  "MiddleName": "Иванович",
+  "LastName": "Губин",
+  "Time": 0.5,
+  "StartDate": "2006-09-04T00:00:00",
+  "BirthDate": "1968-12-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "155",
+      "Department": "75"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "678",
-	"FirstName": "Алексей",
-	"MiddleName": "Иванович",
-	"LastName": "Солдатов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "8",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "678",
+  "FirstName": "Алексей",
+  "MiddleName": "Иванович",
+  "LastName": "Солдатов",
+  "Time": 0.5,
+  "StartDate": "2011-08-16T00:00:00",
+  "BirthDate": "1987-04-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "8"
+    }
+  ]
 }

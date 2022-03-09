@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1458",
-	"FirstName": "Роман",
-	"MiddleName": "Сергеевич",
-	"LastName": "Цыганков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "1458",
+  "FirstName": "Роман",
+  "MiddleName": "Сергеевич",
+  "LastName": "Цыганков",
+  "Time": 1,
+  "StartDate": "2008-07-03T00:00:00",
+  "BirthDate": "1961-04-15T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "15"
+    }
+  ]
 }

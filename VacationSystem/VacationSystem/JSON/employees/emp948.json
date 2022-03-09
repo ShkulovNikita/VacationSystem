@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "948",
-	"FirstName": "Ольга",
-	"MiddleName": "Владимировна",
-	"LastName": "Халошина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "33",
-			"HeadOfDepartment": false,
-			"Position": "10"
-		}
-	]
+  "Id": "948",
+  "FirstName": "Ольга",
+  "MiddleName": "Владимировна",
+  "LastName": "Халошина",
+  "Time": 1,
+  "StartDate": "2007-02-09T00:00:00",
+  "BirthDate": "1963-12-10T00:00:00",
+  "Positions": [
+    {
+      "Position": "10",
+      "Department": "33"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2389",
-	"FirstName": "Анастасия",
-	"MiddleName": "Иннокентьевна",
-	"LastName": "Назырова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "91",
-			"HeadOfDepartment": false,
-			"Position": "236"
-		}
-	]
+  "Id": "2389",
+  "FirstName": "Анастасия",
+  "MiddleName": "Иннокентьевна",
+  "LastName": "Назырова",
+  "Time": 0.5,
+  "StartDate": "2003-10-12T00:00:00",
+  "BirthDate": "1968-12-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "236",
+      "Department": "91"
+    }
+  ]
 }

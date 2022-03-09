@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "1023",
-	"FirstName": "Юлия",
-	"MiddleName": "Игоревна",
-	"LastName": "Шулинина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "6"
-		},
-		{
-			"Id": "3",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		}
-	]
+  "Id": "1023",
+  "FirstName": "Юлия",
+  "MiddleName": "Игоревна",
+  "LastName": "Шулинина",
+  "Time": 2,
+  "StartDate": "1996-04-06T00:00:00",
+  "BirthDate": "1970-08-11T00:00:00",
+  "Positions": [
+    {
+      "Position": "6",
+      "Department": "2"
+    },
+    {
+      "Position": "28",
+      "Department": "3"
+    }
+  ]
 }

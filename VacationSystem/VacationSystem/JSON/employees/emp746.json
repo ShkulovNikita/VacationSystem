@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "746",
-	"FirstName": "Михаил",
-	"MiddleName": "Леонидович",
-	"LastName": "Шинкеев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "53",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "746",
+  "FirstName": "Михаил",
+  "MiddleName": "Леонидович",
+  "LastName": "Шинкеев",
+  "Time": 0.5,
+  "StartDate": "2012-11-12T00:00:00",
+  "BirthDate": "1959-07-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "53"
+    }
+  ]
 }

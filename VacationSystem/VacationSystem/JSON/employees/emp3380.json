@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3380",
-	"FirstName": "Александр",
-	"MiddleName": "Николаевич",
-	"LastName": "Сенотрусов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "199",
-			"HeadOfDepartment": false,
-			"Position": "64"
-		}
-	]
+  "Id": "3380",
+  "FirstName": "Александр",
+  "MiddleName": "Николаевич",
+  "LastName": "Сенотрусов",
+  "Time": 1,
+  "StartDate": "1998-01-12T00:00:00",
+  "BirthDate": "1967-04-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "64",
+      "Department": "199"
+    }
+  ]
 }

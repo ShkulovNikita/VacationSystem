@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "216",
-	"FirstName": "Дан",
-	"MiddleName": "Александрович",
-	"LastName": "Веригин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "17",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "216",
+  "FirstName": "Дан",
+  "MiddleName": "Александрович",
+  "LastName": "Веригин",
+  "Time": 0.5,
+  "StartDate": "2013-08-02T00:00:00",
+  "BirthDate": "1984-06-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "17"
+    }
+  ]
 }

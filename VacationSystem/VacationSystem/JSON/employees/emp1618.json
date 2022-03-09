@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1618",
-	"FirstName": "Татьяна",
-	"MiddleName": "Викторовна",
-	"LastName": "Каркавина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "34",
-			"HeadOfDepartment": false,
-			"Position": "22"
-		}
-	]
+  "Id": "1618",
+  "FirstName": "Татьяна",
+  "MiddleName": "Викторовна",
+  "LastName": "Каркавина",
+  "Time": 0.5,
+  "StartDate": "2014-01-07T00:00:00",
+  "BirthDate": "1993-07-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "22",
+      "Department": "34"
+    }
+  ]
 }

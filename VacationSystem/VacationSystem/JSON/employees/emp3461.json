@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3461",
-	"FirstName": "Виктор",
-	"MiddleName": "Викторович",
-	"LastName": "Леонов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "85",
-			"HeadOfDepartment": false,
-			"Position": "214"
-		}
-	]
+  "Id": "3461",
+  "FirstName": "Виктор",
+  "MiddleName": "Викторович",
+  "LastName": "Леонов",
+  "Time": 1,
+  "StartDate": "2011-04-18T00:00:00",
+  "BirthDate": "1970-04-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "214",
+      "Department": "85"
+    }
+  ]
 }

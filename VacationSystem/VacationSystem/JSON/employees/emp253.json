@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "253",
-	"FirstName": "Андрей",
-	"MiddleName": "Александрович",
-	"LastName": "Сечин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "93",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		},
-		{
-			"Id": "93",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "253",
+  "FirstName": "Андрей",
+  "MiddleName": "Александрович",
+  "LastName": "Сечин",
+  "Time": 2,
+  "StartDate": "2018-03-20T00:00:00",
+  "BirthDate": "1971-08-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "93"
+    },
+    {
+      "Position": "1",
+      "Department": "93"
+    }
+  ]
 }

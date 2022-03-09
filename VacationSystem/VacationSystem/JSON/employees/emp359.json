@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "359",
-	"FirstName": "Надежда",
-	"MiddleName": "Алексеевна",
-	"LastName": "Загибалова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "11"
-		}
-	]
+  "Id": "359",
+  "FirstName": "Надежда",
+  "MiddleName": "Алексеевна",
+  "LastName": "Загибалова",
+  "Time": 1,
+  "StartDate": "1987-07-11T00:00:00",
+  "BirthDate": "1961-02-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "11",
+      "Department": "2"
+    }
+  ]
 }

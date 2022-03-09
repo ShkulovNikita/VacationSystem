@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2856",
-	"FirstName": "Оюна",
-	"MiddleName": "Александровна",
-	"LastName": "Дымбрылова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "16",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "2856",
+  "FirstName": "Оюна",
+  "MiddleName": "Александровна",
+  "LastName": "Дымбрылова",
+  "Time": 1,
+  "StartDate": "2005-07-23T00:00:00",
+  "BirthDate": "1966-08-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "16"
+    }
+  ]
 }

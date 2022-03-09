@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2616",
-	"FirstName": "Ирина",
-	"MiddleName": "Олеговна",
-	"LastName": "Сухинина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "96",
-			"HeadOfDepartment": false,
-			"Position": "14"
-		}
-	]
+  "Id": "2616",
+  "FirstName": "Ирина",
+  "MiddleName": "Олеговна",
+  "LastName": "Сухинина",
+  "Time": 1,
+  "StartDate": "1997-04-06T00:00:00",
+  "BirthDate": "1960-11-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "14",
+      "Department": "96"
+    }
+  ]
 }

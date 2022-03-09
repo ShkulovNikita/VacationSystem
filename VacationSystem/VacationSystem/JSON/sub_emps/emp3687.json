@@ -1,0 +1,23 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "3687",
+      "FirstName": "Елена",
+      "MiddleName": "Андреевна",
+      "LastName": "Шараевская",
+      "Time": 2,
+      "StartDate": "2008-11-06T00:00:00",
+      "BirthDate": "1969-11-10T00:00:00",
+      "Positions": [
+        {
+          "Position": "289",
+          "Department": "272"
+        },
+        {
+          "Position": "289",
+          "Department": "91"
+        }
+      ]
+    }
+  ]
+}

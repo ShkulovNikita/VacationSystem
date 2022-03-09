@@ -1,0 +1,128 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "482",
+      "FirstName": "Юрий",
+      "MiddleName": "Александрович",
+      "LastName": "Ткаченко",
+      "Time": 1,
+      "StartDate": "2012-10-23T00:00:00",
+      "BirthDate": "1955-09-16T00:00:00",
+      "Positions": [
+        {
+          "Position": "7",
+          "Department": "142"
+        },
+        {
+          "Position": "102",
+          "Department": "125"
+        }
+      ]
+    },
+    {
+      "Id": "1101",
+      "FirstName": "Наталья",
+      "MiddleName": "Геннадьевна",
+      "LastName": "Повинич",
+      "Time": 1,
+      "StartDate": "2004-03-16T00:00:00",
+      "BirthDate": "1974-09-21T00:00:00",
+      "Positions": [
+        {
+          "Position": "10",
+          "Department": "142"
+        }
+      ]
+    },
+    {
+      "Id": "1547",
+      "FirstName": "Наталья",
+      "MiddleName": "Борисовна",
+      "LastName": "Зайдулина",
+      "Time": 1,
+      "StartDate": "2012-10-05T00:00:00",
+      "BirthDate": "1985-03-03T00:00:00",
+      "Positions": [
+        {
+          "Position": "187",
+          "Department": "142"
+        }
+      ]
+    },
+    {
+      "Id": "2042",
+      "FirstName": "Лариса",
+      "MiddleName": "Владимировна",
+      "LastName": "Урюмцева",
+      "Time": 1,
+      "StartDate": "2007-04-18T00:00:00",
+      "BirthDate": "1970-10-07T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "142"
+        }
+      ]
+    },
+    {
+      "Id": "2204",
+      "FirstName": "Екатерина",
+      "MiddleName": "Увинаминовна",
+      "LastName": "Баева",
+      "Time": 1,
+      "StartDate": "2015-09-05T00:00:00",
+      "BirthDate": "1972-04-10T00:00:00",
+      "Positions": [
+        {
+          "Position": "187",
+          "Department": "142"
+        }
+      ]
+    },
+    {
+      "Id": "2670",
+      "FirstName": "Надежда",
+      "MiddleName": "Анатольевна",
+      "LastName": "Ивлева",
+      "Time": 1,
+      "StartDate": "2014-03-22T00:00:00",
+      "BirthDate": "1985-02-21T00:00:00",
+      "Positions": [
+        {
+          "Position": "187",
+          "Department": "142"
+        }
+      ]
+    },
+    {
+      "Id": "2853",
+      "FirstName": "Наталья",
+      "MiddleName": "Александровна",
+      "LastName": "Феоктистова",
+      "Time": 1,
+      "StartDate": "2008-01-21T00:00:00",
+      "BirthDate": "1969-11-19T00:00:00",
+      "Positions": [
+        {
+          "Position": "187",
+          "Department": "142"
+        }
+      ]
+    },
+    {
+      "Id": "3590",
+      "FirstName": "Елена",
+      "MiddleName": "Николаевна",
+      "LastName": "Пономарева",
+      "Time": 1,
+      "StartDate": "2015-08-06T00:00:00",
+      "BirthDate": "1970-11-21T00:00:00",
+      "Positions": [
+        {
+          "Position": "187",
+          "Department": "142"
+        }
+      ]
+    }
+  ]
+}

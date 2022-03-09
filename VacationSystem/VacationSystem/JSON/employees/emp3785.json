@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3785",
-	"FirstName": "Антон",
-	"MiddleName": "Эдуардович",
-	"LastName": "Моисеев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "131",
-			"HeadOfDepartment": false,
-			"Position": "297"
-		}
-	]
+  "Id": "3785",
+  "FirstName": "Антон",
+  "MiddleName": "Эдуардович",
+  "LastName": "Моисеев",
+  "Time": 0.5,
+  "StartDate": "2005-10-16T00:00:00",
+  "BirthDate": "1972-08-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "297",
+      "Department": "131"
+    }
+  ]
 }

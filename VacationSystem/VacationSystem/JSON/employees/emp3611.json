@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3611",
-	"FirstName": "Евгения",
-	"MiddleName": "Сергеевна",
-	"LastName": "Шеремет",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "32",
-			"HeadOfDepartment": false,
-			"Position": "13"
-		}
-	]
+  "Id": "3611",
+  "FirstName": "Евгения",
+  "MiddleName": "Сергеевна",
+  "LastName": "Шеремет",
+  "Time": 1,
+  "StartDate": "2004-08-11T00:00:00",
+  "BirthDate": "1967-02-17T00:00:00",
+  "Positions": [
+    {
+      "Position": "13",
+      "Department": "32"
+    }
+  ]
 }

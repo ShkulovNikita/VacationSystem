@@ -1,0 +1,207 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "371",
+      "FirstName": "Евгений",
+      "MiddleName": "Юрьевич",
+      "LastName": "Барабошкин",
+      "Time": 1,
+      "StartDate": "2013-11-02T00:00:00",
+      "BirthDate": "1974-09-23T00:00:00",
+      "Positions": [
+        {
+          "Position": "11",
+          "Department": "127"
+        }
+      ]
+    },
+    {
+      "Id": "655",
+      "FirstName": "Сергей",
+      "MiddleName": "Валерьевич",
+      "LastName": "Парначев",
+      "Time": 1,
+      "StartDate": "2016-12-17T00:00:00",
+      "BirthDate": "1959-12-19T00:00:00",
+      "Positions": [
+        {
+          "Position": "11",
+          "Department": "127"
+        }
+      ]
+    },
+    {
+      "Id": "1541",
+      "FirstName": "Михаил",
+      "MiddleName": "Олегович",
+      "LastName": "Коровин",
+      "Time": 2,
+      "StartDate": "2013-06-03T00:00:00",
+      "BirthDate": "1990-06-18T00:00:00",
+      "Positions": [
+        {
+          "Position": "1",
+          "Department": "46"
+        },
+        {
+          "Position": "3",
+          "Department": "127"
+        }
+      ]
+    },
+    {
+      "Id": "1584",
+      "FirstName": "Сергей",
+      "MiddleName": "Александрович",
+      "LastName": "Андреев",
+      "Time": 0.5,
+      "StartDate": "2016-12-14T00:00:00",
+      "BirthDate": "1958-06-14T00:00:00",
+      "Positions": [
+        {
+          "Position": "53",
+          "Department": "127"
+        }
+      ]
+    },
+    {
+      "Id": "1769",
+      "FirstName": "Наталья",
+      "MiddleName": "Александровна",
+      "LastName": "Смирнова",
+      "Time": 1,
+      "StartDate": "2019-01-24T00:00:00",
+      "BirthDate": "1985-12-13T00:00:00",
+      "Positions": [
+        {
+          "Position": "2",
+          "Department": "127"
+        }
+      ]
+    },
+    {
+      "Id": "2547",
+      "FirstName": "Василий",
+      "MiddleName": "Васильевич",
+      "LastName": "Соловьев",
+      "Time": 1.5,
+      "StartDate": "1986-12-05T00:00:00",
+      "BirthDate": "1953-02-01T00:00:00",
+      "Positions": [
+        {
+          "Position": "5",
+          "Department": "127"
+        },
+        {
+          "Position": "53",
+          "Department": "127"
+        }
+      ]
+    },
+    {
+      "Id": "3161",
+      "FirstName": "Дарья",
+      "MiddleName": "Вячеславовна",
+      "LastName": "Чекменёва",
+      "Time": 0.5,
+      "StartDate": "2000-09-06T00:00:00",
+      "BirthDate": "1960-10-13T00:00:00",
+      "Positions": [
+        {
+          "Position": "5",
+          "Department": "127"
+        }
+      ]
+    },
+    {
+      "Id": "3164",
+      "FirstName": "Ирина",
+      "MiddleName": "Андреевна",
+      "LastName": "Оберемок",
+      "Time": 0.5,
+      "StartDate": "2007-01-06T00:00:00",
+      "BirthDate": "1967-02-03T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "127"
+        }
+      ]
+    },
+    {
+      "Id": "3225",
+      "FirstName": "Александра",
+      "MiddleName": "Александровна",
+      "LastName": "Волкова",
+      "Time": 0.5,
+      "StartDate": "1987-01-10T00:00:00",
+      "BirthDate": "1966-08-07T00:00:00",
+      "Positions": [
+        {
+          "Position": "5",
+          "Department": "127"
+        }
+      ]
+    },
+    {
+      "Id": "3252",
+      "FirstName": "Глеб",
+      "MiddleName": "Юрьевич",
+      "LastName": "Шишаев",
+      "Time": 0.5,
+      "StartDate": "2008-05-10T00:00:00",
+      "BirthDate": "1971-10-15T00:00:00",
+      "Positions": [
+        {
+          "Position": "3",
+          "Department": "127"
+        }
+      ]
+    },
+    {
+      "Id": "3557",
+      "FirstName": "Илья",
+      "MiddleName": "Игоревич",
+      "LastName": "Чурочкин",
+      "Time": 1,
+      "StartDate": "2012-01-23T00:00:00",
+      "BirthDate": "1977-01-13T00:00:00",
+      "Positions": [
+        {
+          "Position": "5",
+          "Department": "127"
+        }
+      ]
+    },
+    {
+      "Id": "3603",
+      "FirstName": "Даниил",
+      "MiddleName": "Ильич",
+      "LastName": "Терехов",
+      "Time": 1,
+      "StartDate": "1977-05-13T00:00:00",
+      "BirthDate": "1954-08-19T00:00:00",
+      "Positions": [
+        {
+          "Position": "5",
+          "Department": "127"
+        }
+      ]
+    },
+    {
+      "Id": "3647",
+      "FirstName": "Александра",
+      "MiddleName": "Александровна",
+      "LastName": "Рослин",
+      "Time": 1,
+      "StartDate": "1989-01-15T00:00:00",
+      "BirthDate": "1962-08-18T00:00:00",
+      "Positions": [
+        {
+          "Position": "5",
+          "Department": "127"
+        }
+      ]
+    }
+  ]
+}

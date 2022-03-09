@@ -1,0 +1,79 @@
+﻿{
+  "Employees": [
+    {
+      "Id": "2121",
+      "FirstName": "Надежда",
+      "MiddleName": "Александровна",
+      "LastName": "Гаврикова",
+      "Time": 0.5,
+      "StartDate": "1997-07-19T00:00:00",
+      "BirthDate": "1975-09-18T00:00:00",
+      "Positions": [
+        {
+          "Position": "45",
+          "Department": "240"
+        }
+      ]
+    },
+    {
+      "Id": "2189",
+      "FirstName": "Мария",
+      "MiddleName": "Викуловна",
+      "LastName": "Латонова",
+      "Time": 1,
+      "StartDate": "1986-03-20T00:00:00",
+      "BirthDate": "1959-01-08T00:00:00",
+      "Positions": [
+        {
+          "Position": "6",
+          "Department": "240"
+        }
+      ]
+    },
+    {
+      "Id": "2261",
+      "FirstName": "Надежда",
+      "MiddleName": "Сергеевна",
+      "LastName": "Зорина",
+      "Time": 0.5,
+      "StartDate": "2010-07-13T00:00:00",
+      "BirthDate": "1956-08-16T00:00:00",
+      "Positions": [
+        {
+          "Position": "230",
+          "Department": "240"
+        }
+      ]
+    },
+    {
+      "Id": "2657",
+      "FirstName": "София",
+      "MiddleName": "Александровна",
+      "LastName": "Яблокова",
+      "Time": 1.5,
+      "StartDate": "2019-10-21T00:00:00",
+      "BirthDate": "1956-01-11T00:00:00",
+      "Positions": [
+        {
+          "Position": "6",
+          "Department": "240"
+        }
+      ]
+    },
+    {
+      "Id": "3333",
+      "FirstName": "Елена",
+      "MiddleName": "Борисовна",
+      "LastName": "Каргина",
+      "Time": 0.5,
+      "StartDate": "2012-11-24T00:00:00",
+      "BirthDate": "1957-03-12T00:00:00",
+      "Positions": [
+        {
+          "Position": "18",
+          "Department": "240"
+        }
+      ]
+    }
+  ]
+}

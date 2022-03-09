@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "40",
-	"FirstName": "Снежана",
-	"MiddleName": "Юрьевна",
-	"LastName": "Вагнер",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "29",
-			"HeadOfDepartment": false,
-			"Position": "11"
-		}
-	]
+  "Id": "40",
+  "FirstName": "Снежана",
+  "MiddleName": "Юрьевна",
+  "LastName": "Вагнер",
+  "Time": 0.5,
+  "StartDate": "2011-07-04T00:00:00",
+  "BirthDate": "1967-08-22T00:00:00",
+  "Positions": [
+    {
+      "Position": "11",
+      "Department": "29"
+    }
+  ]
 }

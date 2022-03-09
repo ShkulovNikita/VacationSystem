@@ -1,19 +1,19 @@
 ﻿{
-	"Id": "2377",
-	"FirstName": "Оксана",
-	"MiddleName": "Владимировна",
-	"LastName": "Носова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "46",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		},
-		{
-			"Id": "2",
-			"HeadOfDepartment": false,
-			"Position": "11"
-		}
-	]
+  "Id": "2377",
+  "FirstName": "Оксана",
+  "MiddleName": "Владимировна",
+  "LastName": "Носова",
+  "Time": 1,
+  "StartDate": "2013-01-17T00:00:00",
+  "BirthDate": "1960-07-20T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "46"
+    },
+    {
+      "Position": "11",
+      "Department": "2"
+    }
+  ]
 }

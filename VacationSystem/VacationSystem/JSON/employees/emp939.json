@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "939",
-	"FirstName": "Алина",
-	"MiddleName": "Ильдаровна",
-	"LastName": "Фех",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "93",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "939",
+  "FirstName": "Алина",
+  "MiddleName": "Ильдаровна",
+  "LastName": "Фех",
+  "Time": 0.5,
+  "StartDate": "1999-11-16T00:00:00",
+  "BirthDate": "1960-08-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "93"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1206",
-	"FirstName": "Виталий",
-	"MiddleName": "Алексеевич",
-	"LastName": "Демидов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "72",
-			"HeadOfDepartment": false,
-			"Position": "47"
-		}
-	]
+  "Id": "1206",
+  "FirstName": "Виталий",
+  "MiddleName": "Алексеевич",
+  "LastName": "Демидов",
+  "Time": 1,
+  "StartDate": "2020-02-23T00:00:00",
+  "BirthDate": "1967-05-19T00:00:00",
+  "Positions": [
+    {
+      "Position": "47",
+      "Department": "72"
+    }
+  ]
 }

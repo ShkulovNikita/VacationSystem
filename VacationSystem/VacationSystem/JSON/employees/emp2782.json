@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2782",
-	"FirstName": "Анастасия",
-	"MiddleName": "Дмитриевна",
-	"LastName": "Епифанова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "207",
-			"HeadOfDepartment": false,
-			"Position": "157"
-		}
-	]
+  "Id": "2782",
+  "FirstName": "Анастасия",
+  "MiddleName": "Дмитриевна",
+  "LastName": "Епифанова",
+  "Time": 0.5,
+  "StartDate": "2019-11-12T00:00:00",
+  "BirthDate": "1976-01-03T00:00:00",
+  "Positions": [
+    {
+      "Position": "157",
+      "Department": "207"
+    }
+  ]
 }

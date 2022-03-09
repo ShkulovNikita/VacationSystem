@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "454",
-	"FirstName": "Мария",
-	"MiddleName": "Михайловна",
-	"LastName": "Жуликова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "141",
-			"HeadOfDepartment": false,
-			"Position": "14"
-		}
-	]
+  "Id": "454",
+  "FirstName": "Мария",
+  "MiddleName": "Михайловна",
+  "LastName": "Жуликова",
+  "Time": 1,
+  "StartDate": "1989-11-09T00:00:00",
+  "BirthDate": "1964-08-01T00:00:00",
+  "Positions": [
+    {
+      "Position": "14",
+      "Department": "141"
+    }
+  ]
 }

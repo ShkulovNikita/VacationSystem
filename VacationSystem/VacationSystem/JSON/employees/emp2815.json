@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2815",
-	"FirstName": "Анастасия",
-	"MiddleName": "Евгеньевна",
-	"LastName": "Рыбалова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "15",
-			"HeadOfDepartment": false,
-			"Position": "3"
-		}
-	]
+  "Id": "2815",
+  "FirstName": "Анастасия",
+  "MiddleName": "Евгеньевна",
+  "LastName": "Рыбалова",
+  "Time": 0.5,
+  "StartDate": "2006-04-08T00:00:00",
+  "BirthDate": "1981-06-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "3",
+      "Department": "15"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3046",
-	"FirstName": "Вячеслав",
-	"MiddleName": "Александрович",
-	"LastName": "Клоков",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "66",
-			"HeadOfDepartment": false,
-			"Position": "164"
-		}
-	]
+  "Id": "3046",
+  "FirstName": "Вячеслав",
+  "MiddleName": "Александрович",
+  "LastName": "Клоков",
+  "Time": 0.5,
+  "StartDate": "2014-04-08T00:00:00",
+  "BirthDate": "1959-11-05T00:00:00",
+  "Positions": [
+    {
+      "Position": "164",
+      "Department": "66"
+    }
+  ]
 }

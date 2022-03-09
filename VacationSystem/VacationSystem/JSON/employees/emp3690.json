@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3690",
-	"FirstName": "Энхзаяа",
-	"MiddleName": "",
-	"LastName": "Шаркозине Вандан",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "65",
-			"HeadOfDepartment": false,
-			"Position": "5"
-		}
-	]
+  "Id": "3690",
+  "FirstName": "Энхзаяа",
+  "MiddleName": "",
+  "LastName": "Шаркозине Вандан",
+  "Time": 0.5,
+  "StartDate": "2003-10-09T00:00:00",
+  "BirthDate": "1952-01-12T00:00:00",
+  "Positions": [
+    {
+      "Position": "5",
+      "Department": "65"
+    }
+  ]
 }

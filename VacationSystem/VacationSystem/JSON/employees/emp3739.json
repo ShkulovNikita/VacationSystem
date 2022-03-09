@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3739",
-	"FirstName": "Юлия",
-	"MiddleName": "Александровна",
-	"LastName": "Девяшина",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "108",
-			"HeadOfDepartment": false,
-			"Position": "20"
-		}
-	]
+  "Id": "3739",
+  "FirstName": "Юлия",
+  "MiddleName": "Александровна",
+  "LastName": "Девяшина",
+  "Time": 1,
+  "StartDate": "2001-09-23T00:00:00",
+  "BirthDate": "1980-02-02T00:00:00",
+  "Positions": [
+    {
+      "Position": "20",
+      "Department": "108"
+    }
+  ]
 }

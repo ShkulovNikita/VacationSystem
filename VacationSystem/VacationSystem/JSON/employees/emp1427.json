@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1427",
-	"FirstName": "Владимир",
-	"MiddleName": "Борисович",
-	"LastName": "Сорокин",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "78",
-			"HeadOfDepartment": false,
-			"Position": "11"
-		}
-	]
+  "Id": "1427",
+  "FirstName": "Владимир",
+  "MiddleName": "Борисович",
+  "LastName": "Сорокин",
+  "Time": 1,
+  "StartDate": "2014-05-17T00:00:00",
+  "BirthDate": "1985-11-06T00:00:00",
+  "Positions": [
+    {
+      "Position": "11",
+      "Department": "78"
+    }
+  ]
 }

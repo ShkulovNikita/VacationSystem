@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1248",
-	"FirstName": "Елена",
-	"MiddleName": "Михайловна",
-	"LastName": "Вершкова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "46",
-			"HeadOfDepartment": false,
-			"Position": "4"
-		}
-	]
+  "Id": "1248",
+  "FirstName": "Елена",
+  "MiddleName": "Михайловна",
+  "LastName": "Вершкова",
+  "Time": 0.5,
+  "StartDate": "2021-11-21T00:00:00",
+  "BirthDate": "1992-01-14T00:00:00",
+  "Positions": [
+    {
+      "Position": "4",
+      "Department": "46"
+    }
+  ]
 }

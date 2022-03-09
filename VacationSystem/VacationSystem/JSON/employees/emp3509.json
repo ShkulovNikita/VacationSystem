@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3509",
-	"FirstName": "Андрей",
-	"MiddleName": "Валентинович",
-	"LastName": "Коптюг",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "188",
-			"HeadOfDepartment": false,
-			"Position": "56"
-		}
-	]
+  "Id": "3509",
+  "FirstName": "Андрей",
+  "MiddleName": "Валентинович",
+  "LastName": "Коптюг",
+  "Time": 0.5,
+  "StartDate": "2010-02-22T00:00:00",
+  "BirthDate": "1976-04-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "56",
+      "Department": "188"
+    }
+  ]
 }

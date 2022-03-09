@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "83",
-	"FirstName": "Фёдор",
-	"MiddleName": "Витальевич",
-	"LastName": "Саврасов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "26",
-			"HeadOfDepartment": false,
-			"Position": "1"
-		}
-	]
+  "Id": "83",
+  "FirstName": "Фёдор",
+  "MiddleName": "Витальевич",
+  "LastName": "Саврасов",
+  "Time": 1,
+  "StartDate": "2011-09-22T00:00:00",
+  "BirthDate": "1984-03-23T00:00:00",
+  "Positions": [
+    {
+      "Position": "1",
+      "Department": "26"
+    }
+  ]
 }

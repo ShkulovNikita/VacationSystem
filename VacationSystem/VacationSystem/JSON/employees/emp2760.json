@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "2760",
-	"FirstName": "Сергей",
-	"MiddleName": "Павлович",
-	"LastName": "Осипов",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "193",
-			"HeadOfDepartment": false,
-			"Position": "41"
-		}
-	]
+  "Id": "2760",
+  "FirstName": "Сергей",
+  "MiddleName": "Павлович",
+  "LastName": "Осипов",
+  "Time": 0.5,
+  "StartDate": "1986-10-05T00:00:00",
+  "BirthDate": "1957-05-04T00:00:00",
+  "Positions": [
+    {
+      "Position": "41",
+      "Department": "193"
+    }
+  ]
 }

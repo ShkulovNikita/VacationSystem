@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1455",
-	"FirstName": "Ольга",
-	"MiddleName": "Сергеевна",
-	"LastName": "Пустовых",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "93",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		}
-	]
+  "Id": "1455",
+  "FirstName": "Ольга",
+  "MiddleName": "Сергеевна",
+  "LastName": "Пустовых",
+  "Time": 1,
+  "StartDate": "2000-10-01T00:00:00",
+  "BirthDate": "1968-04-16T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "93"
+    }
+  ]
 }

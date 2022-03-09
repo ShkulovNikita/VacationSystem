@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3016",
-	"FirstName": "Ольга",
-	"MiddleName": "Владимировна",
-	"LastName": "Пицунова",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "34",
-			"HeadOfDepartment": false,
-			"Position": "22"
-		}
-	]
+  "Id": "3016",
+  "FirstName": "Ольга",
+  "MiddleName": "Владимировна",
+  "LastName": "Пицунова",
+  "Time": 1,
+  "StartDate": "2009-01-03T00:00:00",
+  "BirthDate": "1957-12-07T00:00:00",
+  "Positions": [
+    {
+      "Position": "22",
+      "Department": "34"
+    }
+  ]
 }

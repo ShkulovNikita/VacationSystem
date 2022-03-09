@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "1606",
-	"FirstName": "Дмитрий",
-	"MiddleName": "Сергеевич",
-	"LastName": "Григорьев",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "26",
-			"HeadOfDepartment": false,
-			"Position": "28"
-		}
-	]
+  "Id": "1606",
+  "FirstName": "Дмитрий",
+  "MiddleName": "Сергеевич",
+  "LastName": "Григорьев",
+  "Time": 1,
+  "StartDate": "1994-02-22T00:00:00",
+  "BirthDate": "1952-11-18T00:00:00",
+  "Positions": [
+    {
+      "Position": "28",
+      "Department": "26"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "3160",
-	"FirstName": "Владимир",
-	"MiddleName": "Кимович",
-	"LastName": "Фоменко",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "112",
-			"HeadOfDepartment": false,
-			"Position": "99"
-		}
-	]
+  "Id": "3160",
+  "FirstName": "Владимир",
+  "MiddleName": "Кимович",
+  "LastName": "Фоменко",
+  "Time": 1,
+  "StartDate": "2016-04-21T00:00:00",
+  "BirthDate": "1982-03-08T00:00:00",
+  "Positions": [
+    {
+      "Position": "99",
+      "Department": "112"
+    }
+  ]
 }

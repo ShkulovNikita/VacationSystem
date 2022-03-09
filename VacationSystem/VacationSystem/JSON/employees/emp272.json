@@ -1,14 +1,15 @@
 ﻿{
-	"Id": "272",
-	"FirstName": "Оксана",
-	"MiddleName": "Евгеньевна",
-	"LastName": "Козырева",
-	"Birthdate": "10-02-1970",
-	"Departments": [
-		{
-			"Id": "65",
-			"HeadOfDepartment": false,
-			"Position": "0"
-		}
-	]
+  "Id": "272",
+  "FirstName": "Оксана",
+  "MiddleName": "Евгеньевна",
+  "LastName": "Козырева",
+  "Time": 0.5,
+  "StartDate": "2017-08-14T00:00:00",
+  "BirthDate": "1990-12-24T00:00:00",
+  "Positions": [
+    {
+      "Position": "0",
+      "Department": "65"
+    }
+  ]
 }
