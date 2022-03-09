@@ -1,5 +1,18 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@{
+    ViewData["Title"] = "Панель администратора";
 }
+
+<div class="container">
+    <div class="row">
+        <div class="col-4 ml-auto mr-auto mt-3">
+            <h3>Список подразделений</h3>
+            <a href="~/Admin/Departments" class="btn btn-primary">
+                Просмотр
+            </a>
+            <h3>Список сотрудников</h3>
+            <a href="~/Admin/Employees" class="btn btn-primary">
+                Просмотр
+            </a>
+        </div>
+    </div>
+</div>

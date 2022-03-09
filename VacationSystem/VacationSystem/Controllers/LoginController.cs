@@ -48,7 +48,7 @@ namespace VacationSystem.Controllers
                     // идентификатор пользователя
                     HttpContext.Session.SetString("id", admin.Id);
 
-                    return RedirectToAction("Profile", "Home");
+                    return RedirectToAction("Index", "Admin");
                 }
                 else if (user.GetType() == typeof(Employee))
                 {
