@@ -19,6 +19,7 @@ namespace VacationSystem.Controllers
 
         public IActionResult Index()
         {
+            DatabaseHandler.FillInitialData();
             return View();
         }
 

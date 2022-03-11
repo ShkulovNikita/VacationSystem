@@ -2,6 +2,7 @@
 using VacationSystem.Models;
 using VacationSystem.ViewModels;
 using VacationSystem.Classes;
+using VacationSystem.Classes.Database;
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Http;
 using System.Linq;
@@ -96,6 +97,31 @@ namespace VacationSystem.Controllers
             return View(department);
         }
 
+        /// <summary>
+        /// Просмотр информации о выбранных стилях руководства для подразделений
+        /// </summary>
+        public IActionResult Styles()
+        {
+            string id = HttpContext.Session.GetString("id");
 
+            if (id == null)
+            {
+                TempData["Error"] = "Не удалось загрузить данные пользователя";
+                return RedirectToAction("Index", "Head");
+            }
+
+            // список стилей руководства
+            List<HeadStyle> styles = DataHandler.GetHeadStyles(id);
+
+            if (styles == null)
+            {
+                TempData["Error"] = "Не удалось загрузить данные";
+                return View();
+            }
+
+
+
+            return View(styles);
+        }
     }
 }
