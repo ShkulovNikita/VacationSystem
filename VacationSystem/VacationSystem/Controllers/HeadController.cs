@@ -116,12 +116,134 @@ namespace VacationSystem.Controllers
             if (styles == null)
             {
                 TempData["Error"] = "Не удалось загрузить данные";
+                return RedirectToAction("Index", "Head");
+            }
+
+            // подразделения руководителя
+            List<Department> deps = Connector.GetSubordinateDepartments(id);
+
+            if (deps == null)
+            {
+                TempData["Error"] = "Не удалось загрузить данные";
+                return RedirectToAction("Index", "Head");
+            }
+
+            // стили руководства в подразделениях
+            List<HeadStyleViewModel> depStyles = new List<HeadStyleViewModel>();
+
+            // найти стили руководства для всех подразделений руководителя
+            foreach(Department dep in deps)
+            {
+                // найти среди стилей руководителя тот,
+                // который применен к данному подразделению
+                HeadStyle styleDep = styles
+                    .Where(s => s.DepartmentId == dep.Id)
+                    .OrderByDescending(s => s.Date)
+                    .FirstOrDefault();
+
+                // ничего не найдено - стиль по умолчанию
+                if (styleDep == null)
+                {
+                    ManagementStyle defaultStyle = DataHandler.GetManagementStyle(3);
+                    if (defaultStyle == null)
+                    {
+                        TempData["Error"] = "Произошла ошибка получения данных о стилях руководства";
+                        return RedirectToAction("Index", "Head");
+                    }
+
+                    depStyles.Add(new HeadStyleViewModel
+                    {
+                        Id = depStyles.Count,
+                        Style = defaultStyle,
+                        Department = dep
+                    });
+                }
+                else
+                {
+                    depStyles.Add(new HeadStyleViewModel
+                    {
+                        Id = depStyles.Count,
+                        Style = styleDep.ManagementStyle,
+                        Department = dep
+                    });
+                }
+            }
+
+            return View(depStyles);
+        }
+
+        /// <summary>
+        /// Изменение стиля руководства для выбранного подразделения
+        /// </summary>
+        /// <param name="id">Идентификатор подразделения</param>
+        [HttpGet]
+        public IActionResult EditStyle(string id)
+        {
+            // идентификатор авторизованного руководителя
+            string headId = HttpContext.Session.GetString("id");
+
+            if (headId == null)
+            {
+                TempData["Error"] = "Не удалось загрузить данные пользователя";
+                return RedirectToAction("Styles", "Head");
+            }
+
+            // подразделение, к которому будет добавлен стиль
+            Department curDep = Connector.GetDepartment(id);
+            if (curDep == null)
+            {
+                TempData["Error"] = "Не удалось загрузить данные о подразделении";
+                return RedirectToAction("Styles", "Head");
+            }
+
+            // текущий стиль руководства
+            HeadStyle currentStyle = DataHandler.GetHeadStyle(headId, id);
+
+            int curStyleId = 3;
+            if (currentStyle != null)
+                curStyleId = currentStyle.ManagementStyle.Id;
+
+            // получить все стили руководства
+            List<ManagementStyle> styles = DataHandler.GetManagementStyles();
+
+            if (styles == null)
+            {
+                TempData["Error"] = "Не удалось загрузить стили руководства";
+                return RedirectToAction("Styles", "Head");
+            }
+
+            EditStyleViewModel viewModel = new EditStyleViewModel
+            {
+                Styles = styles,
+                Department = curDep,
+                CurrentStyle = curStyleId
+            };
+
+            return View(viewModel);
+        }
+
+        /// <summary>
+        /// Передача выбранного стиля руководства для выбранного подразделения
+        /// </summary>
+        [HttpPost]
+        public IActionResult EditStyle(string department, int style)
+        {
+            // идентификатор авторизованного руководителя
+            string headId = HttpContext.Session.GetString("id");
+
+            if (headId == null)
+            {
+                TempData["Error"] = "Не удалось загрузить данные пользователя";
                 return View();
             }
 
+            // попытка сохранения стиля в БД
+            if (DataHandler.AddHeadStyle(headId, department, style))
+                TempData["Success"] = "Стиль руководства был успешно применен!";
+            else
+                TempData["Error"] = "Не удалось применить стиль руководства";
 
-
-            return View(styles);
+            return RedirectToAction("Styles", "Head");
         }
     }
 }

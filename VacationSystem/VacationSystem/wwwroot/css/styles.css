@@ -11,3 +11,104 @@ footer {
     height: 70px;
     width: 294px;
 }
+
+/* ------------------------------------------------------ */
+/* Замена синего цвета кнопок Primary на зеленый цвет ТПУ */
+/* ------------------------------------------------------ */
+
+.btn-primary {
+    color: white;
+    background-color: rgb(128, 191, 68);
+    border-color: rgb(128, 191, 68);
+}
+
+.btn-primary:hover {
+    color: white;
+    background-color: green;
+    border-color: green;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+    color: white;
+    box-shadow: 0 0 0 0.2rem rgba(128, 191, 68, 0.5);
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+    color: white;
+    background-color: rgb(182, 207, 129);
+    border-color: rgb(182, 207, 129);
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+    color: white;
+    background-color: green;
+    border-color: green;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+    color: white;
+    box-shadow: 0 0 0 0.2rem rgba(128, 191, 68, 0.5);
+}
+
+#profile .btn {
+    width: 250px;
+}
+
+#profile-background {
+    padding: 40px 50px;
+}
+
+.content-background {
+    background-color: white;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu-button {
+    display: block;
+    margin: 20px auto;
+}
+
+input[type="text"] {
+    background-color: rgb(240, 242, 248);
+    border-color: black;
+    border-width: 1px;
+    border-radius: 2px;
+    display: block;
+}
+
+.block-center {
+    margin: 0 auto;
+}
+
+#login-background {
+    padding: 40px 50px;
+}
+
+#login input[type="text"] {
+    width: 150px;
+}
+
+#login label {
+    font-size: 20px;
+}
+
+#login {
+    text-align: center;
+}
+
+#edit-style {
+    text-align: center;
+}
+
+select {
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+#edit-style input[type="submit"] {
+    margin-top: 15px;
+}

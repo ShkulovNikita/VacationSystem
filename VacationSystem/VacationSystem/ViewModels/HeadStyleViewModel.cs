@@ -13,7 +13,7 @@ namespace VacationSystem.ViewModels
 
         public int Id { get; set; }
 
-        public string Name { get; set; }
+        public ManagementStyle Style { get; set; }
 
         public Department Department { get; set; }
     }

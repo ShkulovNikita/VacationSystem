@@ -1,10 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using System.Diagnostics;
 using VacationSystem.Models;
-using VacationSystem.Classes;
-using System.Collections.Generic;
 using VacationSystem.Classes.Database;
+using System.Collections.Generic;
+using VacationSystem.Classes;
 
 namespace VacationSystem.Controllers
 {
@@ -19,20 +20,54 @@ namespace VacationSystem.Controllers
 
         public IActionResult Index()
         {
-            DatabaseHandler.FillInitialData();
-            return View();
+            // проверка, куда нужно перенаправить пользователя:
+            // если авторизован - в профиль
+            // если нет - на страницу авторизации
+            if (HttpContext.Session.GetString("id") != null)
+                return RedirectToAction("Profile", "Home");
+            else
+                return RedirectToAction("Index", "Login");
         }
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
+        /// <summary>
+        /// Главная страница профиля пользователя
+        /// </summary>
         public IActionResult Profile()
         {
-            
+            if (HttpContext.Session.GetString("user_type") != null)
+            {
+                // у администратора своя админ-панель
+                if (HttpContext.Session.GetString("user_type") == "administrator")
+                    return RedirectToAction("Index", "Admin");
+                else
+                {
+                    if (HttpContext.Session.GetString("id") != null)
+                    {
+                        // проверка, является ли данный пользователь руководителем
+                        // какого-нибудь подразделения
+                        List<Department> subordinateDeps = Connector.GetSubordinateDepartments(HttpContext.Session.GetString("id"));
+                        if (subordinateDeps != null)
+                            if (subordinateDeps.Count > 0)
+                                TempData["head"] = true;
+                            else
+                                TempData["head"] = false;
+                        else
+                            TempData["head"] = false;
 
-            return View();
+                        return View();
+                    }
+                    else
+                    {
+                        HttpContext.Session.Clear();
+                        return RedirectToAction("Index", "Login");
+                    }
+                }
+            }
+            else
+            {
+                HttpContext.Session.Clear();
+                return RedirectToAction("Index", "Login");
+            }
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

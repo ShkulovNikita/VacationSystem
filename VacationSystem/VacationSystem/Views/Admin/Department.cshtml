@@ -8,48 +8,48 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-7">
-            @Html.CheckError(error) 
-            @if (@Model != null)
+        @Html.CheckError(error) 
+        <div id="profile-background" class="content-background">
+        @if (@Model != null)
+        {
+            <h2>@Model.Name</h2>
+            @if (@Model.Head != null)
             {
-                <h2>@Model.Name</h2>
-                @if (@Model.Head != null)
+                <p>Руководитель:
+                    <a href="~/Admin/Employee/@Model.Head.Id">
+                        @Model.Head.LastName @Model.Head.FirstName @Model.Head.MiddleName
+                    </a>
+                </p>
+            }
+            @if (@Model.HeadDepartment != null)
+            {
+                <p>Старшее подразделение: 
+                    <a href="~/Admin/Department/@Model.HeadDepartment.Id">
+                        @Model.HeadDepartment.Name
+                    </a>
+                </p>
+            }
+            <a href="~/Admin/Employees/@Model.Id" class="btn btn-primary">
+                Список сотрудников
+            </a>
+            @if (@Model.ChildDepartments.Count > 0)
+            {
+                <p>Младшие подразделения:</p>
+                @foreach(Department dep in @Model.ChildDepartments)
                 {
-                    <p>Руководитель:
-                        <a href="~/Admin/Employee/@Model.Head.Id">
-                            @Model.Head.LastName @Model.Head.FirstName @Model.Head.MiddleName
-                        </a>
-                    </p>
-                }
-                @if (@Model.HeadDepartment != null)
-                {
-                    <p>Старшее подразделение: 
-                        <a href="~/Admin/Department/@Model.HeadDepartment.Id">
-                            @Model.HeadDepartment.Name
-                        </a>
-                    </p>
-                }
-                <a href="~/Admin/Employees/@Model.Id" class="btn btn-primary">
-                    Список сотрудников
-                </a>
-                @if (@Model.ChildDepartments.Count > 0)
-                {
-                    <p>Младшие подразделения:</p>
-                    @foreach(Department dep in @Model.ChildDepartments)
-                    {
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">
-                                    @dep.Name
-                                </h5>
-                                <a href="~/Admin/Department/@dep.Id" class="btn btn-primary">
-                                    Просмотр подразделения
-                                </a>
-                            </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                @dep.Name
+                            </h5>
+                            <a href="~/Admin/Department/@dep.Id" class="btn btn-primary">
+                                Просмотр подразделения
+                            </a>
                         </div>
-                    }
+                    </div>
                 }
             }
+        }
         </div>
     </div>
 </div>

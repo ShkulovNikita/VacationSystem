@@ -1,6 +1,4 @@
-﻿using System;
-using System.Diagnostics;
-using VacationSystem.Models;
+﻿using VacationSystem.Models;
 using VacationSystem.Classes.Database;
 
 namespace VacationSystem.Classes

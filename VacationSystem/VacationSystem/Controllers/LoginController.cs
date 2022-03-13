@@ -24,7 +24,7 @@ namespace VacationSystem.Controllers
             // нет пользователя с таким логином
             if (user == null)
             {
-                ViewBag.Error = "Пользователь с таким логином не найден";
+                TempData["Error"] = "Пользователь с таким логином не найден";
                 return View();
             }
             else
@@ -36,7 +36,7 @@ namespace VacationSystem.Controllers
 
                     if (admin == null)
                     {
-                        ViewBag.Error = "Ошибка авторизации";
+                        TempData["Error"] = "Ошибка авторизации";
                         return View();
                     }
 
@@ -57,7 +57,7 @@ namespace VacationSystem.Controllers
 
                     if (employee == null)
                     {
-                        ViewBag.Error = "Ошибка авторизации";
+                        TempData["Error"] = "Ошибка авторизации";
                         return View();
                     }
 
@@ -74,7 +74,7 @@ namespace VacationSystem.Controllers
                 }
                 else
                 {
-                    ViewBag.Error = "Ошибка авторизации";
+                    TempData["Error"] = "Ошибка авторизации";
                     return View();
                 }
             }

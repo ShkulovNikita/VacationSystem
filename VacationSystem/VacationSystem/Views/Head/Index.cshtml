@@ -1,14 +1,28 @@
-﻿@{
+﻿@using VacationSystem.HtmlHelpers;
+
+@{
     ViewData["Title"] = "Панель руководителя";
+
+    string error = null;
+    if (TempData["Error"] != null)
+        error = TempData["Error"].ToString();
 }
 
-<div class="container">
+<div id="profile" class="container">
     <div class="row">
-        <div class="col-10">
-            <h3>Мои подразделения</h3>
-            <a href="~/Head/Departments" class="btn btn-primary">Просмотр</a>
-            <h3>Стили руководства</h3>
-            <a href="~/Head/Styles" class="btn btn-primary">Просмотр</a>
+        @Html.CheckError(error)
+        <div id="profile-background" class="content-background">
+            <h3>Панель руководителя</h3>
+            <a asp-controller="Head" asp-action="Departments" class="btn btn-primary btn-lg menu-button">Подразделения</a>
+            <a asp-controller="Head" asp-action="Styles" class="btn btn-primary btn-lg menu-button">Стили руководства</a>
+            <a href="#" class="btn btn-primary btn-lg menu-button">Группы сотрудников</a>
+            <a href="#" class="btn btn-primary btn-lg menu-button">Правила отпусков</a>
+            <a href="#" class="btn btn-primary btn-lg menu-button">Заместители</a>
+            <a href="#" class="btn btn-primary btn-lg menu-button">Правила видимости</a>
         </div>
     </div>
 </div>
+
+
+
+

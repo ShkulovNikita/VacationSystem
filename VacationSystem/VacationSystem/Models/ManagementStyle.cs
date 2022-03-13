@@ -20,6 +20,11 @@ namespace VacationSystem.Models
         public string Name { get; set; }
 
         /// <summary>
+        /// Краткое описание стиля управления
+        /// </summary>
+        public string Description { get; set; }
+
+        /// <summary>
         /// Стиль управления, используемый руководителями в отделениях
         /// </summary>
         public List<HeadStyle> HeadStyles { get; set; } = new List<HeadStyle>();

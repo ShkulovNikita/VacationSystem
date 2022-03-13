@@ -19,14 +19,6 @@
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
                     <img id="tpu-logo" src="~/img/tpu-logo.png" />
                 </a>
-                @if (Context.Session.GetString("id") != null)
-                {
-                    <a asp-controller="Login" asp-action="Logout">Выйти</a>
-                }
-                else
-                {
-                    <a asp-controller="Login" asp-action="Index">Войти</a>
-                }
             </div>
         </nav>
     </header>

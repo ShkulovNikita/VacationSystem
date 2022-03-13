@@ -1,0 +1,32 @@
+﻿@using VacationSystem.ViewModels;
+@using VacationSystem.HtmlHelpers;
+
+@{
+    ViewData["Title"] = "Изменение стиля управления";
+
+    string error = null;
+    if (TempData["Error"] != null)
+        error = TempData["Error"].ToString();
+}
+
+<div id="edit-style" class="container">
+    <div class="row">
+        <div class="block-center col-md-5 col-sm-6 col-xs-10">
+            @Html.CheckError(error)
+            <div id="login-background" class="content-background">
+                <h3>Изменение стиля руководства</h3>
+                <form method="post">
+                    <p>Подразделение: @Model.Department.Name</p>
+                    <select name="style" class="block-center">
+                    @foreach (ManagementStyle style in Model.Styles)
+                        {
+                            <option value="@style.Id">@style.Name</option>
+                        }
+                    </select>
+                    <input type="hidden" name="department" value="@Model.Department.Id" />
+                    <input type="submit" value="Применить" class="btn btn-primary block-center"/>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
