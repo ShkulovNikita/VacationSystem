@@ -1,12 +1,26 @@
 ﻿@model List<Department>
 @using VacationSystem.Models
+@using VacationSystem.HtmlHelpers
 
 @{
     ViewData["Title"] = "Список подразделений";
+
+    string error = null;
+    if (TempData["Error"] != null)
+        error = TempData["Error"].ToString();
+    string message = null;
+    if (TempData["Message"] != null)
+        message = TempData["Message"].ToString();
 }
 
 <div class="container">
     <div class="row">
+        @Html.CheckError(error)
+        @Html.CheckMessage(message)
+        <form>
+            <input type="text" name="query" />
+            <input type="submit" class="btn btn-primary" value="Поиск" />
+        </form>
         <div class="col-10">
             @foreach (Department dep in Model)
             {

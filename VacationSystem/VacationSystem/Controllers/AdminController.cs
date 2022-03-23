@@ -62,23 +62,32 @@ namespace VacationSystem.Controllers
         /// <summary>
         /// Отображение списка подразделений ТПУ
         /// </summary>
-        public IActionResult Departments()
+        public IActionResult Departments(string query)
         {
             // проверка авторизации
             if (!CheckAdminPermission())
                 return RedirectToAction("Index", "Login");
 
             List<Department> departments = Connector.GetDepartments()
-                .OrderBy(d => d.Name)
-                .ToList();
+                                                    .OrderBy(d => d.Name)
+                                                    .ToList();
 
-            if (departments != null)
-                return View(departments);
-            else
+            // если непустой поисковой запрос - произвести фильтрацию
+            if (query != null)
+                departments = (from dep in departments
+                              where dep.Name.ToLower().Contains(query.ToLower())
+                              select dep).ToList();
+
+            if (departments == null)
             {
-                ViewBag.Error = "Не удалось получить данные о подразделениях";
+                TempData["Error"] = "Не удалось получить данные о подразделениях";
                 return View();
             }
+
+            if (departments.Count == 0)
+                TempData["Message"] = "Подразделения не найдены";
+
+            return View(departments);
         }
 
         /// <summary>
@@ -131,7 +140,7 @@ namespace VacationSystem.Controllers
         /// Отображение списка сотрудников ТПУ (всех или подразделения)
         /// </summary>
         /// <param name="id">Идентификатор подразделения (не обязателен)</param>
-        public IActionResult Employees(string id)
+        public IActionResult Employees(string id, string query)
         {
             // проверка авторизации
             if (!CheckAdminPermission())
@@ -177,6 +186,9 @@ namespace VacationSystem.Controllers
 
                 if (employees != null)
                 {
+                    if (query != null)
+                        employees = SearchEmployees(employees, query);
+
                     // создание модели представления
                     EmployeesViewModel emps = new EmployeesViewModel();
 
@@ -221,6 +233,9 @@ namespace VacationSystem.Controllers
 
                     if (employees != null)
                     {
+                        if (query != null)
+                            employees = SearchEmployees(employees, query);
+
                         // список сотрудников в подразделении с их должностями
                         List<EmpDepViewModel> empsInDep = new List<EmpDepViewModel>();
 
@@ -270,6 +285,21 @@ namespace VacationSystem.Controllers
                     }
                 }
             }
+        }
+
+        /// <summary>
+        /// Отфильтровать имеющийся список сотрудников согласно поисковому запросу
+        /// </summary>
+        /// <param name="employees">Список всех сотрудников</param>
+        /// <param name="query">Поисковый запрос</param>
+        /// <returns>Список сотрудников, удовлетворяющих запросу</returns>
+        private List<Employee> SearchEmployees(List<Employee> employees, string query)
+        {
+            return (from emp in employees
+                    where emp.FirstName.ToLower().Contains(query.ToLower())
+                    || emp.MiddleName.ToLower().Contains(query.ToLower())
+                    || emp.LastName.ToLower().Contains(query.ToLower())
+                    select emp).ToList();
         }
 
         /// <summary>

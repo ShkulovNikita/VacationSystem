@@ -226,7 +226,7 @@ namespace VacationSystem.Controllers
         /// Передача выбранного стиля руководства для выбранного подразделения
         /// </summary>
         [HttpPost]
-        public IActionResult EditStyle(string department, int style)
+        public IActionResult EditStyle(string department, int style, int currentstyle)
         {
             // идентификатор авторизованного руководителя
             string headId = HttpContext.Session.GetString("id");
@@ -234,7 +234,13 @@ namespace VacationSystem.Controllers
             if (headId == null)
             {
                 TempData["Error"] = "Не удалось загрузить данные пользователя";
-                return View();
+                return RedirectToAction("Styles", "Head");
+            }
+
+            if (style == currentstyle)
+            {
+                TempData["Error"] = "Данный стиль уже применен";
+                return RedirectToAction("Styles", "Head");
             }
 
             // попытка сохранения стиля в БД
