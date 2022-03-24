@@ -6,6 +6,7 @@ using VacationSystem.Classes.Database;
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Http;
 using System.Linq;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace VacationSystem.Controllers
 {
@@ -272,7 +273,7 @@ namespace VacationSystem.Controllers
 
             if (departments == null)
             {
-                TempData["Error"] = "Не удалось загрузить данные пользователя";
+                TempData["Error"] = "Не удалось загрузить список подразделений";
                 return RedirectToAction("Index", "Head");
             }
 
@@ -345,6 +346,111 @@ namespace VacationSystem.Controllers
                                     .ThenBy(d => d.FirstName)
                                     .ThenBy(d => d.MiddleName)
                                     .ToList());
+        }
+
+        /// <summary>
+        /// Добавление нового заместителя для руководителя
+        /// </summary>
+        [HttpGet]
+        public IActionResult AddDeputy()
+        {
+            string id = HttpContext.Session.GetString("id");
+
+            if (id == null)
+            {
+                TempData["Error"] = "Не удалось загрузить данные пользователя";
+                return RedirectToAction("Deputies", "Head");
+            }
+
+            // список подразделений руководителя
+            List<Department> departments = Connector.GetSubordinateDepartments(id).ToList();
+
+            if (departments == null)
+            {
+                TempData["Error"] = "Не удалось загрузить список подразделений";
+                return RedirectToAction("Deputies", "Head");
+            }
+
+            // список всех сотрудников
+            List<DeputyEmpViewModel> allEmps = new List<DeputyEmpViewModel>();
+
+            // список всех подразделений в формате ViewModel
+            List<DeputyDepViewModel> allDeps = new List<DeputyDepViewModel>();
+
+            // получить сотрудников всех подразделений
+            foreach (Department dep in departments)
+            {
+                // добавить подразделение в общий список подразделений
+                allDeps.Add(new DeputyDepViewModel
+                {
+                    Id = dep.Id,
+                    Name = dep.Name
+                });
+
+                // получить всех сотрудников данного подразделения
+                List<Employee> employees = Connector.GetEmployeesOfDepartment(dep.Id);
+                if (employees == null)
+                    continue;
+                
+                // добавить сотрудников в списки
+                foreach(Employee emp in employees)
+                {
+                    // новый сотрудник в формате ViewModel
+                    DeputyEmpViewModel newEmp = new DeputyEmpViewModel
+                    {
+                        Id = allEmps.Count.ToString(),
+                        Employee = emp,
+                        Department = allDeps.FirstOrDefault(d => d.Id == dep.Id),
+                        DepartmentId = dep.Id
+                    };
+
+                    // добавить в список сотрудников подразделения
+                    allDeps.FirstOrDefault(d => d.Id == dep.Id).Employees.Add(newEmp);
+
+                    // добавить в список всех сотрудников
+                    allEmps.Add(newEmp);
+                }
+            }
+
+            if ((allDeps.Count == 0) || (allEmps.Count == 0))
+            {
+                TempData["Error"] = "Не удалось загрузить список подразделений";
+                return RedirectToAction("Deputies", "Head");
+            }
+
+            // сохранить списки в сессию
+            SessionHelper.SetObjectAsJson(HttpContext.Session, "all_employees", allEmps);
+            SessionHelper.SetObjectAsJson(HttpContext.Session, "all_departments", allDeps);
+
+            // вывести списки на страницу
+
+            // индекс по умолчанию
+            string selectedIndex = allDeps[0].Id;
+
+            // список подразделений
+            SelectList departmentsList = new SelectList(allDeps, "Id", "Name", selectedIndex);
+            ViewBag.Deps = departmentsList;
+            SelectList employeesList = new SelectList(allEmps.Where(e => e.DepartmentId == selectedIndex), "Id", "Id");
+            ViewBag.Employees = employeesList;
+
+            return View();
+        }
+
+        public ActionResult GetItems(string id)
+        {
+            // получить из сессии всех сотрудников
+            List<DeputyEmpViewModel> allEmps = SessionHelper.GetObjectFromJson<List<DeputyEmpViewModel>>(HttpContext.Session, "all_employees");
+            return PartialView(allEmps.Where(e => e.DepartmentId == id).ToList());
+        }
+
+        /// <summary>
+        /// Сохранение в системе нового заместителя
+        /// </summary>
+        /// <param name="department">Идентификатор подразделения</param>
+        [HttpPost]
+        public IActionResult AddDeputy(string department)
+        {
+            return View();
         }
     }
 }

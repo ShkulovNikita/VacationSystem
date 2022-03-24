@@ -4,6 +4,7 @@ using Microsoft.Extensions.Logging;
 using System.Diagnostics;
 using VacationSystem.Models;
 using VacationSystem.Classes.Database;
+using System.Linq;
 using System.Collections.Generic;
 using VacationSystem.Classes;
 
@@ -20,9 +21,6 @@ namespace VacationSystem.Controllers
 
         public IActionResult Index()
         {
-            DatabaseHandler.RecreateDB();
-            DatabaseHandler.FillInitialData();
-
             // проверка, куда нужно перенаправить пользователя:
             // если авторизован - в профиль
             // если нет - на страницу авторизации
@@ -30,6 +28,13 @@ namespace VacationSystem.Controllers
                 return RedirectToAction("Profile", "Home");
             else
                 return RedirectToAction("Index", "Login");
+        }
+
+        public class EmpHead
+        {
+            public EmpHead() { }
+            public string Id { get; set; }
+            public List<Department> SubDeps { get; set; } = new List<Department>();
         }
 
         /// <summary>

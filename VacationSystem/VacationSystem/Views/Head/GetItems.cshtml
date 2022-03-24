@@ -1,0 +1,8 @@
+﻿@model IEnumerable<VacationSystem.ViewModels.DeputyEmpViewModel>
+
+<select id="employee" name="Employee">
+    @foreach (var item in Model)
+    {
+        <option value="@item.Id">@item.Id</option>
+    }
+</select>

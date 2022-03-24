@@ -17,7 +17,9 @@ namespace VacationSystem.Classes
         /// <param name="value">Передаваемый объект</param>
         static public void SetObjectAsJson(this ISession session, string key, object value)
         {
-            session.SetString(key, JsonConvert.SerializeObject(value));
+            var serializerSettings = new JsonSerializerSettings { PreserveReferencesHandling = PreserveReferencesHandling.Objects };
+
+            session.SetString(key, JsonConvert.SerializeObject(value, Formatting.Indented, serializerSettings));
         }
 
         /// <summary>
@@ -29,6 +31,8 @@ namespace VacationSystem.Classes
         /// <returns>Объект, хранящийся в сессии по заданному ключу</returns>
         static public T GetObjectFromJson<T>(this ISession session, string key)
         {
+            var serializerSettings = new JsonSerializerSettings { PreserveReferencesHandling = PreserveReferencesHandling.Objects };
+
             var value = session.GetString(key);
             return value == null ? default(T) : JsonConvert.DeserializeObject<T>(value);
         }
