@@ -251,5 +251,100 @@ namespace VacationSystem.Controllers
 
             return RedirectToAction("Styles", "Head");
         }
+
+        /// <summary>
+        /// Просмотр списка заместителей текущего руководителя
+        /// </summary>
+        /// <param name="department">Подразделение руководителя</param>
+        /// <param name="query">Поисковый запрос</param>
+        public IActionResult Deputies(string department, string query)
+        {
+            string id = HttpContext.Session.GetString("id");
+
+            if (id == null)
+            {
+                TempData["Error"] = "Не удалось загрузить данные пользователя";
+                return RedirectToAction("Index", "Head");
+            }
+
+            // список подразделений руководителя
+            List<Department> departments = Connector.GetSubordinateDepartments(id).ToList();
+
+            if (departments == null)
+            {
+                TempData["Error"] = "Не удалось загрузить данные пользователя";
+                return RedirectToAction("Index", "Head");
+            }
+
+            // сохранить список всех подразделений во ViewBag
+            ViewBag.Departments = departments;
+
+            // отфильтровать подразделения по запросу
+            departments = departments.Where(d => d.Id == query).ToList();
+
+            // получить список заместителей данного руководителя в указанном подразделении
+            List<Deputy> deputies = new List<Deputy>();
+
+            if (department != null)
+                deputies = DataHandler.GetDeputies(id, department);
+            else
+                deputies = DataHandler.GetDeputies(id);
+
+            if (deputies == null)
+            {
+                TempData["Error"] = "Не удалось загрузить данные о заместителях";
+                return RedirectToAction("Index", "Head");
+            }
+
+            // получить заместителей только в тех подразделениях, где руководитель
+            // управляет в данный момент
+            deputies = deputies
+                .Where(deputy => departments.Any(depart => deputy.DepartmentId == depart.Id))
+                .ToList();
+
+            // не найдены заместители
+            if (deputies.Count == 0)
+            {
+                TempData["Message"] = "Нет назначенных заместителей";
+                return View(new List<DeputyViewModel>());
+            }
+
+            // список заместителей в формате ViewModel
+            List<DeputyViewModel> deputiesList = new List<DeputyViewModel>();
+
+            foreach(Deputy dep in deputies)
+            {
+                // данные о заместителе как о сотруднике
+                Employee depEmp = Connector.GetEmployee(dep.DeputyEmployeeId);
+
+                if (depEmp != null)
+                {
+                    // список подразделений, на которые назначен данный заместитель
+                    List<Department> depsOfDeputy = new List<Department>();
+                    depsOfDeputy = departments
+                        .Where(depart => deputies.Any(deputy => deputy.DepartmentId == depart.Id 
+                                                        && deputy.DeputyEmployeeId == depEmp.Id))
+                        .ToList();
+
+                    if (depsOfDeputy.Count == 0)
+                        continue;
+
+                    // сохранить информацию о заместителе во ViewModel
+                    deputiesList.Add(new DeputyViewModel
+                    {
+                        Id = depEmp.Id,
+                        FirstName = depEmp.FirstName,
+                        MiddleName = depEmp.MiddleName,
+                        LastName = depEmp.LastName,
+                        Departments = depsOfDeputy
+                    });
+                }
+            }
+
+            return View(deputiesList.OrderBy(d => d.LastName)
+                                    .ThenBy(d => d.FirstName)
+                                    .ThenBy(d => d.MiddleName)
+                                    .ToList());
+        }
     }
 }

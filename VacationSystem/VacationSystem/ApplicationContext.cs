@@ -39,6 +39,7 @@ namespace VacationSystem
         public DbSet<IndividualChoicePeriod> IndividualChoicePeriods { get; set; }
         public DbSet<NotificationType> NotificationTypes { get; set; }
         public DbSet<Notification> Notifications { get; set; }
+        public DbSet<Deputy> Deputies { get; set; }
 
         public ApplicationContext()
         {

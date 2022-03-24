@@ -1,0 +1,61 @@
+﻿@model List<DeputyViewModel>
+
+@using VacationSystem.ViewModels;
+@using VacationSystem.Models;
+@using VacationSystem.HtmlHelpers;
+
+@{
+    ViewData["Title"] = "Список заместителей";
+
+    string error = null;
+    if (TempData["Error"] != null)
+        error = TempData["Error"].ToString();
+
+    string message = null;
+    if (TempData["Message"] != null)
+        message = TempData["Message"].ToString();
+
+    List<Department> departments = ViewBag.departments;
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-10">
+            @Html.CheckError(error)
+            @Html.CheckMessage(message)
+            <form>
+                <label for="query">Подразделение</label>
+                <select name="query">
+                    @foreach(Department dep in departments)
+                    {
+                        <option value="@dep.Id">@dep.Name</option>
+                    }
+                </select>
+                <input type="submit" class="btn btn-primary" value="Применить" />
+            </form>
+            <h3>Заместители</h3>
+            @foreach(DeputyViewModel deputy in @Model)
+            {
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            @deputy.LastName @deputy.FirstName @deputy.MiddleName
+                        </h5>
+                        <h5>Подразделения:</h5>
+                        @for (int i = 0; i < @deputy.Departments.Count; i++)
+                        {
+                            if (i == @deputy.Departments.Count - 1)
+                            {
+                                <span>@deputy.Departments[i].Name</span>
+                            }
+                            else
+                            {
+                                <span>@deputy.Departments[i].Name,</span>
+                            }
+                        }
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>

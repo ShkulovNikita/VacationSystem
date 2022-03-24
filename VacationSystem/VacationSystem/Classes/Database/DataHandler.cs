@@ -162,5 +162,48 @@ namespace VacationSystem.Classes.Database
                 return false;
             }
         }
+
+        /// <summary>
+        /// Получение списка заместителей руководителя
+        /// </summary>
+        /// <param name="headId">Идентификатор руководителя</param>
+        /// <returns>Список заместителей указанного руководителя</returns>
+        static public List<Deputy> GetDeputies(string headId)
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    return db.Deputies.Where(d => d.HeadEmployeeId == headId).ToList();
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return null;
+            }
+        }
+
+        /// <summary>
+        /// Получение списка заместителей руководителя
+        /// </summary>
+        /// <param name="headId">Идентификатор руководителя</param>
+        /// <param name="depId">Идентификатор подразделения</param>
+        /// <returns>Список заместителей руководителя в указанном подразделении</returns>
+        static public List<Deputy> GetDeputies(string headId, string depId)
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    return db.Deputies.Where(d => d.HeadEmployeeId == headId && d.DepartmentId == depId).ToList();
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return null;
+            }
+        }
     }
 }

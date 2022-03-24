@@ -20,6 +20,9 @@ namespace VacationSystem.Controllers
 
         public IActionResult Index()
         {
+            DatabaseHandler.RecreateDB();
+            DatabaseHandler.FillInitialData();
+
             // проверка, куда нужно перенаправить пользователя:
             // если авторизован - в профиль
             // если нет - на страницу авторизации
