@@ -7,6 +7,8 @@ using System.Collections.Generic;
 using Microsoft.AspNetCore.Http;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using System;
+using System.Diagnostics;
 
 namespace VacationSystem.Controllers
 {
@@ -186,7 +188,7 @@ namespace VacationSystem.Controllers
             if (headId == null)
             {
                 TempData["Error"] = "Не удалось загрузить данные пользователя";
-                return RedirectToAction("Styles", "Head");
+                return RedirectToAction("Styles");
             }
 
             // подразделение, к которому будет добавлен стиль
@@ -194,7 +196,7 @@ namespace VacationSystem.Controllers
             if (curDep == null)
             {
                 TempData["Error"] = "Не удалось загрузить данные о подразделении";
-                return RedirectToAction("Styles", "Head");
+                return RedirectToAction("Styles");
             }
 
             // текущий стиль руководства
@@ -210,7 +212,7 @@ namespace VacationSystem.Controllers
             if (styles == null)
             {
                 TempData["Error"] = "Не удалось загрузить стили руководства";
-                return RedirectToAction("Styles", "Head");
+                return RedirectToAction("Styles");
             }
 
             EditStyleViewModel viewModel = new EditStyleViewModel
@@ -265,7 +267,7 @@ namespace VacationSystem.Controllers
             if (id == null)
             {
                 TempData["Error"] = "Не удалось загрузить данные пользователя";
-                return RedirectToAction("Index", "Head");
+                return RedirectToAction("Index");
             }
 
             // список подразделений руководителя
@@ -274,7 +276,7 @@ namespace VacationSystem.Controllers
             if (departments == null)
             {
                 TempData["Error"] = "Не удалось загрузить список подразделений";
-                return RedirectToAction("Index", "Head");
+                return RedirectToAction("Index");
             }
 
             // сохранить список всех подразделений во ViewBag
@@ -294,7 +296,7 @@ namespace VacationSystem.Controllers
             if (deputies == null)
             {
                 TempData["Error"] = "Не удалось загрузить данные о заместителях";
-                return RedirectToAction("Index", "Head");
+                return RedirectToAction("Index");
             }
 
             // получить заместителей только в тех подразделениях, где руководитель
@@ -359,7 +361,7 @@ namespace VacationSystem.Controllers
             if (id == null)
             {
                 TempData["Error"] = "Не удалось загрузить данные пользователя";
-                return RedirectToAction("Deputies", "Head");
+                return RedirectToAction("Deputies");
             }
 
             // список подразделений руководителя
@@ -368,7 +370,7 @@ namespace VacationSystem.Controllers
             if (departments == null)
             {
                 TempData["Error"] = "Не удалось загрузить список подразделений";
-                return RedirectToAction("Deputies", "Head");
+                return RedirectToAction("Deputies");
             }
 
             // список всех сотрудников
@@ -399,7 +401,8 @@ namespace VacationSystem.Controllers
                     DeputyEmpViewModel newEmp = new DeputyEmpViewModel
                     {
                         Id = allEmps.Count.ToString(),
-                        Employee = emp,
+                        EmpId = emp.Id,
+                        Name = emp.LastName + " " + emp.FirstName + " " + emp.MiddleName,
                         Department = allDeps.FirstOrDefault(d => d.Id == dep.Id),
                         DepartmentId = dep.Id
                     };
@@ -415,12 +418,12 @@ namespace VacationSystem.Controllers
             if ((allDeps.Count == 0) || (allEmps.Count == 0))
             {
                 TempData["Error"] = "Не удалось загрузить список подразделений";
-                return RedirectToAction("Deputies", "Head");
+                return RedirectToAction("Deputies");
             }
 
             // сохранить списки в сессию
-            SessionHelper.SetObjectAsJson(HttpContext.Session, "all_employees", allEmps);
-            SessionHelper.SetObjectAsJson(HttpContext.Session, "all_departments", allDeps);
+            SessionHelper.SetObjectAsJson(HttpContext.Session, "all_employees", allEmps.OrderBy(e => e.Name).ToList());
+            SessionHelper.SetObjectAsJson(HttpContext.Session, "all_departments", allDeps.OrderBy(d => d.Name).ToList());
 
             // вывести списки на страницу
 
@@ -430,7 +433,7 @@ namespace VacationSystem.Controllers
             // список подразделений
             SelectList departmentsList = new SelectList(allDeps, "Id", "Name", selectedIndex);
             ViewBag.Deps = departmentsList;
-            SelectList employeesList = new SelectList(allEmps.Where(e => e.DepartmentId == selectedIndex), "Id", "Id");
+            SelectList employeesList = new SelectList(allEmps.Where(e => e.DepartmentId == selectedIndex), "EmpId", "Name");
             ViewBag.Employees = employeesList;
 
             return View();
@@ -448,9 +451,54 @@ namespace VacationSystem.Controllers
         /// </summary>
         /// <param name="department">Идентификатор подразделения</param>
         [HttpPost]
-        public IActionResult AddDeputy(string department)
+        public IActionResult AddDeputy(string Department, string Employee)
         {
-            return View();
+            // идентификатор авторизованного руководителя
+            string headId = HttpContext.Session.GetString("id");
+            if (headId == null)
+            {
+                TempData["Error"] = "Не удалось загрузить данные пользователя";
+                ClearDeputySessionData();
+                return RedirectToAction("Deputies");
+            }
+
+            // проверить наличие выбранного сотрудника среди подчиненных руководителя
+            if (Connector.GetSubordinateEmployees(headId).FirstOrDefault(e => e.Id == Employee) == null)
+            {
+                TempData["Error"] = "Выбран некорректный сотрудник";
+                return RedirectToAction("AddDeputy");
+            }
+
+            // проверить наличие выбранного подразделения среди подчиненных подразделений
+            if (Connector.GetSubordinateDepartments(headId).FirstOrDefault(d => d.Id == Department) == null)
+            {
+                TempData["Error"] = "Выбрано некорректное подразделение";
+                return RedirectToAction("AddDeputy");
+            }
+
+            if (DataHandler.AddDeputy(headId, Employee, Department))
+                TempData["Success"] = "Заместитель успешно сохранен!";
+            else
+                TempData["Error"] = "Не удалось сохранить заместителя";
+
+            ClearDeputySessionData();
+            return RedirectToAction("Deputies");
+        }
+
+        /// <summary>
+        /// Очистить данные в сессии о всех подчиненных сотрудниках и подразделениях
+        /// </summary>
+        private void ClearDeputySessionData()
+        {
+            try
+            {
+                HttpContext.Session.Remove("all_employees");
+                HttpContext.Session.Remove("all_departments");
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+            }
         }
     }
 }

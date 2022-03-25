@@ -9,13 +9,20 @@ namespace VacationSystem.ViewModels
     {
         public DeputyEmpViewModel() { }
 
-        // уникальный Id для списка
+        /// <summary>
+        /// Уникальный идентификатор для списка всех сотрудников
+        /// </summary>
         public string Id { get; set; }
 
         /// <summary>
-        /// Объект сотрудника
+        /// Собственный идентификатор сотрудника
         /// </summary>
-        public Employee Employee { get; set; }
+        public string EmpId { get; set; }
+
+        /// <summary>
+        /// ФИО сотрудника
+        /// </summary>
+        public string Name { get; set; }
 
         /// <summary>
         /// Ссылка на подразделение, в котором работает сотрудник

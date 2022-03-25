@@ -1,11 +1,27 @@
-﻿@{
+﻿@using VacationSystem.HtmlHelpers
+
+@{
     ViewData["Title"] = "Выбрать заместителя";
+
+    string error = null;
+    if (TempData["Error"] != null)
+        error = TempData["Error"].ToString();
 }
 
-<h3>Выберите подразделение</h3>
-@Html.DropDownList("Department", ViewBag.Deps as SelectList, new { id = "department" })
-<h3>Выберите сотрудника</h3>
-@Html.DropDownList("Employee", ViewBag.Employees as SelectList, new { id = "employee" })
+<div class="container">
+    <div class="row">
+        <div class="col-7">
+            @Html.CheckError(error)
+            <form method="post">
+                <h3>Выберите подразделение</h3>
+                @Html.DropDownList("Department", ViewBag.Deps as SelectList, new { id = "department" })
+                <h3>Выберите сотрудника</h3>
+                @Html.DropDownList("Employee", ViewBag.Employees as SelectList, new { id = "employee" })
+                <input type="submit" class="btn btn-primary" value="Добавить" />
+            </form>
+        </div>
+    </div>
+</div>
 
 @section scripts{
 <script type="text/javascript">
@@ -18,7 +34,6 @@
                 type: 'GET',
                 url: '@Url.Action("GetItems")/' + id,
                 success: function (data) {
-                     
                     // заменяем содержимое присланным частичным представлением
                     $('#employee').replaceWith(data);
                 }

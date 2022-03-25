@@ -205,5 +205,39 @@ namespace VacationSystem.Classes.Database
                 return null;
             }
         }
+
+        /// <summary>
+        /// Добавление заместителя руководителя в подразделении
+        /// </summary>
+        /// <param name="headId">Идентификатор руководителя</param>
+        /// <param name="empId">Идентификатор сотрудника-заместителя</param>
+        /// <param name="depId">Идентификатор подразделения</param>
+        /// <returns>Успешность выполнения операции</returns>
+        static public bool AddDeputy(string headId, string empId, string depId)
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    Deputy deputy = new Deputy
+                    {
+                        HeadEmployeeId = headId,
+                        DeputyEmployeeId = empId,
+                        DepartmentId = depId,
+                        Date = DateTime.Now
+                    };
+
+                    db.Deputies.Add(deputy);
+                    db.SaveChanges();
+                }
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return false;
+            }
+        }
     }
 }
