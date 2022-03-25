@@ -320,7 +320,7 @@ namespace VacationSystem.Controllers
                 };
 
                 // должности сотрудника в его подразделениях
-                List<DepPositionsViewModel> positions = GetPositionsInDepartments(employee.Id);
+                List<DepPositionsViewModel> positions = EmployeesHelper.GetPositionsInDepartments(employee.Id);
                 if (positions != null)
                     employee.PositionsInDepartments = positions;
 
@@ -333,67 +333,6 @@ namespace VacationSystem.Controllers
 
                 return View(employee);
             }
-        }
-
-        /// <summary>
-        /// Получить должности сотрудника во всех его подразделениях
-        /// </summary>
-        /// <param name="id">Идентификатор сотрудника</param>
-        /// <returns>Список, содержащий данные о должностях сотрудника в подразделениях</returns>
-        static private List<DepPositionsViewModel> GetPositionsInDepartments(string id)
-        {
-            // все должности сотрудника в подразделениях
-            List<PositionInDepartment> positions = Connector.GetEmployeePositions(id);
-
-            if (positions == null)
-                return null;
-
-            if (positions.Count == 0)
-                return null;
-
-            // должности по подразделениям
-            List<DepPositionsViewModel> posInDeps = new List<DepPositionsViewModel>();
-
-            // пройти по всем должностям сотрудника
-            foreach (PositionInDepartment pos in positions)
-            {
-                // проверить, было ли добавлено подразделение данной должности в список
-                // уже есть такое подразделение - добавить к нему
-                if (posInDeps.Any(p => p.Department.Id == pos.Department))
-                {
-                    // получить соответствующую должность из API
-                    Position position = Connector.GetPosition(pos.Position);
-
-                    if (position == null)
-                        continue;
-
-                    // добавить должность к уже добавленному подразделению
-                    posInDeps.Find(p => p.Department.Id == pos.Department)
-                        .Positions.Add(position);
-                }
-                // для такого подразделения ещё не были добавлены должности
-                else
-                {
-                    // создание новой пары подразделение-должность
-                    DepPositionsViewModel depPos = new DepPositionsViewModel();
-
-                    // получить из API данные о подразделении и должности
-                    Position position = Connector.GetPosition(pos.Position);
-                    Department department = Connector.GetDepartment(pos.Department);
-
-                    if ((position == null) || (department == null))
-                        return null;
-
-                    // добавить пару подразделение-должность
-                    depPos.Department = department;
-                    depPos.Positions.Add(position);
-
-                    // сохранить пару в общий список
-                    posInDeps.Add(depPos);
-                }
-            }
-
-            return posInDeps;
         }
     }
 }

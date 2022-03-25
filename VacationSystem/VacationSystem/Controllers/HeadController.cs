@@ -662,5 +662,51 @@ namespace VacationSystem.Controllers
                 return View(emps);
             }
         }
+
+        /// <summary>
+        /// Отображение информации об одном сотруднике
+        /// </summary>
+        /// <param name="id">Идентификатор сотрудника</param>
+        public IActionResult Employee(string id)
+        {
+            // идентификатор авторизованного руководителя
+            string headId = HttpContext.Session.GetString("id");
+            if (headId == null)
+            {
+                TempData["Error"] = "Не удалось загрузить данные пользователя";
+                return RedirectToAction("Index");
+            }
+
+            // попробовать найти сотрудника с указанным идентификатором
+            Employee emp = Connector.GetEmployee(id);
+            if (emp == null)
+            {
+                TempData["Error"] = "Не удалось получить данные о сотруднике";
+                return View();
+            }
+
+            // объект модели представления с данными о сотруднике
+            EmployeeViewModel employee = new EmployeeViewModel
+            {
+                Id = emp.Id,
+                FirstName = emp.FirstName,
+                MiddleName = emp.MiddleName,
+                LastName = emp.LastName
+            };
+
+            // должности сотрудника в его подразделениях
+            List<DepPositionsViewModel> positions = EmployeesHelper.GetPositionsInDepartments(employee.Id);
+            if (positions != null)
+                employee.PositionsInDepartments = positions;
+
+            // получить подразделения, которыми управляет данный сотрудник
+            List<Department> subordinateDepartments = Connector.GetSubordinateDepartments(employee.Id);
+            if (subordinateDepartments != null)
+                employee.SubordinateDepartments = subordinateDepartments
+                    .OrderBy(d => d.Name)
+                    .ToList();
+
+            return View(employee);
+        }
     }
 }
