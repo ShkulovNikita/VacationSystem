@@ -280,10 +280,11 @@ namespace VacationSystem.Controllers
             }
 
             // сохранить список всех подразделений во ViewBag
-            ViewBag.Departments = departments;
+            ViewBag.Departments = departments.OrderBy(d => d.Name).ToList();
 
             // отфильтровать подразделения по запросу
-            departments = departments.Where(d => d.Id == query).ToList();
+            if (query != null)
+                departments = departments.Where(d => d.Id == query).ToList();
 
             // получить список заместителей данного руководителя в указанном подразделении
             List<Deputy> deputies = new List<Deputy>();
@@ -397,10 +398,13 @@ namespace VacationSystem.Controllers
                 // добавить сотрудников в списки
                 foreach(Employee emp in employees)
                 {
+                    // проверить наличие такого заместителя в БД
+                    if (DataHandler.CheckDeputy(id, emp.Id, dep.Id))
+                        continue;
+
                     // новый сотрудник в формате ViewModel
                     DeputyEmpViewModel newEmp = new DeputyEmpViewModel
                     {
-                        Id = allEmps.Count.ToString(),
                         EmpId = emp.Id,
                         Name = emp.LastName + " " + emp.FirstName + " " + emp.MiddleName,
                         Department = allDeps.FirstOrDefault(d => d.Id == dep.Id),
@@ -421,9 +425,19 @@ namespace VacationSystem.Controllers
                 return RedirectToAction("Deputies");
             }
 
+            // удалить из списка сотрудников самого руководителя
+            allEmps = allEmps.Where(e => e.Id != id).ToList();
+
+            // отсортировать подразделения и сотрудников по алфавиту
+            allDeps = allDeps.OrderBy(d => d.Name).ToList();
+            allEmps = allEmps.OrderBy(e => e.Name).ToList();
+
+            for (int i = 0; i < allEmps.Count; i++)
+                allEmps[i].Id = i.ToString();
+
             // сохранить списки в сессию
-            SessionHelper.SetObjectAsJson(HttpContext.Session, "all_employees", allEmps.OrderBy(e => e.Name).ToList());
-            SessionHelper.SetObjectAsJson(HttpContext.Session, "all_departments", allDeps.OrderBy(d => d.Name).ToList());
+            SessionHelper.SetObjectAsJson(HttpContext.Session, "all_employees", allEmps);
+            SessionHelper.SetObjectAsJson(HttpContext.Session, "all_departments", allDeps);
 
             // вывести списки на страницу
 
