@@ -267,5 +267,62 @@ namespace VacationSystem.Classes.Database
                 return false;
             }
         }
+
+        /// <summary>
+        /// Проверка существования в БД заместителя
+        /// </summary>
+        /// <param name="headId">Идентификатор руководителя</param>
+        /// <param name="empId">Идентификатор сотрудника-заместителя</param>
+        /// <returns>true - такой заместитель уже есть; false - такого заместителя в БД нет</returns>
+        static public bool CheckDeputy(string headId, string empId)
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    if (db.Deputies.Any(d => d.DeputyEmployeeId == empId
+                                          && d.HeadEmployeeId == headId))
+                        return true;
+                    else
+                        return false;
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return false;
+            }
+        }
+
+        /// <summary>
+        /// Удаление заместителя руководителя
+        /// </summary>
+        /// <param name="headId">Идентификатор руководителя</param>
+        /// <param name="empId">Идентификатор сотрудника-заместителя</param>
+        /// <returns>Успешность выполнения операции</returns>
+        static public bool DeleteDeputy(string headId, string empId)
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    if (CheckDeputy(headId, empId))
+                    {
+                        List<Deputy> deputyForDelete = db.Deputies.Where(d => d.HeadEmployeeId == headId
+                                                                          && d.DeputyEmployeeId == empId)
+                                                                  .ToList();
+                        db.Deputies.RemoveRange(deputyForDelete);
+                        db.SaveChanges();
+                    }
+
+                    return true;
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return false;
+            }
+        }
     }
 }

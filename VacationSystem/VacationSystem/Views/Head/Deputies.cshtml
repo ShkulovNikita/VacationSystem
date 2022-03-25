@@ -62,6 +62,7 @@
                                 <span>@deputy.Departments[i].Name,</span>
                             }
                         }
+                        <a asp-controller="Head" asp-action="DeleteDeputy" asp-route-deputyId="@deputy.Id" class="btn btn-danger">Удалить</a>
                     </div>
                 </div>
             }

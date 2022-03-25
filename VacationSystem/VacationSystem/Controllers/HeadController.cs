@@ -514,5 +514,36 @@ namespace VacationSystem.Controllers
                 Debug.WriteLine(ex.Message);
             }
         }
+
+        /// <summary>
+        /// Удаление заместителя
+        /// </summary>
+        /// <param name="deputyId">Идентификатор сотрудника-заместителя</param>
+        public IActionResult DeleteDeputy(string deputyId)
+        {
+            // идентификатор авторизованного руководителя
+            string headId = HttpContext.Session.GetString("id");
+            if (headId == null)
+            {
+                TempData["Error"] = "Не удалось загрузить данные пользователя";
+                ClearDeputySessionData();
+                return RedirectToAction("Deputies");
+            }
+
+            // проверить наличие выбранного сотрудника среди подчиненных руководителя
+            if (Connector.GetSubordinateEmployees(headId).FirstOrDefault(e => e.Id == deputyId) == null)
+            {
+                TempData["Error"] = "Выбран некорректный сотрудник";
+                return RedirectToAction("Deputies");
+            }
+
+            // попытка удаления заместителя
+            if (DataHandler.DeleteDeputy(headId, deputyId))
+                TempData["Success"] = "Заместитель был успешно удален";
+            else
+                TempData["Error"] = "Не удалось удалить заместителя";
+
+            return RedirectToAction("Deputies");
+        }
     }
 }
