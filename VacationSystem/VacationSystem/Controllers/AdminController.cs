@@ -110,29 +110,8 @@ namespace VacationSystem.Controllers
                 return View();
             }
 
-            // получение старшего подразделения
-            Department headDep = Connector.GetHeadDepartment(dep.Id);
-
-            // получение руководителя подразделения
-            Employee headEmp = Connector.GetHeadOfDepartment(dep.Id);
-
-            // получение младших подразделений
-            List<Department> lowerDeps = Connector.GetLowerDepartments(dep.Id)
-                .OrderBy(d => d.Name)
-                .ToList();
-
-            // передать данные о подразделении во ViewModel
-            DepartmentViewModel department = new DepartmentViewModel()
-            {
-                Id = dep.Id,
-                Name = dep.Name,
-                ChildDepartments = lowerDeps
-            };
-
-            if (headDep != null)
-                department.HeadDepartment = headDep;
-            if (headEmp != null)
-                department.Head = headEmp;
+            // получение подразделения в формате ViewModel
+            DepartmentViewModel department = DepartmentHelper.ConvertDepartmentToViewModel(dep);
 
             return View(department);
         }
@@ -189,7 +168,7 @@ namespace VacationSystem.Controllers
                 if (employees != null)
                 {
                     if (query != null)
-                        employees = EmployeesHelper.SearchEmployees(employees, query);
+                        employees = EmployeeHelper.SearchEmployees(employees, query);
 
                     // создание модели представления
                     EmployeesViewModel emps = new EmployeesViewModel();
@@ -236,7 +215,7 @@ namespace VacationSystem.Controllers
                     if (employees != null)
                     {
                         if (query != null)
-                            employees = EmployeesHelper.SearchEmployees(employees, query);
+                            employees = EmployeeHelper.SearchEmployees(employees, query);
 
                         // список сотрудников в подразделении с их должностями
                         List<EmpDepViewModel> empsInDep = new List<EmpDepViewModel>();
@@ -320,7 +299,7 @@ namespace VacationSystem.Controllers
                 };
 
                 // должности сотрудника в его подразделениях
-                List<DepPositionsViewModel> positions = EmployeesHelper.GetPositionsInDepartments(employee.Id);
+                List<DepPositionsViewModel> positions = EmployeeHelper.GetPositionsInDepartments(employee.Id);
                 if (positions != null)
                     employee.PositionsInDepartments = positions;
 

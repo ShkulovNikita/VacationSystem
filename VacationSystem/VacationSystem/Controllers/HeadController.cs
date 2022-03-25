@@ -42,13 +42,16 @@ namespace VacationSystem.Controllers
                 .OrderBy(d => d.Name)
                 .ToList();
 
-            if (departments != null)
-                return View(departments);
-            else
+            if (departments == null)
             {
                 ViewBag.Error = "Не удалось получить данные о подразделениях";
                 return View();
             }
+
+            if (departments.Count == 0)
+                TempData["Message"] = "Подразделения не найдены";
+
+            return View(departments);
         }
 
         /// <summary>
@@ -74,29 +77,8 @@ namespace VacationSystem.Controllers
                 return View();
             }
 
-            // получение старшего подразделения
-            Department headDep = Connector.GetHeadDepartment(dep.HeadDepartment);
-
-            // получение руководителя подразделения
-            Employee headEmp = Connector.GetHeadOfDepartment(dep.Head);
-
-            // получение младших подразделений
-            List<Department> lowerDeps = Connector.GetLowerDepartments(dep.Id)
-                .OrderBy(d => d.Name)
-                .ToList();
-
-            // передать данные о подразделении во ViewModel
-            DepartmentViewModel department = new DepartmentViewModel()
-            {
-                Id = dep.Id,
-                Name = dep.Name,
-                ChildDepartments = lowerDeps
-            };
-
-            if (headDep != null)
-                department.HeadDepartment = headDep;
-            if (headEmp != null)
-                department.Head = headEmp;
+            // получение подразделения в формате ViewModel
+            DepartmentViewModel department = DepartmentHelper.ConvertDepartmentToViewModel(dep);
 
             return View(department);
         }
@@ -136,41 +118,12 @@ namespace VacationSystem.Controllers
             List<HeadStyleViewModel> depStyles = new List<HeadStyleViewModel>();
 
             // найти стили руководства для всех подразделений руководителя
-            foreach(Department dep in deps)
+            depStyles = StylesHelper.FindHeadStyles(deps, styles);
+
+            if (depStyles.Count == 0)
             {
-                // найти среди стилей руководителя тот,
-                // который применен к данному подразделению
-                HeadStyle styleDep = styles
-                    .Where(s => s.DepartmentId == dep.Id)
-                    .OrderByDescending(s => s.Date)
-                    .FirstOrDefault();
-
-                // ничего не найдено - стиль по умолчанию
-                if (styleDep == null)
-                {
-                    ManagementStyle defaultStyle = DataHandler.GetManagementStyle(3);
-                    if (defaultStyle == null)
-                    {
-                        TempData["Error"] = "Произошла ошибка получения данных о стилях руководства";
-                        return RedirectToAction("Index", "Head");
-                    }
-
-                    depStyles.Add(new HeadStyleViewModel
-                    {
-                        Id = depStyles.Count,
-                        Style = defaultStyle,
-                        Department = dep
-                    });
-                }
-                else
-                {
-                    depStyles.Add(new HeadStyleViewModel
-                    {
-                        Id = depStyles.Count,
-                        Style = styleDep.ManagementStyle,
-                        Department = dep
-                    });
-                }
+                TempData["Error"] = "Не удалось загрузить стили руководства";
+                return RedirectToAction("Index", "Head");
             }
 
             return View(depStyles);
@@ -454,6 +407,10 @@ namespace VacationSystem.Controllers
             return View();
         }
 
+        /// <summary>
+        /// Вывод частичного представления со списком сотрудников из указанного подразделения
+        /// </summary>
+        /// <param name="id">Идентификатор подразделения</param>
         public ActionResult GetItems(string id)
         {
             // получить из сессии всех сотрудников
@@ -465,6 +422,7 @@ namespace VacationSystem.Controllers
         /// Сохранение в системе нового заместителя
         /// </summary>
         /// <param name="department">Идентификатор подразделения</param>
+        /// <param name="Employee">Идентификатор сотрудника-заместителя</param>
         [HttpPost]
         public IActionResult AddDeputy(string Department, string Employee)
         {
@@ -573,7 +531,7 @@ namespace VacationSystem.Controllers
                 }
 
                 if (query != null)
-                    subEmps = EmployeesHelper.SearchEmployees(subEmps, query);
+                    subEmps = EmployeeHelper.SearchEmployees(subEmps, query);
 
                 // создание модели представления
                 EmployeesViewModel emps = new EmployeesViewModel();
@@ -617,7 +575,7 @@ namespace VacationSystem.Controllers
                 }
 
                 if (query != null)
-                    subEmps = EmployeesHelper.SearchEmployees(subEmps, query);
+                    subEmps = EmployeeHelper.SearchEmployees(subEmps, query);
 
                 // список сотрудников в подразделении с их должностями
                 List<EmpDepViewModel> empsInDep = new List<EmpDepViewModel>();
@@ -695,7 +653,7 @@ namespace VacationSystem.Controllers
             };
 
             // должности сотрудника в его подразделениях
-            List<DepPositionsViewModel> positions = EmployeesHelper.GetPositionsInDepartments(employee.Id);
+            List<DepPositionsViewModel> positions = EmployeeHelper.GetPositionsInDepartments(employee.Id);
             if (positions != null)
                 employee.PositionsInDepartments = positions;
 

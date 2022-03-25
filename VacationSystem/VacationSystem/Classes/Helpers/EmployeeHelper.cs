@@ -8,7 +8,7 @@ namespace VacationSystem.Classes.Helpers
     /// <summary>
     /// Класс для различных операций с сотрудниками
     /// </summary>
-    static public class EmployeesHelper
+    static public class EmployeeHelper
     {
         /// <summary>
         /// Отфильтровать имеющийся список сотрудников согласно поисковому запросу
