@@ -5,6 +5,7 @@ using VacationSystem.ViewModels;
 using System.Linq;
 using Microsoft.AspNetCore.Http;
 using VacationSystem.Classes;
+using VacationSystem.Classes.Helpers;
 
 namespace VacationSystem.Controllers
 {
@@ -140,6 +141,7 @@ namespace VacationSystem.Controllers
         /// Отображение списка сотрудников ТПУ (всех или подразделения)
         /// </summary>
         /// <param name="id">Идентификатор подразделения (не обязателен)</param>
+        /// <param name="query">Поисковый запрос</param>
         public IActionResult Employees(string id, string query)
         {
             // проверка авторизации
@@ -187,7 +189,7 @@ namespace VacationSystem.Controllers
                 if (employees != null)
                 {
                     if (query != null)
-                        employees = SearchEmployees(employees, query);
+                        employees = EmployeesHelper.SearchEmployees(employees, query);
 
                     // создание модели представления
                     EmployeesViewModel emps = new EmployeesViewModel();
@@ -234,7 +236,7 @@ namespace VacationSystem.Controllers
                     if (employees != null)
                     {
                         if (query != null)
-                            employees = SearchEmployees(employees, query);
+                            employees = EmployeesHelper.SearchEmployees(employees, query);
 
                         // список сотрудников в подразделении с их должностями
                         List<EmpDepViewModel> empsInDep = new List<EmpDepViewModel>();
@@ -285,21 +287,6 @@ namespace VacationSystem.Controllers
                     }
                 }
             }
-        }
-
-        /// <summary>
-        /// Отфильтровать имеющийся список сотрудников согласно поисковому запросу
-        /// </summary>
-        /// <param name="employees">Список всех сотрудников</param>
-        /// <param name="query">Поисковый запрос</param>
-        /// <returns>Список сотрудников, удовлетворяющих запросу</returns>
-        private List<Employee> SearchEmployees(List<Employee> employees, string query)
-        {
-            return (from emp in employees
-                    where emp.FirstName.ToLower().Contains(query.ToLower())
-                    || emp.MiddleName.ToLower().Contains(query.ToLower())
-                    || emp.LastName.ToLower().Contains(query.ToLower())
-                    select emp).ToList();
         }
 
         /// <summary>

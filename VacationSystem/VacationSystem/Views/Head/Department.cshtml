@@ -31,9 +31,9 @@
                         @Model.HeadDepartment.Name
                     </p>
                 }
-                @* <a href="~/Head/Employees/@Model.Id" class="btn btn-primary">
+                <a asp-controller="Head" asp-action="Employees" asp-route-depId="@Model.Id" class="btn btn-primary">
                     Список сотрудников
-                </a> *@
+                </a>
                 @if (@Model.ChildDepartments.Count > 0)
                 {
                     <p>Младшие подразделения:</p>

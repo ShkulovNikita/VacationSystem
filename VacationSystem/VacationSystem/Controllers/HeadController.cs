@@ -9,6 +9,7 @@ using System.Linq;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using System;
 using System.Diagnostics;
+using VacationSystem.Classes.Helpers;
 
 namespace VacationSystem.Controllers
 {
@@ -544,6 +545,122 @@ namespace VacationSystem.Controllers
                 TempData["Error"] = "Не удалось удалить заместителя";
 
             return RedirectToAction("Deputies");
+        }
+
+        /// <summary>
+        /// Просмотр списка подчиненных сотрудников
+        /// </summary>
+        /// <param name="depId">Идентификатор подразделения</param>
+        public IActionResult Employees(string depId, string query)
+        {
+            // идентификатор авторизованного руководителя
+            string headId = HttpContext.Session.GetString("id");
+            if (headId == null)
+            {
+                TempData["Error"] = "Не удалось загрузить данные пользователя";
+                return RedirectToAction("Index");
+            }
+
+            // не задан идентификатор - отображаются все подчиненные сотрудники
+            if (depId == null)
+            {
+                List<Employee> subEmps = Connector.GetSubordinateEmployees(headId);
+
+                if (subEmps == null)
+                {
+                    TempData["Error"] = "Не удалось загрузить список сотрудников";
+                    return View();
+                }
+
+                if (query != null)
+                    subEmps = EmployeesHelper.SearchEmployees(subEmps, query);
+
+                // создание модели представления
+                EmployeesViewModel emps = new EmployeesViewModel();
+
+                // создать список сотрудников
+                List<EmpDepViewModel> employeesInUni = new List<EmpDepViewModel>();
+
+                // конвертировать формат БД в формат модели представления
+                foreach (Employee employee in subEmps)
+                    employeesInUni.Add(new EmpDepViewModel(employee));
+
+                // передать список сотрудников
+                emps.Employees = employeesInUni
+                    .OrderBy(e => e.LastName)
+                    .ThenBy(e => e.FirstName)
+                    .ThenBy(e => e.MiddleName)
+                    .ToList();
+
+                return View(emps);
+            }
+            // указан идентификатор - отображаются сотрудники указанного подразделения
+            else
+            {
+                // подразделение, для которого нужно получить сотрудников
+                Department dep = Connector.GetDepartment(depId);
+
+                // проверка существования подразделения
+                if (dep == null)
+                {
+                    TempData["Error"] = "Подразделение не найдено";
+                    return View();
+                }
+
+                // получить сотрудников одного подразделения
+                List<Employee> subEmps = Connector.GetEmployeesOfDepartment(depId);
+
+                if (subEmps == null)
+                {
+                    TempData["Error"] = "Не удалось загрузить список сотрудников";
+                    return View();
+                }
+
+                if (query != null)
+                    subEmps = EmployeesHelper.SearchEmployees(subEmps, query);
+
+                // список сотрудников в подразделении с их должностями
+                List<EmpDepViewModel> empsInDep = new List<EmpDepViewModel>();
+
+                // перебрать полученный список сотрудников подразделения
+                foreach (Employee employee in subEmps)
+                {
+                    // передать в модель представления идентификатор и имя сотрудника
+                    EmpDepViewModel empInDep = new EmpDepViewModel(employee);
+
+                    // получить должности сотрудника в подразделении
+                    List<PositionInDepartment> positions = Connector.GetPositionsInDepartment(depId, employee.Id);
+
+                    if (positions == null)
+                        continue;
+
+                    List<Position> posOfDemp = new List<Position>();
+                    foreach (PositionInDepartment pos in positions)
+                    {
+                        Position newPos = Connector.GetPosition(pos.Position);
+                        if (newPos != null)
+                            posOfDemp.Add(newPos);
+                    }
+
+                    if (posOfDemp.Count > 0)
+                    {
+                        empInDep.Positions = posOfDemp;
+                        empsInDep.Add(empInDep);
+                    }
+                }
+
+                EmployeesViewModel emps = new EmployeesViewModel
+                {
+                    Department = dep,
+                    Employees = empsInDep
+                                .OrderBy(e => e.LastName)
+                                .ThenBy(e => e.FirstName)
+                                .ThenBy(e => e.MiddleName)
+                                .ToList()
+                };
+
+                return View(emps);
+            }
         }
     }
 }
