@@ -130,9 +130,6 @@ namespace VacationSystem.Controllers
             // не задан идентификатор - отображаются все сотрудники ТПУ
             if (id == null)
             {
-                // получить всех сотрудников
-                List<Employee> employees = new List<Employee>();
-
                 // все подразделения
                 List<Department> deps = Connector.GetDepartments();
 
@@ -148,52 +145,22 @@ namespace VacationSystem.Controllers
                     return View();
                 }
 
-                // пройтись по всем подразделениям, чтобы получить их сотрудников
-                foreach(Department dep in deps)
-                {
-                    // сотрудники одного подразделения
-                    List<Employee> empsOfDep = Connector.GetEmployeesOfDepartment(dep.Id);
-
-                    if (empsOfDep == null)
-                        continue;
-
-                    // те сотрудники, которые ещё не были добавлены в общий список
-                    List<Employee> newEmps = empsOfDep
-                        .Where(e => !employees.Any(emp => emp.Id == e.Id))
-                        .ToList();
-
-                    employees.AddRange(newEmps);
-                }
-
-                if (employees != null)
-                {
-                    if (query != null)
-                        employees = EmployeeHelper.SearchEmployees(employees, query);
-
-                    // создание модели представления
-                    EmployeesViewModel emps = new EmployeesViewModel();
-
-                    // создать список сотрудников
-                    List<EmpDepViewModel> employeesInUni = new List<EmpDepViewModel>();
-
-                    // конвертировать формат БД в формат модели представления
-                    foreach (Employee employee in employees)
-                        employeesInUni.Add(new EmpDepViewModel(employee));
-
-                    // передать список сотрудников
-                    emps.Employees = employeesInUni
-                        .OrderBy(e => e.LastName)
-                        .ThenBy(e => e.FirstName)
-                        .ThenBy(e => e.MiddleName)
-                        .ToList();
-
-                    return View(emps);
-                }
-                else
+                // получить всех сотрудников
+                List<Employee> employees = EmployeeHelper.GetEmployees(deps);
+                if (employees == null)
                 {
                     ViewBag.Error = "Не удалось получить данные о сотрудниках";
                     return View();
                 }
+
+                // отфильтровать сотрудников по поисковому запросу
+                if (query != null)
+                    employees = EmployeeHelper.SearchEmployees(employees, query);
+
+                // создание модели представления
+                EmployeesViewModel emps = EmployeeHelper.ConvertEmployeesToViewModel(employees);
+
+                return View(emps);
             }
             // указан идентификатор - отображаются сотрудники указанного подразделения
             else
@@ -207,64 +174,22 @@ namespace VacationSystem.Controllers
                     ViewBag.Error = "Подразделение не найдено";
                     return View();
                 }
-                else
+
+                // получить сотрудников одного подразделения
+                List<Employee> employees = Connector.GetEmployeesOfDepartment(id);
+                if (employees == null)
                 {
-                    // получить сотрудников одного подразделения
-                    List<Employee> employees = Connector.GetEmployeesOfDepartment(id);
-
-                    if (employees != null)
-                    {
-                        if (query != null)
-                            employees = EmployeeHelper.SearchEmployees(employees, query);
-
-                        // список сотрудников в подразделении с их должностями
-                        List<EmpDepViewModel> empsInDep = new List<EmpDepViewModel>();
-
-                        // перебрать полученный список сотрудников подразделения
-                        foreach (Employee employee in employees)
-                        {
-                            // передать в модель представления идентификатор и имя сотрудника
-                            EmpDepViewModel empInDep = new EmpDepViewModel(employee);
-
-                            // получить должности сотрудника в подразделении
-                            List<PositionInDepartment> positions = Connector.GetPositionsInDepartment(id, employee.Id);
-
-                            if (positions == null)
-                                continue;
-
-                            List<Position> posOfDemp = new List<Position>();
-                            foreach (PositionInDepartment pos in positions)
-                            {
-                                Position newPos = Connector.GetPosition(pos.Position);
-                                if (newPos != null)
-                                    posOfDemp.Add(newPos);
-                            }
-
-                            if (posOfDemp.Count > 0)
-                            {
-                                empInDep.Positions = posOfDemp;
-                                empsInDep.Add(empInDep);
-                            }
-                        }
-
-                        EmployeesViewModel emps = new EmployeesViewModel
-                        {
-                            Department = dep,
-                            Employees = empsInDep
-                                .OrderBy(e => e.LastName)
-                                .ThenBy(e => e.FirstName)
-                                .ThenBy(e => e.MiddleName)
-                                .ToList()
-                        };
-
-                        return View(emps);
-                    }
-                    else
-                    {
-                        ViewBag.Error = "Не удалось получить данные о сотрудниках";
-                        return View();
-                    }
+                    ViewBag.Error = "Не удалось получить данные о сотрудниках";
+                    return View();
                 }
+
+                if (query != null)
+                    employees = EmployeeHelper.SearchEmployees(employees, query);
+
+                // преобразовать список сотрудников в объект ViewModel
+                EmployeesViewModel emps = EmployeeHelper.ConvertEmployeesToViewModel(employees, dep);
+
+                return View(emps);
             }
         }
 

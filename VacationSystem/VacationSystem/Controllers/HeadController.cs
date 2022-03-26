@@ -241,24 +241,14 @@ namespace VacationSystem.Controllers
                 departments = departments.Where(d => d.Id == query).ToList();
 
             // получить список заместителей данного руководителя в указанном подразделении
-            List<Deputy> deputies = new List<Deputy>();
+            List<Deputy> deputies = DeputyHelper.GetDeputies(id, department, departments);
 
-            if (department != null)
-                deputies = DataHandler.GetDeputies(id, department);
-            else
-                deputies = DataHandler.GetDeputies(id);
-
+            // произошла ошибка
             if (deputies == null)
             {
                 TempData["Error"] = "Не удалось загрузить данные о заместителях";
                 return RedirectToAction("Index");
             }
-
-            // получить заместителей только в тех подразделениях, где руководитель
-            // управляет в данный момент
-            deputies = deputies
-                .Where(deputy => departments.Any(depart => deputy.DepartmentId == depart.Id))
-                .ToList();
 
             // не найдены заместители
             if (deputies.Count == 0)
@@ -268,36 +258,7 @@ namespace VacationSystem.Controllers
             }
 
             // список заместителей в формате ViewModel
-            List<DeputyViewModel> deputiesList = new List<DeputyViewModel>();
-
-            foreach(Deputy dep in deputies)
-            {
-                // данные о заместителе как о сотруднике
-                Employee depEmp = Connector.GetEmployee(dep.DeputyEmployeeId);
-
-                if (depEmp != null)
-                {
-                    // список подразделений, на которые назначен данный заместитель
-                    List<Department> depsOfDeputy = new List<Department>();
-                    depsOfDeputy = departments
-                        .Where(depart => deputies.Any(deputy => deputy.DepartmentId == depart.Id 
-                                                        && deputy.DeputyEmployeeId == depEmp.Id))
-                        .ToList();
-
-                    if (depsOfDeputy.Count == 0)
-                        continue;
-
-                    // сохранить информацию о заместителе во ViewModel
-                    deputiesList.Add(new DeputyViewModel
-                    {
-                        Id = depEmp.Id,
-                        FirstName = depEmp.FirstName,
-                        MiddleName = depEmp.MiddleName,
-                        LastName = depEmp.LastName,
-                        Departments = depsOfDeputy
-                    });
-                }
-            }
+            List<DeputyViewModel> deputiesList = DeputyHelper.ConvertDeputiesToViewModel(deputies, departments);
 
             return View(deputiesList.OrderBy(d => d.LastName)
                                     .ThenBy(d => d.FirstName)
@@ -328,66 +289,17 @@ namespace VacationSystem.Controllers
                 return RedirectToAction("Deputies");
             }
 
-            // список всех сотрудников
-            List<DeputyEmpViewModel> allEmps = new List<DeputyEmpViewModel>();
-
             // список всех подразделений в формате ViewModel
-            List<DeputyDepViewModel> allDeps = new List<DeputyDepViewModel>();
+            List<DeputyDepViewModel> allDeps = DeputyHelper.GetDepartmentsList(departments);
 
-            // получить сотрудников всех подразделений
-            foreach (Department dep in departments)
-            {
-                // добавить подразделение в общий список подразделений
-                allDeps.Add(new DeputyDepViewModel
-                {
-                    Id = dep.Id,
-                    Name = dep.Name
-                });
-
-                // получить всех сотрудников данного подразделения
-                List<Employee> employees = Connector.GetEmployeesOfDepartment(dep.Id);
-                if (employees == null)
-                    continue;
-                
-                // добавить сотрудников в списки
-                foreach(Employee emp in employees)
-                {
-                    // проверить наличие такого заместителя в БД
-                    if (DataHandler.CheckDeputy(id, emp.Id, dep.Id))
-                        continue;
-
-                    // новый сотрудник в формате ViewModel
-                    DeputyEmpViewModel newEmp = new DeputyEmpViewModel
-                    {
-                        EmpId = emp.Id,
-                        Name = emp.LastName + " " + emp.FirstName + " " + emp.MiddleName,
-                        Department = allDeps.FirstOrDefault(d => d.Id == dep.Id),
-                        DepartmentId = dep.Id
-                    };
-
-                    // добавить в список сотрудников подразделения
-                    allDeps.FirstOrDefault(d => d.Id == dep.Id).Employees.Add(newEmp);
-
-                    // добавить в список всех сотрудников
-                    allEmps.Add(newEmp);
-                }
-            }
+            // список всех сотрудников
+            List<DeputyEmpViewModel> allEmps = DeputyHelper.GetEmployeesList(id, allDeps);
 
             if ((allDeps.Count == 0) || (allEmps.Count == 0))
             {
                 TempData["Error"] = "Не удалось загрузить список подразделений";
                 return RedirectToAction("Deputies");
             }
-
-            // удалить из списка сотрудников самого руководителя
-            allEmps = allEmps.Where(e => e.Id != id).ToList();
-
-            // отсортировать подразделения и сотрудников по алфавиту
-            allDeps = allDeps.OrderBy(d => d.Name).ToList();
-            allEmps = allEmps.OrderBy(e => e.Name).ToList();
-
-            for (int i = 0; i < allEmps.Count; i++)
-                allEmps[i].Id = i.ToString();
 
             // сохранить списки в сессию
             SessionHelper.SetObjectAsJson(HttpContext.Session, "all_employees", allEmps);
@@ -523,32 +435,18 @@ namespace VacationSystem.Controllers
             if (depId == null)
             {
                 List<Employee> subEmps = Connector.GetSubordinateEmployees(headId);
-
                 if (subEmps == null)
                 {
                     TempData["Error"] = "Не удалось загрузить список сотрудников";
                     return View();
                 }
 
+                // отфильтровать сотрудников по поисковому запросу
                 if (query != null)
                     subEmps = EmployeeHelper.SearchEmployees(subEmps, query);
 
                 // создание модели представления
-                EmployeesViewModel emps = new EmployeesViewModel();
-
-                // создать список сотрудников
-                List<EmpDepViewModel> employeesInUni = new List<EmpDepViewModel>();
-
-                // конвертировать формат БД в формат модели представления
-                foreach (Employee employee in subEmps)
-                    employeesInUni.Add(new EmpDepViewModel(employee));
-
-                // передать список сотрудников
-                emps.Employees = employeesInUni
-                    .OrderBy(e => e.LastName)
-                    .ThenBy(e => e.FirstName)
-                    .ThenBy(e => e.MiddleName)
-                    .ToList();
+                EmployeesViewModel emps = EmployeeHelper.ConvertEmployeesToViewModel(subEmps);
 
                 return View(emps);
             }
@@ -567,7 +465,6 @@ namespace VacationSystem.Controllers
 
                 // получить сотрудников одного подразделения
                 List<Employee> subEmps = Connector.GetEmployeesOfDepartment(depId);
-
                 if (subEmps == null)
                 {
                     TempData["Error"] = "Не удалось загрузить список сотрудников";
@@ -577,45 +474,8 @@ namespace VacationSystem.Controllers
                 if (query != null)
                     subEmps = EmployeeHelper.SearchEmployees(subEmps, query);
 
-                // список сотрудников в подразделении с их должностями
-                List<EmpDepViewModel> empsInDep = new List<EmpDepViewModel>();
-
-                // перебрать полученный список сотрудников подразделения
-                foreach (Employee employee in subEmps)
-                {
-                    // передать в модель представления идентификатор и имя сотрудника
-                    EmpDepViewModel empInDep = new EmpDepViewModel(employee);
-
-                    // получить должности сотрудника в подразделении
-                    List<PositionInDepartment> positions = Connector.GetPositionsInDepartment(depId, employee.Id);
-
-                    if (positions == null)
-                        continue;
-
-                    List<Position> posOfDemp = new List<Position>();
-                    foreach (PositionInDepartment pos in positions)
-                    {
-                        Position newPos = Connector.GetPosition(pos.Position);
-                        if (newPos != null)
-                            posOfDemp.Add(newPos);
-                    }
-
-                    if (posOfDemp.Count > 0)
-                    {
-                        empInDep.Positions = posOfDemp;
-                        empsInDep.Add(empInDep);
-                    }
-                }
-
-                EmployeesViewModel emps = new EmployeesViewModel
-                {
-                    Department = dep,
-                    Employees = empsInDep
-                                .OrderBy(e => e.LastName)
-                                .ThenBy(e => e.FirstName)
-                                .ThenBy(e => e.MiddleName)
-                                .ToList()
-                };
+                // преобразовать список сотрудников в объект ViewModel
+                EmployeesViewModel emps = EmployeeHelper.ConvertEmployeesToViewModel(subEmps, dep);
 
                 return View(emps);
             }

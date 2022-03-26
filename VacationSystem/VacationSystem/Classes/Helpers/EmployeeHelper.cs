@@ -85,5 +85,123 @@ namespace VacationSystem.Classes.Helpers
 
             return posInDeps;
         }
+
+        /// <summary>
+        /// Получить всех сотрудников указанных подразделений
+        /// </summary>
+        /// <param name="deps">Список подразделений, для которых нужно получить сотрудников</param>
+        /// <returns>Список сотрудников указанных подразделений</returns>
+        static public List<Employee> GetEmployees(List<Department> deps)
+        {
+            List<Employee> employees = new List<Employee>();
+
+            // пройтись по всем подразделениям, чтобы получить их сотрудников
+            foreach (Department dep in deps)
+            {
+                // сотрудники одного подразделения
+                List<Employee> empsOfDep = Connector.GetEmployeesOfDepartment(dep.Id);
+
+                if (empsOfDep == null)
+                    continue;
+
+                // те сотрудники, которые ещё не были добавлены в общий список
+                List<Employee> newEmps = empsOfDep
+                    .Where(e => !employees.Any(emp => emp.Id == e.Id))
+                    .ToList();
+
+                employees.AddRange(newEmps);
+            }
+
+            return employees;
+        }
+
+        /// <summary>
+        /// Преобразование списка сотрудников в формат ViewModel
+        /// </summary>
+        /// <param name="employees">Список сотрудников в формате модели</param>
+        /// <returns>Информация о сотрудниках в формате ViewModel</returns>
+        static public EmployeesViewModel ConvertEmployeesToViewModel(List<Employee> employees)
+        {
+            // создание модели представления
+            EmployeesViewModel emps = new EmployeesViewModel();
+
+            // создать список сотрудников
+            List<EmpDepViewModel> employeesInUni = new List<EmpDepViewModel>();
+
+            // конвертировать формат БД в формат модели представления
+            foreach (Employee employee in employees)
+                employeesInUni.Add(new EmpDepViewModel(employee));
+
+            // передать список сотрудников
+            emps.Employees = employeesInUni
+                .OrderBy(e => e.LastName)
+                .ThenBy(e => e.FirstName)
+                .ThenBy(e => e.MiddleName)
+                .ToList();
+
+            return emps;
+        }
+
+        /// <summary>
+        /// Преобразование списка сотрудников в формат ViewModel с их должностями в подразделении
+        /// </summary>
+        /// <param name="employees">Список сотрудников в формате модели</param>
+        /// <param name="dep">Подразделение сотрудников</param>
+        /// <returns>Информация о сотрудниках с их должностями в указанном подразделении в формате ViewModel</returns>
+        static private List<EmpDepViewModel> ConvertEmpsAndPositionsToViewModel(List<Employee> employees, Department dep)
+        {
+            // список сотрудников в подразделении с их должностями
+            List<EmpDepViewModel> empsInDep = new List<EmpDepViewModel>();
+
+            // перебрать полученный список сотрудников подразделения
+            foreach (Employee employee in employees)
+            {
+                // передать в модель представления идентификатор и имя сотрудника
+                EmpDepViewModel empInDep = new EmpDepViewModel(employee);
+
+                // получить должности сотрудника в подразделении
+                List<PositionInDepartment> positions = Connector.GetPositionsInDepartment(dep.Id, employee.Id);
+                if (positions == null)
+                    continue;
+
+                List<Position> posOfDemp = new List<Position>();
+                foreach (PositionInDepartment pos in positions)
+                {
+                    Position newPos = Connector.GetPosition(pos.Position);
+                    if (newPos != null)
+                        posOfDemp.Add(newPos);
+                }
+
+                if (posOfDemp.Count > 0)
+                {
+                    empInDep.Positions = posOfDemp;
+                    empsInDep.Add(empInDep);
+                }
+            }
+
+            return empsInDep;
+        }
+
+        /// <summary>
+        /// Преобразование списка сотрудников в формат ViewModel
+        /// </summary>
+        /// <param name="employees">Список сотрудников в формате модели</param>
+        /// <param name="dep">Подразделение сотрудников</param>
+        /// <returns>Информация о сотрудниках в формате ViewModel</returns>
+        static public EmployeesViewModel ConvertEmployeesToViewModel(List<Employee> employees, Department dep)
+        {
+            // список сотрудников в подразделении с их должностями
+            List<EmpDepViewModel> empsInDep = ConvertEmpsAndPositionsToViewModel(employees, dep);
+
+            return new EmployeesViewModel
+            {
+                Department = dep,
+                Employees = empsInDep
+                    .OrderBy(e => e.LastName)
+                    .ThenBy(e => e.FirstName)
+                    .ThenBy(e => e.MiddleName)
+                    .ToList()
+            };
+        }
     }
 }
