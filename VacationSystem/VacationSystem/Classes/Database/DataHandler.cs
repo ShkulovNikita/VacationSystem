@@ -324,5 +324,69 @@ namespace VacationSystem.Classes.Database
                 return false;
             }
         }
+
+        /// <summary>
+        /// Получение списка групп сотрудников
+        /// </summary>
+        /// <param name="headId">Идентификатор руководителя</param>
+        /// <returns>Список групп сотрудников, созданных заданным руководителем</returns>
+        static public List<Group> GetGroups(string headId)
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    return db.Groups.Where(g => g.HeadEmployeeId == headId).ToList();
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return null;
+            }
+        }
+
+        /// <summary>
+        /// Получение списка групп сотрудников
+        /// </summary>
+        /// <param name="headId">Идентификатор руководителя</param>
+        /// <param name="depId">Идентификатор подразделения</param>
+        /// <returns>Список групп сотрудников, созданных заданным руководителем в указанном подразделении</returns>
+        static public List<Group> GetGroups(string headId, string depId)
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    return db.Groups.Where(g => g.HeadEmployeeId == headId && g.DepartmentId == depId).ToList();
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return null;
+            }
+        }
+
+        /// <summary>
+        /// Получение списка сотрудников из указанной группы
+        /// </summary>
+        /// <param name="groupId">Идентификатор группы</param>
+        /// <returns>Список сотрудников группы</returns>
+        static public List<EmployeeInGroup> GetEmployeesOfGroup(int groupId)
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    return db.EmployeeInGroups.Where(emps => emps.GroupId == groupId).ToList();
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return null;
+            }
+        }
     }
 }

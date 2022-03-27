@@ -203,5 +203,36 @@ namespace VacationSystem.Classes.Helpers
                     .ToList()
             };
         }
+
+        /// <summary>
+        /// Преобразовать объект сотрудника во ViewModel
+        /// </summary>
+        /// <param name="emp">Объект сотрудника в формате модели</param>
+        /// <returns>Объект сотрудника в формате ViewModel</returns>
+        static public EmployeeViewModel ConvertEmployeeToViewModel(Employee emp)
+        {
+            // объект модели представления с данными о сотруднике
+            EmployeeViewModel employee = new EmployeeViewModel
+            {
+                Id = emp.Id,
+                FirstName = emp.FirstName,
+                MiddleName = emp.MiddleName,
+                LastName = emp.LastName
+            };
+
+            // должности сотрудника в его подразделениях
+            List<DepPositionsViewModel> positions = EmployeeHelper.GetPositionsInDepartments(employee.Id);
+            if (positions != null)
+                employee.PositionsInDepartments = positions;
+
+            // получить подразделения, которыми управляет данный сотрудник
+            List<Department> subordinateDepartments = Connector.GetSubordinateDepartments(employee.Id);
+            if (subordinateDepartments != null)
+                employee.SubordinateDepartments = subordinateDepartments
+                    .OrderBy(d => d.Name)
+                    .ToList();
+
+            return employee;
+        }
     }
 }

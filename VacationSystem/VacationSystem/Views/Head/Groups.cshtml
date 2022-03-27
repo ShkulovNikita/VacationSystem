@@ -1,0 +1,77 @@
+﻿@model List<GroupViewModel>
+
+@using VacationSystem.ViewModels;
+@using VacationSystem.Models;
+@using VacationSystem.HtmlHelpers;
+
+@{
+    ViewData["Title"] = "Список групп сотрудников";
+
+    string error = null;
+    if (TempData["Error"] != null)
+        error = TempData["Error"].ToString();
+
+    string message = null;
+    if (TempData["Message"] != null)
+        message = TempData["Message"].ToString();
+
+    string success = null;
+    if (TempData["Success"] != null)
+        success = TempData["Success"].ToString();
+
+    List<Department> departments = ViewBag.departments;
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-10">
+            @Html.CheckError(error)
+            @Html.CheckMessage(message)
+            @Html.CheckSuccess(success)
+            <form>
+                <label for="query">Подразделение</label>
+                <select name="query">
+                    @foreach(Department dep in departments)
+                    {
+                        <option value="@dep.Id">@dep.Name</option>
+                    }
+                </select>
+                <input type="submit" class="btn btn-primary" value="Применить" />
+            </form>
+            <a asp-controller="Head" asp-action="AddGroup" class="btn btn-primary">Добавить</a>
+            @if(@Model.Count > 0)
+            {
+                <h3>Заместители</h3>
+            }
+            @foreach(GroupViewModel group in @Model)
+            {
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            @group.Group.Name
+                        </h5>
+                        <h6 class="card-subtitle mb-2 text-muted">
+                            @group.Department.Name
+                        </h6>
+                        <h5>Сотрудники:</h5>
+                        <p class="card-text">
+                            @for (int i = 0; i < @group.Employees.Count; i++)
+                            {
+                                if (i == @group.Employees.Count - 1)
+                                {
+                                    <span>@group.Employees[i].LastName @group.Employees[i].FirstName @group.Employees[i].MiddleName</span>
+                                }
+                                else
+                                {
+                                    <span>@group.Employees[i].LastName @group.Employees[i].FirstName @group.Employees[i].MiddleName,</span>
+                                }
+                            }
+                        </p>
+                        <a asp-controller="Head" asp-action="EditGroup" asp-route-groupId="@group.Group.Id" class="btn btn-primary">Редактировать</a>
+                        <a asp-controller="Head" asp-action="DeleteGroup" asp-route-deputyId="@group.Group.Id" class="btn btn-danger">Удалить</a>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>

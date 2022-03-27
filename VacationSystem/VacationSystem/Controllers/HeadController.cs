@@ -1,14 +1,15 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Http;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Linq;
+using System;
+
 using VacationSystem.Models;
 using VacationSystem.ViewModels;
 using VacationSystem.Classes;
 using VacationSystem.Classes.Database;
-using System.Collections.Generic;
-using Microsoft.AspNetCore.Http;
-using System.Linq;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using System;
-using System.Diagnostics;
 using VacationSystem.Classes.Helpers;
 
 namespace VacationSystem.Controllers
@@ -23,6 +24,10 @@ namespace VacationSystem.Controllers
         {
             return View();
         }
+
+        /* -------------------------- */
+        /* Подразделения руководителя */
+        /* -------------------------- */
 
         /// <summary>
         /// Просмотр списка подразделений данного руководителя
@@ -82,6 +87,10 @@ namespace VacationSystem.Controllers
 
             return View(department);
         }
+
+        /* ---------------- */
+        /* Стили управления */
+        /* ---------------- */
 
         /// <summary>
         /// Просмотр информации о выбранных стилях руководства для подразделений
@@ -208,6 +217,10 @@ namespace VacationSystem.Controllers
 
             return RedirectToAction("Styles", "Head");
         }
+
+        /* ------------------------ */
+        /* Заместители руководителя */
+        /* ------------------------ */
 
         /// <summary>
         /// Просмотр списка заместителей текущего руководителя
@@ -417,6 +430,10 @@ namespace VacationSystem.Controllers
             return RedirectToAction("Deputies");
         }
 
+        /* ---------------------- */
+        /* Подчиненные сотрудники */
+        /* ---------------------- */
+
         /// <summary>
         /// Просмотр списка подчиненных сотрудников
         /// </summary>
@@ -504,27 +521,65 @@ namespace VacationSystem.Controllers
             }
 
             // объект модели представления с данными о сотруднике
-            EmployeeViewModel employee = new EmployeeViewModel
-            {
-                Id = emp.Id,
-                FirstName = emp.FirstName,
-                MiddleName = emp.MiddleName,
-                LastName = emp.LastName
-            };
-
-            // должности сотрудника в его подразделениях
-            List<DepPositionsViewModel> positions = EmployeeHelper.GetPositionsInDepartments(employee.Id);
-            if (positions != null)
-                employee.PositionsInDepartments = positions;
-
-            // получить подразделения, которыми управляет данный сотрудник
-            List<Department> subordinateDepartments = Connector.GetSubordinateDepartments(employee.Id);
-            if (subordinateDepartments != null)
-                employee.SubordinateDepartments = subordinateDepartments
-                    .OrderBy(d => d.Name)
-                    .ToList();
+            EmployeeViewModel employee = EmployeeHelper.ConvertEmployeeToViewModel(emp);
 
             return View(employee);
         }
+
+        /* ------------------------------ */
+        /* Группы подчиненных сотрудников */
+        /* ------------------------------ */
+
+        /// <summary>
+        /// Просмотр списка групп сотрудников, созданных руководителем
+        /// </summary>
+        /// <param name="department">Подразделение руководителя</param>
+        /// <param name="query">Поисковый запрос</param>
+        public IActionResult Groups(string department, string query)
+        {
+            string id = HttpContext.Session.GetString("id");
+            if (id == null)
+            {
+                TempData["Error"] = "Не удалось загрузить данные пользователя";
+                return RedirectToAction("Index");
+            }
+
+            // список подразделений руководителя
+            List<Department> departments = Connector.GetSubordinateDepartments(id).ToList();
+            if (departments == null)
+            {
+                TempData["Error"] = "Не удалось загрузить список подразделений";
+                return RedirectToAction("Index");
+            }
+
+            // сохранить список всех подразделений во ViewBag
+            ViewBag.Departments = departments.OrderBy(d => d.Name).ToList();
+
+            // отфильтровать подразделения по запросу
+            if (query != null)
+                departments = departments.Where(d => d.Id == query).ToList();
+
+            // получить список групп, созданных данным руководителем
+            List<Group> groups = GroupHelper.GetGroups(id, department, departments);
+
+            if (groups == null)
+            {
+                TempData["Error"] = "Не удалось загрузить список групп";
+                return RedirectToAction("Index");
+            }
+
+            // не найдены группы
+            if (groups.Count == 0)
+            {
+                TempData["Message"] = "Нет созданных групп";
+                return View(new List<GroupViewModel>());
+            }
+
+            // список групп в формате ViewModel
+            List<GroupViewModel> groupsList = GroupHelper.ConvertGroupsToViewModel(groups);
+
+            return View(groupsList);
+        }
+
     }
 }

@@ -211,32 +211,11 @@ namespace VacationSystem.Controllers
                 ViewBag.Error = "Не удалось получить данные о сотруднике";
                 return View();
             }
-            // сотрудник существует, и его удалось получить
-            else
-            {
-                // объект модели представления с данными о сотруднике
-                EmployeeViewModel employee = new EmployeeViewModel
-                {
-                    Id = emp.Id,
-                    FirstName = emp.FirstName,
-                    MiddleName = emp.MiddleName,
-                    LastName = emp.LastName
-                };
 
-                // должности сотрудника в его подразделениях
-                List<DepPositionsViewModel> positions = EmployeeHelper.GetPositionsInDepartments(employee.Id);
-                if (positions != null)
-                    employee.PositionsInDepartments = positions;
+            // объект модели представления с данными о сотруднике
+            EmployeeViewModel employee = EmployeeHelper.ConvertEmployeeToViewModel(emp);
 
-                // получить подразделения, которыми управляет данный сотрудник
-                List<Department> subordinateDepartments = Connector.GetSubordinateDepartments(employee.Id);
-                if (subordinateDepartments != null)
-                    employee.SubordinateDepartments = subordinateDepartments
-                        .OrderBy(d => d.Name)
-                        .ToList();
-
-                return View(employee);
-            }
+            return View(employee);
         }
     }
 }
