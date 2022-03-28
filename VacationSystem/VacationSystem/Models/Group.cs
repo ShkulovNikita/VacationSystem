@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -27,6 +28,12 @@ namespace VacationSystem.Models
         public DateTime Date { get; set; }
 
         /// <summary>
+        /// Описание группы
+        /// </summary>
+        [MaxLength(500)]
+        public string Description { get; set; }
+
+        /// <summary>
         /// Руководитель, создавший группу
         /// </summary>
         [Required, MaxLength(50)]
@@ -39,5 +46,10 @@ namespace VacationSystem.Models
         [Required, MaxLength(50)]
         public string DepartmentId { get; set; }
         public Department Department { get; set; }
+
+        /// <summary>
+        /// Записи о сотрудниках в группе
+        /// </summary>
+        public List<EmployeeInGroup> EmployeesInGroup { get; set; } = new List<EmployeeInGroup>();
     }
 }

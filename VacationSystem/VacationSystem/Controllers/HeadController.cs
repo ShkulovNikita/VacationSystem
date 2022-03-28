@@ -581,5 +581,36 @@ namespace VacationSystem.Controllers
             return View(groupsList);
         }
 
+        /// <summary>
+        /// Просмотр группы сотрудников
+        /// </summary>
+        /// <param name="id">Идентификатор группы</param>
+        public IActionResult Group(int id)
+        {
+            string headId = HttpContext.Session.GetString("id");
+            if (headId == null)
+            {
+                TempData["Error"] = "Не удалось загрузить данные пользователя";
+                return RedirectToAction("Index");
+            }
+
+            // получить данные о группе из БД
+            Group group = DataHandler.GetGroup(id);
+            if (group == null)
+            {
+                TempData["Error"] = "Не удалось получить данные о группе";
+                return RedirectToAction("Groups");
+            }
+
+            // преобразовать данные во ViewModel
+            GroupViewModel groupVm = GroupHelper.ConvertGroupToViewModel(group);
+            if (groupVm == null)
+            {
+                TempData["Error"] = "Не удалось получить данные о группе";
+                return RedirectToAction("Groups");
+            }
+
+            return View(groupVm);
+        }
     }
 }

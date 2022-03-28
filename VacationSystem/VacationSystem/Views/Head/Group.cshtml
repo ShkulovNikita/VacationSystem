@@ -1,5 +1,45 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model GroupViewModel
+
+@using VacationSystem.ViewModels;
+@using VacationSystem.HtmlHelpers;
+
 @{
+    ViewData["Title"] = "Информация о группе сотрудников";
+
+    string error = null;
+    if (TempData["Error"] != null)
+        error = TempData["Error"].ToString();
+
+    string message = null;
+    if (TempData["Message"] != null)
+        message = TempData["Message"].ToString();
+
+    string success = null;
+    if (TempData["Success"] != null)
+        success = TempData["Success"].ToString();
 }
+
+<div class="container">
+    <div class="row">
+        <div class="col-7">
+            @Html.CheckError(error)
+            @Html.CheckMessage(message)
+            @Html.CheckSuccess(success)
+            <h5>@Model.Group.Name</h5>
+            <h3>Подразделение: @Model.Department.Name</h3>
+            <h3>@Model.Group.Description</h3>
+            <a asp-controller="Head" asp-action="EditGroup" asp-route-groupId="@Model.Group.Id" class="btn btn-primary">
+                Редактировать
+            </a>
+            <a asp-controller="Head" asp-action="DeleteGroup" asp-route-groupId="@Model.Group.Id" class="btn btn-danger">
+                Удалить
+            </a>
+            @foreach(Employee emp in @Model.Employees)
+            {
+                <card>
+                    <h4>@emp.LastName @emp.FirstName @emp.MiddleName</h4>
+                </card>
+            }
+        </div>
+    </div>
+</div>

@@ -63,7 +63,7 @@ namespace VacationSystem.Classes.Helpers
         /// </summary>
         /// <param name="group">Группа в формате модели</param>
         /// <returns>Группа в формате ViewModel</returns>
-        static private GroupViewModel ConvertGroupToViewModel(Group group)
+        static public GroupViewModel ConvertGroupToViewModel(Group group)
         {
             // получить подразделение группы
             Department department = Connector.GetDepartment(group.DepartmentId);
@@ -71,7 +71,7 @@ namespace VacationSystem.Classes.Helpers
                 return null;
 
             // список сотрудников группы
-            List<Employee> employees = GetGroupEmployees(group.Id);
+            List<Employee> employees = GetGroupEmployees(group);
             if (employees == null)
                 return null;
 
@@ -86,19 +86,14 @@ namespace VacationSystem.Classes.Helpers
         /// <summary>
         /// Получить список сотрудников по идентификатору группы
         /// </summary>
-        /// <param name="groupId">Идентификатор группы</param>
+        /// <param name="group">Группа сотрудников</param>
         /// <returns>Список сотрудников указанной группы</returns>
-        static private List<Employee> GetGroupEmployees(int groupId)
+        static private List<Employee> GetGroupEmployees(Group group)
         {
-            // получить идентификаторы сотрудников группы
-            List<string> empsInGroup = DataHandler
-                .GetEmployeesOfGroup(groupId)
-                .Select(e => e.EmployeeId)
-                .ToList();
+            List<Employee> employees = new List<Employee>();
 
             // для всех идентификаторов получить соответствующих сотрудников
-            List<Employee> employees = new List<Employee>();
-            foreach(string empId in empsInGroup)
+            foreach(string empId in group.EmployeesInGroup.Select(e => e.EmployeeId))
             {
                 Employee emp = Connector.GetEmployee(empId);
                 if (emp != null)

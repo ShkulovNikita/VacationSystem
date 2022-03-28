@@ -336,7 +336,10 @@ namespace VacationSystem.Classes.Database
             {
                 using (ApplicationContext db = new ApplicationContext())
                 {
-                    return db.Groups.Where(g => g.HeadEmployeeId == headId).ToList();
+                    return db.Groups
+                        .Include(g => g.EmployeesInGroup)
+                        .Where(g => g.HeadEmployeeId == headId)
+                        .ToList();
                 }
             }
             catch (Exception ex)
@@ -358,7 +361,10 @@ namespace VacationSystem.Classes.Database
             {
                 using (ApplicationContext db = new ApplicationContext())
                 {
-                    return db.Groups.Where(g => g.HeadEmployeeId == headId && g.DepartmentId == depId).ToList();
+                    return db.Groups
+                        .Include(g => g.EmployeesInGroup)
+                        .Where(g => g.HeadEmployeeId == headId && g.DepartmentId == depId)
+                        .ToList();
                 }
             }
             catch (Exception ex)
@@ -369,17 +375,19 @@ namespace VacationSystem.Classes.Database
         }
 
         /// <summary>
-        /// Получение списка сотрудников из указанной группы
+        /// Получить данные о группе из БД
         /// </summary>
         /// <param name="groupId">Идентификатор группы</param>
-        /// <returns>Список сотрудников группы</returns>
-        static public List<EmployeeInGroup> GetEmployeesOfGroup(int groupId)
+        /// <returns>Запись о группе и связанных с ней сотрудниках и подразделениях</returns>
+        static public Group GetGroup(int groupId)
         {
             try
             {
                 using (ApplicationContext db = new ApplicationContext())
                 {
-                    return db.EmployeeInGroups.Where(emps => emps.GroupId == groupId).ToList();
+                    return db.Groups
+                        .Include(g => g.EmployeesInGroup)
+                        .FirstOrDefault(g => g.Id == groupId);
                 }
             }
             catch (Exception ex)
