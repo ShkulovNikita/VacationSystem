@@ -612,5 +612,31 @@ namespace VacationSystem.Controllers
 
             return View(groupVm);
         }
+
+        /// <summary>
+        /// Добавление новой группы сотрудников
+        /// </summary>
+        public IActionResult AddGroup()
+        {
+            string headId = HttpContext.Session.GetString("id");
+            if (headId == null)
+            {
+                TempData["Error"] = "Не удалось загрузить данные пользователя";
+                return RedirectToAction("Index");
+            }
+
+            // получить подразделения текущего руководителя
+            List<Department> departments = Connector.GetSubordinateDepartments(headId);
+            if (departments == null)
+            {
+                TempData["Error"] = "Не удалось загрузить данные о подразделениях";
+                return RedirectToAction("Groups");
+            }
+
+            ViewBag.Departments = departments;
+
+
+
+        }
     }
 }
