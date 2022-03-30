@@ -82,6 +82,18 @@ namespace VacationSystem.Classes
         }
 
         /// <summary>
+        /// Получение производственного календаря по году
+        /// </summary>
+        /// <param name="year">Год для получения производственного календаря</param>
+        /// <returns>Производственный календарь за указанный год</returns>
+        public static Holiday GetCalendar(int year)
+        {
+            string calendar = ReadReply("calendar/calendar" + year.ToString());
+            Holiday holiday = (Holiday)Parse(Parser.ParseCalendar, calendar);
+            return holiday;
+        }
+
+        /// <summary>
         /// Получение подразделения по его идентификатору
         /// </summary>
         /// <param name="id">Идентификатор подразделения</param>

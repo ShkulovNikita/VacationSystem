@@ -13,7 +13,6 @@ namespace VacationSystem
         //private readonly StreamWriter logStream = new StreamWriter("logs.txt", true);
  
         // таблицы БД
-        public DbSet<Holiday> Holidays { get; set; }
         public DbSet<RuleType> RuleTypes { get; set; }
         public DbSet<Position> Positions { get; set; }
         public DbSet<Department> Departments { get; set; }

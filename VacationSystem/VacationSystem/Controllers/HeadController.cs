@@ -635,7 +635,7 @@ namespace VacationSystem.Controllers
 
             ViewBag.Departments = departments;
 
-
+            return View();
 
         }
     }

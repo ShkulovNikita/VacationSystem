@@ -14,6 +14,40 @@ namespace VacationSystem.Classes
     static public class Parser
     {
         /// <summary>
+        /// Парсинг ответа от API с производственным календарем
+        /// </summary>
+        /// <param name="json">Строка JSON, полученная от API</param>
+        /// <returns>Производственный календарь</returns>
+        static public Holiday ParseCalendar(string json)
+        {
+            try
+            {
+                HolidaysList holidays = JsonSerializer.Deserialize<HolidaysList>(json);
+                if (holidays == null)
+                    return null;
+
+                if (holidays.Holidays == null)
+                    return new Holiday();
+
+                List<DateTime> dates = new List<DateTime>();
+                foreach (DateTime date in holidays.Holidays)
+                    dates.Add(date);
+
+                Holiday result = new Holiday
+                {
+                    Dates = dates
+                };
+
+                return result;
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return null;
+            }
+        }
+
+        /// <summary>
         /// Парсинг ответа от API с информацией о сотруднике
         /// </summary>
         /// <param name="json">Строка JSON, полученная от API</param>
