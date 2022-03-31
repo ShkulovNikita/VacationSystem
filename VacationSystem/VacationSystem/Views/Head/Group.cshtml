@@ -34,6 +34,7 @@
             <a asp-controller="Head" asp-action="DeleteGroup" asp-route-groupId="@Model.Group.Id" class="btn btn-danger">
                 Удалить
             </a>
+            <h3>Сотрудники в группе:</h3>
             @foreach(Employee emp in @Model.Employees)
             {
                 <card>

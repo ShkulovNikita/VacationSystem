@@ -18,21 +18,23 @@
             @Html.CheckError(error)
             <form method="post">
                 <h3>Выберите подразделение</h3>
-                <select id="department" name="Department">
+                <select id="department" name="department">
                     @foreach(var dep in @ViewBag.departments)
                     {
                         <option value="@dep.Id">@dep.Name</option>
                     }
                 </select>
-                <h3>Выберите сотрудника</h3>
+                <h3>Название группы:</h3>
+                <input type="text" name="name" />
+                <h3>Описание группы:</h3>
+                <input type="text" size="3" name="description" />
+                <h3>Выберите сотрудников</h3>
                 <select multiple id="employees" name="Employee" size="@employees.Count()">
                     @foreach (var emp in employees)
                     {
                         <option value="@emp.EmpId">@emp.Name</option>
                     }
                 </select>
-                <button id="add-employee" class="btn btn-primary">+</button>
-                <button id="remove-employee" class="btn btn-primary">-</button>
                 <input type="submit" class="btn btn-primary" value="Добавить" />
             </form>
         </div>

@@ -53,19 +53,8 @@
                         <h6 class="card-subtitle mb-2 text-muted">
                             @group.Department.Name
                         </h6>
-                        <h5>Сотрудники:</h5>
                         <p class="card-text">
-                            @for (int i = 0; i < @group.Employees.Count; i++)
-                            {
-                                if (i == @group.Employees.Count - 1)
-                                {
-                                    <span>@group.Employees[i].LastName @group.Employees[i].FirstName @group.Employees[i].MiddleName</span>
-                                }
-                                else
-                                {
-                                    <span>@group.Employees[i].LastName @group.Employees[i].FirstName @group.Employees[i].MiddleName,</span>
-                                }
-                            }
+                            @group.Group.Description
                         </p>
                         <a asp-controller="Head" asp-action="EditGroup" asp-route-groupId="@group.Group.Id" class="btn btn-primary">Редактировать</a>
                         <a asp-controller="Head" asp-action="DeleteGroup" asp-route-deputyId="@group.Group.Id" class="btn btn-danger">Удалить</a>

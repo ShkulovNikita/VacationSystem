@@ -403,8 +403,10 @@ namespace VacationSystem.Classes.Database
         /// <param name="employees">Список сотрудников в группе</param>
         /// <param name="headId">Идентификатор руководителя</param>
         /// <param name="depId">Идентификатор подразделения</param>
+        /// <param name="name">Название группы</param>
+        /// <param name="description">Описание группы</param>
         /// <returns>Успешность выполнения операции</returns>
-        static public bool AddGroup(List<Employee> employees, string headId, string depId)
+        static public bool AddGroup(List<Employee> employees, string headId, string depId, string name, string description)
         {
             try
             {
@@ -412,8 +414,8 @@ namespace VacationSystem.Classes.Database
                 {
                     Group group = new Group
                     {
-                        Name = "",
-                        Description = "",
+                        Name = name,
+                        Description = description,
                         Date = DateTime.Now,
                         HeadEmployeeId = headId,
                         DepartmentId = depId

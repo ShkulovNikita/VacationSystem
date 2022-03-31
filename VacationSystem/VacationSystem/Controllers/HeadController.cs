@@ -678,7 +678,7 @@ namespace VacationSystem.Controllers
         /// </summary>
         /// <param name="Employee">Список идентификаторов выбранных сотрудников</param>
         [HttpPost]
-        public IActionResult AddGroup(string Department, string[] Employee)
+        public IActionResult AddGroup(string name, string description, string department, string[] Employee)
         {
             // идентификатор авторизованного руководителя
             string headId = HttpContext.Session.GetString("id");
@@ -704,7 +704,7 @@ namespace VacationSystem.Controllers
                 return RedirectToAction("Groups");
             }
 
-            if (DataHandler.AddGroup(employees, headId, Department))
+            if (DataHandler.AddGroup(employees, headId, department, name, description))
                 TempData["Success"] = "Группа успешно сохранена!";
             else
                 TempData["Error"] = "Не удалось сохранить группу";
