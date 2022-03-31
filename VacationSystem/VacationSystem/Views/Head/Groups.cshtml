@@ -57,7 +57,7 @@
                             @group.Group.Description
                         </p>
                         <a asp-controller="Head" asp-action="EditGroup" asp-route-groupId="@group.Group.Id" class="btn btn-primary">Редактировать</a>
-                        <a asp-controller="Head" asp-action="DeleteGroup" asp-route-deputyId="@group.Group.Id" class="btn btn-danger">Удалить</a>
+                        <a asp-controller="Head" asp-action="DeleteGroup" asp-route-groupId="@group.Group.Id" class="btn btn-danger">Удалить</a>
                     </div>
                 </div>
             }

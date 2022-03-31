@@ -676,6 +676,9 @@ namespace VacationSystem.Controllers
         /// <summary>
         /// Сохранение в БД новой группы
         /// </summary>
+        /// <param name="name">Наименование группы</param>
+        /// <param name="description">Описание группы</param>
+        /// <param name="department">Подразделение сотрудников группы</param>
         /// <param name="Employee">Список идентификаторов выбранных сотрудников</param>
         [HttpPost]
         public IActionResult AddGroup(string name, string description, string department, string[] Employee)
@@ -710,6 +713,38 @@ namespace VacationSystem.Controllers
                 TempData["Error"] = "Не удалось сохранить группу";
 
             ClearDeputySessionData();
+            return RedirectToAction("Groups");
+        }
+
+        /// <summary>
+        /// Удаление группы сотрудников
+        /// </summary>
+        /// <param name="groupId">Идентификатор группы</param>
+        public IActionResult DeleteGroup(int groupId)
+        {
+            // идентификатор авторизованного руководителя
+            string headId = HttpContext.Session.GetString("id");
+            if (headId == null)
+            {
+                TempData["Error"] = "Не удалось загрузить данные пользователя";
+                ClearDeputySessionData();
+                return RedirectToAction("Groups");
+            }
+
+            // проверка, является ли текущий руководитель создателем группы
+            if (DataHandler.GetGroup(groupId).HeadEmployeeId != headId)
+            {
+                TempData["Error"] = "Нет прав для удаления данной группы";
+                ClearDeputySessionData();
+                return RedirectToAction("Groups");
+            }
+
+            // попытка удаления группы
+            if (DataHandler.DeleteGroup(groupId))
+                TempData["Success"] = "Группа была успешно удалена";
+            else
+                TempData["Error"] = "Не удалось удалить группу";
+
             return RedirectToAction("Groups");
         }
     }

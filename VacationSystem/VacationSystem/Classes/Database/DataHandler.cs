@@ -444,5 +444,29 @@ namespace VacationSystem.Classes.Database
                 return false;
             }
         }
+
+        /// <summary>
+        /// Удаление группы сотрудников из БД
+        /// </summary>
+        /// <param name="id">Идентификатор группы</param>
+        /// <returns>Успешность выполнения операции</returns>
+        static public bool DeleteGroup(int id)
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    db.Groups.Remove(db.Groups.FirstOrDefault(g => g.Id == id));
+                    db.SaveChanges();
+                }
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return false;
+            }
+        }
     }
 }
