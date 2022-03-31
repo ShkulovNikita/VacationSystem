@@ -16,7 +16,7 @@
                 <h3>Выберите подразделение</h3>
                 @Html.DropDownList("Department", ViewBag.Deps as SelectList, new { id = "department" })
                 <h3>Выберите сотрудника</h3>
-                @Html.DropDownList("Employee", ViewBag.Employees as SelectList, new { id = "employee" })
+                @Html.DropDownList("Employee", ViewBag.Employees as SelectList, new { @class = "employee-dropdown-list" })
                 <input type="submit" class="btn btn-primary" value="Добавить" />
             </form>
         </div>
@@ -35,7 +35,7 @@
                 url: '@Url.Action("GetItems")/' + id,
                 success: function (data) {
                     // заменяем содержимое присланным частичным представлением
-                    $('#employee').replaceWith(data);
+                    $('.employee-dropdown-list').replaceWith(data);
                 }
             });
         });

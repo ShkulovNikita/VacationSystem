@@ -396,5 +396,51 @@ namespace VacationSystem.Classes.Database
                 return null;
             }
         }
+
+        /// <summary>
+        /// Сохранение новой группы сотрудников в БД
+        /// </summary>
+        /// <param name="employees">Список сотрудников в группе</param>
+        /// <param name="headId">Идентификатор руководителя</param>
+        /// <param name="depId">Идентификатор подразделения</param>
+        /// <returns>Успешность выполнения операции</returns>
+        static public bool AddGroup(List<Employee> employees, string headId, string depId)
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    Group group = new Group
+                    {
+                        Name = "",
+                        Description = "",
+                        Date = DateTime.Now,
+                        HeadEmployeeId = headId,
+                        DepartmentId = depId
+                    };
+
+                    db.Groups.Add(group);
+                    db.SaveChanges();
+
+                    foreach (Employee emp in employees)
+                    {
+                        db.EmployeeInGroups.Add(new EmployeeInGroup
+                        {
+                            EmployeeId = emp.Id,
+                            GroupId = group.Id
+                        });
+                    }
+
+                    db.SaveChanges();
+                }
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return false;
+            }
+        }
     }
 }

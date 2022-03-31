@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Newtonsoft.Json;
 
-namespace VacationSystem.Classes
+namespace VacationSystem.Classes.Helpers
 {
     /// <summary>
     /// Класс для работы с сессиями

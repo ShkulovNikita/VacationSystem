@@ -616,6 +616,7 @@ namespace VacationSystem.Controllers
         /// <summary>
         /// Добавление новой группы сотрудников
         /// </summary>
+        [HttpGet]
         public IActionResult AddGroup()
         {
             string headId = HttpContext.Session.GetString("id");
@@ -633,10 +634,83 @@ namespace VacationSystem.Controllers
                 return RedirectToAction("Groups");
             }
 
-            ViewBag.Departments = departments;
+            // список всех подразделений в формате ViewModel
+            List<DeputyDepViewModel> allDeps = DeputyHelper.GetDepartmentsList(departments);
+
+            // список всех сотрудников
+            List<DeputyEmpViewModel> allEmps = DeputyHelper.GetEmployeesList(headId, allDeps);
+
+            if ((allDeps.Count == 0) || (allEmps.Count == 0))
+            {
+                TempData["Error"] = "Не удалось загрузить список подразделений";
+                return RedirectToAction("Deputies");
+            }
+
+            // сохранить списки в сессию
+            SessionHelper.SetObjectAsJson(HttpContext.Session, "all_employees", allEmps);
+            SessionHelper.SetObjectAsJson(HttpContext.Session, "all_departments", allDeps);
+
+            // индекс по умолчанию
+            string selectedIndex = allDeps[0].Id;
+
+            ViewBag.Departments = allDeps;
+
+            // сотрудники выбранного по умолчанию подразделения
+            List<DeputyEmpViewModel> empsOfDep = allEmps.Where(e => e.DepartmentId == selectedIndex).ToList();
+            ViewBag.Employees = empsOfDep;
 
             return View();
+        }
 
+        /// <summary>
+        /// Вывод частичного представления со списком сотрудников из указанного подразделения
+        /// </summary>
+        /// <param name="id">Идентификатор подразделения</param>
+        public ActionResult GetGroupItems(string id)
+        {
+            // получить из сессии всех сотрудников
+            List<DeputyEmpViewModel> allEmps = SessionHelper.GetObjectFromJson<List<DeputyEmpViewModel>>(HttpContext.Session, "all_employees");
+            return PartialView(allEmps.Where(e => e.DepartmentId == id).ToList());
+        }
+
+        /// <summary>
+        /// Сохранение в БД новой группы
+        /// </summary>
+        /// <param name="Employee">Список идентификаторов выбранных сотрудников</param>
+        [HttpPost]
+        public IActionResult AddGroup(string Department, string[] Employee)
+        {
+            // идентификатор авторизованного руководителя
+            string headId = HttpContext.Session.GetString("id");
+            if (headId == null)
+            {
+                TempData["Error"] = "Не удалось загрузить данные пользователя";
+                ClearDeputySessionData();
+                return RedirectToAction("Groups");
+            }
+
+            // список сотрудников на основе выбранных идентификаторов
+            List<Employee> employees = EmployeeHelper.CheckEmployeesInApi(Employee);
+
+            // отсеять тех сотрудников, которые не являются подчиненными для текущего руководителя
+            employees = employees
+                .Where(employee => Connector.GetSubordinateEmployees(headId)
+                .Any(subEmp => employee.Id == subEmp.Id))
+                .ToList();
+
+            if(employees.Count == 0)
+            {
+                TempData["Error"] = "Выбраны некорректные сотрудники";
+                return RedirectToAction("Groups");
+            }
+
+            if (DataHandler.AddGroup(employees, headId, Department))
+                TempData["Success"] = "Группа успешно сохранена!";
+            else
+                TempData["Error"] = "Не удалось сохранить группу";
+
+            ClearDeputySessionData();
+            return RedirectToAction("Groups");
         }
     }
 }

@@ -234,5 +234,25 @@ namespace VacationSystem.Classes.Helpers
 
             return employee;
         }
+
+        /// <summary>
+        /// На основе списка идентификаторов сотрудников получить 
+        /// список существующих сотрудников
+        /// </summary>
+        /// <param name="emps">Список идентификаторов запрашиваемых сотрудников</param>
+        /// <returns>Список сотрудников</returns>
+        static public List<Employee> CheckEmployeesInApi(string[] emps)
+        {
+            List<Employee> result = new List<Employee>();
+
+            foreach (string emp in emps)
+            {
+                Employee newEmp = Connector.GetEmployee(emp);
+                if (newEmp != null)
+                    result.Add(newEmp);
+            }
+
+            return result;
+        }
     }
 }
