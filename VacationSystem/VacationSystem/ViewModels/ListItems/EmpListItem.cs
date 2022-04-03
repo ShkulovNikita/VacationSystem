@@ -1,13 +1,8 @@
-﻿using VacationSystem.Models;
-
-namespace VacationSystem.ViewModels
+﻿namespace VacationSystem.ViewModels.ListItems
 {
-    /// <summary>
-    /// ViewModel для вывода возможных сотрудников для выбора заместителя руководителя
-    /// </summary>
-    public class DeputyEmpViewModel
+    public class EmpListItem
     {
-        public DeputyEmpViewModel() { }
+        public EmpListItem() { }
 
         /// <summary>
         /// Уникальный идентификатор для списка всех сотрудников
@@ -27,7 +22,7 @@ namespace VacationSystem.ViewModels
         /// <summary>
         /// Ссылка на подразделение, в котором работает сотрудник
         /// </summary>
-        public DeputyDepViewModel Department { get; set; }
+        public DepListItem Department { get; set; }
         /// <summary>
         /// Идентификатор подразделения, в котором работает сотрудник
         /// </summary>

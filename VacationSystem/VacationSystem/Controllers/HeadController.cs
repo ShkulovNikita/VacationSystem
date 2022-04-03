@@ -11,6 +11,7 @@ using VacationSystem.ViewModels;
 using VacationSystem.Classes;
 using VacationSystem.Classes.Database;
 using VacationSystem.Classes.Helpers;
+using VacationSystem.ViewModels.ListItems;
 
 namespace VacationSystem.Controllers
 {
@@ -303,10 +304,10 @@ namespace VacationSystem.Controllers
             }
 
             // список всех подразделений в формате ViewModel
-            List<DeputyDepViewModel> allDeps = DeputyHelper.GetDepartmentsList(departments);
+            List<DepListItem> allDeps = DepartmentHelper.GetDepartmentsList(departments);
 
             // список всех сотрудников
-            List<DeputyEmpViewModel> allEmps = DeputyHelper.GetEmployeesList(id, allDeps);
+            List<EmpListItem> allEmps = DeputyHelper.GetEmployeesList(id, allDeps);
 
             if ((allDeps.Count == 0) || (allEmps.Count == 0))
             {
@@ -339,7 +340,7 @@ namespace VacationSystem.Controllers
         public ActionResult GetItems(string id)
         {
             // получить из сессии всех сотрудников
-            List<DeputyEmpViewModel> allEmps = SessionHelper.GetObjectFromJson<List<DeputyEmpViewModel>>(HttpContext.Session, "all_employees");
+            List<EmpListItem> allEmps = SessionHelper.GetObjectFromJson<List<EmpListItem>>(HttpContext.Session, "all_employees");
             return PartialView(allEmps.Where(e => e.DepartmentId == id).ToList());
         }
 
@@ -635,10 +636,10 @@ namespace VacationSystem.Controllers
             }
 
             // список всех подразделений в формате ViewModel
-            List<DeputyDepViewModel> allDeps = DeputyHelper.GetDepartmentsList(departments);
+            List<DepListItem> allDeps = DepartmentHelper.GetDepartmentsList(departments);
 
             // список всех сотрудников
-            List<DeputyEmpViewModel> allEmps = DeputyHelper.GetEmployeesList(headId, allDeps);
+            List<EmpListItem> allEmps = EmployeeHelper.GetEmployeesList(allDeps);
 
             if ((allDeps.Count == 0) || (allEmps.Count == 0))
             {
@@ -656,7 +657,7 @@ namespace VacationSystem.Controllers
             ViewBag.Departments = allDeps;
 
             // сотрудники выбранного по умолчанию подразделения
-            List<DeputyEmpViewModel> empsOfDep = allEmps.Where(e => e.DepartmentId == selectedIndex).ToList();
+            List<EmpListItem> empsOfDep = allEmps.Where(e => e.DepartmentId == selectedIndex).ToList();
             ViewBag.Employees = empsOfDep;
 
             return View();
@@ -669,7 +670,7 @@ namespace VacationSystem.Controllers
         public ActionResult GetGroupItems(string id)
         {
             // получить из сессии всех сотрудников
-            List<DeputyEmpViewModel> allEmps = SessionHelper.GetObjectFromJson<List<DeputyEmpViewModel>>(HttpContext.Session, "all_employees");
+            List<EmpListItem> allEmps = SessionHelper.GetObjectFromJson<List<EmpListItem>>(HttpContext.Session, "all_employees");
             return PartialView(allEmps.Where(e => e.DepartmentId == id).ToList());
         }
 

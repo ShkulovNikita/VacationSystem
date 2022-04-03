@@ -1,13 +1,10 @@
 ﻿using System.Collections.Generic;
 
-namespace VacationSystem.ViewModels
+namespace VacationSystem.ViewModels.ListItems
 {
-    /// <summary>
-    /// ViewModel для вывода списка подразделений при выборе заместителя руководителя
-    /// </summary>
-    public class DeputyDepViewModel
+    public class DepListItem
     {
-        public DeputyDepViewModel() { }
+        public DepListItem() { }
 
         /// <summary>
         /// Идентификатор подразделения
@@ -22,6 +19,6 @@ namespace VacationSystem.ViewModels
         /// <summary>
         /// Список сотрудников в подразделении
         /// </summary>
-        public List<DeputyEmpViewModel> Employees { get; set; } = new List<DeputyEmpViewModel>();
+        public List<EmpListItem> Employees { get; set; } = new List<EmpListItem>();
     }
 }

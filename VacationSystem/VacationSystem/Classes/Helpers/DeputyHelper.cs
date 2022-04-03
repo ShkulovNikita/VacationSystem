@@ -3,6 +3,7 @@ using VacationSystem.Classes.Database;
 using VacationSystem.ViewModels;
 using System.Collections.Generic;
 using System.Linq;
+using VacationSystem.ViewModels.ListItems;
 
 namespace VacationSystem.Classes.Helpers
 {
@@ -102,42 +103,22 @@ namespace VacationSystem.Classes.Helpers
         }
 
         /// <summary>
-        /// Получение списка подразделений для выпадающего списка 
-        /// при выборе заместителя для руководителя
-        /// </summary>
-        /// <param name="departments">Список подразделений, которыми управляет руководитель</param>
-        /// <returns>Список подразделений в формате ViewModel для выпадающего списка</returns>
-        static public List<DeputyDepViewModel> GetDepartmentsList(List<Department> departments)
-        {
-            List<DeputyDepViewModel> deps = new List<DeputyDepViewModel>();
-
-            foreach (Department dep in departments)
-            {
-                // добавить подразделение в общий список подразделений
-                deps.Add(new DeputyDepViewModel
-                {
-                    Id = dep.Id,
-                    Name = dep.Name
-                });
-            }
-
-            // отсортировать подразделения и сотрудников по алфавиту
-            deps = deps.OrderBy(d => d.Name).ToList();
-
-            return deps;
-        }
-
-        /// <summary>
         /// Получение списка сотрудников для выпадающего списка
         /// при выборе заместителя для руководителя
         /// </summary>
         /// <param name="headId">Идентификатор руководителя</param>
         /// <param name="departments">Список подразделений руководителя в формате ViewModel</param>
         /// <returns>Список сотрудников в формате ViewModel для выпадающего списка</returns>
-        static public List<DeputyEmpViewModel> GetEmployeesList(string headId, List<DeputyDepViewModel> departments)
+        static public List<EmpListItem> GetEmployeesList(string headId, List<DepListItem> departments)
         {
             // получить список сотрудников в формате ViewModel
-            List<DeputyEmpViewModel> emps = ConvertEmployeesToViewModel(headId, departments);
+            List<EmpListItem> emps = EmployeeHelper.GetEmployeesList(departments);
+
+            // удалить уже назначенных заместителей
+            List<string> deputies = DataHandler.GetDeputies(headId)
+                                                .Select(d => d.DeputyEmployeeId)
+                                                .ToList();
+            emps = emps.Where(emp => !deputies.Any(deputy => emp.Id == deputy)).ToList();
 
             // удалить из списка сотрудников самого руководителя
             emps = emps.Where(e => e.EmpId != headId).ToList();
@@ -148,66 +129,6 @@ namespace VacationSystem.Classes.Helpers
             // присвоить сотрудникам в списке уникальные идентификаторы
             for (int i = 0; i < emps.Count; i++)
                 emps[i].Id = i.ToString();
-
-            return emps;
-        }
-
-        /// <summary>
-        /// Преобразование объекта сотрудника в формат ViewModel
-        /// </summary>
-        /// <param name="headId">Идентификатор руководителя подразделения</param>
-        /// <param name="emp">Сотрудник как объект класса модели</param>
-        /// <param name="dep">Подразделение сотрудника</param>
-        /// <returns>Объект сотрудника в формате ViewModel для выпадающего списка сотрудников</returns>
-        static private DeputyEmpViewModel GetEmployeeViewModel(string headId, Employee emp, DeputyDepViewModel dep)
-        {
-            // проверить наличие такого заместителя в БД
-            if (DataHandler.CheckDeputy(headId, emp.Id, dep.Id))
-                return null;
-
-            // новый сотрудник в формате ViewModel
-            return new DeputyEmpViewModel
-            {
-                EmpId = emp.Id,
-                Name = emp.LastName + " " + emp.FirstName + " " + emp.MiddleName,
-                Department = dep,
-                DepartmentId = dep.Id
-            };
-        }
-
-        /// <summary>
-        /// Преобразование список сотрудников в формат ViewModel для вывода 
-        /// выпадающего списка сотрудников
-        /// </summary>
-        /// <param name="headId">Идентификатор руководителя</param>
-        /// <param name="departments">Список подразделений руководителя</param>
-        /// <returns>Список сотрудников в формате ViewModel</returns>
-        static private List<DeputyEmpViewModel> ConvertEmployeesToViewModel(string headId, List<DeputyDepViewModel> departments)
-        {
-            List<DeputyEmpViewModel> emps = new List<DeputyEmpViewModel>();
-
-            // получить сотрудников всех подразделений
-            foreach (DeputyDepViewModel dep in departments)
-            {
-                // получить всех сотрудников данного подразделения
-                List<Employee> employees = Connector.GetEmployeesOfDepartment(dep.Id);
-                if (employees == null)
-                    continue;
-
-                // добавить сотрудников в списки
-                foreach (Employee emp in employees)
-                {
-                    DeputyEmpViewModel newEmp = GetEmployeeViewModel(headId, emp, dep);
-                    if (newEmp == null)
-                        continue;
-
-                    // добавить в список сотрудников подразделения
-                    dep.Employees.Add(newEmp);
-
-                    // добавить в список всех сотрудников
-                    emps.Add(newEmp);
-                }
-            }
 
             return emps;
         }

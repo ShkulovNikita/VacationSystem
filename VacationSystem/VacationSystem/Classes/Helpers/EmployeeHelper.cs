@@ -2,6 +2,7 @@
 using System.Linq;
 using VacationSystem.Models;
 using VacationSystem.ViewModels;
+using VacationSystem.ViewModels.ListItems;
 
 namespace VacationSystem.Classes.Helpers
 {
@@ -253,6 +254,59 @@ namespace VacationSystem.Classes.Helpers
             }
 
             return result;
+        }
+
+        /// <summary>
+        /// Преобразование объекта сотрудника в формат для списка
+        /// </summary>
+        /// <param name="headId">Идентификатор руководителя подразделения</param>
+        /// <param name="emp">Сотрудник как объект класса модели</param>
+        /// <param name="dep">Подразделение сотрудника</param>
+        /// <returns>Объект сотрудника в формате ViewModel для выпадающего списка сотрудников</returns>
+        static public EmpListItem GetEmployeeListItem(Employee emp, DepListItem dep)
+        {
+            // новый сотрудник в формате ViewModel
+            return new EmpListItem
+            {
+                EmpId = emp.Id,
+                Name = emp.LastName + " " + emp.FirstName + " " + emp.MiddleName,
+                Department = dep,
+                DepartmentId = dep.Id
+            };
+        }
+
+        /// <summary>
+        /// Получить список сотрудников указанных подразделений
+        /// для формирования выпадающего списка
+        /// </summary>
+        /// <param name="departments">Список подразделений сотрудников</param>
+        /// <returns>Список сотрудников</returns>
+        static public List<EmpListItem> GetEmployeesList(List<DepListItem> departments)
+        {
+            List<EmpListItem> emps = new List<EmpListItem>();
+
+            // получить сотрудников всех подразделений
+            foreach (DepListItem dep in departments)
+            {
+                // получить всех сотрудников данного подразделения
+                List<Employee> employees = Connector.GetEmployeesOfDepartment(dep.Id);
+                if (employees == null)
+                    continue;
+
+                // добавить сотрудников в списки
+                foreach (Employee emp in employees)
+                {
+                    EmpListItem newEmp = GetEmployeeListItem(emp, dep);
+
+                    // добавить в список сотрудников подразделения
+                    dep.Employees.Add(newEmp);
+
+                    // добавить в список всех сотрудников
+                    emps.Add(newEmp);
+                }
+            }
+
+            return emps;
         }
     }
 }

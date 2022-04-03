@@ -1,6 +1,6 @@
 ﻿@using VacationSystem.HtmlHelpers
 @using VacationSystem.Classes.Helpers;
-@using VacationSystem.ViewModels;
+@using VacationSystem.ViewModels.ListItems;
 
 @{
     ViewData["Title"] = "Выбрать заместителя";
@@ -9,7 +9,7 @@
     if (TempData["Error"] != null)
         error = TempData["Error"].ToString();
 
-    List<DeputyEmpViewModel> employees = ViewBag.Employees;
+    List<EmpListItem> employees = ViewBag.Employees;
 }
 
 <div class="container">
