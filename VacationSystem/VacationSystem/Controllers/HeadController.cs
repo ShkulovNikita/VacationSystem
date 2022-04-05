@@ -357,7 +357,7 @@ namespace VacationSystem.Controllers
             if (headId == null)
             {
                 TempData["Error"] = "Не удалось загрузить данные пользователя";
-                ClearDeputySessionData();
+                ClearListSessionData();
                 return RedirectToAction("Deputies");
             }
 
@@ -380,14 +380,14 @@ namespace VacationSystem.Controllers
             else
                 TempData["Error"] = "Не удалось сохранить заместителя";
 
-            ClearDeputySessionData();
+            ClearListSessionData();
             return RedirectToAction("Deputies");
         }
 
         /// <summary>
         /// Очистить данные в сессии о всех подчиненных сотрудниках и подразделениях
         /// </summary>
-        private void ClearDeputySessionData()
+        private void ClearListSessionData()
         {
             try
             {
@@ -411,7 +411,7 @@ namespace VacationSystem.Controllers
             if (headId == null)
             {
                 TempData["Error"] = "Не удалось загрузить данные пользователя";
-                ClearDeputySessionData();
+                ClearListSessionData();
                 return RedirectToAction("Deputies");
             }
 
@@ -689,7 +689,7 @@ namespace VacationSystem.Controllers
             if (headId == null)
             {
                 TempData["Error"] = "Не удалось загрузить данные пользователя";
-                ClearDeputySessionData();
+                ClearListSessionData();
                 return RedirectToAction("Groups");
             }
 
@@ -713,7 +713,7 @@ namespace VacationSystem.Controllers
             else
                 TempData["Error"] = "Не удалось сохранить группу";
 
-            ClearDeputySessionData();
+            ClearListSessionData();
             return RedirectToAction("Groups");
         }
 
@@ -728,7 +728,7 @@ namespace VacationSystem.Controllers
             if (headId == null)
             {
                 TempData["Error"] = "Не удалось загрузить данные пользователя";
-                ClearDeputySessionData();
+                ClearListSessionData();
                 return RedirectToAction("Groups");
             }
 
@@ -736,7 +736,7 @@ namespace VacationSystem.Controllers
             if (DataHandler.GetGroup(groupId).HeadEmployeeId != headId)
             {
                 TempData["Error"] = "Нет прав для удаления данной группы";
-                ClearDeputySessionData();
+                ClearListSessionData();
                 return RedirectToAction("Groups");
             }
 
@@ -752,8 +752,7 @@ namespace VacationSystem.Controllers
         /// <summary>
         /// Просмотр информации о группе сотрудников
         /// </summary>
-        /// <param name="groupId"></param>
-        /// <returns></returns>
+        /// <param name="groupId">Идентификатор группы</param>
         public IActionResult ViewGroup(int groupId)
         {
             string headId = HttpContext.Session.GetString("id");
@@ -785,18 +784,88 @@ namespace VacationSystem.Controllers
         /// <summary>
         /// Редактирование группы сотрудников
         /// </summary>
-        /// <param name="groupId"></param>
-        /// <returns></returns>
+        /// <param name="groupId">Идентификатор группы</param>
         [HttpGet]
         public IActionResult EditGroup(int groupId)
         {
-            return View();
+            // идентификатор авторизованного руководителя
+            string headId = HttpContext.Session.GetString("id");
+            if (headId == null)
+            {
+                TempData["Error"] = "Не удалось загрузить данные пользователя";
+                return RedirectToAction("Groups");
+            }
+
+            // получить редактируемую группу
+            Group group = DataHandler.GetGroup(groupId);
+            if (group == null)
+            {
+                TempData["Error"] = "Не удалось получить данные о группе";
+                return RedirectToAction("Groups");
+            }
+
+            // преобразовать во ViewModel
+            GroupViewModel groupVm = GroupHelper.ConvertGroupToViewModel(group);
+            if (groupVm == null)
+            {
+                TempData["Error"] = "Не удалось получить данные о группе";
+                return RedirectToAction("Groups");
+            }
+
+            // получить всех сотрудников подразделения группы
+            List<Employee> empsOfDep = Connector.GetEmployeesOfDepartment(group.DepartmentId);
+            if (empsOfDep == null)
+            {
+                TempData["Error"] = "Не удалось получить список сотрудников";
+                return RedirectToAction("Groups");
+            }
+
+            // удалить из их числа сотрудников, уже состоящих в группе
+            empsOfDep = empsOfDep
+                .Where(empInDep => !groupVm.Employees.Any(empInGroup => empInDep.Id == empInGroup.Id))
+                .ToList();
+            ViewBag.Employees = empsOfDep
+                .OrderBy(e => e.LastName)
+                .ThenBy(e => e.FirstName)
+                .ThenBy(e => e.MiddleName)
+                .ToList();
+            
+            return View(groupVm);
         }
 
+        /// <summary>
+        /// Сохранение изменений в группе в БД
+        /// </summary>
+        /// <param name="groupId">Идентификатор группы</param>
+        /// <param name="name">Наименование группы</param>
+        /// <param name="description">Описание группы</param>
+        /// <param name="employees">Список сотрудников группы</param>
         [HttpPost]
-        public IActionResult EditGroup(int groupId, string name, string description, string department, string[] employees)
+        public IActionResult EditGroup(int groupId, string name, string description, string[] employees)
         {
-            return View();
+            // идентификатор авторизованного руководителя
+            string headId = HttpContext.Session.GetString("id");
+            if (headId == null)
+            {
+                TempData["Error"] = "Не удалось загрузить данные пользователя";
+                return RedirectToAction("Groups");
+            }
+
+            // получить список сотрудников группы
+            List<Employee> empsOfGroup = new List<Employee>();
+            foreach (string empId in employees)
+            {
+                Employee emp = Connector.GetEmployee(empId);
+                if (emp != null)
+                    empsOfGroup.Add(emp);
+            }
+
+            if (DataHandler.EditGroup(groupId, name, description, empsOfGroup))
+                TempData["Success"] = "Изменения в группе успешно сохранены!";
+            else
+                TempData["Error"] = "Не удалось сохранить изменения в группе";
+
+            return RedirectToAction("Groups");
         }
     }
 }

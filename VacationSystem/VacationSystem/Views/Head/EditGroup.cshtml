@@ -1,5 +1,42 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model GroupViewModel
+
+@using VacationSystem.HtmlHelpers
+@using VacationSystem.ViewModels;
+
 @{
+    ViewData["Title"] = "Редактирование группы";
+
+    string error = null;
+    if (TempData["Error"] != null)
+        error = TempData["Error"].ToString();
+
+    List<Employee> employees = ViewBag.Employees;
+
+    int size = employees.Count() + Model.Employees.Count();
 }
+
+<div class="container">
+    <div class="row">
+        <div class="col-7">
+            @Html.CheckError(error)
+            <form method="post">
+                <h3>Название группы:</h3>
+                <input type="text" name="name" value="@Model.Group.Name" />
+                <h3>Описание группы:</h3>
+                <textarea name="description" maxlength="500">@Model.Group.Description</textarea>
+                <h3>Выберите сотрудников</h3>
+                <select multiple id="employees" name="employees" size="@size">
+                    @foreach (var emp in Model.Employees)
+                    {
+                        <option value="@emp.Id" selected>@emp.LastName @emp.FirstName @emp.MiddleName</option>
+                    }
+                    @foreach (var emp in employees)
+                    {
+                        <option value="@emp.Id">@emp.LastName @emp.FirstName @emp.MiddleName</option>
+                    }
+                </select>
+                <input type="submit" class="btn btn-primary" value="Сохранить" />
+            </form>
+        </div>
+    </div>
+</div>

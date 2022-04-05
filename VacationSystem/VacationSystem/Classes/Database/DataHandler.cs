@@ -468,5 +468,60 @@ namespace VacationSystem.Classes.Database
                 return false;
             }
         }
+
+        /// <summary>
+        /// Редактирование группы сотрудников
+        /// </summary>
+        /// <param name="groupId">Идентификатор группы</param>
+        /// <param name="name">Наименование группы</param>
+        /// <param name="description">Описание группы</param>
+        /// <param name="employees">Список сотрудников группы</param>
+        /// <returns>Успешность выполнения операции</returns>
+        static public bool EditGroup(int groupId, string name, string description, List<Employee> employees)
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    // получить редактируемую группу со всеми ее сотрудниками
+                    Group group = db.Groups.Include(group => group.EmployeesInGroup).FirstOrDefault(group => group.Id == groupId);
+                    if (group == null)
+                        return false;
+
+                    // изменить имя и описание групппы
+                    group.Name = name;
+                    group.Description = description;
+
+                    // проверить всех сотрудников
+                    foreach (Employee emp in employees)
+                    {
+                        // если в группе нет такого сотрудника, то добавить
+                        if (!group.EmployeesInGroup.Any(empInGroup => empInGroup.EmployeeId == emp.Id))
+                            db.EmployeeInGroups.Add(new EmployeeInGroup
+                            {
+                                GroupId = group.Id,
+                                EmployeeId = emp.Id
+                            });
+                    }
+
+                    // сотрудники, которых больше нет в группе
+                    List<EmployeeInGroup> deletedEmps = group.EmployeesInGroup
+                        .Where(empInGroup => !employees.Any(emp => emp.Id == empInGroup.EmployeeId))
+                        .ToList();
+
+                    // удалить этих сотрудников
+                    db.EmployeeInGroups.RemoveRange(deletedEmps);
+
+                    db.SaveChanges();
+                }
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return false;
+            }
+        }
     }
 }
