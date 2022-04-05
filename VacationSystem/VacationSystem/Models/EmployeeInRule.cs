@@ -7,7 +7,6 @@ namespace VacationSystem.Models
     /// <summary>
     /// Применение правила к сотруднику
     /// </summary>
-
     [Table("employees_in_rules")]
     public class EmployeeInRule
     {

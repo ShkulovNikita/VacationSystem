@@ -8,7 +8,6 @@ namespace VacationSystem.Models
     /// <summary>
     /// Правило, устанавливаемое на сотрудников
     /// </summary>
-    
     [Table("employees_rules")]
     public class EmployeeRule
     {

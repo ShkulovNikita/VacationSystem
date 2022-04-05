@@ -874,5 +874,121 @@ namespace VacationSystem.Classes.Database
                 return false;
             }
         }
+
+        /// <summary>
+        /// Редактирование правила выбора отпусков для сотрудников
+        /// </summary>
+        /// <param name="ruleId">Идентификатор правила</param>
+        /// <param name="description">Описание правила</param>
+        /// <param name="employees">Список сотрудников, затрагиваемых правилом</param>
+        /// <returns>Успешность выполнения операции</returns>
+        static public bool EditEmployeesRule(int ruleId, string description, List<Employee> employees)
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    // получить редактируемое правило
+                    EmployeeRule rule = db.EmployeeRules
+                        .Include(r => r.EmployeeInRules)
+                        .FirstOrDefault(r => r.Id == ruleId);
+                    if (rule == null)
+                        return false;
+
+                    rule.Description = description;
+
+                    foreach (Employee emp in employees)
+                    {
+                        // если в правиле нет текущего сотрудника, то добавить
+                        if (!rule.EmployeeInRules.Any(empInRule => empInRule.EmployeeId == emp.Id))
+                            db.EmployeeInRules.Add(new EmployeeInRule
+                            {
+                                EmployeeRuleId = rule.Id,
+                                EmployeeId = emp.Id,
+                                Date = DateTime.Now
+                            });
+                    }
+
+                    // сотрудники, которых больше нет в правиле
+                    List<EmployeeInRule> deletedEmps = rule.EmployeeInRules
+                        .Where(empInRule => !employees.Any(emp => emp.Id == empInRule.EmployeeId))
+                        .ToList();
+
+                    // удалить этих сотрудников
+                    db.EmployeeInRules.RemoveRange(deletedEmps);
+
+                    db.SaveChanges();
+                }
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return false;
+            }
+        }
+
+        /// <summary>
+        /// Редактирование правила выбора отпусков для должности
+        /// </summary>
+        /// <param name="ruleId">Идентификатор правила</param>
+        /// <param name="number">Количество сотрудников должности, которые должны быть на рабочем месте</param>
+        /// <param name="description">Описание правила</param>
+        /// <returns>Успешность выполнения операции</returns>
+        static public bool EditPositionRule(int ruleId, int number, string description)
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    RuleForPosition rule = db.RuleForPositions.FirstOrDefault(r => r.Id == ruleId);
+                    if (rule == null)
+                        return false;
+
+                    rule.Description = description;
+                    rule.PeopleNumber = number;
+
+                    db.SaveChanges();
+
+                    return true;
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return false;
+            }
+        }
+
+        /// <summary>
+        /// Редактирование правила выбора отпусков для группы сотрудников
+        /// </summary>
+        /// <param name="ruleId">Идентификатор правила</param>
+        /// <param name="description">Описание правила</param>
+        /// <returns>Успешность выполнения операции</returns>
+        static public bool EditGroupRule(int ruleId, string description)
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    GroupRule rule = db.GroupRules.FirstOrDefault(r => r.Id == ruleId);
+                    if (rule == null)
+                        return false;
+
+                    rule.Description = description;
+
+                    db.SaveChanges();
+
+                    return true;
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return false;
+            }
+        }
     }
 }

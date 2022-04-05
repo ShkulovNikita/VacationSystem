@@ -8,7 +8,6 @@ namespace VacationSystem.Models
     /// Правило, установленное на должность 
     /// внутри подразделения
     /// </summary>
-    
     [Table("rules_for_positions")]
     public class RuleForPosition
     {
