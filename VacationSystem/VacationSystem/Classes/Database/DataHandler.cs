@@ -523,5 +523,356 @@ namespace VacationSystem.Classes.Database
                 return false;
             }
         }
+
+        /// <summary>
+        /// Получение списка правил выбора отпусков, накладываемых на сотрудников
+        /// </summary>
+        /// <param name="headId">Идентификатор руководителя, установившего правила</param>
+        /// <returns>Список правил выбора отпусков для сотрудников</returns>
+        static public List<EmployeeRule> GetEmployeeRules(string headId)
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    return db.EmployeeRules
+                        .Include(er => er.EmployeeInRules)
+                        .Where(er => er.HeadEmployeeId == headId)
+                        .ToList();
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return null;
+            }
+        }
+
+        /// <summary>
+        /// Получение списка правил выбора отпусков, накладываемых на сотрудников
+        /// </summary>
+        /// <param name="headId">Идентификатор руководителя, установившего правила</param>
+        /// <param name="depId">Идентификатор подразделения</param>
+        /// <returns>Список правил выбора отпусков для сотрудников</returns>
+        static public List<EmployeeRule> GetEmployeeRules(string headId, string depId)
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    return db.EmployeeRules
+                        .Include(er => er.EmployeeInRules)
+                        .Where(er => er.HeadEmployeeId == headId
+                        && er.DepartmentId == depId)
+                        .ToList();
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return null;
+            }
+        }
+
+        /// <summary>
+        /// Получение списка правил выбора отпусков для должностей
+        /// </summary>
+        /// <param name="headId">Идентификатор руководителя</param>
+        /// <returns>Список правил для должностей</returns>
+        static public List<RuleForPosition> GetPositionRules(string headId)
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    return db.RuleForPositions
+                        .Where(pr => pr.HeadEmployeeId == headId)
+                        .ToList();
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return null;
+            }
+        }
+
+        /// <summary>
+        /// Получение списка правил выбора отпусков для должностей
+        /// </summary>
+        /// <param name="headId">Идентификатор руководителя</param>
+        /// <param name="depId">Идентификатор подразделения</param>
+        /// <returns>Список правил для должностей</returns>
+        static public List<RuleForPosition> GetPositionRules(string headId, string depId)
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    return db.RuleForPositions
+                        .Where(pr => pr.HeadEmployeeId == headId
+                        && pr.DepartmentId == depId)
+                        .ToList();
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return null;
+            }
+        }
+
+        /// <summary>
+        /// Получение списка правил выбора отпусков для групп сотрудников
+        /// </summary>
+        /// <param name="headId">Идентификатор руководителя</param>
+        /// <returns>Список правил выбора отпусков для групп сотрудников</returns>
+        static public List<GroupRule> GetGroupRules(string headId)
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    return db.GroupRules
+                        .Include(gr => gr.Group)
+                        .Where(gr => gr.Group.HeadEmployeeId == headId)
+                        .ToList();
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return null;
+            }
+        }
+
+        /// <summary>
+        /// Получение списка правил выбора отпусков для групп сотрудников
+        /// </summary>
+        /// <param name="headId">Идентификатор руководителя</param>
+        /// <param name="depId">Идентификатор подразделения</param>
+        /// <returns>Список правил выбора отпусков для групп сотрудников</returns>
+        static public List<GroupRule> GetGroupRules(string headId, string depId)
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    return db.GroupRules
+                            .Include(gr => gr.Group)
+                            .Where(gr => gr.Group.HeadEmployeeId == headId
+                            && gr.Group.DepartmentId == depId)
+                            .ToList();
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return null;
+            }
+        }
+
+        /// <summary>
+        /// Добавление в БД нового правила выбора отпусков для сотрудников
+        /// </summary>
+        /// <param name="description">Описание правила</param>
+        /// <param name="type">Идентификатор типа правила</param>
+        /// <param name="depId">Идентификатор подразделения</param>
+        /// <param name="headId">Идентификатор руководителя</param>
+        /// <param name="employees">Список задействованных правилом сотрудников</param>
+        /// <returns>Успешность выполнения операции</returns>
+        static public bool AddEmployeesRule(string description, int type, string depId, string headId, List<Employee> employees)
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    EmployeeRule rule = new EmployeeRule
+                    {
+                        Description = description,
+                        RuleTypeId = type,
+                        DepartmentId = depId,
+                        HeadEmployeeId = headId,
+                        Date = DateTime.Now
+                    };
+
+                    db.EmployeeRules.Add(rule);
+                    db.SaveChanges();
+
+                    foreach (Employee employee in employees)
+                    {
+                        rule.EmployeeInRules.Add(new EmployeeInRule
+                        {
+                            EmployeeRuleId = rule.Id,
+                            EmployeeId = employee.Id,
+                            Date = DateTime.Now
+                        });
+                    }
+
+                    db.SaveChanges();
+                }
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return false;
+            }
+        }
+
+        /// <summary>
+        /// Добавление в БД нового правила выбора отпусков для должностей
+        /// </summary>
+        /// <param name="number">Количество людей одной должности, которые должны быть на рабочем месте</param>
+        /// <param name="description">Описание правила</param>
+        /// <param name="posId">Идентификатор задействованной должности</param>
+        /// <param name="depId">Идентификатор подразделения</param>
+        /// <param name="headId">Идентификатор руководителя</param>
+        /// <returns>Успешность выполнения операции</returns>
+        static public bool AddPositionRule(int number, string description, string posId, string depId, string headId)
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    db.RuleForPositions.Add(new RuleForPosition
+                    {
+                        PeopleNumber = number,
+                        Description = description,
+                        PositionId = posId,
+                        DepartmentId = depId,
+                        HeadEmployeeId = headId,
+                        Date = DateTime.Now
+                    });
+
+                    db.SaveChanges();
+
+                    return true;
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return false;
+            }
+        }
+
+        /// <summary>
+        /// Добавление в БД нового правила выбора отпусков для групп сотрудников
+        /// </summary>
+        /// <param name="description">Описание правила</param>
+        /// <param name="type">Идентификатор типа правила</param>
+        /// <param name="groupId">Идентификатор задействованной группы</param>
+        /// <returns>Успешность выполнения операции</returns>
+        static public bool AddGroupRule(string description, int type, int groupId)
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    db.GroupRules.Add(new GroupRule
+                    {
+                        Description = description,
+                        RuleTypeId = type,
+                        GroupId = groupId,
+                        Date = DateTime.Now
+                    });
+
+                    db.SaveChanges();
+
+                    return true;
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return false;
+            }
+        }
+
+        /// <summary>
+        /// Удаление из БД правила для сотрудников
+        /// </summary>
+        /// <param name="ruleId">Идентификатор правила</param>
+        /// <returns>Успешность выполнения операции</returns>
+        static public bool DeleteEmployeesRule(int ruleId)
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    EmployeeRule rule = db.EmployeeRules.FirstOrDefault(r => r.Id == ruleId);
+                    if (rule != null)
+                    {
+                        db.EmployeeRules.Remove(rule);
+                        db.SaveChanges();
+                    }
+                }
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return false;
+            }
+        }
+
+        /// <summary>
+        /// Удаление из БД правила для должностей
+        /// </summary>
+        /// <param name="ruleId">Идентификатор правила</param>
+        /// <returns>Успешность выполнения операции</returns>
+        static public bool DeletePositionRule(int ruleId)
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    RuleForPosition rule = db.RuleForPositions.FirstOrDefault(r => r.Id == ruleId);
+                    if (rule != null)
+                    {
+                        db.RuleForPositions.Remove(rule);
+                        db.SaveChanges();
+                    }
+                }
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return false;
+            }
+        }
+
+        /// <summary>
+        /// Удаление из БД правила для групп
+        /// </summary>
+        /// <param name="ruleId">Идентификатор правила</param>
+        /// <returns>Успешность выполнения операции</returns>
+        static public bool DeleteGroupRule(int ruleId)
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    GroupRule rule = db.GroupRules.FirstOrDefault(r => r.Id == ruleId);
+                    if (rule != null)
+                    {
+                        db.GroupRules.Remove(rule);
+                        db.SaveChanges();
+                    }
+                }
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return false;
+            }
+        }
     }
 }

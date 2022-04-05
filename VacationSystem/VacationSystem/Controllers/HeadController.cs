@@ -867,5 +867,31 @@ namespace VacationSystem.Controllers
 
             return RedirectToAction("Groups");
         }
+
+        /* ---------------- */
+        /* Правила отпусков */
+        /* ---------------- */
+
+        /// <summary>
+        /// Просмотр списка установленных правил выбора отпусков
+        /// </summary>
+        /// <returns></returns>
+        public IActionResult Rules()
+        {
+            // идентификатор авторизованного руководителя
+            string headId = HttpContext.Session.GetString("id");
+            if (headId == null)
+            {
+                TempData["Error"] = "Не удалось загрузить данные пользователя";
+                return RedirectToAction("Groups");
+            }
+
+            // список правил текущего руководителя
+            List<RuleViewModel> rules = new List<RuleViewModel>();
+
+
+
+            return View();
+        }
     }
 }
