@@ -25,20 +25,20 @@
             @Html.CheckError(error)
             @Html.CheckMessage(message)
             @Html.CheckSuccess(success)
-            <h5>@Model.Group.Name</h5>
-            <h3>Подразделение: @Model.Department.Name</h3>
-            <h3>@Model.Group.Description</h3>
+            <h3>@Model.Group.Name</h3>
+            <h4>Подразделение: @Model.Department.Name</h4>
+            <h5>@Model.Group.Description</h5>
             <a asp-controller="Head" asp-action="EditGroup" asp-route-groupId="@Model.Group.Id" class="btn btn-primary">
                 Редактировать
             </a>
             <a asp-controller="Head" asp-action="DeleteGroup" asp-route-groupId="@Model.Group.Id" class="btn btn-danger">
                 Удалить
             </a>
-            <h3>Сотрудники в группе:</h3>
+            <h5>Сотрудники в группе:</h5>
             @foreach(Employee emp in @Model.Employees)
             {
                 <card>
-                    <h4>@emp.LastName @emp.FirstName @emp.MiddleName</h4>
+                    <p>@emp.LastName @emp.FirstName @emp.MiddleName</p>
                 </card>
             }
         </div>

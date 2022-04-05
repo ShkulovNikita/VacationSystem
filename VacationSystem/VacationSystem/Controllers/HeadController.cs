@@ -748,5 +748,55 @@ namespace VacationSystem.Controllers
 
             return RedirectToAction("Groups");
         }
+
+        /// <summary>
+        /// Просмотр информации о группе сотрудников
+        /// </summary>
+        /// <param name="groupId"></param>
+        /// <returns></returns>
+        public IActionResult ViewGroup(int groupId)
+        {
+            string headId = HttpContext.Session.GetString("id");
+            if (headId == null)
+            {
+                TempData["Error"] = "Не удалось загрузить данные пользователя";
+                return RedirectToAction("Index");
+            }
+
+            // получить информацию о группе
+            Group group = DataHandler.GetGroup(groupId);
+            if (group == null)
+            {
+                TempData["Error"] = "Не удалось получить информацию о группе";
+                return RedirectToAction("Groups");
+            }
+
+            // конвертировать группу в модель представления
+            GroupViewModel groupVm = GroupHelper.ConvertGroupToViewModel(group);
+            if (groupVm == null)
+            {
+                TempData["Error"] = "Не удалось получить информацию о группе";
+                return RedirectToAction("Groups");
+            }
+
+            return View(groupVm);
+        }
+
+        /// <summary>
+        /// Редактирование группы сотрудников
+        /// </summary>
+        /// <param name="groupId"></param>
+        /// <returns></returns>
+        [HttpGet]
+        public IActionResult EditGroup(int groupId)
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult EditGroup(int groupId, string name, string description, string department, string[] employees)
+        {
+            return View();
+        }
     }
 }

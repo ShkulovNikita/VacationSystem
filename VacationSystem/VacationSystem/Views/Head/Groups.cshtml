@@ -56,6 +56,7 @@
                         <p class="card-text">
                             @group.Group.Description
                         </p>
+                        <a asp-controller="Head" asp-action="ViewGroup" asp-route-groupId="@group.Group.Id" class="btn btn-primary">Просмотр</a>
                         <a asp-controller="Head" asp-action="EditGroup" asp-route-groupId="@group.Group.Id" class="btn btn-primary">Редактировать</a>
                         <a asp-controller="Head" asp-action="DeleteGroup" asp-route-groupId="@group.Group.Id" class="btn btn-danger">Удалить</a>
                     </div>

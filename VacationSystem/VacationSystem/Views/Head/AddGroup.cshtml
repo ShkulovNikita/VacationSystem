@@ -27,7 +27,7 @@
                 <h3>Название группы:</h3>
                 <input type="text" name="name" />
                 <h3>Описание группы:</h3>
-                <input type="text" size="3" name="description" />
+                <textarea name="description" maxlength="500"></textarea>
                 <h3>Выберите сотрудников</h3>
                 <select multiple id="employees" name="Employee" size="@employees.Count()">
                     @foreach (var emp in employees)
