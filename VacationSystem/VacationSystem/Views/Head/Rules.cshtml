@@ -57,6 +57,20 @@
                         <p class="card-text">
                             @rule.Description
                         </p>
+                        @if (rule.RuleType == "Emp")
+                        {
+                            <a asp-controller="Head" asp-action="ViewEmpRule" asp-route-ruleId="@rule.Id" class="btn btn-primary">Просмотр</a>
+                            <a asp-controller="Head" asp-action="EditEmpRule" asp-route-ruleId="@rule.Id" class="btn btn-primary">Редактировать</a>
+                            <a asp-controller="Head" asp-action="DeleteEmpRule" asp-route-ruleId="@rule.Id" class="btn btn-danger">Удалить</a>
+                        }
+                        else if (rule.RuleType == "")
+                        {
+                            
+                        }
+                        else
+                        {
+                            
+                        }
                     </div>
                 </div>
             }

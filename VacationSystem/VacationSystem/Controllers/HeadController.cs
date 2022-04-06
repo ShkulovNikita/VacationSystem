@@ -1004,5 +1004,19 @@ namespace VacationSystem.Controllers
             ClearListSessionData();
             return RedirectToAction("Rules");
         }
+
+        /// <summary>
+        /// Удаление правила для сотрудников
+        /// </summary>
+        /// <param name="ruleId">Идентификатор правила</param>
+        public IActionResult DeleteEmpRule(int ruleId)
+        {
+            if (DataHandler.DeleteEmployeesRule(ruleId))
+                TempData["Success"] = "Правило было успешно удалено";
+            else
+                TempData["Error"] = "Не удалось удалить правило";
+
+            return RedirectToAction("Rules");
+        }
     }
 }
