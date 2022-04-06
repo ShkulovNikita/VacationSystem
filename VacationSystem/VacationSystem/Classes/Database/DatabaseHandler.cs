@@ -32,6 +32,8 @@ namespace VacationSystem.Classes.Database
                         Debug.WriteLine("Добавление профиля администратора: {0}", AddAdmin());
                     if (!db.ManagementStyles.Select(s => s.Id).Any())
                         Debug.WriteLine("Добавление стилей руководства: {0}", AddManagementStyles());
+                    if (!db.RuleTypes.Select(t => t.Id).Any())
+                        Debug.WriteLine("Добавление типов правил: {0}", AddRuleTypes());
                 }
             }
             catch (Exception ex)
@@ -95,6 +97,37 @@ namespace VacationSystem.Classes.Database
                     {
                         Name = "Выбор сотрудниками желаемых отпусков",
                         Description = "Сотрудники оставляют пожелания в виде нескольких возможных периодов отпусков, руководитель их учитывает при расстановке отпусков"
+                    });
+
+                    db.SaveChanges();
+                }
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return false;
+            }
+        }
+
+        /// <summary>
+        /// Заполнение справочника с типами правил выбора отпусков
+        /// </summary>
+        /// <returns>Успешность выполнения операции</returns>
+        static private bool AddRuleTypes()
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    db.RuleTypes.Add(new RuleType
+                    {
+                        Name = "Должны уходить в отпуск одновременно"
+                    });
+                    db.RuleTypes.Add(new RuleType
+                    {
+                        Name = "Не должны уходить в отпуск одновременно"
                     });
 
                     db.SaveChanges();

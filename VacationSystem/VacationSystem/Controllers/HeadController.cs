@@ -682,7 +682,7 @@ namespace VacationSystem.Controllers
         /// <param name="department">Подразделение сотрудников группы</param>
         /// <param name="Employee">Список идентификаторов выбранных сотрудников</param>
         [HttpPost]
-        public IActionResult AddGroup(string name, string description, string department, string[] Employee)
+        public IActionResult AddGroup(string name, string description, string department, string[] employees)
         {
             // идентификатор авторизованного руководителя
             string headId = HttpContext.Session.GetString("id");
@@ -694,21 +694,21 @@ namespace VacationSystem.Controllers
             }
 
             // список сотрудников на основе выбранных идентификаторов
-            List<Employee> employees = EmployeeHelper.CheckEmployeesInApi(Employee);
+            List<Employee> emps = EmployeeHelper.CheckEmployeesInApi(employees);
 
             // отсеять тех сотрудников, которые не являются подчиненными для текущего руководителя
-            employees = employees
+            emps = emps
                 .Where(employee => Connector.GetSubordinateEmployees(headId)
                 .Any(subEmp => employee.Id == subEmp.Id))
                 .ToList();
 
-            if(employees.Count == 0)
+            if(emps.Count == 0)
             {
                 TempData["Error"] = "Выбраны некорректные сотрудники";
                 return RedirectToAction("Groups");
             }
 
-            if (DataHandler.AddGroup(employees, headId, department, name, description))
+            if (DataHandler.AddGroup(emps, headId, department, name, description))
                 TempData["Success"] = "Группа успешно сохранена!";
             else
                 TempData["Error"] = "Не удалось сохранить группу";
@@ -902,6 +902,107 @@ namespace VacationSystem.Controllers
             ViewBag.departments = departments;
 
             return View(rules.OrderByDescending(r => r.Date).ToList());
+        }
+
+        /// <summary>
+        /// Добавление нового правила для сотрудников
+        /// </summary>
+        [HttpGet]
+        public IActionResult AddEmpRule()
+        {
+            string headId = HttpContext.Session.GetString("id");
+            if (headId == null)
+            {
+                TempData["Error"] = "Не удалось загрузить данные пользователя";
+                return RedirectToAction("Index");
+            }
+
+            // получить подразделения текущего руководителя
+            List<Department> departments = Connector.GetSubordinateDepartments(headId);
+            if (departments == null)
+            {
+                TempData["Error"] = "Не удалось загрузить данные о подразделениях";
+                return RedirectToAction("Rules");
+            }
+
+            // список всех подразделений в формате ViewModel
+            List<DepListItem> allDeps = DepartmentHelper.GetDepartmentsList(departments);
+
+            // список всех сотрудников
+            List<EmpListItem> allEmps = EmployeeHelper.GetEmployeesList(allDeps);
+
+            if ((allDeps.Count == 0) || (allEmps.Count == 0))
+            {
+                TempData["Error"] = "Не удалось загрузить список подразделений";
+                return RedirectToAction("Rules");
+            }
+
+            // сохранить списки в сессию
+            SessionHelper.SetObjectAsJson(HttpContext.Session, "all_employees", allEmps);
+            SessionHelper.SetObjectAsJson(HttpContext.Session, "all_departments", allDeps);
+
+            // индекс по умолчанию
+            string selectedIndex = allDeps[0].Id;
+
+            ViewBag.Departments = allDeps;
+
+            // сотрудники выбранного по умолчанию подразделения
+            List<EmpListItem> empsOfDep = allEmps.Where(e => e.DepartmentId == selectedIndex).ToList();
+            ViewBag.Employees = empsOfDep;
+
+            // получить все виды правил из БД
+            List<RuleType> types = DataHandler.GetRuleTypes();
+            if (types == null)
+            {
+                TempData["Error"] = "Не удалось загрузить типы правил";
+                return RedirectToAction("Rules");
+            }
+            ViewBag.types = types;
+
+            return View();
+        }
+
+        /// <summary>
+        /// Сохранение нового правила для сотрудников
+        /// </summary>
+        /// <param name="department">Идентификатор подразделения</param>
+        /// <param name="type">Идентификатор типа правила</param>
+        /// <param name="description">Описание правила</param>
+        /// <param name="employees">Список идентификаторов сотрудников</param>
+        [HttpPost]
+        public IActionResult AddEmpRule(string department, int type, string description, string[] employees)
+        {
+            // идентификатор авторизованного руководителя
+            string headId = HttpContext.Session.GetString("id");
+            if (headId == null)
+            {
+                TempData["Error"] = "Не удалось загрузить данные пользователя";
+                ClearListSessionData();
+                return RedirectToAction("Rules");
+            }
+
+            // список сотрудников на основе выбранных идентификаторов
+            List<Employee> emps = EmployeeHelper.CheckEmployeesInApi(employees);
+
+            // отсеять тех сотрудников, которые не являются подчиненными для текущего руководителя
+            emps = emps
+                .Where(employee => Connector.GetSubordinateEmployees(headId)
+                .Any(subEmp => employee.Id == subEmp.Id))
+                .ToList();
+
+            if (emps.Count == 0)
+            {
+                TempData["Error"] = "Выбраны некорректные сотрудники";
+                return RedirectToAction("Rules");
+            }
+
+            if (DataHandler.AddEmployeesRule(description, type, department, headId, emps))
+                TempData["Success"] = "Правило успешно сохранено!";
+            else
+                TempData["Error"] = "Не удалось сохранить правило";
+
+            ClearListSessionData();
+            return RedirectToAction("Rules");
         }
     }
 }

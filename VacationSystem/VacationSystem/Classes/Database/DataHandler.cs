@@ -990,5 +990,25 @@ namespace VacationSystem.Classes.Database
                 return false;
             }
         }
+
+        /// <summary>
+        /// Получение всех типов правил выбора отпусков в БД
+        /// </summary>
+        /// <returns>Список всех типов правил</returns>
+        static public List<RuleType> GetRuleTypes()
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    return db.RuleTypes.ToList();
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return null;
+            }
+        }
     }
 }

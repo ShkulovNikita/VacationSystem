@@ -3,7 +3,7 @@
 @using VacationSystem.ViewModels.ListItems;
 
 @{
-    ViewData["Title"] = "Создание группы";
+    ViewData["Title"] = "Создание правила для сотрудников";
 
     string error = null;
     if (TempData["Error"] != null)
@@ -24,10 +24,13 @@
                         <option value="@dep.Id">@dep.Name</option>
                     }
                 </select>
-                <h3>Название группы:</h3>
-                <input type="text" name="name" />
-                <h3>Описание группы:</h3>
-                <textarea name="description" maxlength="500"></textarea>
+                <h3>Тип правила:</h3>
+                @foreach (var type in ViewBag.types)
+                {
+                    <input name="type" type="radio" value="@type.Id">@type.Name
+                }
+                <h3>Описание правила:</h3>
+                <textarea name="description" maxlength="100"></textarea>
                 <h3>Выберите сотрудников</h3>
                 <select multiple id="employees" name="employees" size="@employees.Count()">
                     @foreach (var emp in employees)
