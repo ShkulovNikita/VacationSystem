@@ -3,9 +3,17 @@ using System;
 
 namespace VacationSystem.ViewModels
 {
+    /// <summary>
+    /// Модель представления для отображения списка правил всех типов
+    /// </summary>
     public class RuleViewModel
     {
         public RuleViewModel() { }
+
+        /// <summary>
+        /// Идентификатор правила в БД
+        /// </summary>
+        public int Id { get; set; }
 
         /// <summary>
         /// Наименование правила

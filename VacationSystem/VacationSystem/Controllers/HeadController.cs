@@ -876,7 +876,7 @@ namespace VacationSystem.Controllers
         /// Просмотр списка установленных правил выбора отпусков
         /// </summary>
         /// <returns></returns>
-        public IActionResult Rules()
+        public IActionResult Rules(string depId)
         {
             // идентификатор авторизованного руководителя
             string headId = HttpContext.Session.GetString("id");
@@ -887,11 +887,21 @@ namespace VacationSystem.Controllers
             }
 
             // список правил текущего руководителя
-            List<RuleViewModel> rules = new List<RuleViewModel>();
+            List<RuleViewModel> rules = RuleHelper.GetRulesList(headId, depId);
 
+            if (rules.Count == 0)
+                TempData["Message"] = "Правила не найдены";
 
+            // список подразделений текущего руководителя
+            List<Department> departments = Connector.GetSubordinateDepartments(headId);
+            if (departments == null)
+            {
+                TempData["Error"] = "Не удалось загрузить список подразделений";
+                return RedirectToAction("Index");
+            }
+            ViewBag.departments = departments;
 
-            return View();
+            return View(rules.OrderByDescending(r => r.Date).ToList());
         }
     }
 }
