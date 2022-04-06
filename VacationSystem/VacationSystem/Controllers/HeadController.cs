@@ -1089,7 +1089,7 @@ namespace VacationSystem.Controllers
             if (headId == null)
             {
                 TempData["Error"] = "Не удалось загрузить данные пользователя";
-                return RedirectToAction("Groups");
+                return RedirectToAction("Rules");
             }
 
             // получить список сотрудников правила
@@ -1224,6 +1224,50 @@ namespace VacationSystem.Controllers
                 TempData["Success"] = "Правило успешно удалено";
             else
                 TempData["Error"] = "Не удалось удалить правило";
+
+            return RedirectToAction("Rules");
+        }
+
+        /// <summary>
+        /// Редактирование правила для должности
+        /// </summary>
+        /// <param name="ruleId">Идентификатор правила</param>
+        [HttpGet]
+        public IActionResult EditPosRule(int ruleId)
+        {
+            // идентификатор авторизованного руководителя
+            string headId = HttpContext.Session.GetString("id");
+            if (headId == null)
+            {
+                TempData["Error"] = "Не удалось загрузить данные пользователя";
+                return RedirectToAction("Rules");
+            }
+
+            // получить редактируемое правило
+            PosRuleViewModel rule = RuleHelper.ConvertPosRuleToViewModel(ruleId);
+            if (rule == null)
+            {
+                TempData["Error"] = "Не удалось получить данные о правиле";
+                return RedirectToAction("Rules");
+            }
+
+            return View(rule);
+        }
+
+        /// <summary>
+        /// Сохранение в БД изменений в правиле для должности
+        /// </summary>
+        /// <param name="ruleId">Идентификатор правила</param>
+        /// <param name="description">Описание правила</param>
+        /// <param name="number">Количество сотрудников должности, которые должны быть 
+        /// одновременно на рабочем месте</param>
+        [HttpPost]
+        public IActionResult EditPosRule(int ruleId, string description, int number)
+        {
+            if (DataHandler.EditPositionRule(ruleId, number, description))
+                TempData["Success"] = "Изменения успешно сохранены";
+            else
+                TempData["Error"] = "Не удалось сохранить изменения";
 
             return RedirectToAction("Rules");
         }
