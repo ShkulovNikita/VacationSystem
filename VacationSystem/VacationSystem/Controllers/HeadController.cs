@@ -1197,5 +1197,21 @@ namespace VacationSystem.Controllers
 
             return RedirectToAction("Rules");
         }
+
+        /// <summary>
+        /// Просмотр страницы с информацией о правиле для должности
+        /// </summary>
+        /// <param name="ruleId">Идентификатор правила</param>
+        public IActionResult ViewPosRule(int ruleId)
+        {
+            PosRuleViewModel rule = RuleHelper.ConvertPosRuleToViewModel(ruleId);
+            if (rule == null)
+            {
+                TempData["Error"] = "Не удалось получить данные о правиле";
+                return RedirectToAction("Rules");
+            }
+
+            return View(rule);
+        }
     }
 }

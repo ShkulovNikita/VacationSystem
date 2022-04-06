@@ -175,5 +175,36 @@ namespace VacationSystem.Classes.Helpers
                 .ToList()
             };
         }
+
+        /// <summary>
+        /// Получение правила для должности в формате ViewModel
+        /// </summary>
+        /// <param name="ruleId">Идентификатор правила</param>
+        /// <returns>Правило для должности в формате ViewModel</returns>
+        static public PosRuleViewModel ConvertPosRuleToViewModel(int ruleId)
+        {
+            // получение правила из БД
+            RuleForPosition rule = DataHandler.GetPositionRule(ruleId);
+            if (rule == null)
+                return null;
+
+            // должность, к которой применено правило
+            Position position = Connector.GetPosition(rule.PositionId);
+            if (position == null)
+                return null;
+
+            // подразделение, в котором действует правило
+            Department department = Connector.GetDepartment(rule.DepartmentId);
+            if (department == null)
+                return null;
+
+            rule.Department = department;
+
+            return new PosRuleViewModel
+            {
+                Rule = rule,
+                Position = position
+            };
+        }
     }
 }

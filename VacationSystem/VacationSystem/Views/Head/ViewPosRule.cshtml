@@ -1,0 +1,39 @@
+﻿@model PosRuleViewModel
+
+@using VacationSystem.ViewModels;
+@using VacationSystem.HtmlHelpers;
+
+@{
+    ViewData["Title"] = "Информация о правиле для должности";
+
+    string error = null;
+    if (TempData["Error"] != null)
+        error = TempData["Error"].ToString();
+
+    string message = null;
+    if (TempData["Message"] != null)
+        message = TempData["Message"].ToString();
+
+    string success = null;
+    if (TempData["Success"] != null)
+        success = TempData["Success"].ToString();
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-7">
+            @Html.CheckError(error)
+            @Html.CheckMessage(message)
+            @Html.CheckSuccess(success)
+            <h3>@Model.Rule.Description</h3>
+            <h4>Подразделение: @Model.Rule.Department.Name</h4>
+            <h4>Должность: @Model.Position.Name</h4>
+            <a asp-controller="Head" asp-action="EditPosRule" asp-route-ruleId="@Model.Rule.Id" class="btn btn-primary">
+                Редактировать
+            </a>
+            <a asp-controller="Head" asp-action="DeletePosRule" asp-route-ruleId="@Model.Rule.Id" class="btn btn-danger">
+                Удалить
+            </a>
+        </div>
+    </div>
+</div>
