@@ -29,7 +29,7 @@
                 <h3>Описание группы:</h3>
                 <textarea name="description" maxlength="500"></textarea>
                 <h3>Выберите сотрудников</h3>
-                <select multiple id="employees" name="employees" size="@employees.Count()">
+                <select multiple class="employee-group-list" name="employees" size="@employees.Count()">
                     @foreach (var emp in employees)
                     {
                         <option value="@emp.EmpId">@emp.Name</option>
@@ -50,10 +50,10 @@
             var id = $(this).val();
             $.ajax({
                 type: 'GET',
-                url: '@Url.Action("GetGroupItems")/' + id,
+                url: '@Url.Action("GetEmployeeItems")/' + id,
                 success: function (data) {
                     // заменяем содержимое присланным частичным представлением
-                    $('#employees').replaceWith(data);
+                    $('.employee-group-list').replaceWith(data);
                 }
             });
         });

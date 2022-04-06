@@ -1069,6 +1069,7 @@ namespace VacationSystem.Classes.Database
                 using (ApplicationContext db = new ApplicationContext())
                 {
                     return db.GroupRules
+                        .Include(gr => gr.Group)
                         .FirstOrDefault(gr => gr.Id == ruleId);
                 }
             }

@@ -206,5 +206,28 @@ namespace VacationSystem.Classes.Helpers
                 Position = position
             };
         }
+
+        /// <summary>
+        /// Получение правила для группы в формате ViewModel
+        /// </summary>
+        /// <param name="ruleId">Идентификатор правила</param>
+        /// <returns>Правило для группы в формате ViewModel</returns>
+        static public GroupRuleViewModel ConvertGroupRuleToViewModel(int ruleId)
+        {
+            GroupRule rule = DataHandler.GetGroupRule(ruleId);
+            if (rule == null)
+                return null;
+
+            Department department = Connector.GetDepartment(rule.Group.DepartmentId);
+            if (department == null)
+                return null;
+
+            rule.Group.Department = department;
+
+            return new GroupRuleViewModel
+            {
+                Rule = rule
+            };
+        }
     }
 }

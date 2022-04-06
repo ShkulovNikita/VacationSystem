@@ -667,7 +667,7 @@ namespace VacationSystem.Controllers
         /// Вывод частичного представления со списком сотрудников из указанного подразделения
         /// </summary>
         /// <param name="id">Идентификатор подразделения</param>
-        public ActionResult GetGroupItems(string id)
+        public ActionResult GetEmployeeItems(string id)
         {
             // получить из сессии всех сотрудников
             List<EmpListItem> allEmps = SessionHelper.GetObjectFromJson<List<EmpListItem>>(HttpContext.Session, "all_employees");
