@@ -1030,5 +1030,83 @@ namespace VacationSystem.Controllers
 
             return View(rule);
         }
+
+        /// <summary>
+        /// Редактирование правила для сотрудников
+        /// </summary>
+        /// <param name="ruleId">Идентификатор правила</param>
+        [HttpGet]
+        public IActionResult EditEmpRule(int ruleId)
+        {
+            // идентификатор авторизованного руководителя
+            string headId = HttpContext.Session.GetString("id");
+            if (headId == null)
+            {
+                TempData["Error"] = "Не удалось загрузить данные пользователя";
+                return RedirectToAction("Rules");
+            }
+
+            // получить редактируемое правило
+            EmpRuleViewModel rule = RuleHelper.ConvertEmpRuleToViewModel(ruleId);
+            if (rule == null)
+            {
+                TempData["Error"] = "Не удалось получить данные о правиле";
+                return RedirectToAction("Rules");
+            }
+
+            // все сотрудники подразделения правила
+            List<Employee> empsOfDep = Connector.GetEmployeesOfDepartment(rule.Rule.DepartmentId);
+            if (empsOfDep == null)
+            {
+                TempData["Error"] = "Не удалось получить список сотрудников";
+                return RedirectToAction("Rules");
+            }
+
+            // удалить из их числа сотрудников, уже включенных в правило
+            empsOfDep = empsOfDep
+                .Where(empInDep => !rule.Employees.Any(empInRule => empInDep.Id == empInRule.Id))
+                .ToList();
+            ViewBag.Employees = empsOfDep
+                .OrderBy(e => e.LastName)
+                .ThenBy(e => e.FirstName)
+                .ThenBy(e => e.MiddleName)
+                .ToList();
+
+            return View(rule);
+        }
+
+        /// <summary>
+        /// Сохранение в БД изменений правила для сотрудников
+        /// </summary>
+        /// <param name="ruleId">Идентификатор правила</param>
+        /// <param name="description">Описание правила</param>
+        /// <param name="employees">Список идентификаторов сотрудников правила</param>
+        [HttpPost]
+        public IActionResult EditEmpRule(int ruleId, string description, string[] employees)
+        {
+            // идентификатор авторизованного руководителя
+            string headId = HttpContext.Session.GetString("id");
+            if (headId == null)
+            {
+                TempData["Error"] = "Не удалось загрузить данные пользователя";
+                return RedirectToAction("Groups");
+            }
+
+            // получить список сотрудников правила
+            List<Employee> empsOfRule = new List<Employee>();
+            foreach (string empId in employees)
+            {
+                Employee emp = Connector.GetEmployee(empId);
+                if (emp != null)
+                    empsOfRule.Add(emp);
+            }
+
+            if (DataHandler.EditEmployeesRule(ruleId, description, empsOfRule))
+                TempData["Success"] = "Изменения в правиле успешно сохранены!";
+            else
+                TempData["Error"] = "Не удалось сохранить изменения в правиле";
+
+            return RedirectToAction("Rules");
+        }
     }
 }

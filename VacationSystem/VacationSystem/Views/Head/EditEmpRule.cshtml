@@ -1,10 +1,10 @@
-﻿@model GroupViewModel
+﻿@model EmpRuleViewModel
 
 @using VacationSystem.HtmlHelpers;
 @using VacationSystem.ViewModels;
 
 @{
-    ViewData["Title"] = "Редактирование группы";
+    ViewData["Title"] = "Редактирование правила";
 
     string error = null;
     if (TempData["Error"] != null)
@@ -20,10 +20,8 @@
         <div class="col-7">
             @Html.CheckError(error)
             <form method="post">
-                <h3>Название группы:</h3>
-                <input type="text" name="name" value="@Model.Group.Name" />
-                <h3>Описание группы:</h3>
-                <textarea name="description" maxlength="500">@Model.Group.Description</textarea>
+                <h3>Описание правила:</h3>
+                <textarea name="description" maxlength="500">@Model.Rule.Description</textarea>
                 <h3>Выберите сотрудников</h3>
                 <select multiple id="employees" name="employees" size="@size">
                     @foreach (var emp in Model.Employees)
