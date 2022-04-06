@@ -1213,5 +1213,19 @@ namespace VacationSystem.Controllers
 
             return View(rule);
         }
+        
+        /// <summary>
+        /// Удалить правило для должности
+        /// </summary>
+        /// <param name="ruleId">Идентификатор должности</param>
+        public IActionResult DeletePosRule(int ruleId)
+        {
+            if (DataHandler.DeletePositionRule(ruleId))
+                TempData["Success"] = "Правило успешно удалено";
+            else
+                TempData["Error"] = "Не удалось удалить правило";
+
+            return RedirectToAction("Rules");
+        }
     }
 }
