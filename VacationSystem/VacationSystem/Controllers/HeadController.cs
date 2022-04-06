@@ -1018,5 +1018,17 @@ namespace VacationSystem.Controllers
 
             return RedirectToAction("Rules");
         }
+
+        /// <summary>
+        /// Просмотр страницы с данными о правиле для сотрудников
+        /// </summary>
+        /// <param name="ruleId">Идентификатор правила</param>
+        public IActionResult ViewEmpRule(int ruleId)
+        {
+            // получить модель представления с данными о правиле
+            EmpRuleViewModel rule = RuleHelper.ConvertEmpRuleToViewModel(ruleId);
+
+            return View(rule);
+        }
     }
 }

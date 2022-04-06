@@ -2,6 +2,7 @@
 using VacationSystem.Models;
 using VacationSystem.ViewModels;
 using VacationSystem.Classes.Database;
+using System.Linq;
 
 namespace VacationSystem.Classes.Helpers
 {
@@ -137,6 +138,42 @@ namespace VacationSystem.Classes.Helpers
             }
 
             return result;
+        }
+
+        /// <summary>
+        /// Получение правила для сотрудников в формате ViewModel
+        /// </summary>
+        /// <param name="ruleId">Идентификатор правила</param>
+        /// <returns>Правило для сотрудников в формате ViewModel</returns>
+        static public EmpRuleViewModel ConvertEmpRuleToViewModel(int ruleId)
+        {
+            // получение правила из БД
+            EmployeeRule rule = DataHandler.GetEmployeeRule(ruleId);
+            if (rule == null)
+                return null;
+
+            Department dep = Connector.GetDepartment(rule.DepartmentId);
+            if (dep != null)
+                rule.Department = dep;
+
+            // список сотрудников в правиле
+            List<Employee> employees = new List<Employee>();
+            foreach (EmployeeInRule empInRule in rule.EmployeeInRules)
+            {
+                Employee emp = Connector.GetEmployee(empInRule.EmployeeId);
+                if (emp != null)
+                    employees.Add(emp);
+            }
+
+            return new EmpRuleViewModel
+            {
+                Rule = rule,
+                Employees = employees
+                .OrderBy(e => e.LastName)
+                .ThenBy(e => e.FirstName)
+                .ThenBy(e => e.MiddleName)
+                .ToList()
+            };
         }
     }
 }

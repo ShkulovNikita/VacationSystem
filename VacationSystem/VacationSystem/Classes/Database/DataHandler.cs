@@ -253,8 +253,8 @@ namespace VacationSystem.Classes.Database
             {
                 using (ApplicationContext db = new ApplicationContext())
                 {
-                    if (db.Deputies.Any(d => d.DepartmentId == depId 
-                                        && d.DeputyEmployeeId == empId 
+                    if (db.Deputies.Any(d => d.DepartmentId == depId
+                                        && d.DeputyEmployeeId == empId
                                         && d.HeadEmployeeId == headId))
                         return true;
                     else
@@ -1002,6 +1002,74 @@ namespace VacationSystem.Classes.Database
                 using (ApplicationContext db = new ApplicationContext())
                 {
                     return db.RuleTypes.ToList();
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return null;
+            }
+        }
+
+        /// <summary>
+        /// Получение правила для сотрудников по идентификатору
+        /// </summary>
+        /// <param name="ruleId">Идентификатор правила</param>
+        /// <returns>Правило выбора отпусков для сотрудников</returns>
+        static public EmployeeRule GetEmployeeRule(int ruleId)
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    return db.EmployeeRules
+                        .Include(er => er.EmployeeInRules)
+                        .Include(er => er.RuleType)
+                        .FirstOrDefault(er => er.Id == ruleId);
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return null;
+            }
+        }
+
+        /// <summary>
+        /// Получение правила для должности по идентификатору
+        /// </summary>
+        /// <param name="ruleId">Идентификатор правила</param>
+        /// <returns>Правило выбора отпусков для должности</returns>
+        static public RuleForPosition GetPositionRule(int ruleId)
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    return db.RuleForPositions
+                        .FirstOrDefault(rp => rp.Id == ruleId);
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return null;
+            }
+        }
+
+        /// <summary>
+        /// Получение правила для группы по идентификатору
+        /// </summary>
+        /// <param name="ruleId">Идентификатор правила</param>
+        /// <returns>Правило выбора отпусков для группы</returns>
+        static public GroupRule GetGroupRule(int ruleId)
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    return db.GroupRules
+                        .FirstOrDefault(gr => gr.Id == ruleId);
                 }
             }
             catch (Exception ex)
