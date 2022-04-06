@@ -20,5 +20,10 @@ namespace VacationSystem.ViewModels.ListItems
         /// Список сотрудников в подразделении
         /// </summary>
         public List<EmpListItem> Employees { get; set; } = new List<EmpListItem>();
+
+        /// <summary>
+        /// Список должностей в подразделении
+        /// </summary>
+        public List<PosListItem> Positions { get; set; } = new List<PosListItem>();
     }
 }

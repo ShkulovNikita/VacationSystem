@@ -1,0 +1,62 @@
+﻿@using VacationSystem.HtmlHelpers
+@using VacationSystem.Classes.Helpers;
+@using VacationSystem.ViewModels.ListItems;
+
+@{
+    ViewData["Title"] = "Создание правила для должности";
+
+    string error = null;
+    if (TempData["Error"] != null)
+        error = TempData["Error"].ToString();
+
+    List<PosListItem> positions = ViewBag.Positions;
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-7">
+            @Html.CheckError(error)
+            <form method="post">
+                <h3>Выберите подразделение</h3>
+                <select id="department" name="department">
+                    @foreach(var dep in @ViewBag.departments)
+                    {
+                        <option value="@dep.Id">@dep.Name</option>
+                    }
+                </select>
+                <h3>Описание правила:</h3>
+                <textarea name="description" maxlength="100"></textarea>
+                <h3>Выберите должность</h3>
+                <select id="positions" name="positions">
+                    @foreach (var pos in positions)
+                    {
+                        <option value="@pos.PosId">@pos.Name</option>
+                    }
+                </select>
+                <h3>Количество человек должности на рабочем месте:</h3>
+                <input type="number" name="number" />
+                <input type="submit" class="btn btn-primary" value="Добавить" />
+            </form>
+        </div>
+    </div>
+</div>
+
+@section scripts{
+<script type="text/javascript">
+    $(function () {
+        $('#department').change(function()
+        {
+            // получаем выбранный id
+            var id = $(this).val();
+            $.ajax({
+                type: 'GET',
+                url: '@Url.Action("GetPositionItems")/' + id,
+                success: function (data) {
+                    // заменяем содержимое присланным частичным представлением
+                    $('#positions').replaceWith(data);
+                }
+            });
+        });
+    });
+</script>
+}

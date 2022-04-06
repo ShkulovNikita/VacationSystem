@@ -63,13 +63,17 @@
                             <a asp-controller="Head" asp-action="EditEmpRule" asp-route-ruleId="@rule.Id" class="btn btn-primary">Редактировать</a>
                             <a asp-controller="Head" asp-action="DeleteEmpRule" asp-route-ruleId="@rule.Id" class="btn btn-danger">Удалить</a>
                         }
-                        else if (rule.RuleType == "")
+                        else if (rule.RuleType == "Pos")
                         {
-                            
+                            <a asp-controller="Head" asp-action="ViewPosRule" asp-route-ruleId="@rule.Id" class="btn btn-primary">Просмотр</a>
+                            <a asp-controller="Head" asp-action="EditPosRule" asp-route-ruleId="@rule.Id" class="btn btn-primary">Редактировать</a>
+                            <a asp-controller="Head" asp-action="DeletePosRule" asp-route-ruleId="@rule.Id" class="btn btn-danger">Удалить</a>
                         }
                         else
                         {
-                            
+                            <a asp-controller="Head" asp-action="ViewGroupRule" asp-route-ruleId="@rule.Id" class="btn btn-primary">Просмотр</a>
+                            <a asp-controller="Head" asp-action="EditGroupRule" asp-route-ruleId="@rule.Id" class="btn btn-primary">Редактировать</a>
+                            <a asp-controller="Head" asp-action="DeleteGroupRule" asp-route-ruleId="@rule.Id" class="btn btn-danger">Удалить</a>
                         }
                     </div>
                 </div>

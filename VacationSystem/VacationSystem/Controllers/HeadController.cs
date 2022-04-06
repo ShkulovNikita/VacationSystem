@@ -1108,5 +1108,94 @@ namespace VacationSystem.Controllers
 
             return RedirectToAction("Rules");
         }
+
+        /// <summary>
+        /// Добавление нового правила выбора отпусков для должностей
+        /// </summary>
+        [HttpGet]
+        public IActionResult AddPosRule()
+        {
+            string headId = HttpContext.Session.GetString("id");
+            if (headId == null)
+            {
+                TempData["Error"] = "Не удалось загрузить данные пользователя";
+                return RedirectToAction("Index");
+            }
+
+            // получить подразделения текущего руководителя
+            List<Department> departments = Connector.GetSubordinateDepartments(headId);
+            if (departments == null)
+            {
+                TempData["Error"] = "Не удалось загрузить данные о подразделениях";
+                return RedirectToAction("Rules");
+            }
+
+            // список всех подразделений в формате ViewModel
+            List<DepListItem> allDeps = DepartmentHelper.GetDepartmentsList(departments)
+                .OrderBy(d => d.Name)
+                .ToList();
+
+            // список всех должностей
+            List<PosListItem> allPos = PositionHelper.GetPositionsList(allDeps)
+                .OrderBy(p => p.Name)
+                .ToList();
+
+            if ((allDeps.Count == 0) || (allPos.Count == 0))
+            {
+                TempData["Error"] = "Не удалось загрузить список подразделений";
+                return RedirectToAction("Rules");
+            }
+
+            // сохранить списки в сессию
+            SessionHelper.SetObjectAsJson(HttpContext.Session, "all_positions", allPos);
+            SessionHelper.SetObjectAsJson(HttpContext.Session, "all_departments", allDeps);
+
+            // индекс по умолчанию
+            string selectedIndex = allDeps[0].Id;
+            ViewBag.Departments = allDeps;
+
+            // должности выбранного по умолчанию подразделения
+            List<PosListItem> posOfDep = allPos.Where(e => e.DepartmentId == selectedIndex).ToList();
+            ViewBag.Positions = posOfDep;
+
+            return View();
+        }
+
+        /// <summary>
+        /// Вывод частичного представления со списком должностей из указанного подразделения
+        /// </summary>
+        /// <param name="id">Идентификатор подразделения</param>
+        public ActionResult GetPositionItems(string id)
+        {
+            // получить из сессии всех сотрудников
+            List<PosListItem> allPos = SessionHelper.GetObjectFromJson<List<PosListItem>>(HttpContext.Session, "all_positions");
+            return PartialView(allPos.Where(e => e.DepartmentId == id).ToList());
+        }
+
+        /// <summary>
+        /// Сохранение в БД нового правила для должности
+        /// </summary>
+        /// <param name="description">Описание правила</param>
+        /// <param name="department">Идентификатор подразделения</param>
+        /// <param name="positions">Идентификатор должности</param>
+        /// <param name="number">Количество сотрудников должности, которые должны быть 
+        /// одновременно на рабочем месте</param>
+        [HttpPost]
+        public IActionResult AddPosRule(string description, string department, string positions, int number)
+        {
+            string headId = HttpContext.Session.GetString("id");
+            if (headId == null)
+            {
+                TempData["Error"] = "Не удалось загрузить данные пользователя";
+                return RedirectToAction("Index");
+            }
+
+            if (DataHandler.AddPositionRule(number, description, positions, department, headId))
+                TempData["Success"] = "Правило было успешно добавлено!";
+            else
+                TempData["Error"] = "Не удалось добавить правило";
+
+            return RedirectToAction("Rules");
+        }
     }
 }
