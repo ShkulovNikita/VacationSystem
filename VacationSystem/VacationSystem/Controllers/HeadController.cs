@@ -1397,5 +1397,38 @@ namespace VacationSystem.Controllers
 
             return RedirectToAction("Rules");
         }
+
+        /// <summary>
+        /// Редактирование правила для группы сотрудников
+        /// </summary>
+        /// <param name="ruleId">Идентификатор правила</param>
+        [HttpGet]
+        public IActionResult EditGroupRule(int ruleId)
+        {
+            GroupRuleViewModel rule = RuleHelper.ConvertGroupRuleToViewModel(ruleId);
+            if (rule == null)
+            {
+                TempData["Error"] = "Не удалось получить данные о правиле";
+                return RedirectToAction("Rules");
+            }
+
+            return View(rule);
+        }
+
+        /// <summary>
+        /// Сохранение в БД изменений в правиле для группы сотрудников
+        /// </summary>
+        /// <param name="ruleId">Идентификатор правила</param>
+        /// <param name="description">Описание правила</param>
+        [HttpPost]
+        public IActionResult EditGroupRule(int ruleId, string description)
+        {
+            if (DataHandler.EditGroupRule(ruleId, description))
+                TempData["Success"] = "Изменения успешно сохранены";
+            else
+                TempData["Error"] = "Не удалось сохранить изменения";
+
+            return RedirectToAction("Rules");
+        }
     }
 }

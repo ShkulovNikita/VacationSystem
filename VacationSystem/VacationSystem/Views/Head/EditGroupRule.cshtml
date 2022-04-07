@@ -1,0 +1,25 @@
+﻿@model GroupRuleViewModel
+
+@using VacationSystem.HtmlHelpers;
+@using VacationSystem.ViewModels;
+
+@{
+    ViewData["Title"] = "Редактирование правила";
+
+    string error = null;
+    if (TempData["Error"] != null)
+        error = TempData["Error"].ToString();
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-7">
+            @Html.CheckError(error)
+            <form method="post">
+                <h3>Описание правила:</h3>
+                <textarea name="description" maxlength="100">@Model.Rule.Description</textarea>
+                <input type="submit" class="btn btn-primary" value="Сохранить" />
+            </form>
+        </div>
+    </div>
+</div>
