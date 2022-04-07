@@ -1079,5 +1079,26 @@ namespace VacationSystem.Classes.Database
                 return null;
             }
         }
+
+        /// <summary>
+        /// Получение списка групп указанного подразделения
+        /// </summary>
+        /// <param name="depId">Идентификатор подразделения</param>
+        /// <returns>Список групп сотрудников</returns>
+        static public List<Group> GetGroupsOfDepartment(string depId)
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    return db.Groups.Where(g => g.DepartmentId == depId).ToList();
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return null;
+            }
+        }
     }
 }

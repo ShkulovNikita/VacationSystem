@@ -132,7 +132,7 @@ namespace VacationSystem.Classes.Helpers
                         Department = dep,
                         Date = rule.Date,
                         RuleType = "Group",
-                        SystemDescription = "Правило для группы " + rule.Group.Name + " в подразделении " + dep.Name
+                        SystemDescription = "Правило для группы " + rule.Group.Name
                     });
                 }
             }

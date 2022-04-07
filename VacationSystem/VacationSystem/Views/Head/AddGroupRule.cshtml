@@ -1,0 +1,65 @@
+﻿@using VacationSystem.HtmlHelpers
+@using VacationSystem.Classes.Helpers;
+@using VacationSystem.ViewModels.ListItems;
+
+@{
+    ViewData["Title"] = "Создание правила для группы";
+
+    string error = null;
+    if (TempData["Error"] != null)
+        error = TempData["Error"].ToString();
+
+    List<GroupListItem> groups = ViewBag.Groups;
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-7">
+            @Html.CheckError(error)
+            <form method="post">
+                <h3>Выберите подразделение</h3>
+                <select id="department" name="department">
+                    @foreach(var dep in @ViewBag.departments)
+                    {
+                        <option value="@dep.Id">@dep.Name</option>
+                    }
+                </select>
+                <h3>Тип правила:</h3>
+                @foreach (var type in ViewBag.Types)
+                {
+                    <input name="type" type="radio" value="@type.Id">@type.Name
+                }
+                <h3>Описание правила:</h3>
+                <textarea name="description" maxlength="100"></textarea>
+                <h3>Выберите группу</h3>
+                <select class="group-list" name="group">
+                    @foreach (var group in groups)
+                    {
+                        <option value="@group.Id">@group.Name</option>
+                    }
+                </select>
+                <input type="submit" class="btn btn-primary" value="Добавить" />
+            </form>
+        </div>
+    </div>
+</div>
+
+@section scripts{
+<script type="text/javascript">
+    $(function () {
+        $('#department').change(function()
+        {
+            // получаем выбранный id
+            var id = $(this).val();
+            $.ajax({
+                type: 'GET',
+                url: '@Url.Action("GetGroupItems")/' + id,
+                success: function (data) {
+                    // заменяем содержимое присланным частичным представлением
+                    $('.group-list').replaceWith(data);
+                }
+            });
+        });
+    });
+</script>
+}

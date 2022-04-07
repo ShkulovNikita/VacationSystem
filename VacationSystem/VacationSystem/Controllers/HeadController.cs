@@ -1167,7 +1167,7 @@ namespace VacationSystem.Controllers
         /// <param name="id">Идентификатор подразделения</param>
         public ActionResult GetPositionItems(string id)
         {
-            // получить из сессии всех сотрудников
+            // получить из сессии все должности
             List<PosListItem> allPos = SessionHelper.GetObjectFromJson<List<PosListItem>>(HttpContext.Session, "all_positions");
             return PartialView(allPos.Where(e => e.DepartmentId == id).ToList());
         }
@@ -1268,6 +1268,102 @@ namespace VacationSystem.Controllers
                 TempData["Success"] = "Изменения успешно сохранены";
             else
                 TempData["Error"] = "Не удалось сохранить изменения";
+
+            return RedirectToAction("Rules");
+        }
+
+        /// <summary>
+        /// Добавление нового правила для группы
+        /// </summary>
+        [HttpGet]
+        public IActionResult AddGroupRule()
+        {
+            string headId = HttpContext.Session.GetString("id");
+            if (headId == null)
+            {
+                TempData["Error"] = "Не удалось загрузить данные пользователя";
+                return RedirectToAction("Index");
+            }
+
+            // получить подразделения текущего руководителя
+            List<Department> departments = Connector.GetSubordinateDepartments(headId);
+            if (departments == null)
+            {
+                TempData["Error"] = "Не удалось загрузить данные о подразделениях";
+                return RedirectToAction("Rules");
+            }
+
+            // список всех подразделений в формате ViewModel
+            List<DepListItem> allDeps = DepartmentHelper.GetDepartmentsList(departments)
+                .OrderBy(d => d.Name)
+                .ToList();
+
+            // список всех групп
+            List<GroupListItem> allGroups = GroupHelper.GetGroupsList(allDeps)
+                .OrderBy(g => g.Name)
+                .ToList();
+
+            if ((allDeps.Count == 0) || (allGroups.Count == 0))
+            {
+                TempData["Error"] = "Не удалось загрузить список подразделений";
+                return RedirectToAction("Rules");
+            }
+
+            // сохранить списки в сессию
+            SessionHelper.SetObjectAsJson(HttpContext.Session, "all_groups", allGroups);
+            SessionHelper.SetObjectAsJson(HttpContext.Session, "all_departments", allDeps);
+
+            // индекс по умолчанию
+            string selectedIndex = allDeps[0].Id;
+            ViewBag.Departments = allDeps;
+
+            // группы выбранного по умолчанию подразделения
+            List<GroupListItem> groupsOfDep = allGroups.Where(e => e.DepartmentId == selectedIndex).ToList();
+            ViewBag.Groups = groupsOfDep;
+
+            // получить все виды правил из БД
+            List<RuleType> types = DataHandler.GetRuleTypes();
+            if (types == null)
+            {
+                TempData["Error"] = "Не удалось загрузить типы правил";
+                return RedirectToAction("Rules");
+            }
+            ViewBag.Types = types;
+
+            return View();
+        }
+
+        /// <summary>
+        /// Вывод частичного представления со списком групп из указанного подразделения
+        /// </summary>
+        /// <param name="id">Идентификатор подразделения</param>
+        public ActionResult GetGroupItems(string id)
+        {
+            // получить из сессии все группы
+            List<GroupListItem> allGroups = SessionHelper.GetObjectFromJson<List<GroupListItem>>(HttpContext.Session, "all_groups");
+            return PartialView(allGroups.Where(e => e.DepartmentId == id).ToList());
+        }
+
+        /// <summary>
+        /// Сохранение в БД нового правила для группы сотрудников
+        /// </summary>
+        /// <param name="description">Описание правила</param>
+        /// <param name="group">Идентификатор группы</param>
+        /// <param name="type">Тип правила</param>
+        [HttpPost]
+        public IActionResult AddGroupRule(string department, string description, int group, int type)
+        {
+            string headId = HttpContext.Session.GetString("id");
+            if (headId == null)
+            {
+                TempData["Error"] = "Не удалось загрузить данные пользователя";
+                return RedirectToAction("Index");
+            }
+
+            if (DataHandler.AddGroupRule(description, type, group))
+                TempData["Success"] = "Новое правило успешно сохранено";
+            else
+                TempData["Error"] = "Не удалось сохранить правило";
 
             return RedirectToAction("Rules");
         }

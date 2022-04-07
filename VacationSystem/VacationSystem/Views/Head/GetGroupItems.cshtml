@@ -1,0 +1,8 @@
+﻿@model IEnumerable<VacationSystem.ViewModels.ListItems.GroupListItem>
+
+<select class="group-list" name="group">
+    @foreach (var item in Model)
+    {
+        <option value="@item.GroupId">@item.Name</option>
+    }
+</select>

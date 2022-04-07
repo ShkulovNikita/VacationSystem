@@ -25,5 +25,10 @@ namespace VacationSystem.ViewModels.ListItems
         /// Список должностей в подразделении
         /// </summary>
         public List<PosListItem> Positions { get; set; } = new List<PosListItem>();
+
+        /// <summary>
+        /// Список групп в подразделении
+        /// </summary>
+        public List<GroupListItem> Groups { get; set; } = new List<GroupListItem>();
     }
 }

@@ -2,6 +2,7 @@
 using VacationSystem.Models;
 using VacationSystem.ViewModels;
 using VacationSystem.Classes.Database;
+using VacationSystem.ViewModels.ListItems;
 using System.Linq;
 
 namespace VacationSystem.Classes.Helpers
@@ -105,6 +106,58 @@ namespace VacationSystem.Classes.Helpers
                 .ThenBy(e => e.FirstName)
                 .ThenBy(e => e.MiddleName)
                 .ToList();
+        }
+
+        /// <summary>
+        /// Получить список групп для указанных подразделений
+        /// для формирования выпадающего списка
+        /// </summary>
+        /// <param name="departments">Список подразделений</param>
+        /// <returns>Список групп сотрудников из указанных подразделений</returns>
+        static public List<GroupListItem> GetGroupsList(List<DepListItem> departments)
+        {
+            List<GroupListItem> result = new List<GroupListItem>();
+
+            // получить должности всех подразделений
+            foreach (DepListItem dep in departments)
+            {
+                // получить все группы данного подразделения
+                List<Group> groups = DataHandler.GetGroupsOfDepartment(dep.Id);
+                if (groups == null)
+                    continue;
+
+                // добавить группы в списки
+                foreach (Group grp in groups)
+                {
+                    GroupListItem newGroup = GetGroupListItem(grp, dep);
+
+                    // добавить в список групп подразделения
+                    dep.Groups.Add(newGroup);
+
+                    // добавить в список всех групп
+                    result.Add(newGroup);
+                }
+            }
+
+            return result;
+        }
+
+        /// <summary>
+        /// Преобразование группы в формат для списка
+        /// </summary>
+        /// <param name="group">Группа в формате модели</param>
+        /// <param name="dep">Подразделение группы</param>
+        /// <returns>Группа в формате, пригодном для отображения
+        ///  в выпадающем списке</returns>
+        static public GroupListItem GetGroupListItem(Group group, DepListItem dep)
+        {
+            return new GroupListItem
+            {
+                GroupId = group.Id,
+                Name = group.Name,
+                Department = dep,
+                DepartmentId = dep.Id
+            };
         }
     }
 }
