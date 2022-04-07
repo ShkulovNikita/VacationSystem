@@ -1367,5 +1367,21 @@ namespace VacationSystem.Controllers
 
             return RedirectToAction("Rules");
         }
+
+        /// <summary>
+        /// Просмотр информации о правиле для группы
+        /// </summary>
+        /// <param name="ruleId">Идентификатор правила</param>
+        public IActionResult ViewGroupRule(int ruleId)
+        {
+            GroupRuleViewModel rule = RuleHelper.ConvertGroupRuleToViewModel(ruleId);
+            if (rule == null)
+            {
+                TempData["Error"] = "Не удалось получить данные о правиле";
+                return RedirectToAction("Rules");
+            }
+
+            return View(rule);
+        }
     }
 }

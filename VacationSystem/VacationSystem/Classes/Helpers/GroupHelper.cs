@@ -89,9 +89,12 @@ namespace VacationSystem.Classes.Helpers
         /// </summary>
         /// <param name="group">Группа сотрудников</param>
         /// <returns>Список сотрудников указанной группы</returns>
-        static private List<Employee> GetGroupEmployees(Group group)
+        static public List<Employee> GetGroupEmployees(Group group)
         {
             List<Employee> employees = new List<Employee>();
+
+            if (group.EmployeesInGroup.Count == 0)
+                group = DataHandler.GetGroup(group.Id);
 
             // для всех идентификаторов получить соответствующих сотрудников
             foreach(string empId in group.EmployeesInGroup.Select(e => e.EmployeeId))

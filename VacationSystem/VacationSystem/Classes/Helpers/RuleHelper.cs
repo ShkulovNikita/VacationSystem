@@ -218,15 +218,25 @@ namespace VacationSystem.Classes.Helpers
             if (rule == null)
                 return null;
 
+            // подразделение группы
             Department department = Connector.GetDepartment(rule.Group.DepartmentId);
-            if (department == null)
+
+            // список сотрудников внутри группы
+            List<Employee> emps = GroupHelper.GetGroupEmployees(rule.Group)
+                .OrderBy(e => e.LastName)
+                .ThenBy(e => e.FirstName)
+                .ThenBy(e => e.MiddleName)
+                .ToList();
+
+            if ((emps == null) || (department == null)) 
                 return null;
 
             rule.Group.Department = department;
 
             return new GroupRuleViewModel
             {
-                Rule = rule
+                Rule = rule,
+                Employees = emps
             };
         }
     }

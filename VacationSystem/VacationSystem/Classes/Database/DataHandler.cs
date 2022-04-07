@@ -1070,6 +1070,7 @@ namespace VacationSystem.Classes.Database
                 {
                     return db.GroupRules
                         .Include(gr => gr.Group)
+                        .Include(gr => gr.RuleType)
                         .FirstOrDefault(gr => gr.Id == ruleId);
                 }
             }
