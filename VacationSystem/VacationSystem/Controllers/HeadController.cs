@@ -1383,5 +1383,19 @@ namespace VacationSystem.Controllers
 
             return View(rule);
         }
+
+        /// <summary>
+        /// Удаление правила для группы
+        /// </summary>
+        /// <param name="ruleId">Идентификатор группы</param>
+        public IActionResult DeleteGroupRule(int ruleId)
+        {
+            if (DataHandler.DeleteGroupRule(ruleId))
+                TempData["Success"] = "Правило было успешно удалено";
+            else
+                TempData["Error"] = "Не удалось удалить правило";
+
+            return RedirectToAction("Rules");
+        }
     }
 }
