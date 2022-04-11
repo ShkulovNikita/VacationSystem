@@ -25,9 +25,9 @@ namespace VacationSystem.Classes.Helpers
 
             // получить данные о группах
             if (depId == null)
-                groups = DataHandler.GetGroups(headId);
+                groups = GroupDataHandler.GetGroups(headId);
             else
-                groups = DataHandler.GetGroups(headId, depId);
+                groups = GroupDataHandler.GetGroups(headId, depId);
 
             if (groups == null)
                 return null;
@@ -94,7 +94,7 @@ namespace VacationSystem.Classes.Helpers
             List<Employee> employees = new List<Employee>();
 
             if (group.EmployeesInGroup.Count == 0)
-                group = DataHandler.GetGroup(group.Id);
+                group = GroupDataHandler.GetGroup(group.Id);
 
             // для всех идентификаторов получить соответствующих сотрудников
             foreach(string empId in group.EmployeesInGroup.Select(e => e.EmployeeId))
@@ -125,7 +125,7 @@ namespace VacationSystem.Classes.Helpers
             foreach (DepListItem dep in departments)
             {
                 // получить все группы данного подразделения
-                List<Group> groups = DataHandler.GetGroupsOfDepartment(dep.Id);
+                List<Group> groups = GroupDataHandler.GetGroupsOfDepartment(dep.Id);
                 if (groups == null)
                     continue;
 

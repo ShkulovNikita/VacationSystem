@@ -25,9 +25,9 @@ namespace VacationSystem.Classes.Helpers
 
             // получить данные о заместителях из БД
             if (depId != null)
-                deputies = DataHandler.GetDeputies(headId, depId);
+                deputies = DeputyDataHandler.GetDeputies(headId, depId);
             else
-                deputies = DataHandler.GetDeputies(headId);
+                deputies = DeputyDataHandler.GetDeputies(headId);
 
             if (deputies == null)
                 return null;
@@ -115,7 +115,7 @@ namespace VacationSystem.Classes.Helpers
             List<EmpListItem> emps = EmployeeHelper.GetEmployeesList(departments);
 
             // удалить уже назначенных заместителей
-            List<string> deputies = DataHandler.GetDeputies(headId)
+            List<string> deputies = DeputyDataHandler.GetDeputies(headId)
                                                 .Select(d => d.DeputyEmployeeId)
                                                 .ToList();
             emps = emps.Where(emp => !deputies.Any(deputy => emp.Id == deputy)).ToList();

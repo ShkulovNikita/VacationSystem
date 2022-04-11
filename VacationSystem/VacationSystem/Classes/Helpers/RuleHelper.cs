@@ -42,9 +42,9 @@ namespace VacationSystem.Classes.Helpers
             List<EmployeeRule> rules;
 
             if (depId == null)
-                rules = DataHandler.GetEmployeeRules(headId);
+                rules = EmployeeRuleDataHandler.GetEmployeeRules(headId);
             else
-                rules = DataHandler.GetEmployeeRules(headId, depId);
+                rules = EmployeeRuleDataHandler.GetEmployeeRules(headId, depId);
 
             List<RuleViewModel> result = new List<RuleViewModel>();
             foreach(EmployeeRule rule in rules)
@@ -76,9 +76,9 @@ namespace VacationSystem.Classes.Helpers
             List<RuleForPosition> rules;
 
             if (depId == null)
-                rules = DataHandler.GetPositionRules(headId);
+                rules = PositionRuleDataHandler.GetPositionRules(headId);
             else
-                rules = DataHandler.GetPositionRules(headId, depId);
+                rules = PositionRuleDataHandler.GetPositionRules(headId, depId);
 
             List<RuleViewModel> result = new List<RuleViewModel>();
             foreach (RuleForPosition rule in rules) 
@@ -114,9 +114,9 @@ namespace VacationSystem.Classes.Helpers
             List<GroupRule> rules;
 
             if (depId == null)
-                rules = DataHandler.GetGroupRules(headId);
+                rules = GroupRuleDataHandler.GetGroupRules(headId);
             else
-                rules = DataHandler.GetGroupRules(headId, depId);
+                rules = GroupRuleDataHandler.GetGroupRules(headId, depId);
 
             List<RuleViewModel> result = new List<RuleViewModel>();
             foreach (GroupRule rule in rules)
@@ -148,7 +148,7 @@ namespace VacationSystem.Classes.Helpers
         static public EmpRuleViewModel ConvertEmpRuleToViewModel(int ruleId)
         {
             // получение правила из БД
-            EmployeeRule rule = DataHandler.GetEmployeeRule(ruleId);
+            EmployeeRule rule = EmployeeRuleDataHandler.GetEmployeeRule(ruleId);
             if (rule == null)
                 return null;
 
@@ -184,7 +184,7 @@ namespace VacationSystem.Classes.Helpers
         static public PosRuleViewModel ConvertPosRuleToViewModel(int ruleId)
         {
             // получение правила из БД
-            RuleForPosition rule = DataHandler.GetPositionRule(ruleId);
+            RuleForPosition rule = PositionRuleDataHandler.GetPositionRule(ruleId);
             if (rule == null)
                 return null;
 
@@ -214,7 +214,7 @@ namespace VacationSystem.Classes.Helpers
         /// <returns>Правило для группы в формате ViewModel</returns>
         static public GroupRuleViewModel ConvertGroupRuleToViewModel(int ruleId)
         {
-            GroupRule rule = DataHandler.GetGroupRule(ruleId);
+            GroupRule rule = GroupRuleDataHandler.GetGroupRule(ruleId);
             if (rule == null)
                 return null;
 

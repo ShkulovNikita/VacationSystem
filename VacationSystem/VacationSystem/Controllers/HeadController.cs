@@ -107,7 +107,7 @@ namespace VacationSystem.Controllers
             }
 
             // список стилей руководства
-            List<HeadStyle> styles = DataHandler.GetHeadStyles(id);
+            List<HeadStyle> styles = StyleDataHandler.GetHeadStyles(id);
 
             if (styles == null)
             {
@@ -164,14 +164,14 @@ namespace VacationSystem.Controllers
             }
 
             // текущий стиль руководства
-            HeadStyle currentStyle = DataHandler.GetHeadStyle(headId, id);
+            HeadStyle currentStyle = StyleDataHandler.GetHeadStyle(headId, id);
 
             int curStyleId = 3;
             if (currentStyle != null)
                 curStyleId = currentStyle.ManagementStyle.Id;
 
             // получить все стили руководства
-            List<ManagementStyle> styles = DataHandler.GetManagementStyles();
+            List<ManagementStyle> styles = StyleDataHandler.GetManagementStyles();
 
             if (styles == null)
             {
@@ -211,7 +211,7 @@ namespace VacationSystem.Controllers
             }
 
             // попытка сохранения стиля в БД
-            if (DataHandler.AddHeadStyle(headId, department, style))
+            if (StyleDataHandler.AddHeadStyle(headId, department, style))
                 TempData["Success"] = "Стиль руководства был успешно применен!";
             else
                 TempData["Error"] = "Не удалось применить стиль руководства";
@@ -375,7 +375,7 @@ namespace VacationSystem.Controllers
                 return RedirectToAction("AddDeputy");
             }
 
-            if (DataHandler.AddDeputy(headId, Employee, Department))
+            if (DeputyDataHandler.AddDeputy(headId, Employee, Department))
                 TempData["Success"] = "Заместитель успешно сохранен!";
             else
                 TempData["Error"] = "Не удалось сохранить заместителя";
@@ -423,7 +423,7 @@ namespace VacationSystem.Controllers
             }
 
             // попытка удаления заместителя
-            if (DataHandler.DeleteDeputy(headId, deputyId))
+            if (DeputyDataHandler.DeleteDeputy(headId, deputyId))
                 TempData["Success"] = "Заместитель был успешно удален";
             else
                 TempData["Error"] = "Не удалось удалить заместителя";
@@ -596,7 +596,7 @@ namespace VacationSystem.Controllers
             }
 
             // получить данные о группе из БД
-            Group group = DataHandler.GetGroup(id);
+            Group group = GroupDataHandler.GetGroup(id);
             if (group == null)
             {
                 TempData["Error"] = "Не удалось получить данные о группе";
@@ -708,7 +708,7 @@ namespace VacationSystem.Controllers
                 return RedirectToAction("Groups");
             }
 
-            if (DataHandler.AddGroup(emps, headId, department, name, description))
+            if (GroupDataHandler.AddGroup(emps, headId, department, name, description))
                 TempData["Success"] = "Группа успешно сохранена!";
             else
                 TempData["Error"] = "Не удалось сохранить группу";
@@ -733,7 +733,7 @@ namespace VacationSystem.Controllers
             }
 
             // проверка, является ли текущий руководитель создателем группы
-            if (DataHandler.GetGroup(groupId).HeadEmployeeId != headId)
+            if (GroupDataHandler.GetGroup(groupId).HeadEmployeeId != headId)
             {
                 TempData["Error"] = "Нет прав для удаления данной группы";
                 ClearListSessionData();
@@ -741,7 +741,7 @@ namespace VacationSystem.Controllers
             }
 
             // попытка удаления группы
-            if (DataHandler.DeleteGroup(groupId))
+            if (GroupDataHandler.DeleteGroup(groupId))
                 TempData["Success"] = "Группа была успешно удалена";
             else
                 TempData["Error"] = "Не удалось удалить группу";
@@ -763,7 +763,7 @@ namespace VacationSystem.Controllers
             }
 
             // получить информацию о группе
-            Group group = DataHandler.GetGroup(groupId);
+            Group group = GroupDataHandler.GetGroup(groupId);
             if (group == null)
             {
                 TempData["Error"] = "Не удалось получить информацию о группе";
@@ -797,7 +797,7 @@ namespace VacationSystem.Controllers
             }
 
             // получить редактируемую группу
-            Group group = DataHandler.GetGroup(groupId);
+            Group group = GroupDataHandler.GetGroup(groupId);
             if (group == null)
             {
                 TempData["Error"] = "Не удалось получить данные о группе";
@@ -860,7 +860,7 @@ namespace VacationSystem.Controllers
                     empsOfGroup.Add(emp);
             }
 
-            if (DataHandler.EditGroup(groupId, name, description, empsOfGroup))
+            if (GroupDataHandler.EditGroup(groupId, name, description, empsOfGroup))
                 TempData["Success"] = "Изменения в группе успешно сохранены!";
             else
                 TempData["Error"] = "Не удалось сохранить изменения в группе";
@@ -996,7 +996,7 @@ namespace VacationSystem.Controllers
                 return RedirectToAction("Rules");
             }
 
-            if (DataHandler.AddEmployeesRule(description, type, department, headId, emps))
+            if (EmployeeRuleDataHandler.AddEmployeesRule(description, type, department, headId, emps))
                 TempData["Success"] = "Правило успешно сохранено!";
             else
                 TempData["Error"] = "Не удалось сохранить правило";
@@ -1011,7 +1011,7 @@ namespace VacationSystem.Controllers
         /// <param name="ruleId">Идентификатор правила</param>
         public IActionResult DeleteEmpRule(int ruleId)
         {
-            if (DataHandler.DeleteEmployeesRule(ruleId))
+            if (EmployeeRuleDataHandler.DeleteEmployeesRule(ruleId))
                 TempData["Success"] = "Правило было успешно удалено";
             else
                 TempData["Error"] = "Не удалось удалить правило";
@@ -1101,7 +1101,7 @@ namespace VacationSystem.Controllers
                     empsOfRule.Add(emp);
             }
 
-            if (DataHandler.EditEmployeesRule(ruleId, description, empsOfRule))
+            if (EmployeeRuleDataHandler.EditEmployeesRule(ruleId, description, empsOfRule))
                 TempData["Success"] = "Изменения в правиле успешно сохранены!";
             else
                 TempData["Error"] = "Не удалось сохранить изменения в правиле";
@@ -1190,7 +1190,7 @@ namespace VacationSystem.Controllers
                 return RedirectToAction("Index");
             }
 
-            if (DataHandler.AddPositionRule(number, description, positions, department, headId))
+            if (PositionRuleDataHandler.AddPositionRule(number, description, positions, department, headId))
                 TempData["Success"] = "Правило было успешно добавлено!";
             else
                 TempData["Error"] = "Не удалось добавить правило";
@@ -1220,7 +1220,7 @@ namespace VacationSystem.Controllers
         /// <param name="ruleId">Идентификатор должности</param>
         public IActionResult DeletePosRule(int ruleId)
         {
-            if (DataHandler.DeletePositionRule(ruleId))
+            if (PositionRuleDataHandler.DeletePositionRule(ruleId))
                 TempData["Success"] = "Правило успешно удалено";
             else
                 TempData["Error"] = "Не удалось удалить правило";
@@ -1264,7 +1264,7 @@ namespace VacationSystem.Controllers
         [HttpPost]
         public IActionResult EditPosRule(int ruleId, string description, int number)
         {
-            if (DataHandler.EditPositionRule(ruleId, number, description))
+            if (PositionRuleDataHandler.EditPositionRule(ruleId, number, description))
                 TempData["Success"] = "Изменения успешно сохранены";
             else
                 TempData["Error"] = "Не удалось сохранить изменения";
@@ -1360,7 +1360,7 @@ namespace VacationSystem.Controllers
                 return RedirectToAction("Index");
             }
 
-            if (DataHandler.AddGroupRule(description, type, group))
+            if (GroupRuleDataHandler.AddGroupRule(description, type, group))
                 TempData["Success"] = "Новое правило успешно сохранено";
             else
                 TempData["Error"] = "Не удалось сохранить правило";
@@ -1390,7 +1390,7 @@ namespace VacationSystem.Controllers
         /// <param name="ruleId">Идентификатор группы</param>
         public IActionResult DeleteGroupRule(int ruleId)
         {
-            if (DataHandler.DeleteGroupRule(ruleId))
+            if (GroupRuleDataHandler.DeleteGroupRule(ruleId))
                 TempData["Success"] = "Правило было успешно удалено";
             else
                 TempData["Error"] = "Не удалось удалить правило";
@@ -1423,7 +1423,7 @@ namespace VacationSystem.Controllers
         [HttpPost]
         public IActionResult EditGroupRule(int ruleId, string description)
         {
-            if (DataHandler.EditGroupRule(ruleId, description))
+            if (GroupRuleDataHandler.EditGroupRule(ruleId, description))
                 TempData["Success"] = "Изменения успешно сохранены";
             else
                 TempData["Error"] = "Не удалось сохранить изменения";

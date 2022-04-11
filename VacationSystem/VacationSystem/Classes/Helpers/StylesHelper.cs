@@ -60,7 +60,7 @@ namespace VacationSystem.Classes.Helpers
         {
             if (styleDep == null)
             {
-                ManagementStyle defaultStyle = DataHandler.GetManagementStyle(3);
+                ManagementStyle defaultStyle = StyleDataHandler.GetManagementStyle(3);
 
                 return new HeadStyleViewModel
                 {
