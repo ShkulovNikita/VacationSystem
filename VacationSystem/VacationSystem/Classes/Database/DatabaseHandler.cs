@@ -34,6 +34,8 @@ namespace VacationSystem.Classes.Database
                         Debug.WriteLine("Добавление стилей руководства: {0}", AddManagementStyles());
                     if (!db.RuleTypes.Select(t => t.Id).Any())
                         Debug.WriteLine("Добавление типов правил: {0}", AddRuleTypes());
+                    if (!db.VacationTypes.Select(v => v.Id).Any())
+                        Debug.WriteLine("Добавление типов отпусков: {0}", AddVacationTypes());
                 }
             }
             catch (Exception ex)
@@ -128,6 +130,53 @@ namespace VacationSystem.Classes.Database
                     db.RuleTypes.Add(new RuleType
                     {
                         Name = "Не должны уходить в отпуск одновременно"
+                    });
+
+                    db.SaveChanges();
+                }
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return false;
+            }
+        }
+
+        /// <summary>
+        /// Заполнение справочника с типами отпусков
+        /// </summary>
+        /// <returns></returns>
+        static private bool AddVacationTypes()
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    db.VacationTypes.Add(new VacationType
+                    {
+                        Name = "Основной оплачиваемый отпуск"
+                    });
+                    db.VacationTypes.Add(new VacationType
+                    {
+                        Name = "Дополнительный оплачиваемый отпуск (ненормированный рабочий день)"
+                    });
+                    db.VacationTypes.Add(new VacationType
+                    {
+                        Name = "Дополнительный оплачиваемый отпуск (вредные/опасные условия труда)"
+                    });
+                    db.VacationTypes.Add(new VacationType
+                    {
+                        Name = "Дополнительный оплачиваемый отпуск (особый характер работы)"
+                    });
+                    db.VacationTypes.Add(new VacationType
+                    {
+                        Name = "Дополнительный оплачиваемый отпуск (другое)"
+                    });
+                    db.VacationTypes.Add(new VacationType
+                    {
+                        Name = "Отпуск без сохранения заработной платы"
                     });
 
                     db.SaveChanges();
