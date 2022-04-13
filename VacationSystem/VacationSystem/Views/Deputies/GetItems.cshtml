@@ -1,0 +1,8 @@
+﻿@model IEnumerable<VacationSystem.ViewModels.ListItems.EmpListItem>
+
+<select class="employee-dropdown-list" name="Employee">
+    @foreach (var item in Model)
+    {
+        <option value="@item.EmpId">@item.Name</option>
+    }
+</select>

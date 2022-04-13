@@ -1,10 +1,11 @@
-﻿@model List<GroupViewModel>
+﻿@model List<DeputyViewModel>
 
 @using VacationSystem.ViewModels;
+@using VacationSystem.Models;
 @using VacationSystem.HtmlHelpers;
 
 @{
-    ViewData["Title"] = "Список групп сотрудников";
+    ViewData["Title"] = "Список заместителей";
 
     string error = null;
     if (TempData["Error"] != null)
@@ -37,27 +38,31 @@
                 </select>
                 <input type="submit" class="btn btn-primary" value="Применить" />
             </form>
-            <a asp-controller="Head" asp-action="AddGroup" class="btn btn-primary">Добавить</a>
+            <a asp-controller="Deputies" asp-action="AddDeputy" class="btn btn-primary">Добавить</a>
             @if(@Model.Count > 0)
             {
-                <h3>Группы сотрудников</h3>
+                <h3>Заместители</h3>
             }
-            @foreach(GroupViewModel group in @Model)
+            @foreach(DeputyViewModel deputy in @Model)
             {
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">
-                            @group.Group.Name
+                            @deputy.LastName @deputy.FirstName @deputy.MiddleName
                         </h5>
-                        <h6 class="card-subtitle mb-2 text-muted">
-                            @group.Department.Name
-                        </h6>
-                        <p class="card-text">
-                            @group.Group.Description
-                        </p>
-                        <a asp-controller="Head" asp-action="ViewGroup" asp-route-groupId="@group.Group.Id" class="btn btn-primary">Просмотр</a>
-                        <a asp-controller="Head" asp-action="EditGroup" asp-route-groupId="@group.Group.Id" class="btn btn-primary">Редактировать</a>
-                        <a asp-controller="Head" asp-action="DeleteGroup" asp-route-groupId="@group.Group.Id" class="btn btn-danger">Удалить</a>
+                        <h5>Подразделения:</h5>
+                        @for (int i = 0; i < @deputy.Departments.Count; i++)
+                        {
+                            if (i == @deputy.Departments.Count - 1)
+                            {
+                                <span>@deputy.Departments[i].Name</span>
+                            }
+                            else
+                            {
+                                <span>@deputy.Departments[i].Name,</span>
+                            }
+                        }
+                        <a asp-controller="Deputies" asp-action="DeleteDeputy" asp-route-deputyId="@deputy.Id" class="btn btn-danger">Удалить</a>
                     </div>
                 </div>
             }

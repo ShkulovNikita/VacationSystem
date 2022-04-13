@@ -28,10 +28,10 @@
             <h3>@Model.Group.Name</h3>
             <h4>Подразделение: @Model.Department.Name</h4>
             <h5>@Model.Group.Description</h5>
-            <a asp-controller="Head" asp-action="EditGroup" asp-route-groupId="@Model.Group.Id" class="btn btn-primary">
+            <a asp-controller="Groups" asp-action="EditGroup" asp-route-groupId="@Model.Group.Id" class="btn btn-primary">
                 Редактировать
             </a>
-            <a asp-controller="Head" asp-action="DeleteGroup" asp-route-groupId="@Model.Group.Id" class="btn btn-danger">
+            <a asp-controller="Groups" asp-action="DeleteGroup" asp-route-groupId="@Model.Group.Id" class="btn btn-danger">
                 Удалить
             </a>
             <h5>Сотрудники в группе:</h5>

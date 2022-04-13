@@ -1,10 +1,10 @@
-﻿@model PosRuleViewModel
+﻿@model EmpRuleViewModel
 
 @using VacationSystem.ViewModels;
 @using VacationSystem.HtmlHelpers;
 
 @{
-    ViewData["Title"] = "Информация о правиле для должности";
+    ViewData["Title"] = "Информация о правиле для сотрудников";
 
     string error = null;
     if (TempData["Error"] != null)
@@ -27,13 +27,20 @@
             @Html.CheckSuccess(success)
             <h3>@Model.Rule.Description</h3>
             <h4>Подразделение: @Model.Rule.Department.Name</h4>
-            <h4>Должность: @Model.Position.Name</h4>
-            <a asp-controller="Head" asp-action="EditPosRule" asp-route-ruleId="@Model.Rule.Id" class="btn btn-primary">
+            <h5>@Model.Rule.RuleType.Name</h5>
+            <a asp-controller="Rules" asp-action="EditEmpRule" asp-route-ruleId="@Model.Rule.Id" class="btn btn-primary">
                 Редактировать
             </a>
-            <a asp-controller="Head" asp-action="DeletePosRule" asp-route-ruleId="@Model.Rule.Id" class="btn btn-danger">
+            <a asp-controller="Rules" asp-action="DeleteEmpRule" asp-route-ruleId="@Model.Rule.Id" class="btn btn-danger">
                 Удалить
             </a>
+            <h5>Сотрудники в правиле:</h5>
+            @foreach(Employee emp in @Model.Employees)
+            {
+                <card>
+                    <p>@emp.LastName @emp.FirstName @emp.MiddleName</p>
+                </card>
+            }
         </div>
     </div>
 </div>
