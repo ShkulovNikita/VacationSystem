@@ -30,13 +30,6 @@ namespace VacationSystem.Controllers
                 return RedirectToAction("Index", "Login");
         }
 
-        public class EmpHead
-        {
-            public EmpHead() { }
-            public string Id { get; set; }
-            public List<Department> SubDeps { get; set; } = new List<Department>();
-        }
-
         /// <summary>
         /// Главная страница профиля пользователя
         /// </summary>
