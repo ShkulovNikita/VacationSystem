@@ -1,0 +1,104 @@
+﻿@using VacationSystem.HtmlHelpers
+@using VacationSystem.Classes.Helpers;
+@using VacationSystem.ViewModels.ListItems;
+
+@{
+    ViewData["Title"] = "Отпускные дни";
+
+    string error = null;
+    if (TempData["Error"] != null)
+        error = TempData["Error"].ToString();
+
+    string message = null;
+    if (TempData["Message"] != null)
+        message = TempData["Message"].ToString();
+
+    string success = null;
+    if (TempData["Success"] != null)
+        success = TempData["Success"].ToString();
+
+    List<EmpListItem> employees = ViewBag.Employees;
+    List<VacationType> vacationTypes = ViewBag.Types;
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-8">
+            @Html.CheckError(error)
+            @Html.CheckSuccess(success)
+            @Html.CheckMessage(message)
+        </div>
+    </div>
+    <div class="row">
+        <form method="post">
+            <div class="col-md-4">
+                <h3>Выберите подразделение</h3>
+                <select id="department" name="department">
+                    @foreach(var dep in @ViewBag.departments)
+                    {
+                        <option value="@dep.Id">@dep.Name</option>
+                    }
+                </select>
+            </div>
+            <div class="col-md-4">
+                <h3>Выберите сотрудников</h3>
+                <select multiple class="employee-list" name="employees" size="@employees.Count()">
+                    @foreach (var emp in employees)
+                    {
+                        <option value="@emp.EmpId">@emp.Name</option>
+                    }
+                </select>
+            </div>
+            <h5 id="days-info">Никто</h5>
+            <h3>Выберите тип отпуска</h3>
+            <select name="type">
+                @foreach (var type in vacationTypes)
+                {
+                    <option value="@type.Id">@type.Name</option>
+                }
+            </select>
+            <h3>Год</h3>
+            <input type="number" name="year"/>
+            <h3>Число дней</h3>
+            <input type="number" name="number" />
+            <h3>Примечания</h3>
+            <textarea name="notes"></textarea>
+            <input type="submit" class="btn btn-primary" value="Добавить" />
+        </form>
+    </div>
+</div>
+
+@section scripts{
+<script type="text/javascript">
+    // изменение списка сотрудников в зависимости от
+    // выбранного подразделения
+    $(document).on('change', '#department', function() {
+        // получаем выбранный id
+        var id = $(this).val();
+        $.ajax({
+            type: 'GET',
+            url: '@Url.Action("GetEmployeeItems")/' + id,
+            success: function (data) {
+                // заменяем содержимое присланным частичным представлением
+                $('.employee-list').replaceWith(data);
+            }
+        });
+    });
+    // отображение информации о выбранном из списка сотруднике
+    $(document).on('change', '.employee-list', function () {
+        var id = $(this).val();
+        
+        var count = $('.employee-list :selected').length;
+        if (count == 1)
+        {
+            $.ajax({
+                type: 'GET',
+                url: '@Url.Action("GetDaysInfo")/' + id,
+                success: function (data) {
+                    $('#days-info').replaceWith(data);
+                }
+            });
+        }
+    });
+</script>
+}
