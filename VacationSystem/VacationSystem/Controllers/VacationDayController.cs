@@ -1,4 +1,14 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Http;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Linq;
+using System;
+
+using VacationSystem.Models;
+using VacationSystem.Classes;
+using VacationSystem.Classes.Helpers;
+using VacationSystem.ViewModels.ListItems;
 
 namespace VacationSystem.Controllers
 {
@@ -14,12 +24,33 @@ namespace VacationSystem.Controllers
         public IActionResult Index()
         {
             // получить идентификатор руководителя
+            string headId = HttpContext.Session.GetString("id");
+            if (headId == null)
+            {
+                TempData["Error"] = "Не удалось загрузить данные пользователя";
+                return RedirectToAction("Index");
+            }
 
             // получить подразделения руководителя
+            List<Department> departments = Connector.GetSubordinateDepartments(headId);
+            if (departments == null)
+            {
+                TempData["Error"] = "Не удалось загрузить данные о подразделениях";
+                return RedirectToAction("Index");
+            }
+
+            // список всех подразделений в формате ViewModel
+            List<DepListItem> allDeps = DepartmentHelper.GetDepartmentsList(departments);
 
             // получить сотрудников подразделений руководителя
+            List<EmpListItem> allEmps = EmployeeHelper.GetEmployeesList(allDeps);
+
+            // сохранить списки в сессию
+            SessionHelper.SetObjectAsJson(HttpContext.Session, "all_employees", allEmps);
+            SessionHelper.SetObjectAsJson(HttpContext.Session, "all_departments", allDeps);
 
             // получить уже назначенные дни отпуска сотрудников
+
 
             // собрать все во ViewModel
 

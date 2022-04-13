@@ -1,4 +1,6 @@
-﻿namespace VacationSystem.ViewModels.ListItems
+﻿using System.Collections.Generic;
+
+namespace VacationSystem.ViewModels.ListItems
 {
     public class EmpListItem
     {
