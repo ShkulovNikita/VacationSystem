@@ -10,6 +10,7 @@ using VacationSystem.Classes;
 using VacationSystem.Classes.Helpers;
 using VacationSystem.Classes.Database;
 using VacationSystem.ViewModels.ListItems;
+using VacationSystem.ViewModels;
 
 namespace VacationSystem.Controllers
 {
@@ -63,6 +64,10 @@ namespace VacationSystem.Controllers
             List<VacationType> types = VacationDataHandler.GetVacationTypes();
             ViewBag.Types = types;
 
+            // информация об отпускных днях сотрудников
+            List<VacationDaysViewModel> daysVm = VacationDayHelper.MakeDaysList(allEmps);
+            SessionHelper.SetObjectAsJson(HttpContext.Session, "all_days", daysVm);
+
             return View();
         }
 
@@ -83,8 +88,9 @@ namespace VacationSystem.Controllers
         /// <param name="id">Идентификатор сотрудника</param>
         public IActionResult GetDaysInfo(string id)
         {
-            Employee emp = Connector.GetEmployee(id);
-            return PartialView(emp);
+            // получить из сессии данные о всех отпусках
+            List<VacationDaysViewModel> days = SessionHelper.GetObjectFromJson<List<VacationDaysViewModel>>(HttpContext.Session, "all_days");
+            return PartialView(days.FirstOrDefault(d => d.EmployeeId == id));
         }
 
         /// <summary>

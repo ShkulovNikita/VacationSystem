@@ -25,7 +25,8 @@ namespace VacationSystem.Classes.Database
                 {
                     return db.VacationDays
                         .Include(vd => vd.VacationType)
-                        .Where(vd => vd.EmployeeId == id).ToList();
+                        .Where(vd => vd.EmployeeId == id)
+                        .ToList();
                 }
             }
             catch (Exception ex)

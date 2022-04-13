@@ -39,7 +39,7 @@ namespace VacationSystem.Classes.Helpers
         static private VacationDaysViewModel MakeViewModel(EmpListItem emp)
         {
             // все отпускные дни сотрудника
-            List<VacationDay> vacationDays = VacationDayDataHandler.GetVacationDays(emp.Id);
+            List<VacationDay> vacationDays = VacationDayDataHandler.GetVacationDays(emp.EmpId);
 
             // отобрать только актуальные дни
             vacationDays = GetCurrentDays(vacationDays);
@@ -54,6 +54,9 @@ namespace VacationSystem.Classes.Helpers
 
             // получить распределение дней по их типам
             daysVm.SetDays = GetDaysInfo(vacationDays);
+
+            // указать сотрудника, которому заданы данные отпускные дни
+            daysVm.EmployeeId = emp.EmpId;
 
             return daysVm;
         }
