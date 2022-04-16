@@ -101,13 +101,20 @@ namespace VacationSystem.Controllers
         /// <param name="number">Количество дней отпуска</param>
         /// <param name="notes">Пояснения</param>
         /// <param name="year">Год, на который назначаются отпускные дни</param>
+        /// <param name="mode">Добавить или удалить дни</param>
         [HttpPost]
-        public IActionResult SetDays(string[] employees, int type, int number, string notes, int year)
+        public IActionResult SetDays(string[] employees, int type, int number, string notes, int year, string mode)
         {
-            if (VacationDataHandler.SetVacationDays(employees, type, notes, number, year))
-                TempData["Success"] = "Отпускные дни успешно добавлены";
+            if (mode == "add")
+                if (VacationDataHandler.SetVacationDays(employees, type, notes, number, year))
+                    TempData["Success"] = "Отпускные дни успешно добавлены";
+                else
+                    TempData["Error"] = "Не удалось добавить отпускные дни";
             else
-                TempData["Error"] = "Не удалось добавить отпускные дни";
+                if (VacationDataHandler.RemoveVacationDays(employees, type, number, year))
+                    TempData["Success"] = "Отпускные дни были успешно удалены";
+                else
+                    TempData["Error"] = "Не удалось удалить отпускные дни";
 
             return RedirectToAction("SetDays", "VacationDays");
         }
