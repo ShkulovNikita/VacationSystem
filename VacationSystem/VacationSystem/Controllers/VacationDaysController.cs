@@ -1,9 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Linq;
-using System;
 
 using VacationSystem.Models;
 using VacationSystem.Classes;

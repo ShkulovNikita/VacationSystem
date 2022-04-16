@@ -36,6 +36,8 @@ namespace VacationSystem.Classes.Database
                         Debug.WriteLine("Добавление типов правил: {0}", AddRuleTypes());
                     if (!db.VacationTypes.Select(v => v.Id).Any())
                         Debug.WriteLine("Добавление типов отпусков: {0}", AddVacationTypes());
+                    if (!db.VacationStatuses.Select(v => v.Id).Any())
+                        Debug.WriteLine("Добавление статусов отпусков: {0}", AddVacationStatuses());
                 }
             }
             catch (Exception ex)
@@ -147,7 +149,7 @@ namespace VacationSystem.Classes.Database
         /// <summary>
         /// Заполнение справочника с типами отпусков
         /// </summary>
-        /// <returns></returns>
+        /// <returns>Успешность выполнения операции</returns>
         static private bool AddVacationTypes()
         {
             try
@@ -177,6 +179,61 @@ namespace VacationSystem.Classes.Database
                     db.VacationTypes.Add(new VacationType
                     {
                         Name = "Отпуск без сохранения заработной платы"
+                    });
+
+                    db.SaveChanges();
+                }
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return false;
+            }
+        }
+
+        /// <summary>
+        /// Заполнение справочника со статусами отпусков
+        /// </summary>
+        /// <returns>Успешность выполнения операции</returns>
+        static private bool AddVacationStatuses()
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    db.VacationStatuses.Add(new VacationStatus
+                    {
+                        Name = "Назначен"
+                    });
+                    db.VacationStatuses.Add(new VacationStatus
+                    {
+                        Name = "В процессе"
+                    });
+                    db.VacationStatuses.Add(new VacationStatus
+                    {
+                        Name = "Завершен"
+                    });
+                    db.VacationStatuses.Add(new VacationStatus
+                    {
+                        Name = "Согласован"
+                    });
+                    db.VacationStatuses.Add(new VacationStatus
+                    {
+                        Name = "Отменен"
+                    });
+                    db.VacationStatuses.Add(new VacationStatus
+                    {
+                        Name = "Продлен"
+                    });
+                    db.VacationStatuses.Add(new VacationStatus
+                    {
+                        Name = "Разделен"
+                    });
+                    db.VacationStatuses.Add(new VacationStatus
+                    {
+                        Name = "Перенесен"
                     });
 
                     db.SaveChanges();
