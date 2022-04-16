@@ -97,7 +97,7 @@ namespace VacationSystem.Classes.Helpers
         /// </summary>
         /// <param name="days">Список отпускных дней</param>
         /// <returns>Количество доступных отпускных дней</returns>
-        static private int CountAvailableDays(List<VacationDay> days)
+        static public int CountAvailableDays(List<VacationDay> days)
         {
             int result = 0;
 

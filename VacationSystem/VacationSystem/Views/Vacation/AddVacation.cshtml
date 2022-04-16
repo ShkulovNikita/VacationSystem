@@ -1,0 +1,44 @@
+﻿@using Microsoft.AspNetCore.Http;
+@using VacationSystem.ViewModels;
+@using VacationSystem.HtmlHelpers;
+
+@{
+    ViewData["Title"] = "Выбор отпуска";
+
+    string error = null;
+    if (TempData["Error"] != null)
+        error = TempData["Error"].ToString();
+
+    int availableDays = (int)Context.Session.GetInt32("available_days");
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-7">
+            @Html.CheckError(error)
+            <h5>Осталось дней: @availableDays</h5>
+            <form method="post">
+                <div id="vacation-periods">
+                    <div class="vacation-period">
+                        <h3>Начало периода:</h3>
+                        <input type="date" name="startDates" />
+                        <h3>Конец периода:</h3>
+                        <input type="date" name="endDates" />
+                        <button type="button" class="btn btn-secondary add-period">Добавить период</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section scripts{
+<script type="text/javascript">
+    $('#vacation-periods').on('click', '.add-period', function() {
+        // добавить новый период
+        $(this).closest('.vacation-period').clone().appendTo('#vacation-periods').find("input[type='date']").val("");
+        // удалить текущую кнопку
+        $(this).remove();
+    });
+</script>
+}

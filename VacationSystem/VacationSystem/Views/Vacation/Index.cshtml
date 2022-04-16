@@ -1,5 +1,28 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@using VacationSystem.HtmlHelpers;
+
 @{
+    ViewData["Title"] = "Отпуска";
+
+    string error = null;
+    if (TempData["Error"] != null)
+        error = TempData["Error"].ToString();
+
+    string message = null;
+    if (TempData["Message"] != null)
+        message = TempData["Message"].ToString();
+
+    string success = null;
+    if (TempData["Success"] != null)
+        success = TempData["Success"].ToString();
 }
+
+<div class="container">
+    <div class="row">
+        <div class="col-10">
+            @Html.CheckError(error)
+            @Html.CheckMessage(message)
+            @Html.CheckSuccess(success)
+            <a asp-controller="Vacation" asp-action="AddVacation" class="btn btn-primary">Добавить</a>
+        </div>
+    </div>
+</div>

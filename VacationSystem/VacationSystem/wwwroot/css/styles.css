@@ -112,3 +112,18 @@ select {
 #edit-style input[type="submit"] {
     margin-top: 15px;
 }
+
+#vacation-periods {
+    padding: 20px;
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: black;
+    background-color: white;
+}
+
+.vacation-period {
+    padding: 10px;
+    border-width: 1px;
+    border-color: gray;
+    border-style: solid;
+}
