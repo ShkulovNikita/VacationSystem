@@ -24,8 +24,9 @@
                         <input type="date" name="startDates" />
                         <h3>Конец периода:</h3>
                         <input type="date" name="endDates" />
-                        <button type="button" class="btn btn-secondary add-period">Добавить период</button>
                     </div>
+                    <button type="button" class="btn btn-secondary add-period">Добавить период</button>
+                    <button type="button" class="btn btn-secondary remove-period">Удалить период</button>
                 </div>
             </form>
         </div>
@@ -34,11 +35,34 @@
 
 @section scripts{
 <script type="text/javascript">
+
+    /* Добавление нового периода */
+
+    $('.item:last');//will give third li
     $('#vacation-periods').on('click', '.add-period', function() {
-        // добавить новый период
-        $(this).closest('.vacation-period').clone().appendTo('#vacation-periods').find("input[type='date']").val("");
-        // удалить текущую кнопку
-        $(this).remove();
+        // получить уже существующий один период для копирования
+        var periodTemplate = $('.vacation-period:last');
+        // создать новый период
+        $(periodTemplate).clone().appendTo('#vacation-periods').find("input[type='date']").val("");
+        // переместить кнопки в конец
+        $(this).appendTo('#vacation-periods');
+        $('.remove-period:last').appendTo('#vacation-periods');
     });
+
+    /* Удаление одного периода */
+
+    $('#vacation-periods').on('click', '.remove-period', function() {
+        // получить все периоды
+        var periods = document.getElementsByClassName('vacation-period');
+        // если есть только один период, то ничего не делать
+        if (periods.length == 1)
+            return false;
+        // индекс последнего периода
+        var lastIndex = periods.length - 1;
+        // удалить последний период
+        $('.vacation-period:eq('+lastIndex+')').remove();
+    });
+
+
 </script>
 }
