@@ -65,5 +65,24 @@ namespace VacationSystem.Controllers
         {
             return View();
         }
+
+        [HttpPost]
+        public int CalculateDays(List<PeriodViewModel> collection)
+        {
+            // получить доступное сотруднику количество отпускных дней
+            int availableDays = (int)HttpContext.Session.GetInt32("available_days");
+
+            // рассчитать разницу в днях между выбранными периодами дней
+            int vacationDays = 0;
+            for (int i = 0; i < collection.Count - 2; i = i + 2)
+            {
+                DateTime startDate = Convert.ToDateTime(collection[i].value);
+                DateTime endDate = Convert.ToDateTime(collection[i + 1].value);
+
+                vacationDays += (int)((endDate - startDate).TotalDays);
+            }
+
+            return availableDays - vacationDays;
+        }
     }
 }

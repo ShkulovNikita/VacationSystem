@@ -16,14 +16,14 @@
     <div class="row">
         <div class="col-7">
             @Html.CheckError(error)
-            <h5>Осталось дней: @availableDays</h5>
+            <h5 id="remained-days">Осталось дней: @availableDays</h5>
             <form method="post">
                 <div id="vacation-periods">
                     <div class="vacation-period">
                         <h3>Начало периода:</h3>
-                        <input type="date" name="startDates" />
+                        <input type="date" name="startDates" class="period-date" />
                         <h3>Конец периода:</h3>
-                        <input type="date" name="endDates" />
+                        <input type="date" name="endDates" class="period-date" />
                     </div>
                     <button type="button" class="btn btn-secondary add-period">Добавить период</button>
                     <button type="button" class="btn btn-secondary remove-period">Удалить период</button>
@@ -63,6 +63,41 @@
         $('.vacation-period:eq('+lastIndex+')').remove();
     });
 
+    /* Пересчет оставшегося количества отпускных дней */
 
+    $(document).on('change', '.period-date', function() {
+        // получить значения введенных начальных и конечных дат
+        var serialised = $('form').serializeArray();
+        console.log("serialised data", serialised);
+
+        var isValid = true;
+
+        // проверить, что все даты заполнены
+        for (let i = 0; i < serialised.length - 1; i++)
+        {
+            if (serialised[i].value == '')
+                isValid = false;
+        }
+
+        // проверить, что все периоды корректны
+        for (let i = 0; i < serialised.length - 2; i = i + 2)
+        {
+            if (new Date(serialised[i].value) > new Date(serialised[i + 1].value))
+                isValid = false;
+        }
+
+        // если все даты корректны, обновить количество доступных дней
+        if (isValid == true)
+        {
+            $.ajax({
+                type: "POST",
+                url: '@Url.Action("CalculateDays")/',
+                data: {"collection":serialised},
+                success: function (result) { 
+                    $('#remained-days').text('Осталось дней: ' + result);
+                }
+            });
+        }
+    });
 </script>
 }
