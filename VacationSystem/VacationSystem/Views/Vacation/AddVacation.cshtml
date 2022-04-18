@@ -38,7 +38,6 @@
 
     /* Добавление нового периода */
 
-    $('.item:last');//will give third li
     $('#vacation-periods').on('click', '.add-period', function() {
         // получить уже существующий один период для копирования
         var periodTemplate = $('.vacation-period:last');
@@ -61,43 +60,156 @@
         var lastIndex = periods.length - 1;
         // удалить последний период
         $('.vacation-period:eq('+lastIndex+')').remove();
+        // пересчитать дни
+        refreshRemainedDays();
     });
+
+    // функция проверки пустых значений дат
+    function checkEmptyValues(periods) {
+        var isValid = true;
+
+        for (let i = 0; i < periods.length - 1; i++)
+        {
+            if (periods[i].value == '')
+            {
+                isValid = false;
+                break;
+            }
+        }
+
+        return isValid;
+    }
+
+    // функция проверки корректности порядка конечных дат периодов
+    function checkPeriodDates(periods) {
+        var isValid = true;
+
+                for (let i = 0; i < periods.length - 2; i = i + 2)
+        {
+            if (new Date(periods[i].value) > new Date(periods[i + 1].value))
+            {
+                isValid = false;
+                break;
+            }
+        }
+
+        return isValid;
+    }
+
+    // функция проверки, что выбранные периоды не включают в себя друг друга
+    function checkInclusions(periods) {
+        var isValid = true;
+
+        // счетчик первой пары для сравнения
+        for (let i = 0; i < periods.length - 1; i = i + 2)
+            // счетчик второй пары для сравнения
+            for (let j = i + 2; j < periods.length - 2; j = j + 2) {
+                // если первый включен во второй
+                if ((new Date(periods[i].value) > new Date(periods[j].value))
+                && (new Date(periods[i + 1].value) < new Date(periods[j + 1].value)))
+                    {
+                        isValid = false;
+                        break;
+                    }
+                // второй период включен в первый
+                if ((new Date(periods[i].value) < new Date(periods[j].value))
+                && (new Date(periods[i + 1].value) > new Date(periods[j + 1].value)))
+                    {
+                        isValid = false;
+                        break;
+                    }
+            }
+
+        return isValid;
+    }
+
+    // функция проверки пересечений периодов
+    function checkIntersections(periods) {
+        var isValid = true;
+
+        // счетчик первой пары для сравнения
+        for (let i = 0; i < periods.length - 1; i = i + 2)
+            // счетчик второй пары для сравнения
+            for (let j = i + 2; j < periods.length - 2; j = j + 2) {
+                // находится ли какая-то дата первого периода между датами второго
+                if (
+                ((new Date(periods[i].value) > new Date(periods[j].value))
+                &&
+                (new Date(periods[i].value) < new Date(periods[j + 1].value)))
+                ||
+                ((new Date(periods[i + 1].value) > new Date(periods[j].value))
+                &&
+                (new Date(periods[i + 1].value) < new Date(periods[j + 1].value)))
+                ||
+                ((new Date(periods[j].value) > new Date(periods[i].value))
+                &&
+                (new Date(periods[j].value) < new Date(periods[i + 1].value)))
+                ||
+                ((new Date(periods[j + 1].value) > new Date(periods[i].value))
+                &&
+                (new Date(periods[j + 1].value) < new Date(periods[i + 1].value)))
+                ) {
+                    // пересечения с одной стороны
+                    if ((new Date(periods[i].value) > new Date(periods[j].value))
+                    && (new Date(periods[i + 1].value) > new Date(periods[j + 1].value)))
+                        {
+                            isValid = false;
+                            break;
+                        }
+                    // пересечения с другой стороны
+                    if ((new Date(periods[i].value) < new Date(periods[j].value))
+                    && (new Date(periods[i + 1].value) < new Date(periods[j + 1].value)))
+                        {
+                            isValid = false;
+                            break;
+                        }
+                }
+            }
+
+        return isValid;
+    }
 
     /* Пересчет оставшегося количества отпускных дней */
 
-    $(document).on('change', '.period-date', function() {
+    function refreshRemainedDays() {
         // получить значения введенных начальных и конечных дат
         var serialised = $('form').serializeArray();
         console.log("serialised data", serialised);
 
-        var isValid = true;
-
         // проверить, что все даты заполнены
-        for (let i = 0; i < serialised.length - 1; i++)
-        {
-            if (serialised[i].value == '')
-                isValid = false;
+        if (!checkEmptyValues(serialised)) {
+            return null;
+        }
+        
+        // проверить, что все периоды корректны
+        if (!checkPeriodDates(serialised)) {
+            return null;
+        }
+        
+        // проверить, не включены ли периоды внутрь друг друга
+        if (!checkInclusions(serialised)) {
+            return null;
         }
 
-        // проверить, что все периоды корректны
-        for (let i = 0; i < serialised.length - 2; i = i + 2)
-        {
-            if (new Date(serialised[i].value) > new Date(serialised[i + 1].value))
-                isValid = false;
+        // проверить, не пересекаются ли периоды
+        if (!checkIntersections(serialised)) {
+            return null;
         }
 
         // если все даты корректны, обновить количество доступных дней
-        if (isValid == true)
-        {
-            $.ajax({
-                type: "POST",
-                url: '@Url.Action("CalculateDays")/',
-                data: {"collection":serialised},
-                success: function (result) { 
-                    $('#remained-days').text('Осталось дней: ' + result);
-                }
-            });
-        }
+        $.ajax({
+            type: "POST",
+            url: '@Url.Action("CalculateDays")/',
+            data: {"collection":serialised},
+            success: function (result) { 
+                $('#remained-days').text('Осталось дней: ' + result);
+            }
+        });
+    }
+
+    // пересчитывать даты при каждом изменении дат
+    $(document).on('change', '.period-date', function() {
+        refreshRemainedDays();
     });
 </script>
 }
