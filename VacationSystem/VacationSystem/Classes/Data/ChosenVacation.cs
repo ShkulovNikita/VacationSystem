@@ -1,4 +1,4 @@
-﻿namespace VacationSystem.Classes
+﻿namespace VacationSystem.Classes.Data
 {
     /// <summary>
     /// Выбранный сотрудником отпуск

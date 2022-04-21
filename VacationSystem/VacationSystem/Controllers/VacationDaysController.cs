@@ -104,12 +104,12 @@ namespace VacationSystem.Controllers
         public IActionResult SetDays(string[] employees, int type, int number, string notes, int year, string mode)
         {
             if (mode == "add")
-                if (VacationDataHandler.SetVacationDays(employees, type, notes, number, year))
+                if (VacationDayDataHandler.SetVacationDays(employees, type, notes, number, year))
                     TempData["Success"] = "Отпускные дни успешно добавлены";
                 else
                     TempData["Error"] = "Не удалось добавить отпускные дни";
             else
-                if (VacationDataHandler.RemoveVacationDays(employees, type, number, year))
+                if (VacationDayDataHandler.RemoveVacationDays(employees, type, number, year))
                     TempData["Success"] = "Отпускные дни были успешно удалены";
                 else
                     TempData["Error"] = "Не удалось удалить отпускные дни";

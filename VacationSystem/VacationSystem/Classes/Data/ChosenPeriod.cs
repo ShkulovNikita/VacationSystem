@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace VacationSystem.Classes
+namespace VacationSystem.Classes.Data
 {
     /// <summary>
     /// Период дней внутри отпуска сотрудника

@@ -11,6 +11,7 @@ using VacationSystem.Classes;
 using VacationSystem.Classes.Database;
 using VacationSystem.Classes.Helpers;
 using VacationSystem.ViewModels.ListItems;
+using VacationSystem.Classes.Data;
 
 namespace VacationSystem.Controllers
 {
@@ -88,7 +89,10 @@ namespace VacationSystem.Controllers
             // TODO
 
             // сохранение в БД
-
+            if (!VacationDataHandler.AddWishedVacation(id, vacation))
+                TempData["Error"] = "Не удалось сохранить выбранный период отпуска";
+            else
+                TempData["Success"] = "Выбранный период отпуска был успешно сохранен!";
 
             return RedirectToAction("Index");
         }

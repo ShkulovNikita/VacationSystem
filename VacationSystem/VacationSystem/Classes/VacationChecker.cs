@@ -1,4 +1,6 @@
-﻿namespace VacationSystem.Classes
+﻿using VacationSystem.Classes.Data;
+
+namespace VacationSystem.Classes
 {
     /// <summary>
     /// Класс с методами, отвечающими за проверку отпусков сотрудников

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Diagnostics;
+using VacationSystem.Classes.Data;
 
 namespace VacationSystem.Classes.Helpers
 {
