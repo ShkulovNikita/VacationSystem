@@ -84,9 +84,13 @@ namespace VacationSystem.Controllers
                 return View();
             }
 
+            // проверка на соответствие ТК РФ
+            // TODO
+
+            // сохранение в БД
 
 
-            return View();
+            return RedirectToAction("Index");
         }
 
         [HttpPost]

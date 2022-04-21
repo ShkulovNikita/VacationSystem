@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -16,28 +17,10 @@ namespace VacationSystem.Models
         public int Id { get; set; }
 
         /// <summary>
-        /// Желаемое начало периода отпуска
-        /// </summary>
-        [Required]
-        public DateTime StartDate { get; set; }
-
-        /// <summary>
-        /// Желаемый конец периода отпуска
-        /// </summary>
-        [Required]
-        public DateTime EndDate { get; set; }
-
-        /// <summary>
         /// Приоритет периода отпуска
         /// при наличии нескольких
         /// </summary>
         public int Priority { get; set; }
-
-        /// <summary>
-        /// Порядковый номер периода отпуска,
-        /// если он разбит на несколько частей
-        /// </summary>
-        public int Part { get; set; }
 
         /// <summary>
         /// Дата, в которую сотрудник выбрал
@@ -51,5 +34,10 @@ namespace VacationSystem.Models
         [Required, MaxLength(50)]
         public string EmployeeId { get; set; }
         public Employee Employee { get; set; }
+
+        /// <summary>
+        /// Составные части данного периода отпуска
+        /// </summary>
+        public List<VacationPart> VacationParts { get; set; } = new List<VacationPart>();
     }
 }

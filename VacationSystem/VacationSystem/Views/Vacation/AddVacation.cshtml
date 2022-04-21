@@ -28,7 +28,7 @@
                     <button type="button" class="btn btn-secondary add-period">Добавить период</button>
                     <button type="button" class="btn btn-secondary remove-period">Удалить период</button>
                 </div>
-                <input type="submit" class="btn btn-primary" />
+                <input type="submit" class="btn btn-primary" id="submit-button" />
             </form>
         </div>
     </div>
@@ -60,6 +60,21 @@
         $('.vacation-period:eq('+lastIndex+')').remove();
         // пересчитать дни
         refreshRemainedDays();
+    });
+
+    // попытка сохранения выбранных периодов
+    $(document).on('click', '#submit-button', function() {
+        // получить значения введенных начальных и конечных дат
+        var serialised = $('form').serializeArray();
+
+        if (checkDates(serialised)) {
+            // если все даты корректны, обновить количество доступных дней
+            $.ajax({
+                type: "POST",
+                url: '@Url.Action("AddVacation")',
+                success: function () { }
+            });
+        }
     });
 
     // функция проверки пустых значений дат
@@ -167,41 +182,48 @@
         return isValid;
     }
 
+    // функция, включающая в себя все проверки
+    function checkDates(periods) {
+        // проверить, что все даты заполнены
+        if (!checkEmptyValues(periods)) {
+            return false;
+        }
+        
+        // проверить, что все периоды корректны
+        if (!checkPeriodDates(periods)) {
+            return false;
+        }
+        
+        // проверить, не включены ли периоды внутрь друг друга
+        if (!checkInclusions(periods)) {
+            return false;
+        }
+
+        // проверить, не пересекаются ли периоды
+        if (!checkIntersections(periods)) {
+            return false;
+        }
+
+        return true;
+    }
+
     // пересчет оставшегося количества отпускных дней
     function refreshRemainedDays() {
         // получить значения введенных начальных и конечных дат
         var serialised = $('form').serializeArray();
         console.log("serialised data", serialised);
 
-        // проверить, что все даты заполнены
-        if (!checkEmptyValues(serialised)) {
-            return null;
+        if (checkDates(serialised)) {
+            // если все даты корректны, обновить количество доступных дней
+            $.ajax({
+                type: "POST",
+                url: '@Url.Action("CalculateDays")/',
+                data: {"collection":serialised},
+                success: function (result) { 
+                    $('#remained-days').text('Осталось дней: ' + result);
+                }
+            });
         }
-        
-        // проверить, что все периоды корректны
-        if (!checkPeriodDates(serialised)) {
-            return null;
-        }
-        
-        // проверить, не включены ли периоды внутрь друг друга
-        if (!checkInclusions(serialised)) {
-            return null;
-        }
-
-        // проверить, не пересекаются ли периоды
-        if (!checkIntersections(serialised)) {
-            return null;
-        }
-
-        // если все даты корректны, обновить количество доступных дней
-        $.ajax({
-            type: "POST",
-            url: '@Url.Action("CalculateDays")/',
-            data: {"collection":serialised},
-            success: function (result) { 
-                $('#remained-days').text('Осталось дней: ' + result);
-            }
-        });
     }
 
     // пересчитывать даты при каждом изменении дат
