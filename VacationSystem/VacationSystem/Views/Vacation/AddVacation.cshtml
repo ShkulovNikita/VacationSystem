@@ -28,6 +28,7 @@
                     <button type="button" class="btn btn-secondary add-period">Добавить период</button>
                     <button type="button" class="btn btn-secondary remove-period">Удалить период</button>
                 </div>
+                <input type="submit" class="btn btn-primary" />
             </form>
         </div>
     </div>
@@ -35,9 +36,7 @@
 
 @section scripts{
 <script type="text/javascript">
-
-    /* Добавление нового периода */
-
+    // добавление нового периода
     $('#vacation-periods').on('click', '.add-period', function() {
         // получить уже существующий один период для копирования
         var periodTemplate = $('.vacation-period:last');
@@ -48,8 +47,7 @@
         $('.remove-period:last').appendTo('#vacation-periods');
     });
 
-    /* Удаление одного периода */
-
+    // удаление одного периода
     $('#vacation-periods').on('click', '.remove-period', function() {
         // получить все периоды
         var periods = document.getElementsByClassName('vacation-period');
@@ -84,7 +82,7 @@
     function checkPeriodDates(periods) {
         var isValid = true;
 
-                for (let i = 0; i < periods.length - 2; i = i + 2)
+        for (let i = 0; i < periods.length - 2; i = i + 2)
         {
             if (new Date(periods[i].value) > new Date(periods[i + 1].value))
             {
@@ -101,9 +99,9 @@
         var isValid = true;
 
         // счетчик первой пары для сравнения
-        for (let i = 0; i < periods.length - 1; i = i + 2)
+        for (let i = 0; i < periods.length - 2; i = i + 2)
             // счетчик второй пары для сравнения
-            for (let j = i + 2; j < periods.length - 2; j = j + 2) {
+            for (let j = i + 2; j < periods.length - 1; j = j + 2) {
                 // если первый включен во второй
                 if ((new Date(periods[i].value) > new Date(periods[j].value))
                 && (new Date(periods[i + 1].value) < new Date(periods[j + 1].value)))
@@ -128,9 +126,9 @@
         var isValid = true;
 
         // счетчик первой пары для сравнения
-        for (let i = 0; i < periods.length - 1; i = i + 2)
+        for (let i = 0; i < periods.length - 2; i = i + 2)
             // счетчик второй пары для сравнения
-            for (let j = i + 2; j < periods.length - 2; j = j + 2) {
+            for (let j = i + 2; j < periods.length - 1; j = j + 2) {
                 // находится ли какая-то дата первого периода между датами второго
                 if (
                 ((new Date(periods[i].value) > new Date(periods[j].value))
@@ -169,8 +167,7 @@
         return isValid;
     }
 
-    /* Пересчет оставшегося количества отпускных дней */
-
+    // пересчет оставшегося количества отпускных дней
     function refreshRemainedDays() {
         // получить значения введенных начальных и конечных дат
         var serialised = $('form').serializeArray();

@@ -63,6 +63,29 @@ namespace VacationSystem.Controllers
         [HttpPost]
         public IActionResult AddVacation(DateTime[] startDates, DateTime[] endDates)
         {
+            // получить идентификатор пользователя
+            string id = HttpContext.Session.GetString("id");
+            if (id == null)
+            {
+                TempData["Error"] = "Не удалось загрузить данные пользователя";
+                return RedirectToAction("Index");
+            }
+
+            // создать объект с выбранным отпуском сотрудника
+            ChosenVacation vacation = VacationHelper.MakeVacation(startDates, endDates);
+
+            // проверить корректность выбранных периодов
+            string checkResult = VacationChecker.CheckVacationPeriods(vacation);
+
+            // проверка не пройдена
+            if (checkResult != "success")
+            {
+                TempData["Error"] = checkResult;
+                return View();
+            }
+
+
+
             return View();
         }
 
