@@ -1,8 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
 using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
 using System;
 
 using VacationSystem.Models;
@@ -10,7 +8,6 @@ using VacationSystem.ViewModels;
 using VacationSystem.Classes;
 using VacationSystem.Classes.Database;
 using VacationSystem.Classes.Helpers;
-using VacationSystem.ViewModels.ListItems;
 using VacationSystem.Classes.Data;
 
 namespace VacationSystem.Controllers
@@ -86,7 +83,12 @@ namespace VacationSystem.Controllers
             }
 
             // проверка на соответствие ТК РФ
-            // TODO
+            string lawResult = VacationChecker.CheckLawRules(vacation, null);
+            if (lawResult != "success")
+            {
+                TempData["Error"] = lawResult;
+                return View();
+            }
 
             // сохранение в БД
             if (!VacationDataHandler.AddWishedVacation(id, vacation))
@@ -96,7 +98,12 @@ namespace VacationSystem.Controllers
 
             return RedirectToAction("Index");
         }
-
+        
+        /// <summary>
+        /// Посчитать количество оставшихся у сотрудника отпускных дней
+        /// после вычета выбранных им периодов для отпуска
+        /// </summary>
+        /// <param name="collection">Массив с данными о выбранных периодах отпусках</param>
         [HttpPost]
         public int CalculateDays(List<PeriodViewModel> collection)
         {
