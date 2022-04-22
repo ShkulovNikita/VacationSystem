@@ -46,6 +46,9 @@ namespace VacationSystem.Controllers
             // получить сотрудников подразделений руководителя
             List<EmpListItem> allEmps = EmployeeHelper.GetEmployeesList(allDeps);
 
+            // добавить всем сотрудникам основной оплачиваемый отпуск
+            VacationDayHelper.AddMainVacationDays(allEmps.Select(e => e.EmpId).ToArray());
+
             // сохранить списки в сессию
             SessionHelper.SetObjectAsJson(HttpContext.Session, "all_employees", allEmps);
             SessionHelper.SetObjectAsJson(HttpContext.Session, "all_departments", allDeps);

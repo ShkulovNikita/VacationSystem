@@ -27,6 +27,10 @@ namespace VacationSystem.Controllers
                 return RedirectToAction("Index", "Home");
             }
 
+            // добавить сотруднику дни основного оплачиваемого отпуска,
+            // если они ещё не были добавлены ранее
+            VacationDayHelper.AddMainVacationDays(id);
+
             return View();
         }
 

@@ -132,5 +132,43 @@ namespace VacationSystem.Classes.Helpers
 
             return result;
         }
+
+        /// <summary>
+        /// Добавление основного ежегодного отпуска в 28 дней
+        /// </summary>
+        /// <param name="empId">Идентификатор сотрудника</param>
+        /// <returns>Успешность выполнения операции</returns>
+        static public bool AddMainVacationDays(string empId)
+        {
+            // проверка, есть ли у данного сотрудника дни для основного ежегодного отпуска
+            VacationDay mainVacationDays = VacationDayDataHandler.GetEmployeeVacationDays(empId, 1, DateTime.Now.Year);
+
+            // если у сотрудника уже есть такие дни отпуска, то ничего не делать
+            if (mainVacationDays != null)
+                return true;
+
+            // если таких дней ещё нет, то добавить
+            if (VacationDayDataHandler.SetVacationDays(empId, 1,
+                    "Автоматическое добавление дней основного ежегодного отпуска",
+                    28, DateTime.Now.Year))
+                return true;
+            else
+                return false;
+        }
+
+        /// <summary>
+        /// Добавление основного ежегодного отпуска в 28 дней заданному списку сотрудников
+        /// </summary>
+        /// <param name="empIds">Идентификаторы сотрудников</param>
+        /// <returns>Успешность выполнения операции</returns>
+        static public bool AddMainVacationDays(string[] empIds)
+        {
+            bool result = true;
+
+            foreach (string empId in empIds)
+                result &= AddMainVacationDays(empId);
+
+            return result;
+        }
     }
 }

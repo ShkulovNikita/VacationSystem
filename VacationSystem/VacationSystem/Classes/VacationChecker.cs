@@ -185,7 +185,7 @@ namespace VacationSystem.Classes
             foreach(ChosenPeriod period in periods)
             {
                 // получить количество дней в периоде
-                int numberOfDays = period.StartDate.Subtract(period.EndDate).Days;
+                int numberOfDays = period.EndDate.Subtract(period.StartDate).Days;
                 if (numberOfDays >= 14)
                     return true;
             }
