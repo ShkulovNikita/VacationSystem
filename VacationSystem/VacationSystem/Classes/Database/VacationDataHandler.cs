@@ -99,5 +99,52 @@ namespace VacationSystem.Classes.Database
                 return false;
             }
         }
+
+        /// <summary>
+        /// Получение запланированных отпусков сотрудника
+        /// </summary>
+        /// <param name="empId">Идентификатор сотрудника</param>
+        /// <returns>Список запланированных отпусков сотрудника</returns>
+        static public List<WishedVacationPeriod> GetWishedVacations(string empId)
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    return db.WishedVacationPeriods.Include(wv => wv.VacationParts)
+                        .Where(wv => wv.EmployeeId == empId)
+                        .ToList();
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return null;
+            }
+        }
+
+        /// <summary>
+        /// Получение утвержденных отпусков сотрудника
+        /// </summary>
+        /// <param name="empId">Идентификатор сотрудника</param>
+        /// <returns>Список утвержденных отпусков сотрудника</returns>
+        static public List<SetVacation> GetSetVacations(string empId)
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    return db.SetVacations
+                        .Include(sv => sv.VacationStatus)
+                        .Where(sv => sv.EmployeeId == empId)
+                        .ToList();
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return null;
+            }
+        }
     }
 }
