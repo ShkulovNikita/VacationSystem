@@ -31,7 +31,19 @@ namespace VacationSystem.Controllers
             // если они ещё не были добавлены ранее
             VacationDayHelper.AddMainVacationDays(id);
 
-            return View();
+            // получить список отпусков сотрудника
+            List<VacationViewModel> vacations = VacationHelper.MakeVacationsList(id);
+            
+            if (vacations == null)
+            {
+                TempData["Error"] = "Не удалось загрузить данные об отпусках";
+                return RedirectToAction("Index", "Home");
+            }
+
+            if (vacations.Count == 0)
+                TempData["Message"] = "Не найдены отпуска";
+
+            return View(vacations);
         }
 
         /// <summary>

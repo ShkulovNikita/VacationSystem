@@ -33,7 +33,7 @@ namespace VacationSystem.Models
         /// <summary>
         /// Идентификатор периода
         /// </summary>
-        public int VacationPeriodId { get; set; }
+        public int WishedVacationPeriodId { get; set; }
 
         /// <summary>
         /// Ссылка на период

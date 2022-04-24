@@ -84,7 +84,7 @@ namespace VacationSystem.Classes.Database
                             Part = i,
                             StartDate = vacation.Periods[i].StartDate,
                             EndDate = vacation.Periods[i].EndDate,
-                            VacationPeriodId = wishedVacation.Id
+                            WishedVacationPeriodId = wishedVacation.Id
                         });
                     }
 
@@ -111,7 +111,8 @@ namespace VacationSystem.Classes.Database
             {
                 using (ApplicationContext db = new ApplicationContext())
                 {
-                    return db.WishedVacationPeriods.Include(wv => wv.VacationParts)
+                    return db.WishedVacationPeriods
+                        .Include(wv => wv.VacationParts)
                         .Where(wv => wv.EmployeeId == empId)
                         .ToList();
                 }
