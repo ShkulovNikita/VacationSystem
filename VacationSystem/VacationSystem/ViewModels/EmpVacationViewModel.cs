@@ -25,8 +25,13 @@ namespace VacationSystem.ViewModels
         public string Name { get; set; }
 
         /// <summary>
+        /// Утверждены ли уже отпуска сотрудника
+        /// </summary>
+        public bool Type { get; set; }
+
+        /// <summary>
         /// Отпуска сотрудника
         /// </summary>
-        public List<VacationViewModel> Vacations { get; set; }
+        public List<EmpVacationPeriodViewModel> Vacations { get; set; } = new List<EmpVacationPeriodViewModel>();
     }
 }

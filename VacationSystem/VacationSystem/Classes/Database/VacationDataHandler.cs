@@ -147,5 +147,26 @@ namespace VacationSystem.Classes.Database
                 return null;
             }
         }
+
+        /// <summary>
+        /// Получение статуса отпуска из справочника
+        /// </summary>
+        /// <param name="id">Идентификатор статуса</param>
+        /// <returns>Статус отпуска</returns>
+        static public VacationStatus GetVacationStatus(int id)
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    return db.VacationStatuses.FirstOrDefault(vs => vs.Id == id);
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return null;
+            }
+        }
     }
 }

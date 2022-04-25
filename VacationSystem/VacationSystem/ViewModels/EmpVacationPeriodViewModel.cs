@@ -27,8 +27,20 @@ namespace VacationSystem.ViewModels
         public string Type { get; set; }
 
         /// <summary>
+        /// Приоритет желаемого отпуска (если задан)
+        /// </summary>
+        public int Priority { get; set; }
+
+        /// <summary>
         /// Статус отпуска
         /// </summary>
         public VacationStatus Status { get; set; }
+
+        /// <summary>
+        /// Прошла ли уже данная дата:
+        /// true - прошла,
+        /// false - ещё нет
+        /// </summary>
+        public bool Past { get; set; }
     }
 }
