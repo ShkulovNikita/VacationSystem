@@ -89,7 +89,7 @@ namespace VacationSystem.Classes.Helpers
                     Year = vacation.Date.Year,
                     StartDate = period.StartDate,
                     EndDate = period.EndDate,
-                    Days = period.EndDate.Subtract(period.StartDate).Days,
+                    Days = period.EndDate.Subtract(period.StartDate).Days + 1,
                     Status = "На утверждении"
                 });
             }
@@ -111,7 +111,7 @@ namespace VacationSystem.Classes.Helpers
                 Year = vacation.Date.Year,
                 StartDate = vacation.StartDate,
                 EndDate = vacation.EndDate,
-                Days = vacation.EndDate.Subtract(vacation.StartDate).Days,
+                Days = vacation.EndDate.Subtract(vacation.StartDate).Days + 1,
                 Status = vacation.VacationStatus.Name
             };
         }

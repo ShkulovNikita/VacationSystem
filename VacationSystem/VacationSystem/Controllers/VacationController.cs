@@ -133,10 +133,21 @@ namespace VacationSystem.Controllers
                 DateTime startDate = Convert.ToDateTime(collection[i].value);
                 DateTime endDate = Convert.ToDateTime(collection[i + 1].value);
 
-                vacationDays += (int)((endDate - startDate).TotalDays);
+                vacationDays += (int)((endDate - startDate).TotalDays) + 1;
             }
 
             return availableDays - vacationDays;
+        }
+
+        /// <summary>
+        /// Отображение календаря отпусков для подразделения
+        /// </summary>
+        /// <param name="id">Идентификатор подразделения</param>
+        public IActionResult Department(string id, int year)
+        {
+
+
+            return View();
         }
     }
 }

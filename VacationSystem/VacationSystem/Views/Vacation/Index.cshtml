@@ -26,27 +26,26 @@
             @Html.CheckMessage(message)
             @Html.CheckSuccess(success)
             <a asp-controller="Vacation" asp-action="AddVacation" class="btn btn-primary">Добавить</a>
-        </div>
-        @if(@Model.Count > 0)
-        {
-            <h3>Список отпусков</h3>
-        }
-        <br />
-        @foreach(VacationViewModel vacation in @Model)
-        {
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">
-                        @vacation.StartDate - @vacation.EndDate (@vacation.Days дней)
-                    </h5>
-                    <div class="card-text">
-                        @vacation.Status
+            @if(@Model.Count > 0)
+            {
+                <h3>Список отпусков</h3>
+            }
+            @foreach(VacationViewModel vacation in @Model)
+            {
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            @vacation.StartDate - @vacation.EndDate (@vacation.Days дней)
+                        </h5>
+                        <div class="card-text">
+                            @vacation.Status
+                        </div>
+                        <a asp-controller="Vacation" asp-action="Move" asp-route-groupId="@vacation.Id" asp-route-type="@vacation.Type" class="btn btn-primary">Перенести</a>
+                        <a asp-controller="Vacation" asp-action="Split" asp-route-groupId="@vacation.Id" asp-route-type="@vacation.Type" class="btn btn-primary">Разделить</a>
+                        <a asp-controller="Vacation" asp-action="Cancel" asp-route-groupId="@vacation.Id" asp-route-type="@vacation.Type" class="btn btn-danger">Отменить</a>
                     </div>
-                    <a asp-controller="Vacation" asp-action="Move" asp-route-groupId="@vacation.Id" asp-route-type="@vacation.Type" class="btn btn-primary">Перенести</a>
-                    <a asp-controller="Vacation" asp-action="Split" asp-route-groupId="@vacation.Id" asp-route-type="@vacation.Type" class="btn btn-primary">Разделить</a>
-                    <a asp-controller="Vacation" asp-action="Cancel" asp-route-groupId="@vacation.Id" asp-route-type="@vacation.Type" class="btn btn-danger">Отменить</a>
                 </div>
-            </div>
-        }
+            }
+        </div>
     </div>
 </div>
