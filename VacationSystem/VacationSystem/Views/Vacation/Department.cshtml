@@ -6,16 +6,36 @@
 <div class="container">
     <div class="row">
         <div class="col-12">
-            <h3>Производственный календарь @Model[0].Department.Name</h3>
-            <table class="table table-responsive table-bordered">
+            <h3>Производственный календарь подразделения "@Model[0].Department.Name"</h3>
+            <table class="table table-sm table-responsive table-bordered">
                 <thead class="thead-light">
                     <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">First</th>
-                        <th scope="col">Last</th>
-                        <th scope="col">Handle</th>
+                        <th scope="col">ФИО</th>
+                        @foreach (EmpVacationPeriodViewModel period in @Model[0].Vacations)
+                        {
+                            <th scope="col">@period.Date</th>
+                        }
                     </tr>
                 </thead>
+                <tbody>
+                    @foreach (EmpVacationViewModel emp in @Model)
+                    {
+                        <tr id="@emp.EmployeeId">
+                            <th scope="row">@emp.Name</th>
+                            @foreach (EmpVacationPeriodViewModel period in @emp.Vacations)
+                            {
+                                @if (period.IsTaken)
+                                {
+                                    <td class="table-success"></td>
+                                }
+                                else
+                                {
+                                    <td class="table-secondary"></td>
+                                }
+                            }
+                        </tr>
+                    }
+                </tbody>
             </table>
         </div>
     </div>

@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
 using System.Collections.Generic;
+using System.Linq;
 using System;
 
 using VacationSystem.Models;
@@ -155,6 +156,13 @@ namespace VacationSystem.Controllers
                 return RedirectToAction("Index");
             }
 
+            Department department = Connector.GetDepartment(id);
+            if (department == null)
+            {
+                TempData["Error"] = "Не удалось загрузить данные о подразделении";
+                return RedirectToAction("Index");
+            }
+
             // если год не указан, то следующий (планируемый)
             if (year == 0)
                 year = DateTime.Now.Year + 1;
@@ -178,7 +186,13 @@ namespace VacationSystem.Controllers
                 return RedirectToAction("Index");
             }
 
-            return View();
+            // отсортировать по именам сотрудников
+            calendar = calendar.OrderBy(c => c.Name).ToList();
+
+            // указать подразделение
+            calendar[0].Department = department;
+
+            return View(calendar);
         }
     }
 }

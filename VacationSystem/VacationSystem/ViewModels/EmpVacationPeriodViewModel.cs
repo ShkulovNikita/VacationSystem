@@ -14,7 +14,7 @@ namespace VacationSystem.ViewModels
         /// <summary>
         /// Текущая дата
         /// </summary>
-        public DateTime Date { get; set; }
+        public string Date { get; set; }
 
         /// <summary>
         /// Входит ли данная дата в отпуск сотрудника

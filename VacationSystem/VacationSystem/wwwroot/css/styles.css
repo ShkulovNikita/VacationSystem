@@ -127,3 +127,11 @@ select {
     border-color: gray;
     border-style: solid;
 }
+
+.table th:first-child,
+.table td:first-child {
+    position: sticky;
+    left: 0;
+    background-color: rgb(174, 194, 204);
+    color: #373737;
+}

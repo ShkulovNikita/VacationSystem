@@ -157,8 +157,12 @@ namespace VacationSystem.Classes.Helpers
             EmpVacationViewModel empVacation = new EmpVacationViewModel
             {
                 EmployeeId = employee.Id,
-                Name = employee.LastName + " " + employee.FirstName + " " + employee.MiddleName
             };
+
+            if ((employee.MiddleName != null) && (employee.MiddleName != ""))
+                empVacation.Name = employee.LastName + " " + employee.FirstName[0] + ". " + employee.MiddleName[0] + ".";
+            else
+                empVacation.Name = employee.LastName + ". " + employee.FirstName[0] + ". ";
 
             // получить отпуска сотрудника из БД и заполнить соответствующие данные
             if (type == "wished")
@@ -194,7 +198,7 @@ namespace VacationSystem.Classes.Helpers
             foreach(DateTime date in dates)
             {
                 EmpVacationPeriodViewModel period = new EmpVacationPeriodViewModel();
-                period.Date = date;
+                period.Date = date.ToString("dd.MM");
                 period.IsTaken = false;
 
                 // если дата уже прошла, то поставить отметку
