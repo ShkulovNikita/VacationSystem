@@ -16,6 +16,7 @@
     <div class="row">
         <div class="col-7">
             @Html.CheckError(error)
+            <div id="message-block"></div>
             <h5 id="remained-days">Осталось дней: @availableDays</h5>
             <form method="post">
                 <div id="vacation-periods">
@@ -28,7 +29,7 @@
                     <button type="button" class="btn btn-secondary add-period">Добавить период</button>
                     <button type="button" class="btn btn-secondary remove-period">Удалить период</button>
                 </div>
-                <input type="submit" class="btn btn-primary" id="submit-button" />
+                <input type="submit" class="btn btn-primary" id="submit-button" disabled="disabled" />
             </form>
         </div>
     </div>
@@ -67,15 +68,47 @@
         // получить значения введенных начальных и конечных дат
         var serialised = $('form').serializeArray();
 
-        if (checkDates(serialised)) {
-            // если все даты корректны, обновить количество доступных дней
-            $.ajax({
-                type: "POST",
-                url: '@Url.Action("AddVacation")',
-                success: function () { }
-            });
-        }
+        if (!checkDates(serialised))
+            return null;
+
+        var remainedDays = getRemainedDaysNumber(serialised);
+        console.log(remainedDays);
+
+        if (remainedDays < 0)
+            return null;
+        
+        if (remainedDays > 0)
+            return null;
+
+        // если все даты корректны, обновить количество доступных дней
+        $.ajax({
+            type: "POST",
+            url: '@Url.Action("AddVacation")',
+            success: function () { }
+        });
     });
+
+    // показать сообщение о некорректности выбора дат
+    function showMessage(message) {
+        $('#message-block').addClass('alert').addClass('alert-info');
+        $('#message-block').text(message);
+    }
+
+    // скрыть сообщение
+    function hideMessage() {
+        $('#message-block').text('');
+        $('#message-block').removeClass('alert').removeClass('alert-info');
+    }
+
+    // заблокировать кнопку сохранения отпуска
+    function blockButton() {
+        $('#submit-button').attr("disabled", true);
+    }
+
+    // разблокировать кнопку сохранения отпуска
+    function unlockButton() {
+        $('#submit-button').attr("disabled", false);
+    }
 
     // функция проверки пустых значений дат
     function checkEmptyValues(periods) {
@@ -186,25 +219,58 @@
     function checkDates(periods) {
         // проверить, что все даты заполнены
         if (!checkEmptyValues(periods)) {
+            showMessage('Не указана дата начала или конца периода');
             return false;
         }
+        else
+            hideMessage();
         
         // проверить, что все периоды корректны
         if (!checkPeriodDates(periods)) {
+            showMessage('Неправильный порядок дат начала и конца периода');
             return false;
         }
+        else
+            hideMessage();
         
         // проверить, не включены ли периоды внутрь друг друга
         if (!checkInclusions(periods)) {
+            showMessage('Выбранные периоды не могут быть включены внутрь друг друга')
             return false;
         }
+        else
+            hideMessage();
 
         // проверить, не пересекаются ли периоды
         if (!checkIntersections(periods)) {
+            showMessage('Выбранные периоды не могут пересекаться')
             return false;
         }
+        else
+            hideMessage();
 
         return true;
+    }
+
+    // получение оставшегося количества дней
+    function getRemainedDaysNumber(periods) {
+        // получить значения введенных начальных и конечных дат
+        var serialised = $('form').serializeArray();
+
+        var number;
+
+        // получить оставшееся количество доступных дней
+        $.ajax({
+            type: "POST",
+            url: '@Url.Action("CalculateDays")/',
+            data: {"collection":periods},
+            success: function (result) { 
+                console.log(result);
+                number = result;
+            }
+        });
+
+        return number;
     }
 
     // пересчет оставшегося количества отпускных дней
@@ -223,6 +289,12 @@
                     $('#remained-days').text('Осталось дней: ' + result);
                 }
             });
+
+            unlockButton();
+        }
+        else
+        {
+            blockButton();
         }
     }
 
