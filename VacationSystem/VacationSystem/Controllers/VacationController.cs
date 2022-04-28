@@ -194,5 +194,15 @@ namespace VacationSystem.Controllers
 
             return View(calendar);
         }
+
+        /// <summary>
+        /// Отображение страницы для редактирования отпуска указанного сотрудника
+        /// </summary>
+        /// <param name="id">Идентификатор сотрудника</param>
+        [HttpGet]
+        public IActionResult EditVacation(string id)
+        {
+            return View();
+        }
     }
 }
