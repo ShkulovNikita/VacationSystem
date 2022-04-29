@@ -269,5 +269,32 @@ namespace VacationSystem.Classes.Helpers
             }
             return period;
         }
+
+        /// <summary>
+        /// Получить запланированные периоды отпусков сотрудника на указанный год
+        /// </summary>
+        /// <param name="id">Идентификатор отпуска</param>
+        /// <returns>Список пар из дат "начало отпуска - конец отпуска"</returns>
+        static public List<VacationDatesViewModel> GetWishedVacationPeriods(int id)
+        {
+            List<VacationDatesViewModel> periods = new List<VacationDatesViewModel>();
+
+            // получить указанный запланированный отпуск
+            WishedVacationPeriod wishedVacation = VacationDataHandler.GetWishedVacation(id);
+
+            // преобразовать периоды отпуска в формат View Model
+            foreach (VacationPart part in wishedVacation.VacationParts)
+            {
+                VacationDatesViewModel period = new VacationDatesViewModel
+                {
+                    StartDate = part.StartDate,
+                    EndDate = part.EndDate
+                };
+
+                periods.Add(period);
+            }
+
+            return periods;
+        }
     }
 }

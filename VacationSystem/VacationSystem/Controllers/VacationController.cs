@@ -196,13 +196,35 @@ namespace VacationSystem.Controllers
         }
 
         /// <summary>
-        /// Отображение страницы для редактирования отпуска указанного сотрудника
+        /// Отображение страницы для редактирования запланированного отпуска указанного сотрудника
         /// </summary>
-        /// <param name="id">Идентификатор сотрудника</param>
+        /// <param name="empId">Идентификатор сотрудника</param>
+        /// <param name="vacationId">Идентификатор отпуска</param>
         [HttpGet]
-        public IActionResult EditVacation(string id)
+        public IActionResult EditWishedVacation(string empId, int vacationId)
         {
-            return View();
+            // получить количество доступных отпускных дней пользователя
+            List<VacationDay> days = VacationDayDataHandler.GetAvailableVacationDays(empId);
+            int availableDays = VacationDayHelper.CountAvailableDays(days);
+
+            HttpContext.Session.SetInt32("available_days", availableDays);
+
+            // получить периоды указанного отпуска сотрудника
+            List<VacationDatesViewModel> dates = VacationHelper.GetWishedVacationPeriods(vacationId);
+
+            if (dates == null)
+            {
+                TempData["Error"] = "Не удалось загрузить данные об отпусках";
+                return RedirectToAction("Index");
+            }
+
+            EditVacationViewModel vm = new EditVacationViewModel
+            {
+                Id = vacationId,
+                Dates = dates
+            };
+
+            return View(vm);
         }
     }
 }

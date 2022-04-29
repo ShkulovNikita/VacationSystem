@@ -125,6 +125,32 @@ namespace VacationSystem.Classes.Database
         }
 
         /// <summary>
+        /// Получение запланированных отпусков сотрудника
+        /// </summary>
+        /// <param name="empId">Идентификатор сотрудника</param>
+        /// <param name="year">Год, на который назначены отпуска</param>
+        /// <returns>Список запланированных отпусков сотрудника</returns>
+        static public List<WishedVacationPeriod> GetWishedVacations(string empId, int year)
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    return db.WishedVacationPeriods
+                        .Include(wv => wv.VacationParts)
+                        .Where(wv => wv.EmployeeId == empId
+                        && wv.Year == year)
+                        .ToList();
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return null;
+            }
+        }
+
+        /// <summary>
         /// Получение утвержденных отпусков сотрудника
         /// </summary>
         /// <param name="empId">Идентификатор сотрудника</param>
@@ -149,6 +175,32 @@ namespace VacationSystem.Classes.Database
         }
 
         /// <summary>
+        /// Получение утвержденных отпусков сотрудника
+        /// </summary>
+        /// <param name="empId">Идентификатор сотрудника</param>
+        /// <param name="year">Год, на который назначен отпуск</param>
+        /// <returns>Список утвержденных отпусков сотрудника</returns>
+        static public List<SetVacation> GetSetVacations(string empId, int year)
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    return db.SetVacations
+                        .Include(sv => sv.VacationStatus)
+                        .Where(sv => sv.EmployeeId == empId
+                        && sv.EndDate.Year == year)
+                        .ToList();
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return null;
+            }
+        }
+
+        /// <summary>
         /// Получение статуса отпуска из справочника
         /// </summary>
         /// <param name="id">Идентификатор статуса</param>
@@ -160,6 +212,29 @@ namespace VacationSystem.Classes.Database
                 using (ApplicationContext db = new ApplicationContext())
                 {
                     return db.VacationStatuses.FirstOrDefault(vs => vs.Id == id);
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return null;
+            }
+        }
+
+        /// <summary>
+        /// Получение из БД заданного запланированного отпуска
+        /// </summary>
+        /// <param name="id">Идентификатор отпуска</param>
+        /// <returns>Запланированный отпуск с его частями</returns>
+        static public WishedVacationPeriod GetWishedVacation(int id)
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    return db.WishedVacationPeriods
+                        .Include(wv => wv.VacationParts)
+                        .FirstOrDefault(wv => wv.Id == id);
                 }
             }
             catch (Exception ex)

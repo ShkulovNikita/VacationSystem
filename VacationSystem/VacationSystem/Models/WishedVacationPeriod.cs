@@ -29,6 +29,11 @@ namespace VacationSystem.Models
         public DateTime Date { get; set; }
 
         /// <summary>
+        /// Год, на который запланирован отпуск
+        /// </summary>
+        public int Year { get; set; }
+
+        /// <summary>
         /// Сотрудник, выбирающий период отпуска
         /// </summary>
         [Required, MaxLength(50)]
