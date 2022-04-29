@@ -6,8 +6,14 @@ namespace VacationSystem.ViewModels
     {
         public EditVacationViewModel() { }
 
+        /// <summary>
+        /// Идентификатор отпуска
+        /// </summary>
         public int Id { get; set; }
 
+        /// <summary>
+        /// Периоды отпуска
+        /// </summary>
         public List<VacationDatesViewModel> Dates { get; set; }
     }
 }

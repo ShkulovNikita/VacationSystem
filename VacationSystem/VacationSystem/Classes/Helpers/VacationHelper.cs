@@ -62,11 +62,11 @@ namespace VacationSystem.Classes.Helpers
 
             if (wishedVacations != null)
                 foreach (WishedVacationPeriod vacation in wishedVacations)
-                    result.AddRange(ConvertWishedVacationToViewModel(vacation));
+                    result.AddRange(ConvertWishedVacationToViewModel(vacation, empId));
 
             if (setVacations != null)
                 foreach (SetVacation vacation in setVacations)
-                    result.Add(ConvertSetVacationToViewModel(vacation));
+                    result.Add(ConvertSetVacationToViewModel(vacation, empId));
 
             return result;
         }
@@ -75,8 +75,9 @@ namespace VacationSystem.Classes.Helpers
         /// Конвертировать запланированный отпуск в модель представления
         /// </summary>
         /// <param name="vacation">Запланированный отпуск из БД</param>
+        /// <param name="empId">Идентификатор сотрудника</param>
         /// <returns>Периоды отпуска в формате модели представления</returns>
-        static public List<VacationViewModel> ConvertWishedVacationToViewModel(WishedVacationPeriod vacation)
+        static public List<VacationViewModel> ConvertWishedVacationToViewModel(WishedVacationPeriod vacation, string empId)
         {
             List<VacationViewModel> result = new List<VacationViewModel>();
 
@@ -90,7 +91,8 @@ namespace VacationSystem.Classes.Helpers
                     StartDate = period.StartDate,
                     EndDate = period.EndDate,
                     Days = period.EndDate.Subtract(period.StartDate).Days + 1,
-                    Status = "На утверждении"
+                    Status = "На утверждении",
+                    EmpId = empId
                 });
             }
 
@@ -101,8 +103,9 @@ namespace VacationSystem.Classes.Helpers
         /// Конвертировать утвержденный отпуск в модель представления
         /// </summary>
         /// <param name="vacation">Утвержденный отпуск из БД</param>
+        /// <param name="empId">Идентификатор сотрудника</param>
         /// <returns>Отпуск в формате модели представления</returns>
-        static public VacationViewModel ConvertSetVacationToViewModel(SetVacation vacation)
+        static public VacationViewModel ConvertSetVacationToViewModel(SetVacation vacation, string empId)
         {
             return new VacationViewModel
             {
@@ -112,7 +115,8 @@ namespace VacationSystem.Classes.Helpers
                 StartDate = vacation.StartDate,
                 EndDate = vacation.EndDate,
                 Days = vacation.EndDate.Subtract(vacation.StartDate).Days + 1,
-                Status = vacation.VacationStatus.Name
+                Status = vacation.VacationStatus.Name,
+                EmpId = empId
             };
         }
 

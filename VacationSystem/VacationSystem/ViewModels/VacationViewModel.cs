@@ -15,6 +15,11 @@ namespace VacationSystem.ViewModels
         public int Id { get; set; }
 
         /// <summary>
+        /// Идентификатор сотрудника, которому принадлежит данный отпуск
+        /// </summary>
+        public string EmpId { get; set; }
+
+        /// <summary>
         /// Тип отпуска: запланированный или уже утвержденный
         /// </summary>
         public string Type { get; set; }

@@ -40,9 +40,16 @@
                         <div class="card-text">
                             @vacation.Status
                         </div>
-                        <a asp-controller="Vacation" asp-action="Move" asp-route-groupId="@vacation.Id" asp-route-type="@vacation.Type" class="btn btn-primary">Перенести</a>
-                        <a asp-controller="Vacation" asp-action="Split" asp-route-groupId="@vacation.Id" asp-route-type="@vacation.Type" class="btn btn-primary">Разделить</a>
-                        <a asp-controller="Vacation" asp-action="Cancel" asp-route-groupId="@vacation.Id" asp-route-type="@vacation.Type" class="btn btn-danger">Отменить</a>
+                        @if (vacation.Type == "wished")
+                        {
+                            <a asp-controller="Vacation" asp-action="EditWishedVacation" asp-route-empId="@vacation.EmpId" asp-route-vacationId="@vacation.Id" asp-route-type="@vacation.Type" class="btn btn-danger">Изменить</a>
+                        }
+                        else
+                        {
+                            <a asp-controller="Vacation" asp-action="Move" asp-route-groupId="@vacation.Id" asp-route-type="@vacation.Type" class="btn btn-primary">Перенести</a>
+                            <a asp-controller="Vacation" asp-action="Split" asp-route-groupId="@vacation.Id" asp-route-type="@vacation.Type" class="btn btn-primary">Разделить</a>
+                            <a asp-controller="Vacation" asp-action="Cancel" asp-route-groupId="@vacation.Id" asp-route-type="@vacation.Type" class="btn btn-danger">Отменить</a>
+                        }
                     </div>
                 </div>
             }

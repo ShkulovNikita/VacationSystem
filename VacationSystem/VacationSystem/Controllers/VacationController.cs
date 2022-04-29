@@ -258,8 +258,12 @@ namespace VacationSystem.Controllers
             }
 
             // если все в порядке, то сохранить изменения в БД
+            if (!VacationDataHandler.EditWishedVacation(vacationId, vacation))
+                TempData["Error"] = "Не удалось сохранить изменения в отпуске";
+            else
+                TempData["Success"] = "Изменения были успешно сохранены";
 
-            return null;
+            return RedirectToAction("Index");
         }
     }
 }

@@ -116,10 +116,10 @@ namespace VacationSystem.Classes.Database
         }
 
         /// <summary>
-        /// Метод для сохранения изменений, внесенных в 
+        /// Метод для сохранения изменений, внесенных в желаемый отпуск сотрудника
         /// </summary>
-        /// <param name="id"></param>
-        /// <param name="vacation"></param>
+        /// <param name="id">Идентификатор отпуска</param>
+        /// <param name="vacation">Выбранный период отпуска</param>
         /// <returns></returns>
         static public bool EditWishedVacation(int id, ChosenVacation vacation)
         {
