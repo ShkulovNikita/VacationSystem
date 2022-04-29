@@ -67,5 +67,11 @@ namespace VacationSystem.Controllers
 
             return View(calendar);
         }
+
+        [HttpPost]
+        public int SetVacations(CalendarDateViewModel[] employees)
+        {
+            return 0;
+        }
     }
 }
