@@ -31,6 +31,9 @@
                         @Model.HeadDepartment.Name
                     </p>
                 }
+                <a asp-controller="Calendar" asp-action="Department" asp-route-id="@Model.Id" class="btn btn-primary">
+                    Календарь отпусков
+                </a>
                 <a asp-controller="Head" asp-action="Employees" asp-route-depId="@Model.Id" class="btn btn-primary">
                     Список сотрудников
                 </a>
