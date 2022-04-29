@@ -226,5 +226,40 @@ namespace VacationSystem.Controllers
 
             return View(vm);
         }
+
+        /// <summary>
+        /// Сохранение в БД выбранных периодов отпуска
+        /// </summary>
+        /// <param name="vacationId">Идентификатор отпуска</param>
+        /// <param name="startDates">Начальные даты отпуска</param>
+        /// <param name="endDates">Конечные даты отпуска</param>
+        [HttpPost]
+        public IActionResult EditWishedVacation(int vacationId, DateTime[] startDates, DateTime[] endDates)
+        {
+            // создать объект с выбранным отпуском сотрудника
+            ChosenVacation vacation = VacationHelper.MakeVacation(startDates, endDates);
+
+            // проверить корректность выбранных периодов
+            string checkResult = VacationChecker.CheckVacationPeriods(vacation);
+
+            // проверка не пройдена
+            if (checkResult != "success")
+            {
+                TempData["Error"] = checkResult;
+                return View();
+            }
+
+            // проверка на соответствие ТК РФ
+            string lawResult = VacationChecker.CheckLawRules(vacation, null);
+            if (lawResult != "success")
+            {
+                TempData["Error"] = lawResult;
+                return View();
+            }
+
+            // если все в порядке, то сохранить изменения в БД
+
+            return null;
+        }
     }
 }

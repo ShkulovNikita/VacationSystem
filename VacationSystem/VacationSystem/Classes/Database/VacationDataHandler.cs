@@ -77,16 +77,63 @@ namespace VacationSystem.Classes.Database
                     db.SaveChanges();
 
                     // добавить периоды, составляющие этот отпуск
-                    for (int i = 0; i < vacation.Periods.Length; i++)
-                    {
-                        db.VacationParts.Add(new VacationPart
-                        {
-                            Part = i,
-                            StartDate = vacation.Periods[i].StartDate,
-                            EndDate = vacation.Periods[i].EndDate,
-                            WishedVacationPeriodId = wishedVacation.Id
-                        });
-                    }
+                    db.VacationParts.AddRange(MakeVacationParts(vacation, wishedVacation.Id));
+
+                    db.SaveChanges();
+                }
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return false;
+            }
+        }
+
+        /// <summary>
+        /// Генерация периодов отпуска в необходимом для БД формате
+        /// </summary>
+        /// <param name="id">Идентификатор отпуска</param>
+        /// <returns>Список периодов отпусков в формате модели</returns>
+        static private List<VacationPart> MakeVacationParts(ChosenVacation vacation, int id)
+        {
+            List<VacationPart> result = new List<VacationPart>();
+
+            // добавить периоды, составляющие этот отпуск
+            for (int i = 0; i < vacation.Periods.Length; i++)
+            {
+                result.Add(new VacationPart
+                {
+                    Part = i,
+                    StartDate = vacation.Periods[i].StartDate,
+                    EndDate = vacation.Periods[i].EndDate,
+                    WishedVacationPeriodId = id
+                });
+            }
+
+            return result;
+        }
+
+        /// <summary>
+        /// Метод для сохранения изменений, внесенных в 
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="vacation"></param>
+        /// <returns></returns>
+        static public bool EditWishedVacation(int id, ChosenVacation vacation)
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    // очистить периоды, связанные с редактируемым отпуском
+                    List<VacationPart> oldParts = db.VacationParts.Where(vp => vp.WishedVacationPeriodId == id).ToList();
+                    db.VacationParts.RemoveRange(oldParts);
+                    db.SaveChanges();
+
+                    // создать новые периоды
+                    db.VacationParts.AddRange(MakeVacationParts(vacation, id));
 
                     db.SaveChanges();
                 }
