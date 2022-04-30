@@ -9,7 +9,7 @@
             <h3>Производственный календарь подразделения "@Model.Department.Name"</h3>
             <form>
                 <label>Год</label>
-                <input type="number" name="year" value="@Model.Year" />
+                <input id="calendar-year" type="number" name="year" value="@Model.Year" />
                 <label>Период</label>
                 <input type="date" name="startDate" value="@Model.StartDate.ToString("yyyy-MM-dd")"/>
                 <input type="date" name="endDate" value="@Model.EndDate.ToString("yyyy-MM-dd")"/>
@@ -57,6 +57,14 @@
 
 @section scripts{
 <script type="text/javascript">
+    $(document).on('change', '#calendar-year', function() {
+        $.ajax({
+            type: "GET",
+            url: '@Url.Action("Department")',
+            success: function () { }
+        });
+    });
+
     $(document).on('click', '#submit-button', function() {
         $.ajax({
             type: "POST",

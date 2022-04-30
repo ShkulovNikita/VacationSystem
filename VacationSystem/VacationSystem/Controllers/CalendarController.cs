@@ -20,6 +20,9 @@ namespace VacationSystem.Controllers
         /// <param name="id">Идентификатор подразделения</param>
         /// <param name="year">Год календаря</param>
         /// <param name="type">Тип отпусков, отображаемый в календаре</param>
+        /// <param name="startDate">Начальная дата календаря</param>
+        /// <param name="endDate">Конечная дата календаря</param>
+        [HttpGet]
         public IActionResult Department(string id, int year, DateTime? startDate, DateTime? endDate, string type)
         {
             // получить идентификатор текущего руководителя
