@@ -1,4 +1,4 @@
-﻿@model List<EmpVacationViewModel>
+﻿@model CalendarViewModel
 
 @using VacationSystem.ViewModels;
 @using VacationSystem.HtmlHelpers;
@@ -6,19 +6,32 @@
 <div class="container">
     <div class="row">
         <div class="col-12">
-            <h3>Производственный календарь подразделения "@Model[0].Department.Name"</h3>
+            <h3>Производственный календарь подразделения "@Model.Department.Name"</h3>
+            <form>
+                <label>Год</label>
+                <input type="number" name="year" value="@Model.Year" />
+                <label>Период</label>
+                <input type="date" name="startDate" value="@Model.StartDate.ToString("yyyy-MM-dd")"/>
+                <input type="date" name="endDate" value="@Model.EndDate.ToString("yyyy-MM-dd")"/>
+                <label>Тип отпусков:</label>
+                <input type="radio" name="type" value="wished" checked="checked"/>
+                <span>Запланированные</span>
+                <input type="radio" name="type" value="set" />
+                <span>Утвержденные</span>
+                <input type="submit" class="btn btn-primary" value="Выбрать" />
+            </form>
             <table id="vacation-calendar" class="table table-sm table-responsive table-bordered">
                 <thead class="thead-light">
                     <tr>
                         <th scope="col">ФИО</th>
-                        @foreach (EmpVacationPeriodViewModel period in @Model[0].Vacations)
+                        @foreach (EmpVacationPeriodViewModel period in @Model.Vacations[0].Vacations)
                         {
                             <th scope="col">@period.Date</th>
                         }
                     </tr>
                 </thead>
                 <tbody>
-                    @foreach (EmpVacationViewModel emp in @Model)
+                    @foreach (EmpVacationViewModel emp in @Model.Vacations)
                     {
                         <tr id="@emp.EmployeeId">
                             <td scope="row">@emp.Name</td>
@@ -44,114 +57,15 @@
 
 @section scripts{
 <script type="text/javascript">
-    // попытка утверждения календаря отпусков
     $(document).on('click', '#submit-button', function() {
-       getPeriods(); 
-    });
-
-    // получить из таблицы периоды отпусков сотрудников
-    function getPeriods() {
-        // таблица календаря
-        let table = $('#vacation-calendar');
-
-        // даты из заголовка таблицы
-        let dates = getDates(table);
-
-        getVacations(table, dates);
-        
-        // получить дни отпусков сотрудников
-        let employees = [];
-
-        let empDates = [];
-        empDates.push('1', '2', '3');
-
-        employees.push({
-            Name: 'Шкулов Н. П.',
-            Dates: empDates
-        });
-
-        
-
         $.ajax({
             type: "POST",
-            url: '@Url.Action("SetVacations")/',
-            data: {"employees":employees},
-            success: function (result) { 
-                console.log(result);
-            }
+            data: {
+                
+            },
+            url: '@Url.Action("SetVacation")',
+            success: function () { }
         });
-    } 
-
-    // получить массив дат из заголовка таблицы
-    function getDates(table) {
-        // заголовок календаря
-        let tb_head = table.find('thead').find('tr');
-
-        // массив со значениями дат
-        let dates = [];
-
-        // количество столбцов в заголовке
-        let colSize = tb_head.find('th').length;
-
-        // перебрать все значения в заголовке
-        tb_head.find('th').each(function(index, element) {
-            // дата из заголовка
-            var value = $(element).text();
-            
-            // добавить значение в массив
-            dates.push({
-                value
-            });
-        });
-
-        return dates;
-    }
-
-    // получить отпуска сотрудников
-    function getVacations(table, dates) {
-        // массив объектов сотрудников с их отпусками
-        let employees = [];
-
-        // количество строк в таблице
-        let tb_body = table.find('tbody');
-        let rowSize = tb_body.find('tr').length;
-
-        console.log(rowSize);
-
-        // проход по строкам таблицы
-        tb_body.find('tr').each(function(index, element) {
-            // имя сотрудника
-            let empName;
-            // строка отпусков сотрудника
-            let empDates = [];
-
-            // счетчик текущего столбца
-            let counter = 0;
-
-            // проход по столбцам
-            $(element).find('td').each(function(index, element) {
-                // записать имя из первого столбца
-                if (counter == 0) {
-                    empName = $(element).text();
-                }
-                else {
-                    // если текущий день входит в число отпускных дней сотрудника
-                    if ($(element).hasClass('table-success')) {
-                        // добавить соответствующую дату в список отпусков
-                        empDates.push(dates[counter]);
-                    }
-                }
-                counter = counter + 1;
-            });
-
-            // после окончания обработки строки - сохранить имя и даты в объект
-            employees.push({
-                Name: empName,
-                Dates: empDates
-            });
-        });
-
-        console.log(employees);
-    }
+    });
 </script>
 }

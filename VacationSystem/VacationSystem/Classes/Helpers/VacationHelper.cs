@@ -300,5 +300,51 @@ namespace VacationSystem.Classes.Helpers
 
             return periods;
         }
+
+        /// <summary>
+        /// Подготовить список утверждаемых отпусков на основе запланированных отпусков сотрудников
+        /// </summary>
+        /// <param name="employees">Список сотрудников</param>
+        /// <returns>Список утверждаемых отпусков</returns>
+        static private List<SetVacation> MakeSetVacations(List<Employee> employees)
+        {
+            List<SetVacation> result = new List<SetVacation>();
+
+            foreach (Employee employee in employees)
+            {
+                if (employee.WishedVacationPeriods == null)
+                    continue;
+                if (employee.WishedVacationPeriods.Count == 0)
+                    continue;
+
+                // если у сотрудника есть запланированные отпуска, то пройтись по ним
+                foreach (VacationPart part in employee.WishedVacationPeriods[0].VacationParts)
+                {
+                    SetVacation vacation = new SetVacation
+                    {
+                        StartDate = part.StartDate,
+                        EndDate = part.EndDate,
+                        Date = DateTime.Now,
+                        VacationStatusId = VacationDataHandler.GetVacationStatus("Назначен").Id,
+                        EmployeeId = employee.Id
+                    };
+                }
+            }
+
+            return result;
+        }
+
+        /// <summary>
+        /// Утвердить запланированные отпуска указанных сотрудников
+        /// </summary>
+        /// <param name="employees">Список сотрудников</param>
+        /// <param name="year">Год, на который назначаются отпуска</param>
+        /// <returns></returns>
+        static public bool SetVacations(List<Employee> employees, int year)
+        {
+            List<SetVacation> vacations = MakeSetVacations(employees);
+
+            return VacationDataHandler.SetVacations(vacations, employees, year);
+        }
     }
 }

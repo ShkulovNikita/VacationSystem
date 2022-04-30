@@ -15,11 +15,6 @@ namespace VacationSystem.ViewModels
         public string EmployeeId { get; set; }
 
         /// <summary>
-        /// Текущее подразделение
-        /// </summary>
-        public Department Department { get; set; }
-
-        /// <summary>
         /// ФИО сотрудника
         /// </summary>
         public string Name { get; set; }

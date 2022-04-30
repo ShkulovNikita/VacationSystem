@@ -290,5 +290,80 @@ namespace VacationSystem.Classes.Database
                 return null;
             }
         }
+
+        /// <summary>
+        /// Получить статус отпуска по его имени
+        /// </summary>
+        /// <param name="status">Наименование статуса отпуска</param>
+        /// <returns>Статус отпуска</returns>
+        static public VacationStatus GetVacationStatus(string status)
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    return db.VacationStatuses.FirstOrDefault(vs => vs.Name == status);
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return null;
+            }
+        }
+
+        /// <summary>
+        /// Утверждение запланированных отпусков в БД
+        /// </summary>
+        /// <param name="vacations">Список утверждаемых отпусков</param>
+        /// <param name="employees">Список сотрудников с их запланированными отпусками</param>
+        /// <returns>Результат выполнения операции</returns>
+        static public bool SetVacations(List<SetVacation> vacations, List<Employee> employees, int year)
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    // начать транзакцию, чтобы добавить утвержденные отпуска
+                    // и удалить запланированные
+                    using (var transaction = db.Database.BeginTransaction())
+                    {
+                        try
+                        {
+                            // добавить в БД утверждаемые отпуска
+                            db.SetVacations.AddRange(vacations);
+
+                            List<WishedVacationPeriod> periods = new List<WishedVacationPeriod>();
+                            // найти все желаемые отпуска текущих сотрудников
+                            foreach (Employee employee in employees)
+                            {
+                                List<WishedVacationPeriod> wishedVacations = GetWishedVacations(employee.Id, year);
+                                periods.AddRange(wishedVacations);
+                            }
+
+                            // удалить эти отпуска из БД
+                            db.WishedVacationPeriods.RemoveRange(periods);
+
+                            db.SaveChanges();
+
+                            transaction.Commit();
+                        }
+                        catch (Exception ex)
+                        {
+                            Debug.WriteLine(ex.Message);
+                            transaction.Rollback();
+                            return false;
+                        }
+                    }
+                }
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex);
+                return false;
+            }
+        }
     }
 }
