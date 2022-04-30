@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Collections.Generic;
 using System.Diagnostics;
 using VacationSystem.Classes.Data;
@@ -125,15 +126,19 @@ namespace VacationSystem.Classes.Helpers
         /// в формате View Model для формирование календаря отпусков
         /// </summary>
         /// <param name="employees">Список сотрудников</param>
-        /// <param name="year">Год отпусков</param>
         /// <param name="type">Тип отпусков в календаре: запланированные или утвержденные</param>
+        /// <param name="startDate">Начальная дата календаря</param>
+        /// <param name="endDate">Конечная дата календаря</param>
         /// <returns>Данные об отпусках сотрудников для календаря</returns>
-        static public List<EmpVacationViewModel> GetEmployeesVacationsTable(List<Employee> employees, int year, string type)
+        static public List<EmpVacationViewModel> GetEmployeesVacationsTable(List<Employee> employees, 
+            string type,
+            DateTime startDate,
+            DateTime endDate)
         {
             List<EmpVacationViewModel> result = new List<EmpVacationViewModel>();
 
-            // получить все даты указанного года
-            List<DateTime> dates = DateHelper.GetYearDates(year);
+            // получить все даты указанного периода
+            List<DateTime> dates = DateHelper.GetDateRange(startDate, endDate);
 
             foreach (Employee emp in employees)
             {
@@ -166,7 +171,7 @@ namespace VacationSystem.Classes.Helpers
             if ((employee.MiddleName != null) && (employee.MiddleName != ""))
                 empVacation.Name = employee.LastName + " " + employee.FirstName[0] + ". " + employee.MiddleName[0] + ".";
             else
-                empVacation.Name = employee.LastName + ". " + employee.FirstName[0] + ". ";
+                empVacation.Name = employee.LastName + " " + employee.FirstName[0] + ". ";
 
             // получить отпуска сотрудника из БД и заполнить соответствующие данные
             if (type == "wished")

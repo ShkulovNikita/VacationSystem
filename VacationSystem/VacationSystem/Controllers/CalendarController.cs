@@ -44,11 +44,9 @@ namespace VacationSystem.Controllers
             if (type == null)
                 type = "wished";
 
-            if (startDate == null)
-                startDate = new DateTime(year, 1, 1);
-
-            if (endDate == null)
-                endDate = new DateTime(year, 12, 31);
+            // проверить и исправить значения конечных дат периода
+            DateTime stDate = DateHelper.CheckDate(startDate, year, false);
+            DateTime enDate = DateHelper.CheckDate(endDate, year, true);
 
             // получить список сотрудников подразделения
             List<Employee> employees = Connector.GetEmployeesOfDepartment(id);
@@ -59,7 +57,7 @@ namespace VacationSystem.Controllers
             }
 
             // сформировать на основе списка подчиненных ViewModel с их отпусками
-            List<EmpVacationViewModel> calendarVacations = VacationHelper.GetEmployeesVacationsTable(employees, year, type);
+            List<EmpVacationViewModel> calendarVacations = VacationHelper.GetEmployeesVacationsTable(employees, type, stDate, enDate);
             if (calendarVacations == null)
             {
                 TempData["Error"] = "Не удалось получить производственный календарь";
@@ -75,8 +73,8 @@ namespace VacationSystem.Controllers
                 Department = department,
                 Year = year,
                 Type = type,
-                StartDate = (DateTime)startDate,
-                EndDate = (DateTime)endDate,
+                StartDate = stDate,
+                EndDate = enDate,
                 Vacations = calendarVacations
             };
 

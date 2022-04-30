@@ -40,5 +40,39 @@ namespace VacationSystem.Classes.Helpers
 
             return result;
         }
+
+        /// <summary>
+        /// Проверка корректности даты при заданном году
+        /// </summary>
+        /// <param name="date">Дата для проверки</param>
+        /// <param name="year">Год</param>
+        /// <param name="type">Тип: false - начальная, true - конечная</param>
+        /// <returns>Дата в исправленном (при необходимости) виде</returns>
+        static public DateTime CheckDate(DateTime? date, int year, bool type)
+        {
+            // дата не задана
+            if (date == null)
+            {
+                // дата является конечной
+                if (type)
+                    return new DateTime(year, 12, 31);
+                // начальной
+                else
+                    return new DateTime(year, 1, 1);
+            }
+            else
+            {
+                // дата за пределами года
+                if ((date < new DateTime(year, 1, 1)) || (date > new DateTime(year, 12, 31)))
+                {
+                    if (type)
+                        return new DateTime(year, 12, 31);
+                    else
+                        return new DateTime(year, 1, 1);
+                }
+                else
+                    return (DateTime)date;
+            }
+        }
     }
 }
