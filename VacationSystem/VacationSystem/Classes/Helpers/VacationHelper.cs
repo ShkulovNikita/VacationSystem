@@ -250,8 +250,6 @@ namespace VacationSystem.Classes.Helpers
                         period.Type = "wished";
                         period.Priority = vacation.Priority;
                     }
-                    else
-                        period.IsTaken = false;
             return period;
         }
 
