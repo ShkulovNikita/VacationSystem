@@ -107,10 +107,13 @@ namespace VacationSystem.Controllers
             }
 
             // проверки на соответствие правилам
-            
+
 
             // если прошли - сохранение в БД
-            VacationHelper.SetVacations(employees, year);
+            if (VacationHelper.SetVacations(employees, year))
+                TempData["Success"] = "Отпуска были успешно утверждены";
+            else
+                TempData["Error"] = "Не удалось утвердить отпуска";
 
             return RedirectToAction("Department");
         }

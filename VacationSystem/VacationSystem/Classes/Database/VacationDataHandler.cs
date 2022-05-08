@@ -73,6 +73,10 @@ namespace VacationSystem.Classes.Database
                         Date = DateTime.Now,
                         EmployeeId = id
                     };
+
+                    if (vacation.Periods.Length > 0) 
+                        wishedVacation.Year = vacation.Periods[0].StartDate.Year;
+
                     db.WishedVacationPeriods.Add(wishedVacation);
                     db.SaveChanges();
 

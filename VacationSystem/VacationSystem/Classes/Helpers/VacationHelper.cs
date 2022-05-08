@@ -309,12 +309,16 @@ namespace VacationSystem.Classes.Helpers
         /// </summary>
         /// <param name="employees">Список сотрудников</param>
         /// <returns>Список утверждаемых отпусков</returns>
-        static private List<SetVacation> MakeSetVacations(List<Employee> employees)
+        static private List<SetVacation> MakeSetVacations(List<Employee> employees, int year)
         {
             List<SetVacation> result = new List<SetVacation>();
 
             foreach (Employee employee in employees)
             {
+                // получить желаемые отпуска сотрудника
+                List<WishedVacationPeriod> periods = VacationDataHandler.GetWishedVacations(employee.Id, year);
+                employee.WishedVacationPeriods = periods.OrderBy(wv => wv.Priority).ToList();
+
                 if (employee.WishedVacationPeriods == null)
                     continue;
                 if (employee.WishedVacationPeriods.Count == 0)
@@ -331,6 +335,8 @@ namespace VacationSystem.Classes.Helpers
                         VacationStatusId = VacationDataHandler.GetVacationStatus("Назначен").Id,
                         EmployeeId = employee.Id
                     };
+
+                    result.Add(vacation);
                 }
             }
 
@@ -345,9 +351,11 @@ namespace VacationSystem.Classes.Helpers
         /// <returns></returns>
         static public bool SetVacations(List<Employee> employees, int year)
         {
-            List<SetVacation> vacations = MakeSetVacations(employees);
+            List<SetVacation> vacations = MakeSetVacations(employees, year);
 
-            return VacationDataHandler.SetVacations(vacations, employees, year);
+            bool result = VacationDataHandler.SetVacations(vacations, employees, year);
+
+            return result;
         }
     }
 }

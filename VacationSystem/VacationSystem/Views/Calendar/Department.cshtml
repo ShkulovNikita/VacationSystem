@@ -69,7 +69,8 @@
         $.ajax({
             type: "POST",
             data: {
-                
+                "id": "@Model.Department.Id",
+                "year": "@Model.Year"
             },
             url: '@Url.Action("SetVacation")',
             success: function () { }
