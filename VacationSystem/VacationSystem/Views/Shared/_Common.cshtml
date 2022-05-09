@@ -6,8 +6,8 @@
 
     // является ли данный сотрудник руководителем какого-нибудь подразделения
     bool isHead = false;
-    if (TempData["head"] != null)
-        isHead = (bool)TempData["head"];
+    if (Context.Session.GetString("head") != null)
+        isHead = bool.Parse(Context.Session.GetString("head"));
 
     // сообщения со стороны сервера
     string error = null;
@@ -34,8 +34,8 @@
             <p class="menu-header menu-item">Руководитель</p>
             <a asp-controller="Head" asp-action="Departments" class="menu-link menu-item">Подразделения</a>
             <a asp-controller="Styles" asp-action="Index" class="menu-link menu-item">Стили руководства</a>
-            <a asp-controller="Head" asp-action="Groups" class="menu-link menu-item">Группы сотрудников</a>
-            <a asp-controller="Head" asp-action="Rules" class="menu-link menu-item">Правила отпусков</a>
+            <a asp-controller="Groups" asp-action="Index" class="menu-link menu-item">Группы сотрудников</a>
+            <a asp-controller="Rules" asp-action="Index" class="menu-link menu-item">Правила отпусков</a>
             <a asp-controller="Deputies" asp-action="Index" class="menu-link menu-item">Заместители</a>
             <a asp-controller="VacationDays" asp-action="SetDays" class="menu-link menu-item">Отпускные дни</a>
             <a href="#" class="menu-link menu-item">Правила видимости</a>
@@ -67,3 +67,6 @@
         }
     </div>
 </main>
+@section scripts{
+    @await RenderSectionAsync("Scripts", required: false)
+}

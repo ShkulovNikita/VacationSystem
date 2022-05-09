@@ -49,11 +49,11 @@ namespace VacationSystem.Controllers
                         List<Department> subordinateDeps = Connector.GetSubordinateDepartments(HttpContext.Session.GetString("id"));
                         if (subordinateDeps != null)
                             if (subordinateDeps.Count > 0)
-                                TempData["head"] = true;
+                                HttpContext.Session.SetString("head", "true");
                             else
-                                TempData["head"] = false;
+                                HttpContext.Session.SetString("head", "false");
                         else
-                            TempData["head"] = false;
+                            HttpContext.Session.SetString("head", "false");
 
                         return View();
                     }

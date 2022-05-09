@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
+using Microsoft.AspNetCore.Http;
 using VacationSystem.Models;
 using VacationSystem.ViewModels;
-using System.Linq;
-using Microsoft.AspNetCore.Http;
 using VacationSystem.Classes;
 using VacationSystem.Classes.Helpers;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace VacationSystem.Controllers
 {
