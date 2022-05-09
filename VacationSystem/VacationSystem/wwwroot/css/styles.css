@@ -1,6 +1,7 @@
 ﻿body {
     font-family: Clear Sans,Arial,sans-serif;
     background-color: rgb(240, 242, 248);
+    height: 100%;
 }
 
 footer {
@@ -12,10 +13,69 @@ footer {
     width: 294px;
 }
 
+/**/
+
+main {
+    height: 100%;
+}
+
+#main-block {
+    padding: 20px 40px;
+}
+
+#left-menu {
+    flex-basis: 15%;
+    min-width: 170px;
+    height: 100%;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-right: 1px solid lightgrey;
+    z-index: 2;
+}
+
+.menu-header {
+    font-weight: 700;
+    font-size: 18px;
+    margin: 5px 10px;
+}
+
+#right-space {
+    flex-basis: auto;
+    flex-grow: 1;
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 10px 3px lightgrey;
+    z-index: 1;
+}
+
+#main-content {
+    flex-basis: auto;
+    flex-grow: 1;
+}
+
+.menu-link {
+    color: black;
+    padding: 5px 10px;
+}
+
+.menu-link:hover {
+    background-color: green;
+    color: white;
+}
+
+
+
+
 /* ------------------------------------------------------ */
 /* Замена синего цвета кнопок Primary на зеленый цвет ТПУ */
 /* ------------------------------------------------------ */
-
 .btn-primary {
     color: white;
     background-color: rgb(128, 191, 68);

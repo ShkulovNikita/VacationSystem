@@ -1,0 +1,48 @@
+﻿@using Microsoft.AspNetCore.Http;
+@using VacationSystem.HtmlHelpers;
+
+@{
+    Layout = "_Layout";
+
+    // является ли данный сотрудник руководителем какого-нибудь подразделения
+    bool isHead = false;
+    if (TempData["head"] != null)
+        isHead = (bool)TempData["head"];
+
+    string error = null;
+    if (TempData["Error"] != null)
+        error = TempData["Error"].ToString();
+
+    string success = null;
+    if (TempData["Success"] != null)
+        success = TempData["Success"].ToString();
+
+    string message = null;
+    if (TempData["Message"] != null)
+        message = TempData["Message"].ToString();
+}
+
+
+<main role="main" id="main-block" class="flex-container flex-row flex-start">
+    <div id="left-menu" class="flex-container flex-column flex-start">
+        <p class="menu-header">Меню</p>
+        <a href="#" class="menu-link">Мои подразделения</a>
+        <a asp-controller="Vacation" asp-action="Index" class="menu-link">Мои отпуска</a>
+        <a href="#" class="menu-link">Уведомления</a>
+        <a asp-controller="Login" asp-action="Logout" class="menu-link">Выйти</a>
+    </div>
+    <div id="right-space" class="flex-container flex-column flex-start">
+        <div id="messages-block" class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    @Html.CheckError(error)
+                    @Html.CheckMessage(message)
+                    @Html.CheckSuccess(success)
+                </div>
+            </div>
+        </div>
+        <div id="main-content">
+            @RenderBody()
+        </div>
+    </div>
+</main>

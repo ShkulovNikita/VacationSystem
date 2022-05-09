@@ -1,5 +1,4 @@
 ﻿@using Microsoft.AspNetCore.Http;
-@using VacationSystem.Classes;
 
 <!DOCTYPE html>
 <html lang="ru">
@@ -10,6 +9,7 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
     <link rel="stylesheet" href="~/css/styles.css" />
+    <link rel="stylesheet" href="~/css/flex-styles.css" />
 </head>
 <body>
     <!--Хэдер с навигационной панелью-->
@@ -23,11 +23,7 @@
         </nav>
     </header>
     <!--Основное содержимое-->
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
+    @RenderBody()
     <!--Футер-->
     <footer class="border-top footer text-muted">
         <div class="container">
