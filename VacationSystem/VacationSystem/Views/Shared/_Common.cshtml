@@ -25,11 +25,23 @@
 
 <main role="main" id="main-block" class="flex-container flex-row flex-start">
     <div id="left-menu" class="flex-container flex-column flex-start">
-        <p class="menu-header">Меню</p>
-        <a href="#" class="menu-link">Мои подразделения</a>
-        <a asp-controller="Vacation" asp-action="Index" class="menu-link">Мои отпуска</a>
-        <a href="#" class="menu-link">Уведомления</a>
-        <a asp-controller="Login" asp-action="Logout" class="menu-link">Выйти</a>
+        <p class="menu-header menu-item">Меню</p>
+        <a href="#" class="menu-link menu-item">Мои подразделения</a>
+        <a asp-controller="Vacation" asp-action="Index" class="menu-link menu-item">Мои отпуска</a>
+        <a href="#" class="menu-link menu-item">Уведомления</a>
+        @if (isHead)
+        {
+            <p class="menu-header menu-item">Руководитель</p>
+            <a asp-controller="Head" asp-action="Departments" class="menu-link menu-item">Подразделения</a>
+            <a asp-controller="Styles" asp-action="Index" class="menu-link menu-item">Стили руководства</a>
+            <a asp-controller="Head" asp-action="Groups" class="menu-link menu-item">Группы сотрудников</a>
+            <a asp-controller="Head" asp-action="Rules" class="menu-link menu-item">Правила отпусков</a>
+            <a asp-controller="Deputies" asp-action="Index" class="menu-link menu-item">Заместители</a>
+            <a asp-controller="VacationDays" asp-action="SetDays" class="menu-link menu-item">Отпускные дни</a>
+            <a href="#" class="menu-link menu-item">Правила видимости</a>
+        }
+        <hr class="menu-separator" />
+        <a asp-controller="Login" asp-action="Logout" class="menu-link menu-item">Выйти</a>
     </div>
     <div id="right-space" class="flex-container flex-column flex-start">
         <div id="messages-block" class="container">

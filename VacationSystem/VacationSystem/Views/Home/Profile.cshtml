@@ -1,5 +1,4 @@
 ﻿@using Microsoft.AspNetCore.Http;
-@using VacationSystem.HtmlHelpers;
 
 @{
     Layout = "_Common";
@@ -10,15 +9,10 @@
     bool isHead = false;
     if (TempData["head"] != null)
         isHead = (bool)TempData["head"];
-
-    string error = null;
-    if (TempData["Error"] != null)
-        error = TempData["Error"].ToString();
 }
 
 <div id="profile" class="container">
     <div class="row">
-        @Html.CheckError(error)
         <div id="profile-background" class="content-background">
         <h3>Профиль пользователя</h3>
         @if (isHead == true)
