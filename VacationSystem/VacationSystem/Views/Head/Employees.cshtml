@@ -1,21 +1,16 @@
 ﻿@model EmployeesViewModel
 @using VacationSystem.ViewModels
 @using VacationSystem.Models
-@using VacationSystem.HtmlHelpers
 
 @{
-    ViewData["Title"] = "Список сотрудников";
+    Layout = "_Common";
 
-    string error = null;
-    if (TempData["Error"] != null)
-        error = TempData["Error"].ToString();
+    ViewData["Title"] = "Список сотрудников";
 }
 
 <div class="container">
     <div class="row">
         <div class="col-10">
-            <!--Блок ошибок-->
-            @Html.CheckError(error)
             <!--Блок поиска-->
             <form>
                 <input type="text" name="query" />

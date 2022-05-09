@@ -1,18 +1,14 @@
 ﻿@using VacationSystem.ViewModels;
-@using VacationSystem.HtmlHelpers;
 
 @{
-    ViewData["Title"] = "Изменение стиля управления";
+    Layout = "_Common";
 
-    string error = null;
-    if (TempData["Error"] != null)
-        error = TempData["Error"].ToString();
+    ViewData["Title"] = "Изменение стиля управления";
 }
 
 <div id="edit-style" class="container">
     <div class="row">
         <div class="block-center col-md-5 col-sm-6 col-xs-10">
-            @Html.CheckError(error)
             <div id="login-background" class="content-background">
                 <h3>Изменение стиля руководства</h3>
                 <form method="post">

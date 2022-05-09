@@ -9,6 +9,7 @@
     if (TempData["head"] != null)
         isHead = (bool)TempData["head"];
 
+    // сообщения со стороны сервера
     string error = null;
     if (TempData["Error"] != null)
         error = TempData["Error"].ToString();
@@ -21,7 +22,6 @@
     if (TempData["Message"] != null)
         message = TempData["Message"].ToString();
 }
-
 
 <main role="main" id="main-block" class="flex-container flex-row flex-start">
     <div id="left-menu" class="flex-container flex-column flex-start">
@@ -53,8 +53,17 @@
                 </div>
             </div>
         </div>
-        <div id="main-content">
-            @RenderBody()
-        </div>
+        @if (isHead)
+        {
+            <div id="main-content main-big-size">
+                @RenderBody()
+            </div>
+        }
+        else
+        {
+            <div id="main-content main-small-size">
+                @RenderBody()
+            </div>
+        }
     </div>
 </main>

@@ -38,7 +38,7 @@ namespace VacationSystem.Controllers
             if (id == null)
             {
                 TempData["Error"] = "Не удалось загрузить данные пользователя";
-                return RedirectToAction("Index", "Head");
+                return RedirectToAction("Profile", "Home");
             }
 
             // получение списка подразделений
@@ -69,7 +69,7 @@ namespace VacationSystem.Controllers
             if (headId == null)
             {
                 TempData["Error"] = "Не удалось загрузить данные пользователя";
-                return RedirectToAction("Index", "Head");
+                return RedirectToAction("Profile", "Home");
             }
 
             // информация о подразделении 
@@ -129,7 +129,7 @@ namespace VacationSystem.Controllers
             if (headId == null)
             {
                 TempData["Error"] = "Не удалось загрузить данные пользователя";
-                return RedirectToAction("Index");
+                return RedirectToAction("Profile", "Home");
             }
 
             // не задан идентификатор - отображаются все подчиненные сотрудники
@@ -193,7 +193,7 @@ namespace VacationSystem.Controllers
             if (headId == null)
             {
                 TempData["Error"] = "Не удалось загрузить данные пользователя";
-                return RedirectToAction("Index");
+                return RedirectToAction("Profile", "Home");
             }
 
             // попробовать найти сотрудника с указанным идентификатором

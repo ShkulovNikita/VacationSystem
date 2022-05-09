@@ -1,17 +1,12 @@
-﻿@using VacationSystem.HtmlHelpers
+﻿@{
+    Layout = "_Common";
 
-@{
     ViewData["Title"] = "Выбрать заместителя";
-
-    string error = null;
-    if (TempData["Error"] != null)
-        error = TempData["Error"].ToString();
 }
 
 <div class="container">
     <div class="row">
         <div class="col-7">
-            @Html.CheckError(error)
             <form method="post">
                 <h3>Выберите подразделение</h3>
                 @Html.DropDownList("Department", ViewBag.Deps as SelectList, new { id = "department" })

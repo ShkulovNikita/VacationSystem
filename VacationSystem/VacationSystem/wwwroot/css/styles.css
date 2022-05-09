@@ -63,6 +63,14 @@ main {
     z-index: 1;
 }
 
+#main-small-size {
+    min-height: 250px;
+}
+
+#main-big-size {
+    min-height: 570px;
+}
+
 #main-content {
     flex-basis: auto;
     flex-grow: 1;

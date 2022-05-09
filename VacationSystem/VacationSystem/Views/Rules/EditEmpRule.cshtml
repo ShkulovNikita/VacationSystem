@@ -1,14 +1,11 @@
 ﻿@model EmpRuleViewModel
 
-@using VacationSystem.HtmlHelpers;
 @using VacationSystem.ViewModels;
 
 @{
-    ViewData["Title"] = "Редактирование правила";
+    Layout = "_Common";
 
-    string error = null;
-    if (TempData["Error"] != null)
-        error = TempData["Error"].ToString();
+    ViewData["Title"] = "Редактирование правила для сотрудников";
 
     List<Employee> employees = ViewBag.Employees;
 
@@ -18,7 +15,6 @@
 <div class="container">
     <div class="row">
         <div class="col-7">
-            @Html.CheckError(error)
             <form method="post">
                 <h3>Описание правила:</h3>
                 <textarea name="description" maxlength="500">@Model.Rule.Description</textarea>

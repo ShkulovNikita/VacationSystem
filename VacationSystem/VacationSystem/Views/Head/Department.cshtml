@@ -1,21 +1,15 @@
 ﻿@model DepartmentViewModel
 @using VacationSystem.ViewModels
-@using VacationSystem.HtmlHelpers
 
 @{
-    ViewData["Title"] = "Информация о подразделении";
+    Layout = "_Common";
 
-    string error = null;
-    if (ViewBag.Error != null)
-        error = ViewBag.Error;
-    else if (TempData["Error"] != null)
-        error = TempData["Error"].ToString();
+    ViewData["Title"] = "Информация о подразделении";
 }
 
 <div class="container">
     <div class="row">
-        <div class="col-7">
-            @Html.CheckError(error) 
+        <div class="col-7"> 
             @if (@Model != null)
             {
                 <h2>@Model.Name</h2>

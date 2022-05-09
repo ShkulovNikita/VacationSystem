@@ -1,16 +1,9 @@
-﻿@using VacationSystem.HtmlHelpers;
-
-@{
+﻿@{
     ViewData["Title"] = "Панель руководителя";
-
-    string error = null;
-    if (TempData["Error"] != null)
-        error = TempData["Error"].ToString();
 }
 
 <div id="profile" class="container">
     <div class="row">
-        @Html.CheckError(error)
         <div id="profile-background" class="content-background">
             <h3>Панель руководителя</h3>
             <a asp-controller="Head" asp-action="Departments" class="btn btn-primary btn-lg menu-button">Подразделения</a>

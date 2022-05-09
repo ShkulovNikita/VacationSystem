@@ -1,22 +1,11 @@
 ﻿@model List<RuleViewModel>
 
 @using VacationSystem.ViewModels;
-@using VacationSystem.HtmlHelpers;
 
 @{
+    Layout = "_Common";
+
     ViewData["Title"] = "Список правил выбора отпусков";
-
-    string error = null;
-    if (TempData["Error"] != null)
-        error = TempData["Error"].ToString();
-
-    string message = null;
-    if (TempData["Message"] != null)
-        message = TempData["Message"].ToString();
-
-    string success = null;
-    if (TempData["Success"] != null)
-        success = TempData["Success"].ToString();
 
     List<Department> departments = ViewBag.departments;
 }
@@ -24,9 +13,6 @@
 <div class="container">
     <div class="row">
         <div class="col-10">
-            @Html.CheckError(error)
-            @Html.CheckMessage(message)
-            @Html.CheckSuccess(success)
             <form>
                 <label for="depId">Подразделение</label>
                 <select name="depId">

@@ -1,13 +1,10 @@
-﻿@using VacationSystem.HtmlHelpers
-@using VacationSystem.Classes.Helpers;
+﻿@using VacationSystem.Classes.Helpers;
 @using VacationSystem.ViewModels.ListItems;
 
 @{
-    ViewData["Title"] = "Создание группы";
+    Layout = "_Common";
 
-    string error = null;
-    if (TempData["Error"] != null)
-        error = TempData["Error"].ToString();
+    ViewData["Title"] = "Создание группы";
 
     List<EmpListItem> employees = ViewBag.Employees;
 }
@@ -15,7 +12,6 @@
 <div class="container">
     <div class="row">
         <div class="col-7">
-            @Html.CheckError(error)
             <form method="post">
                 <h3>Выберите подразделение</h3>
                 <select id="department" name="department">

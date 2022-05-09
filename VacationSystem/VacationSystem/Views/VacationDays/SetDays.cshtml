@@ -1,34 +1,15 @@
-﻿@using VacationSystem.HtmlHelpers
-@using VacationSystem.Classes.Helpers;
-@using VacationSystem.ViewModels.ListItems;
+﻿@using VacationSystem.ViewModels.ListItems;
 
 @{
+    Layout = "_Common";
+
     ViewData["Title"] = "Отпускные дни";
-
-    string error = null;
-    if (TempData["Error"] != null)
-        error = TempData["Error"].ToString();
-
-    string message = null;
-    if (TempData["Message"] != null)
-        message = TempData["Message"].ToString();
-
-    string success = null;
-    if (TempData["Success"] != null)
-        success = TempData["Success"].ToString();
 
     List<EmpListItem> employees = ViewBag.Employees;
     List<VacationType> vacationTypes = ViewBag.Types;
 }
 
 <div class="container">
-    <div class="row">
-        <div class="col-8">
-            @Html.CheckError(error)
-            @Html.CheckSuccess(success)
-            @Html.CheckMessage(message)
-        </div>
-    </div>
     <div class="row">
         <form method="post">
             <div class="col-md-4">

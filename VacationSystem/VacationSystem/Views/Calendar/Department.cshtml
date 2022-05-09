@@ -1,7 +1,12 @@
 ﻿@model CalendarViewModel
 
 @using VacationSystem.ViewModels;
-@using VacationSystem.HtmlHelpers;
+
+@{
+    Layout = "_Common";
+
+    ViewData["Title"] = "Календарь отпусков";
+}
 
 <div class="container">
     <div class="row">

@@ -1,13 +1,10 @@
 ﻿@using Microsoft.AspNetCore.Http;
 @using VacationSystem.ViewModels;
-@using VacationSystem.HtmlHelpers;
 
 @{
-    ViewData["Title"] = "Выбор отпуска";
+    Layout = "_Common";
 
-    string error = null;
-    if (TempData["Error"] != null)
-        error = TempData["Error"].ToString();
+    ViewData["Title"] = "Выбор отпуска";
 
     int availableDays = (int)Context.Session.GetInt32("available_days");
 }
@@ -15,7 +12,6 @@
 <div class="container">
     <div class="row">
         <div class="col-7">
-            @Html.CheckError(error)
             <div id="message-block"></div>
             <h5 id="remained-days">Осталось дней: @availableDays</h5>
             <form method="post">

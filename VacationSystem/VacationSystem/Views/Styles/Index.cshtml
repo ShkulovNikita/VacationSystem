@@ -1,25 +1,16 @@
 ﻿@model List<HeadStyleViewModel>;
 
-@using VacationSystem.HtmlHelpers;
 @using VacationSystem.ViewModels;
 
 @{
+    Layout = "_Common";
+
     ViewData["Title"] = "Стили управления";
-
-    string error = null;
-    if (TempData["Error"] != null)
-        error = TempData["Error"].ToString();
-
-    string message = null;
-    if (TempData["Success"] != null)
-        message = TempData["Success"].ToString();
 }
 
 <div class="container">
     <div class="row">
         <div class="col-10">
-            @Html.CheckError(error)
-            @Html.CheckSuccess(message)
             @foreach(HeadStyleViewModel style in Model)
             {
                 <div class="card">
