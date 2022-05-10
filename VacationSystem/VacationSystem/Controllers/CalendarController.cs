@@ -90,7 +90,7 @@ namespace VacationSystem.Controllers
         /// <param name="id">Идентификатор подразделения</param>
         /// <param name="year">Год, на который назначаются отпуска</param>
         [HttpPost]
-        public IActionResult SetVacation(string id, int year)
+        public JsonResult SetVacation(string id, int year)
         {
             // получить всех сотрудников подразделения
             List<Employee> employees = Connector.GetEmployeesOfDepartment(id);
@@ -115,7 +115,25 @@ namespace VacationSystem.Controllers
             else
                 TempData["Error"] = "Не удалось утвердить отпуска";
 
-            return RedirectToAction("Department");
+            return Json(new { redirectToUrl = Url.Action("Department", "Calendar", new { id, year }) });
+        }
+
+        /// <summary>
+        /// Отладочный метод для очистки утвержденных отпусков
+        /// </summary>
+        /// <param name="id">Идентификатор подразделения</param>
+        /// <param name="year">Год, на который назначаются отпуска</param>
+        [HttpPost]
+        public JsonResult ClearSetVacations(string id, int year)
+        {
+            bool result = DatabaseHandler.ClearSetVacations();
+
+            if (result)
+                TempData["Success"] = "Отпуска были успешно удалены";
+            else
+                TempData["Error"] = "Не удалось удалить отпуска";
+
+            return Json(new { redirectToUrl = Url.Action("Department", "Calendar", new { id, year }) });
         }
     }
 }

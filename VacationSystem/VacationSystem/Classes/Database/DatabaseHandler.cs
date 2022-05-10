@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 using System.Diagnostics;
+using System.Collections.Generic;
 using VacationSystem.Models;
 
 namespace VacationSystem.Classes.Database
@@ -236,6 +237,30 @@ namespace VacationSystem.Classes.Database
                         Name = "Перенесен"
                     });
 
+                    db.SaveChanges();
+                }
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return false;
+            }
+        }
+
+        /// <summary>
+        /// Отладочный метод для удаления всех записей из таблицы утвержденных отпусков
+        /// </summary>
+        /// <returns>Успешность выполнения операции</returns>
+        static public bool ClearSetVacations()
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    List<SetVacation> vacations = db.SetVacations.ToList();
+                    db.SetVacations.RemoveRange(vacations);
                     db.SaveChanges();
                 }
 

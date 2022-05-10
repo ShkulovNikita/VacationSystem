@@ -58,6 +58,7 @@
                 </tbody>
             </table>
             <button type="button" id="submit-button" class="btn btn-primary">Утвердить</button>
+            <button type="button" id="clear-button" class="btn btn-danger">Очистить</button>
         </div>
     </div>
 </div>
@@ -80,7 +81,23 @@
                 "year": "@Model.Year"
             },
             url: '@Url.Action("SetVacation")',
-            success: function () { }
+            success: function (response) {
+                window.location.href = response.redirectToUrl;
+            }
+        });
+    });
+
+    $(document).on('click', '#clear-button', function() {
+        $.ajax({
+            type: "POST",
+            data: {
+                "id": "@Model.Department.Id",
+                "year": "@Model.Year"
+            },
+            url: '@Url.Action("ClearSetVacations")',
+            success: function (response) {
+                window.location.href = response.redirectToUrl;
+            }
         });
     });
 </script>

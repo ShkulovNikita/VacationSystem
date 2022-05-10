@@ -345,8 +345,11 @@ namespace VacationSystem.Classes.Database
                                 periods.AddRange(wishedVacations);
                             }
 
+                            /* ------------------------------- */
+                            /* РАСКОММЕНТИРОВАТЬ ПОСЛЕ ОТЛАДКИ */
+                            /* ------------------------------- */
                             // удалить эти отпуска из БД
-                            db.WishedVacationPeriods.RemoveRange(periods);
+                            //db.WishedVacationPeriods.RemoveRange(periods);
 
                             db.SaveChanges();
 
