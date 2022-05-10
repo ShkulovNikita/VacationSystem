@@ -31,7 +31,9 @@
                         <th scope="col">ФИО</th>
                         @foreach (EmpVacationPeriodViewModel period in @Model.Vacations[0].Vacations)
                         {
-                            <th scope="col">@period.Date</th>
+                            <th scope="col" class="calendar-date">
+                                @period.Date
+                            </th>
                         }
                     </tr>
                 </thead>

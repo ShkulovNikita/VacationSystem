@@ -21,7 +21,7 @@
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">
-                            @vacation.StartDate - @vacation.EndDate (@vacation.Days дней)
+                            @vacation.StartDate.ToString("yyyy-MM-dd") - @vacation.EndDate.ToString("yyyy-MM-dd") (@vacation.Days дней)
                         </h5>
                         <div class="card-text">
                             @vacation.Status
