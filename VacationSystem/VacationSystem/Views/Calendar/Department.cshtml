@@ -16,8 +16,8 @@
                 <label>Год</label>
                 <input id="calendar-year" type="number" name="year" value="@Model.Year" />
                 <label>Период</label>
-                <input type="date" name="startDate" value="@Model.StartDate.ToString("yyyy-MM-dd")"/>
-                <input type="date" name="endDate" value="@Model.EndDate.ToString("yyyy-MM-dd")"/>
+                <input type="date" name="startDate" id="start-date" value="@Model.StartDate.ToString("yyyy-MM-dd")"/>
+                <input type="date" name="endDate" id="end-date" value="@Model.EndDate.ToString("yyyy-MM-dd")"/>
                 <label>Тип отпусков:</label>
                 <input type="radio" name="type" value="wished" checked="checked"/>
                 <span>Запланированные</span>
@@ -65,14 +65,17 @@
 
 @section scripts{
 <script type="text/javascript">
+    /* Изменение года календаря */
     $(document).on('change', '#calendar-year', function() {
-        $.ajax({
-            type: "GET",
-            url: '@Url.Action("Department")',
-            success: function () { }
-        });
+        // выбранный пользователем год
+        let year = $('#calendar-year').val();
+
+        // поменять граничные даты в соответствии с выбранным годом
+        $('#start-date').val(year + '-' + '01' + '-' + '01');
+        $('#end-date').val(year + '-' + '12' + '-' + '31');
     });
 
+    /* Утверждение отпусков */
     $(document).on('click', '#submit-button', function() {
         $.ajax({
             type: "POST",
@@ -87,6 +90,7 @@
         });
     });
 
+    /* Отладочная кнопка для удаления всех утвержденных отпусков */
     $(document).on('click', '#clear-button', function() {
         $.ajax({
             type: "POST",
