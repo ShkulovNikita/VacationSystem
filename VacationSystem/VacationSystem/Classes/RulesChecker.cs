@@ -70,16 +70,77 @@ namespace VacationSystem.Classes
         {
             // в первую очередь проверить, есть ли сотрудники с отсутствующими отпусками
             int empsWithoutVacations = CountAbsentVacations(employees);
-            // если у всех сотрудников нет отпуска, то правило выполняется
-            if (empsWithoutVacations == employees.Count)
-                return true;
-            // в противном случае означает, что как минимум один сотрудник из правила не вышел в отпуск, когда должен
-            else
-                return false;
+
+            if (empsWithoutVacations > 0)
+            {
+                // если у всех сотрудников нет отпуска, то правило выполняется
+                if (empsWithoutVacations == employees.Count)
+                    return true;
+                // в противном случае означает, что как минимум один сотрудник из правила не вышел в отпуск, когда должен
+                else
+                    return false;
+            }
 
             // необходимо сравнивать всех сотрудников с тем,
             // у которого наименьшее количество дней отпуска
             
+            // сотрудники, упорядоченные по возрастанию количества дней отпуска
+            employees = employees.OrderBy(e => CountVacationDays(e.WishedVacationPeriods[0].VacationParts)).ToList();
+
+            // сравнить отпуска сотрудников на совпадение
+            return CompareEmployeeVacations(employees);
+        }
+
+        /// <summary>
+        /// Сравнение отпусков сотрудников
+        /// </summary>
+        /// <param name="employees">Список сотрудников с их отпусками</param>
+        /// <returns>true: отпуска сотрудников совпадают; false: отпуска сотрудников не совпадают</returns>
+        static public bool CompareEmployeeVacations(List<Employee> employees)
+        {
+            for (int i = 0; i < employees.Count - 1; i++)
+                for (int j = i + 1; j < employees.Count; j++)
+                    // отпуска первого сотрудника меньше или равны по размеру
+                    // отпускам второго сравниваемого сотрудника,
+                    // поэтому они должны быть включены внутрь вторых
+                    if (!CompareTwoEmployees(employees[i].WishedVacationPeriods[0].VacationParts,
+                                             employees[j].WishedVacationPeriods[0].VacationParts))
+                        return false;
+
+            return true;
+        }
+
+        /// <summary>
+        /// Сравнение отпусков двух сотрудников
+        /// </summary>
+        /// <param name="parts1">Отпуска первого сотрудника (количество дней меньше или равно второму)</param>
+        /// <param name="parts2">Отпуска второго сотрудника</param>
+        /// <returns>true: отпуска совпадают, false: не совпадают</returns>
+        static public bool CompareTwoEmployees(List<VacationPart> parts1, List<VacationPart> parts2)
+        {
+            // отметка о нахождении всех "аналогов" отпусков первого сотрудника
+            // в отпусках второго
+            bool[] found = new bool[parts1.Count];
+            for (int i = 0; i < found.Length; i++)
+                found[i] = false;
+
+            for (int i = 0; i < found.Length; i++)
+                foreach (VacationPart part in parts2)
+                {
+                    if ((parts1[i].StartDate >= part.StartDate) && (parts1[i].EndDate <= part.EndDate))
+                    {
+                        found[i] = true;
+                        break;
+                    }
+                        
+                }
+
+            // проверить, совпадают ли все периоды отпуска
+            for (int i = 0; i < found.Length; i++)
+                if (!found[i])
+                    return false;
+
+            return true;
         }
 
         /// <summary>
@@ -113,6 +174,21 @@ namespace VacationSystem.Classes
             }
 
             return filtered;
+        }
+
+        /// <summary>
+        /// Посчитать количество дней отпуска сотрудника в указанные периоды
+        /// </summary>
+        /// <param name="parts">Периоды отпуска</param>
+        /// <returns>Количество дней отпуска</returns>
+        static public int CountVacationDays(List<VacationPart> parts)
+        {
+            int count = 0;
+
+            foreach (VacationPart part in parts) 
+                count += Math.Abs((part.EndDate - part.StartDate).Days) + 1;
+
+            return count;
         }
 
         /// <summary>
