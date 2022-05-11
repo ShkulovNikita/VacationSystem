@@ -36,6 +36,11 @@ namespace VacationSystem.ViewModels
         public DateTime Date { get; set; }
 
         /// <summary>
+        /// Период года, в который действует правило
+        /// </summary>
+        public string Period { get; set; }
+
+        /// <summary>
         /// Подразделение, в котором действует правило
         /// </summary>
         public Department Department { get; set; }

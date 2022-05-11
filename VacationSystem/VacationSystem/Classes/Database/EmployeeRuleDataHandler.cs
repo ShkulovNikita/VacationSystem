@@ -72,7 +72,7 @@ namespace VacationSystem.Classes.Database
         /// <param name="headId">Идентификатор руководителя</param>
         /// <param name="employees">Список задействованных правилом сотрудников</param>
         /// <returns>Успешность выполнения операции</returns>
-        static public bool AddEmployeesRule(string description, int type, string depId, string headId, List<Employee> employees)
+        static public bool AddEmployeesRule(string description, int type, string depId, string headId, List<Employee> employees, DateTime startDate, DateTime endDate)
         {
             try
             {
@@ -84,6 +84,8 @@ namespace VacationSystem.Classes.Database
                         RuleTypeId = type,
                         DepartmentId = depId,
                         HeadEmployeeId = headId,
+                        StartDate = startDate,
+                        EndDate = endDate,
                         Date = DateTime.Now
                     };
 
@@ -147,7 +149,7 @@ namespace VacationSystem.Classes.Database
         /// <param name="description">Описание правила</param>
         /// <param name="employees">Список сотрудников, затрагиваемых правилом</param>
         /// <returns>Успешность выполнения операции</returns>
-        static public bool EditEmployeesRule(int ruleId, string description, List<Employee> employees)
+        static public bool EditEmployeesRule(int ruleId, string description, List<Employee> employees, DateTime startDate, DateTime endDate)
         {
             try
             {
@@ -161,6 +163,8 @@ namespace VacationSystem.Classes.Database
                         return false;
 
                     rule.Description = description;
+                    rule.StartDate = startDate;
+                    rule.EndDate = endDate;
 
                     foreach (Employee emp in employees)
                     {

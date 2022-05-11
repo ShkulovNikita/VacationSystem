@@ -68,7 +68,7 @@ namespace VacationSystem.Classes.Database
         /// <param name="depId">Идентификатор подразделения</param>
         /// <param name="headId">Идентификатор руководителя</param>
         /// <returns>Успешность выполнения операции</returns>
-        static public bool AddPositionRule(int number, string description, string posId, string depId, string headId)
+        static public bool AddPositionRule(int number, string description, string posId, string depId, string headId, DateTime startDate, DateTime endDate)
         {
             try
             {
@@ -81,6 +81,8 @@ namespace VacationSystem.Classes.Database
                         PositionId = posId,
                         DepartmentId = depId,
                         HeadEmployeeId = headId,
+                        StartDate = startDate,
+                        EndDate = endDate,
                         Date = DateTime.Now
                     });
 
@@ -131,7 +133,7 @@ namespace VacationSystem.Classes.Database
         /// <param name="number">Количество сотрудников должности, которые должны быть на рабочем месте</param>
         /// <param name="description">Описание правила</param>
         /// <returns>Успешность выполнения операции</returns>
-        static public bool EditPositionRule(int ruleId, int number, string description)
+        static public bool EditPositionRule(int ruleId, int number, string description, DateTime startDate, DateTime endDate)
         {
             try
             {
@@ -142,6 +144,8 @@ namespace VacationSystem.Classes.Database
                         return false;
 
                     rule.Description = description;
+                    rule.StartDate = startDate;
+                    rule.EndDate = endDate;
                     rule.PeopleNumber = number;
 
                     db.SaveChanges();

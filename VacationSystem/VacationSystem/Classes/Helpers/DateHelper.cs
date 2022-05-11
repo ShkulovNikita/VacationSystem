@@ -74,5 +74,22 @@ namespace VacationSystem.Classes.Helpers
                     return (DateTime)date;
             }
         }
+
+        /// <summary>
+        /// Исправление граничных дат, которые не были выбраны пользователем
+        /// </summary>
+        /// <param name="date">Дата для проверки</param>
+        /// <param name="type">Тип: false - начальная, true - конечная</param>
+        /// <returns>Дата в исправленном (при необходимости) виде</returns>
+        static public DateTime TransformEdgeDate(DateTime date, bool type)
+        {
+            if (date != DateTime.MinValue)
+                return date;
+            else
+                if (!type)
+                    return new DateTime(DateTime.Now.Year, 1, 1);
+                else
+                    return new DateTime(DateTime.Now.Year, 12, 31);
+        }
     }
 }

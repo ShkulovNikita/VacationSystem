@@ -22,6 +22,9 @@
                 </select>
                 <h3>Описание правила:</h3>
                 <textarea name="description" maxlength="100"></textarea>
+                <h3>Период действия правила:</h3>
+                <input name="startDate" type="date" id="date-edge-start" />
+                <input name="endDate" type="date" id="date-edge-end" />
                 <h3>Выберите должность</h3>
                 <select id="positions" name="positions">
                     @foreach (var pos in positions)
@@ -39,6 +42,17 @@
 
 @section scripts{
 <script type="text/javascript">
+    $(document).ready(function() {
+        // установить пределы на граничные даты выбираемого периода
+        var year = new Date().getFullYear();
+
+        document.getElementById('date-edge-start').setAttribute("min", year + "-01-01");
+        document.getElementById('date-edge-start').setAttribute("max", year + "-12-31");
+
+        document.getElementById('date-edge-end').setAttribute("min", year + "-01-01");
+        document.getElementById('date-edge-end').setAttribute("max", year + "-12-31");
+    });
+
     $(function () {
         $('#department').change(function()
         {

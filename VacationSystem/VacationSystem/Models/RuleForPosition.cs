@@ -31,6 +31,16 @@ namespace VacationSystem.Models
         public string Description { get; set; }
 
         /// <summary>
+        /// Начальная дата периода, в течение которого действует правило (день и месяц)
+        /// </summary>
+        public DateTime StartDate { get; set; }
+
+        /// <summary>
+        /// Конечная дата периода, в течение которого действует правило (день и месяц)
+        /// </summary>
+        public DateTime EndDate { get; set; }
+
+        /// <summary>
         /// Должность, на которую устанавливается правило
         /// </summary>
         [Required, MaxLength(50)]

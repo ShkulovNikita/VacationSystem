@@ -1,6 +1,6 @@
 ﻿@model IEnumerable<VacationSystem.ViewModels.ListItems.PosListItem>
 
-<select class="position-group-list" name="positions">
+<select id="positions" name="positions">
     @foreach (var item in Model)
     {
         <option value="@item.PosId">@item.Name</option>

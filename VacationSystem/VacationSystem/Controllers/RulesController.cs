@@ -113,7 +113,7 @@ namespace VacationSystem.Controllers
         /// <param name="description">Описание правила</param>
         /// <param name="employees">Список идентификаторов сотрудников</param>
         [HttpPost]
-        public IActionResult AddEmpRule(string department, int type, string description, string[] employees)
+        public IActionResult AddEmpRule(string department, int type, string description, string[] employees, DateTime startDate, DateTime endDate)
         {
             // идентификатор авторизованного руководителя
             string headId = HttpContext.Session.GetString("id");
@@ -139,7 +139,10 @@ namespace VacationSystem.Controllers
                 return RedirectToAction("Index");
             }
 
-            if (EmployeeRuleDataHandler.AddEmployeesRule(description, type, department, headId, emps))
+            startDate = DateHelper.TransformEdgeDate(startDate, false);
+            endDate = DateHelper.TransformEdgeDate(endDate, true);
+
+            if (EmployeeRuleDataHandler.AddEmployeesRule(description, type, department, headId, emps, startDate, endDate))
                 TempData["Success"] = "Правило успешно сохранено!";
             else
                 TempData["Error"] = "Не удалось сохранить правило";
@@ -225,7 +228,7 @@ namespace VacationSystem.Controllers
         /// <param name="description">Описание правила</param>
         /// <param name="employees">Список идентификаторов сотрудников правила</param>
         [HttpPost]
-        public IActionResult EditEmpRule(int ruleId, string description, string[] employees)
+        public IActionResult EditEmpRule(int ruleId, string description, string[] employees, DateTime startDate, DateTime endDate)
         {
             // идентификатор авторизованного руководителя
             string headId = HttpContext.Session.GetString("id");
@@ -244,12 +247,26 @@ namespace VacationSystem.Controllers
                     empsOfRule.Add(emp);
             }
 
-            if (EmployeeRuleDataHandler.EditEmployeesRule(ruleId, description, empsOfRule))
+            startDate = DateHelper.TransformEdgeDate(startDate, false);
+            endDate = DateHelper.TransformEdgeDate(endDate, true);
+
+            if (EmployeeRuleDataHandler.EditEmployeesRule(ruleId, description, empsOfRule, startDate, endDate))
                 TempData["Success"] = "Изменения в правиле успешно сохранены!";
             else
                 TempData["Error"] = "Не удалось сохранить изменения в правиле";
 
             return RedirectToAction("Index");
+        }
+
+        /// <summary>
+        /// Вывод частичного представления со списком сотрудников из указанного подразделения
+        /// </summary>
+        /// <param name="id">Идентификатор подразделения</param>
+        public ActionResult GetEmployeeItems(string id)
+        {
+            // получить из сессии всех сотрудников
+            List<EmpListItem> allEmps = SessionHelper.GetObjectFromJson<List<EmpListItem>>(HttpContext.Session, "all_employees");
+            return PartialView(allEmps.Where(e => e.DepartmentId == id).ToList());
         }
 
         /// <summary>
@@ -324,7 +341,7 @@ namespace VacationSystem.Controllers
         /// <param name="number">Количество сотрудников должности, которые должны быть 
         /// одновременно на рабочем месте</param>
         [HttpPost]
-        public IActionResult AddPosRule(string description, string department, string positions, int number)
+        public IActionResult AddPosRule(string description, string department, string positions, int number, DateTime startDate, DateTime endDate)
         {
             string headId = HttpContext.Session.GetString("id");
             if (headId == null)
@@ -333,7 +350,10 @@ namespace VacationSystem.Controllers
                 return RedirectToAction("Index");
             }
 
-            if (PositionRuleDataHandler.AddPositionRule(number, description, positions, department, headId))
+            startDate = DateHelper.TransformEdgeDate(startDate, false);
+            endDate = DateHelper.TransformEdgeDate(endDate, true);
+
+            if (PositionRuleDataHandler.AddPositionRule(number, description, positions, department, headId, startDate, endDate))
                 TempData["Success"] = "Правило было успешно добавлено!";
             else
                 TempData["Error"] = "Не удалось добавить правило";
@@ -405,9 +425,12 @@ namespace VacationSystem.Controllers
         /// <param name="number">Количество сотрудников должности, которые должны быть 
         /// одновременно на рабочем месте</param>
         [HttpPost]
-        public IActionResult EditPosRule(int ruleId, string description, int number)
+        public IActionResult EditPosRule(int ruleId, string description, int number, DateTime startDate, DateTime endDate)
         {
-            if (PositionRuleDataHandler.EditPositionRule(ruleId, number, description))
+            startDate = DateHelper.TransformEdgeDate(startDate, false);
+            endDate = DateHelper.TransformEdgeDate(endDate, true);
+
+            if (PositionRuleDataHandler.EditPositionRule(ruleId, number, description, startDate, endDate))
                 TempData["Success"] = "Изменения успешно сохранены";
             else
                 TempData["Error"] = "Не удалось сохранить изменения";
@@ -494,7 +517,7 @@ namespace VacationSystem.Controllers
         /// <param name="group">Идентификатор группы</param>
         /// <param name="type">Тип правила</param>
         [HttpPost]
-        public IActionResult AddGroupRule(string department, string description, int group, int type)
+        public IActionResult AddGroupRule(string department, string description, int group, int type, DateTime startDate, DateTime endDate)
         {
             string headId = HttpContext.Session.GetString("id");
             if (headId == null)
@@ -503,7 +526,10 @@ namespace VacationSystem.Controllers
                 return RedirectToAction("Index");
             }
 
-            if (GroupRuleDataHandler.AddGroupRule(description, type, group))
+            startDate = DateHelper.TransformEdgeDate(startDate, false);
+            endDate = DateHelper.TransformEdgeDate(endDate, true);
+
+            if (GroupRuleDataHandler.AddGroupRule(description, type, group, startDate, endDate))
                 TempData["Success"] = "Новое правило успешно сохранено";
             else
                 TempData["Error"] = "Не удалось сохранить правило";
@@ -564,9 +590,12 @@ namespace VacationSystem.Controllers
         /// <param name="ruleId">Идентификатор правила</param>
         /// <param name="description">Описание правила</param>
         [HttpPost]
-        public IActionResult EditGroupRule(int ruleId, string description)
+        public IActionResult EditGroupRule(int ruleId, string description, DateTime startDate, DateTime endDate)
         {
-            if (GroupRuleDataHandler.EditGroupRule(ruleId, description))
+            startDate = DateHelper.TransformEdgeDate(startDate, false);
+            endDate = DateHelper.TransformEdgeDate(endDate, true);
+
+            if (GroupRuleDataHandler.EditGroupRule(ruleId, description, startDate, endDate))
                 TempData["Success"] = "Изменения успешно сохранены";
             else
                 TempData["Error"] = "Не удалось сохранить изменения";

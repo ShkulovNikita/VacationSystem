@@ -69,7 +69,7 @@ namespace VacationSystem.Classes.Database
         /// <param name="type">Идентификатор типа правила</param>
         /// <param name="groupId">Идентификатор задействованной группы</param>
         /// <returns>Успешность выполнения операции</returns>
-        static public bool AddGroupRule(string description, int type, int groupId)
+        static public bool AddGroupRule(string description, int type, int groupId, DateTime startDate, DateTime endDate)
         {
             try
             {
@@ -80,6 +80,8 @@ namespace VacationSystem.Classes.Database
                         Description = description,
                         RuleTypeId = type,
                         GroupId = groupId,
+                        StartDate = startDate,
+                        EndDate = endDate,
                         Date = DateTime.Now
                     });
 
@@ -129,7 +131,7 @@ namespace VacationSystem.Classes.Database
         /// <param name="ruleId">Идентификатор правила</param>
         /// <param name="description">Описание правила</param>
         /// <returns>Успешность выполнения операции</returns>
-        static public bool EditGroupRule(int ruleId, string description)
+        static public bool EditGroupRule(int ruleId, string description, DateTime startDate, DateTime endDate)
         {
             try
             {
@@ -140,6 +142,8 @@ namespace VacationSystem.Classes.Database
                         return false;
 
                     rule.Description = description;
+                    rule.StartDate = startDate;
+                    rule.EndDate = endDate;
 
                     db.SaveChanges();
 

@@ -58,6 +58,7 @@ namespace VacationSystem.Classes.Helpers
                     Department = dep,
                     Date = rule.Date,
                     RuleType = "Emp",
+                    Period = RulePeriodHelper.GetPeriodText(rule.StartDate, rule.EndDate),
                     SystemDescription = "Правило для " + rule.EmployeeInRules.Count.ToString() + " сотрудников подразделения"
                 });
             }
@@ -95,6 +96,7 @@ namespace VacationSystem.Classes.Helpers
                         Department = dep,
                         Date = rule.Date,
                         RuleType = "Pos",
+                        Period = RulePeriodHelper.GetPeriodText(rule.StartDate, rule.EndDate),
                         SystemDescription = "Правило для " + rule.PeopleNumber.ToString() + " человек должности \"" + pos.Name + "\""
                     });
                 }
@@ -132,6 +134,7 @@ namespace VacationSystem.Classes.Helpers
                         Department = dep,
                         Date = rule.Date,
                         RuleType = "Group",
+                        Period = RulePeriodHelper.GetPeriodText(rule.StartDate, rule.EndDate),
                         SystemDescription = "Правило для группы " + rule.Group.Name
                     });
                 }

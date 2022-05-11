@@ -18,6 +18,9 @@
             <form method="post">
                 <h3>Описание правила:</h3>
                 <textarea name="description" maxlength="500">@Model.Rule.Description</textarea>
+                <h3>Период действия правила:</h3>
+                <input name="startDate" type="date" id="date-edge-start" />
+                <input name="endDate" type="date" id="date-edge-end" />
                 <h3>Выберите сотрудников</h3>
                 <select multiple id="employees" name="employees" size="@size">
                     @foreach (var emp in Model.Employees)
@@ -34,3 +37,18 @@
         </div>
     </div>
 </div>
+
+@section scripts {
+<script type="text/javascript">
+    $(document).ready(function() {
+        // установить пределы на граничные даты выбираемого периода
+        var year = new Date().getFullYear();
+
+        document.getElementById('date-edge-start').setAttribute("min", year + "-01-01");
+        document.getElementById('date-edge-start').setAttribute("max", year + "-12-31");
+
+        document.getElementById('date-edge-end').setAttribute("min", year + "-01-01");
+        document.getElementById('date-edge-end').setAttribute("max", year + "-12-31");
+    });
+</script>
+}
