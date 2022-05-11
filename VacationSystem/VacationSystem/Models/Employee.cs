@@ -8,28 +8,71 @@ namespace VacationSystem.Models
     /// <summary>
     /// Сотрудник ТПУ
     /// </summary>
-
     [NotMapped, Table("employees")]
     public class Employee
     {
+        public Employee (Employee emp, List<VacationPart> parts)
+        {
+            Id = emp.Id;
+            FirstName = emp.FirstName;
+            MiddleName = emp.MiddleName;
+            LastName = emp.LastName;
+            Time = emp.Time;
+            BirthDate = emp.BirthDate;
+            StartDate = emp.StartDate;
+            WishedVacationPeriods = new List<WishedVacationPeriod>
+            {
+                new WishedVacationPeriod
+                {
+                    Id = emp.WishedVacationPeriods[0].Id,
+                    Priority = emp.WishedVacationPeriods[0].Priority,
+                    Date = emp.WishedVacationPeriods[0].Date,
+                    Year = emp.WishedVacationPeriods[0].Year,
+                    EmployeeId = emp.Id,
+                    VacationParts = parts
+                }
+            };
+        }
+
+        /// <summary>
+        /// Идентификатор сотрудника
+        /// </summary>
         [Key, Required, MaxLength(50)]
         public string Id { get; set; }
 
+        /// <summary>
+        /// Имя сотрудника
+        /// </summary>
         [NotMapped, MaxLength(150)]
         public string FirstName { get; set; }
 
+        /// <summary>
+        /// Отчество сотрудника
+        /// </summary>
         [NotMapped, MaxLength(150)]
         public string MiddleName { get; set; }
 
+        /// <summary>
+        /// Фамилия сотрудника
+        /// </summary>
         [NotMapped, MaxLength(150)]
         public string LastName { get; set; }
 
+        /// <summary>
+        /// Ставка
+        /// </summary>
         [NotMapped]
         public double Time { get; set; }
 
+        /// <summary>
+        /// Дата начала работы
+        /// </summary>
         [NotMapped]
         public DateTime StartDate { get; set; }
 
+        /// <summary>
+        /// Дата рождения
+        /// </summary>
         [NotMapped]
         public DateTime BirthDate { get; set; }
 

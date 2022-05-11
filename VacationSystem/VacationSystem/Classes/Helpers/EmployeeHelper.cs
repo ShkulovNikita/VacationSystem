@@ -308,5 +308,18 @@ namespace VacationSystem.Classes.Helpers
 
             return emps;
         }
+
+        /// <summary>
+        /// Получить ФИО сотрудника
+        /// </summary>
+        /// <param name="emp">Сотрудник</param>
+        /// <returns>ФИО сотрудника</returns>
+        static public string GetFullName(Employee emp)
+        {
+            if (emp.MiddleName == null)
+                return emp.LastName + " " + emp.FirstName[0] + ".";
+            else
+                return emp.LastName + " " + emp.FirstName[0] + ". " + emp.MiddleName[0] + ".";
+        }
     }
 }
