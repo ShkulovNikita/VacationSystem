@@ -49,8 +49,11 @@ namespace VacationSystem.Classes.Rules
         /// <returns>Список выявленных нарушений правила</returns>
         static public RuleWarning CheckEmployeeRule(List<Employee> employees, EmployeeRule rule)
         {
+            // оставить только тех сотрудников, которые затронуты правилом
+            List<Employee> emps = employees.Where(e => rule.EmployeeInRules.Any(eir => eir.EmployeeId == e.Id)).ToList();
+
             // отфильтровать отпуска сотрудников по периоду, в который действует данное правило
-            List<Employee> emps = FilterVacations(employees, rule.StartDate, rule.EndDate);
+            emps = FilterVacations(employees, rule.StartDate, rule.EndDate);
 
             // должны уходить в отпуск одновременно
             if (rule.RuleTypeId == 1)

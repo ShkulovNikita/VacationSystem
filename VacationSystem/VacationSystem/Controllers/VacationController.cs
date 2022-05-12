@@ -258,7 +258,7 @@ namespace VacationSystem.Controllers
         /// <param name="startDates">Начальные даты отпуска</param>
         /// <param name="endDates">Конечные даты отпуска</param>
         [HttpPost]
-        public IActionResult EditWishedVacation(int vacationId, DateTime[] startDates, DateTime[] endDates)
+        public IActionResult EditWishedVacation(string empId, int vacationId, DateTime[] startDates, DateTime[] endDates)
         {
             // создать объект с выбранным отпуском сотрудника
             ChosenVacation vacation = VacationHelper.MakeVacation(startDates, endDates);
@@ -287,7 +287,7 @@ namespace VacationSystem.Controllers
             else
                 TempData["Success"] = "Изменения были успешно сохранены";
 
-            return RedirectToAction("Index");
+            return RedirectToAction("Index", new { empId });
         }
     }
 }
