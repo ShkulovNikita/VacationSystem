@@ -1,7 +1,7 @@
 ﻿using VacationSystem.Models;
 using System.Collections.Generic;
 
-namespace VacationSystem.Classes
+namespace VacationSystem.Classes.Rules
 {
     /// <summary>
     /// Класс для объектов, указывающих, какие правила не были соблюдены

@@ -50,6 +50,7 @@ namespace VacationSystem.Classes.Database
                 using (ApplicationContext db = new ApplicationContext())
                 {
                     return db.EmployeeRules
+                        .Include(er => er.RuleType)
                         .Include(er => er.EmployeeInRules)
                         .Where(er => er.HeadEmployeeId == headId
                         && er.DepartmentId == depId)

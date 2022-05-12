@@ -4,12 +4,12 @@ using System.Collections.Generic;
 using VacationSystem.Models;
 using VacationSystem.Classes.Database;
 
-namespace VacationSystem.Classes
+namespace VacationSystem.Classes.Rules
 {
     /// <summary>
     /// Класс для проверок отпусков на соответствие созданным правилам
     /// </summary>
-    static public class RulesChecker
+    static public class EmployeeRulesChecker
     {
         /// <summary>
         /// Проверить соблюдение правил для сотрудников
@@ -33,9 +33,9 @@ namespace VacationSystem.Classes
             List<RuleWarning> warnings = new List<RuleWarning>();
             foreach (EmployeeRule rule in rules)
             {
-                List<RuleWarning> ruleWarnings = CheckEmployeeRule(employees, rule);
-                if (ruleWarnings != null)
-                    warnings.AddRange(ruleWarnings);
+                RuleWarning ruleWarning = CheckEmployeeRule(employees, rule);
+                if (ruleWarning != null)
+                    warnings.Add(ruleWarning);
             }
 
             return warnings;
@@ -47,14 +47,32 @@ namespace VacationSystem.Classes
         /// <param name="employees">Список сотрудников с их отпусками</param>
         /// <param name="rule">Правило для сотрудников</param>
         /// <returns>Список выявленных нарушений правила</returns>
-        static public List<RuleWarning> CheckEmployeeRule(List<Employee> employees, EmployeeRule rule)
+        static public RuleWarning CheckEmployeeRule(List<Employee> employees, EmployeeRule rule)
         {
             // отфильтровать отпуска сотрудников по периоду, в который действует данное правило
             List<Employee> emps = FilterVacations(employees, rule.StartDate, rule.EndDate);
 
+            // должны уходить в отпуск одновременно
+            if (rule.RuleTypeId == 1)
+            {
+                if (CheckSameVacationPeriod(emps))
+                    return null;
+                else
+                {
+                    return new RuleWarning
+                    {
+                        RuleId = rule.Id,
+                        Type = "emp",
+                        Description = "Сотрудники данного правила должны уходить в отпуск одновременно",
+                        Employees = employees
+                    };
+                }
+            }
+            // не должны уходить в отпуск одновременно
+            else
+            {
 
-            //TODO
-            
+            }
 
             return null;
         }
@@ -63,10 +81,8 @@ namespace VacationSystem.Classes
         /// Проверка, что указанные сотрудники уходят в отпуск одновременно
         /// </summary>
         /// <param name="employees">Список сотрудников с их отпусками</param>
-        /// <param name="startDate">Начальная дата периода, в который работает правило</param>
-        /// <param name="endDate">Конечная дата периода</param>
         /// <returns>Результат проверки: true - уходят одновременно, false - не уходит одновременно</returns>
-        static public bool CheckSameVacationPeriod(List<Employee> employees, DateTime startDate, DateTime endDate)
+        static public bool CheckSameVacationPeriod(List<Employee> employees)
         {
             // в первую очередь проверить, есть ли сотрудники с отсутствующими отпусками
             int empsWithoutVacations = CountAbsentVacations(employees);
@@ -83,7 +99,7 @@ namespace VacationSystem.Classes
 
             // необходимо сравнивать всех сотрудников с тем,
             // у которого наименьшее количество дней отпуска
-            
+
             // сотрудники, упорядоченные по возрастанию количества дней отпуска
             employees = employees.OrderBy(e => CountVacationDays(e.WishedVacationPeriods[0].VacationParts)).ToList();
 
@@ -127,12 +143,12 @@ namespace VacationSystem.Classes
             for (int i = 0; i < found.Length; i++)
                 foreach (VacationPart part in parts2)
                 {
-                    if ((parts1[i].StartDate >= part.StartDate) && (parts1[i].EndDate <= part.EndDate))
+                    if (parts1[i].StartDate >= part.StartDate && parts1[i].EndDate <= part.EndDate)
                     {
                         found[i] = true;
                         break;
                     }
-                        
+
                 }
 
             // проверить, совпадают ли все периоды отпуска
@@ -162,8 +178,8 @@ namespace VacationSystem.Classes
 
                 // отфильтровать отпуска по периоду
                 List<VacationPart> filteredParts = emp.WishedVacationPeriods[0].VacationParts
-                    .Where(vp => (vp.StartDate.Month >= startDate.Month && vp.StartDate.Day >= startDate.Day)
-                    && (vp.EndDate.Month <= endDate.Month && vp.EndDate.Day <= endDate.Day))
+                    .Where(vp => vp.StartDate.Month >= startDate.Month && vp.StartDate.Day >= startDate.Day
+                    && vp.EndDate.Month <= endDate.Month && vp.EndDate.Day <= endDate.Day)
                     .ToList();
 
                 // добавить сотрудника с отфильтрованными отпусками в список результата
@@ -185,7 +201,7 @@ namespace VacationSystem.Classes
         {
             int count = 0;
 
-            foreach (VacationPart part in parts) 
+            foreach (VacationPart part in parts)
                 count += Math.Abs((part.EndDate - part.StartDate).Days) + 1;
 
             return count;
