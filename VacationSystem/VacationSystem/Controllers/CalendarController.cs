@@ -7,6 +7,7 @@ using System;
 using VacationSystem.Models;
 using VacationSystem.ViewModels;
 using VacationSystem.Classes;
+using VacationSystem.Classes.Rules;
 using VacationSystem.Classes.Helpers;
 using VacationSystem.Classes.Database;
 
@@ -96,18 +97,7 @@ namespace VacationSystem.Controllers
             List<Employee> employees = Connector.GetEmployeesOfDepartment(id);
 
             // получить все желаемые отпуска сотрудников
-            foreach (Employee emp in employees)
-            {
-                // получение периода с наивысшим приоритетом
-                WishedVacationPeriod vacation = VacationDataHandler
-                    .GetWishedVacations(emp.Id, year)
-                    .FirstOrDefault(wv => wv.Priority == 1);
-                // сохранение периода в объекте сотрудника
-                emp.WishedVacationPeriods.Add(vacation);
-            }
-
-            // проверки на соответствие правилам
-
+            employees = GetEmployeesWithVacations(employees, year);
 
             // если прошли - сохранение в БД
             if (VacationHelper.SetVacations(employees, year))
@@ -116,6 +106,53 @@ namespace VacationSystem.Controllers
                 TempData["Error"] = "Не удалось утвердить отпуска";
 
             return Json(new { redirectToUrl = Url.Action("Department", "Calendar", new { id, year }) });
+        }
+
+        /// <summary>
+        /// Получить запланированные отпуска для сотрудников
+        /// </summary>
+        /// <param name="employees">Список сотрудников</param>
+        /// <returns>Список сотрудников с сохраненными данными о желаемых отпусках</returns>
+        private List<Employee> GetEmployeesWithVacations(List<Employee> employees, int year)
+        {
+            foreach (Employee emp in employees)
+            {
+                // получение периода с наивысшим приоритетом
+                WishedVacationPeriod vacation = VacationDataHandler
+                    .GetWishedVacations(emp.Id, year)
+                    .FirstOrDefault(wv => wv.Priority == 1);
+                // сохранение периода в объекте сотрудника
+                if (vacation != null)
+                    emp.WishedVacationPeriods.Add(vacation);
+                else
+                    emp.WishedVacationPeriods = new List<WishedVacationPeriod>();
+            }
+
+            return employees;
+        }
+
+        /// <summary>
+        /// Проверка утверждаемых отпусков на соответствие правилам
+        /// </summary>
+        /// <param name="depId">Идентификатор подразделения</param>
+        [HttpPost]
+        public JsonResult CheckVacations(string depId, int year)
+        {
+            // получить идентификатор руководителя
+            string headId = HttpContext.Session.GetString("id");
+            if (headId == null)
+                TempData["Error"] = "Не удалось загрузить данные руководителя";
+
+            // получить всех сотрудников подразделения
+            List<Employee> employees = Connector.GetEmployeesOfDepartment(depId);
+
+            // получить все желаемые отпуска сотрудников
+            employees = GetEmployeesWithVacations(employees, year);
+
+            // проверки на соответствие правилам
+            List<RuleWarning> warnings = EmployeeRulesChecker.CheckEmployeeRules(employees, headId, depId);
+
+            return Json(new { warnings });
         }
 
         /// <summary>

@@ -11,6 +11,8 @@ namespace VacationSystem.Models
     [NotMapped, Table("employees")]
     public class Employee
     {
+        public Employee () { }
+
         public Employee (Employee emp, List<VacationPart> parts)
         {
             Id = emp.Id;
@@ -20,18 +22,21 @@ namespace VacationSystem.Models
             Time = emp.Time;
             BirthDate = emp.BirthDate;
             StartDate = emp.StartDate;
-            WishedVacationPeriods = new List<WishedVacationPeriod>
-            {
-                new WishedVacationPeriod
+            if (parts == null)
+                WishedVacationPeriods = new List<WishedVacationPeriod>();
+            else
+                WishedVacationPeriods = new List<WishedVacationPeriod>
                 {
-                    Id = emp.WishedVacationPeriods[0].Id,
-                    Priority = emp.WishedVacationPeriods[0].Priority,
-                    Date = emp.WishedVacationPeriods[0].Date,
-                    Year = emp.WishedVacationPeriods[0].Year,
-                    EmployeeId = emp.Id,
-                    VacationParts = parts
-                }
-            };
+                    new WishedVacationPeriod
+                    {
+                        Id = emp.WishedVacationPeriods[0].Id,
+                        Priority = emp.WishedVacationPeriods[0].Priority,
+                        Date = emp.WishedVacationPeriods[0].Date,
+                        Year = emp.WishedVacationPeriods[0].Year,
+                        EmployeeId = emp.Id,
+                        VacationParts = parts
+                    }
+                };
         }
 
         /// <summary>

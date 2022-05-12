@@ -174,8 +174,11 @@ namespace VacationSystem.Classes.Rules
             foreach (Employee emp in employees)
             {
                 if (emp.WishedVacationPeriods.Count == 0)
-                    filtered.Add(new Employee(emp, new List<VacationPart>()));
-
+                {
+                    filtered.Add(new Employee(emp, null));
+                    continue;
+                }
+                    
                 // отфильтровать отпуска по периоду
                 List<VacationPart> filteredParts = emp.WishedVacationPeriods[0].VacationParts
                     .Where(vp => vp.StartDate.Month >= startDate.Month && vp.StartDate.Day >= startDate.Day

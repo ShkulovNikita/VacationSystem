@@ -8,6 +8,10 @@
     ViewData["Title"] = "Календарь отпусков";
 }
 
+<div class="popup-window">
+    Здесь есть текст!
+    <button type="button" class="btn btn-primary" id="hide-popup">Скрыть</button>
+</div>
 <div class="container">
     <div class="row">
         <div class="col-12">
@@ -59,12 +63,34 @@
             </table>
             <button type="button" id="submit-button" class="btn btn-primary">Утвердить</button>
             <button type="button" id="clear-button" class="btn btn-danger">Очистить</button>
+            <button type="button" id="call-popup" class="btn btn-primary">Тест</button>
         </div>
     </div>
 </div>
 
 @section scripts{
 <script type="text/javascript">
+    /* Отображение всплывающего сообщения с предупреждениями */
+    $(document).on('click', '#call-popup', function() {
+        // получить результат проверки отпусков
+        $.ajax({
+            type: "POST",
+            data: {
+                "depId": "@Model.Department.Id",
+                "year": "@Model.Year"
+            },
+            url: '@Url.Action("CheckVacations")',
+            success: function (data) {
+                console.log(data);
+                $('.popup-window').css('display', 'block');
+            }
+        });
+    });
+
+    $(document).on('click', '#hide-popup', function() {
+        $('.popup-window').css('display', 'none');
+    });
+
     /* Изменение года календаря */
     $(document).on('change', '#calendar-year', function() {
         // выбранный пользователем год
