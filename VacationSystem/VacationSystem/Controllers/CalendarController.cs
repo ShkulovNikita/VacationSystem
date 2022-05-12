@@ -152,7 +152,9 @@ namespace VacationSystem.Controllers
             // проверки на соответствие правилам
             List<RuleWarning> warnings = EmployeeRulesChecker.CheckEmployeeRules(employees, headId, depId);
 
-            return Json(new { warnings });
+            var result = Json(new { warnings });
+
+            return result;
         }
 
         /// <summary>

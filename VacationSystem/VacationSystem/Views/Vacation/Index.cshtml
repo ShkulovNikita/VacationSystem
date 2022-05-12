@@ -1,22 +1,23 @@
-﻿@model List<VacationViewModel>
+﻿@model VacationIndexViewModel
 
 @using VacationSystem.ViewModels;
+@using VacationSystem.Classes.Helpers;
 
 @{
     Layout = "_Common";
 
-    ViewData["Title"] = "Отпуска";
+    ViewData["Title"] = "Отпуска: " + EmployeeHelper.GetFullName(@Model.Employee);
 }
 
 <div class="container">
     <div class="row">
         <div class="col-10">
-            <a asp-controller="Vacation" asp-action="AddVacation" class="btn btn-primary">Добавить</a>
-            @if(@Model.Count > 0)
+            <a asp-controller="Vacation" asp-action="AddVacation" asp-route-empId="@Model.Employee.Id" class="btn btn-primary">Добавить</a>
+            @if(@Model.Vacations.Count > 0)
             {
                 <h3>Список отпусков</h3>
             }
-            @foreach(VacationViewModel vacation in @Model)
+            @foreach(VacationViewModel vacation in @Model.Vacations)
             {
                 <div class="card">
                     <div class="card-body">

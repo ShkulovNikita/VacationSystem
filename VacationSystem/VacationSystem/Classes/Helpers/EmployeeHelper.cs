@@ -316,10 +316,30 @@ namespace VacationSystem.Classes.Helpers
         /// <returns>ФИО сотрудника</returns>
         static public string GetFullName(Employee emp)
         {
-            if (emp.MiddleName == null)
+            if (emp.MiddleName == "")
                 return emp.LastName + " " + emp.FirstName[0] + ".";
             else
                 return emp.LastName + " " + emp.FirstName[0] + ". " + emp.MiddleName[0] + ".";
+        }
+
+        /// <summary>
+        /// Проверить, является ли заданный руководитель главой указанного сотрудника
+        /// </summary>
+        /// <param name="headId">Предполагаемый руководитель сотрудника</param>
+        /// <param name="empId">Сотрудник</param>
+        /// <returns>true - является руководителем, bool - нет</returns>
+        static public bool IsHead(string headId, string empId)
+        {
+            // получить список подчиненных сотрудников руководителя
+            List<Employee> subEmps = Connector.GetSubordinateEmployees(headId);
+
+            // найти среди них сотрудника с идентификатором empId
+            Employee emp = subEmps.FirstOrDefault(e => e.Id == empId);
+
+            if (emp != null)
+                return true;
+            else
+                return false;
         }
     }
 }

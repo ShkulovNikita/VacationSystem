@@ -45,7 +45,11 @@
                     @foreach (EmpVacationViewModel emp in @Model.Vacations)
                     {
                         <tr id="@emp.EmployeeId">
-                            <td scope="row">@emp.Name</td>
+                            <td scope="row">
+                                <a asp-action="Index" asp-controller="Vacation" asp-route-empId="@emp.EmployeeId">
+                                    @emp.Name
+                                </a> 
+                            </td>
                             @foreach (EmpVacationPeriodViewModel period in @emp.Vacations)
                             {
                                 @if (period.IsTaken)
@@ -75,14 +79,18 @@
         // получить результат проверки отпусков
         $.ajax({
             type: "POST",
+            cache: false,
             data: {
                 "depId": "@Model.Department.Id",
                 "year": "@Model.Year"
             },
-            url: '@Url.Action("CheckVacations")',
+            url: '@Url.Action("CheckVacations", "Calendar")',
             success: function (data) {
                 console.log(data);
                 $('.popup-window').css('display', 'block');
+            },
+            error: function (data) {
+                console.log(data);
             }
         });
     });

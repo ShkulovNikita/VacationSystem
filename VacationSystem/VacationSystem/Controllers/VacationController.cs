@@ -17,7 +17,7 @@ namespace VacationSystem.Controllers
         /// <summary>
         /// Отображение списка отпусков пользователя
         /// </summary>
-        public IActionResult Index()
+        public IActionResult Index(string empId)
         {
             // получить идентификатор пользователя
             string id = HttpContext.Session.GetString("id");
@@ -30,9 +30,23 @@ namespace VacationSystem.Controllers
             // добавить сотруднику дни основного оплачиваемого отпуска,
             // если они ещё не были добавлены ранее
             VacationDayHelper.AddMainVacationDays(id);
+            if (empId != null)
+                VacationDayHelper.AddMainVacationDays(empId);
 
             // получить список отпусков сотрудника
-            List<VacationViewModel> vacations = VacationHelper.MakeVacationsList(id);
+            List<VacationViewModel> vacations;
+            if ((empId == null) || (empId == id))
+                vacations = VacationHelper.MakeVacationsList(id);
+            else
+            {
+                if (EmployeeHelper.IsHead(id, empId))
+                    vacations = VacationHelper.MakeVacationsList(empId);
+                else
+                {
+                    TempData["Error"] = "Нет прав для доступа к запрашиваемой странице";
+                    return RedirectToAction("Index");
+                }
+            }
             
             if (vacations == null)
             {
@@ -43,14 +57,35 @@ namespace VacationSystem.Controllers
             if (vacations.Count == 0)
                 TempData["Message"] = "Не найдены отпуска";
 
-            return View(vacations);
+            // сотрудник, отпуска которого отображаются
+            Employee emp;
+
+            if (empId == null)
+                emp = Connector.GetEmployee(id);
+            else
+                emp = Connector.GetEmployee(empId);
+
+            if (emp == null)
+            {
+                TempData["Error"] = "Не удалось загрузить данные о сотруднике";
+                return RedirectToAction("Index", "Home");
+            }
+
+            // создать модель представления
+            VacationIndexViewModel vacationVm = new VacationIndexViewModel
+            {
+                Employee = emp,
+                Vacations = vacations
+            };
+
+            return View(vacationVm);
         }
 
         /// <summary>
         /// Отображение страницы с выбором периодов отпусков
         /// </summary>
         [HttpGet]
-        public IActionResult AddVacation()
+        public IActionResult AddVacation(string empId)
         {
             // получить идентификатор пользователя
             string id = HttpContext.Session.GetString("id");
@@ -60,13 +95,38 @@ namespace VacationSystem.Controllers
                 return RedirectToAction("Index");
             }
 
-            // получить количество доступных отпускных дней пользователя
-            List<VacationDay> days = VacationDayDataHandler.GetAvailableVacationDays(id);
+            List<VacationDay> days;
+
+            if ((empId == null) || (empId == id))
+                days = VacationDayDataHandler.GetAvailableVacationDays(id);
+            else
+                // если задан идентификатор сотрудника, то отпуск, вероятно, добавляется руководителем
+                if (EmployeeHelper.IsHead(id, empId))
+                    days = VacationDayDataHandler.GetAvailableVacationDays(empId);
+                else
+                {
+                    TempData["Error"] = "Нет прав для доступа к запрашиваемой странице";
+                    return RedirectToAction("Index");
+                }
+
             int availableDays = VacationDayHelper.CountAvailableDays(days);
 
             HttpContext.Session.SetInt32("available_days", availableDays);
 
-            return View();
+            // сотрудник добавляемого отпуска
+            Employee emp;
+            if (empId == null)
+                emp = Connector.GetEmployee(id);
+            else
+                emp = Connector.GetEmployee(empId);
+
+            if (emp == null)
+            {
+                TempData["Error"] = "Не удалось получить данные о сотруднике";
+                return RedirectToAction("Index");
+            }
+
+            return View(emp);
         }
 
         /// <summary>
@@ -75,7 +135,7 @@ namespace VacationSystem.Controllers
         /// <param name="startDates">Начальные даты отпуска</param>
         /// <param name="endDates">Конечные даты отпуска</param>
         [HttpPost]
-        public IActionResult AddVacation(DateTime[] startDates, DateTime[] endDates)
+        public IActionResult AddVacation(string empId, DateTime[] startDates, DateTime[] endDates)
         {
             // получить идентификатор пользователя
             string id = HttpContext.Session.GetString("id");
@@ -107,12 +167,32 @@ namespace VacationSystem.Controllers
             }
 
             // сохранение в БД
-            if (!VacationDataHandler.AddWishedVacation(id, vacation))
-                TempData["Error"] = "Не удалось сохранить выбранный период отпуска";
+            if ((empId == null) || (empId == id))
+            {
+                if (!VacationDataHandler.AddWishedVacation(id, vacation))
+                    TempData["Error"] = "Не удалось сохранить выбранный период отпуска";
+                else
+                    TempData["Success"] = "Выбранный период отпуска был успешно сохранен!";
+            }
             else
-                TempData["Success"] = "Выбранный период отпуска был успешно сохранен!";
+            {
+                // добавление отпуска не самим сотрудником, а его руководителем
+                if (EmployeeHelper.IsHead(id, empId))
+                {
+                    if (!VacationDataHandler.AddWishedVacation(empId, vacation))
+                        TempData["Error"] = "Не удалось сохранить выбранный период отпуска";
+                    else
+                        TempData["Success"] = "Выбранный период отпуска был успешно сохранен!";
+                }
+                else
+                {
+                    TempData["Error"] = "Нет прав для доступа к запрашиваемой странице";
+                    return RedirectToAction("Index");
+                }
 
-            return RedirectToAction("Index");
+            }
+
+            return RedirectToAction("Index", new { empId });
         }
         
         /// <summary>

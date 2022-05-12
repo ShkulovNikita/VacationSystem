@@ -9,6 +9,8 @@ namespace VacationSystem.Classes.Rules
     /// </summary>
     public class RuleWarning
     {
+        public RuleWarning () { }
+
         /// <summary>
         /// Идентификатор правила, которое было нарушено
         /// </summary>
