@@ -30,6 +30,11 @@ namespace VacationSystem.Classes.Rules
         public string Description { get; set; }
 
         /// <summary>
+        /// Собственное описание правила, которое было нарушено
+        /// </summary>
+        public string RuleDescription { get; set; }
+
+        /// <summary>
         /// Список сотрудников, нарушающих правило
         /// </summary>
         public List<Employee> Employees { get; set; }

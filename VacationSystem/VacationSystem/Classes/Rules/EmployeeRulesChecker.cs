@@ -67,6 +67,7 @@ namespace VacationSystem.Classes.Rules
                         RuleId = rule.Id,
                         Type = "emp",
                         Description = "Сотрудники данного правила должны уходить в отпуск одновременно",
+                        RuleDescription = rule.Description,
                         Employees = employees
                     };
                 }

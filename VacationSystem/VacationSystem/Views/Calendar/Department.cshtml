@@ -8,10 +8,6 @@
     ViewData["Title"] = "Календарь отпусков";
 }
 
-<div class="popup-window">
-    Здесь есть текст!
-    <button type="button" class="btn btn-primary" id="hide-popup">Скрыть</button>
-</div>
 <div class="container">
     <div class="row">
         <div class="col-12">
@@ -87,13 +83,33 @@
             url: '@Url.Action("CheckVacations", "Calendar")',
             success: function (data) {
                 console.log(data);
-                $('.popup-window').css('display', 'block');
+
+                if (data.warnings.length == 0)
+                    showSuccessPopup();
+                else
+                    showWarningsPopup(data);
             },
             error: function (data) {
                 console.log(data);
             }
         });
     });
+
+    /* Показать сообщение об успешном прохождении проверки правил */
+    function showSuccessPopup() {
+        let popup = $('.popup-window');
+        popup.empty();
+        popup.append('<div class="alert alert-success">Выбранные отпуска соответствуют всем правилам</div>');
+        popup.append('<button type="button" class="btn btn-primary" id="hide-popup">Скрыть</button>');
+        $('.popup-window').css('display', 'block');
+    }
+
+    /* Показать сообщение с полученными предупреждениями */
+    function showWarningsPopup(data) {
+        let popup = $('.popup-window');
+        popup.empty();
+        $('.popup-window').css('display', 'block');
+    }
 
     $(document).on('click', '#hide-popup', function() {
         $('.popup-window').css('display', 'none');
