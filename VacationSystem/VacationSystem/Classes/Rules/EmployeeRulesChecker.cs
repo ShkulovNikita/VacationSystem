@@ -75,10 +75,18 @@ namespace VacationSystem.Classes.Rules
             // не должны уходить в отпуск одновременно
             else
             {
-
+                if (CheckNotSameVacationPeriod(emps))
+                    return null;
+                else
+                    return new RuleWarning
+                    {
+                        RuleId = rule.Id,
+                        Type = "emp",
+                        Description = "В отпусках сотрудников данного правила не должно быть пересечений",
+                        RuleDescription = rule.Description,
+                        Employees = employees
+                    };
             }
-
-            return null;
         }
 
         /// <summary>
@@ -109,6 +117,102 @@ namespace VacationSystem.Classes.Rules
 
             // сравнить отпуска сотрудников на совпадение
             return CompareEmployeeVacations(employees);
+        }
+
+        /// <summary>
+        /// Проверка того, что отпуска указанных сотрудников не пересекаются
+        /// </summary>
+        /// <param name="employees">Список сотрудников с их отпусками</param>
+        /// <returns>true: отпуска не пересекаются: false: пересекаются</returns>
+        static public bool CheckNotSameVacationPeriod(List<Employee> employees)
+        {
+            // проверка количество сотрудников с отсутствующими отпусками
+            int empsWithoutVacations = CountAbsentVacations(employees);
+
+            // если у всех сотрудников не отпусков в данный период, то правило выполняется
+            if (empsWithoutVacations == employees.Count)
+                return true;
+            // аналогично, если только у одного сотрудника есть отпуск
+            if (empsWithoutVacations == employees.Count - 1)
+                return true;
+
+            // необходимо попарно сравнить всех сотрудников со всеми их отпусками,
+            // чтобы найти пересечения
+            return (!FindIntersections(employees));
+
+        }
+
+        /// <summary>
+        /// Поиск пересечений в отпусках сотрудников
+        /// </summary>
+        /// <param name="employees">Список сотрудников с их отпусками</param>
+        /// <returns>true: есть пересечения; false: нет пересечений</returns>
+        static public bool FindIntersections(List<Employee> employees)
+        {
+            // попарный перебор всех сотрудников
+            for (int i = 0; i < employees.Count - 1; i++)
+                for (int j = i + 1; j < employees.Count; j++)
+                    // сравнение всех отпусков заданных двух сотрудников
+                    // если найдено хотя бы одно пересечение, то правило нарушается
+                    if (FindIntersectionsForEmployees(employees[i].WishedVacationPeriods[0].VacationParts,
+                                                      employees[j].WishedVacationPeriods[0].VacationParts))
+                        return true;
+
+
+            return false;
+        }
+
+        /// <summary>
+        /// Поиск пересечений в отпусках двух сотрудников
+        /// </summary>
+        /// <param name="parts1">Периоды отпуска одного сотрудника</param>
+        /// <param name="parts2">Периоды отпуска другого сотрудника</param>
+        /// <returns>true: есть пересечения; false: нет пересечений</returns>
+        static public bool FindIntersectionsForEmployees(List<VacationPart> parts1, List<VacationPart> parts2)
+        {
+            foreach (VacationPart part1 in parts1) 
+                foreach (VacationPart part2 in parts2)
+                {
+                    // проверить включение одного отпуска внутрь другого
+                    if (FindInclusions(part1, part2))
+                        return true;
+
+                    // пересечения - частичные накладывания
+                    if (FindCrossIntersections(part1, part2))
+                        return true;
+                }
+
+            return false;
+        }
+
+        /// <summary>
+        /// Сравнить пару отпусков и определить, включен ли один внутрь другого
+        /// </summary>
+        /// <param name="part1">Первый период отпуска</param>
+        /// <param name="part2">Второй период отпуска</param>
+        /// <returns>true: один отпуск включен внутрь другого; false: отпуска не включены друг в друга</returns>
+        static public bool FindInclusions(VacationPart part1, VacationPart part2)
+        {
+            if ((part1.StartDate >= part2.StartDate) && (part1.EndDate <= part2.EndDate))
+                return true;
+            if ((part2.StartDate >= part1.StartDate) && (part2.EndDate <= part1.EndDate))
+                return true;
+            return false;
+        }
+
+        /// <summary>
+        /// Определить, накладываются ли заданные периоды отпусков друг на друга
+        /// </summary>
+        /// <param name="part1">Первый период отпуска</param>
+        /// <param name="part2">Второй период отпуска</param>
+        /// <returns>true: есть наложение; false: нет наложений</returns>
+        static public bool FindCrossIntersections(VacationPart part1, VacationPart part2)
+        {
+            if ((part1.StartDate <= part2.StartDate) && (part1.EndDate <= part2.EndDate) && (part1.EndDate >= part2.StartDate))
+                return true;
+            if ((part2.StartDate <= part1.StartDate) && (part2.EndDate <= part1.EndDate) && (part2.EndDate >= part1.StartDate))
+                return true;
+            return false;
         }
 
         /// <summary>

@@ -108,6 +108,14 @@
     function showWarningsPopup(data) {
         let popup = $('.popup-window');
         popup.empty();
+
+        // перебрать предупреждения
+        data.warnings.forEach(function(item, i, data) {
+            if (item.type == 'emp')
+                popup.append('<div class="alert alert-danger"><a asp-controller="Rules" asp-method="ViewEmpRule" asp-route-ruleId='  + item.ruleId + '>' + '<h5>' + item.description + '</h5>' + '</a></div>');
+        });
+
+        popup.append('<button type="button" class="btn btn-primary" id="hide-popup">Скрыть</button>');
         $('.popup-window').css('display', 'block');
     }
 
