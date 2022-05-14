@@ -379,10 +379,7 @@ namespace VacationSystem.Classes.Helpers
                 }
 
                 // отфильтровать отпуска по периоду
-                List<VacationPart> filteredParts = emp.WishedVacationPeriods[0].VacationParts
-                    .Where(vp => vp.StartDate.Month >= startDate.Month && vp.StartDate.Day >= startDate.Day
-                    && vp.EndDate.Month <= endDate.Month && vp.EndDate.Day <= endDate.Day)
-                    .ToList();
+                List<VacationPart> filteredParts = FilterByPeriod(emp.WishedVacationPeriods[0].VacationParts, startDate, endDate);
 
                 // добавить сотрудника с отфильтрованными отпусками в список результата
                 if (filteredParts != null)
@@ -392,6 +389,48 @@ namespace VacationSystem.Classes.Helpers
             }
 
             return filtered;
+        }
+
+        /// <summary>
+        /// Фильтр, отсеивающий периоды отпуска за пределами указанных границ и сокращающий отпуска в случае,
+        /// если они частично входят в заданный период
+        /// </summary>
+        /// <param name="unfilteredParts">Все периоды отпуска сотрудника</param>
+        /// <param name="startDate">Начальная дата периода-границы</param>
+        /// <param name="endDate">Конечная дата периода-границы</param>
+        /// <returns>Список периодов отпуска, входящих в заданные даты-границы</returns>
+        static public List<VacationPart> FilterByPeriod(List<VacationPart> unfilteredParts, DateTime startDate, DateTime endDate)
+        {
+            List<VacationPart> filteredParts = new List<VacationPart>();
+
+            foreach (VacationPart part in unfilteredParts)
+            {
+                startDate = new DateTime(part.StartDate.Year, startDate.Month, startDate.Day);
+                endDate = new DateTime(part.EndDate.Year, endDate.Month, endDate.Day);
+
+                if ((part.StartDate >= startDate) && (part.EndDate <= endDate))
+                    filteredParts.Add(part);
+                else if ((part.StartDate >= startDate) && (part.EndDate >= endDate) && (part.StartDate <= endDate))
+                    filteredParts.Add(new VacationPart
+                    {
+                        StartDate = part.StartDate,
+                        EndDate = endDate,
+                        Part = part.Part,
+                        WishedVacationPeriodId = part.WishedVacationPeriodId,
+                        WishedVacationPeriod = part.WishedVacationPeriod
+                    });
+                else if ((part.StartDate <= startDate) && (part.EndDate <= endDate) && (part.EndDate >= startDate))
+                    filteredParts.Add(new VacationPart
+                    {
+                        StartDate = startDate,
+                        EndDate = part.EndDate,
+                        Part = part.Part,
+                        WishedVacationPeriod = part.WishedVacationPeriod,
+                        WishedVacationPeriodId = part.WishedVacationPeriodId
+                    });
+            }
+
+            return filteredParts;
         }
     }
 }

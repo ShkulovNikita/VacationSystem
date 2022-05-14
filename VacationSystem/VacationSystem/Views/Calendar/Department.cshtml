@@ -108,17 +108,19 @@
     function showWarningsPopup(data) {
         let popup = $('.popup-window');
         popup.empty();
+        popup.height(180);
 
         // перебрать предупреждения
         data.warnings.forEach(function(item, i, data) {
+            let link;
             if (item.type == 'emp')
             {
                 // создать ссылку на правило
-                let link = '@Html.ActionLink("[[description]]", "ViewEmpRule", "Rules", new { ruleId = "ident" })';
+                link = '@Html.ActionLink("[[description]]", "ViewEmpRule", "Rules", new { ruleId = "ident" })';
                 link = link.replace("[[description]]", item.description);
                 link = link.replace("ident", item.ruleId);
                 
-                popup.append('<div class="alert alert-danger">' + link + '<p>' + item.ruleDescription + '</p>' + '</div>');
+                popup.append('<div class="alert alert-danger popup-item">' + link + '<p>' + item.ruleDescription + '</p>' + '</div>');
             }
         });
 
