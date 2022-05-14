@@ -357,5 +357,41 @@ namespace VacationSystem.Classes.Helpers
 
             return result;
         }
+
+        /// <summary>
+        /// Оставить у сотрудников только те отпуска, которые входят в период правила
+        /// </summary>
+        /// <param name="employees">Список сотрудников с их отпусками</param>
+        /// <param name="startDate">Начальная дата периода</param>
+        /// <param name="endDate">Конечная дата периода</param>
+        /// <returns>Список сотрудников с отфильтрованными отпусками</returns>
+        static public List<Employee> FilterVacations(List<Employee> employees, DateTime startDate, DateTime endDate)
+        {
+            // список сотрудников с отпусками, которые выпадают только на указанный период
+            List<Employee> filtered = new List<Employee>();
+
+            foreach (Employee emp in employees)
+            {
+                if (emp.WishedVacationPeriods.Count == 0)
+                {
+                    filtered.Add(new Employee(emp, null));
+                    continue;
+                }
+
+                // отфильтровать отпуска по периоду
+                List<VacationPart> filteredParts = emp.WishedVacationPeriods[0].VacationParts
+                    .Where(vp => vp.StartDate.Month >= startDate.Month && vp.StartDate.Day >= startDate.Day
+                    && vp.EndDate.Month <= endDate.Month && vp.EndDate.Day <= endDate.Day)
+                    .ToList();
+
+                // добавить сотрудника с отфильтрованными отпусками в список результата
+                if (filteredParts != null)
+                    filtered.Add(new Employee(emp, filteredParts));
+                else
+                    filtered.Add(new Employee(emp, new List<VacationPart>()));
+            }
+
+            return filtered;
+        }
     }
 }

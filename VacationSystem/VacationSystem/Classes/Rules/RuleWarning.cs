@@ -40,8 +40,8 @@ namespace VacationSystem.Classes.Rules
         public List<Employee> Employees { get; set; }
 
         /// <summary>
-        /// Список должностей, у которых было нарушено правило
+        /// Должность, у которой было нарушено правило
         /// </summary>
-        public List<Position> Positions { get; set; }
+        public Position Position { get; set; }
     }
 }

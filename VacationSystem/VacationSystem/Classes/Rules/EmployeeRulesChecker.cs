@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Collections.Generic;
 using VacationSystem.Models;
+using VacationSystem.Classes.Helpers;
 using VacationSystem.Classes.Database;
 
 namespace VacationSystem.Classes.Rules
@@ -53,7 +54,7 @@ namespace VacationSystem.Classes.Rules
             List<Employee> emps = employees.Where(e => rule.EmployeeInRules.Any(eir => eir.EmployeeId == e.Id)).ToList();
 
             // отфильтровать отпуска сотрудников по периоду, в который действует данное правило
-            emps = FilterVacations(emps, rule.StartDate, rule.EndDate);
+            emps = VacationHelper.FilterVacations(emps, rule.StartDate, rule.EndDate);
 
             // должны уходить в отпуск одновременно
             if (rule.RuleTypeId == 1)
@@ -61,7 +62,6 @@ namespace VacationSystem.Classes.Rules
                 if (CheckSameVacationPeriod(emps))
                     return null;
                 else
-                {
                     return new RuleWarning
                     {
                         RuleId = rule.Id,
@@ -70,7 +70,6 @@ namespace VacationSystem.Classes.Rules
                         RuleDescription = rule.Description,
                         Employees = employees
                     };
-                }
             }
             // не должны уходить в отпуск одновременно
             else
@@ -268,42 +267,6 @@ namespace VacationSystem.Classes.Rules
                     return false;
 
             return true;
-        }
-
-        /// <summary>
-        /// Оставить у сотрудников только те отпуска, которые входят в период правила
-        /// </summary>
-        /// <param name="employees">Список сотрудников с их отпусками</param>
-        /// <param name="startDate">Начальная дата периода</param>
-        /// <param name="endDate">Конечная дата периода</param>
-        /// <returns>Список сотрудников с отфильтрованными отпусками</returns>
-        static public List<Employee> FilterVacations(List<Employee> employees, DateTime startDate, DateTime endDate)
-        {
-            // список сотрудников с отпусками, которые выпадают только на указанный период
-            List<Employee> filtered = new List<Employee>();
-
-            foreach (Employee emp in employees)
-            {
-                if (emp.WishedVacationPeriods.Count == 0)
-                {
-                    filtered.Add(new Employee(emp, null));
-                    continue;
-                }
-                    
-                // отфильтровать отпуска по периоду
-                List<VacationPart> filteredParts = emp.WishedVacationPeriods[0].VacationParts
-                    .Where(vp => vp.StartDate.Month >= startDate.Month && vp.StartDate.Day >= startDate.Day
-                    && vp.EndDate.Month <= endDate.Month && vp.EndDate.Day <= endDate.Day)
-                    .ToList();
-
-                // добавить сотрудника с отфильтрованными отпусками в список результата
-                if (filteredParts != null)
-                    filtered.Add(new Employee(emp, filteredParts));
-                else
-                    filtered.Add(new Employee(emp, new List<VacationPart>()));
-            }
-
-            return filtered;
         }
 
         /// <summary>

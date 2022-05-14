@@ -151,6 +151,7 @@ namespace VacationSystem.Controllers
 
             // проверки на соответствие правилам
             List<RuleWarning> warnings = EmployeeRulesChecker.CheckEmployeeRules(employees, headId, depId);
+            warnings.AddRange(PositionRulesChecker.CheckPositionRules(employees, headId, depId));
 
             var result = Json(new { warnings });
 

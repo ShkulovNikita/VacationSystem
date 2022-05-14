@@ -55,10 +55,82 @@ namespace VacationSystem.Classes.Rules
         static public RuleWarning CheckPositionRule(List<Employee> employees, RuleForPosition rule)
         {
             // оставить только тех сотрудников, которые затронуты правилом
-            employees = employees.Where(e => e.DepPositions.Any(p => p.Id == rule.Position.Id)).ToList();
+            List<Employee> emps = employees.Where(e => e.DepPositions.Any(p => p.Id == rule.PositionId)).ToList();
 
-            return null;
+            // отфильтровать отпуска сотрудников по периоду, в который действует данное правило
+            emps = VacationHelper.FilterVacations(emps, rule.StartDate, rule.EndDate);
 
+            if (CheckPositions(emps, rule))
+                return null;
+            else
+                return new RuleWarning
+                {
+                    RuleId = rule.Id,
+                    Type = "pos",
+                    Description = "На рабочем месте меньшее количество сотрудников должности, чем должно быть",
+                    RuleDescription = rule.Description,
+                    Position = rule.Position
+                };
+        }
+
+        /// <summary>
+        /// Проверка соответствия количества сотрудников должности на рабочем месте заданному правилу
+        /// </summary>
+        /// <param name="emps">Список сотрудников с их должностями и отпусками</param>
+        /// <param name="rule">Правило для должности</param>
+        /// <returns>true: правило соблюдается; false: правило не соблюдается</returns>
+        static public bool CheckPositions(List<Employee> emps, RuleForPosition rule)
+        {
+            // словарь, содержащий пары "дата - количество сотрудников, уходящих в эту дату в отпуск"
+            Dictionary<DateTime, int> vacationCounter = new Dictionary<DateTime, int>();
+
+            // проход всех сотрудников с просмотром дат их отпусков
+            foreach (Employee emp in emps)
+            {
+                if (emp.WishedVacationPeriods.Count == 0)
+                    continue;
+
+                // обновить счетчики сотрудников в отпуске для дат
+                vacationCounter = AddVacationDays(vacationCounter, emp.WishedVacationPeriods[0].VacationParts);
+            }
+
+            // проверить, что нет дня, который бы нарушал правило
+            foreach (var date in vacationCounter)
+            {
+                // сколько сотрудников может уйти в отпуск одновременно
+                int limit = emps.Count - rule.PeopleNumber;
+
+                // проверка превышения лимита
+                if (date.Value > limit)
+                    return false;
+            }
+
+            return true;
+        }
+
+        /// <summary>
+        /// Обновить счетчик сотрудников, уходящих в отпуск в заданные дни
+        /// </summary>
+        /// <param name="counter">Словарь из пар "дата - количество сотрудников в отпуске в этот день"</param>
+        /// <param name="period">Периоды, в течение которых данный сотрудник находится в отпуске</param>
+        /// <returns>Словарь с обновленными счетчиками</returns>
+        static public Dictionary<DateTime, int> AddVacationDays(Dictionary<DateTime, int> counter, List<VacationPart> period)
+        {
+            // все даты отпуска сотрудника
+            List<DateTime> dates = new List<DateTime>();
+            foreach (VacationPart part in period)
+                dates.AddRange(DateHelper.GetDateRange(part.StartDate, part.EndDate));
+
+            // добавить даты, которых нет в словаре, и обновить счетчики у существующих
+            foreach (DateTime date in dates)
+            {
+                if (counter.ContainsKey(date))
+                    counter[date] += 1;
+                else
+                    counter.Add(date, 1);
+            }
+
+            return counter;
         }
 
 
