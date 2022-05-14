@@ -99,5 +99,24 @@ namespace VacationSystem.Classes.Helpers
                 DepartmentId = dep.Id
             };
         }
+
+        /// <summary>
+        /// Конвертация должностей из формата PositionInDepartment в Position
+        /// </summary>
+        /// <param name="positionInDepartments">Список должностей в формате пар "подразделение - должность"</param>
+        /// <returns>Список должностей в формате модели Position</returns>
+        static public List<Position> ConvertPositionsInDepartmentToPositions(List<PositionInDepartment> positionInDepartments)
+        {
+            List<Position> result = new List<Position>();
+
+            foreach (PositionInDepartment pos in positionInDepartments)
+            {
+                Position posFromApi = Connector.GetPosition(pos.Position);
+                if (posFromApi != null)
+                    result.Add(posFromApi);
+            }
+
+            return result;
+        }
     }
 }

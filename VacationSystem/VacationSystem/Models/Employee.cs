@@ -84,6 +84,9 @@ namespace VacationSystem.Models
         [NotMapped]
         public PositionInDepartment[] Positions { get; set; }
 
+        [NotMapped]
+        public List<Position> DepPositions { get; set; }
+
         /// <summary>
         /// Правила для сотрудников, заданные данным руководителем
         /// </summary>

@@ -341,5 +341,31 @@ namespace VacationSystem.Classes.Helpers
             else
                 return false;
         }
+
+        /// <summary>
+        /// Получить должности для сотрудников из списка
+        /// </summary>
+        /// <param name="employees">Список сотрудников</param>
+        /// <returns>Список сотрудников с сохраненными должностями</returns>
+        static public List<Employee> GetEmployeesPositions(List<Employee> employees, string depId)
+        {
+            List<Employee> result = new List<Employee>();
+
+            foreach (Employee emp in employees)
+            {
+                // получить должности сотрудника
+                List<PositionInDepartment> posInDep = Connector.GetPositionsInDepartment(depId, emp.Id);
+                List<Position> positions = PositionHelper.ConvertPositionsInDepartmentToPositions(posInDep);
+
+                // сохранить должности в объекте сотрудника
+                Employee employee = emp;
+                employee.DepPositions = positions;
+
+                // добавить в итоговый список
+                result.Add(employee);
+            }
+
+            return result;
+        }
     }
 }

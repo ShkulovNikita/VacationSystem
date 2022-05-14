@@ -27,7 +27,7 @@ namespace VacationSystem.Classes.Rules
                 return null;
             else
                 if (rules.Count == 0)
-                return new List<RuleWarning>();
+                    return new List<RuleWarning>();
 
             // пройтись по всем правилам и добавить обнаруженные нарушения в список
             List<RuleWarning> warnings = new List<RuleWarning>();
