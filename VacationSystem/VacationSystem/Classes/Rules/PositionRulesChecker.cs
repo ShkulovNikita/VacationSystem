@@ -132,7 +132,5 @@ namespace VacationSystem.Classes.Rules
 
             return counter;
         }
-
-
     }
 }

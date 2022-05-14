@@ -50,6 +50,7 @@ namespace VacationSystem.Classes.Database
                 {
                     return db.GroupRules
                             .Include(gr => gr.Group)
+                            .Include(gr => gr.Group.EmployeesInGroup)
                             .Where(gr => gr.Group.HeadEmployeeId == headId
                             && gr.Group.DepartmentId == depId)
                             .ToList();

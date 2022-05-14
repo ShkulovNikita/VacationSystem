@@ -7,21 +7,21 @@ using VacationSystem.Classes.Database;
 namespace VacationSystem.Classes.Rules
 {
     /// <summary>
-    /// Класс для проверок отпусков на соответствие созданным правилам
+    /// Класс с методами для проверки выполнения правил для групп сотрудников
     /// </summary>
-    static public class EmployeeRulesChecker
+    static public class GroupRulesChecker
     {
         /// <summary>
-        /// Проверить соблюдение правил для сотрудников
+        /// Проверить соблюдение правил для групп
         /// </summary>
-        /// <param name="employees">Список сотрудников с их запланированными отпусками</param>
-        /// <param name="depId">Идентификатор подразделения</param>
+        /// <param name="employees">Список сотрудников с их отпусками</param>
         /// <param name="headId">Идентификатор руководителя</param>
-        /// <returns>Список предупреждений о нарушении правила</returns>
-        static public List<RuleWarning> CheckEmployeeRules(List<Employee> employees, string headId, string depId)
+        /// <param name="depId">Идентификатор подразделения</param>
+        /// <returns>Список предупреждений о нарушениях правил</returns>
+        static public List<RuleWarning> CheckGroupRules(List<Employee> employees, string headId, string depId)
         {
             // получить список правил
-            List<EmployeeRule> rules = EmployeeRuleDataHandler.GetEmployeeRules(headId, depId);
+            List<GroupRule> rules = GroupRuleDataHandler.GetGroupRules(headId, depId);
 
             if (rules == null)
                 return null;
@@ -29,11 +29,11 @@ namespace VacationSystem.Classes.Rules
                 if (rules.Count == 0)
                     return new List<RuleWarning>();
 
-            // пройтись по всем правилам и добавить обнаруженные нарушения в список
+            // проход по всем правилам с обнаружением нарушений
             List<RuleWarning> warnings = new List<RuleWarning>();
-            foreach (EmployeeRule rule in rules)
+            foreach (GroupRule rule in rules)
             {
-                RuleWarning ruleWarning = CheckEmployeeRule(employees, rule);
+                RuleWarning ruleWarning = CheckGroupRule(employees, rule);
                 if (ruleWarning != null)
                     warnings.Add(ruleWarning);
             }
@@ -42,15 +42,15 @@ namespace VacationSystem.Classes.Rules
         }
 
         /// <summary>
-        /// Проверка соблюдения указанного правила для сотрудников
+        /// Проверка соблюдения указанного правила для группы сотрудников
         /// </summary>
         /// <param name="employees">Список сотрудников с их отпусками</param>
-        /// <param name="rule">Правило для сотрудников</param>
-        /// <returns>Список выявленных нарушений правила</returns>
-        static public RuleWarning CheckEmployeeRule(List<Employee> employees, EmployeeRule rule)
+        /// <param name="rule">Правило для группы сотрудников</param>
+        /// <returns>Предупреждение о нарушении правила либо null</returns>
+        static public RuleWarning CheckGroupRule(List<Employee> employees, GroupRule rule)
         {
             // оставить только тех сотрудников, которые затронуты правилом
-            List<Employee> emps = employees.Where(e => rule.EmployeeInRules.Any(eir => eir.EmployeeId == e.Id)).ToList();
+            List<Employee> emps = employees.Where(e => rule.Group.EmployeesInGroup.Any(eir => eir.EmployeeId == e.Id)).ToList();
 
             // отфильтровать отпуска сотрудников по периоду, в который действует данное правило
             emps = VacationHelper.FilterVacations(emps, rule.StartDate, rule.EndDate);
@@ -64,8 +64,8 @@ namespace VacationSystem.Classes.Rules
                     return new RuleWarning
                     {
                         RuleId = rule.Id,
-                        Type = "emp",
-                        Description = "Сотрудники данного правила должны уходить в отпуск одновременно",
+                        Type = "group",
+                        Description = "Сотрудники из группы данного правила должны уходить в отпуск одновременно",
                         RuleDescription = rule.Description,
                         Employees = employees
                     };
@@ -79,8 +79,8 @@ namespace VacationSystem.Classes.Rules
                     return new RuleWarning
                     {
                         RuleId = rule.Id,
-                        Type = "emp",
-                        Description = "В отпусках сотрудников данного правила не должно быть пересечений",
+                        Type = "group",
+                        Description = "В отпусках сотрудников из группы данного правила не должно быть пересечений",
                         RuleDescription = rule.Description,
                         Employees = employees
                     };
