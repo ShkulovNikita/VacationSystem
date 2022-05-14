@@ -112,7 +112,14 @@
         // перебрать предупреждения
         data.warnings.forEach(function(item, i, data) {
             if (item.type == 'emp')
-                popup.append('<div class="alert alert-danger"><a asp-controller="Rules" asp-method="ViewEmpRule" asp-route-ruleId='  + item.ruleId + '>' + '<h5>' + item.description + '</h5>' + '</a></div>');
+            {
+                // создать ссылку на правило
+                let link = '@Html.ActionLink("[[description]]", "ViewEmpRule", "Rules", new { ruleId = "ident" })';
+                link = link.replace("[[description]]", item.description);
+                link = link.replace("ident", item.ruleId);
+                
+                popup.append('<div class="alert alert-danger">' + link + '<p>' + item.ruleDescription + '</p>' + '</div>');
+            }
         });
 
         popup.append('<button type="button" class="btn btn-primary" id="hide-popup">Скрыть</button>');

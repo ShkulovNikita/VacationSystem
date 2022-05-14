@@ -63,14 +63,7 @@ namespace VacationSystem.Classes.Rules
             if (CheckPositions(emps, rule))
                 return null;
             else
-                return new RuleWarning
-                {
-                    RuleId = rule.Id,
-                    Type = "pos",
-                    Description = "На рабочем месте меньшее количество сотрудников должности, чем должно быть",
-                    RuleDescription = rule.Description,
-                    Position = rule.Position
-                };
+                return new RuleWarning(rule);
         }
 
         /// <summary>

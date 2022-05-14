@@ -61,14 +61,7 @@ namespace VacationSystem.Classes.Rules
                 if (PeriodsChecker.CheckSameVacationPeriod(emps))
                     return null;
                 else
-                    return new RuleWarning
-                    {
-                        RuleId = rule.Id,
-                        Type = "group",
-                        Description = "Сотрудники из группы данного правила должны уходить в отпуск одновременно",
-                        RuleDescription = rule.Description,
-                        Employees = employees
-                    };
+                    return new RuleWarning(rule, emps, true);
             }
             // не должны уходить в отпуск одновременно
             else
@@ -76,14 +69,7 @@ namespace VacationSystem.Classes.Rules
                 if (PeriodsChecker.CheckNotSameVacationPeriod(emps))
                     return null;
                 else
-                    return new RuleWarning
-                    {
-                        RuleId = rule.Id,
-                        Type = "group",
-                        Description = "В отпусках сотрудников из группы данного правила не должно быть пересечений",
-                        RuleDescription = rule.Description,
-                        Employees = employees
-                    };
+                    return new RuleWarning(rule, emps, false);
             }
         }
     }
