@@ -53,7 +53,7 @@ namespace VacationSystem.Classes.Rules
             List<Employee> emps = employees.Where(e => rule.EmployeeInRules.Any(eir => eir.EmployeeId == e.Id)).ToList();
 
             // отфильтровать отпуска сотрудников по периоду, в который действует данное правило
-            emps = FilterVacations(employees, rule.StartDate, rule.EndDate);
+            emps = FilterVacations(emps, rule.StartDate, rule.EndDate);
 
             // должны уходить в отпуск одновременно
             if (rule.RuleTypeId == 1)
@@ -135,6 +135,9 @@ namespace VacationSystem.Classes.Rules
             // аналогично, если только у одного сотрудника есть отпуск
             if (empsWithoutVacations == employees.Count - 1)
                 return true;
+
+            // убрать тех сотрудников, у которых нет отпусков
+            employees = employees.Where(e => e.WishedVacationPeriods.Count > 0).ToList();
 
             // необходимо попарно сравнить всех сотрудников со всеми их отпусками,
             // чтобы найти пересечения
