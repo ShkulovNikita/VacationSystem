@@ -24,8 +24,12 @@ namespace VacationSystem.Classes.Helpers
 
             foreach (EmpListItem emp in emps)
             {
-                VacationDaysViewModel daysVm = MakeViewModel(emp);
-                result.Add(daysVm);
+                // получить дни текущего года
+                VacationDaysViewModel daysVmCurrentYear = MakeViewModel(emp, DateTime.Now.Year);
+                result.Add(daysVmCurrentYear);
+                // получить дни следующего года
+                VacationDaysViewModel daysVmNextYear = MakeViewModel(emp, DateTime.Now.AddYears(1).Year);
+                result.Add(daysVmNextYear);
             }
 
             return result;
@@ -36,13 +40,13 @@ namespace VacationSystem.Classes.Helpers
         /// </summary>
         /// <param name="emp">Сотрудник</param>
         /// <returns>Модель представления с информацией о днях отпуска сотрудника</returns>
-        static private VacationDaysViewModel MakeViewModel(EmpListItem emp)
+        static private VacationDaysViewModel MakeViewModel(EmpListItem emp, int year)
         {
             // все отпускные дни сотрудника
             List<VacationDay> vacationDays = VacationDayDataHandler.GetVacationDays(emp.EmpId);
 
             // отобрать только актуальные дни
-            vacationDays = GetCurrentDays(vacationDays);
+            vacationDays = GetCurrentDays(vacationDays, year, false);
 
             VacationDaysViewModel daysVm = new VacationDaysViewModel();
 
@@ -67,8 +71,10 @@ namespace VacationSystem.Classes.Helpers
         /// - назначенных на текущий год
         /// </summary>
         /// <param name="days">Список всех дней, назначенных сотруднику</param>
+        /// <param name="year">Год, на который назначены дни отпуска</param>
+        /// <param name="currentYear">true: получить дни для текущего года; false: для следующего</param>
         /// <returns>Список актуальных дней отпуска</returns>
-        static private List<VacationDay> GetCurrentDays(List<VacationDay> days)
+        static private List<VacationDay> GetCurrentDays(List<VacationDay> days, int year, bool currentYear)
         {
             List<VacationDay> result = days.Where(d =>
                 d.Year == DateTime.Now.Year 

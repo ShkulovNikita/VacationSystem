@@ -113,15 +113,18 @@
         // перебрать предупреждения
         data.warnings.forEach(function(item, i, data) {
             let link;
+            // создание ссылки на правило
             if (item.type == 'emp')
-            {
-                // создать ссылку на правило
                 link = '@Html.ActionLink("[[description]]", "ViewEmpRule", "Rules", new { ruleId = "ident" })';
-                link = link.replace("[[description]]", item.description);
-                link = link.replace("ident", item.ruleId);
-                
-                popup.append('<div class="alert alert-danger popup-item">' + link + '<p>' + item.ruleDescription + '</p>' + '</div>');
-            }
+            else if (item.type == 'pos')
+                link = '@Html.ActionLink("[[description]]", "ViewPosRule", "Rules", new { ruleId = "ident" })';
+            else if (item.type == 'group')
+                link = '@Html.ActionLink("[[description]]", "ViewGroupRule", "Rules", new { ruleId = "ident" })';
+            link = link.replace("[[description]]", item.description);
+            link = link.replace("ident", item.ruleId);
+            
+            // добавить блок с правилом в список
+            popup.append('<div class="alert alert-danger popup-item">' + link + '<p>' + item.ruleDescription + '</p>' + '</div>');
         });
 
         popup.append('<button type="button" class="btn btn-primary" id="hide-popup">Скрыть</button>');

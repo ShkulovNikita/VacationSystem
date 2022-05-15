@@ -25,6 +25,11 @@ namespace VacationSystem.Models
         public int UsedDays { get; set; }
 
         /// <summary>
+        /// Количество дней, уже включенных в некоторый утвержденный и неотмененный отпуск
+        /// </summary>
+        public int TakenDays { get; set; }
+
+        /// <summary>
         /// Год, на который назначены дни отпуска
         /// </summary>
         public int Year { get; set; }

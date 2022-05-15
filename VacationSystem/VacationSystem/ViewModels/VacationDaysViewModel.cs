@@ -35,5 +35,10 @@ namespace VacationSystem.ViewModels
         /// Сотрудник, которому заданы данные отпускные дни
         /// </summary>
         public EmpListItem Employee { get; set; }
+
+        /// <summary>
+        /// Год, на который выданы данные дни отпуска
+        /// </summary>
+        public int Year { get; set; }
     }
 }

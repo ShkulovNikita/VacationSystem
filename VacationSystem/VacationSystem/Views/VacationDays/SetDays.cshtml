@@ -9,7 +9,7 @@
     List<VacationType> vacationTypes = ViewBag.Types;
 }
 
-<div class="container">
+<div class="container"> 
     <div class="row">
         <form method="post">
             <div class="col-md-4">
@@ -30,6 +30,8 @@
                     }
                 </select>
             </div>
+            <h3>Год</h3>
+            <input type="number" name="year" min="@DateTime.Now.Year" max="@DateTime.Now.AddYears(1).Year" value="@DateTime.Now.Year"/>
             <div id="days-info"></div>
             <input name="mode" type="radio" value="add" checked>Добавить
             <input name="mode" type="radio" value="delete">Удалить
@@ -40,10 +42,8 @@
                     <option value="@type.Id">@type.Name</option>
                 }
             </select>
-            <h3>Год</h3>
-            <input type="number" name="year"/>
             <h3>Число дней</h3>
-            <input type="number" name="number" />
+            <input type="number" name="number" min="0" max="365" value="0"/>
             <h3>Примечания</h3>
             <textarea name="notes"></textarea>
             <input type="submit" class="btn btn-primary" value="Добавить" />
