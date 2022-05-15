@@ -1,11 +1,14 @@
 ﻿@model VacationSystem.ViewModels.VacationDaysViewModel
 
 <div id="days-info">
-    <h5>Всего отпускных дней: @Model.TotalDays</h5>
-    <h5>Источники дней:</h5>
-    @foreach (var daysSource in @Model.SetDays)
+    @if (@Model != null)
     {
-        <h6>@daysSource.Key: @daysSource.Value дней</h6>
+        <h5>Всего отпускных дней: @Model.TotalDays</h5>
+        <h5>Источники дней:</h5>
+        @foreach (var daysSource in @Model.SetDays)
+        {
+            <h6>@daysSource.Key: @daysSource.Value дней</h6>
+        }
+        <h5>Осталось дней: @Model.AvailableDays</h5>
     }
-    <h5>Осталось дней: @Model.AvailableDays</h5>
 </div>

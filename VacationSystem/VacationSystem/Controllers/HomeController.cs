@@ -4,7 +4,6 @@ using Microsoft.Extensions.Logging;
 using System.Diagnostics;
 using VacationSystem.Models;
 using VacationSystem.Classes.Database;
-using System.Linq;
 using System.Collections.Generic;
 using VacationSystem.Classes;
 

@@ -39,6 +39,7 @@ namespace VacationSystem.Classes.Helpers
         /// Создать модель представления о днях отпуска для указанного сотрудника
         /// </summary>
         /// <param name="emp">Сотрудник</param>
+        /// <param name="year">Год, для которого просматриваются отпускные дни</param>
         /// <returns>Модель представления с информацией о днях отпуска сотрудника</returns>
         static private VacationDaysViewModel MakeViewModel(EmpListItem emp, int year)
         {
@@ -46,7 +47,7 @@ namespace VacationSystem.Classes.Helpers
             List<VacationDay> vacationDays = VacationDayDataHandler.GetVacationDays(emp.EmpId);
 
             // отобрать только актуальные дни
-            vacationDays = GetCurrentDays(vacationDays, year, false);
+            vacationDays = GetCurrentDays(vacationDays, year);
 
             VacationDaysViewModel daysVm = new VacationDaysViewModel();
 
@@ -57,7 +58,10 @@ namespace VacationSystem.Classes.Helpers
             daysVm.AvailableDays = CountAvailableDays(vacationDays);
 
             // получить распределение дней по их типам
-            daysVm.SetDays = GetDaysInfo(vacationDays);
+            daysVm.SetDays = GetDaysInfo(vacationDays, year);
+
+            // год, на который выданы отпускные дни
+            daysVm.Year = year;
 
             // указать сотрудника, которому заданы данные отпускные дни
             daysVm.EmployeeId = emp.EmpId;
@@ -72,14 +76,13 @@ namespace VacationSystem.Classes.Helpers
         /// </summary>
         /// <param name="days">Список всех дней, назначенных сотруднику</param>
         /// <param name="year">Год, на который назначены дни отпуска</param>
-        /// <param name="currentYear">true: получить дни для текущего года; false: для следующего</param>
         /// <returns>Список актуальных дней отпуска</returns>
-        static private List<VacationDay> GetCurrentDays(List<VacationDay> days, int year, bool currentYear)
+        static private List<VacationDay> GetCurrentDays(List<VacationDay> days, int year)
         {
             List<VacationDay> result = days.Where(d =>
-                d.Year == DateTime.Now.Year 
-                || d.UsedDays < d.NumberOfDays
-            ).ToList();
+                d.Year == year
+                || ((d.Year == year - 1) && (d.TakenDays < d.NumberOfDays)) )
+                .ToList();
 
             return result;
         }
@@ -116,24 +119,39 @@ namespace VacationSystem.Classes.Helpers
         /// <summary>
         /// Получить распределение отпускных дней 
         /// </summary>
-        /// <param name="days"></param>
+        /// <param name="days">Список отпускных дней, назначенных сотруднику</param>
+        /// <param name="year">Год, на который нужно просмотреть отпускные дни</param>
         /// <returns>Словарь "тип отпуска - количество назначенных дней"</returns>
-        static private Dictionary<string, int> GetDaysInfo(List<VacationDay> days)
+        static private Dictionary<string, int> GetDaysInfo(List<VacationDay> days, int year)
         {
             Dictionary<string, int> result = new Dictionary<string, int>();
 
+            days = days.OrderByDescending(d => d.Year).ToList();
             foreach (VacationDay day in days)
             {
-                // проверка, есть ли уже запись о таком основании отпуска
-                if (result.ContainsKey(day.VacationType.Name))
+                // проверка, принадлежат ли дни отпуска прошлому году
+                if (day.Year == year - 1)
                 {
-                    // если уже есть - добавить количество полученных по этому
-                    // основанию дней
-                    result[day.VacationType.Name] += day.NumberOfDays;
+                    string previousYearText = "Оставшееся за прошлый год";
+                    if (result.ContainsKey(previousYearText))
+                        result[previousYearText] += day.NumberOfDays - day.TakenDays;
+                    else
+                        result.Add(previousYearText, day.NumberOfDays - day.TakenDays);
                 }
-                // если нет записи о таком основании отпуска - создать
+                // дни принадлежат текущему году
                 else
-                    result.Add(day.VacationType.Name, day.NumberOfDays);
+                {
+                    // проверка, есть ли уже запись о таком основании отпуска
+                    if (result.ContainsKey(day.VacationType.Name))
+                    {
+                        // если уже есть - добавить количество полученных по этому
+                        // основанию дней
+                        result[day.VacationType.Name] += day.NumberOfDays;
+                    }
+                    // если нет записи о таком основании отпуска - создать
+                    else
+                        result.Add(day.VacationType.Name, day.NumberOfDays);
+                }
             }
 
             return result;
@@ -147,19 +165,27 @@ namespace VacationSystem.Classes.Helpers
         static public bool AddMainVacationDays(string empId)
         {
             // проверка, есть ли у данного сотрудника дни для основного ежегодного отпуска
-            VacationDay mainVacationDays = VacationDayDataHandler.GetEmployeeVacationDays(empId, 1, DateTime.Now.Year);
+            VacationDay mainVacationDaysCurYear = VacationDayDataHandler.GetEmployeeVacationDays(empId, 1, DateTime.Now.Year);
+            VacationDay mainVacationDaysNextYear = VacationDayDataHandler.GetEmployeeVacationDays(empId, 1, DateTime.Now.AddYears(1).Year);
 
-            // если у сотрудника уже есть такие дни отпуска, то ничего не делать
-            if (mainVacationDays != null)
-                return true;
-
-            // если таких дней ещё нет, то добавить
-            if (VacationDayDataHandler.SetVacationDays(empId, 1,
-                    "Автоматическое добавление дней основного ежегодного отпуска",
-                    28, DateTime.Now.Year))
-                return true;
+            bool resultCurYear;
+            // если такие дни отпуска уже есть, то ничего не делать
+            if (mainVacationDaysCurYear != null)
+                resultCurYear = true;
             else
-                return false;
+                resultCurYear = VacationDayDataHandler.SetVacationDays(empId, 1,
+                "Автоматическое добавление дней основного ежегодного отпуска",
+                28, DateTime.Now.Year);
+
+            bool resultNextYear;
+            if (mainVacationDaysNextYear != null)
+                resultNextYear = true;
+            else
+                resultNextYear = VacationDayDataHandler.SetVacationDays(empId, 1,
+                "Автоматическое добавление дней основного ежегодного отпуска",
+                28, DateTime.Now.AddYears(1).Year);
+
+            return (resultCurYear && resultNextYear);
         }
 
         /// <summary>

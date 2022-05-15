@@ -87,11 +87,19 @@ namespace VacationSystem.Controllers
         /// Вывод частичного представления с информацией о выпускных днях выбранного сотрудника
         /// </summary>
         /// <param name="id">Идентификатор сотрудника</param>
-        public IActionResult GetDaysInfo(string id)
+        public IActionResult GetDaysInfo(string[] id, int year)
         {
-            // получить из сессии данные о всех отпусках
-            List<VacationDaysViewModel> days = SessionHelper.GetObjectFromJson<List<VacationDaysViewModel>>(HttpContext.Session, "all_days");
-            return PartialView(days.FirstOrDefault(d => d.EmployeeId == id));
+            string ident;
+            if (id.Length == 1)
+            {
+                ident = id[0];
+
+                // получить из сессии данные о всех отпусках
+                List<VacationDaysViewModel> days = SessionHelper.GetObjectFromJson<List<VacationDaysViewModel>>(HttpContext.Session, "all_days");
+                return PartialView(days.FirstOrDefault(d => d.EmployeeId == ident && d.Year == year));
+            }
+            else
+                return PartialView(null);
         }
 
         /// <summary>

@@ -31,7 +31,7 @@
                 </select>
             </div>
             <h3>Год</h3>
-            <input type="number" name="year" min="@DateTime.Now.Year" max="@DateTime.Now.AddYears(1).Year" value="@DateTime.Now.Year"/>
+            <input id="days-year" type="number" name="year" min="@DateTime.Now.Year" max="@DateTime.Now.AddYears(1).Year" value="@DateTime.Now.Year"/>
             <div id="days-info"></div>
             <input name="mode" type="radio" value="add" checked>Добавить
             <input name="mode" type="radio" value="delete">Удалить
@@ -67,16 +67,50 @@
             }
         });
     });
+
+    // изменение года, если уже выбран сотрудник
+    $(document).on('change', '#days-year', function () {
+        // получить идентификатор сотрудника
+        var id = $('.employee-list').val();
+        // выбранный год
+        var year = $('#days-year').val();
+
+        // количество выбранных сотрудников
+        var count = $('.employee-list :selected').length;
+
+        // если выбран один сотрудник, есть смысл обновить данные об его отпусках
+        if (count == 1)
+        {
+            $.ajax({
+                type: 'GET',
+                data: {
+                    "id": id[0],
+                    "year": year
+                },
+                url: '@Url.Action("GetDaysInfo")/',
+                success: function (data) {
+                    $('#days-info').replaceWith(data);
+                }
+            });
+        }
+    });
+
     // отображение информации о выбранном из списка сотруднике
     $(document).on('change', '.employee-list', function () {
         var id = $(this).val();
+
+        var year = $('#days-year').val();
         
         var count = $('.employee-list :selected').length;
         if (count == 1)
         {
             $.ajax({
                 type: 'GET',
-                url: '@Url.Action("GetDaysInfo")/' + id,
+                data: {
+                    "id": id[0],
+                    "year": year
+                },
+                url: '@Url.Action("GetDaysInfo")/',
                 success: function (data) {
                     $('#days-info').replaceWith(data);
                 }
