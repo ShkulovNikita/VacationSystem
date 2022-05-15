@@ -88,7 +88,7 @@ namespace VacationSystem.Classes.Helpers
                 {
                     Id = vacation.Id,
                     Type = "wished",
-                    Year = vacation.Date.Year,
+                    Year = vacation.Year,
                     StartDate = period.StartDate,
                     EndDate = period.EndDate,
                     Days = period.EndDate.Subtract(period.StartDate).Days + 1,

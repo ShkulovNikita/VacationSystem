@@ -12,7 +12,48 @@
 <div class="container">
     <div class="row">
         <div class="col-10">
-            <a asp-controller="Vacation" asp-action="AddVacation" asp-route-empId="@Model.Employee.Id" class="btn btn-primary">Добавить</a>
+            <form>
+                <label>Тип отпусков</label>
+                @if (@Model.CurrentType == null)
+                {
+                    <input name="type" type="radio" value="wished" /><span>Запланированные</span>
+                    <input name="type" type="radio" value="set" /><span>Утвержденные</span>
+                }
+                else if (@Model.CurrentType == "set")
+                {
+                    <input name="type" type="radio" value="wished" /><span>Запланированные</span>
+                    <input name="type" type="radio" value="set" checked="checked"/><span>Утвержденные</span>
+                }
+                else
+                {
+                    <input name="type" type="radio" value="wished" checked="checked"/><span>Запланированные</span>
+                    <input name="type" type="radio" value="set" /><span>Утвержденные</span>
+                }
+                <label>Год</label>
+                <select name="year">
+                    <option value="0">----</option>
+                    @foreach(int year in @Model.Years)
+                    {
+                        if (@Model.CurrentYear == year)
+                        {
+                            <option value="@year" selected>@year</option>
+                        }
+                        else
+                        {
+                            <option value="@year">@year</option>
+                        }
+                    }
+                </select>
+                <input type="submit" class="btn btn-primary" value="Применить" />
+            </form>
+            @if (@Model.AvailableDays > 0)
+            {
+                <a asp-controller="Vacation" asp-action="AddVacation" asp-route-empId="@Model.Employee.Id" class="btn btn-primary">Добавить</a>
+            }
+            else
+            {
+                <a href="#" class="btn btn-secondary" role="button" aria-disabled="true">Добавить</a>
+            }
             @if(@Model.Vacations.Count > 0)
             {
                 <h3>Список отпусков</h3>
@@ -29,10 +70,11 @@
                         </div>
                         @if (vacation.Type == "wished")
                         {
-                            <a asp-controller="Vacation" asp-action="EditWishedVacation" asp-route-empId="@vacation.EmpId" asp-route-vacationId="@vacation.Id" asp-route-type="@vacation.Type" class="btn btn-danger">Изменить</a>
+                            <a asp-controller="Vacation" asp-action="EditWishedVacation" asp-route-empId="@vacation.EmpId" asp-route-vacationId="@vacation.Id" asp-route-type="@vacation.Type" class="btn btn-primary">Изменить</a>
                         }
                         else
                         {
+                            <a asp-controller="Vacation" asp-action="Interrupt" asp-route-vacationId="@vacation.Id" class="btn btn-primary">Прервать</a>
                             <a asp-controller="Vacation" asp-action="Move" asp-route-groupId="@vacation.Id" asp-route-type="@vacation.Type" class="btn btn-primary">Перенести</a>
                             <a asp-controller="Vacation" asp-action="Split" asp-route-groupId="@vacation.Id" asp-route-type="@vacation.Type" class="btn btn-primary">Разделить</a>
                             <a asp-controller="Vacation" asp-action="Cancel" asp-route-groupId="@vacation.Id" asp-route-type="@vacation.Type" class="btn btn-danger">Отменить</a>
@@ -43,3 +85,9 @@
         </div>
     </div>
 </div>
+
+@section scripts {
+<script type="text/javascript">
+    
+</script>
+}

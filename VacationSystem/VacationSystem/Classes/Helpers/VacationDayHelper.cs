@@ -54,7 +54,7 @@ namespace VacationSystem.Classes.Helpers
             // общее количество выпускных дней
             daysVm.TotalDays = CountTotalDays(vacationDays);
 
-            // общее количество доступных выпускных дней
+            // общее количество доступных отпускных дней
             daysVm.AvailableDays = CountAvailableDays(vacationDays);
 
             // получить распределение дней по их типам
@@ -88,6 +88,49 @@ namespace VacationSystem.Classes.Helpers
         }
 
         /// <summary>
+        /// Посчитать количество отпускных дней, которые ещё не были включены ни в один отпуск
+        /// </summary>
+        /// <param name="days">Список всех дней, назначенных сотруднику</param>
+        /// <param name="year">Год, на который назначены дни отпуска</param>
+        /// <returns>Количество отпускных дней, которые не были включены в какой-либо утвержденный
+        /// либо запланированный отпуск</returns>
+        static public int CountFreeDays(List<VacationDay> days, int year)
+        {
+            int count = 0;
+            foreach (VacationDay day in days)
+            {
+                if ((day.Year == year) || (day.Year == year - 1))
+                    count += day.NumberOfDays - day.TakenDays;
+            }
+
+            return count;
+        }
+
+        /// <summary>
+        /// Посчитать количество отпускных дней, которые ещё не были включены ни в один отпуск
+        /// </summary>
+        /// <param name="empId">Идентификатор сотрудника</param>
+        /// <param name="year">Год, на который назначены дни отпуска</param>
+        /// <returns>Количество отпускных дней, которые не были включены в какой-либо утвержденный
+        /// либо запланированный отпуск</returns>
+        static public int CountFreeDays(string empId, int year)
+        {
+            // получить список отпускных дней данного сотрудника
+            List<VacationDay> days = VacationDayDataHandler
+                .GetVacationDays(empId)
+                .Where(d => d.Year == year || d.Year == year - 1)
+                .ToList();
+
+            if (days != null)
+            {
+                int count = CountFreeDays(days, year);
+                return count;
+            }
+            else
+                return -1;
+        }
+
+        /// <summary>
         /// Посчитать общее количество назначенных отпускных дней
         /// </summary>
         /// <param name="days">Список отпускных дней</param>
@@ -111,7 +154,7 @@ namespace VacationSystem.Classes.Helpers
             int result = 0;
 
             foreach (VacationDay day in days)
-                result = result + (day.NumberOfDays - day.UsedDays);
+                result = result + (day.NumberOfDays - day.TakenDays);
 
             return result;
         }

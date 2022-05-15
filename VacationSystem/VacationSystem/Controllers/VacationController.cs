@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
 using System.Collections.Generic;
+using System.Linq;
 using System;
 
 using VacationSystem.Models;
@@ -17,7 +18,10 @@ namespace VacationSystem.Controllers
         /// <summary>
         /// Отображение списка отпусков пользователя
         /// </summary>
-        public IActionResult Index(string empId)
+        /// <param name="empId">Идентификатор сотрудника</param>
+        /// <param name="type">Тип отображаемых отпусков: запланированные (wished) и утвержденные (set)</param>
+        /// <param name="year">Год, на который назначены отпуска</param>
+        public IActionResult Index(string empId, string type, int year)
         {
             // получить идентификатор пользователя
             string id = HttpContext.Session.GetString("id");
@@ -54,6 +58,19 @@ namespace VacationSystem.Controllers
                 return RedirectToAction("Index", "Home");
             }
 
+            // найти года, в которые у сотрудника есть отпуска
+            List<int> years = vacations.Select(v => v.Year).Distinct().OrderBy(el => el).ToList();
+
+            if (year == 0)
+                year = DateTime.Now.Year;
+
+            // отфильтровать, оставив только те отпуска, которые подходят по году
+            vacations = vacations.Where(v => v.EndDate.Year == year).ToList();
+
+            // указан тип отпуска
+            if (type != null)
+                vacations = vacations.Where(v => v.Type == type).ToList();
+
             if (vacations.Count == 0)
                 TempData["Message"] = "Не найдены отпуска";
 
@@ -71,11 +88,18 @@ namespace VacationSystem.Controllers
                 return RedirectToAction("Index", "Home");
             }
 
+            // посчитать количество дней, которые не были распределены в отпуска
+            int freeDays = VacationDayHelper.CountFreeDays(empId, year);
+
             // создать модель представления
             VacationIndexViewModel vacationVm = new VacationIndexViewModel
             {
                 Employee = emp,
-                Vacations = vacations
+                Vacations = vacations,
+                Years = years,
+                AvailableDays = freeDays,
+                CurrentType = type,
+                CurrentYear = year
             };
 
             return View(vacationVm);

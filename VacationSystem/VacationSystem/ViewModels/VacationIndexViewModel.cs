@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using VacationSystem.Models;
 
 namespace VacationSystem.ViewModels
@@ -19,5 +20,25 @@ namespace VacationSystem.ViewModels
         /// Список отпусков сотрудника
         /// </summary>
         public List<VacationViewModel> Vacations { get; set; } = new List<VacationViewModel>();
+
+        /// <summary>
+        /// Количество доступных отпускных дней, которые не были включены в отпуска
+        /// </summary>
+        public int AvailableDays { get; set; }
+
+        /// <summary>
+        /// Года, в которые сотрудник имеет отпуска
+        /// </summary>
+        public List<int> Years { get; set; }
+
+        /// <summary>
+        /// Выбранный пользователем тип отпусков
+        /// </summary>
+        public string CurrentType { get; set; }
+
+        /// <summary>
+        /// Выбранный пользователем год
+        /// </summary>
+        public int CurrentYear { get; set; }
     }
 }
