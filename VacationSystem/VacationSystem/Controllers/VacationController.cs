@@ -95,7 +95,11 @@ namespace VacationSystem.Controllers
                 isHead = EmployeeHelper.IsHead(id, empId);
 
             // посчитать количество дней, которые не были распределены в отпуска
-            int freeDays = VacationDayHelper.CountFreeDays(empId, year);
+            int freeDays;
+            if (empId == null)
+                freeDays = VacationDayHelper.CountFreeDays(id, year);
+            else
+                freeDays = VacationDayHelper.CountFreeDays(empId, year);
 
             // создать модель представления
             VacationIndexViewModel vacationVm = new VacationIndexViewModel
@@ -163,8 +167,10 @@ namespace VacationSystem.Controllers
         /// <summary>
         /// Сохранение в БД выбранных сотрудником периодов отпуска
         /// </summary>
+        /// <param name="empId">Идентификатор сотрудника</param>
         /// <param name="startDates">Начальные даты отпуска</param>
         /// <param name="endDates">Конечные даты отпуска</param>
+        /// <param name="year">Год, на который назначается отпуск</param>
         [HttpPost]
         public IActionResult AddVacation(string empId, DateTime[] startDates, DateTime[] endDates)
         {

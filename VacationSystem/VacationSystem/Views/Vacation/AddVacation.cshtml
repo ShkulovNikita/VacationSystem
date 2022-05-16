@@ -18,12 +18,14 @@
             <div id="message-block"></div>
             <h5 id="remained-days">Осталось дней: @availableDays</h5>
             <form method="post">
+                <h5>Год</h5>
+                <input id="period-year" type="number" name="year" min="@DateTime.Today.Year" max="@DateTime.Today.AddYears(1).Year" value="@DateTime.Today.AddYears(1).Year"/>
                 <div id="vacation-periods">
                     <div class="vacation-period">
                         <h3>Начало периода:</h3>
-                        <input type="date" name="startDates" class="period-date" value="@DateTime.Today.AddYears(1).ToString("yyyy-MM-dd")" />
+                        <input type="date" name="startDates" class="period-date start-date" value="@DateTime.Today.AddYears(1).ToString("yyyy-MM-dd")" />
                         <h3>Конец периода:</h3>
-                        <input type="date" name="endDates" class="period-date" value="@DateTime.Today.AddYears(1).AddDays(1).ToString("yyyy-MM-dd")" />
+                        <input type="date" name="endDates" class="period-date end-date" value="@DateTime.Today.AddYears(1).AddDays(1).ToString("yyyy-MM-dd")" />
                     </div>
                     <button type="button" class="btn btn-secondary add-period">Добавить период</button>
                     <button type="button" class="btn btn-secondary remove-period">Удалить период</button>
@@ -68,6 +70,7 @@
         
         // получить значения введенных начальных и конечных дат
         var serialised = $('form').serializeArray();
+        serialised.shift();
 
         if (!checkDates(serialised)) {
             blockButton();
@@ -81,6 +84,47 @@
             success: function () { }
         });
     });
+
+    // изменение в выбранном году меняет пределы дат в периодах
+    $(document).on('change', '#period-year', function() {
+        updateDates();
+    });
+
+    // обновление дат при изменении выбранного года
+    function updateDates() {
+        // выбранный пользователем год
+        let year = $('#period-year').val();
+
+        let today = new Date();
+        let day = today.getDate();
+        let month = today.getMonth() + 1;
+
+        // поменять граничные даты в соответствии с выбранным годом
+        if (month < 10)
+        {
+            if (day < 10)
+                $('.start-date').val(year + '-0' + month + '-0' + day);
+            else
+                $('.start-date').val(year + '-0' + month + '-' + day);
+
+            if (day + 1 < 10)
+                $('.end-date').val(year + '-0' + month + '-0' + (day+1));
+            else
+                $('.end-date').val(year + '-0' + month + '-' + (day+1));
+        }
+        else
+        {
+            if (day < 10)
+                $('.start-date').val(year + '-' + month + '-0' + day);
+            else
+                $('.start-date').val(year + '-' + month + '-' + day);
+
+            if (day + 1 < 10)
+                $('.end-date').val(year + '-' + month + '-0' + (day+1));
+            else
+                $('.end-date').val(year + '-' + month + '-' + (day+1));
+        }
+    }
 
     // проверка оставшегося количества дней (не должно отличаться от нуля)
     function checkRemainedDays(remainedDays) {
@@ -291,6 +335,7 @@
         // получить значения введенных начальных и конечных дат
         var serialised = $('form').serializeArray();
         console.log("serialised data", serialised);
+        serialised.shift();
 
         if (checkDates(serialised)) {
             // если все даты корректны, обновить количество доступных дней
