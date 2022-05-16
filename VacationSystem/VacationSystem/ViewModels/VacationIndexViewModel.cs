@@ -40,5 +40,10 @@ namespace VacationSystem.ViewModels
         /// Выбранный пользователем год
         /// </summary>
         public int CurrentYear { get; set; }
+
+        /// <summary>
+        /// Является ли авторизованный сотрудник руководителем текущего сотрудника
+        /// </summary>
+        public bool IsHead { get; set; }
     }
 }

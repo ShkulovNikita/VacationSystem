@@ -60,6 +60,32 @@ namespace VacationSystem.Classes.Database
         }
 
         /// <summary>
+        /// Получение всех доступных отпускных дней сотрудника
+        /// </summary>
+        /// <param name="empId">Идентификатор сотрудника</param>
+        /// <param name="year">Год, на который назначены отпускные дни</param>
+        /// <returns>Список отпускных дней сотрудника</returns>
+        static public List<VacationDay> GetAvailableVacationDays(string empId, int year)
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    return db.VacationDays
+                        .Where(vd => vd.EmployeeId == empId 
+                        && vd.NumberOfDays > vd.TakenDays 
+                        && ((vd.Year == year) || (vd.Year == year - 1)))
+                        .ToList();
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return null;
+            }
+        }
+
+        /// <summary>
         /// Сохранение в БД дней отпуска одного сотрудника
         /// </summary>
         /// <param name="empId">Идентификатор сотрудника</param>

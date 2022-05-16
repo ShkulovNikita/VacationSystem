@@ -127,6 +127,7 @@ main {
 /* ------------------------------------------------------ */
 /* Замена синего цвета кнопок Primary на зеленый цвет ТПУ */
 /* ------------------------------------------------------ */
+
 .btn-primary {
     color: white;
     background-color: rgb(128, 191, 68);
@@ -245,4 +246,10 @@ select {
     left: 0;
     background-color: rgb(174, 194, 204);
     color: #373737;
+}
+
+.vacation-item {
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
 }

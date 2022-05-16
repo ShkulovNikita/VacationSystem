@@ -78,6 +78,7 @@
         // получить значения введенных начальных и конечных дат
         var serialised = $('form').serializeArray();
         serialised.shift();
+        serialised.shift();
 
         if (!checkDates(serialised)) {
             blockButton();
@@ -302,6 +303,8 @@
         var serialised = $('form').serializeArray();
         console.log("serialised data", serialised);
         // удалить идентификатор отпуска из коллекции
+        serialised.shift();
+        // удалить идентификатор сотрудника
         serialised.shift();
         console.log("serialised data", serialised);
 
