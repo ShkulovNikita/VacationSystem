@@ -10,13 +10,13 @@
         isHead = bool.Parse(Context.Session.GetString("head"));
 
     // сообщения со стороны сервера
-    string error = null;
-    if (TempData["Error"] != null)
-        error = TempData["Error"].ToString();
-
     string success = null;
     if (TempData["Success"] != null)
         success = TempData["Success"].ToString();
+
+    string error = null;
+    if (TempData["Error"] != null)
+        error = TempData["Error"].ToString();
 
     string message = null;
     if (TempData["Message"] != null)

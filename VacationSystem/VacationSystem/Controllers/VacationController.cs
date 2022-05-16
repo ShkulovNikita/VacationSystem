@@ -329,5 +329,19 @@ namespace VacationSystem.Controllers
 
             return RedirectToAction("Index", new { empId });
         }
+
+        /// <summary>
+        /// Удаление выбранного запланированного отпуска
+        /// </summary>
+        /// <param name="vacationId">Идентификатор отпуска в БД</param>
+        public IActionResult DeleteWishedVacation(int vacationId)
+        {
+            if (VacationDataHandler.DeleteWishedVacation(vacationId))
+                TempData["Success"] = "Отпуск был успешно удален";
+            else
+                TempData["Error"] = "Не удалось удалить отпуск";
+
+            return RedirectToAction("Index");
+        }
     }
 }

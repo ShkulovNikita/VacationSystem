@@ -372,5 +372,28 @@ namespace VacationSystem.Classes.Database
                 return false;
             }
         }
+
+        static public bool DeleteWishedVacation(int vacationId)
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    WishedVacationPeriod wishedVacation = GetWishedVacation(vacationId);
+                    if (wishedVacation != null)
+                    {
+                        db.WishedVacationPeriods.Remove(wishedVacation);
+                        db.SaveChanges();
+                    }
+                }
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return false;
+            }
+        }
     }
 }

@@ -60,7 +60,6 @@
             {
                 <h3>Список отпусков</h3>
             }
-
             @{
                 List<int> ids = Model.Vacations.Select(v => v.Id).Distinct().ToList();
                 foreach (int id in ids)
@@ -84,6 +83,7 @@
                         if (vac.Type == "wished")
                         {
                             <a asp-controller="Vacation" asp-action="EditWishedVacation" asp-route-empId="@vac.EmpId" asp-route-vacationId="@vac.Id" asp-route-year="@vac.Year" class="btn btn-primary">Изменить</a>
+                            <a asp-controller="Vacation" asp-action="DeleteWishedVacation" asp-route-vacationId="@vac.Id" class="btn btn-danger">Удалить</a>
                         }
                         else
                         {
