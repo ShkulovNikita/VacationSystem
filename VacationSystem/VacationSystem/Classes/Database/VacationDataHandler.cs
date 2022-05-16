@@ -85,57 +85,9 @@ namespace VacationSystem.Classes.Database
 
                     db.SaveChanges();
 
-                    if (!TakeVacationDays(db, wishedVacation))
+                    if (!VacationDayDataHandler.TakeVacationDays(db, wishedVacation))
                         return false;
                 }
-
-                return true;
-            }
-            catch (Exception ex)
-            {
-                Debug.WriteLine(ex.Message);
-                return false;
-            }
-        }
-
-        /// <summary>
-        /// Указать, что дни отпуска были взяты для какого-то периода
-        /// </summary>
-        /// <param name="db">Контекст БД</param>
-        /// <param name="wishedVacation">Запланированный период отпуска</param>
-        /// <returns>Успешность выполнения операции</returns>
-        static private bool TakeVacationDays(ApplicationContext db, WishedVacationPeriod wishedVacation)
-        {
-            try
-            {
-                // список отпускных дней сотрудника
-                List<VacationDay> days = VacationDayDataHandler.GetAvailableVacationDays(db, wishedVacation.EmployeeId, wishedVacation.Year);
-
-                // количество дней в отпуске
-                int count = 0;
-                foreach (VacationPart part in wishedVacation.VacationParts)
-                    count += (part.EndDate - part.StartDate).Days + 1;
-
-                // проход по имеюшимся у сотрудника дням отпуска с уменьшением их доступного количества
-                foreach (VacationDay day in days)
-                {
-                    // если уже все дни отпусков учтены, то прекратить проход
-                    if (count == 0)
-                        break;
-
-                    // иначе указать, что дни отпуска были заняты некоторым отпуском
-
-                    // если count превышает доступное количество дней, то отрезать только то количество, которое возможно
-                    if (count >= (day.NumberOfDays - day.TakenDays))
-                    {
-                        day.TakenDays = day.NumberOfDays;
-                        count = count - (day.NumberOfDays - day.TakenDays);
-                    }
-                    else
-                        day.TakenDays += count;
-                }
-
-                db.SaveChanges();
 
                 return true;
             }
@@ -424,6 +376,11 @@ namespace VacationSystem.Classes.Database
             }
         }
 
+        /// <summary>
+        /// Удаление запланированного отпуска из БД
+        /// </summary>
+        /// <param name="vacationId">Идентификатор отпуска</param>
+        /// <returns>Успешность выполнения операции</returns>
         static public bool DeleteWishedVacation(int vacationId)
         {
             try
@@ -433,6 +390,9 @@ namespace VacationSystem.Classes.Database
                     WishedVacationPeriod wishedVacation = GetWishedVacation(vacationId);
                     if (wishedVacation != null)
                     {
+                        if (!VacationDayDataHandler.FreeVacationDays(db, wishedVacation))
+                            return false;
+
                         db.WishedVacationPeriods.Remove(wishedVacation);
                         db.SaveChanges();
                     }

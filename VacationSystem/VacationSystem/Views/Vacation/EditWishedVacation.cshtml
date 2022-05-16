@@ -313,7 +313,10 @@
             $.ajax({
                 type: "POST",
                 url: '@Url.Action("CalculateDays")/',
-                data: {"collection":serialised},
+                data: {
+                    "collection": serialised,
+                    "vacationId": '@Model.Id'
+                },
                 success: function (result) { 
                     $('#remained-days').text('Осталось дней: ' + result);
                     checkRemainedDays(result);

@@ -59,7 +59,14 @@ namespace VacationSystem.Controllers
             }
 
             // найти года, в которые у сотрудника есть отпуска
-            List<int> years = vacations.Select(v => v.Year).Distinct().OrderBy(el => el).ToList();
+            List<int> years = vacations.Select(v => v.Year).Distinct().ToList();
+            int currentYear = DateTime.Now.Year;
+            int nextYear = DateTime.Now.AddYears(1).Year;
+            if (!years.Contains(currentYear))
+                years.Add(currentYear);
+            if (!years.Contains(nextYear))
+                years.Add(nextYear);
+            years = years.OrderBy(el => el).ToList();
 
             if ((year == 0) && (years.Count > 0))
                 year = years[0];
@@ -120,7 +127,7 @@ namespace VacationSystem.Controllers
         /// Отображение страницы с выбором периодов отпусков
         /// </summary>
         [HttpGet]
-        public IActionResult AddVacation(string empId)
+        public IActionResult AddVacation(string empId, int year)
         {
             // получить идентификатор пользователя
             string id = HttpContext.Session.GetString("id");
@@ -133,11 +140,11 @@ namespace VacationSystem.Controllers
             List<VacationDay> days;
 
             if ((empId == null) || (empId == id))
-                days = VacationDayDataHandler.GetAvailableVacationDays(id);
+                days = VacationDayDataHandler.GetAvailableVacationDays(id, year);
             else
                 // если задан идентификатор сотрудника, то отпуск, вероятно, добавляется руководителем
                 if (EmployeeHelper.IsHead(id, empId))
-                    days = VacationDayDataHandler.GetAvailableVacationDays(empId);
+                    days = VacationDayDataHandler.GetAvailableVacationDays(empId, year);
                 else
                 {
                     TempData["Error"] = "Нет прав для доступа к запрашиваемой странице";
@@ -182,6 +189,10 @@ namespace VacationSystem.Controllers
                 return RedirectToAction("Index");
             }
 
+            if (empId == null)
+                empId = id;
+            Employee emp = Connector.GetEmployee(empId);
+
             // создать объект с выбранным отпуском сотрудника
             ChosenVacation vacation = VacationHelper.MakeVacation(startDates, endDates);
 
@@ -192,7 +203,7 @@ namespace VacationSystem.Controllers
             if (checkResult != "success")
             {
                 TempData["Error"] = checkResult;
-                return View();
+                return View(emp);
             }
 
             // проверка на соответствие ТК РФ
@@ -200,7 +211,7 @@ namespace VacationSystem.Controllers
             if (lawResult != "success")
             {
                 TempData["Error"] = lawResult;
-                return View();
+                return View(emp);
             }
 
             // сохранение в БД
@@ -226,7 +237,6 @@ namespace VacationSystem.Controllers
                     TempData["Error"] = "Нет прав для доступа к запрашиваемой странице";
                     return RedirectToAction("Index");
                 }
-
             }
 
             return RedirectToAction("Index", new { empId });
@@ -238,10 +248,17 @@ namespace VacationSystem.Controllers
         /// </summary>
         /// <param name="collection">Массив с данными о выбранных периодах отпусках</param>
         [HttpPost]
-        public int CalculateDays(List<PeriodViewModel> collection)
+        public int CalculateDays(List<PeriodViewModel> collection, string empId, int year, int vacationId)
         {
-            // получить доступное сотруднику количество отпускных дней
-            int availableDays = (int)HttpContext.Session.GetInt32("available_days");
+            int availableDays;
+
+            if (vacationId == -1)
+            {
+                List<VacationDay> days = VacationDayDataHandler.GetAvailableVacationDays(empId, year);
+                availableDays = VacationDayHelper.CountAvailableDays(days);
+            }
+            else
+                availableDays = VacationDayHelper.CountTakenDays(vacationId);
 
             // рассчитать разницу в днях между выбранными периодами дней
             int vacationDays = 0;
@@ -266,7 +283,7 @@ namespace VacationSystem.Controllers
         {
             // получить количество доступных отпускных дней пользователя
             List<VacationDay> days = VacationDayDataHandler.GetAvailableVacationDays(empId, year);
-            int availableDays = VacationDayHelper.CountAvailableDays(days);
+            int availableDays = VacationDayHelper.CountTakenDays(vacationId);
 
             HttpContext.Session.SetInt32("available_days", availableDays);
 

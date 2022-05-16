@@ -32,7 +32,7 @@
                     <input name="type" type="radio" value="set" /><span>Утвержденные</span>
                 }
                 <label>Год</label>
-                <select name="year">
+                <select id="vacation-year" name="year">
                     <option value="0">----</option>
                     @foreach(int year in @Model.Years)
                     {
@@ -48,9 +48,10 @@
                 </select>
                 <input type="submit" class="btn btn-primary" value="Применить" />
             </form>
+            <h5>Количество дней для данного года: @Model.AvailableDays</h5>
             @if (@Model.AvailableDays > 0)
             {
-                <a asp-controller="Vacation" asp-action="AddVacation" asp-route-empId="@Model.Employee.Id" class="btn btn-primary">Добавить</a>
+                <a id="add-vacation" asp-controller="Vacation" asp-action="AddVacation" asp-route-empId="@Model.Employee.Id" asp-route-year="@(Model.CurrentYear + 1)" class="btn btn-primary">Добавить</a>
             }
             else
             {
@@ -102,6 +103,5 @@
 
 @section scripts {
 <script type="text/javascript">
-    
 </script>
 }

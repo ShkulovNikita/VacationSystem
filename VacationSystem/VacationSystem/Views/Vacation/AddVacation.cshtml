@@ -87,6 +87,7 @@
 
     // изменение в выбранном году меняет пределы дат в периодах
     $(document).on('change', '#period-year', function() {
+        refreshRemainedDays();
         updateDates();
     });
 
@@ -338,14 +339,25 @@
         serialised.shift();
 
         if (checkDates(serialised)) {
+            let year = $('#period-year').val();
+            let empId = '@Model.Id';
+
             // если все даты корректны, обновить количество доступных дней
             $.ajax({
                 type: "POST",
                 url: '@Url.Action("CalculateDays")/',
-                data: {"collection":serialised},
+                data: {
+                    "collection": serialised,
+                    "empId": empId,
+                    "year": year,
+                    "vacationId": -1
+                },
                 success: function (result) { 
                     $('#remained-days').text('Осталось дней: ' + result);
                     checkRemainedDays(result);
+                },
+                error: function (data) {
+                    console.log(data);
                 }
             });
         }
