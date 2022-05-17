@@ -206,7 +206,7 @@ namespace VacationSystem.Classes.Database
                 {
                     db.VacationStatuses.Add(new VacationStatus
                     {
-                        Name = "Назначен"
+                        Name = "Утвержден"
                     });
                     db.VacationStatuses.Add(new VacationStatus
                     {
@@ -235,6 +235,10 @@ namespace VacationSystem.Classes.Database
                     db.VacationStatuses.Add(new VacationStatus
                     {
                         Name = "Перенесен"
+                    });
+                    db.VacationStatuses.Add(new VacationStatus
+                    {
+                        Name = "Прерван"
                     });
 
                     db.SaveChanges();

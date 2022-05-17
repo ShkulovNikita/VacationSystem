@@ -30,7 +30,7 @@
                     <button type="button" class="btn btn-secondary add-period">Добавить период</button>
                     <button type="button" class="btn btn-secondary remove-period">Удалить период</button>
                 </div>
-                <input type="submit" class="btn btn-primary" id="submit-button" disabled="disabled" />
+                <input type="submit" class="btn btn-primary" id="submit-button" value="Сохранить" disabled="disabled" />
             </form>
         </div>
     </div>
@@ -42,8 +42,34 @@
     $('#vacation-periods').on('click', '.add-period', function() {
         // получить уже существующий один период для копирования
         var periodTemplate = $('.vacation-period:last');
+        // получиь текущий год
+        let year = $('#period-year').val();
+
+        let today = new Date();
+        today.setFullYear(year);
+
+        let day = today.getDate();
+        let month = today.getMonth() + 1;
+        let dateValue;
+
+        if (month < 10)
+        {
+            if (day < 10)
+                dateValue = '' + year + '-0' + month + '-0' + day;
+            else
+                dateValue = '' + year + '-0' + month + '-' + day;
+        }
+        else
+        {
+            if (day < 10)
+                dateValue = '' + year + '-' + month + '-0' + day;
+            else
+                dateValue = '' + year + '-' + month + '-' + day;
+        }
+
         // создать новый период
-        $(periodTemplate).clone().appendTo('#vacation-periods').find("input[type='date']").val('@DateTime.Today.AddYears(1).AddDays(1).ToString("yyyy-MM-dd")');
+        $(periodTemplate).clone().appendTo('#vacation-periods').find("input[type='date']").val(dateValue);
+
         // переместить кнопки в конец
         $(this).appendTo('#vacation-periods');
         $('.remove-period:last').appendTo('#vacation-periods');

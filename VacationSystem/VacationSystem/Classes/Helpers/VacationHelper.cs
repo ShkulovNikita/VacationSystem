@@ -332,7 +332,7 @@ namespace VacationSystem.Classes.Helpers
                         StartDate = part.StartDate,
                         EndDate = part.EndDate,
                         Date = DateTime.Now,
-                        VacationStatusId = VacationDataHandler.GetVacationStatus("Назначен").Id,
+                        VacationStatusId = VacationDataHandler.GetVacationStatus("Утвержден").Id,
                         EmployeeId = employee.Id
                     };
 
@@ -424,6 +424,15 @@ namespace VacationSystem.Classes.Helpers
                     {
                         StartDate = startDate,
                         EndDate = part.EndDate,
+                        Part = part.Part,
+                        WishedVacationPeriod = part.WishedVacationPeriod,
+                        WishedVacationPeriodId = part.WishedVacationPeriodId
+                    });
+                else if ((part.StartDate <= startDate) && (part.EndDate >= endDate))
+                    filteredParts.Add(new VacationPart
+                    {
+                        StartDate = startDate,
+                        EndDate = endDate,
                         Part = part.Part,
                         WishedVacationPeriod = part.WishedVacationPeriod,
                         WishedVacationPeriodId = part.WishedVacationPeriodId

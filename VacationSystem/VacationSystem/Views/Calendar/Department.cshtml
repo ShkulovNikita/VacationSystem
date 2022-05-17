@@ -61,7 +61,7 @@
                     }
                 </tbody>
             </table>
-            <button type="button" id="submit-button" class="btn btn-primary">Утвердить</button>
+            <button type="button" id="submit-button" class="btn btn-primary" disabled>Утвердить</button>
             <button type="button" id="clear-button" class="btn btn-danger">Очистить</button>
             <button type="button" id="call-popup" class="btn btn-primary">Тест</button>
         </div>
@@ -99,9 +99,11 @@
     function showSuccessPopup() {
         let popup = $('.popup-window');
         popup.empty();
+        popup.height(140);
         popup.append('<div class="alert alert-success">Выбранные отпуска соответствуют всем правилам</div>');
         popup.append('<button type="button" class="btn btn-primary" id="hide-popup">Скрыть</button>');
         $('.popup-window').css('display', 'block');
+        $('#submit-button').prop('disabled', false);
     }
 
     /* Показать сообщение с полученными предупреждениями */
@@ -127,11 +129,21 @@
             popup.append('<div class="alert alert-danger popup-item">' + link + '<p>' + item.ruleDescription + '</p>' + '</div>');
         });
 
-        popup.append('<button type="button" class="btn btn-primary" id="hide-popup">Скрыть</button>');
+        popup.append('<button type="button" class="btn btn-primary" id="fix-popup">Исправить</button>')
+        popup.append('<button type="button" class="btn btn-primary" id="ignore-popup">Игнорировать</button>');
         $('.popup-window').css('display', 'block');
     }
 
     $(document).on('click', '#hide-popup', function() {
+        $('.popup-window').css('display', 'none');
+    });
+
+    $(document).on('click', '#ignore-popup', function () {
+        $('#submit-button').prop('disabled', false);
+        $('.popup-window').css('display', 'none');
+    });
+
+    $(document).on('click', '#fix-popup', function() {
         $('.popup-window').css('display', 'none');
     });
 

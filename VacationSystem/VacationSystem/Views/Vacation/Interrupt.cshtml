@@ -1,0 +1,23 @@
+﻿@model SetVacation;
+
+@using VacationSystem.Models;
+
+@{
+    Layout = "_Common";
+
+    ViewData["Title"] = "Прерывание отпуска";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-7">
+            <form method="post">
+                <h5>Отпуск:</h5>
+                <p>@Model.StartDate.ToString("yyyy-MM-dd") - @Model.EndDate.ToString("yyyy-MM-dd")</p>
+                <h5>Дата прерывания отпуска</h5>
+                <input type="date" name="interruptionDate" value="@Model.EndDate.ToString("yyyy-MM-dd")"/>
+                <input type="submit" class="btn btn-primary" value="Сохранить"/>
+            </form>
+        </div>
+    </div>
+</div>

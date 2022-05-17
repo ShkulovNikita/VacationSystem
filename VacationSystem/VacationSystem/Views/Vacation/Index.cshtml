@@ -89,9 +89,9 @@
                         else
                         {
                             <a asp-controller="Vacation" asp-action="Interrupt" asp-route-vacationId="@vac.Id" class="btn btn-primary">Прервать</a>
+                            <a asp-controller="Vacation" asp-action="Cancel" asp-route-vacationId="@vac.Id" class="btn btn-danger">Отменить</a>
                             <a asp-controller="Vacation" asp-action="Move" asp-route-groupId="@vac.Id" asp-route-type="@vac.Type" class="btn btn-primary">Перенести</a>
                             <a asp-controller="Vacation" asp-action="Split" asp-route-groupId="@vac.Id" asp-route-type="@vac.Type" class="btn btn-primary">Разделить</a>
-                            <a asp-controller="Vacation" asp-action="Cancel" asp-route-groupId="@vac.Id" asp-route-type="@vac.Type" class="btn btn-danger">Отменить</a>
                         }
                     }
                     </div>

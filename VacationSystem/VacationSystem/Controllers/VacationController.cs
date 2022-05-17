@@ -366,5 +366,69 @@ namespace VacationSystem.Controllers
 
             return RedirectToAction("Index");
         }
+
+        /// <summary>
+        /// Отображение страницы прерывания утвержденного отпуска
+        /// </summary>
+        /// <param name="vacationId">Идентификатор отпуска</param>
+        [HttpGet]
+        public IActionResult Interrupt(int vacationId)
+        {
+            // получить прерываемый отпуск
+            SetVacation vacation = VacationDataHandler.GetSetVacation(vacationId);
+
+            if (vacation == null)
+            {
+                TempData["Error"] = "Не удалось получить данные об отпуске";
+                string id = HttpContext.Session.GetString("id");
+                return RedirectToAction("Index", new { empId = id });
+            }
+
+            return View(vacation);
+        }
+
+        /// <summary>
+        /// Прерывание утвержденного отпуска
+        /// </summary>
+        /// <param name="vacationId">Идентификатор отпуска</param>
+        /// <param name="interruptionDate">Дата прерывания</param>
+        [HttpPost]
+        public IActionResult Interrupt(int vacationId, DateTime interruptionDate)
+        {
+            // получить прерываемый отпуск
+            SetVacation vacation = VacationDataHandler.GetSetVacation(vacationId);
+
+            if (vacation == null)
+            {
+                TempData["Error"] = "Не удалось получить данные об отпуске";
+                string id = HttpContext.Session.GetString("id");
+                return RedirectToAction("Index", new { empId = id });
+            }
+
+            // привести дату прерывания к году отпуска
+            DateTime date = new DateTime(vacation.StartDate.Year, interruptionDate.Month, interruptionDate.Day);
+
+            if (date > vacation.EndDate)
+            {
+                TempData["Error"] = "Выбрана некорректная дата";
+                return View(vacation);
+            }
+
+            if (VacationDataHandler.InterruptVacation(vacationId, date))
+                TempData["Success"] = "Отпуск был успешно прерван";
+            else
+                TempData["Error"] = "Не удалось прервать отпуск";
+
+            return RedirectToAction("Index", new { empId = vacation.EmployeeId });
+        }
+
+        /// <summary>
+        /// Отмена отпуска
+        /// </summary>
+        /// <param name="vacationId">Идентификатор отпуска</param>
+        public IActionResult Cancel(int vacationId)
+        {
+            return null;
+        }
     }
 }

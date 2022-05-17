@@ -320,6 +320,25 @@ namespace VacationSystem.Classes.Database
         }
 
         /// <summary>
+        /// Получить статус отпуска по его имени
+        /// </summary>
+        /// <param name="db">Контекст БД</param>
+        /// <param name="status">Наименование статуса отпуска</param>
+        /// <returns>Статус отпуска</returns>
+        static public VacationStatus GetVacationStatus(ApplicationContext db, string status)
+        {
+            try
+            {
+                return db.VacationStatuses.FirstOrDefault(vs => vs.Name == status);
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return null;
+            }
+        }
+
+        /// <summary>
         /// Утверждение запланированных отпусков в БД
         /// </summary>
         /// <param name="vacations">Список утверждаемых отпусков</param>
@@ -352,7 +371,7 @@ namespace VacationSystem.Classes.Database
                             /* РАСКОММЕНТИРОВАТЬ ПОСЛЕ ОТЛАДКИ */
                             /* ------------------------------- */
                             // удалить эти отпуска из БД
-                            //db.WishedVacationPeriods.RemoveRange(periods);
+                            db.WishedVacationPeriods.RemoveRange(periods);
 
                             db.SaveChanges();
 
@@ -399,6 +418,87 @@ namespace VacationSystem.Classes.Database
                 }
 
                 return true;
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return false;
+            }
+        }
+
+        /// <summary>
+        /// Получение утвержденного отпуска
+        /// </summary>
+        /// <param name="vacationId">Идентификатор отпуска</param>
+        /// <returns>Утвержденный отпуск</returns>
+        static public SetVacation GetSetVacation(int vacationId)
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    return db.SetVacations.FirstOrDefault(sv => sv.Id == vacationId);
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return null;
+            }
+        }
+
+        /// <summary>
+        /// Получение утвержденного отпуска
+        /// </summary>
+        /// <param name="db">Контекст БД</param>
+        /// <param name="vacationId">Идентификатор отпуска</param>
+        /// <returns>Утвержденный отпуск</returns>
+        static public SetVacation GetSetVacation(ApplicationContext db, int vacationId)
+        {
+            try
+            {
+                return db.SetVacations.FirstOrDefault(sv => sv.Id == vacationId);
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return null;
+            }
+        }
+
+        /// <summary>
+        /// Прерывание утвержденного отпуска
+        /// </summary>
+        /// <param name="vacationId">Идентификатор отпуска</param>
+        /// <param name="date">Дата прерывания</param>
+        /// <returns>Успешность выполнения операции</returns>
+        static public bool InterruptVacation(int vacationId, DateTime date)
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    SetVacation vacation = GetSetVacation(db, vacationId);
+
+                    // разница между изначальной конечной датой отпуска и датой прерывания
+                    int difference = (vacation.EndDate - date).Days;
+
+                    // попробовать освободить занятые отпуском отпускные дни
+                    bool result = VacationDayDataHandler.FreeVacationDays(db, vacation, difference);
+
+                    if (!result)
+                        return false;
+
+                    // если получилось освободить дни, то поменять статус отпуска
+                    VacationStatus status = GetVacationStatus(db, "Прерван");
+
+                    vacation.VacationStatus = status;
+                    vacation.VacationStatusId = status.Id;
+
+                    db.SaveChanges();
+
+                    return true;
+                }
             }
             catch (Exception ex)
             {

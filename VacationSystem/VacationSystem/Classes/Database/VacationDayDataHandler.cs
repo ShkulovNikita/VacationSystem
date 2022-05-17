@@ -392,6 +392,79 @@ namespace VacationSystem.Classes.Database
         }
 
         /// <summary>
+        /// Освободить отпускные дни, ранее взятые для утвержденного отпуска
+        /// </summary>
+        /// <param name="db">Контекст БД</param>
+        /// <param name="vacation">Утвержденный отпуск</param>
+        /// <param name="number">Количество освобождаемых дней</param>
+        /// <returns>Успешность выполнения операции</returns>
+        static public bool FreeVacationDays(ApplicationContext db, SetVacation vacation, int number)
+        {
+            try
+            {
+                // получить дни отпуска, назначенные сотруднику
+                List<VacationDay> days = GetVacationDays(db, vacation.EmployeeId)
+                    .Where(vd => vd.Year == vacation.EndDate.Year || vd.Year == vacation.EndDate.Year - 1)
+                    .OrderBy(vd => vd.Year)
+                    .ToList();
+
+
+                // проход по имеющимся у сотрудника дням отпуска с их высвобождением
+                bool result = FreeTakenDays(days, number);
+                if (!result)
+                    return false;
+
+                db.SaveChanges();
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return false;
+            }
+        }
+
+        /// <summary>
+        /// Освобождение занятых отпускных дней
+        /// </summary>
+        /// <param name="db">Контекст БД</param>
+        /// <param name="days">Отпускные дни</param>
+        /// <param name="count">Количество освобождаемых дней</param>
+        /// <returns>Успешность выполнения операции</returns>
+        static public bool FreeTakenDays(List<VacationDay> days, int count)
+        {
+            try
+            {
+                // проход по имеющимся у сотрудника дням отпуска с их высвобождением
+                foreach (VacationDay day in days)
+                {
+                    // если уже было высвобождено 
+                    if (count == 0)
+                        break;
+
+                    if (count >= day.TakenDays)
+                    {
+                        count = count - day.TakenDays;
+                        day.TakenDays = 0;
+                    }
+                    else
+                    {
+                        day.TakenDays = day.TakenDays - count;
+                        count = 0;
+                    }
+                }
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return false;
+            }
+        }
+
+        /// <summary>
         /// Освободить отпускные дни, ранее взятые для запланированного отпуска
         /// </summary>
         /// <param name="db">Контекст БД</param>
@@ -413,23 +486,9 @@ namespace VacationSystem.Classes.Database
                     count += (part.EndDate - part.StartDate).Days + 1;
 
                 // проход по имеющимся у сотрудника дням отпуска с их высвобождением
-                foreach (VacationDay day in days)
-                {
-                    // если уже было высвобождено 
-                    if (count == 0)
-                        break;
-
-                    if (count >= day.TakenDays)
-                    {
-                        count = count - day.TakenDays;
-                        day.TakenDays = 0;
-                    }
-                    else
-                    {
-                        day.TakenDays = day.TakenDays - count;
-                        count = 0;
-                    }
-                }
+                bool result = FreeTakenDays(days, count);
+                if (!result)
+                    return false;
 
                 db.SaveChanges();
 
