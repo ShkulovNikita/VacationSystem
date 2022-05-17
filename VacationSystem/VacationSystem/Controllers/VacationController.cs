@@ -196,6 +196,26 @@ namespace VacationSystem.Controllers
             // создать объект с выбранным отпуском сотрудника
             ChosenVacation vacation = VacationHelper.MakeVacation(startDates, endDates);
 
+            if (vacation.Periods == null)
+            {
+                TempData["Error"] = "Не удалось обработать периоды отпусков";
+                return View(emp);
+            }
+            if (vacation.Periods.Length == 0)
+            {
+                TempData["Error"] = "Не удалось обработать периоды отпусков";
+                return View(emp);
+            }
+
+            // добавить туда отпуска, которые уже есть у сотрудника
+            List<ChosenPeriod> setPeriods = VacationHelper.GetSetPeriods(empId, vacation.Periods[0].StartDate.Year);
+            ChosenPeriod[] periods = new ChosenPeriod[vacation.Periods.Length + setPeriods.Count];
+            for (int i = 0; i < vacation.Periods.Length; i++)
+                periods[i] = vacation.Periods[i];
+            for (int i = vacation.Periods.Length; i < vacation.Periods.Length + setPeriods.Count; i++)
+                periods[i] = setPeriods[i - vacation.Periods.Length];
+            vacation.Periods = periods;
+
             // проверить корректность выбранных периодов
             string checkResult = VacationChecker.CheckVacationPeriods(vacation);
 
@@ -207,7 +227,7 @@ namespace VacationSystem.Controllers
             }
 
             // проверка на соответствие ТК РФ
-            string lawResult = VacationChecker.CheckLawRules(vacation, null);
+            string lawResult = VacationChecker.CheckLawRules(empId, vacation, null);
             if (lawResult != "success")
             {
                 TempData["Error"] = lawResult;
@@ -337,7 +357,7 @@ namespace VacationSystem.Controllers
             }
 
             // проверка на соответствие ТК РФ
-            string lawResult = VacationChecker.CheckLawRules(vacation, null);
+            string lawResult = VacationChecker.CheckLawRules(empId, vacation, null);
             if (lawResult != "success")
             {
                 TempData["Error"] = lawResult;

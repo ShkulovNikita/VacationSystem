@@ -157,13 +157,13 @@ namespace VacationSystem.Classes
         /// </summary>
         /// <param name="vacation">Отпуск с его периодами</param>
         /// <returns>Сообщение об ошибке либо успешности операции</returns>
-        static public string CheckLawRules(ChosenVacation vacation, string errors)
+        static public string CheckLawRules(string empId, ChosenVacation vacation, string errors)
         {
             if (errors == null)
                 errors = "";
             bool isValid = true;
 
-            if (!Check14Days(vacation.Periods))
+            if (!Check14Days(empId, vacation.Periods))
             {
                 errors += "• Хотя бы одна из частей отпуска должна быть не менее 14 дней (ТК РФ, Ст. 125)";
                 isValid = false;
@@ -180,7 +180,7 @@ namespace VacationSystem.Classes
         /// </summary>
         /// <param name="periods">Периоды внутри отпуска</param>
         /// <returns>Результат проверки</returns>
-        static private bool Check14Days(ChosenPeriod[] periods)
+        static private bool Check14Days(string empId, ChosenPeriod[] periods)
         {
             foreach(ChosenPeriod period in periods)
             {

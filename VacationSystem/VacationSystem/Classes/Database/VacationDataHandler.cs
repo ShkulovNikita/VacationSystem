@@ -64,6 +64,9 @@ namespace VacationSystem.Classes.Database
         {
             try
             {
+                // отфильтровать желаемые периоды, убрав уже утвержденные
+                vacation.Periods = vacation.Periods.Where(p => p.Type == false).ToArray();
+
                 using (ApplicationContext db = new ApplicationContext())
                 {
                     // добавить новый желаемый отпуск в БД
@@ -494,6 +497,9 @@ namespace VacationSystem.Classes.Database
 
                     vacation.VacationStatus = status;
                     vacation.VacationStatusId = status.Id;
+
+                    // также указать новую дату конца отпуска
+                    vacation.EndDate = date;
 
                     db.SaveChanges();
 

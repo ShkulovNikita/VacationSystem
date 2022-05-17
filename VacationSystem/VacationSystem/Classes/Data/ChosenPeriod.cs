@@ -12,5 +12,10 @@ namespace VacationSystem.Classes.Data
         public DateTime StartDate { get; set; }
 
         public DateTime EndDate { get; set; }
+
+        /// <summary>
+        /// Тип периода отпуска: false - запланированный, true - утвержденный
+        /// </summary>
+        public bool Type { get; set; } = false;
     }
 }

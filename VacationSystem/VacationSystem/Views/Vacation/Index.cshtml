@@ -62,12 +62,13 @@
             {
                 <h3>Список отпусков</h3>
             }
+            @* Вывод запланированных отпусков *@
             @{
-                List<int> ids = Model.Vacations.Select(v => v.Id).Distinct().ToList();
+                List<int> ids = Model.Vacations.Where(v => v.Type == "wished").Select(v => v.Id).Distinct().ToList();
                 foreach (int id in ids)
                 {
                     <div class="vacation-item">
-                    @foreach(VacationViewModel vacation in Model.Vacations.Where(v => v.Id == id).ToList())
+                    @foreach(VacationViewModel vacation in Model.Vacations.Where(v => v.Id == id && v.Type == "wished").ToList())
                     {
                         <div class="card">
                             <div class="card-body">
@@ -82,19 +83,33 @@
                     }
                     @{
                         VacationViewModel vac = @Model.Vacations.FirstOrDefault(v => v.Id == id);
-                        if (vac.Type == "wished")
-                        {
-                            <a asp-controller="Vacation" asp-action="EditWishedVacation" asp-route-empId="@vac.EmpId" asp-route-vacationId="@vac.Id" asp-route-year="@vac.Year" class="btn btn-primary">Изменить</a>
-                            <a asp-controller="Vacation" asp-action="DeleteWishedVacation" asp-route-vacationId="@vac.Id" class="btn btn-danger">Удалить</a>
-                        }
-                        else
-                        {
-                            <a asp-controller="Vacation" asp-action="Interrupt" asp-route-vacationId="@vac.Id" class="btn btn-primary">Прервать</a>
-                            <a asp-controller="Vacation" asp-action="Cancel" asp-route-vacationId="@vac.Id" class="btn btn-danger">Отменить</a>
-                            <a asp-controller="Vacation" asp-action="Move" asp-route-groupId="@vac.Id" asp-route-type="@vac.Type" class="btn btn-primary">Перенести</a>
-                            <a asp-controller="Vacation" asp-action="Split" asp-route-groupId="@vac.Id" asp-route-type="@vac.Type" class="btn btn-primary">Разделить</a>
-                        }
+                        <a asp-controller="Vacation" asp-action="EditWishedVacation" asp-route-empId="@vac.EmpId" asp-route-vacationId="@vac.Id" asp-route-year="@vac.Year" class="btn btn-primary">Изменить</a>
+                        <a asp-controller="Vacation" asp-action="DeleteWishedVacation" asp-route-vacationId="@vac.Id" class="btn btn-danger">Удалить</a>
                     }
+                    </div>
+                }
+            }
+            @* Вывод утвержденных отпусков *@
+            @{
+                List<VacationViewModel> vacations = Model.Vacations.Where(v => v.Type == "set").ToList();
+
+                foreach(VacationViewModel vacation in vacations)
+                {
+                    <div class="vacation-item">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    @vacation.StartDate.ToString("yyyy-MM-dd") - @vacation.EndDate.ToString("yyyy-MM-dd") (@vacation.Days дней)
+                                </h5>
+                                <div class="card-text">
+                                    @vacation.Status
+                                </div>
+                            </div>
+                        </div>
+                        <a asp-controller="Vacation" asp-action="Interrupt" asp-route-vacationId="@vacation.Id" class="btn btn-primary">Прервать</a>
+                        <a asp-controller="Vacation" asp-action="Cancel" asp-route-vacationId="@vacation.Id" class="btn btn-danger">Отменить</a>
+                        <a asp-controller="Vacation" asp-action="Move" asp-route-groupId="@vacation.Id" asp-route-type="@vacation.Type" class="btn btn-primary">Перенести</a>
+                        <a asp-controller="Vacation" asp-action="Split" asp-route-groupId="@vacation.Id" asp-route-type="@vacation.Type" class="btn btn-primary">Разделить</a>
                     </div>
                 }
             }

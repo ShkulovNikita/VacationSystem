@@ -441,5 +441,32 @@ namespace VacationSystem.Classes.Helpers
 
             return filteredParts;
         }
+
+        /// <summary>
+        /// Получить периоды уже утвержденных отпусков сотрудника
+        /// </summary>
+        /// <param name="empId">Идентификатор сотрудника</param>
+        /// <param name="year">Год отпусков</param>
+        /// <returns>Список периодов утвержденного отпуска сотрудника</returns>
+        static public List<ChosenPeriod> GetSetPeriods(string empId, int year)
+        {
+            List<ChosenPeriod> result = new List<ChosenPeriod>();
+
+            // получить утвержденные отпуска сотрудника на год
+            List<SetVacation> vacations = VacationDataHandler.GetSetVacations(empId, year);
+
+            if (vacations == null)
+                return null;
+
+            foreach (SetVacation vacation in vacations)
+                result.Add(new ChosenPeriod
+                {
+                    StartDate = vacation.StartDate,
+                    EndDate = vacation.EndDate,
+                    Type = true
+                });
+
+            return result;
+        }
     }
 }

@@ -109,6 +109,75 @@ namespace VacationSystem.Controllers
         }
 
         /// <summary>
+        /// Создать вспомогательный список сотрудников для проверки выполнения правил, 
+        /// где запланированные и утвержденные отпуска помещены в один список
+        /// </summary>
+        /// <param name="employees">Список сотрудников</param>
+        /// <returns>Список сотрудников с сохраненными данными об их отпусках</returns>
+        private List<Employee> MakeTempEmployees(List<Employee> employees, int year)
+        {
+            List<Employee> result = new List<Employee>();
+
+            foreach (Employee emp in employees)
+            {
+                Employee tempEmp = new Employee
+                {
+                    Id = emp.Id,
+                    FirstName = emp.FirstName,
+                    MiddleName = emp.MiddleName,
+                    LastName = emp.LastName,
+                    Time = emp.Time,
+                    BirthDate = emp.BirthDate,
+                    StartDate = emp.StartDate,
+                    WishedVacationPeriods = emp.WishedVacationPeriods,
+                    SetVacations = emp.SetVacations
+                };
+
+                result.Add(tempEmp);
+            }
+
+            int counter = -1;
+            foreach (Employee emp in result)
+            {
+                counter = counter - 1;
+                // преобразовать утвержденные отпуска в желаемые
+                List<VacationPart> parts = new List<VacationPart>();
+
+                // нет запланированных отпусков, но будут добавлены утвержденные
+                if ((emp.WishedVacationPeriods.Count == 0) && (emp.SetVacations.Count > 0))
+                    emp.WishedVacationPeriods.Add(new WishedVacationPeriod
+                    {
+                        Id = counter,
+                        Priority = 1,
+                        Date = DateTime.Now,
+                        Year = year,
+                        EmployeeId = emp.Id
+                    });
+
+                foreach (SetVacation vacation in emp.SetVacations)
+                {
+                    VacationPart part = new VacationPart
+                    {
+                        Id = parts.Count * (-1),
+                        StartDate = vacation.StartDate,
+                        EndDate = vacation.EndDate,
+                        Part = 0,
+                        WishedVacationPeriodId = emp.WishedVacationPeriods[0].Id,
+                        WishedVacationPeriod = emp.WishedVacationPeriods[0]
+                    };
+
+                    parts.Add(part);
+                }
+
+                // когда закончено заполнение всех частей отпуска - сохранить у сотрудника
+                if (parts.Count > 0)
+                    emp.WishedVacationPeriods[0].VacationParts.AddRange(parts);
+            }
+
+            return result;
+        }
+
+        /// <summary>
         /// Получить запланированные отпуска для сотрудников
         /// </summary>
         /// <param name="employees">Список сотрудников</param>
@@ -132,6 +201,29 @@ namespace VacationSystem.Controllers
         }
 
         /// <summary>
+        /// Получить утвержденные отпуска для сотрудников
+        /// </summary>
+        /// <param name="employees">Список сотрудников</param>
+        /// <param name="year">Год</param>
+        /// <returns>Список сотрудников с сохраненными данными об утвержденных отпусках</returns>
+        private List<Employee> GetEmployeesWithSetVacations(List<Employee> employees, int year)
+        {
+            foreach (Employee emp in employees)
+            {
+                // получение всех утвержденных отпусков
+                List<SetVacation> vacations = VacationDataHandler
+                    .GetSetVacations(emp.Id, year);
+                // сохранение в объекте сотрудника
+                if (vacations != null)
+                    emp.SetVacations.AddRange(vacations);
+                else
+                    emp.SetVacations = new List<SetVacation>();
+            }
+
+            return employees;
+        }
+
+        /// <summary>
         /// Проверка утверждаемых отпусков на соответствие правилам
         /// </summary>
         /// <param name="depId">Идентификатор подразделения</param>
@@ -148,11 +240,16 @@ namespace VacationSystem.Controllers
 
             // получить все желаемые отпуска сотрудников
             employees = GetEmployeesWithVacations(employees, year);
+            // получить также все утвержденные отпуска сотрудников
+            employees = GetEmployeesWithSetVacations(employees, year);
+
+            // создать вспомогательный список сотрудников с обеими списками
+            List<Employee> tempEmployees = MakeTempEmployees(employees, year);
 
             // проверки на соответствие правилам
-            List<RuleWarning> warnings = EmployeeRulesChecker.CheckEmployeeRules(employees, headId, depId);
-            warnings.AddRange(PositionRulesChecker.CheckPositionRules(employees, headId, depId));
-            warnings.AddRange(GroupRulesChecker.CheckGroupRules(employees, headId, depId));
+            List<RuleWarning> warnings = EmployeeRulesChecker.CheckEmployeeRules(tempEmployees, headId, depId);
+            warnings.AddRange(PositionRulesChecker.CheckPositionRules(tempEmployees, headId, depId));
+            warnings.AddRange(GroupRulesChecker.CheckGroupRules(tempEmployees, headId, depId));
 
             var result = Json(new { warnings });
 
