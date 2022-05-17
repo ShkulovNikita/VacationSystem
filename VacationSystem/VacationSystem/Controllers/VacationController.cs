@@ -31,6 +31,9 @@ namespace VacationSystem.Controllers
                 return RedirectToAction("Index", "Home");
             }
 
+            if (empId == null)
+                empId = id;
+
             // добавить сотруднику дни основного оплачиваемого отпуска,
             // если они ещё не были добавлены ранее
             VacationDayHelper.AddMainVacationDays(id);
@@ -208,13 +211,7 @@ namespace VacationSystem.Controllers
             }
 
             // добавить туда отпуска, которые уже есть у сотрудника
-            List<ChosenPeriod> setPeriods = VacationHelper.GetSetPeriods(empId, vacation.Periods[0].StartDate.Year);
-            ChosenPeriod[] periods = new ChosenPeriod[vacation.Periods.Length + setPeriods.Count];
-            for (int i = 0; i < vacation.Periods.Length; i++)
-                periods[i] = vacation.Periods[i];
-            for (int i = vacation.Periods.Length; i < vacation.Periods.Length + setPeriods.Count; i++)
-                periods[i] = setPeriods[i - vacation.Periods.Length];
-            vacation.Periods = periods;
+            vacation.Periods = GetAllVacationPeriods(empId, vacation);
 
             // проверить корректность выбранных периодов
             string checkResult = VacationChecker.CheckVacationPeriods(vacation);
@@ -261,7 +258,21 @@ namespace VacationSystem.Controllers
 
             return RedirectToAction("Index", new { empId });
         }
-        
+
+        /// <summary>
+        /// Метод для получения всех периодов отпусков сотрудника: запланированных и желаемых
+        /// </summary>
+        private ChosenPeriod[] GetAllVacationPeriods(string empId, ChosenVacation vacation)
+        {
+            List<ChosenPeriod> setPeriods = VacationHelper.GetSetPeriods(empId, vacation.Periods[0].StartDate.Year);
+            ChosenPeriod[] periods = new ChosenPeriod[vacation.Periods.Length + setPeriods.Count];
+            for (int i = 0; i < vacation.Periods.Length; i++)
+                periods[i] = vacation.Periods[i];
+            for (int i = vacation.Periods.Length; i < vacation.Periods.Length + setPeriods.Count; i++)
+                periods[i] = setPeriods[i - vacation.Periods.Length];
+            return periods;
+        }
+
         /// <summary>
         /// Посчитать количество оставшихся у сотрудника отпускных дней
         /// после вычета выбранных им периодов для отпуска
@@ -278,7 +289,7 @@ namespace VacationSystem.Controllers
                 availableDays = VacationDayHelper.CountAvailableDays(days);
             }
             else
-                availableDays = VacationDayHelper.CountTakenDays(vacationId);
+                availableDays = VacationDayHelper.CountTakenDays(vacationId, false);
 
             // рассчитать разницу в днях между выбранными периодами дней
             int vacationDays = 0;
@@ -302,8 +313,7 @@ namespace VacationSystem.Controllers
         public IActionResult EditWishedVacation(string empId, int vacationId, int year)
         {
             // получить количество доступных отпускных дней пользователя
-            List<VacationDay> days = VacationDayDataHandler.GetAvailableVacationDays(empId, year);
-            int availableDays = VacationDayHelper.CountTakenDays(vacationId);
+            int availableDays = VacationDayHelper.CountTakenDays(vacationId, false);
 
             HttpContext.Session.SetInt32("available_days", availableDays);
 
@@ -334,6 +344,50 @@ namespace VacationSystem.Controllers
             return View(vm);
         }
 
+        private EditVacationViewModel GetEditViewModel(int vacationId, string empId, bool type)
+        {
+            if (type)
+            {
+                // получить редактируемый период отпуска
+                SetVacation vacation = VacationDataHandler.GetSetVacation(vacationId);
+
+                // сотрудник, которому задан изменяемый отпуск
+                Employee emp = Connector.GetEmployee(empId);
+
+                List<VacationDatesViewModel> dates = new List<VacationDatesViewModel>();
+                dates.Add(new VacationDatesViewModel
+                {
+                    StartDate = vacation.StartDate,
+                    EndDate = vacation.EndDate
+                });
+
+                EditVacationViewModel vm = new EditVacationViewModel
+                {
+                    Id = vacationId,
+                    Dates = dates,
+                    Employee = emp
+                };
+
+                return vm;
+            }
+            else
+            {
+                // получить периоды указанного отпуска сотрудника
+                List<VacationDatesViewModel> dates = VacationHelper.GetWishedVacationPeriods(vacationId);
+
+                Employee emp = Connector.GetEmployee(empId);
+
+                EditVacationViewModel vm = new EditVacationViewModel
+                {
+                    Id = vacationId,
+                    Dates = dates,
+                    Employee = emp
+                };
+
+                return vm;
+            }
+        }
+
         /// <summary>
         /// Сохранение в БД выбранных периодов отпуска
         /// </summary>
@@ -353,7 +407,7 @@ namespace VacationSystem.Controllers
             if (checkResult != "success")
             {
                 TempData["Error"] = checkResult;
-                return View();
+                return View(GetEditViewModel(vacationId, empId, false));
             }
 
             // проверка на соответствие ТК РФ
@@ -361,7 +415,7 @@ namespace VacationSystem.Controllers
             if (lawResult != "success")
             {
                 TempData["Error"] = lawResult;
-                return View();
+                return View(GetEditViewModel(vacationId, empId, false));
             }
 
             // если все в порядке, то сохранить изменения в БД
@@ -379,12 +433,21 @@ namespace VacationSystem.Controllers
         /// <param name="vacationId">Идентификатор отпуска в БД</param>
         public IActionResult DeleteWishedVacation(int vacationId)
         {
+            WishedVacationPeriod period = VacationDataHandler.GetWishedVacation(vacationId);
+            if (period == null)
+            {
+                TempData["Error"] = "Не удалось загрузить данные об отпуске";
+                return RedirectToAction("Index");
+            }
+
+            string empId = period.EmployeeId;
+
             if (VacationDataHandler.DeleteWishedVacation(vacationId))
                 TempData["Success"] = "Отпуск был успешно удален";
             else
                 TempData["Error"] = "Не удалось удалить отпуск";
 
-            return RedirectToAction("Index");
+            return RedirectToAction("Index", new { empId });
         }
 
         /// <summary>
@@ -464,6 +527,164 @@ namespace VacationSystem.Controllers
                 TempData["Error"] = "Не удалось отменить отпуск";
 
             return RedirectToAction("Index", new { empId = vacation.EmployeeId });
+        }
+
+        /// <summary>
+        /// Редактирование уже утвержденного отпуска
+        /// </summary>
+        /// <param name="empId">Идентификатор сотрудника</param>
+        /// <param name="vacationId">Идентификатор отпуска</param>
+        public IActionResult EditSetVacation(string empId, int vacationId)
+        {
+            string id = HttpContext.Session.GetString("id");
+            if (empId == null)
+                empId = id;
+
+            // получить редактируемый период отпуска
+            SetVacation vacation = VacationDataHandler.GetSetVacation(vacationId);
+
+            if (vacation == null)
+            {
+                TempData["Error"] = "Не удалось получить данные об отпуске";
+                return RedirectToAction("Index", new { empId = empId });
+            }
+
+            int availableDays = VacationDayHelper.CountTakenDays(vacationId, true);
+            HttpContext.Session.SetInt32("available_days", availableDays);
+
+            // сотрудник, которому задан изменяемый отпуск
+            Employee emp = Connector.GetEmployee(empId);
+            if (emp == null)
+            {
+                TempData["Error"] = "Не удалось загрузить данные о сотруднике";
+                return RedirectToAction("Index", new { empId });
+            }
+
+            List<VacationDatesViewModel> dates = new List<VacationDatesViewModel>();
+            dates.Add(new VacationDatesViewModel
+            {
+                StartDate = vacation.StartDate,
+                EndDate = vacation.EndDate
+            });
+
+            EditVacationViewModel vm = new EditVacationViewModel
+            {
+                Id = vacationId,
+                Dates = dates,
+                Employee = emp
+            };
+
+            return View(vm);
+        }
+
+        /// <summary>
+        /// Сохранение в БД выбранных периодов отпуска
+        /// </summary>
+        /// <param name="vacationId">Идентификатор отпуска</param>
+        /// <param name="startDates">Начальные даты отпуска</param>
+        /// <param name="endDates">Конечные даты отпуска</param>
+        [HttpPost]
+        public IActionResult EditSetVacation(string empId, int vacationId, DateTime[] startDates, DateTime[] endDates)
+        {
+            // получить идентификатор пользователя
+            string id = HttpContext.Session.GetString("id");
+            if (id == null)
+            {
+                TempData["Error"] = "Не удалось загрузить данные пользователя";
+                return RedirectToAction("Index");
+            }
+
+            if (empId == null)
+                empId = id;
+            Employee emp = Connector.GetEmployee(empId);
+
+            // создать объект с выбранным отпуском сотрудника
+            ChosenVacation vacation = VacationHelper.MakeVacation(startDates, endDates);
+
+            if (vacation.Periods == null)
+            {
+                TempData["Error"] = "Не удалось обработать периоды отпусков";
+                return View(GetEditViewModel(vacationId, empId, true));
+            }
+            if (vacation.Periods.Length == 0)
+            {
+                TempData["Error"] = "Не удалось обработать периоды отпусков";
+                return View(GetEditViewModel(vacationId, empId, true));
+            }
+
+            // добавить туда отпуска, которые уже есть у сотрудника
+            vacation.Periods = GetAllVacationPeriods(empId, vacation);
+
+            // исключить оттуда редактируемый
+            SetVacation editedVacation = VacationDataHandler.GetSetVacation(vacationId);
+            vacation.Periods = vacation.Periods.Where(vp => ((vp.StartDate != editedVacation.StartDate) && (vp.EndDate != editedVacation.EndDate)) ).ToArray();
+
+            // проверить корректность выбранных периодов
+            string checkResult = VacationChecker.CheckVacationPeriods(vacation);
+
+            // проверка не пройдена
+            if (checkResult != "success")
+            {
+                TempData["Error"] = checkResult;
+                return View(GetEditViewModel(vacationId, empId, true));
+            }
+
+            // проверка на соответствие ТК РФ
+            string lawResult = VacationChecker.CheckLawRules(empId, vacation, null);
+            if (lawResult != "success")
+            {
+                TempData["Error"] = lawResult;
+                return View(GetEditViewModel(vacationId, empId, true));
+            }
+
+            // сохранение в БД
+            if (!VacationDataHandler.AddWishedVacation(empId, vacation))
+            {
+                TempData["Error"] = "Не удалось сохранить выбранный период отпуска";
+                return RedirectToAction("Index", new { empId });
+            }
+            else
+                TempData["Success"] = "Выбранный период отпуска был успешно сохранен!";
+
+            // удалить исходный утвержденный отпуск
+            if (!VacationDataHandler.CancelVacation(vacationId))
+                TempData["Error"] = "Произошла ошибка при изменении периода отпуска";
+
+            return RedirectToAction("Index", new { empId });
+        }
+
+        /// <summary>
+        /// Посчитать количество доступных дней при изменении утвержденного отпуска
+        /// </summary>
+        /// <param name="collection">Выбранные пользователем периоды</param>
+        /// <param name="empId">Идентификатор сотрудника</param>
+        /// <param name="year">Год</param>
+        /// <param name="vacationId">Идентификатор отпуска</param>
+        /// <returns></returns>
+        [HttpPost]
+        public int CalculateSetDays(List<PeriodViewModel> collection, string empId, int year, int vacationId)
+        {
+            int availableDays;
+
+            if (vacationId == -1)
+            {
+                List<VacationDay> days = VacationDayDataHandler.GetAvailableVacationDays(empId, year);
+                availableDays = VacationDayHelper.CountAvailableDays(days);
+            }
+            else
+                availableDays = VacationDayHelper.CountTakenDays(vacationId, true);
+
+            // рассчитать разницу в днях между выбранными периодами дней
+            int vacationDays = 0;
+            for (int i = 0; i < collection.Count - 2; i = i + 2)
+            {
+                DateTime startDate = Convert.ToDateTime(collection[i].value);
+                DateTime endDate = Convert.ToDateTime(collection[i + 1].value);
+
+                vacationDays += (int)((endDate - startDate).TotalDays) + 1;
+            }
+
+            return availableDays - vacationDays;
         }
     }
 }

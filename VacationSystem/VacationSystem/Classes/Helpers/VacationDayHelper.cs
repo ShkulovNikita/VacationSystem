@@ -163,18 +163,30 @@ namespace VacationSystem.Classes.Helpers
         /// Посчитать дни, занятие указанным периодом отпуска
         /// </summary>
         /// <param name="vacationId">Идентификатор отпуска</param>
+        /// <param name="type">false: запланированный, true: утвержденный</param>
         /// <returns>Количество занятых отпуском отпускных дней</returns>
-        static public int CountTakenDays(int vacationId)
+        static public int CountTakenDays(int vacationId, bool type)
         {
-            WishedVacationPeriod vacation = VacationDataHandler.GetWishedVacation(vacationId);
-            if (vacation == null)
-                return 0;
-
             int result = 0;
-            
-            foreach (VacationPart part in vacation.VacationParts)
+
+            if (type)
             {
-                result += (part.EndDate - part.StartDate).Days + 1;
+                SetVacation vacation = VacationDataHandler.GetSetVacation(vacationId);
+                if (vacation == null)
+                    return 0;
+
+                result += (vacation.EndDate - vacation.StartDate).Days + 1;
+            }
+            else
+            {
+                WishedVacationPeriod vacation = VacationDataHandler.GetWishedVacation(vacationId);
+                if (vacation == null)
+                    return 0;
+
+                foreach (VacationPart part in vacation.VacationParts)
+                {
+                    result += (part.EndDate - part.StartDate).Days + 1;
+                }
             }
 
             return result;

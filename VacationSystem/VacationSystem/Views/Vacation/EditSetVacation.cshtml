@@ -49,8 +49,34 @@
     $('#vacation-periods').on('click', '.add-period', function() {
         // получить уже существующий один период для копирования
         var periodTemplate = $('.vacation-period:last');
+
+        let year = '@Model.Dates[0].StartDate.Year';
+
+        let today = new Date();
+        today.setFullYear(year);
+
+        let day = today.getDate();
+        let month = today.getMonth() + 1;
+        let dateValue;
+
+        if (month < 10)
+        {
+            if (day < 10)
+                dateValue = '' + year + '-0' + month + '-0' + day;
+            else
+                dateValue = '' + year + '-0' + month + '-' + day;
+        }
+        else
+        {
+            if (day < 10)
+                dateValue = '' + year + '-' + month + '-0' + day;
+            else
+                dateValue = '' + year + '-' + month + '-' + day;
+        }
+
         // создать новый период
-        $(periodTemplate).clone().appendTo('#vacation-periods').find("input[type='date']").val("");
+        $(periodTemplate).clone().appendTo('#vacation-periods').find("input[type='date']").val(dateValue);
+        
         // переместить кнопки в конец
         $(this).appendTo('#vacation-periods');
         $('.remove-period:last').appendTo('#vacation-periods');
@@ -302,17 +328,25 @@
         console.log("serialised data", serialised);
 
         if (checkDates(serialised)) {
+            let year = '@Model.Dates[0].StartDate.Year';
+            let empId = '@Model.Employee.Id';
+            
             // если все даты корректны, обновить количество доступных дней
             $.ajax({
                 type: "POST",
-                url: '@Url.Action("CalculateDays")/',
+                url: '@Url.Action("CalculateSetDays")/',
                 data: {
                     "collection": serialised,
+                    "empId": empId,
+                    "year": year,
                     "vacationId": '@Model.Id'
                 },
                 success: function (result) { 
                     $('#remained-days').text('Осталось дней: ' + result);
                     checkRemainedDays(result);
+                },
+                error: function (data) {
+                    console.log(data);
                 }
             });
         }
