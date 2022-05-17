@@ -19,10 +19,33 @@
                 <input type="date" name="startDate" id="start-date" value="@Model.StartDate.ToString("yyyy-MM-dd")"/>
                 <input type="date" name="endDate" id="end-date" value="@Model.EndDate.ToString("yyyy-MM-dd")"/>
                 <label>Тип отпусков:</label>
-                <input type="radio" name="type" value="wished" checked="checked"/>
+                @if (Model.CurrentType == "wished")
+                {
+                    <input type="radio" name="type" value="wished" checked="checked" />
+                }
+                else
+                {
+                    <input type="radio" name="type" value="wished"/>
+                }
                 <span>Запланированные</span>
-                <input type="radio" name="type" value="set" />
+                @if (Model.CurrentType == "set")
+                {
+                    <input type="radio" name="type" value="set" checked="checked" />
+                }
+                else
+                {
+                    <input type="radio" name="type" value="set" />
+                }
                 <span>Утвержденные</span>
+                @if (Model.CurrentType == "all")
+                {
+                    <input type="radio" name="type" value="all" checked="checked" />
+                }
+                else
+                {
+                    <input type="radio" name="type" value="all" />
+                }
+                <span>Все</span>
                 <input type="submit" class="btn btn-primary" value="Выбрать" />
             </form>
             <table id="vacation-calendar" class="table table-sm table-responsive table-bordered">
@@ -50,7 +73,28 @@
                             {
                                 @if (period.IsTaken)
                                 {
-                                    <td class="table-success"></td>
+                                    @if (Model.CurrentType == "all")
+                                    {
+                                        @if (period.Type == "set")
+                                        {
+                                            <td class="table-info"></td>
+                                        }
+                                        else
+                                        {
+                                            <td class="table-warning"></td>
+                                        }
+                                    }
+                                    else
+                                    {
+                                        @if (period.Type == "set")
+                                        {
+                                            <td class="table-info"></td>
+                                        }
+                                        else
+                                        {
+                                            <td class="table-warning"></td>
+                                        }
+                                    }
                                 }
                                 else
                                 {

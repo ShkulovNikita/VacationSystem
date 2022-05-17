@@ -34,6 +34,11 @@ namespace VacationSystem.ViewModels
         public string Type { get; set; }
 
         /// <summary>
+        /// Выбранный тип отпусков
+        /// </summary>
+        public string CurrentType { get; set; }
+
+        /// <summary>
         /// Список с данными об отпусках сотрудников
         /// </summary>
         public List<EmpVacationViewModel> Vacations { get; set; } = new List<EmpVacationViewModel>();

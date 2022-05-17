@@ -186,8 +186,18 @@ namespace VacationSystem.Classes.Helpers
                 empVacation.Vacations = CheckVacationDates(dates, null, setVacations);
                 return empVacation;
             }
+            else if (type == "all")
+            {
+                List<WishedVacationPeriod> wishedVacations = VacationDataHandler.GetWishedVacations(employee.Id);
+                List<SetVacation> setVacations = VacationDataHandler.GetSetVacations(employee.Id);
+                empVacation.Vacations = CheckVacationDates(dates, wishedVacations, setVacations);
+
+                return empVacation;
+            }
             else
+            {
                 return null;
+            }
         }
 
         /// <summary>
@@ -216,13 +226,22 @@ namespace VacationSystem.Classes.Helpers
                 else
                     period.Past = false;
 
-                // проверить, входит ли данная дата в число запланированных отпусков
-                if (wishedVacations != null)
-                    period = CheckWishedVacations(period, wishedVacations, date);
-
-                // проверить, входит ли данная дата в число утвержденных отпусков
-                if (setVacations != null)
+                if ((wishedVacations != null) && (setVacations != null))
+                {
                     period = CheckSetVacations(period, setVacations, date);
+                    if (period.IsTaken == false)
+                        period = CheckWishedVacations(period, wishedVacations, date);
+                }
+                else
+                {
+                    // проверить, входит ли данная дата в число запланированных отпусков
+                    if (wishedVacations != null)
+                        period = CheckWishedVacations(period, wishedVacations, date);
+
+                    // проверить, входит ли данная дата в число утвержденных отпусков
+                    if (setVacations != null)
+                        period = CheckSetVacations(period, setVacations, date);
+                }
 
                 calendar.Add(period);
             }

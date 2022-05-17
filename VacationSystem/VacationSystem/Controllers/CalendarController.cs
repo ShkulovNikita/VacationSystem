@@ -79,6 +79,7 @@ namespace VacationSystem.Controllers
                 Type = type,
                 StartDate = stDate,
                 EndDate = enDate,
+                CurrentType = type,
                 Vacations = calendarVacations
             };
 
