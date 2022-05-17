@@ -15,6 +15,7 @@
     <div class="row">
         <div class="col-10">
             <form>
+                <input type="hidden" name="empId" value="@Model.Employee.Id" />
                 <label>Тип отпусков</label>
                 @if (@Model.CurrentType == null)
                 {
