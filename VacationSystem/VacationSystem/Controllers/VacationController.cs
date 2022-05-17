@@ -448,7 +448,22 @@ namespace VacationSystem.Controllers
         /// <param name="vacationId">Идентификатор отпуска</param>
         public IActionResult Cancel(int vacationId)
         {
-            return null;
+            // получить прерываемый отпуск
+            SetVacation vacation = VacationDataHandler.GetSetVacation(vacationId);
+
+            if (vacation == null)
+            {
+                TempData["Error"] = "Не удалось получить данные об отпуске";
+                string id = HttpContext.Session.GetString("id");
+                return RedirectToAction("Index", new { empId = id });
+            }
+
+            if (VacationDataHandler.CancelVacation(vacationId))
+                TempData["Success"] = "Отпуск был успешно отменен";
+            else
+                TempData["Error"] = "Не удалось отменить отпуск";
+
+            return RedirectToAction("Index", new { empId = vacation.EmployeeId });
         }
     }
 }

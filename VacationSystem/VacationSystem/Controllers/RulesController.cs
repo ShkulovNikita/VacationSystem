@@ -72,7 +72,7 @@ namespace VacationSystem.Controllers
             List<DepListItem> allDeps = DepartmentHelper.GetDepartmentsList(departments);
 
             // список всех сотрудников
-            List<EmpListItem> allEmps = EmployeeHelper.GetEmployeesList(allDeps);
+            List<EmpListItem> allEmps = EmployeeHelper.GetEmployeesList(allDeps).OrderBy(e => e.Name).ToList();
 
             if ((allDeps.Count == 0) || (allEmps.Count == 0))
             {
@@ -90,7 +90,7 @@ namespace VacationSystem.Controllers
             ViewBag.Departments = allDeps;
 
             // сотрудники выбранного по умолчанию подразделения
-            List<EmpListItem> empsOfDep = allEmps.Where(e => e.DepartmentId == selectedIndex).ToList();
+            List<EmpListItem> empsOfDep = allEmps.Where(e => e.DepartmentId == selectedIndex).OrderBy(e => e.Name).ToList();
             ViewBag.Employees = empsOfDep;
 
             // получить все виды правил из БД

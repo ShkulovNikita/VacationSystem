@@ -512,5 +512,38 @@ namespace VacationSystem.Classes.Database
                 return false;
             }
         }
+
+        /// <summary>
+        /// Отменить утвержденный отпуск
+        /// </summary>
+        /// <param name="vacationId">Идентификатор отпуска</param>
+        /// <returns>Успешность выполнения операции</returns>
+        static public bool CancelVacation(int vacationId)
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    SetVacation vacation = GetSetVacation(vacationId);
+                    if (vacation == null)
+                        return false;
+
+                    // освободить отпускные дни, занятые удаляемым отпуском
+                    if (!VacationDayDataHandler.FreeVacationDays(db, vacation, (vacation.EndDate - vacation.StartDate).Days + 1))
+                        return false;
+
+                    db.SetVacations.Remove(vacation);
+
+                    db.SaveChanges();
+                }
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return false;
+            }
+        }
     }
 }
