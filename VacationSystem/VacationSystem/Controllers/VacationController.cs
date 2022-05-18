@@ -180,7 +180,6 @@ namespace VacationSystem.Controllers
         /// <param name="empId">Идентификатор сотрудника</param>
         /// <param name="startDates">Начальные даты отпуска</param>
         /// <param name="endDates">Конечные даты отпуска</param>
-        /// <param name="year">Год, на который назначается отпуск</param>
         [HttpPost]
         public IActionResult AddVacation(string empId, DateTime[] startDates, DateTime[] endDates)
         {
@@ -231,29 +230,15 @@ namespace VacationSystem.Controllers
                 return View(emp);
             }
 
-            // сохранение в БД
-            if ((empId == null) || (empId == id))
-            {
-                if (!VacationDataHandler.AddWishedVacation(id, vacation))
-                    TempData["Error"] = "Не удалось сохранить выбранный период отпуска";
-                else
-                    TempData["Success"] = "Выбранный период отпуска был успешно сохранен!";
-            }
+            if (empId == null)
+                empId = id;
+
+            if (!VacationDataHandler.AddWishedVacation(id, vacation))
+                TempData["Error"] = "Не удалось сохранить выбранный период отпуска";
             else
             {
-                // добавление отпуска не самим сотрудником, а его руководителем
-                if (EmployeeHelper.IsHead(id, empId))
-                {
-                    if (!VacationDataHandler.AddWishedVacation(empId, vacation))
-                        TempData["Error"] = "Не удалось сохранить выбранный период отпуска";
-                    else
-                        TempData["Success"] = "Выбранный период отпуска был успешно сохранен!";
-                }
-                else
-                {
-                    TempData["Error"] = "Нет прав для доступа к запрашиваемой странице";
-                    return RedirectToAction("Index");
-                }
+                TempData["Success"] = "Выбранный период отпуска был успешно сохранен!";
+                NotificationHelper.ChoosingPeriods(empId);
             }
 
             return RedirectToAction("Index", new { empId });

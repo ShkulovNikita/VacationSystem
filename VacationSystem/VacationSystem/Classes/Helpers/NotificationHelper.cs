@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Linq;
 using System.Diagnostics;
 using System.Collections.Generic;
 using VacationSystem.Models;
@@ -82,7 +81,34 @@ namespace VacationSystem.Classes.Helpers
         }
 
         /// <summary>
-        /// Добавление уведомления о выборе сотрудником 
+        /// Отправка уведомления о выборе желаемых периодов для отпуска руководителям сотрудника
+        /// </summary>
+        /// <param name="empId">Идентификатор сотрудника</param>
+        static public void ChoosingPeriods(string empId)
+        {
+            try
+            {
+                List<PositionInDepartment> positions = Connector.GetEmployeePositions(empId);
+                // список подразделений сотрудника
+                List<Department> deps = new List<Department>();
+                foreach (PositionInDepartment pos in positions)
+                    deps.Add(Connector.GetDepartment(pos.Department));
+
+                // отправка уведомлений руководителям
+                foreach (Department dep in deps)
+                {
+                    Employee head = Connector.GetHeadOfDepartment(dep.Id);
+                    AddChoosingPeriods(empId, head.Id, dep.Id);
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+            }
+        }
+
+        /// <summary>
+        /// Добавление уведомления о выборе сотрудником желаемых периодов для отпуска
         /// </summary>
         /// <param name="empId">Идентификатор сотрудника</param>
         /// <param name="headId">Идентификатор руководителя</param>
@@ -101,9 +127,36 @@ namespace VacationSystem.Classes.Helpers
                 // если все объекты успешно получены, то создать уведомление
                 string text = "Сотрудник " + EmployeeHelper.GetFullName(employee)
                     + " из подразделения \"" + dep.Name + "\""
-                    + " выбрал желаемые периоды для отпуска";
+                    + " выбрал(а) желаемые периоды для отпуска";
 
                 NotificationDataHandler.AddNotification(text, headId, "Выбор периода отпуска");
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+            }
+        }
+
+        /// <summary>
+        /// Отправка уведомлений об утверждении отпусков ряда сотрудников
+        /// </summary>
+        /// <param name="headId">Идентификатор руководителя</param>
+        /// <param name="employees">Сотрудники, чьи отпуска были утверждены</param>
+        static public void SetVacations(string headId, List<Employee> employees)
+        {
+            try
+            {
+                foreach (Employee emp in employees)
+                {
+                    if (emp.WishedVacationPeriods == null)
+                        continue;
+                    if (emp.WishedVacationPeriods.Count == 0)
+                        continue;
+                    if (emp.WishedVacationPeriods[0].VacationParts == null)
+                        continue;
+                    List<VacationPart> parts = emp.WishedVacationPeriods[0].VacationParts;
+                    AddSetVacation(emp.Id, headId, parts);
+                }
             }
             catch (Exception ex)
             {

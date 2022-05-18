@@ -94,6 +94,13 @@ namespace VacationSystem.Controllers
         [HttpPost]
         public JsonResult SetVacation(string id, int year)
         {
+            // получить идентификатор текущего руководителя
+            string headId = HttpContext.Session.GetString("id");
+            if (headId == null)
+            {
+                TempData["Error"] = "Не удалось загрузить данные пользователя";
+            }
+
             // получить всех сотрудников подразделения
             List<Employee> employees = Connector.GetEmployeesOfDepartment(id);
 
@@ -102,7 +109,10 @@ namespace VacationSystem.Controllers
 
             // если прошли - сохранение в БД
             if (VacationHelper.SetVacations(employees, year))
+            {
                 TempData["Success"] = "Отпуска были успешно утверждены";
+                NotificationHelper.SetVacations(headId, employees);
+            }
             else
                 TempData["Error"] = "Не удалось утвердить отпуска";
 
