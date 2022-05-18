@@ -243,6 +243,9 @@ namespace VacationSystem.Classes.Helpers
                         period = CheckSetVacations(period, setVacations, date);
                 }
 
+                if (period.IsTaken == false)
+                    period.DayType = HolidayHelper.GetDayType(date);
+
                 calendar.Add(period);
             }
 

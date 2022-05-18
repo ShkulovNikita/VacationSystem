@@ -51,5 +51,28 @@ namespace VacationSystem.Classes.Helpers
                 return 0;
             return holidays.Count();
         }
+
+        /// <summary>
+        /// Получить тип дня согласно производственному календарю
+        /// </summary>
+        /// <param name="date">Проверяемая дата</param>
+        /// <returns>
+        /// b - будний день;
+        /// h - праздничный;
+        /// v - выходной.
+        /// </returns>
+        static public string GetDayType(DateTime date)
+        {
+            DateTime day = Connector.GetCalendar(date.Year).Dates.FirstOrDefault(d => d == date);
+            if (day == DateTime.MinValue)
+                return "b";
+            else
+            {
+                if ((day.DayOfWeek != DayOfWeek.Saturday) && (day.DayOfWeek != DayOfWeek.Sunday))
+                    return "h";
+                else
+                    return "v";
+            }
+        }
     }
 }

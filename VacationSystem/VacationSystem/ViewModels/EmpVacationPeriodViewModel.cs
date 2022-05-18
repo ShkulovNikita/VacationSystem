@@ -27,6 +27,14 @@ namespace VacationSystem.ViewModels
         public string Type { get; set; }
 
         /// <summary>
+        /// Если нет отпуска, то тип может быть:
+        /// b - будний день;
+        /// h - праздничный;
+        /// v - выходной.
+        /// </summary>
+        public string DayType { get; set; } = "";
+
+        /// <summary>
         /// Приоритет желаемого отпуска (если задан)
         /// </summary>
         public int Priority { get; set; }

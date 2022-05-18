@@ -98,7 +98,18 @@
                                 }
                                 else
                                 {
-                                    <td class="table-secondary"></td>
+                                    @if (period.DayType == "h")
+                                    {
+                                        <td class="table-danger"></td>
+                                    }
+                                    else if (period.DayType == "v")
+                                    {
+                                        <td class="table-secondary"></td>
+                                    }
+                                    else
+                                    {
+                                        <td class="table-light"></td>
+                                    }
                                 }
                             }
                         </tr>
