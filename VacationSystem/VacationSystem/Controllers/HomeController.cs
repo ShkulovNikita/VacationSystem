@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
-using System.Diagnostics;
+using VacationSystem.Classes;
 using VacationSystem.Models;
 using VacationSystem.Classes.Database;
 using System.Collections.Generic;
-using VacationSystem.Classes;
+using System.Diagnostics;
 
 namespace VacationSystem.Controllers
 {
@@ -20,9 +20,6 @@ namespace VacationSystem.Controllers
 
         public IActionResult Index()
         {
-            DatabaseHandler.RecreateDB();
-            DatabaseHandler.FillInitialData();
-
             // проверка, куда нужно перенаправить пользователя:
             // если авторизован - в профиль
             // если нет - на страницу авторизации

@@ -91,7 +91,8 @@ namespace VacationSystem.Classes.Database
                         Text = text,
                         EmployeeId = empId,
                         NotificationType = notifType,
-                        NotificationTypeId = notifType.Id
+                        NotificationTypeId = notifType.Id,
+                        Date = DateTime.Now
                     };
 
                     db.Notifications.Add(notification);
