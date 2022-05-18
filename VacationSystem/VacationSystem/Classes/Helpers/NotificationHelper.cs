@@ -259,7 +259,7 @@ namespace VacationSystem.Classes.Helpers
         /// <param name="empId">Идентификатор сотрудника</param>
         /// <param name="headId">Идентификатор руководителя</param>
         /// <param name="vacationId">Идентификатор изменяемого отпуска</param>
-        /// <param name="vacation">Новые периоды отпуска</param>
+        /// <param name="newVacation">Новые периоды отпуска</param>
         static public void AddVacationChange(string empId, string headId, int vacationId, ChosenVacation newVacation)
         {
             try

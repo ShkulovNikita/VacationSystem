@@ -230,10 +230,7 @@ namespace VacationSystem.Controllers
                 return View(emp);
             }
 
-            if (empId == null)
-                empId = id;
-
-            if (!VacationDataHandler.AddWishedVacation(id, vacation))
+            if (!VacationDataHandler.AddWishedVacation(empId, vacation))
                 TempData["Error"] = "Не удалось сохранить выбранный период отпуска";
             else
             {
@@ -463,6 +460,14 @@ namespace VacationSystem.Controllers
         [HttpPost]
         public IActionResult Interrupt(int vacationId, DateTime interruptionDate)
         {
+            // получить идентификатор пользователя
+            string headId = HttpContext.Session.GetString("id");
+            if (headId == null)
+            {
+                TempData["Error"] = "Не удалось загрузить данные пользователя";
+                return RedirectToAction("Index", new { empId = headId });
+            }
+
             // получить прерываемый отпуск
             SetVacation vacation = VacationDataHandler.GetSetVacation(vacationId);
 
@@ -483,7 +488,10 @@ namespace VacationSystem.Controllers
             }
 
             if (VacationDataHandler.InterruptVacation(vacationId, date))
+            {
                 TempData["Success"] = "Отпуск был успешно прерван";
+                NotificationHelper.AddVacationInterrupt(vacation.EmployeeId, headId, vacationId);
+            }
             else
                 TempData["Error"] = "Не удалось прервать отпуск";
 
@@ -496,6 +504,8 @@ namespace VacationSystem.Controllers
         /// <param name="vacationId">Идентификатор отпуска</param>
         public IActionResult Cancel(int vacationId)
         {
+            string headId = HttpContext.Session.GetString("id");
+
             // получить прерываемый отпуск
             SetVacation vacation = VacationDataHandler.GetSetVacation(vacationId);
 
@@ -506,8 +516,17 @@ namespace VacationSystem.Controllers
                 return RedirectToAction("Index", new { empId = id });
             }
 
+            // сохранить идентификатор сотрудника и предельные даты отпуска перед его удалением
+            // для уведомления
+            string empId = vacation.EmployeeId;
+            DateTime startDate = vacation.StartDate;
+            DateTime endDate = vacation.EndDate;
+
             if (VacationDataHandler.CancelVacation(vacationId))
+            {
                 TempData["Success"] = "Отпуск был успешно отменен";
+                NotificationHelper.AddVacationCancel(empId, headId, startDate, endDate);
+            }
             else
                 TempData["Error"] = "Не удалось отменить отпуск";
 
@@ -629,7 +648,10 @@ namespace VacationSystem.Controllers
                 return RedirectToAction("Index", new { empId });
             }
             else
+            {
                 TempData["Success"] = "Выбранный период отпуска был успешно сохранен!";
+                NotificationHelper.AddVacationChange(empId, id, vacationId, vacation);
+            }
 
             // удалить исходный утвержденный отпуск
             if (!VacationDataHandler.CancelVacation(vacationId))

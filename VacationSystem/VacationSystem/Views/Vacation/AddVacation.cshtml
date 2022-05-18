@@ -19,6 +19,7 @@
             <h5 id="remained-days">Осталось дней: @availableDays</h5>
             <form method="post">
                 <h5>Год</h5>
+                <input type="hidden" name="empId" value="@Model.Id" />
                 <input id="period-year" type="number" name="year" min="@DateTime.Today.Year" max="@DateTime.Today.AddYears(1).Year" value="@DateTime.Today.AddYears(1).Year"/>
                 <div id="vacation-periods">
                     <div class="vacation-period">
@@ -97,6 +98,7 @@
         // получить значения введенных начальных и конечных дат
         var serialised = $('form').serializeArray();
         serialised.shift();
+        serialised.shift();
 
         if (!checkDates(serialised)) {
             blockButton();
@@ -104,11 +106,11 @@
         }
 
         // сохранить выбранный отпуск в БД
-        $.ajax({
+        /*$.ajax({
             type: "POST",
             url: '@Url.Action("AddVacation")',
             success: function () { }
-        });
+        });*/
     });
 
     // изменение в выбранном году меняет пределы дат в периодах
@@ -362,6 +364,7 @@
         // получить значения введенных начальных и конечных дат
         var serialised = $('form').serializeArray();
         console.log("serialised data", serialised);
+        serialised.shift();
         serialised.shift();
 
         if (checkDates(serialised)) {
