@@ -5,6 +5,7 @@ using System.Diagnostics;
 using System.Linq;
 using VacationSystem.Models;
 using VacationSystem.Classes.Data;
+using VacationSystem.Classes.Helpers;
 
 namespace VacationSystem.Classes.Database
 {
@@ -528,8 +529,10 @@ namespace VacationSystem.Classes.Database
                     if (vacation == null)
                         return false;
 
+                    int holidays = HolidayHelper.CountHolidays(vacation.StartDate, vacation.EndDate);
+
                     // освободить отпускные дни, занятые удаляемым отпуском
-                    if (!VacationDayDataHandler.FreeVacationDays(db, vacation, (vacation.EndDate - vacation.StartDate).Days + 1))
+                    if (!VacationDayDataHandler.FreeVacationDays(db, vacation, (vacation.EndDate - vacation.StartDate).Days + 1 - holidays))
                         return false;
 
                     db.SetVacations.Remove(vacation);

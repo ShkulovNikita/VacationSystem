@@ -280,7 +280,10 @@ namespace VacationSystem.Controllers
                 DateTime startDate = Convert.ToDateTime(collection[i].value);
                 DateTime endDate = Convert.ToDateTime(collection[i + 1].value);
 
-                vacationDays += (int)((endDate - startDate).TotalDays) + 1;
+                // количество праздничных дней в данном периоде
+                int holidays = HolidayHelper.CountHolidays(startDate, endDate);
+
+                vacationDays += (int)((endDate - startDate).TotalDays) + 1 - holidays;
             }
 
             return availableDays - vacationDays;
@@ -688,7 +691,10 @@ namespace VacationSystem.Controllers
                 DateTime startDate = Convert.ToDateTime(collection[i].value);
                 DateTime endDate = Convert.ToDateTime(collection[i + 1].value);
 
-                vacationDays += (int)((endDate - startDate).TotalDays) + 1;
+                // количество праздничных дней в данном периоде
+                int holidays = HolidayHelper.CountHolidays(startDate, endDate);
+
+                vacationDays += (int)((endDate - startDate).TotalDays) + 1 - holidays;
             }
 
             return availableDays - vacationDays;

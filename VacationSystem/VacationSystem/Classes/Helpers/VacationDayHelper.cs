@@ -175,7 +175,9 @@ namespace VacationSystem.Classes.Helpers
                 if (vacation == null)
                     return 0;
 
-                result += (vacation.EndDate - vacation.StartDate).Days + 1;
+                int holidays = HolidayHelper.CountHolidays(vacation.StartDate, vacation.EndDate);
+
+                result += (vacation.EndDate - vacation.StartDate).Days + 1 - holidays;
             }
             else
             {
@@ -185,7 +187,8 @@ namespace VacationSystem.Classes.Helpers
 
                 foreach (VacationPart part in vacation.VacationParts)
                 {
-                    result += (part.EndDate - part.StartDate).Days + 1;
+                    int holidays = HolidayHelper.CountHolidays(part.StartDate, part.EndDate);
+                    result += (part.EndDate - part.StartDate).Days + 1 - holidays;
                 }
             }
 

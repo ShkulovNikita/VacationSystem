@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using VacationSystem.Models;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
+using VacationSystem.Classes.Helpers;
 
 namespace VacationSystem.Classes.Database
 {
@@ -359,7 +360,10 @@ namespace VacationSystem.Classes.Database
                 // количество дней в отпуске
                 int count = 0;
                 foreach (VacationPart part in wishedVacation.VacationParts)
-                    count += (part.EndDate - part.StartDate).Days + 1;
+                {
+                    int holidays = HolidayHelper.CountHolidays(part.StartDate, part.EndDate);
+                    count += (part.EndDate - part.StartDate).Days + 1 - holidays;
+                }
 
                 // проход по имеюшимся у сотрудника дням отпуска с уменьшением их доступного количества
                 foreach (VacationDay day in days)
@@ -428,7 +432,6 @@ namespace VacationSystem.Classes.Database
         /// <summary>
         /// Освобождение занятых отпускных дней
         /// </summary>
-        /// <param name="db">Контекст БД</param>
         /// <param name="days">Отпускные дни</param>
         /// <param name="count">Количество освобождаемых дней</param>
         /// <returns>Успешность выполнения операции</returns>
@@ -483,7 +486,10 @@ namespace VacationSystem.Classes.Database
                 // количество дней в отпуске
                 int count = 0;
                 foreach (VacationPart part in wishedVacation.VacationParts)
+                {
+                    int holidays = HolidayHelper.CountHolidays(part.StartDate, part.EndDate);
                     count += (part.EndDate - part.StartDate).Days + 1;
+                }
 
                 // проход по имеющимся у сотрудника дням отпуска с их высвобождением
                 bool result = FreeTakenDays(days, count);
