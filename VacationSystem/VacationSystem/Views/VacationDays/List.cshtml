@@ -1,0 +1,62 @@
+﻿@using VacationSystem.ViewModels;
+
+@{
+    Layout = "_Common";
+
+    ViewData["Title"] = "Отпускные дни";
+
+    Employee emp = ViewBag.Employee;
+}
+
+<div class="container"> 
+    <div class="row">
+        <div class="col-md-7">
+            <h2>Отпускные дни</h2>
+            <h3>Выберите год</h3>
+            <input type="hidden" id="employee" value="@emp.Id" />
+            <input id="days-year" type="number" name="year" value="@DateTime.Now.Year" min="@DateTime.Now.Year" max="@DateTime.Now.AddYears(1).Year" value="@DateTime.Now.Year"/>
+            <hr />
+            <div id="days-info"></div>
+        </div>
+    </div>
+</div>
+
+@section scripts{
+<script type="text/javascript">
+    // загрузка страницы
+    $(document).ready(function() {
+        updateDays();
+    });
+
+    // изменение года
+    $(document).on('change', '#days-year', function () {
+        updateDays();
+    });
+
+    // функция для изменения отображаемых отпускных дней
+    function updateDays() {
+        // получить идентификатор сотрудника
+        var id = $('#employee').val();
+        // выбранный год
+        var year = $('#days-year').val();
+
+        var count = 1;
+
+        // если выбран один сотрудник, есть смысл обновить данные об его отпусках
+        if (count == 1)
+        {
+            $.ajax({
+                type: 'GET',
+                data: {
+                    "id": id,
+                    "year": year
+                },
+                url: '@Url.Action("GetDaysInfo")/',
+                success: function (data) {
+                    $('#days-info').replaceWith(data);
+                }
+            });
+        }
+    }
+</script>
+}

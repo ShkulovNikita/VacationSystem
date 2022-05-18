@@ -36,6 +36,22 @@ namespace VacationSystem.Classes.Helpers
         }
 
         /// <summary>
+        /// Получить модель представления с днями отпуска на основе указанного сотрудника
+        /// </summary>
+        /// <param name="emp">Сотрудник</param>
+        /// <returns>Список моделей представления с информацией об отпускных днях
+        /// заданного сотрудника</returns>
+        static public List<VacationDaysViewModel> MakeDaysList(Employee emp)
+        {
+            List<VacationDaysViewModel> result = new List<VacationDaysViewModel>();
+
+            result.Add(MakeViewModel(emp, DateTime.Now.Year));
+            result.Add(MakeViewModel(emp, DateTime.Now.AddYears(1).Year));
+
+            return result;
+        }
+
+        /// <summary>
         /// Создать модель представления о днях отпуска для указанного сотрудника
         /// </summary>
         /// <param name="emp">Сотрудник</param>
@@ -65,6 +81,40 @@ namespace VacationSystem.Classes.Helpers
 
             // указать сотрудника, которому заданы данные отпускные дни
             daysVm.EmployeeId = emp.EmpId;
+
+            return daysVm;
+        }
+
+        /// <summary>
+        /// Создать модель представления о днях отпуска для указанного сотрудника
+        /// </summary>
+        /// <param name="emp">Сотрудник</param>
+        /// <param name="year">Год, для которого просматриваются отпускные дни</param>
+        /// <returns>Модель представления с информацией о днях отпуска сотрудника</returns>
+        static private VacationDaysViewModel MakeViewModel(Employee emp, int year)
+        {
+            // все отпускные дни сотрудника
+            List<VacationDay> vacationDays = VacationDayDataHandler.GetVacationDays(emp.Id);
+
+            // отобрать только актуальные дни
+            vacationDays = GetCurrentDays(vacationDays, year);
+
+            VacationDaysViewModel daysVm = new VacationDaysViewModel();
+
+            // общее количество выпускных дней
+            daysVm.TotalDays = CountTotalDays(vacationDays);
+
+            // общее количество доступных отпускных дней
+            daysVm.AvailableDays = CountAvailableDays(vacationDays);
+
+            // получить распределение дней по их типам
+            daysVm.SetDays = GetDaysInfo(vacationDays, year);
+
+            // год, на который выданы отпускные дни
+            daysVm.Year = year;
+
+            // указать сотрудника, которому заданы данные отпускные дни
+            daysVm.EmployeeId = emp.Id;
 
             return daysVm;
         }
@@ -211,7 +261,7 @@ namespace VacationSystem.Classes.Helpers
                 // проверка, принадлежат ли дни отпуска прошлому году
                 if (day.Year == year - 1)
                 {
-                    string previousYearText = "Оставшееся за прошлый год";
+                    string previousYearText = "Оставшиеся за прошлый год";
                     if (result.ContainsKey(previousYearText))
                         result[previousYearText] += day.NumberOfDays - day.TakenDays;
                     else

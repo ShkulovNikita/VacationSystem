@@ -73,6 +73,34 @@ namespace VacationSystem.Controllers
         }
 
         /// <summary>
+        /// Просмотр своих отпускных дней и их источников
+        /// </summary>
+        public IActionResult List()
+        {
+            string id = HttpContext.Session.GetString("id");
+            if (id == null)
+            {
+                TempData["Error"] = "Не удалось загрузить данные пользователя";
+                return RedirectToAction("Profile", "Home");
+            }
+
+            Employee emp = Connector.GetEmployee(id);
+            if (emp == null)
+            {
+                TempData["Error"] = "Не удалось загрузить данные пользователя";
+                return RedirectToAction("Profile", "Home");
+            }
+
+            ViewBag.Employee = emp;
+
+            // получить модель представления
+            List<VacationDaysViewModel> daysVm = VacationDayHelper.MakeDaysList(emp);
+            SessionHelper.SetObjectAsJson(HttpContext.Session, "all_days", daysVm);
+
+            return View();
+        }
+
+        /// <summary>
         /// Вывод частичного представления со списком сотрудников из указанного подразделения
         /// </summary>
         /// <param name="id">Идентификатор подразделения</param>

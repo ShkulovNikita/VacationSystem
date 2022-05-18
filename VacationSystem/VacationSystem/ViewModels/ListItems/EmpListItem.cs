@@ -25,6 +25,7 @@ namespace VacationSystem.ViewModels.ListItems
         /// Ссылка на подразделение, в котором работает сотрудник
         /// </summary>
         public DepListItem Department { get; set; }
+
         /// <summary>
         /// Идентификатор подразделения, в котором работает сотрудник
         /// </summary>
