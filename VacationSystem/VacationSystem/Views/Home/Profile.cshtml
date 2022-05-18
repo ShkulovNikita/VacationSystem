@@ -1,4 +1,7 @@
-﻿@using Microsoft.AspNetCore.Http;
+﻿@model HomeViewModel;
+
+@using Microsoft.AspNetCore.Http;
+@using VacationSystem.ViewModels;
 
 @{
     Layout = "_Common";
@@ -14,8 +17,30 @@
 <div id="profile" class="container">
     <div class="row">
         <div id="profile-background" class="content-background">
-            <h3>Профиль пользователя</h3>
-            <p>Должно быть чем-нибудь заполнено</p>
+            <h3>Профиль пользователя: @Model.Name</h3>
+            <hr />
+            @if (Model.Notifications.Count > 0)
+            {
+                <h4>Уведомления</h4>
+                @foreach(Notification notif in Model.Notifications)
+                {
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                @notif.NotificationType.Name
+                            </h5>
+                            <hr />
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                @notif.Date
+                            </h6>
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                @notif.Text
+                            </h6>
+                            <a asp-action="DeleteNotification" asp-controller="Home" asp-route-notificationId="@notif.Id" class="btn btn-primary">Прочитано</a>
+                        </div>
+                    </div>
+                }
+            }
         </div>
     </div>
 </div>

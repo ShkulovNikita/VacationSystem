@@ -40,6 +40,7 @@ namespace VacationSystem
         public DbSet<Notification> Notifications { get; set; }
         public DbSet<Deputy> Deputies { get; set; }
         public DbSet<VacationPart> VacationParts { get; set; }
+        public DbSet<Update> Updates { get; set; }
 
         public ApplicationContext()
         {

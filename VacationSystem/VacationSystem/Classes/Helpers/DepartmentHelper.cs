@@ -71,5 +71,20 @@ namespace VacationSystem.Classes.Helpers
 
             return deps;
         }
+
+        /// <summary>
+        /// Получение списка подразделений указанного сотрудника
+        /// </summary>
+        /// <param name="empId">Идентификатор сотрудника</param>
+        /// <returns></returns>
+        static public List<Department> GetDepartments(string empId)
+        {
+            List<PositionInDepartment> positions = Connector.GetEmployeePositions(empId);
+            // список подразделений сотрудника
+            List<Department> deps = new List<Department>();
+            foreach (PositionInDepartment pos in positions)
+                deps.Add(Connector.GetDepartment(pos.Department));
+            return deps;
+        }
     }
 }

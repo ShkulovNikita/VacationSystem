@@ -4,8 +4,11 @@ using Microsoft.Extensions.Logging;
 using VacationSystem.Classes;
 using VacationSystem.Models;
 using VacationSystem.Classes.Database;
+using VacationSystem.Classes.Helpers;
+using VacationSystem.ViewModels;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Linq;
 
 namespace VacationSystem.Controllers
 {
@@ -20,6 +23,8 @@ namespace VacationSystem.Controllers
 
         public IActionResult Index()
         {
+            Updater.Update();
+
             // проверка, куда нужно перенаправить пользователя:
             // если авторизован - в профиль
             // если нет - на страницу авторизации
@@ -41,11 +46,12 @@ namespace VacationSystem.Controllers
                     return RedirectToAction("Index", "Admin");
                 else
                 {
-                    if (HttpContext.Session.GetString("id") != null)
+                    string userId = HttpContext.Session.GetString("id");
+                    if (userId != null)
                     {
                         // проверка, является ли данный пользователь руководителем
                         // какого-нибудь подразделения
-                        List<Department> subordinateDeps = Connector.GetSubordinateDepartments(HttpContext.Session.GetString("id"));
+                        List<Department> subordinateDeps = Connector.GetSubordinateDepartments(userId);
                         if (subordinateDeps != null)
                             if (subordinateDeps.Count > 0)
                                 HttpContext.Session.SetString("head", "true");
@@ -55,10 +61,16 @@ namespace VacationSystem.Controllers
                             HttpContext.Session.SetString("head", "false");
 
                         // получение уведомлений для данного пользователя
+                        List<Notification> notifications = NotificationDataHandler.GetNotifications(userId);
+                        Employee emp = Connector.GetEmployee(userId);
 
+                        HomeViewModel vm = new HomeViewModel
+                        {
+                            Name = EmployeeHelper.GetFullName(emp),
+                            Notifications = notifications.OrderByDescending(n => n.Date).ToList()
+                        };
 
-
-                        return View();
+                        return View(vm);
                     }
                     else
                     {
@@ -78,6 +90,12 @@ namespace VacationSystem.Controllers
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+
+        public IActionResult DeleteNotification(int notificationId)
+        {
+            NotificationDataHandler.DeleteNotification(notificationId);
+            return RedirectToAction("Profile");
         }
     }
 }

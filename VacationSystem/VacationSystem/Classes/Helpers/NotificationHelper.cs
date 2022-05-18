@@ -47,6 +47,30 @@ namespace VacationSystem.Classes.Helpers
         }
 
         /// <summary>
+        /// Отправка уведомлений о скором уходе сотрудника в отпуск его руководителям
+        /// </summary>
+        /// <param name="empId">Идентификатор сотрудника</param>
+        /// <param name="vacationId">Идентификатор отпуска</param>
+        /// <param name="number">Количество дней до отпуска</param>
+        static public void EmployeeLeave(string empId, int vacationId, int number)
+        {
+            try
+            {
+                List<Department> deps = DepartmentHelper.GetDepartments(empId);
+                // отправка уведомлений руководителям
+                foreach (Department dep in deps)
+                {
+                    Employee head = Connector.GetHeadOfDepartment(dep.Id);
+                    AddEmployeeLeave(empId, head.Id, dep.Id, vacationId, number);
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+            }
+        }
+
+        /// <summary>
         /// Добавление уведомления о скором выходе сотрудника из отпуска
         /// </summary>
         /// <param name="empId">Идентификатор сотрудника</param>
@@ -81,6 +105,30 @@ namespace VacationSystem.Classes.Helpers
         }
 
         /// <summary>
+        /// Отправка уведомления о скором возвращении сотрудника его руководителям
+        /// </summary>
+        /// <param name="empId">Идентификатор сотрудника</param>
+        /// <param name="vacationId">Идентификатор отпуска</param>
+        /// <param name="number">Количество дней до возвращения</param>
+        static public void EmployeeReturn(string empId, int vacationId, int number)
+        {
+            try
+            {
+                List<Department> deps = DepartmentHelper.GetDepartments(empId);
+                // отправка уведомлений руководителям
+                foreach (Department dep in deps)
+                {
+                    Employee head = Connector.GetHeadOfDepartment(dep.Id);
+                    AddEmployeeeReturn(empId, head.Id, dep.Id, vacationId, number);
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+            }
+        }
+
+        /// <summary>
         /// Отправка уведомления о выборе желаемых периодов для отпуска руководителям сотрудника
         /// </summary>
         /// <param name="empId">Идентификатор сотрудника</param>
@@ -88,11 +136,7 @@ namespace VacationSystem.Classes.Helpers
         {
             try
             {
-                List<PositionInDepartment> positions = Connector.GetEmployeePositions(empId);
-                // список подразделений сотрудника
-                List<Department> deps = new List<Department>();
-                foreach (PositionInDepartment pos in positions)
-                    deps.Add(Connector.GetDepartment(pos.Department));
+                List<Department> deps = DepartmentHelper.GetDepartments(empId);
 
                 // отправка уведомлений руководителям
                 foreach (Department dep in deps)

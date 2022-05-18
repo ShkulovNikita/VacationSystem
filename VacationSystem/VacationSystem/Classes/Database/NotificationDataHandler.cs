@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Linq;
 using System.Diagnostics;
+using System.Collections.Generic;
 using VacationSystem.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace VacationSystem.Classes.Database
 {
@@ -43,6 +45,30 @@ namespace VacationSystem.Classes.Database
                 using (ApplicationContext db = new ApplicationContext())
                 {
                     return db.NotificationTypes.FirstOrDefault(nt => nt.Name == text);
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return null;
+            }
+        }
+
+        /// <summary>
+        /// Получить список уведомлений сотрудника
+        /// </summary>
+        /// <param name="empId">Идентификатор сотрудника</param>
+        /// <returns>Список уведомлений сотрудника</returns>
+        static public List<Notification> GetNotifications(string empId)
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    return db.Notifications
+                        .Include(n => n.NotificationType)
+                        .Where(n => n.EmployeeId == empId)
+                        .ToList();
                 }
             }
             catch (Exception ex)

@@ -545,5 +545,26 @@ namespace VacationSystem.Classes.Database
                 return false;
             }
         }
+
+        /// <summary>
+        /// Получить все текущие утвержденные отпуска
+        /// </summary>
+        /// <param name="year">Год, на который назначены отпуска</param>
+        /// <returns>Список утвержденных отпусков</returns>
+        static public List<SetVacation> GetActiveSetVacations(int year)
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    return db.SetVacations.Where(sv => sv.StartDate.Year == year).ToList();
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return null;
+            }
+        }
     }
 }
