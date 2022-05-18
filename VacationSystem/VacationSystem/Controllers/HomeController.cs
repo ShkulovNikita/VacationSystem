@@ -20,6 +20,9 @@ namespace VacationSystem.Controllers
 
         public IActionResult Index()
         {
+            DatabaseHandler.RecreateDB();
+            DatabaseHandler.FillInitialData();
+
             // проверка, куда нужно перенаправить пользователя:
             // если авторизован - в профиль
             // если нет - на страницу авторизации
@@ -53,6 +56,10 @@ namespace VacationSystem.Controllers
                                 HttpContext.Session.SetString("head", "false");
                         else
                             HttpContext.Session.SetString("head", "false");
+
+                        // получение уведомлений для данного пользователя
+
+
 
                         return View();
                     }

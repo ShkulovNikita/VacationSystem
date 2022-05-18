@@ -39,6 +39,8 @@ namespace VacationSystem.Classes.Database
                         Debug.WriteLine("Добавление типов отпусков: {0}", AddVacationTypes());
                     if (!db.VacationStatuses.Select(v => v.Id).Any())
                         Debug.WriteLine("Добавление статусов отпусков: {0}", AddVacationStatuses());
+                    if (!db.NotificationTypes.Select(n => n.Id).Any())
+                        Debug.WriteLine("Добавление типов уведомлений: {0}", AddNotificationTypes());
                 }
             }
             catch (Exception ex)
@@ -239,6 +241,61 @@ namespace VacationSystem.Classes.Database
                     db.VacationStatuses.Add(new VacationStatus
                     {
                         Name = "Прерван"
+                    });
+
+                    db.SaveChanges();
+                }
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return false;
+            }
+        }
+
+        /// <summary>
+        /// Заполнение справочника с типами уведомлений
+        /// </summary>
+        /// <returns>Успешность выполнения операции</returns>
+        static private bool AddNotificationTypes()
+        {
+            try
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    db.NotificationTypes.Add(new NotificationType
+                    {
+                        Name = "Уход в отпуск"
+                    });
+                    db.NotificationTypes.Add(new NotificationType
+                    {
+                        Name = "Выход из отпуска"
+                    });
+                    db.NotificationTypes.Add(new NotificationType
+                    {
+                        Name = "Выбор периода отпуска"
+                    });
+                    db.NotificationTypes.Add(new NotificationType
+                    {
+                        Name = "Утверждение отпуска"
+                    });
+                    db.NotificationTypes.Add(new NotificationType
+                    {
+                        Name = "Прерывание отпуска"
+                    });
+                    db.NotificationTypes.Add(new NotificationType
+                    {
+                        Name = "Отмена отпуска"
+                    });
+                    db.NotificationTypes.Add(new NotificationType
+                    {
+                        Name = "Перемещение отпуска"
+                    });
+                    db.NotificationTypes.Add(new NotificationType
+                    {
+                        Name = "Заявка на изменение отпуска"
                     });
 
                     db.SaveChanges();

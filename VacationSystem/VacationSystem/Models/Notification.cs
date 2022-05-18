@@ -32,6 +32,10 @@ namespace VacationSystem.Models
         /// </summary>
         [Required, MaxLength(50)]
         public string EmployeeId { get; set; }
-        public Employee Employee { get; set; } 
+        public Employee Employee { get; set; }
+
+        [Required]
+        public int NotificationTypeId { get; set; }
+        public NotificationType NotificationType { get; set; }
     }
 }
