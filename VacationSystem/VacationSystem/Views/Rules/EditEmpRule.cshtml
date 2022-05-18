@@ -15,13 +15,15 @@
 <div class="container">
     <div class="row">
         <div class="col-7">
+            <h3>Редактировать правило для сотрудников</h3>
+            <hr />
             <form method="post">
-                <h3>Описание правила:</h3>
+                <h4>Описание правила:</h4>
                 <textarea name="description" maxlength="500">@Model.Rule.Description</textarea>
-                <h3>Период действия правила:</h3>
+                <h4>Период действия правила:</h4>
                 <input name="startDate" type="date" id="date-edge-start" />
                 <input name="endDate" type="date" id="date-edge-end" />
-                <h3>Выберите сотрудников</h3>
+                <h4>Выберите сотрудников</h4>
                 <select multiple id="employees" name="employees" size="@size">
                     @foreach (var emp in Model.Employees)
                     {

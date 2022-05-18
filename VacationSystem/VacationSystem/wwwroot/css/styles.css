@@ -85,7 +85,7 @@ main {
 }
 
 .menu-link:hover {
-    background-color: green;
+    background-color: rgb(128, 191, 68);
     color: white;
 }
 

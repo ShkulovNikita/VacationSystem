@@ -12,27 +12,29 @@
 <div class="container">
     <div class="row">
         <div class="col-7">
+            <h3>Добавить правило для должности</h3>
+            <hr />
             <form method="post">
-                <h3>Выберите подразделение</h3>
+                <h4>Выберите подразделение</h4>
                 <select id="department" name="department">
                     @foreach(var dep in @ViewBag.departments)
                     {
                         <option value="@dep.Id">@dep.Name</option>
                     }
                 </select>
-                <h3>Описание правила:</h3>
+                <h4>Описание правила:</h4>
                 <textarea name="description" maxlength="100"></textarea>
-                <h3>Период действия правила:</h3>
+                <h4>Период действия правила:</h4>
                 <input name="startDate" type="date" id="date-edge-start" />
                 <input name="endDate" type="date" id="date-edge-end" />
-                <h3>Выберите должность</h3>
+                <h4>Выберите должность</h4>
                 <select id="positions" name="positions">
                     @foreach (var pos in positions)
                     {
                         <option value="@pos.PosId">@pos.Name</option>
                     }
                 </select>
-                <h3>Количество человек должности на рабочем месте:</h3>
+                <h4>Количество человек должности на рабочем месте:</h4>
                 <input type="number" name="number" />
                 <input type="submit" class="btn btn-primary" value="Добавить" />
             </form>

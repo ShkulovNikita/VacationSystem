@@ -15,12 +15,14 @@
 <div class="container">
     <div class="row">
         <div class="col-7">
+            <h3>Редактирование группы</h3>
+            <hr />
             <form method="post">
-                <h3>Название группы:</h3>
+                <h4>Название группы:</h4>
                 <input type="text" name="name" value="@Model.Group.Name" />
-                <h3>Описание группы:</h3>
+                <h4>Описание группы:</h4>
                 <textarea name="description" maxlength="500">@Model.Group.Description</textarea>
-                <h3>Выберите сотрудников</h3>
+                <h4>Выберите сотрудников</h4>
                 <select multiple id="employees" name="employees" size="@size">
                     @foreach (var emp in Model.Employees)
                     {

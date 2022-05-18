@@ -11,28 +11,56 @@
 <div class="container">
     <div class="row">
         <div class="col-10">
-            <!--Блок поиска-->
-            <form>
-                <input type="text" name="query" />
-                <input type="submit" class="btn btn-primary" value="Поиск" />
-            </form>
             <!--Вывод информации о сотрудниках, если они были найдены-->
             @if (@Model != null)
             {
                 @* Нет подразделения - выводятся все сотрудники университета *@
                 @if (@Model.Department == null)
                 {
-                    <h2>Все сотрудники</h2>
+                    <h3>Все сотрудники</h3>
+                    <hr />
                 }
                 @* Сотрудники одного подразделения *@
                 else
                 {
-                    <h2>Сотрудники подразделения:
+                    <h3>Сотрудники подразделения:
                         <a href="~/Head/Department/@Model.Department.Id">
                             @Model.Department.Name
                         </a>
-                    </h2>
+                    </h3>
+                    <hr />
                 }
+                <!--Блок поиска-->
+                <form>
+                    <input type="hidden" name="depId" value="@Model.Department.Id">
+                    <input type="text" name="query" />
+                    @if (Model.Positions.Count > 0)
+                    {
+                        <select name="positionId">
+                            @if (Model.ChosenPosition == "-1")
+                            {
+                                <option value="-1" selected="selected">-----------</option>
+                            }
+                            else
+                            {
+                                <option value="-1">-----------</option>
+                            }
+
+                            @foreach(var position in @Model.Positions)
+                            {
+                                @if (Model.ChosenPosition == position.Id)
+                                {
+                                    <option value="@position.Id" selected="selected">@position.Name</option>
+                                }
+                                else
+                                {
+                                    <option value="@position.Id">@position.Name</option>
+                                }
+                            }
+                        </select>
+                    }
+                    <input type="submit" class="btn btn-primary" value="Поиск" />
+                </form>
                 @* Вывести список сотрудников *@
                 @foreach (EmpDepViewModel emp in @Model.Employees)
                 {

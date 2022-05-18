@@ -15,17 +15,19 @@
 <div class="container">
     <div class="row">
         <div class="col-7">
+            <h3>Добавить отпуск</h3>
+            <hr />
             <div id="message-block"></div>
             <h5 id="remained-days">Осталось дней: @availableDays</h5>
             <form method="post">
-                <h5>Год</h5>
+                <h4>Год</h4>
                 <input type="hidden" name="empId" value="@Model.Id" />
                 <input id="period-year" type="number" name="year" min="@DateTime.Today.Year" max="@DateTime.Today.AddYears(1).Year" value="@DateTime.Today.AddYears(1).Year"/>
                 <div id="vacation-periods">
                     <div class="vacation-period">
-                        <h3>Начало периода:</h3>
+                        <h4>Начало периода:</h4>
                         <input type="date" name="startDates" class="period-date start-date" value="@DateTime.Today.AddYears(1).ToString("yyyy-MM-dd")" />
-                        <h3>Конец периода:</h3>
+                        <h4>Конец периода:</h4>
                         <input type="date" name="endDates" class="period-date end-date" value="@DateTime.Today.AddYears(1).AddDays(1).ToString("yyyy-MM-dd")" />
                     </div>
                     <button type="button" class="btn btn-secondary add-period">Добавить период</button>
@@ -104,13 +106,6 @@
             blockButton();
             return false;
         }
-
-        // сохранить выбранный отпуск в БД
-        /*$.ajax({
-            type: "POST",
-            url: '@Url.Action("AddVacation")',
-            success: function () { }
-        });*/
     });
 
     // изменение в выбранном году меняет пределы дат в периодах
@@ -159,7 +154,9 @@
     function checkRemainedDays(remainedDays) {
         // оно должно быть не меньше нуля
         if (remainedDays < 0) {
-            showMessage("Выбрано слишком большое количество дней отпуска");
+            let num = remainedDays * (-1);
+            showMessage("Выбрано слишком большое количество дней отпуска (превышение на " + num  + " дней)");
+            $('#remained-days').text('Осталось дней: 0');
             blockButton();
             return false;
         }

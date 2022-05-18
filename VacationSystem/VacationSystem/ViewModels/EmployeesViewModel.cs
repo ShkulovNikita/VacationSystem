@@ -13,6 +13,10 @@ namespace VacationSystem.ViewModels
 
         public Department Department { get; set; }
 
+        public List<Position> Positions { get; set; } = new List<Position>();
+
         public List<EmpDepViewModel> Employees { get; set; } = new List<EmpDepViewModel>();
+
+        public string ChosenPosition;
     }
 }

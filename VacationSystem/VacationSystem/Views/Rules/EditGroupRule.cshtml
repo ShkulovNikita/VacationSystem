@@ -11,11 +11,13 @@
 <div class="container">
     <div class="row">
         <div class="col-7">
+            <h3>Редактировать правило для группы</h3>
+            <hr />
             <form method="post">
-                <h3>Описание правила:</h3>
+                <h4>Описание правила:</h4>
                 <textarea name="description" maxlength="100">@Model.Rule.Description</textarea>
                 <input type="submit" class="btn btn-primary" value="Сохранить" />
-                <h3>Период действия правила:</h3>
+                <h4>Период действия правила:</h4>
                 <input name="startDate" type="date" id="date-edge-start" />
                 <input name="endDate" type="date" id="date-edge-end" />
             </form>

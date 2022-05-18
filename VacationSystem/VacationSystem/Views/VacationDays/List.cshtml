@@ -11,8 +11,9 @@
 <div class="container"> 
     <div class="row">
         <div class="col-md-7">
-            <h2>Отпускные дни</h2>
-            <h3>Выберите год</h3>
+            <h3>Отпускные дни</h3>
+            <hr />
+            <h4>Выберите год</h4>
             <input type="hidden" id="employee" value="@emp.Id" />
             <input id="days-year" type="number" name="year" value="@DateTime.Now.Year" min="@DateTime.Now.Year" max="@DateTime.Now.AddYears(1).Year" value="@DateTime.Now.Year"/>
             <hr />

@@ -14,6 +14,8 @@
 <div class="container">
     <div class="row">
         <div class="col-7">
+            <h3>Изменить периоды отпуска</h3>
+            <hr />
             <div id="message-block"></div>
             <h5 id="remained-days">Осталось дней: @availableDays</h5>
             <form method="post">
@@ -23,9 +25,9 @@
                     @foreach (VacationDatesViewModel period in @Model.Dates)
                     {
                         <div class="vacation-period">
-                            <h3>Начало периода:</h3>
+                            <h4>Начало периода:</h4>
                             <input type="date" name="startDates" class="period-date" value="@period.StartDate.ToString("yyyy-MM-dd")" />
-                            <h3>Конец периода:</h3>
+                            <h4>Конец периода:</h4>
                             <input type="date" name="endDates" class="period-date" value="@period.EndDate.ToString("yyyy-MM-dd")" />
                         </div>
                     }
@@ -116,7 +118,9 @@
     function checkRemainedDays(remainedDays) {
         // оно должно быть не меньше нуля
         if (remainedDays < 0) {
-            showMessage("Выбрано слишком большое количество дней отпуска");
+            let num = remainedDays * (-1);
+            showMessage("Выбрано слишком большое количество дней отпуска (превышение на " + num  + " дней)");
+            $('#remained-days').text('Осталось дней: 0');
             blockButton();
             return false;
         }

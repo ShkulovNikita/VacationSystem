@@ -118,5 +118,54 @@ namespace VacationSystem.Classes.Helpers
 
             return result;
         }
+
+        /// <summary>
+        /// Получить список должностей сотрудников
+        /// </summary>
+        /// <param name="emps">Список сотрудников</param>
+        /// <returns>Список должностей указанных сотрудников</returns>
+        static public List<Position> GetEmployeesPositions(List<Employee> emps)
+        {
+            List<Position> result = new List<Position>();
+
+            List<string> positionIds = new List<string>();
+
+            foreach (Employee emp in emps)
+            {
+                List<PositionInDepartment> positions = Connector.GetEmployeePositions(emp.Id);
+                positionIds.AddRange(positions.Select(p => p.Position).ToList());
+            }
+
+            positionIds = positionIds.Distinct().ToList();
+            foreach (string posId in positionIds)
+                result.Add(Connector.GetPosition(posId));
+
+            return result.OrderBy(p => p.Name).ToList();
+        }
+
+        /// <summary>
+        /// Получить список должностей сотрудников
+        /// </summary>
+        /// <param name="emps">Список сотрудников</param>
+        /// <param name="depId">Идентификатор подразделения</param>
+        /// <returns>Список должностей указанных сотрудников</returns>
+        static public List<Position> GetEmployeesPositions(List<Employee> emps, string depId)
+        {
+            List<Position> result = new List<Position>();
+
+            List<string> positionIds = new List<string>();
+
+            foreach (Employee emp in emps)
+            {
+                List<PositionInDepartment> positions = Connector.GetPositionsInDepartment(depId, emp.Id);
+                positionIds.AddRange(positions.Select(p => p.Position).ToList());
+            }
+
+            positionIds = positionIds.Distinct().ToList();
+            foreach (string posId in positionIds)
+                result.Add(Connector.GetPosition(posId));
+
+            return result.OrderBy(p => p.Name).ToList();
+        }
     }
 }

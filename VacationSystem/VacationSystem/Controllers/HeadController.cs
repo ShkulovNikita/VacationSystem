@@ -122,7 +122,7 @@ namespace VacationSystem.Controllers
         /// Просмотр списка подчиненных сотрудников
         /// </summary>
         /// <param name="depId">Идентификатор подразделения</param>
-        public IActionResult Employees(string depId, string query)
+        public IActionResult Employees(string depId, string query, string positionId)
         {
             // идентификатор авторизованного руководителя
             string headId = HttpContext.Session.GetString("id");
@@ -142,12 +142,22 @@ namespace VacationSystem.Controllers
                     return View();
                 }
 
+                List<Employee> allEmps = subEmps;
+
                 // отфильтровать сотрудников по поисковому запросу
                 if (query != null)
                     subEmps = EmployeeHelper.SearchEmployees(subEmps, query);
 
+                // по должности
+                if ((positionId != "-1") && (positionId != null))
+                    subEmps = FilterByPosition(subEmps, null, positionId);
+
                 // создание модели представления
                 EmployeesViewModel emps = EmployeeHelper.ConvertEmployeesToViewModel(subEmps);
+                List<Position> positions = PositionHelper.GetEmployeesPositions(allEmps);
+                if (positions != null)
+                    emps.Positions = positions;
+                emps.ChosenPosition = positionId;
 
                 return View(emps);
             }
@@ -172,14 +182,49 @@ namespace VacationSystem.Controllers
                     return View();
                 }
 
+                List<Employee> allEmps = subEmps;
+
                 if (query != null)
                     subEmps = EmployeeHelper.SearchEmployees(subEmps, query);
 
+                if ((positionId != "-1") && (positionId != null))
+                    subEmps = FilterByPosition(subEmps, depId, positionId);
+
                 // преобразовать список сотрудников в объект ViewModel
                 EmployeesViewModel emps = EmployeeHelper.ConvertEmployeesToViewModel(subEmps, dep);
+                List<Position> positions = PositionHelper.GetEmployeesPositions(allEmps, depId);
+                if (positions != null)
+                    emps.Positions = positions;
+                emps.ChosenPosition = positionId;
 
                 return View(emps);
             }
+        }
+
+        /// <summary>
+        /// Отфильтровать сотрудников по их должностям
+        /// </summary>
+        /// <param name="employees"></param>
+        /// <param name="depId"></param>
+        /// <returns></returns>
+        private List<Employee> FilterByPosition(List<Employee> employees, string depId, string positionId)
+        {
+            List<Employee> result = new List<Employee>();
+
+            foreach (Employee emp in employees)
+            {
+                List<PositionInDepartment> positions;
+                if (depId == null)
+                    // получить должности сотрудника во всех подразделениях
+                    positions = Connector.GetEmployeePositions(emp.Id).Where(p => p.Position == positionId).ToList();
+                else
+                    positions = Connector.GetPositionsInDepartment(depId, emp.Id).Where(p => p.Position == positionId).ToList();
+
+                if (positions.Count > 0)
+                    result.Add(emp);
+            }
+
+            return result;
         }
 
         /// <summary>

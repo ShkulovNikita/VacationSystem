@@ -12,15 +12,17 @@
 <div class="container">
     <div class="row">
         <div class="col-7">
+            <h3>Заявка на перенос отпуска</h3>
+            <hr />
             <form method="post">
-                <h3>Выберите руководителя</h3>
+                <h4>Выберите руководителя</h4>
                 <select name="headId">
                     @foreach(Employee head in @Model.Heads)
                     {
                         <option value="@head.Id">@EmployeeHelper.GetFullName(head)</option>
                     }
                 </select>
-                <h3>Текст сообщения</h3>
+                <h4>Текст сообщения</h4>
                 <textarea name="message" maxlength="200"></textarea>
                 <input type="hidden" name="empId" value="@Model.Employee.Id" />
                 <input type="hidden" name="vacationId" value="@Model.VacationId" />

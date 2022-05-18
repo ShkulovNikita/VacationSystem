@@ -12,25 +12,27 @@
 <div class="container">
     <div class="row">
         <div class="col-7">
+            <h3>Добавить правило для группы</h3>
+            <hr />
             <form method="post">
-                <h3>Выберите подразделение</h3>
+                <h4>Выберите подразделение</h4>
                 <select id="department" name="department">
                     @foreach(var dep in @ViewBag.departments)
                     {
                         <option value="@dep.Id">@dep.Name</option>
                     }
                 </select>
-                <h3>Тип правила:</h3>
+                <h4>Тип правила:</h4>
                 @foreach (var type in ViewBag.Types)
                 {
                     <input name="type" type="radio" value="@type.Id">@type.Name
                 }
-                <h3>Описание правила:</h3>
+                <h4>Описание правила:</h4>
                 <textarea name="description" maxlength="100"></textarea>
-                <h3>Период действия правила:</h3>
+                <h4>Период действия правила:</h4>
                 <input name="startDate" type="date" id="date-edge-start" />
                 <input name="endDate" type="date" id="date-edge-end" />
-                <h3>Выберите группу</h3>
+                <h4>Выберите группу</h4>
                 <select class="group-list" name="group">
                     @foreach (var group in groups)
                     {
