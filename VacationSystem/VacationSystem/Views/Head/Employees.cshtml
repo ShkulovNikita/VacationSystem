@@ -31,9 +31,10 @@
                     <hr />
                 }
                 <!--Блок поиска-->
-                <form>
+                <form class="form-filter">
                     <input type="hidden" name="depId" value="@Model.Department.Id">
-                    <input type="text" name="query" />
+                    <input type="text" class="name-search" name="query" />
+                    <label class="separate-left-big">Должность</label>
                     @if (Model.Positions.Count > 0)
                     {
                         <select name="positionId">
@@ -59,7 +60,7 @@
                             }
                         </select>
                     }
-                    <input type="submit" class="btn btn-primary" value="Поиск" />
+                    <input type="submit" class="btn btn-primary separate-left-big" value="Поиск" />
                 </form>
                 @* Вывести список сотрудников *@
                 @foreach (EmpDepViewModel emp in @Model.Employees)

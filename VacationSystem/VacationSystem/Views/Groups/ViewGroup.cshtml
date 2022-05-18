@@ -13,18 +13,18 @@
         <div class="col-7">
             <h3>@Model.Group.Name</h3>
             <h4>Подразделение: @Model.Department.Name</h4>
-            <h5>@Model.Group.Description</h5>
+            <h5 class="separate-top-small">@Model.Group.Description</h5>
             <a asp-controller="Groups" asp-action="EditGroup" asp-route-groupId="@Model.Group.Id" class="btn btn-primary">
                 Редактировать
             </a>
-            <a asp-controller="Groups" asp-action="DeleteGroup" asp-route-groupId="@Model.Group.Id" class="btn btn-danger">
+            <a asp-controller="Groups" asp-action="DeleteGroup" asp-route-groupId="@Model.Group.Id" class="btn btn-danger separate-left-small">
                 Удалить
             </a>
-            <h5>Сотрудники в группе:</h5>
+            <h5 class="separate-top-small">Сотрудники в группе:</h5>
             @foreach(Employee emp in @Model.Employees)
             {
                 <card>
-                    <p>@emp.LastName @emp.FirstName @emp.MiddleName</p>
+                    <p>• @emp.LastName @emp.FirstName @emp.MiddleName</p>
                 </card>
             }
         </div>

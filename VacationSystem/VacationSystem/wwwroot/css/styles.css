@@ -89,8 +89,6 @@ main {
     color: white;
 }
 
-
-
 .calendar-date {
     writing-mode: vertical-lr;
 }
@@ -119,15 +117,86 @@ main {
     margin: auto;
 }
 
+.popup-window a {
+    font-weight: 700;
+    color: rgb(114, 46, 36);
+}
+
 .popup-item {
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
+.card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form-filter {
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.separate-left-big {
+    margin-left: 15px;
+}
+
+.separate-left-small {
+    margin-left: 10px;
+}
+
+.separate-top {
+    margin-top: 15px;
+}
+
+.separate-top-small {
+    margin-top: 10px;
+}
+
+.bold-label {
+    font-weight: 400;
+}
+
+.remove-period {
+    margin-left: 20px;
+}
+
+.vacation-item .card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.table-secondary {
+    background-color: rgb(235, 235, 235);
+}
+
+.table-danger {
+    background-color: rgb(250, 222, 225);
+}
+
+.table-warning {
+    background-color: rgb(255, 221, 119);
+}
+
+.table-info {
+    background-color: rgb(128, 191, 68);
+}
+
+.name-search {
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+.separated-button {
+    display: block;
+}
+
 /* ------------------------------------------------------ */
 /* Замена синего цвета кнопок Primary на зеленый цвет ТПУ */
 /* ------------------------------------------------------ */
-
 .btn-primary {
     color: white;
     background-color: rgb(128, 191, 68);
@@ -184,12 +253,15 @@ main {
     margin: 20px auto;
 }
 
+#login-background input[type="text"] {
+    background-color: rgb(240, 240, 248);
+    display: block;
+}
+
 input[type="text"] {
-    background-color: rgb(240, 242, 248);
     border-color: black;
     border-width: 1px;
     border-radius: 2px;
-    display: block;
 }
 
 .block-center {
@@ -198,10 +270,17 @@ input[type="text"] {
 
 #login-background {
     padding: 40px 50px;
+    box-shadow: 0px 0px 10px 3px lightgrey;
 }
 
 #login input[type="text"] {
     width: 150px;
+    padding: 3px;
+    text-align: center;
+}
+
+#login input[type="submit"] {
+    padding: 5px 20px;
 }
 
 #login label {
@@ -226,14 +305,17 @@ select {
 }
 
 #vacation-periods {
-    padding: 20px;
-    border-radius: 3px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
     border-width: 1px;
     border-color: black;
     background-color: white;
 }
 
 .vacation-period {
+    margin-top: 10px;
+    margin-bottom: 10px;
     padding: 10px;
     border-width: 1px;
     border-color: gray;

@@ -13,43 +13,45 @@
         <div class="col-12">
             <h3>Производственный календарь подразделения "@Model.Department.Name"</h3>
             <hr />
-            <form>
+            <form class="form-filter">
                 <label>Год</label>
                 <input id="calendar-year" type="number" name="year" value="@Model.Year" />
                 <label>Период</label>
                 <input type="date" name="startDate" id="start-date" value="@Model.StartDate.ToString("yyyy-MM-dd")"/>
                 <input type="date" name="endDate" id="end-date" value="@Model.EndDate.ToString("yyyy-MM-dd")"/>
-                <label>Тип отпусков:</label>
-                @if (Model.CurrentType == "wished")
-                {
-                    <input type="radio" name="type" value="wished" checked="checked" />
-                }
-                else
-                {
-                    <input type="radio" name="type" value="wished"/>
-                }
-                <span>Запланированные</span>
-                @if (Model.CurrentType == "set")
-                {
-                    <input type="radio" name="type" value="set" checked="checked" />
-                }
-                else
-                {
-                    <input type="radio" name="type" value="set" />
-                }
-                <span>Утвержденные</span>
-                @if (Model.CurrentType == "all")
-                {
-                    <input type="radio" name="type" value="all" checked="checked" />
-                }
-                else
-                {
-                    <input type="radio" name="type" value="all" />
-                }
-                <span>Все</span>
-                <input type="submit" class="btn btn-primary" value="Выбрать" />
+                <div class="separate-top-small">
+                    <label>Тип отпусков:</label>
+                    @if (Model.CurrentType == "wished")
+                    {
+                        <input type="radio" name="type" value="wished" checked="checked" />
+                    }
+                    else
+                    {
+                        <input type="radio" name="type" value="wished"/>
+                    }
+                    <span>Запланированные</span>
+                    @if (Model.CurrentType == "set")
+                    {
+                        <input type="radio" name="type" value="set" checked="checked" />
+                    }
+                    else
+                    {
+                        <input type="radio" name="type" value="set" />
+                    }
+                    <span>Утвержденные</span>
+                    @if (Model.CurrentType == "all")
+                    {
+                        <input type="radio" name="type" value="all" checked="checked" />
+                    }
+                    else
+                    {
+                        <input type="radio" name="type" value="all" />
+                    }
+                    <span>Все</span>
+                </div>
+                <input type="submit" class="btn btn-primary" value="Применить" />
             </form>
-            <table id="vacation-calendar" class="table table-sm table-responsive table-bordered">
+            <table id="vacation-calendar" class="table table-sm table-responsive table-bordered separate-top">
                 <thead class="thead-light">
                     <tr>
                         <th scope="col">ФИО</th>
@@ -118,7 +120,7 @@
                 </tbody>
             </table>
             <button type="button" id="submit-button" class="btn btn-primary" disabled>Утвердить</button>
-            <button type="button" id="call-popup" class="btn btn-primary">Проверить правила</button>
+            <button type="button" id="call-popup" class="btn btn-primary separate-left-big">Проверить правила</button>
         </div>
     </div>
 </div>
@@ -154,7 +156,8 @@
     function showSuccessPopup() {
         let popup = $('.popup-window');
         popup.empty();
-        popup.height(140);
+        popup.height(120);
+        popup.css('overflow-y', 'hidden');
         popup.append('<div class="alert alert-success">Выбранные отпуска соответствуют всем правилам</div>');
         popup.append('<button type="button" class="btn btn-primary" id="hide-popup">Скрыть</button>');
         $('.popup-window').css('display', 'block');
@@ -166,6 +169,7 @@
         let popup = $('.popup-window');
         popup.empty();
         popup.height(180);
+        popup.css('overflow-y', 'scroll');
 
         // перебрать предупреждения
         data.warnings.forEach(function(item, i, data) {
@@ -184,8 +188,8 @@
             popup.append('<div class="alert alert-danger popup-item">' + link + '<p>' + item.ruleDescription + '</p>' + '</div>');
         });
 
-        popup.append('<button type="button" class="btn btn-primary" id="fix-popup">Исправить</button>')
-        popup.append('<button type="button" class="btn btn-primary" id="ignore-popup">Игнорировать</button>');
+        popup.append('<button type="button" class="btn btn-primary separate-top-small" id="fix-popup">Исправить</button>')
+        popup.append('<button type="button" class="btn btn-primary separate-left-big separate-top-small" id="ignore-popup">Игнорировать</button>');
         $('.popup-window').css('display', 'block');
     }
 

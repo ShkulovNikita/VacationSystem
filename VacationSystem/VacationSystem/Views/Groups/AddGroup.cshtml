@@ -22,18 +22,18 @@
                         <option value="@dep.Id">@dep.Name</option>
                     }
                 </select>
-                <h4>Название группы:</h4>
+                <h4 class="separate-top-small">Название группы:</h4>
                 <input type="text" name="name" />
-                <h4>Описание группы:</h4>
+                <h4 class="separate-top-small">Описание группы:</h4>
                 <textarea name="description" maxlength="500"></textarea>
-                <h4>Выберите сотрудников</h4>
+                <h4 class="separate-top-small">Выберите сотрудников</h4>
                 <select multiple class="employee-group-list" name="employees" size="@employees.Count()">
                     @foreach (var emp in employees)
                     {
                         <option value="@emp.EmpId">@emp.Name</option>
                     }
                 </select>
-                <input type="submit" class="btn btn-primary" value="Добавить" />
+                <input type="submit" class="btn btn-primary separated-button separate-top" value="Добавить" />
             </form>
         </div>
     </div>

@@ -29,7 +29,7 @@
                 <a asp-controller="Calendar" asp-action="Department" asp-route-id="@Model.Id" class="btn btn-primary">
                     Календарь отпусков
                 </a>
-                <a asp-controller="Head" asp-action="Employees" asp-route-depId="@Model.Id" class="btn btn-primary">
+                <a asp-controller="Head" asp-action="Employees" asp-route-depId="@Model.Id" class="btn btn-primary separate-left-big">
                     Список сотрудников
                 </a>
                 @if (@Model.ChildDepartments.Count > 0)

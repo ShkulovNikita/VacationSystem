@@ -16,25 +16,25 @@
         <div class="col-10">
             <h3>Отпуска сотрудника @EmployeeHelper.GetFullName(Model.Employee)</h3>
             <hr />
-            <form>
+            <form class="form-filter">
                 <input type="hidden" name="empId" value="@Model.Employee.Id" />
-                <label>Тип отпусков</label>
+                <label>Тип отпусков:</label>
                 @if (@Model.CurrentType == null)
                 {
-                    <input name="type" type="radio" value="wished" checked="checked"/><span>Запланированные</span>
+                    <input name="type" type="radio" value="wished" checked="checked" class="separate-left-small"/><span>Запланированные</span>
                     <input name="type" type="radio" value="set" /><span>Утвержденные</span>
                 }
                 else if (@Model.CurrentType == "set")
                 {
-                    <input name="type" type="radio" value="wished" /><span>Запланированные</span>
+                    <input name="type" type="radio" value="wished" class="separate-left-small" /><span>Запланированные</span>
                     <input name="type" type="radio" value="set" checked="checked"/><span>Утвержденные</span>
                 }
                 else
                 {
-                    <input name="type" type="radio" value="wished" checked="checked"/><span>Запланированные</span>
+                    <input name="type" type="radio" value="wished" checked="checked" class="separate-left-small"/><span>Запланированные</span>
                     <input name="type" type="radio" value="set" /><span>Утвержденные</span>
                 }
-                <label>Год</label>
+                <label class="separate-left-big">Год:</label>
                 <select id="vacation-year" name="year">
                     <option value="0">----</option>
                     @foreach(int year in @Model.Years)
@@ -49,9 +49,9 @@
                         }
                     }
                 </select>
-                <input type="submit" class="btn btn-primary" value="Применить" />
+                <input type="submit" class="btn btn-primary separate-left-big" value="Применить" />
             </form>
-            <h5>Количество дней для данного года: @Model.AvailableDays</h5>
+            <h5 class="separate-top">Количество дней для данного года: @Model.AvailableDays</h5>
             @if (@Model.AvailableDays > 0)
             {
                 <a id="add-vacation" asp-controller="Vacation" asp-action="AddVacation" asp-route-empId="@Model.Employee.Id" asp-route-year="@(Model.CurrentYear + 1)" class="btn btn-primary">Добавить</a>
@@ -60,6 +60,7 @@
             {
                 <a href="#" class="btn btn-secondary" role="button" aria-disabled="true">Добавить</a>
             }
+            <hr />
             @if(@Model.Vacations.Count > 0)
             {
                 <h4>Список отпусков</h4>
@@ -86,7 +87,7 @@
                     @{
                         VacationViewModel vac = @Model.Vacations.FirstOrDefault(v => v.Id == id);
                         <a asp-controller="Vacation" asp-action="EditWishedVacation" asp-route-empId="@vac.EmpId" asp-route-vacationId="@vac.Id" asp-route-year="@vac.Year" class="btn btn-primary">Изменить</a>
-                        <a asp-controller="Vacation" asp-action="DeleteWishedVacation" asp-route-vacationId="@vac.Id" class="btn btn-danger">Удалить</a>
+                        <a asp-controller="Vacation" asp-action="DeleteWishedVacation" asp-route-vacationId="@vac.Id" class="btn btn-danger separate-left-big">Удалить</a>
                     }
                     </div>
                 }
@@ -111,8 +112,8 @@
                         @if (@Model.IsHead)
                         {
                             <a asp-controller="Vacation" asp-action="Interrupt" asp-route-vacationId="@vacation.Id" class="btn btn-primary">Прервать</a>
-                            <a asp-controller="Vacation" asp-action="Cancel" asp-route-vacationId="@vacation.Id" class="btn btn-danger">Отменить</a>
-                            <a asp-controller="Vacation" asp-action="EditSetVacation" asp-route-vacationId="@vacation.Id" asp-route-empId="@vacation.EmpId" class="btn btn-primary">Перенести</a>
+                            <a asp-controller="Vacation" asp-action="Cancel" asp-route-vacationId="@vacation.Id" class="btn btn-danger separate-left-big">Отменить</a>
+                            <a asp-controller="Vacation" asp-action="EditSetVacation" asp-route-vacationId="@vacation.Id" asp-route-empId="@vacation.EmpId" class="btn btn-primary separate-left-big">Перенести</a>
                         }
                         else
                         {

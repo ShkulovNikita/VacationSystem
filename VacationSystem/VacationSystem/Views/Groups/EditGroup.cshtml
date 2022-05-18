@@ -20,9 +20,9 @@
             <form method="post">
                 <h4>Название группы:</h4>
                 <input type="text" name="name" value="@Model.Group.Name" />
-                <h4>Описание группы:</h4>
+                <h4 class="separate-top-small">Описание группы:</h4>
                 <textarea name="description" maxlength="500">@Model.Group.Description</textarea>
-                <h4>Выберите сотрудников</h4>
+                <h4 class="separate-top-small">Выберите сотрудников</h4>
                 <select multiple id="employees" name="employees" size="@size">
                     @foreach (var emp in Model.Employees)
                     {
@@ -33,7 +33,7 @@
                         <option value="@emp.Id">@emp.LastName @emp.FirstName @emp.MiddleName</option>
                     }
                 </select>
-                <input type="submit" class="btn btn-primary" value="Сохранить" />
+                <input type="submit" class="btn btn-primary separate-top separated-button" value="Сохранить" />
             </form>
         </div>
     </div>
