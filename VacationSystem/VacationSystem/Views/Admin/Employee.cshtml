@@ -3,13 +3,16 @@
 @using VacationSystem.ViewModels;
 
 @{
+    Layout = "_Common";
+
     ViewData["Title"] = "Информация о сотруднике";
 }
 
 <div class="container">
     <div class="row">
         <div class="col-7">
-            <h5>@Model.LastName @Model.FirstName @Model.MiddleName</h5>
+            <h3>@Model.LastName @Model.FirstName @Model.MiddleName</h3>
+            <hr />
             @* Проход по подразделениям сотрудника с его должностями *@
             @if(@Model.PositionsInDepartments.Count > 0)
             {

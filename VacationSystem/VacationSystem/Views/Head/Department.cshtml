@@ -22,9 +22,9 @@
                 }
                 @if (@Model.HeadDepartment != null)
                 {
-                    <p>Старшее подразделение: 
+                    <h5>Старшее подразделение: 
                         @Model.HeadDepartment.Name
-                    </p>
+                    </h5>
                 }
                 <a asp-controller="Calendar" asp-action="Department" asp-route-id="@Model.Id" class="btn btn-primary">
                     Календарь отпусков
@@ -34,7 +34,7 @@
                 </a>
                 @if (@Model.ChildDepartments.Count > 0)
                 {
-                    <p>Младшие подразделения:</p>
+                    <h5>Младшие подразделения:</h5>
                     @foreach(Department dep in @Model.ChildDepartments)
                     {
                         <div class="card">

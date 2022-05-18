@@ -1,40 +1,40 @@
 ﻿@model EmployeesViewModel
 @using VacationSystem.ViewModels
 @using VacationSystem.Models
-@using VacationSystem.HtmlHelpers
 
 @{
+    Layout = "_Common";
+
     ViewData["Title"] = "Список сотрудников";
-    string error = ViewBag.Error;
 }
 
 <div class="container">
     <div class="row">
         <div class="col-10">
-            <!--Блок ошибок-->
-            @Html.CheckError(error)
-            <!--Блок поиска-->
-            <form>
-                <input type="text" name="query" />
-                <input type="submit" class="btn btn-primary" value="Поиск" />
-            </form>
             <!--Вывод информации о сотрудниках, если они были найдены-->
             @if (@Model != null)
             {
                 @* Нет подразделения - выводятся все сотрудники университета *@
                 @if (@Model.Department == null)
                 {
-                    <h2>Все сотрудники</h2>
+                    <h3>Все сотрудники</h3>
+                    <hr />
                 }
                 @* Сотрудники одного подразделения *@
                 else
                 {
-                    <h2>Сотрудники подразделения:
+                    <h3>Сотрудники подразделения:
                         <a href="~/Admin/Department/@Model.Department.Id">
                             @Model.Department.Name
                         </a>
-                    </h2>
+                    </h3>
+                    <hr />
                 }
+                <!--Блок поиска-->
+                <form>
+                    <input type="text" name="query" />
+                    <input type="submit" class="btn btn-primary" value="Поиск" />
+                </form>
                 @* Вывести список сотрудников *@
                 @foreach (EmpDepViewModel emp in @Model.Employees)
                 {

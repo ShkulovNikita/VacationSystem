@@ -1,38 +1,34 @@
 ﻿@model List<Department>
 @using VacationSystem.Models
-@using VacationSystem.HtmlHelpers
 
 @{
-    ViewData["Title"] = "Список подразделений";
+    Layout = "_Common";
 
-    string error = null;
-    if (TempData["Error"] != null)
-        error = TempData["Error"].ToString();
-    string message = null;
-    if (TempData["Message"] != null)
-        message = TempData["Message"].ToString();
+    ViewData["Title"] = "Список подразделений";
 }
 
 <div class="container">
     <div class="row">
-        @Html.CheckError(error)
-        @Html.CheckMessage(message)
-        <form>
-            <input type="text" name="query" />
-            <input type="submit" class="btn btn-primary" value="Поиск" />
-        </form>
         <div class="col-10">
-            @foreach (Department dep in Model)
-            {
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            @dep.Name
-                        </h5>
-                        <a href="~/Admin/Department/@dep.Id" class="btn btn-primary">Просмотр подразделения</a>
+            <h3>Список подразделений</h3>
+            <hr />
+            <form>
+                <input type="text" name="query" />
+                <input type="submit" class="btn btn-primary" value="Поиск" />
+            </form>
+            <div class="col-10">
+                @foreach (Department dep in Model)
+                {
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                @dep.Name
+                            </h5>
+                            <a href="~/Admin/Department/@dep.Id" class="btn btn-primary">Просмотр подразделения</a>
+                        </div>
                     </div>
-                </div>
-            }
+                }
+            </div>
         </div>
     </div>
 </div>

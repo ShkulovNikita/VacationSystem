@@ -1,18 +1,19 @@
 ﻿@model DepartmentViewModel
 @using VacationSystem.ViewModels
-@using VacationSystem.HtmlHelpers
 
 @{
-    string error = ViewBag.Error;
+    Layout = "_Common";
+
+    ViewData["Title"] = "Информация о подразделении";
 }
 
 <div class="container">
     <div class="row">
-        @Html.CheckError(error) 
-        <div id="profile-background" class="content-background">
+        <div class="col-7">
         @if (@Model != null)
         {
-            <h2>@Model.Name</h2>
+            <h3>@Model.Name</h3>
+            <hr />
             @if (@Model.Head != null)
             {
                 <p>Руководитель:
@@ -23,18 +24,18 @@
             }
             @if (@Model.HeadDepartment != null)
             {
-                <p>Старшее подразделение: 
+                <h5>Старшее подразделение: 
                     <a href="~/Admin/Department/@Model.HeadDepartment.Id">
                         @Model.HeadDepartment.Name
                     </a>
-                </p>
+                </h5>
             }
             <a href="~/Admin/Employees/@Model.Id" class="btn btn-primary">
                 Список сотрудников
             </a>
             @if (@Model.ChildDepartments.Count > 0)
             {
-                <p>Младшие подразделения:</p>
+                <h5>Младшие подразделения:</h5>
                 @foreach(Department dep in @Model.ChildDepartments)
                 {
                     <div class="card">

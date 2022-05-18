@@ -9,6 +9,10 @@
     if (Context.Session.GetString("head") != null)
         isHead = bool.Parse(Context.Session.GetString("head"));
 
+    bool isAdmin = false;
+    if (Context.Session.GetString("user_type") == "administrator")
+        isAdmin = true;
+
     // сообщения со стороны сервера
     string success = null;
     if (TempData["Success"] != null)
@@ -27,17 +31,26 @@
 </div>
 <main role="main" id="main-block" class="flex-container flex-row flex-start">
     <div id="left-menu" class="flex-container flex-column flex-start">
-        <p class="menu-header menu-item">Меню</p>
-        <a asp-controller="Vacation" asp-action="Index" class="menu-link menu-item">Отпуска</a>
-        <a asp-controller="VacationDays" asp-action="List" class="menu-link menu-item">Отпускные дни</a>
-        <a asp-controller="Home" asp-action="Profile" class="menu-link menu-item">Уведомления</a>
-        @if (isHead)
+        @if (isAdmin)
         {
+            <p class="menu-header menu-item">Меню</p>
+            <a asp-controller="Admin" asp-action="Departments" class="menu-link menu-item">Подразделения</a>
+            <a asp-controller="Admin" asp-action="Employees" class="menu-link menu-item">Сотрудники</a>
+        }
+        else
+        {
+            <p class="menu-header menu-item">Меню</p>
+            <a asp-controller="Vacation" asp-action="Index" class="menu-link menu-item">Отпуска</a>
+            <a asp-controller="VacationDays" asp-action="List" class="menu-link menu-item">Отпускные дни</a>
+            <a asp-controller="Home" asp-action="Profile" class="menu-link menu-item">Уведомления</a>
+            @if (isHead)
+            {
             <p class="menu-header menu-item">Руководитель</p>
             <a asp-controller="Head" asp-action="Departments" class="menu-link menu-item">Подразделения</a>
             <a asp-controller="Groups" asp-action="Index" class="menu-link menu-item">Группы сотрудников</a>
             <a asp-controller="Rules" asp-action="Index" class="menu-link menu-item">Правила отпусков</a>
             <a asp-controller="VacationDays" asp-action="SetDays" class="menu-link menu-item">Управление отпусками</a>
+            }
         }
         <hr class="menu-separator" />
         <a asp-controller="Login" asp-action="Logout" class="menu-link menu-item">Выйти</a>
