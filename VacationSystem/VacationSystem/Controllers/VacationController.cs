@@ -670,7 +670,6 @@ namespace VacationSystem.Controllers
         /// <param name="empId">Идентификатор сотрудника</param>
         /// <param name="year">Год</param>
         /// <param name="vacationId">Идентификатор отпуска</param>
-        /// <returns></returns>
         [HttpPost]
         public int CalculateSetDays(List<PeriodViewModel> collection, string empId, int year, int vacationId)
         {
@@ -698,6 +697,64 @@ namespace VacationSystem.Controllers
             }
 
             return availableDays - vacationDays;
+        }
+
+        /// <summary>
+        /// Отображение страницы для написания запроса на изменение отпускного периода
+        /// </summary>
+        /// <param name="empId">Идентификатор сотрудника</param>
+        [HttpGet]
+        public IActionResult VacationRequest(string empId, int vacationId)
+        {
+            Employee emp = Connector.GetEmployee(empId);
+
+            // получить руководителей сотрудника
+            List<Employee> heads = new List<Employee>();
+
+            List<Department> deps = DepartmentHelper.GetDepartments(empId);
+            foreach (Department dep in deps)
+            {
+                Employee head = Connector.GetHeadOfDepartment(dep.Id);
+                if (head != null)
+                    heads.Add(head);
+            }
+
+            // подготовить ViewModel
+            RequestViewModel vm = new RequestViewModel
+            {
+                Employee = emp,
+                Heads = heads,
+                VacationId = vacationId
+            };
+            
+            return View(vm);
+        }
+
+        /// <summary>
+        /// Сохранение в БД сообщения для руководителя
+        /// </summary>
+        /// <param name="empId"></param>
+        /// <param name="headId"></param>
+        /// <param name="message"></param>
+        [HttpPost]
+        public IActionResult VacationRequest(string empId, string headId, int vacationId, string message)
+        {
+            // получить подразделение, в котором сотрудник подчиняется руководителю
+            List<Department> depsOfEmp = DepartmentHelper.GetDepartments(empId);
+            List<Department> depsOfHead = Connector.GetSubordinateDepartments(headId);
+
+            // найти пересечение
+            Department dep = depsOfEmp.FirstOrDefault(depOfEmp => depsOfHead.Any(depOfHead => depOfEmp.Id == depOfHead.Id));
+
+            if (dep == null)
+                TempData["Error"] = "Не удалось отправить заявку";
+
+            if (NotificationHelper.AddMessage(empId, headId, dep.Id, vacationId, message))
+                TempData["Success"] = "Заявка успешно отправлена";
+            else
+                TempData["Success"] = "Не удалось отправить заявку";
+
+            return RedirectToAction("Index", new { empId = empId });
         }
     }
 }

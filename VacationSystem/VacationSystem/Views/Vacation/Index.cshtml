@@ -112,6 +112,10 @@
                             <a asp-controller="Vacation" asp-action="Cancel" asp-route-vacationId="@vacation.Id" class="btn btn-danger">Отменить</a>
                             <a asp-controller="Vacation" asp-action="EditSetVacation" asp-route-vacationId="@vacation.Id" asp-route-empId="@vacation.EmpId" class="btn btn-primary">Перенести</a>
                         }
+                        else
+                        {
+                            <a asp-controller="Vacation" asp-action="VacationRequest" asp-route-empId="@Model.Employee.Id" asp-route-vacationId="@vacation.Id" class="btn btn-primary">Перенести</a>
+                        }
                     </div>
                 }
             }

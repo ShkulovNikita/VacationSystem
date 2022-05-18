@@ -338,26 +338,31 @@ namespace VacationSystem.Classes.Helpers
         /// <param name="empId">Идентификатор сотрудника</param>
         /// <param name="headId">Идентификатор руководителя</param>
         /// <param name="depId">Идентификатор подразделения</param>
+        /// <param name="vacationId">Идентификатор отпуска</param>
         /// <param name="message">Сообщение от сотрудника</param>
-        static public void AddMessage(string empId, string headId, string depId, string message)
+        static public bool AddMessage(string empId, string headId, string depId, int vacationId, string message)
         {
             try
             {
                 Employee emp = Connector.GetEmployee(empId);
                 Department dep = Connector.GetDepartment(depId);
+                SetVacation vacation = VacationDataHandler.GetSetVacation(vacationId);
 
-                if ((emp == null) || (dep == null))
-                    return;
+                if ((emp == null) || (dep == null) || (vacation == null))
+                    return false;
 
                 string text = "Сообщение от сотрудника " + EmployeeHelper.GetFullName(emp)
-                    + " (подразделение \"" + dep.Name + "\"):\n"
+                    + " (подразделение \"" + dep.Name + "\") для отпуска с периодом (" 
+                    + vacation.StartDate.ToString("yyyy-MM-dd") + " - " + vacation.EndDate.ToString("yyyy-MM-dd")
+                    + "):\n"
                     + message;
 
-                NotificationDataHandler.AddNotification(text, headId, "Заявка на изменение отпуска");
+                return NotificationDataHandler.AddNotification(text, headId, "Заявка на изменение отпуска");
             }
             catch (Exception ex)
             {
                 Debug.WriteLine(ex.Message);
+                return false;
             }
         }
     }

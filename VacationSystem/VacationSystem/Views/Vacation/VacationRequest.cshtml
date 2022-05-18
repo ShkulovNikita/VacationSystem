@@ -1,0 +1,31 @@
+﻿@model RequestViewModel;
+
+@using VacationSystem.ViewModels;
+@using VacationSystem.Classes.Helpers;
+
+@{
+    Layout = "_Common";
+
+    ViewData["Title"] = "Заявка на перенос отпуска";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-7">
+            <form method="post">
+                <h3>Выберите руководителя</h3>
+                <select name="headId">
+                    @foreach(Employee head in @Model.Heads)
+                    {
+                        <option value="@head.Id">@EmployeeHelper.GetFullName(head)</option>
+                    }
+                </select>
+                <h3>Текст сообщения</h3>
+                <textarea name="message" maxlength="200"></textarea>
+                <input type="hidden" name="empId" value="@Model.Employee.Id" />
+                <input type="hidden" name="vacationId" value="@Model.VacationId" />
+                <input type="submit" class="btn btn-primary" value="Отправить"/>
+            </form>
+        </div>
+    </div>
+</div>
