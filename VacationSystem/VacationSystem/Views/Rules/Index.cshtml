@@ -23,14 +23,17 @@
                         <option value="@dep.Id">@dep.Name</option>
                     }
                 </select>
-                <input type="submit" class="btn btn-primary" value="Применить" />
+                <input type="submit" class="btn btn-primary separate-left-small" value="Применить" />
             </form>
-            <a asp-controller="Rules" asp-action="AddEmpRule" class="btn btn-primary">Добавить правило для сотрудников</a>
-            <a asp-controller="Rules" asp-action="AddPosRule" class="btn btn-primary">Добавить правило для должностей</a>
-            <a asp-controller="Rules" asp-action="AddGroupRule" class="btn btn-primary">Добавить правило для групп</a>
+            <div class="separate-top-small">
+                <a asp-controller="Rules" asp-action="AddEmpRule" class="btn btn-primary separate-left-big">Добавить правило для сотрудников</a>
+                <a asp-controller="Rules" asp-action="AddPosRule" class="btn btn-primary separate-left-big">Добавить правило для должностей</a>
+                <a asp-controller="Rules" asp-action="AddGroupRule" class="btn btn-primary separate-left-big">Добавить правило для групп</a>
+            </div>
+            <hr />
             @if(@Model.Count > 0)
             {
-                <h4>Правила выбора отпусков</h4>
+                <h4 class="separate-top">Правила выбора отпусков</h4>
             }
             @foreach(var rule in @Model)
             {
@@ -51,20 +54,20 @@
                         @if (rule.RuleType == "Emp")
                         {
                             <a asp-controller="Rules" asp-action="ViewEmpRule" asp-route-ruleId="@rule.Id" class="btn btn-primary">Просмотр</a>
-                            <a asp-controller="Rules" asp-action="EditEmpRule" asp-route-ruleId="@rule.Id" class="btn btn-primary">Редактировать</a>
-                            <a asp-controller="Rules" asp-action="DeleteEmpRule" asp-route-ruleId="@rule.Id" class="btn btn-danger">Удалить</a>
+                            <a asp-controller="Rules" asp-action="EditEmpRule" asp-route-ruleId="@rule.Id" class="btn btn-primary separate-left-big">Редактировать</a>
+                            <a asp-controller="Rules" asp-action="DeleteEmpRule" asp-route-ruleId="@rule.Id" class="btn btn-danger separate-left-big">Удалить</a>
                         }
                         else if (rule.RuleType == "Pos")
                         {
                             <a asp-controller="Rules" asp-action="ViewPosRule" asp-route-ruleId="@rule.Id" class="btn btn-primary">Просмотр</a>
-                            <a asp-controller="Rules" asp-action="EditPosRule" asp-route-ruleId="@rule.Id" class="btn btn-primary">Редактировать</a>
-                            <a asp-controller="Rules" asp-action="DeletePosRule" asp-route-ruleId="@rule.Id" class="btn btn-danger">Удалить</a>
+                            <a asp-controller="Rules" asp-action="EditPosRule" asp-route-ruleId="@rule.Id" class="btn btn-primary separate-left-big">Редактировать</a>
+                            <a asp-controller="Rules" asp-action="DeletePosRule" asp-route-ruleId="@rule.Id" class="btn btn-danger separate-left-big">Удалить</a>
                         }
                         else
                         {
                             <a asp-controller="Rules" asp-action="ViewGroupRule" asp-route-ruleId="@rule.Id" class="btn btn-primary">Просмотр</a>
-                            <a asp-controller="Rules" asp-action="EditGroupRule" asp-route-ruleId="@rule.Id" class="btn btn-primary">Редактировать</a>
-                            <a asp-controller="Rules" asp-action="DeleteGroupRule" asp-route-ruleId="@rule.Id" class="btn btn-danger">Удалить</a>
+                            <a asp-controller="Rules" asp-action="EditGroupRule" asp-route-ruleId="@rule.Id" class="btn btn-primary separate-left-big">Редактировать</a>
+                            <a asp-controller="Rules" asp-action="DeleteGroupRule" asp-route-ruleId="@rule.Id" class="btn btn-danger separate-left-big">Удалить</a>
                         }
                     </div>
                 </div>

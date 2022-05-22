@@ -30,12 +30,12 @@
                     </a>
                 </h5>
             }
-            <a href="~/Admin/Employees/@Model.Id" class="btn btn-primary">
+            <a href="~/Admin/Employees/@Model.Id" class="btn btn-primary separate-top">
                 Список сотрудников
             </a>
             @if (@Model.ChildDepartments.Count > 0)
             {
-                <h5>Младшие подразделения:</h5>
+                <h5 class="separate-top">Младшие подразделения:</h5>
                 @foreach(Department dep in @Model.ChildDepartments)
                 {
                     <div class="card">

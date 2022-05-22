@@ -14,12 +14,13 @@
             <h3>Правило для должности</h3>
             <hr />
             <h4>@Model.Rule.Description</h4>
-            <h4>Подразделение: @Model.Rule.Department.Name</h4>
-            <h4>Должность: @Model.Position.Name</h4>
+            <h5>Подразделение: @Model.Rule.Department.Name</h5>
+            <h5>Должность: @Model.Position.Name</h5>
+            <h5>Количество человек: @Model.Rule.PeopleNumber</h5>
             <a asp-controller="Rules" asp-action="EditPosRule" asp-route-ruleId="@Model.Rule.Id" class="btn btn-primary">
                 Редактировать
             </a>
-            <a asp-controller="Rules" asp-action="DeletePosRule" asp-route-ruleId="@Model.Rule.Id" class="btn btn-danger">
+            <a asp-controller="Rules" asp-action="DeletePosRule" asp-route-ruleId="@Model.Rule.Id" class="btn btn-danger separate-left-big">
                 Удалить
             </a>
         </div>

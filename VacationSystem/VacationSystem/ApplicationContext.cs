@@ -9,9 +9,6 @@ namespace VacationSystem
 {
     public class ApplicationContext : DbContext
     {
-        // файл логов БД
-        //private readonly StreamWriter logStream = new StreamWriter("logs.txt", true);
- 
         // таблицы БД
         public DbSet<RuleType> RuleTypes { get; set; }
         public DbSet<Position> Positions { get; set; }

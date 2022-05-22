@@ -165,7 +165,7 @@ namespace VacationSystem.Controllers
         /// <param name="name">Наименование группы</param>
         /// <param name="description">Описание группы</param>
         /// <param name="department">Подразделение сотрудников группы</param>
-        /// <param name="Employee">Список идентификаторов выбранных сотрудников</param>
+        /// <param name="employees">Список идентификаторов выбранных сотрудников</param>
         [HttpPost]
         public IActionResult AddGroup(string name, string description, string department, string[] employees)
         {

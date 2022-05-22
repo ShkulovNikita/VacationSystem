@@ -84,6 +84,12 @@ namespace VacationSystem.Controllers
                 return RedirectToAction("Profile", "Home");
             }
 
+            // добавить сотруднику дни основного оплачиваемого отпуска,
+            // если они ещё не были добавлены ранее
+            VacationDayHelper.AddMainVacationDays(id);
+            if (id != null)
+                VacationDayHelper.AddMainVacationDays(id);
+
             Employee emp = Connector.GetEmployee(id);
             if (emp == null)
             {

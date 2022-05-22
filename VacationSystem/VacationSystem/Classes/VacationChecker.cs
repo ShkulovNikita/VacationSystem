@@ -90,11 +90,6 @@ namespace VacationSystem.Classes
                 // счетчик второй пары для сравнения
                 for (int j = i + 1; j < periods.Length; j++)
                 {
-                    bool a = periods[i].StartDate > periods[j].StartDate;
-                    bool b = periods[i].EndDate < periods[j].EndDate;
-                    bool c = periods[i].StartDate < periods[j].StartDate;
-                    bool d = periods[i].EndDate > periods[j].EndDate;
-
                     // если первый период включен во второй
                     if ((periods[i].StartDate > periods[j].StartDate)
                         && (periods[i].EndDate < periods[j].EndDate))

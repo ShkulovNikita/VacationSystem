@@ -20,10 +20,10 @@
             <form method="post">
                 <h4>Описание правила:</h4>
                 <textarea name="description" maxlength="500">@Model.Rule.Description</textarea>
-                <h4>Период действия правила:</h4>
+                <h4 class="separate-top-small">Период действия правила:</h4>
                 <input name="startDate" type="date" id="date-edge-start" />
                 <input name="endDate" type="date" id="date-edge-end" />
-                <h4>Выберите сотрудников</h4>
+                <h4 class="separate-top-small">Выберите сотрудников</h4>
                 <select multiple id="employees" name="employees" size="@size">
                     @foreach (var emp in Model.Employees)
                     {
@@ -34,7 +34,7 @@
                         <option value="@emp.Id">@emp.LastName @emp.FirstName @emp.MiddleName</option>
                     }
                 </select>
-                <input type="submit" class="btn btn-primary" value="Сохранить" />
+                <input type="submit" class="btn btn-primary separated-button separate-top" value="Сохранить" />
             </form>
         </div>
     </div>

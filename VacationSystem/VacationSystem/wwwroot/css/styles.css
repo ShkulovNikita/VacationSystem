@@ -93,6 +93,22 @@ main {
     writing-mode: vertical-lr;
 }
 
+input[type="number"] {
+    width: 80px;
+}
+
+textarea {
+    width: 400px;
+}
+
+select {
+    max-width: 400px;
+}
+
+.select-size {
+    width: 400px;
+}
+
 /* --------------------------------------- */
 /* Всплывающее сообщение с предупреждением */
 /* --------------------------------------- */
@@ -191,6 +207,10 @@ main {
 }
 
 .separated-button {
+    display: block;
+}
+
+.separated {
     display: block;
 }
 

@@ -22,24 +22,26 @@
                         <option value="@dep.Id">@dep.Name</option>
                     }
                 </select>
-                <h4>Тип правила:</h4>
+                <h4 class="separate-top-small">Тип правила:</h4>
                 @foreach (var type in ViewBag.types)
                 {
-                    <input name="type" type="radio" value="@type.Id">@type.Name
+                    <div class="separated">
+                        <input name="type" type="radio" value="@type.Id">@type.Name
+                    </div>
                 }
-                <h4>Описание правила:</h4>
+                <h4 class="separate-top-small">Описание правила:</h4>
                 <textarea name="description" maxlength="100"></textarea>
-                <h4>Период действия правила:</h4>
+                <h4 class="separate-top-small">Период действия правила:</h4>
                 <input name="startDate" type="date" id="date-edge-start" />
                 <input name="endDate" type="date" id="date-edge-end" />
-                <h4>Выберите сотрудников</h4>
+                <h4 class="separate-top-small">Выберите сотрудников</h4>
                 <select multiple class="employee-group-list" name="employees" size="@employees.Count()">
                     @foreach (var emp in employees)
                     {
                         <option value="@emp.EmpId">@emp.Name</option>
                     }
                 </select>
-                <input type="submit" class="btn btn-primary" value="Добавить" />
+                <input type="submit" class="btn btn-primary separated-button separate-top" value="Добавить" />
             </form>
         </div>
     </div>

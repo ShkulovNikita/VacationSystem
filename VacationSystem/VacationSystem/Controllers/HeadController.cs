@@ -18,7 +18,6 @@ namespace VacationSystem.Controllers
         /// <summary>
         /// Заглавная страница руководителя подразделений
         /// </summary>
-        /// <returns></returns>
         public IActionResult Index()
         {
             return View();
@@ -204,9 +203,6 @@ namespace VacationSystem.Controllers
         /// <summary>
         /// Отфильтровать сотрудников по их должностям
         /// </summary>
-        /// <param name="employees"></param>
-        /// <param name="depId"></param>
-        /// <returns></returns>
         private List<Employee> FilterByPosition(List<Employee> employees, string depId, string positionId)
         {
             List<Employee> result = new List<Employee>();

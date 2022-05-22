@@ -1,6 +1,7 @@
 ﻿@model EmpRuleViewModel
 
 @using VacationSystem.ViewModels;
+@using VacationSystem.Classes.Helpers;
 
 @{
     Layout = "_Common";
@@ -14,19 +15,19 @@
             <h3>Правило для сотрудников</h3>
             <hr />
             <h4>@Model.Rule.Description</h4>
-            <h4>Подразделение: @Model.Rule.Department.Name</h4>
-            <h5>@Model.Rule.RuleType.Name</h5>
+            <h5>Подразделение: @Model.Rule.Department.Name</h5>
+            <h5>Правило: @Model.Rule.RuleType.Name</h5>
             <a asp-controller="Rules" asp-action="EditEmpRule" asp-route-ruleId="@Model.Rule.Id" class="btn btn-primary">
                 Редактировать
             </a>
-            <a asp-controller="Rules" asp-action="DeleteEmpRule" asp-route-ruleId="@Model.Rule.Id" class="btn btn-danger">
+            <a asp-controller="Rules" asp-action="DeleteEmpRule" asp-route-ruleId="@Model.Rule.Id" class="btn btn-danger separate-left-big">
                 Удалить
             </a>
-            <h5>Сотрудники в правиле:</h5>
+            <h5 class="separate-top-small">Сотрудники в правиле:</h5>
             @foreach(Employee emp in @Model.Employees)
             {
                 <card>
-                    <p>@emp.LastName @emp.FirstName @emp.MiddleName</p>
+                    <p>• @emp.LastName @emp.FirstName @emp.MiddleName</p>
                 </card>
             }
         </div>
