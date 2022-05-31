@@ -10,11 +10,20 @@ using VacationSystem.Classes;
 using VacationSystem.Classes.Rules;
 using VacationSystem.Classes.Helpers;
 using VacationSystem.Classes.Database;
+using System.IO;
+using Microsoft.AspNetCore.Hosting;
 
 namespace VacationSystem.Controllers
 {
     public class CalendarController : Controller
     {
+        private readonly IWebHostEnvironment _webHostEnvironment;
+
+        public CalendarController(IWebHostEnvironment webHostEnvironment)
+        {
+            _webHostEnvironment = webHostEnvironment;
+        }
+
         /// <summary>
         /// Отображение календаря отпусков для подразделения
         /// </summary>
@@ -283,6 +292,34 @@ namespace VacationSystem.Controllers
                 TempData["Error"] = "Не удалось удалить отпуска";
 
             return Json(new { redirectToUrl = Url.Action("Department", "Calendar", new { id, year }) });
+        }
+
+        /// <summary>
+        /// Получить файл с календарем отпусков в формате Json
+        /// </summary>
+        /// <param name="depId">Идентификатор подразделения</param>
+        /// <param name="year">Год</param>
+        public PhysicalFileResult GetJsonCalendar(string depId, int year)
+        {
+            // получить подразделение
+            Department dep = Connector.GetDepartment(depId);
+
+            DateTime fileDate = DateTime.Now;
+
+            string filename = dep.Name.Replace("\"", "").Replace(" ", "_").Replace("\'", "");
+            filename += "_" + year.ToString();
+            filename += "_" + fileDate.Year + "_" + fileDate.Month + "_" + fileDate.Day + "_" + fileDate.Hour.ToString();
+            filename += "_" + fileDate.Minute.ToString() + "_" + fileDate.Second.ToString();
+            filename += ".json";
+
+            string webRootPath = _webHostEnvironment.WebRootPath;
+
+            string path = Path.Combine(webRootPath, "Files\\JSON\\" + filename);
+
+            // создать JSON-файл
+            FilesHelper.CreateJsonFile(dep, year, path);
+
+            return PhysicalFile(path, "text/plain", filename);
         }
     }
 }
