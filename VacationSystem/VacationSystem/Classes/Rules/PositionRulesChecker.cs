@@ -63,7 +63,7 @@ namespace VacationSystem.Classes.Rules
             if (CheckPositions(emps, rule))
                 return null;
             else
-                return new RuleWarning(rule);
+                return new RuleWarning(rule, emps);
         }
 
         /// <summary>

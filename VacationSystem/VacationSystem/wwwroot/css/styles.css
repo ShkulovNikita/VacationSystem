@@ -199,6 +199,10 @@ select {
     background-color: rgb(128, 191, 68);
 }
 
+.table-forbidden {
+    background-color: red;
+}
+
 .name-search {
     background-color: white;
     padding-top: 5px;
@@ -282,6 +286,8 @@ input[type="text"] {
     border-color: black;
     border-width: 1px;
     border-radius: 2px;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 
 .block-center {
@@ -354,4 +360,16 @@ select {
     padding: 10px;
     border: 1px solid lightgray;
     border-radius: 5px;
+}
+
+a.green-link {
+    color: rgb(128, 191, 68);
+}
+
+a.green-link:hover {
+    color: green;
+}
+
+a.green-link:visited {
+    color: rgb(128, 191, 68);
 }

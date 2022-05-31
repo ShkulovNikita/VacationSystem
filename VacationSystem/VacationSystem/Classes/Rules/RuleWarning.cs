@@ -26,12 +26,13 @@ namespace VacationSystem.Classes.Rules
                 RuleDescription = rule.Description;
         }
 
-        public RuleWarning (RuleForPosition rule)
+        public RuleWarning (RuleForPosition rule, List<Employee> employees)
         {
             RuleId = rule.Id;
             Type = "pos";
             Description = "На рабочем месте меньшее количество сотрудников должности, чем должно быть";
             Position = rule.Position;
+            Employees = employees;
             if (rule.Description == null)
                 RuleDescription = "";
             else

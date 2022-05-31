@@ -142,7 +142,10 @@
                 console.log(data);
 
                 if (data.warnings.length == 0)
+                {
+                    paintNormal();
                     showSuccessPopup();
+                }
                 else
                     showWarningsPopup(data);
             },
@@ -151,6 +154,55 @@
             }
         });
     });
+
+    /* При успешном прохождении проверки - убрать все выделения красным цветом */
+    function paintNormal() {
+        let redElems = $('.table-forbidden');
+        redElems.removeClass('table-forbidden');
+        redElems.addClass('table-warning');
+    }
+
+    /* Закрасить красным несогласованные отпуска */
+    function paintRed(warnings) {
+        let empIds = [];
+
+        // перебрать предупреждения
+        warnings.forEach(function(warning, i, warnings) {
+            // перебрать сотрудников в подразделениях
+            let emps = warning.employees;
+            emps.forEach(function(emp, j, emps) {
+                empIds.push(emp.id);
+            });
+        });
+
+        /* перебрать таблицу */
+
+        let tb = $('#vacation-calendar tbody');
+
+        // перебор строк
+        tb.find('tr').each(function(index, element) {
+            // проверка идентификатора строки, затронут ли
+            // данный сотрудник в нарушенном правиле
+            // если нет - идти дальше
+            let rowId = $(element).attr('id');
+            if (!empIds.includes(rowId))
+                return;
+
+            // перебор ячеек
+            $(element).find('td').each(function(index, element) {
+                // если данная ячейка принадлежит запланированному отпуску
+                // то перекрасить в красный
+                let tbDate = $(element);
+                if (tbDate.hasClass('table-warning'))
+                {
+                    tbDate.removeClass('table-warning');
+                    tbDate.addClass('table-forbidden');
+                }
+            });
+        });
+
+        console.log(empIds);
+    }
 
     /* Показать сообщение об успешном прохождении проверки правил */
     function showSuccessPopup() {
@@ -170,6 +222,8 @@
         popup.empty();
         popup.height(180);
         popup.css('overflow-y', 'scroll');
+
+        paintRed(data.warnings);
 
         // перебрать предупреждения
         data.warnings.forEach(function(item, i, data) {
@@ -222,7 +276,10 @@
             type: "POST",
             data: {
                 "id": "@Model.Department.Id",
-                "year": "@Model.Year"
+                "year": "@Model.Year",
+                "startDate": "@Model.StartDate",
+                "endDate": "@Model.EndDate",
+                "type": "@Model.Type"
             },
             url: '@Url.Action("SetVacation")',
             success: function (response) {

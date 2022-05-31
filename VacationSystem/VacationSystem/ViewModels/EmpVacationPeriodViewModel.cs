@@ -27,6 +27,11 @@ namespace VacationSystem.ViewModels
         public string Type { get; set; }
 
         /// <summary>
+        /// Есть ли нарушение в этом периоде отпуска
+        /// </summary>
+        public bool IsWarning { get; set; } = false;
+
+        /// <summary>
         /// Если нет отпуска, то тип может быть:
         /// b - будний день;
         /// h - праздничный;

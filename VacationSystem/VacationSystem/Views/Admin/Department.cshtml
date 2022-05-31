@@ -17,7 +17,7 @@
             @if (@Model.Head != null)
             {
                 <p>Руководитель:
-                    <a href="~/Admin/Employee/@Model.Head.Id">
+                    <a href="~/Admin/Employee/@Model.Head.Id" class="green-link">
                         @Model.Head.LastName @Model.Head.FirstName @Model.Head.MiddleName
                     </a>
                 </p>
@@ -25,7 +25,7 @@
             @if (@Model.HeadDepartment != null)
             {
                 <h5>Старшее подразделение: 
-                    <a href="~/Admin/Department/@Model.HeadDepartment.Id">
+                    <a href="~/Admin/Department/@Model.HeadDepartment.Id" class="green-link">
                         @Model.HeadDepartment.Name
                     </a>
                 </h5>

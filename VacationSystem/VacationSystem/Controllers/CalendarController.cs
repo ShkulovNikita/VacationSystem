@@ -92,7 +92,7 @@ namespace VacationSystem.Controllers
         /// <param name="id">Идентификатор подразделения</param>
         /// <param name="year">Год, на который назначаются отпуска</param>
         [HttpPost]
-        public JsonResult SetVacation(string id, int year)
+        public JsonResult SetVacation(string id, int year, DateTime? startDate, DateTime? endDate, string type)
         {
             // получить идентификатор текущего руководителя
             string headId = HttpContext.Session.GetString("id");
@@ -116,7 +116,7 @@ namespace VacationSystem.Controllers
             else
                 TempData["Error"] = "Не удалось утвердить отпуска";
 
-            return Json(new { redirectToUrl = Url.Action("Department", "Calendar", new { id, year }) });
+            return Json(new { redirectToUrl = Url.Action("Department", "Calendar", new { id, year, startDate, endDate, type }) });
         }
 
         /// <summary>
@@ -262,7 +262,7 @@ namespace VacationSystem.Controllers
             warnings.AddRange(PositionRulesChecker.CheckPositionRules(tempEmployees, headId, depId));
             warnings.AddRange(GroupRulesChecker.CheckGroupRules(tempEmployees, headId, depId));
 
-            var result = Json(new { warnings });
+            var result = Json( new { warnings });
 
             return result;
         }
