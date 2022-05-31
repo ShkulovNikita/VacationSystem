@@ -304,22 +304,58 @@ namespace VacationSystem.Controllers
             // получить подразделение
             Department dep = Connector.GetDepartment(depId);
 
-            DateTime fileDate = DateTime.Now;
-
-            string filename = dep.Name.Replace("\"", "").Replace(" ", "_").Replace("\'", "");
-            filename += "_" + year.ToString();
-            filename += "_" + fileDate.Year + "_" + fileDate.Month + "_" + fileDate.Day + "_" + fileDate.Hour.ToString();
-            filename += "_" + fileDate.Minute.ToString() + "_" + fileDate.Second.ToString();
-            filename += ".json";
+            string filename = GetFileName(dep.Name, year, ".json");
 
             string webRootPath = _webHostEnvironment.WebRootPath;
-
             string path = Path.Combine(webRootPath, "Files\\JSON\\" + filename);
 
             // создать JSON-файл
             FilesHelper.CreateJsonFile(dep, year, path);
 
             return PhysicalFile(path, "text/plain", filename);
+        }
+
+        private string GetFileName(string depName, int year, string format)
+        {
+            DateTime fileDate = DateTime.Now;
+
+            string filename = depName.Replace("\"", "").Replace(" ", "_").Replace("\'", "");
+            filename += "_" + year.ToString();
+            filename += "_" + fileDate.Year + "_" + fileDate.Month + "_" + fileDate.Day + "_" + fileDate.Hour.ToString();
+            filename += "_" + fileDate.Minute.ToString() + "_" + fileDate.Second.ToString();
+            filename += format;
+
+            return filename;
+        }
+
+        public PhysicalFileResult GetExcelCalendar(string depId, int year)
+        {
+            Department dep = Connector.GetDepartment(depId);
+
+            string filename = GetFileName(dep.Name, year, ".xls");
+
+            string webRootPath = _webHostEnvironment.WebRootPath;
+            string path = Path.Combine(webRootPath, "Files\\JSON\\" + filename);
+
+            // создать Excel-файл
+            FilesHelper.CreateExcelFile(dep, year, path);
+
+            return PhysicalFile(path, "application/octet-stream", filename);
+        }
+
+        public PhysicalFileResult GetWordCalendar(string depId, int year)
+        {
+            Department dep = Connector.GetDepartment(depId);
+
+            string filename = GetFileName(dep.Name, year, ".doc");
+
+            string webRootPath = _webHostEnvironment.WebRootPath;
+            string path = Path.Combine(webRootPath, "Files\\JSON\\" + filename);
+
+            // создать Excel-файл
+            FilesHelper.CreateExcelFile(dep, year, path);
+
+            return PhysicalFile(path, "doc", filename);
         }
     }
 }

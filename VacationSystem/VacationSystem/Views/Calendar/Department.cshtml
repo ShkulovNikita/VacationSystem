@@ -123,6 +123,8 @@
             <button type="button" id="call-popup" class="btn btn-primary separate-left-big">Проверить правила</button>
             <hr />
             <a asp-action="GetJsonCalendar" asp-controller="Calendar" asp-route-depId="@Model.Department.Id" asp-route-year="@Model.Year" class="btn btn-primary">JSON</a>
+            <a asp-action="GetExcelCalendar" asp-controller="Calendar" asp-route-depId="@Model.Department.Id" asp-route-year="@Model.Year" class="btn btn-primary">Excel</a>
+            <a asp-action="GetWordCalendar" asp-controller="Calendar" asp-route-depId="@Model.Department.Id" asp-route-year="@Model.Year" class="btn btn-primary">Word</a>
         </div>
     </div>
 </div>
